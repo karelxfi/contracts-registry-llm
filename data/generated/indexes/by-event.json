@@ -1,0 +1,106 @@
+{
+  "IncreasePosition": [
+    {
+      "protocol": "gmx",
+      "version": "v1",
+      "contract": "vault",
+      "signature": null
+    }
+  ],
+  "DecreasePosition": [
+    {
+      "protocol": "gmx",
+      "version": "v1",
+      "contract": "vault",
+      "signature": null
+    }
+  ],
+  "LiquidatePosition": [
+    {
+      "protocol": "gmx",
+      "version": "v1",
+      "contract": "vault",
+      "signature": null
+    }
+  ],
+  "ClosePosition": [
+    {
+      "protocol": "gmx",
+      "version": "v1",
+      "contract": "vault",
+      "signature": null
+    }
+  ],
+  "Supply": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": "Supply(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)"
+    }
+  ],
+  "Withdraw": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": "Withdraw(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)"
+    }
+  ],
+  "Borrow": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": "Borrow(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)"
+    }
+  ],
+  "Repay": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": "Repay(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)"
+    }
+  ],
+  "SupplyCollateral": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": null
+    }
+  ],
+  "WithdrawCollateral": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": null
+    }
+  ],
+  "Liquidate": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "morpho",
+      "signature": null
+    }
+  ],
+  "BorrowRateUpdate": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "adaptiveCurveIrm",
+      "signature": null
+    }
+  ],
+  "Multicall": [
+    {
+      "protocol": "morpho",
+      "version": "blue",
+      "contract": "bundler",
+      "signature": null
+    }
+  ]
+}

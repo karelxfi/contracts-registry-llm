@@ -1,0 +1,42 @@
+{
+  "name": "contracts-registry-llm",
+  "version": "1.0.0",
+  "description": "A comprehensive blockchain contract deployment registry optimized for LLM consumption",
+  "main": "helpers/query.js",
+  "type": "module",
+  "scripts": {
+    "build": "node helpers/build.js",
+    "validate": "node helpers/validate.js",
+    "fetch-blocks": "node helpers/fetch-deployment-blocks.js",
+    "scaffold": "node scripts/add-protocol.js",
+    "test": "node --test",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "contracts",
+    "registry",
+    "deployments",
+    "defi",
+    "web3",
+    "llm",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^3.0.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

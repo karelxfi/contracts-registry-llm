@@ -1,0 +1,260 @@
+{
+  "gmx": {
+    "v1": {
+      "id": "gmx-v1",
+      "name": "GMX V1",
+      "type": "perpetuals",
+      "website": "https://gmx.io",
+      "github": "https://github.com/gmx-io/gmx-contracts",
+      "docs": "https://docs.gmx.io",
+      "tags": [
+        "perpetuals",
+        "derivatives",
+        "leverage-trading",
+        "decentralized-exchange"
+      ],
+      "contracts": {
+        "vault": {
+          "name": "GMX Vault",
+          "type": "core",
+          "description": "Main vault contract handling position management, swaps, and liquidations",
+          "proxy": false,
+          "keyEvents": [
+            {
+              "name": "IncreasePosition",
+              "description": "Emitted when a leveraged position is opened or increased"
+            },
+            {
+              "name": "DecreasePosition",
+              "description": "Emitted when a leveraged position is closed or decreased"
+            },
+            {
+              "name": "LiquidatePosition",
+              "description": "Emitted when a position is liquidated"
+            },
+            {
+              "name": "ClosePosition",
+              "description": "Emitted when a position is fully closed"
+            }
+          ],
+          "useCases": [
+            "Track perpetual position opens/closes",
+            "Monitor liquidation events",
+            "Analyze leverage trading volume",
+            "Calculate position profitability"
+          ],
+          "github": "https://github.com/gmx-io/gmx-contracts"
+        }
+      },
+      "deployments": {
+        "arbitrum-one": {
+          "chain": "arbitrum-one",
+          "chainId": 42161,
+          "addresses": {
+            "vault": "0x489ee077994B6658eAfA855C308275EAd8097C4A"
+          },
+          "deploymentBlocks": {
+            "vault": 227091
+          },
+          "verified": {
+            "vault": true
+          },
+          "source": "github",
+          "sourceUrl": "https://github.com/gmx-io/gmx-synthetics/blob/updates/docs/arbitrum-deployments.md",
+          "updated": "2025-01-31"
+        }
+      }
+    }
+  },
+  "morpho": {
+    "blue": {
+      "id": "morpho-blue",
+      "name": "Morpho Blue",
+      "type": "lending",
+      "website": "https://morpho.org",
+      "github": "https://github.com/morpho-org/morpho-blue",
+      "docs": "https://docs.morpho.org",
+      "tags": [
+        "lending",
+        "peer-to-peer",
+        "permissionless",
+        "immutable"
+      ],
+      "contracts": {
+        "morpho": {
+          "name": "Morpho Market V1 (Morpho Blue)",
+          "type": "core",
+          "description": "Main lending protocol contract. Enables supply/withdraw, borrow/repay, collateral management, liquidations, and zero-fee flash loans.",
+          "proxy": false,
+          "keyEvents": [
+            {
+              "name": "Supply",
+              "signature": "Supply(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)",
+              "description": "Emitted when assets are supplied to a market"
+            },
+            {
+              "name": "Withdraw",
+              "signature": "Withdraw(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)",
+              "description": "Emitted when assets are withdrawn from a market"
+            },
+            {
+              "name": "Borrow",
+              "signature": "Borrow(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)",
+              "description": "Emitted when assets are borrowed from a market"
+            },
+            {
+              "name": "Repay",
+              "signature": "Repay(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)",
+              "description": "Emitted when borrowed assets are repaid"
+            },
+            {
+              "name": "SupplyCollateral",
+              "description": "Emitted when collateral is supplied"
+            },
+            {
+              "name": "WithdrawCollateral",
+              "description": "Emitted when collateral is withdrawn"
+            },
+            {
+              "name": "Liquidate",
+              "description": "Emitted when a position is liquidated"
+            }
+          ],
+          "keyFunctions": [
+            {
+              "name": "supply",
+              "mutability": "nonpayable"
+            },
+            {
+              "name": "withdraw",
+              "mutability": "nonpayable"
+            },
+            {
+              "name": "borrow",
+              "mutability": "nonpayable"
+            },
+            {
+              "name": "repay",
+              "mutability": "nonpayable"
+            }
+          ],
+          "useCases": [
+            "Track user deposits and withdrawals by market",
+            "Monitor borrow/repay activity with accrued interest",
+            "Index liquidation events with collateral seized",
+            "Analyze market creation and parameter choices",
+            "Track market-level utilization rates"
+          ],
+          "github": "https://github.com/morpho-org/morpho-blue"
+        },
+        "adaptiveCurveIrm": {
+          "name": "Adaptive Curve Interest Rate Model",
+          "type": "peripheral",
+          "description": "Morpho's flagship immutable IRM that autonomously adapts to market conditions",
+          "proxy": false,
+          "keyEvents": [
+            {
+              "name": "BorrowRateUpdate",
+              "description": "Emitted when borrow rate is updated"
+            }
+          ],
+          "keyFunctions": [
+            {
+              "name": "borrowRateView",
+              "mutability": "view"
+            },
+            {
+              "name": "borrowRate",
+              "mutability": "nonpayable"
+            }
+          ],
+          "useCases": [
+            "Track interest rate changes across markets over time",
+            "Monitor rateAtTarget shifts and adaptation speed",
+            "Build APY calculation interfaces"
+          ],
+          "github": "https://github.com/morpho-org/morpho-blue-irm"
+        },
+        "bundler": {
+          "name": "Bundler (Bundler3)",
+          "type": "helper",
+          "description": "Call dispatcher enabling atomic execution of multiple protocol interactions in a single transaction",
+          "proxy": false,
+          "keyEvents": [
+            {
+              "name": "Multicall",
+              "description": "Emitted when multiple calls are batched"
+            }
+          ],
+          "useCases": [
+            "Track bundled transaction patterns and sequences",
+            "Monitor adapter usage distribution",
+            "Measure gas savings vs unbundled transactions"
+          ],
+          "github": "https://github.com/morpho-org/bundler3"
+        }
+      },
+      "deployments": {
+        "ethereum": {
+          "chain": "ethereum",
+          "chainId": 1,
+          "addresses": {
+            "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+            "adaptiveCurveIrm": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+          },
+          "deploymentBlocks": {
+            "morpho": 18883845,
+            "adaptiveCurveIrm": 18883846,
+            "bundler": 18883847
+          },
+          "verified": {
+            "morpho": true,
+            "adaptiveCurveIrm": true,
+            "bundler": true
+          },
+          "source": "docs",
+          "sourceUrl": "https://docs.morpho.org/deployments",
+          "updated": "2025-01-31"
+        },
+        "base": {
+          "chain": "base",
+          "chainId": 8453,
+          "addresses": {
+            "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+            "adaptiveCurveIrm": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "bundler": "0x23055618898e202386e6c13955a58D3C68200BFB"
+          },
+          "deploymentBlocks": {
+            "morpho": 11380000
+          },
+          "verified": {
+            "morpho": true,
+            "adaptiveCurveIrm": true,
+            "bundler": true
+          },
+          "source": "docs",
+          "sourceUrl": "https://docs.morpho.org/deployments",
+          "updated": "2025-01-31"
+        },
+        "arbitrum-one": {
+          "chain": "arbitrum-one",
+          "chainId": 42161,
+          "addresses": {
+            "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+            "adaptiveCurveIrm": "0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA",
+            "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+          },
+          "verified": {
+            "morpho": true,
+            "adaptiveCurveIrm": true,
+            "bundler": true
+          },
+          "source": "docs",
+          "sourceUrl": "https://docs.morpho.org/deployments",
+          "updated": "2025-01-31"
+        }
+      }
+    }
+  }
+}

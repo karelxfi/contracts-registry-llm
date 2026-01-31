@@ -1,0 +1,27 @@
+{
+  "id": "arbitrum-one",
+  "name": "Arbitrum One",
+  "chainId": 42161,
+  "platform": "evm",
+  "portalDataset": "arbitrum-one",
+  "explorers": {
+    "primary": {
+      "name": "Arbiscan",
+      "url": "https://arbiscan.io",
+      "api": "https://api.arbiscan.io/api"
+    }
+  },
+  "rpc": {
+    "public": [
+      "https://arb1.arbitrum.io/rpc",
+      "https://arbitrum.llamarpc.com"
+    ]
+  },
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "aliases": ["arbitrum", "arbitrum-mainnet"],
+  "status": "active"
+}

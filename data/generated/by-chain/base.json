@@ -1,0 +1,54 @@
+{
+  "chain": "base",
+  "chainId": 8453,
+  "chainInfo": {
+    "id": "base",
+    "name": "Base",
+    "chainId": 8453,
+    "platform": "evm",
+    "portalDataset": "base-mainnet",
+    "explorers": {
+      "primary": {
+        "name": "BaseScan",
+        "url": "https://basescan.org",
+        "api": "https://api.basescan.org/api"
+      }
+    },
+    "rpc": {
+      "public": [
+        "https://mainnet.base.org",
+        "https://base.llamarpc.com"
+      ]
+    },
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aliases": [
+      "base-mainnet"
+    ],
+    "status": "active"
+  },
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "adaptiveCurveIrm": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+          "bundler": "0x23055618898e202386e6c13955a58D3C68200BFB"
+        },
+        "deploymentBlocks": {
+          "morpho": 11380000
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

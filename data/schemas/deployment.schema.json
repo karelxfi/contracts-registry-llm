@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://subsquid.io/schemas/deployment.schema.json",
+  "title": "Deployment Schema",
+  "description": "Schema for contract deployments on specific chains",
+  "type": "object",
+  "required": ["chain", "addresses"],
+  "properties": {
+    "chain": {
+      "type": "string",
+      "description": "Chain identifier (ethereum, base, arbitrum-one, etc.)"
+    },
+    "chainId": {
+      "type": "integer",
+      "description": "EVM chain ID (1 for Ethereum, 8453 for Base, etc.)"
+    },
+    "addresses": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9]+$": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "EVM contract address"
+        }
+      },
+      "minProperties": 1
+    },
+    "deploymentBlocks": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9]+$": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Block number when contract was deployed"
+        }
+      }
+    },
+    "verified": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9]+$": {
+          "type": "boolean",
+          "description": "Whether contract is verified on block explorer"
+        }
+      }
+    },
+    "implementations": {
+      "type": "object",
+      "description": "Implementation addresses for proxy contracts",
+      "patternProperties": {
+        "^[a-zA-Z0-9]+$": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        }
+      }
+    },
+    "source": {
+      "type": "string",
+      "enum": ["docs", "github", "etherscan", "on-chain", "manual"],
+      "description": "Source of deployment information"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to deployment source documentation"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (YYYY-MM-DD)"
+    },
+    "deprecated": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this deployment is deprecated"
+    }
+  }
+}

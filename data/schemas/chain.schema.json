@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://subsquid.io/schemas/chain.schema.json",
+  "title": "Chain Schema",
+  "description": "Schema for blockchain network metadata",
+  "type": "object",
+  "required": ["id", "name", "chainId", "platform", "portalDataset"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique chain identifier (lowercase, kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable chain name"
+    },
+    "chainId": {
+      "type": "integer",
+      "description": "Chain ID (EVM networks only)"
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["evm", "solana", "cosmos", "other"],
+      "description": "Blockchain platform type"
+    },
+    "portalDataset": {
+      "type": "string",
+      "description": "Subsquid Portal dataset name (e.g., ethereum-mainnet, arbitrum-one)"
+    },
+    "explorers": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "object",
+          "required": ["name", "url"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "api": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    },
+    "rpc": {
+      "type": "object",
+      "properties": {
+        "public": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "nativeCurrency": {
+      "type": "object",
+      "required": ["name", "symbol", "decimals"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "symbol": {
+          "type": "string"
+        },
+        "decimals": {
+          "type": "integer"
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names for this chain"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "deprecated", "testnet"],
+      "default": "active"
+    }
+  }
+}

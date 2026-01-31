@@ -1,0 +1,58 @@
+{
+  "chain": "ethereum",
+  "chainId": 1,
+  "chainInfo": {
+    "id": "ethereum",
+    "name": "Ethereum Mainnet",
+    "chainId": 1,
+    "platform": "evm",
+    "portalDataset": "ethereum-mainnet",
+    "explorers": {
+      "primary": {
+        "name": "Etherscan",
+        "url": "https://etherscan.io",
+        "api": "https://api.etherscan.io/api"
+      }
+    },
+    "rpc": {
+      "public": [
+        "https://eth.llamarpc.com",
+        "https://rpc.ankr.com/eth"
+      ]
+    },
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "aliases": [
+      "eth",
+      "ethereum-mainnet",
+      "mainnet"
+    ],
+    "status": "active"
+  },
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "adaptiveCurveIrm": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+          "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+        },
+        "deploymentBlocks": {
+          "morpho": 18883845,
+          "adaptiveCurveIrm": 18883846,
+          "bundler": 18883847
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}
