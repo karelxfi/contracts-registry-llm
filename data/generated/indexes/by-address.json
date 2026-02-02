@@ -1235,6 +1235,738 @@
     "contract": "main",
     "chain": "megaeth"
   },
+  "ethereum:0xd533a949740bb3306d119cc777fa900ba034cd52": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "ethereum"
+  },
+  "ethereum:0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "vecrv",
+    "chain": "ethereum"
+  },
+  "ethereum:0xf939e0a03fb07f59a73314e73794be0e57ac1b4e": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "ethereum"
+  },
+  "ethereum:0x0655977feb2f289a4ab78af67bab0d17aab84367": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "ethereum"
+  },
+  "ethereum:0x6a8cbed756804b16e05e741edabd5cb544ae21bf": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0x0c0e5f2ff0ff18a3be9b835635039256dc4b4963": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "ethereum"
+  },
+  "ethereum:0xf98b45fa17de75fb1ad0e7afd971b0ca00e379fc": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "ethereum"
+  },
+  "ethereum:0xa834f3d23749233c9b61ba723588570a1cca0ed7": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "ethereum"
+  },
+  "ethereum:0x2f50d538606fa9edd2b11e2446beb18c9d5846bb": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "gauge_controller",
+    "chain": "ethereum"
+  },
+  "ethereum:0xd061d61a4d941c39e5453435b6345dc261c2fce0": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "minter",
+    "chain": "ethereum"
+  },
+  "ethereum:0xc9332fdcb1c491dcc683bae86fe3cb70360738bc": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvusd_controller_factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0x18672b1b0c623a30089a280ed9256379fb0e4e62": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvusd_price_aggregator",
+    "chain": "ethereum"
+  },
+  "ethereum:0xea6876dde9e3467564acbee1ed5bac88783205e0": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "llamalend_factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0xa2bcd1a4efbd04b63cd03f5aff2561106ebcce00": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "fee_collector",
+    "chain": "ethereum"
+  },
+  "ethereum:0x467947ee34af926cf1dcac093870f613c96b1e0c": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "emergency_dao",
+    "chain": "ethereum"
+  },
+  "arbitrum:0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x9af14d26075f142eb3f292d5065eb3faa646167b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xbc0797015fcfc47d9c1856639cae50d0e69fbee8": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x13526206545e2dc7ccfbaf28dc88f440ce7ad3e0": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xcbc1be39ba277525e774976c61660f29fa75c5a4": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "arbitrum"
+  },
+  "optimism:0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "optimism"
+  },
+  "optimism:0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "optimism"
+  },
+  "optimism:0x289f635106d5b822a505b39ac237a0ae9189335b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "optimism"
+  },
+  "optimism:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "optimism"
+  },
+  "optimism:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "optimism"
+  },
+  "optimism:0xc6c09471ee39c7e30a067952fcc89c8922f9ab53": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "optimism"
+  },
+  "optimism:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "optimism"
+  },
+  "optimism:0xc65cb3156225380beda366610bab18d5835a1647": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "optimism"
+  },
+  "optimism:0x3f4a2bffa78d50cd61401a440526378e2155a8ae": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "optimism"
+  },
+  "base:0x8ee73c484a26e0a5df2ee2a4960b789967dd0415": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "base"
+  },
+  "base:0x417ac0e078398c154edfadd9ef675d30be60af93": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "base"
+  },
+  "base:0x646a737b9b6024e49f5908762b3ff73e65b5160c": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "base"
+  },
+  "base:0xd2002373543ce3527023c75e7518c274a51ce712": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "base"
+  },
+  "base:0xc9fe0c63af9a39402e8a5514f9c43af0322b665f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "base"
+  },
+  "base:0xa5961898870943c68037f6848d2d866ed2016bcb": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "base"
+  },
+  "base:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "base"
+  },
+  "base:0x87dd13dd25a1dbde0e1edcf5b8fa6cfff7eabcad": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "base"
+  },
+  "base:0x33e72383472f77b0c6d8f791d1613c75ae2c5915": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "base"
+  },
+  "polygon:0x172370d5cd63279efa6d502dab29171933a610af": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "polygon"
+  },
+  "polygon:0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "polygon"
+  },
+  "polygon:0x1764ee18e8b3cca4787249ceb249356192594585": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "polygon"
+  },
+  "polygon:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "polygon"
+  },
+  "polygon:0xc1b393efef38140662b91441c6710aa704973228": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "polygon"
+  },
+  "polygon:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "polygon"
+  },
+  "polygon:0x296d2b5c23833a70d07c8fcbb97d846c1ff90ddd": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "polygon"
+  },
+  "polygon:0xe0b15824862f3222fdfed99febd0f7e0ec26e1fa": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "polygon"
+  },
+  "avalanche:0xeebc562d445f4bc13ac75c8caabb438dfae42a1b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "avalanche"
+  },
+  "avalanche:0xcb7c161602d04c4e8af1832046ee08aaf96d855d": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "avalanche"
+  },
+  "avalanche:0xa3ea433509f7941df3e33857d9c9f212ad4a4e64": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "avalanche"
+  },
+  "avalanche:0x1764ee18e8b3cca4787249ceb249356192594585": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "avalanche"
+  },
+  "avalanche:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "avalanche"
+  },
+  "avalanche:0x3d6cb2f6dcf47cdd9c13e4e3beae9af041d8796a": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "avalanche"
+  },
+  "avalanche:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "avalanche"
+  },
+  "avalanche:0x6a8cbed756804b16e05e741edabd5cb544ae21bf": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "avalanche"
+  },
+  "avalanche:0x3261ca38b2129140c4199c63f7e09830b123cafc": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "avalanche"
+  },
+  "bsc:0x9996d0276612d23b35f90c51ee935520b3d7355b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "bsc"
+  },
+  "bsc:0xe2fb3f127f5450dee44afe054385d74c392bdef4": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "bsc"
+  },
+  "bsc:0x0094ad026643994c8fb2136ec912d508b15fe0e5": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "bsc"
+  },
+  "bsc:0xd7e72f3615aa65b92a4dbdc211e296a35512988b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "bsc"
+  },
+  "bsc:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "bsc"
+  },
+  "bsc:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "bsc"
+  },
+  "bsc:0x4c7a5a5d57f98d362f1c00d7135f0da5b6f82227": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "bsc"
+  },
+  "bsc:0xfb37b8d939ffa77114005e61cfc2e543d6f49a81": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "bsc"
+  },
+  "fantom:0xe6c259bc0fce25b71fe95a00361d3878e16232c3": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "fantom"
+  },
+  "fantom:0x5191946500e75f0a74476f146df7d386e52961d9": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "fantom"
+  },
+  "fantom:0xe61fb97ef6ebfba12b36ffd7be785c1f5a2de66b": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "fantom"
+  },
+  "fantom:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "fantom"
+  },
+  "fantom:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "fantom"
+  },
+  "gnosis:0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "gnosis"
+  },
+  "gnosis:0xabef652195f98a91e490f047a5006b71c85f058d": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "gnosis"
+  },
+  "gnosis:0xbc0797015fcfc47d9c1856639cae50d0e69fbee8": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "gnosis"
+  },
+  "gnosis:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "gnosis"
+  },
+  "gnosis:0xb47988ad49dce8d909c6f9cf7b26caf04e1445c8": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "gnosis"
+  },
+  "gnosis:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "gnosis"
+  },
+  "gnosis:0xb6265659d7e9feccb59e076e949da556fc5e1429": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "gnosis"
+  },
+  "gnosis:0x149ff1decfe441cd685306965db5ac73f6808851": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "gnosis"
+  },
+  "celo:0x173fd7434b8b50df08e3298f173487ebdb35fd14": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "celo"
+  },
+  "celo:0x1764ee18e8b3cca4787249ceb249356192594585": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "celo"
+  },
+  "celo:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "celo"
+  },
+  "celo:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "celo"
+  },
+  "celo:0x19bd1ab34d6abb584b9c1d5519093bfaa7f6c7d2": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "celo"
+  },
+  "celo:0x64afa95e0c3d8410240a4262df9fd82b12b64edd": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "celo"
+  },
+  "fraxtal:0x331b9182088e2a7d6d3fe4742aba1fb231aecc56": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0xab94c721040b33aa8b0b4d159da9878e2a836ed0": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0xd2002373543ce3527023c75e7518c274a51ce712": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0xc9fe0c63af9a39402e8a5514f9c43af0322b665f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0xd125e7a0ceddf89c6473412d85835450897be6dc": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "fraxtal"
+  },
+  "fraxtal:0x07920e98a66e462c2aa4c8fa6200bc68ca161ea0": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "fraxtal"
+  },
+  "kava:0x7736c61f00c72e868aa9904c9063e8445a1ef5dd": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "kava"
+  },
+  "kava:0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "kava"
+  },
+  "kava:0x1764ee18e8b3cca4787249ceb249356192594585": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "kava"
+  },
+  "kava:0xd3b17f862956464ae4403ccf829ce69199856e1e": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "kava"
+  },
+  "kava:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "kava"
+  },
+  "mantle:0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "mantle"
+  },
+  "mantle:0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "mantle"
+  },
+  "mantle:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "mantle"
+  },
+  "mantle:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "mantle"
+  },
+  "mantle:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "mantle"
+  },
+  "mantle:0x0c59d36b23f809f8b6c7cb4c8c590a0ac103baef": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "mantle"
+  },
+  "mantle:0x3f445d38e820c010a7a6e33c5f80cbebe6930f61": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "mantle"
+  },
+  "x-layer:0x3d5320821bfca19fb0b5428f2c79d63bd5246f89": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crv",
+    "chain": "x-layer"
+  },
+  "x-layer:0xda8f4eb4503acf5dec5420523637bb5b33a846f6": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "crvUSD",
+    "chain": "x-layer"
+  },
+  "x-layer:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "x-layer"
+  },
+  "x-layer:0x0c59d36b23f809f8b6c7cb4c8c590a0ac103baef": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "x-layer"
+  },
+  "x-layer:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "x-layer"
+  },
+  "x-layer:0x87dd13dd25a1dbde0e1edcf5b8fa6cfff7eabcad": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "x-layer"
+  },
+  "x-layer:0xb6845b562f01eb02ef20cbb63553d2a768e5a1cb": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "x-layer"
+  },
+  "xdc:0x3d8eadb739d1ef95dd53d718e4810721837c69c1": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "scrvUSD",
+    "chain": "xdc"
+  },
+  "xdc:0x5aea9aadd0974e8914229a23699bb6b343c97b09": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "stableswap_factory",
+    "chain": "xdc"
+  },
+  "xdc:0xa17b39bf1c2fe776af38a999be7bb7bea737a6ec": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "twocrypto_factory",
+    "chain": "xdc"
+  },
+  "xdc:0x729c764ae95e7a9dea9f950b5aedbf1a9f3d7c03": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "tricrypto_factory",
+    "chain": "xdc"
+  },
+  "xdc:0x907ce289e9ee0bbcb0f69132b1c28a9affc29fca": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "address_provider",
+    "chain": "xdc"
+  },
+  "xdc:0xb4c6a1e8a14e9fe74c88b06275b747145dd41206": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "meta_registry",
+    "chain": "xdc"
+  },
+  "xdc:0xbb56f907e8f455f9f71ed6a394b60ff666a60639": {
+    "protocol": "curve",
+    "version": "curve",
+    "contract": "rate_provider",
+    "chain": "xdc"
+  },
   "etherlink:": {
     "protocol": "uranium.io",
     "version": "uranium.io",

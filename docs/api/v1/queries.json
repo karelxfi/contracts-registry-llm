@@ -132,6 +132,32 @@
           "status": "complete",
           "contractCount": 17,
           "lastUpdated": "2025-02-02"
+        },
+        {
+          "id": "curve",
+          "name": "Curve Finance",
+          "type": "dexs",
+          "chains": [
+            "ethereum",
+            "arbitrum",
+            "optimism",
+            "base",
+            "polygon",
+            "avalanche",
+            "bsc",
+            "fantom",
+            "gnosis",
+            "celo",
+            "fraxtal",
+            "kava",
+            "mantle",
+            "x-layer",
+            "xdc"
+          ],
+          "chainCount": 15,
+          "status": "complete",
+          "contractCount": 17,
+          "lastUpdated": "2025-02-02"
         }
       ],
       "partial": [],
@@ -722,6 +748,28 @@
           "world-chain"
         ],
         "chainCount": 14
+      },
+      {
+        "id": "curve",
+        "name": "Curve Finance",
+        "chains": [
+          "ethereum",
+          "arbitrum",
+          "optimism",
+          "base",
+          "polygon",
+          "avalanche",
+          "bsc",
+          "fantom",
+          "gnosis",
+          "celo",
+          "fraxtal",
+          "kava",
+          "mantle",
+          "x-layer",
+          "xdc"
+        ],
+        "chainCount": 15
       }
     ],
     "top-chains-by-protocol-count": [
@@ -809,7 +857,7 @@
     "top-categories-by-protocol-count": [
       {
         "category": "dexs",
-        "protocolCount": 1025
+        "protocolCount": 1026
       },
       {
         "category": "yield",

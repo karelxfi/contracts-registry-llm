@@ -34,6 +34,21 @@
           "collector": true
         }
       }
+    },
+    "curve": {
+      "curve": {
+        "name": "Curve Finance",
+        "type": "dexs",
+        "addresses": {
+          "crv": "0xE6c259bc0FCE25b71fE95A00361D3878E16232C3",
+          "scrvUSD": "0x5191946500e75f0A74476F146dF7d386e52961d9",
+          "stableswap_factory": "0xe61Fb97Ef6eBFBa12B36Ffd7be785c1F5A2DE66b",
+          "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+          "address_provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98"
+        },
+        "deploymentBlocks": {},
+        "verified": true
+      }
     }
   }
 }

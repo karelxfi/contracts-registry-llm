@@ -2,7 +2,7 @@
 
 **Goal:** Populate contract addresses for the top 50 DeFi protocols by TVL and importance.
 
-**Progress:** 7/50 (14%)
+**Progress:** 8/50 (16%)
 
 ---
 
@@ -15,12 +15,12 @@
 5. [x] **Jupiter** - DEX Aggregator - 1 chain (Solana)
 6. [x] **Lido** - Liquid Staking - 10 chains
 7. [x] **Uniswap V3** - DEX - 14 chains
+8. [x] **Curve Finance** - DEX - 15 chains
 
 ---
 
 ## Tier 1: Multi-Billion TVL (Priority)
 
-8. [ ] **Curve** - DEX - Ethereum, Polygon, Arbitrum, Optimism, Avalanche, Fantom
 9. [ ] **MakerDAO** - CDP - Ethereum
 10. [ ] **EigenLayer** - Restaking - Ethereum
 11. [ ] **Rocket Pool** - Liquid Staking - Ethereum

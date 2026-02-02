@@ -83,6 +83,23 @@
         }
       }
     },
+    "curve": {
+      "curve": {
+        "name": "Curve Finance",
+        "type": "dexs",
+        "addresses": {
+          "scrvUSD": "0x3d8EADb739D1Ef95dd53D718e4810721837c69c1",
+          "stableswap_factory": "0x5aEa9aaDd0974e8914229a23699bB6b343c97B09",
+          "twocrypto_factory": "0xa17b39BF1c2FE776Af38a999bE7Bb7bEa737a6EC",
+          "tricrypto_factory": "0x729c764aE95e7a9DEA9F950B5AEdbF1A9F3D7c03",
+          "address_provider": "0x907CE289E9Ee0BBcb0F69132B1C28A9Affc29FCA",
+          "meta_registry": "0xB4c6A1e8A14e9Fe74c88b06275b747145DD41206",
+          "rate_provider": "0xBB56F907e8F455f9f71ed6a394B60ff666a60639"
+        },
+        "deploymentBlocks": {},
+        "verified": true
+      }
+    },
     "curve-dex": {
       "curve-dex": {
         "name": "Curve DEX",

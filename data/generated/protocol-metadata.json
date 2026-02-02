@@ -25476,6 +25476,256 @@
       }
     }
   },
+  "curve": {
+    "curve-defi-registry": {
+      "website": "https://curve.fi",
+      "github": "https://github.com/curvefi"
+    },
+    "curve-deployment-data": {},
+    "curve-quick-reference": {},
+    "curve-registry-organized": {},
+    "curve": {
+      "id": "curve",
+      "name": "Curve Finance",
+      "type": "dexs",
+      "website": "https://curve.fi",
+      "github": "https://github.com/curvefi",
+      "docs": "https://docs.curve.fi",
+      "contracts": {
+        "crv": {
+          "name": "CRV Token",
+          "type": "core",
+          "description": "Curve DAO governance token",
+          "proxy": false,
+          "keyFunctions": [
+            "transfer",
+            "approve",
+            "mint"
+          ],
+          "useCases": [
+            "governance",
+            "liquidity-mining"
+          ]
+        },
+        "vecrv": {
+          "name": "Vote-Escrowed CRV",
+          "type": "governance",
+          "description": "Vote-locked CRV for governance and boosting rewards",
+          "proxy": false,
+          "keyFunctions": [
+            "create_lock",
+            "increase_amount",
+            "increase_unlock_time"
+          ],
+          "useCases": [
+            "governance",
+            "boost-rewards"
+          ]
+        },
+        "crvUSD": {
+          "name": "crvUSD Stablecoin",
+          "type": "core",
+          "description": "Curve's native over-collateralized stablecoin",
+          "proxy": false,
+          "keyFunctions": [
+            "transfer",
+            "approve"
+          ],
+          "useCases": [
+            "stablecoin",
+            "defi-collateral"
+          ]
+        },
+        "scrvUSD": {
+          "name": "Savings crvUSD",
+          "type": "core",
+          "description": "Yield-bearing wrapped version of crvUSD",
+          "proxy": false,
+          "keyFunctions": [
+            "deposit",
+            "withdraw",
+            "redeem"
+          ],
+          "useCases": [
+            "yield",
+            "savings"
+          ]
+        },
+        "stableswap_factory": {
+          "name": "Stableswap Factory",
+          "type": "core",
+          "description": "Factory for deploying stablecoin-optimized AMM pools",
+          "proxy": false,
+          "keyFunctions": [
+            "deploy_pool",
+            "deploy_metapool"
+          ],
+          "useCases": [
+            "pool-creation",
+            "stable-trading"
+          ]
+        },
+        "twocrypto_factory": {
+          "name": "Twocrypto Factory",
+          "type": "core",
+          "description": "Factory for deploying two-token volatile asset pools",
+          "proxy": false,
+          "keyFunctions": [
+            "deploy_pool"
+          ],
+          "useCases": [
+            "pool-creation",
+            "volatile-trading"
+          ]
+        },
+        "tricrypto_factory": {
+          "name": "Tricrypto Factory",
+          "type": "core",
+          "description": "Factory for deploying three-token volatile asset pools",
+          "proxy": false,
+          "keyFunctions": [
+            "deploy_pool"
+          ],
+          "useCases": [
+            "pool-creation",
+            "multi-asset-trading"
+          ]
+        },
+        "address_provider": {
+          "name": "Address Provider",
+          "type": "utility",
+          "description": "Central registry for discovering protocol contract addresses",
+          "proxy": false,
+          "keyFunctions": [
+            "get_address",
+            "get_registry"
+          ],
+          "useCases": [
+            "integration",
+            "address-discovery"
+          ]
+        },
+        "meta_registry": {
+          "name": "Meta Registry",
+          "type": "utility",
+          "description": "Unified registry for querying all pools and their metadata",
+          "proxy": false,
+          "keyFunctions": [
+            "find_pool_for_coins",
+            "get_pool_coins",
+            "get_pool_info"
+          ],
+          "useCases": [
+            "pool-discovery",
+            "integration"
+          ]
+        },
+        "rate_provider": {
+          "name": "Rate Provider",
+          "type": "utility",
+          "description": "Provides exchange rates for protocol integrations",
+          "proxy": false,
+          "keyFunctions": [
+            "get_rate"
+          ],
+          "useCases": [
+            "price-feeds",
+            "integration"
+          ]
+        },
+        "gauge_controller": {
+          "name": "Gauge Controller",
+          "type": "governance",
+          "description": "Controls CRV emissions distribution to liquidity gauges",
+          "proxy": false,
+          "keyFunctions": [
+            "vote_for_gauge_weights",
+            "add_gauge"
+          ],
+          "useCases": [
+            "emissions-control",
+            "governance"
+          ]
+        },
+        "minter": {
+          "name": "Minter",
+          "type": "core",
+          "description": "Mints CRV rewards for liquidity providers",
+          "proxy": false,
+          "keyFunctions": [
+            "mint",
+            "mint_many"
+          ],
+          "useCases": [
+            "rewards-distribution"
+          ]
+        },
+        "crvusd_controller_factory": {
+          "name": "crvUSD Controller Factory",
+          "type": "core",
+          "description": "Factory for deploying crvUSD lending markets with soft liquidation",
+          "proxy": false,
+          "keyFunctions": [
+            "create_market"
+          ],
+          "useCases": [
+            "crvusd-markets",
+            "lending"
+          ]
+        },
+        "crvusd_price_aggregator": {
+          "name": "crvUSD Price Aggregator",
+          "type": "utility",
+          "description": "Oracle aggregator for crvUSD price feeds",
+          "proxy": false,
+          "keyFunctions": [
+            "price",
+            "price_w"
+          ],
+          "useCases": [
+            "oracle",
+            "price-feeds"
+          ]
+        },
+        "llamalend_factory": {
+          "name": "LlamaLend Factory",
+          "type": "core",
+          "description": "Factory for deploying one-way lending markets",
+          "proxy": false,
+          "keyFunctions": [
+            "create"
+          ],
+          "useCases": [
+            "lending-markets"
+          ]
+        },
+        "fee_collector": {
+          "name": "Fee Collector",
+          "type": "utility",
+          "description": "Collects and distributes protocol fees",
+          "proxy": false,
+          "keyFunctions": [
+            "burn",
+            "distribute"
+          ],
+          "useCases": [
+            "fee-collection",
+            "revenue"
+          ]
+        },
+        "emergency_dao": {
+          "name": "Emergency DAO",
+          "type": "governance",
+          "description": "Emergency governance for protocol security",
+          "proxy": false,
+          "useCases": [
+            "emergency-actions",
+            "security"
+          ]
+        }
+      }
+    }
+  },
   "curve-dex": {
     "curve-dex": {
       "id": "curve-dex",

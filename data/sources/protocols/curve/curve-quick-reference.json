@@ -1,0 +1,376 @@
+{
+  "protocol": "Curve Finance",
+  "key_contracts": {
+    "arbitrum": {
+      "network": "Arbitrum One",
+      "chain_id": 42161,
+      "contracts": {
+        "crv": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+        "crvUSD": "0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5",
+        "stableswap_factory": "0x9AF14D26075f142eb3F292D5065EB3faa646167b",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0xbC0797015fcFc47d9C1856639CaE50D0e69FbEE8",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x13526206545e2DC7CcfBaF28dC88F440ce7AD3e0",
+        "rate-provider": "0xcbc1BE39ba277525E774976c61660f29fA75C5a4"
+      }
+    },
+    "aurora": {
+      "network": "Aurora",
+      "chain_id": 1313161554,
+      "contracts": {
+        "stableswap_factory": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0xFf02cBD91F57A778Bab7218DA562594a680B8B61",
+        "rate-provider": "0x21688e843a99B0a47E750e7dDD2b5dAFd9269d30"
+      }
+    },
+    "avalanche": {
+      "network": "Avalanche C-Chain",
+      "chain_id": 43114,
+      "contracts": {
+        "crv": "0xEEbC562d445F4bC13aC75c8caABb438DFae42A1B",
+        "crvUSD": "0xCb7c161602d04C4e8aF1832046EE08AAF96d855D",
+        "scrvUSD": "0xA3ea433509F7941df3e33857D9c9f212Ad4A4e64",
+        "stableswap_factory": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0x3d6cB2F6DcF47CDd9C13E4e3beAe9af041d8796a",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x6A8cbed756804B16E05E741eDaBd5cB544AE21bf",
+        "rate-provider": "0x3261cA38b2129140c4199C63f7E09830B123CaFc"
+      }
+    },
+    "base": {
+      "network": "Base",
+      "chain_id": 8453,
+      "contracts": {
+        "crv": "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415",
+        "crvUSD": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "scrvUSD": "0x646a737b9b6024e49f5908762b3ff73e65b5160c",
+        "stableswap_factory": "0xd2002373543Ce3527023C75e7518C274A51ce712",
+        "twocrypto_factory": "0xc9Fe0C63Af9A39402e8a5514f9c43Af0322b665F",
+        "tricrypto_factory": "0xA5961898870943c68037F6848d2D866Ed2016bcB",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x87DD13Dd25a1DBde0E1EdcF5B8Fa6cfff7eABCaD",
+        "rate-provider": "0x33e72383472f77B0C6d8F791D1613C75aE2C5915"
+      }
+    },
+    "bsc": {
+      "network": "BNB Smart Chain",
+      "chain_id": 56,
+      "contracts": {
+        "crv": "0x9996D0276612d23b35f90C51EE935520B3d7355B",
+        "crvUSD": "0xe2fb3F127f5450DeE44afe054385d74C392BdeF4",
+        "scrvUSD": "0x0094Ad026643994c8fB2136ec912D508B15fe0E5",
+        "stableswap_factory": "0xd7E72f3615aa65b92A4DBdC211E296a35512988B",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x4C7A5A5D57F98D362f1c00D7135F0dA5B6f82227",
+        "rate-provider": "0xfb37b8D939FFa77114005e61CFc2e543d6F49A81"
+      }
+    },
+    "celo": {
+      "network": "Celo",
+      "chain_id": 42220,
+      "contracts": {
+        "crv": "0x173fd7434B8B50dF08e3298f173487ebDB35FD14",
+        "stableswap_factory": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x19bd1AB34d6ABB584b9C1D5519093bfAA7f6c7d2",
+        "rate-provider": "0x64AFA95e0C3D8410240a4262df9Fd82B12b64eDd"
+      }
+    },
+    "corn": {
+      "network": "Corn",
+      "chain_id": null,
+      "contracts": {
+        "crv": "0x1b3757d5EE281Eaf6a9c8E5D9b8488b4475Aa955",
+        "crvUSD": "0xEAEdD2B1b3F0fEC6388A4d6b2fE500B59Fd9f755",
+        "stableswap_factory": "0xd7E72f3615aa65b92A4DBdC211E296a35512988B",
+        "twocrypto_factory": "0x5Ea9DD3b6f042A34Df818C6c1324BC5A7c61427a",
+        "tricrypto_factory": "0x7Ca46A636b02D4aBC66883D7FF164bDE506DC66a",
+        "address-provider": "0xd2002373543Ce3527023C75e7518C274A51ce712",
+        "meta-registry": "0x686bdb3D24Bc6F3ED89ed3d3B659765c54aC78B4",
+        "rate-provider": "0xC1b393EfEF38140662b91441C6710Aa704973228"
+      }
+    },
+    "ethereum": {
+      "network": "Ethereum",
+      "chain_id": 1,
+      "contracts": {
+        "crv": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "vecrv": "0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2",
+        "crvUSD": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+        "scrvUSD": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+        "stableswap_factory": "0x6A8cbed756804B16E05E741eDaBd5cB544AE21bf",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0x0c0e5f2ff0ff18a3be9b835635039256dc4b4963",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0xF98B45FA17DE75FB1aD0e7aFD971b0ca00e379fC",
+        "rate-provider": "0xA834f3d23749233c9B61ba723588570A1cCA0Ed7",
+        "crv-circulating-supply": "0x14139EB676342b6bC8E41E0d419969f23A49881e"
+      }
+    },
+    "etherlink": {
+      "network": "Etherlink",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x8271e06E5887FE5ba05234f5315c19f3Ec90E8aD",
+        "twocrypto_factory": "0xe7FBd704B938cB8fe26313C3464D4b7B7348c88C",
+        "tricrypto_factory": "0x6E28493348446503db04A49621d8e6C9A40015FB",
+        "address-provider": "0x4574921eb950d3Fd5B01562162EC566Cb8bc3648",
+        "meta-registry": "0xe6dA14500f0b5783E2325F9C5a7eE5d99DA0fB42",
+        "rate-provider": "0x129578f94C253b8Bc903Bf2b73D07BF2583cc11d"
+      }
+    },
+    "fantom": {
+      "network": "Fantom",
+      "chain_id": 250,
+      "contracts": {
+        "crv": "0xE6c259bc0FCE25b71fE95A00361D3878E16232C3",
+        "scrvUSD": "0x5191946500e75f0A74476F146dF7d386e52961d9",
+        "stableswap_factory": "0xe61Fb97Ef6eBFBa12B36Ffd7be785c1F5A2DE66b",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98"
+      }
+    },
+    "fraxtal": {
+      "network": "Fraxtal",
+      "chain_id": 252,
+      "contracts": {
+        "crv": "0x331b9182088e2a7d6d3fe4742aba1fb231aecc56",
+        "crvUSD": "0xB102f7Efa0d5dE071A8D37B3548e1C7CB148Caf3",
+        "scrvUSD": "0xaB94C721040b33aA8b0b4D159Da9878e2a836Ed0",
+        "stableswap_factory": "0xd2002373543Ce3527023C75e7518C274A51ce712",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0xc9Fe0C63Af9A39402e8a5514f9c43Af0322b665F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0xd125E7a0cEddF89c6473412d85835450897be6Dc",
+        "rate-provider": "0x07920E98a66e462C2Aa4c8fa6200bc68CA161ea0"
+      }
+    },
+    "gnosis": {
+      "network": "Gnosis Chain",
+      "chain_id": 100,
+      "contracts": {
+        "crv": "0x712b3d230F3C1c19db860d80619288b1F0BDd0Bd",
+        "crvUSD": "0xaBEf652195F98A91E490f047A5006B71c85f058d",
+        "stableswap_factory": "0xbC0797015fcFc47d9C1856639CaE50D0e69FbEE8",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0xb47988ad49dce8d909c6f9cf7b26caf04e1445c8",
+        "address-provider": "0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98",
+        "meta-registry": "0xb6265659d7e9FEccB59e076e949Da556FC5E1429",
+        "rate-provider": "0x149ff1DECfe441cD685306965DB5Ac73f6808851"
+      }
+    },
+    "hyperliquid": {
+      "network": "Hyperliquid",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x604388Bb1159AFd21eB5191cE22b4DeCdEE2Ae22",
+        "twocrypto_factory": "0xc9Fe0C63Af9A39402e8a5514f9c43Af0322b665F",
+        "tricrypto_factory": "0x5702BDB1Ec244704E3cBBaAE11a0275aE5b07499",
+        "address-provider": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "meta-registry": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "rate-provider": "0x0c59d36b23f809f8b6C7cb4c8C590a0AC103baEf"
+      }
+    },
+    "ink": {
+      "network": "Ink",
+      "chain_id": null,
+      "contracts": {
+        "crv": "0xAC73671a1762FE835208Fb93b7aE7490d1c2cCb3",
+        "crvUSD": "0x39fec550CC6DDCEd810eCCfA9B2931b4B5f2344D",
+        "stableswap_factory": "0x046207cB759F527b6c10C2D61DBaca45513685CC",
+        "twocrypto_factory": "0xd125E7a0cEddF89c6473412d85835450897be6Dc",
+        "tricrypto_factory": "0x5Ea9DD3b6f042A34Df818C6c1324BC5A7c61427a",
+        "address-provider": "0x604388Bb1159AFd21eB5191cE22b4DeCdEE2Ae22",
+        "meta-registry": "0x06452f9c013fc37169B57Eab8F50A7A48c9198A3",
+        "rate-provider": "0x19bd1AB34d6ABB584b9C1D5519093bfAA7f6c7d2"
+      }
+    },
+    "kava": {
+      "network": "Kava",
+      "chain_id": 2222,
+      "contracts": {
+        "crv": "0x7736C61F00c72e868AA9904c9063e8445A1eF5DD",
+        "crvUSD": "0x98B4029CaBEf7Fd525A36B0BF8555EC1d42ec0B6",
+        "stableswap_factory": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "twocrypto_factory": "0xd3B17f862956464ae4403cCF829CE69199856e1e",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98"
+      }
+    },
+    "mantle": {
+      "network": "Mantle",
+      "chain_id": 5000,
+      "contracts": {
+        "crv": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75",
+        "crvUSD": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+        "stableswap_factory": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x0c59d36b23f809f8b6C7cb4c8C590a0AC103baEf",
+        "rate-provider": "0x3f445D38E820c010a7A6E33c5F80cBEBE6930f61"
+      }
+    },
+    "monad": {
+      "network": "Monad",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x8271e06E5887FE5ba05234f5315c19f3Ec90E8aD",
+        "twocrypto_factory": "0xe7FBd704B938cB8fe26313C3464D4b7B7348c88C",
+        "tricrypto_factory": "0x6E28493348446503db04A49621d8e6C9A40015FB",
+        "address-provider": "0x4574921eb950d3Fd5B01562162EC566Cb8bc3648",
+        "meta-registry": "0xe6dA14500f0b5783E2325F9C5a7eE5d99DA0fB42",
+        "rate-provider": "0x129578f94C253b8Bc903Bf2b73D07BF2583cc11d"
+      }
+    },
+    "optimism": {
+      "network": "Optimism",
+      "chain_id": 10,
+      "contracts": {
+        "crv": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+        "crvUSD": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+        "scrvUSD": "0x289f635106d5b822a505b39ac237a0ae9189335b",
+        "stableswap_factory": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0xc6C09471Ee39C7E30a067952FcC89c8922f9Ab53",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0xc65CB3156225380BEda366610BaB18D5835A1647",
+        "rate-provider": "0x3f4a2BffA78D50CD61401a440526378E2155A8aE"
+      }
+    },
+    "plasma": {
+      "network": "Plasma",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x8271e06E5887FE5ba05234f5315c19f3Ec90E8aD",
+        "twocrypto_factory": "0xe7FBd704B938cB8fe26313C3464D4b7B7348c88C",
+        "tricrypto_factory": "0x6E28493348446503db04A49621d8e6C9A40015FB",
+        "address-provider": "0x4574921eb950d3Fd5B01562162EC566Cb8bc3648",
+        "meta-registry": "0xe6dA14500f0b5783E2325F9C5a7eE5d99DA0fB42",
+        "rate-provider": "0x129578f94C253b8Bc903Bf2b73D07BF2583cc11d"
+      }
+    },
+    "plume": {
+      "network": "Plume",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x5aEa9aaDd0974e8914229a23699bB6b343c97B09",
+        "twocrypto_factory": "0xa17b39BF1c2FE776Af38a999bE7Bb7bEa737a6EC",
+        "tricrypto_factory": "0x729c764aE95e7a9DEA9F950B5AEdbF1A9F3D7c03",
+        "address-provider": "0x907CE289E9Ee0BBcb0F69132B1C28A9Affc29FCA",
+        "meta-registry": "0xB4c6A1e8A14e9Fe74c88b06275b747145DD41206",
+        "rate-provider": "0xBB56F907e8F455f9f71ed6a394B60ff666a60639"
+      }
+    },
+    "polygon": {
+      "network": "Polygon",
+      "chain_id": 137,
+      "contracts": {
+        "crv": "0x172370d5Cd63279eFa6d502DAB29171933a610AF",
+        "crvUSD": "0xc4Ce1D6F5D98D65eE25Cf85e9F2E9DcFEe6Cb5d6",
+        "stableswap_factory": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "twocrypto_factory": "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F",
+        "tricrypto_factory": "0xC1b393EfEF38140662b91441C6710Aa704973228",
+        "address-provider": "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98",
+        "meta-registry": "0x296d2B5C23833A70D07c8fCBB97d846c1ff90DDD",
+        "rate-provider": "0xe0B15824862f3222fdFeD99FeBD0f7e0EC26E1FA"
+      }
+    },
+    "sonic": {
+      "network": "Sonic",
+      "chain_id": null,
+      "contracts": {
+        "crv": "0x5af79133999f7908953e94b7a5cf367740ebee35",
+        "crvUSD": "0x7FFf4C4a827C84E32c5E175052834111B2ccd270",
+        "scrvUSD": "0xb5f0edecff09081354db252ceec000b213186fac",
+        "stableswap_factory": "0x7C2085419BE6a04f4ad88ea91bC9F5C6E6C463D8",
+        "twocrypto_factory": "0x1A83348F9cCFD3Fe1A8C0adBa580Ac4e267Fe495",
+        "tricrypto_factory": "0x635742dCC8313DCf8c904206037d962c042EAfBd",
+        "address-provider": "0x87FE17697D0f14A222e8bEf386a0860eCffDD617",
+        "meta-registry": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "rate-provider": "0xFAbC421e3368D158d802684A217a83c083c94CeB"
+      }
+    },
+    "stable": {
+      "network": "Stable",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x8271e06E5887FE5ba05234f5315c19f3Ec90E8aD",
+        "twocrypto_factory": "0xe7FBd704B938cB8fe26313C3464D4b7B7348c88C",
+        "tricrypto_factory": "0x6E28493348446503db04A49621d8e6C9A40015FB",
+        "address-provider": "0x4574921eb950d3Fd5B01562162EC566Cb8bc3648",
+        "meta-registry": "0xe6dA14500f0b5783E2325F9C5a7eE5d99DA0fB42",
+        "rate-provider": "0x129578f94C253b8Bc903Bf2b73D07BF2583cc11d"
+      }
+    },
+    "tac": {
+      "network": "Tac",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x5aEa9aaDd0974e8914229a23699bB6b343c97B09",
+        "twocrypto_factory": "0xa17b39BF1c2FE776Af38a999bE7Bb7bEa737a6EC",
+        "tricrypto_factory": "0x729c764aE95e7a9DEA9F950B5AEdbF1A9F3D7c03",
+        "address-provider": "0x907CE289E9Ee0BBcb0F69132B1C28A9Affc29FCA",
+        "meta-registry": "0xB4c6A1e8A14e9Fe74c88b06275b747145DD41206",
+        "rate-provider": "0xBB56F907e8F455f9f71ed6a394B60ff666a60639"
+      }
+    },
+    "taiko": {
+      "network": "Taiko",
+      "chain_id": null,
+      "contracts": {
+        "crv": "0x09413312b263fD252C16e592A45f4689F26cb79d",
+        "crvUSD": "0xc8F4518ed4bAB9a972808a493107926cE8237068",
+        "scrvUSD": "0x8c74d11da5E6cE0498cd280F9209dFB0C5e048A7",
+        "stableswap_factory": "0x06452f9c013fc37169B57Eab8F50A7A48c9198A3",
+        "twocrypto_factory": "0xFAbC421e3368D158d802684A217a83c083c94CeB",
+        "tricrypto_factory": "0x0C9D8c7e486e822C29488Ff51BFf0167B4650953",
+        "address-provider": "0x87FE17697D0f14A222e8bEf386a0860eCffDD617",
+        "meta-registry": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "rate-provider": "0x8F7632122125699da7E22d465fa16EdE4f687Fa4"
+      }
+    },
+    "unichain": {
+      "network": "Unichain",
+      "chain_id": null,
+      "contracts": {
+        "stableswap_factory": "0x604388Bb1159AFd21eB5191cE22b4DeCdEE2Ae22",
+        "twocrypto_factory": "0xc9Fe0C63Af9A39402e8a5514f9c43Af0322b665F",
+        "tricrypto_factory": "0x5702BDB1Ec244704E3cBBaAE11a0275aE5b07499",
+        "address-provider": "0x1764ee18e8B3ccA4787249Ceb249356192594585",
+        "meta-registry": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "rate-provider": "0x0c59d36b23f809f8b6C7cb4c8C590a0AC103baEf"
+      }
+    },
+    "x-layer": {
+      "network": "X-Layer",
+      "chain_id": null,
+      "contracts": {
+        "crv": "0x3d5320821bfca19fb0b5428f2c79d63bd5246f89",
+        "crvUSD": "0xda8f4eb4503acf5dec5420523637bb5b33a846f6",
+        "stableswap_factory": "0x5eeE3091f747E60a045a2E715a4c71e600e31F6E",
+        "twocrypto_factory": "0x0c59d36b23f809f8b6c7cb4c8c590a0ac103baef",
+        "address-provider": "0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98",
+        "meta-registry": "0x87DD13Dd25a1DBde0E1EdcF5B8Fa6cfff7eABCaD",
+        "rate-provider": "0xB6845b562F01eB02ef20CBB63553d2a768e5a1Cb"
+      }
+    },
+    "xdc": {
+      "network": "XDC Network",
+      "chain_id": 50,
+      "contracts": {
+        "scrvUSD": "0x3d8EADb739D1Ef95dd53D718e4810721837c69c1",
+        "stableswap_factory": "0x5aEa9aaDd0974e8914229a23699bB6b343c97B09",
+        "twocrypto_factory": "0xa17b39BF1c2FE776Af38a999bE7Bb7bEa737a6EC",
+        "tricrypto_factory": "0x729c764aE95e7a9DEA9F950B5AEdbF1A9F3D7c03",
+        "address-provider": "0x907CE289E9Ee0BBcb0F69132B1C28A9Affc29FCA",
+        "meta-registry": "0xB4c6A1e8A14e9Fe74c88b06275b747145DD41206",
+        "rate-provider": "0xBB56F907e8F455f9f71ed6a394B60ff666a60639"
+      }
+    }
+  }
+}
