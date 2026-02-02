@@ -92,6 +92,69 @@
         color: #666;
         margin-top: 8px;
       }
+      .try-button {
+        background: #0066cc;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: 12px;
+        font-weight: 500;
+      }
+      .try-button:hover {
+        background: #0052a3;
+      }
+      .try-button:active {
+        transform: scale(0.98);
+      }
+      .response-container {
+        margin-top: 16px;
+        display: none;
+      }
+      .response-container.visible {
+        display: block;
+      }
+      .response-header {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #999;
+        margin-bottom: 8px;
+      }
+      .response-status {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 8px;
+      }
+      .response-status.success {
+        background: #d4edda;
+        color: #155724;
+      }
+      .response-status.error {
+        background: #f8d7da;
+        color: #721c24;
+      }
+      .response-body {
+        background: #1a1a1a;
+        color: #f5f5f5;
+        padding: 16px;
+        border-radius: 6px;
+        overflow-x: auto;
+        font-size: 13px;
+        line-height: 1.5;
+        font-family: monospace;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+      .loading {
+        color: #666;
+        font-style: italic;
+      }
       pre {
         background: #1a1a1a;
         color: #f5f5f5;
@@ -179,6 +242,18 @@
           <div class="endpoint-desc">
             Returns metadata for all 4,442 protocols
           </div>
+          <button
+            class="try-button"
+            onclick="tryEndpoint('/data/generated/protocols.json', this)"
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
+          </div>
         </div>
 
         <div class="endpoint">
@@ -188,6 +263,20 @@
           </div>
           <div class="endpoint-desc">
             Example: /data/generated/by-chain/ethereum.json
+          </div>
+          <button
+            class="try-button"
+            onclick="
+              tryEndpoint('/data/generated/by-chain/ethereum.json', this)
+            "
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
           </div>
         </div>
 
@@ -199,6 +288,20 @@
           <div class="endpoint-desc">
             Example: /data/generated/by-category/lending.json
           </div>
+          <button
+            class="try-button"
+            onclick="
+              tryEndpoint('/data/generated/by-category/lending.json', this)
+            "
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
+          </div>
         </div>
 
         <div class="endpoint">
@@ -209,6 +312,20 @@
           <div class="endpoint-desc">
             Search for protocols by contract address
           </div>
+          <button
+            class="try-button"
+            onclick="
+              tryEndpoint('/data/generated/indexes/by-address.json', this)
+            "
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
+          </div>
         </div>
 
         <div class="endpoint">
@@ -216,6 +333,18 @@
           <div class="endpoint-path">GET /data/populated-protocols.json</div>
           <div class="endpoint-desc">
             Quick lookup for protocols with addresses
+          </div>
+          <button
+            class="try-button"
+            onclick="tryEndpoint('/data/populated-protocols.json', this)"
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
           </div>
         </div>
 
@@ -227,6 +356,20 @@
           <div class="endpoint-desc">
             Example: /data/sources/protocols/aave-v3/aave-v3.json
           </div>
+          <button
+            class="try-button"
+            onclick="
+              tryEndpoint('/data/sources/protocols/aave-v3/aave-v3.json', this)
+            "
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
+          </div>
         </div>
 
         <div class="endpoint">
@@ -234,6 +377,18 @@
           <div class="endpoint-path">GET /data/sources/chains/{chain}.json</div>
           <div class="endpoint-desc">
             Example: /data/sources/chains/ethereum.json
+          </div>
+          <button
+            class="try-button"
+            onclick="tryEndpoint('/data/sources/chains/ethereum.json', this)"
+          >
+            Try it
+          </button>
+          <div class="response-container">
+            <div class="response-header">
+              Response <span class="response-status"></span>
+            </div>
+            <div class="response-body"></div>
           </div>
         </div>
       </section>
@@ -307,5 +462,38 @@ curl https://karelxfi.github.io/contracts-registry-llm/data/generated/by-categor
     <footer>
       <div class="container">MIT License - Free to use commercially</div>
     </footer>
+
+    <script>
+      const BASE_URL = "https://karelxfi.github.io/contracts-registry-llm";
+
+      async function tryEndpoint(path, button) {
+        const endpoint = button.closest(".endpoint");
+        const responseContainer = endpoint.querySelector(".response-container");
+        const responseBody = endpoint.querySelector(".response-body");
+        const responseStatus = endpoint.querySelector(".response-status");
+
+        // Show loading state
+        responseContainer.classList.add("visible");
+        responseBody.innerHTML = '<span class="loading">Loading...</span>';
+        responseStatus.textContent = "";
+        responseStatus.className = "response-status";
+
+        try {
+          const response = await fetch(BASE_URL + path);
+          const data = await response.json();
+
+          // Update status
+          responseStatus.textContent = `${response.status} ${response.statusText}`;
+          responseStatus.classList.add(response.ok ? "success" : "error");
+
+          // Pretty print JSON
+          responseBody.textContent = JSON.stringify(data, null, 2);
+        } catch (error) {
+          responseStatus.textContent = "Error";
+          responseStatus.classList.add("error");
+          responseBody.textContent = `Error: ${error.message}`;
+        }
+      }
+    </script>
   </body>
 </html>
