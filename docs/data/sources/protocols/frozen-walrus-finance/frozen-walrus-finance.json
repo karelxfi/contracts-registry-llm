@@ -1,0 +1,42 @@
+{
+  "id": "frozen-walrus-finance",
+  "name": "Frozen Walrus Finance",
+  "type": "algo-stables",
+  "website": "https://frozenwalrus.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Frozen Walrus Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Frozen Walrus Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frozen-walrus-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

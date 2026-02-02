@@ -1,0 +1,42 @@
+{
+  "id": "binance-staked-eth",
+  "name": "Binance staked ETH",
+  "type": "liquid staking",
+  "website": "https://www.binance.com/en/wbeth",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Binance staked ETH Main Contract",
+      "type": "core",
+      "description": "Main contract for Binance staked ETH",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/binance-staked-eth",
+      "updated": "2025-01-31"
+    }
+  }
+}

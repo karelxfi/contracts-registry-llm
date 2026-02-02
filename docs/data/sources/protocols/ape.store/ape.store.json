@@ -1,0 +1,60 @@
+{
+  "id": "ape.store",
+  "name": "Ape.Store",
+  "type": "launchpad",
+  "website": "https://ape.store/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ape.Store Main Contract",
+      "type": "core",
+      "description": "Main contract for Ape.Store",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ape.store",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ape.store",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "accountable",
+  "name": "Accountable",
+  "type": "uncollateralized lending",
+  "website": "https://accountable.capital/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "uncollateralized lending",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Accountable Main Contract",
+      "type": "core",
+      "description": "Main contract for Accountable",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/accountable",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "looksrare",
+  "name": "LooksRare",
+  "type": "nft marketplace",
+  "website": "https://looksrare.org/",
+  "github": [
+    "LooksRare"
+  ],
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LooksRare Main Contract",
+      "type": "core",
+      "description": "Main contract for LooksRare",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/looksrare",
+      "updated": "2025-01-31"
+    }
+  }
+}

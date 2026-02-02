@@ -1,0 +1,44 @@
+{
+  "id": "muscadine",
+  "name": "Muscadine",
+  "type": "risk curators",
+  "website": "https://muscadine.io",
+  "github": [
+    "Muscadine-Labs"
+  ],
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Muscadine Main Contract",
+      "type": "core",
+      "description": "Main contract for Muscadine",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/muscadine",
+      "updated": "2025-01-31"
+    }
+  }
+}

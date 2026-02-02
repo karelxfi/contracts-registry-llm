@@ -1,0 +1,80 @@
+{
+  "id": "hi.market",
+  "name": "hi.market",
+  "type": "sofi",
+  "website": "",
+  "github": [
+    "HiMarketSofi"
+  ],
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "hi.market Main Contract",
+      "type": "core",
+      "description": "Main contract for hi.market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hi.market",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hi.market",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hi.market",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "lendle-earn",
+  "name": "Lendle Earn",
+  "type": "onchain capital allocator",
+  "website": "https://lendle.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lendle Earn Main Contract",
+      "type": "core",
+      "description": "Main contract for Lendle Earn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lendle-earn",
+      "updated": "2025-01-31"
+    }
+  }
+}

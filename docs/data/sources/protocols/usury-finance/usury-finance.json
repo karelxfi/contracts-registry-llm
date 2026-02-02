@@ -1,0 +1,60 @@
+{
+  "id": "usury-finance",
+  "name": "Usury Finance",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "mantle",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Usury Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Usury Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/usury-finance",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/usury-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

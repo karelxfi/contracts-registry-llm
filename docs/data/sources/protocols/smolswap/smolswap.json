@@ -1,0 +1,42 @@
+{
+  "id": "smolswap",
+  "name": "SmolSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SmolSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SmolSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/smolswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

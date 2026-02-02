@@ -1,0 +1,42 @@
+{
+  "id": "floor-dao",
+  "name": "Floor Dao",
+  "type": "reserve currency",
+  "website": "https://floor.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Floor Dao Main Contract",
+      "type": "core",
+      "description": "Main contract for Floor Dao",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/floor-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

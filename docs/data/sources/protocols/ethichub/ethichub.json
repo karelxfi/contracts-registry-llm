@@ -1,0 +1,62 @@
+{
+  "id": "ethichub",
+  "name": "EthicHub",
+  "type": "lending",
+  "website": "https://ethichub.com",
+  "github": [
+    "EthicHub"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "EthicHub Main Contract",
+      "type": "core",
+      "description": "Main contract for EthicHub",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ethichub",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ethichub",
+      "updated": "2025-01-31"
+    }
+  }
+}

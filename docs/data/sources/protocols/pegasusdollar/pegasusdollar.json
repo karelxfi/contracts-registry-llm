@@ -1,0 +1,42 @@
+{
+  "id": "pegasusdollar",
+  "name": "Pegasusdollar",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pegasusdollar Main Contract",
+      "type": "core",
+      "description": "Main contract for Pegasusdollar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pegasusdollar",
+      "updated": "2025-01-31"
+    }
+  }
+}

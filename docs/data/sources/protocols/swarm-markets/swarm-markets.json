@@ -1,0 +1,62 @@
+{
+  "id": "swarm-markets",
+  "name": "Swarm Markets",
+  "type": "dexs",
+  "website": "https://swarm.markets",
+  "github": [
+    "SwarmMarkets"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swarm Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Swarm Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swarm-markets",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swarm-markets",
+      "updated": "2025-01-31"
+    }
+  }
+}

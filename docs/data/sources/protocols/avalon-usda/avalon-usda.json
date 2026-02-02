@@ -1,0 +1,96 @@
+{
+  "id": "avalon-usda",
+  "name": "Avalon USDa",
+  "type": "cdp",
+  "website": "https://www.avalonfinance.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum",
+    "berachain",
+    "sonic",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Avalon USDa Main Contract",
+      "type": "core",
+      "description": "Main contract for Avalon USDa",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avalon-usda",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avalon-usda",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avalon-usda",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avalon-usda",
+      "updated": "2025-01-31"
+    }
+  }
+}

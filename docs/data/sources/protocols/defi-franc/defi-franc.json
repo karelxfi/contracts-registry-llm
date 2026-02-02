@@ -1,0 +1,42 @@
+{
+  "id": "defi-franc",
+  "name": "DeFi Franc",
+  "type": "cdp",
+  "website": "https://defifranc.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DeFi Franc Main Contract",
+      "type": "core",
+      "description": "Main contract for DeFi Franc",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi-franc",
+      "updated": "2025-01-31"
+    }
+  }
+}

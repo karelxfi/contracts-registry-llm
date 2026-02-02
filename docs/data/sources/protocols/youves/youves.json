@@ -1,0 +1,45 @@
+{
+  "id": "youves",
+  "name": "Youves",
+  "type": "synthetics",
+  "website": "https://app.youves.com",
+  "github": [
+    "youves-com"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Youves Main Contract",
+      "type": "core",
+      "description": "Main contract for Youves",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/youves",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

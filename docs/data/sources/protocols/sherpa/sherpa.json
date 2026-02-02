@@ -1,0 +1,80 @@
+{
+  "id": "sherpa",
+  "name": "Sherpa",
+  "type": "onchain capital allocator",
+  "website": "https://earn.sherpa.trade",
+  "github": [
+    "hedgemonyxyz"
+  ],
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "ethereum",
+    "monad",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sherpa Main Contract",
+      "type": "core",
+      "description": "Main contract for Sherpa",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sherpa",
+      "updated": "2025-01-31"
+    },
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sherpa",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sherpa",
+      "updated": "2025-01-31"
+    }
+  }
+}

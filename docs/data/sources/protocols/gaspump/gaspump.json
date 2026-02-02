@@ -1,0 +1,45 @@
+{
+  "id": "gaspump",
+  "name": "GasPump",
+  "type": "launchpad",
+  "website": "https://gaspump.tg/#/onboarding",
+  "github": [
+    "gas111-bot"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GasPump Main Contract",
+      "type": "core",
+      "description": "Main contract for GasPump",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaspump",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "gasp",
+  "name": "Gasp",
+  "type": "cross chain bridge",
+  "website": "https://www.gasp.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cross chain bridge",
+    "ethereum",
+    "base",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gasp Main Contract",
+      "type": "core",
+      "description": "Main contract for Gasp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gasp",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gasp",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gasp",
+      "updated": "2025-01-31"
+    }
+  }
+}

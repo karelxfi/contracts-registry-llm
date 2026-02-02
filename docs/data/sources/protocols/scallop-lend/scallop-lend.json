@@ -1,0 +1,43 @@
+{
+  "id": "scallop-lend",
+  "name": "Scallop Lend",
+  "type": "lending",
+  "website": "https://app.scallop.io/referral?ref=692ecd3798f63b5f44c040f9",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Scallop Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Scallop Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scallop-lend",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

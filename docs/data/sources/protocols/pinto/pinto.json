@@ -1,0 +1,44 @@
+{
+  "id": "pinto",
+  "name": "Pinto",
+  "type": "algo-stables",
+  "website": "https://pinto.money/",
+  "github": [
+    "pinto-org"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pinto Main Contract",
+      "type": "core",
+      "description": "Main contract for Pinto",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pinto",
+      "updated": "2025-01-31"
+    }
+  }
+}

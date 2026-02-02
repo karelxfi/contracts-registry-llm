@@ -1,0 +1,43 @@
+{
+  "id": "looped-hype",
+  "name": "Looped Hype",
+  "type": "yield",
+  "website": "https://www.loopingcollective.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Looped Hype Main Contract",
+      "type": "core",
+      "description": "Main contract for Looped Hype",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/looped-hype",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

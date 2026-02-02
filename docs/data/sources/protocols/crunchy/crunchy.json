@@ -1,0 +1,43 @@
+{
+  "id": "crunchy",
+  "name": "Crunchy",
+  "type": "yield aggregator",
+  "website": "https://crunchy.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crunchy Main Contract",
+      "type": "core",
+      "description": "Main contract for Crunchy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crunchy",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

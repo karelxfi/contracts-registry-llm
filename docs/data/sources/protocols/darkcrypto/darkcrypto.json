@@ -1,0 +1,42 @@
+{
+  "id": "darkcrypto",
+  "name": "DarkCrypto",
+  "type": "algo-stables",
+  "website": "https://www.darkcrypto.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DarkCrypto Main Contract",
+      "type": "core",
+      "description": "Main contract for DarkCrypto",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/darkcrypto",
+      "updated": "2025-01-31"
+    }
+  }
+}

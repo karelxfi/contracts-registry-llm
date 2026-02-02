@@ -1,0 +1,45 @@
+{
+  "id": "nami-index",
+  "name": "Nami Index",
+  "type": "indexes",
+  "website": "https://namifi.app/nami-index",
+  "github": [
+    "NAMIProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "thorchain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nami Index Main Contract",
+      "type": "core",
+      "description": "Main contract for Nami Index",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "thorchain": {
+      "chain": "thorchain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nami-index",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "4swap",
+  "name": "4Swap",
+  "type": "dexs",
+  "website": "https://pando.im",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "4Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for 4Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/4swap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

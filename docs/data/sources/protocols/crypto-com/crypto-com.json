@@ -1,0 +1,115 @@
+{
+  "id": "crypto-com",
+  "name": "Crypto-com",
+  "type": "cex",
+  "website": "https://crypto.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "bitcoin",
+    "ethereum",
+    "polygon",
+    "avalanche",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crypto-com Main Contract",
+      "type": "core",
+      "description": "Main contract for Crypto-com",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crypto-com",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crypto-com",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crypto-com",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crypto-com",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crypto-com",
+      "updated": "2025-01-31"
+    }
+  }
+}

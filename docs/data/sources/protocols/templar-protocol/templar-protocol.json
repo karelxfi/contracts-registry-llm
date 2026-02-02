@@ -1,0 +1,120 @@
+{
+  "id": "templar-protocol",
+  "name": "Templar Protocol",
+  "type": "lending",
+  "website": "https://www.templarfi.org/",
+  "github": [
+    "Templar-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "bitcoin",
+    "stellar",
+    "near",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Templar Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Templar Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/templar-protocol",
+      "updated": "2025-01-31"
+    },
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/templar-protocol",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/templar-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/templar-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/templar-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

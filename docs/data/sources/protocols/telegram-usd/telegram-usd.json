@@ -1,0 +1,43 @@
+{
+  "id": "telegram-usd",
+  "name": "Telegram USD",
+  "type": "cdp",
+  "website": "https://torch.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Telegram USD Main Contract",
+      "type": "core",
+      "description": "Main contract for Telegram USD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/telegram-usd",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "deri-v4",
+  "name": "Deri V4",
+  "type": "options",
+  "website": "https://deri.io/#/trade/options",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "linea",
+    "base",
+    "sonic",
+    "arbitrum",
+    "blast",
+    "manta",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deri V4 Main Contract",
+      "type": "core",
+      "description": "Main contract for Deri V4",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-v4",
+      "updated": "2025-01-31"
+    }
+  }
+}

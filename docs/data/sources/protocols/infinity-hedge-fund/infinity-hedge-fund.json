@@ -1,0 +1,42 @@
+{
+  "id": "infinity-hedge-fund",
+  "name": "Infinity Hedge Fund",
+  "type": "farm",
+  "website": "https://app.infinityhedgefund.com/#/dashboard",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Infinity Hedge Fund Main Contract",
+      "type": "core",
+      "description": "Main contract for Infinity Hedge Fund",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infinity-hedge-fund",
+      "updated": "2025-01-31"
+    }
+  }
+}

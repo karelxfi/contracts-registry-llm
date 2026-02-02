@@ -1,0 +1,42 @@
+{
+  "id": "bryan-on-base",
+  "name": "Bryan on Base",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bryan on Base Main Contract",
+      "type": "core",
+      "description": "Main contract for Bryan on Base",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bryan-on-base",
+      "updated": "2025-01-31"
+    }
+  }
+}

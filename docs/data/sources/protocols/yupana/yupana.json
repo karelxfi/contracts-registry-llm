@@ -1,0 +1,43 @@
+{
+  "id": "yupana",
+  "name": "Yupana",
+  "type": "lending",
+  "website": "https://yupana.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yupana Main Contract",
+      "type": "core",
+      "description": "Main contract for Yupana",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yupana",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

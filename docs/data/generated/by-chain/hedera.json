@@ -1,0 +1,388 @@
+{
+  "chain": "hedera",
+  "chainInfo": {
+    "id": "hedera",
+    "name": "Hedera",
+    "platform": "other",
+    "status": "active",
+    "chainId": 295,
+    "nativeCurrency": {
+      "name": "HBAR",
+      "symbol": "HBAR",
+      "decimals": 8
+    },
+    "gecko_id": "hedera-hashgraph",
+    "cmcId": "4642",
+    "explorers": {
+      "primary": {
+        "name": "Hedera Explorer",
+        "url": "https://explorer.hedera.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "binance-cex": {
+      "binance-cex": {
+        "name": "Binance CEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitrue": {
+      "bitrue": {
+        "name": "Bitrue",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bonzo-finance": {
+      "bonzo-finance": {
+        "name": "Bonzo Finance",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bubbleswap-v1": {
+      "bubbleswap-v1": {
+        "name": "Bubbleswap V1",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bubbleswap-v2": {
+      "bubbleswap-v2": {
+        "name": "Bubbleswap V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "csigma-finance": {
+      "csigma-finance": {
+        "name": "cSigma Finance",
+        "type": "rwa lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "davincigraph": {
+      "davincigraph": {
+        "name": "DaVinciGraph",
+        "type": "token locker",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hashport": {
+      "hashport": {
+        "name": "Hashport",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hbarsuite": {
+      "hbarsuite": {
+        "name": "HbarSuite",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "headstarter": {
+      "headstarter": {
+        "name": "HeadStarter",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "heliswap": {
+      "heliswap": {
+        "name": "HeliSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hliquity": {
+      "hliquity": {
+        "name": "HLiquity",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ichi": {
+      "ichi": {
+        "name": "ICHI",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "isle-finance": {
+      "isle-finance": {
+        "name": "Isle Finance",
+        "type": "rwa lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kaio": {
+      "kaio": {
+        "name": "KAIO",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kea-credit": {
+      "kea-credit": {
+        "name": "Kea Credit",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "memejob": {
+      "memejob": {
+        "name": "MemeJob",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pangolin-v2": {
+      "pangolin-v2": {
+        "name": "Pangolin V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "saucerswap-v1": {
+      "saucerswap-v1": {
+        "name": "SaucerSwap V1",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "saucerswap-v2": {
+      "saucerswap-v2": {
+        "name": "SaucerSwap V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sirio-finance": {
+      "sirio-finance": {
+        "name": "Sirio Finance",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stader": {
+      "stader": {
+        "name": "Stader",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "swissborg": {
+      "swissborg": {
+        "name": "SwissBorg",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tangent": {
+      "tangent": {
+        "name": "Tangent",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

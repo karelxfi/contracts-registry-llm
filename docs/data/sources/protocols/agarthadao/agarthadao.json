@@ -1,0 +1,42 @@
+{
+  "id": "agarthadao",
+  "name": "AgarthaDAO",
+  "type": "reserve currency",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AgarthaDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for AgarthaDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agarthadao",
+      "updated": "2025-01-31"
+    }
+  }
+}

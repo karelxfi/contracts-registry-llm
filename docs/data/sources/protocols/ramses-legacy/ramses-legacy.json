@@ -1,0 +1,61 @@
+{
+  "id": "ramses-legacy",
+  "name": "Ramses Legacy",
+  "type": "dexs",
+  "website": "https://app.ramses.exchange/dashboard",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ramses Legacy Main Contract",
+      "type": "core",
+      "description": "Main contract for Ramses Legacy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ramses-legacy",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ramses-legacy",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

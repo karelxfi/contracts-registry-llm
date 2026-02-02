@@ -1,0 +1,42 @@
+{
+  "id": "arbis-finance",
+  "name": "Arbi's Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arbi's Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Arbi's Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arbis-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

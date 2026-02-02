@@ -1,0 +1,45 @@
+{
+  "id": "gard",
+  "name": "GARD",
+  "type": "cdp",
+  "website": "https://www.gard.money",
+  "github": [
+    "Tapera-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GARD Main Contract",
+      "type": "core",
+      "description": "Main contract for GARD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gard",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

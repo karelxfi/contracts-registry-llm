@@ -1,0 +1,951 @@
+{
+  "category": "token locker",
+  "protocols": {
+    "bitbond-lockers": {
+      "bitbond-lockers": {
+        "name": "Bitbond Lockers",
+        "contracts": {
+          "main": {
+            "name": "Bitbond Lockers Main Contract",
+            "type": "core",
+            "description": "Main contract for Bitbond Lockers",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "coinscope": {
+      "coinscope": {
+        "name": "Coinscope",
+        "contracts": {
+          "main": {
+            "name": "Coinscope Main Contract",
+            "type": "core",
+            "description": "Main contract for Coinscope",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/coinscope",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/coinscope",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/coinscope",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/coinscope",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/coinscope",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "davincigraph": {
+      "davincigraph": {
+        "name": "DaVinciGraph",
+        "contracts": {
+          "main": {
+            "name": "DaVinciGraph Main Contract",
+            "type": "core",
+            "description": "Main contract for DaVinciGraph",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "hedera": {
+            "chain": "hedera",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/davincigraph",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "flokifi-locker": {
+      "flokifi-locker": {
+        "name": "FlokiFi Locker",
+        "contracts": {
+          "main": {
+            "name": "FlokiFi Locker Main Contract",
+            "type": "core",
+            "description": "Main contract for FlokiFi Locker",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flokifi-locker",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "goplus-locker-v2": {
+      "goplus-locker-v2": {
+        "name": "GoPlus Locker V2",
+        "contracts": {
+          "main": {
+            "name": "GoPlus Locker V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for GoPlus Locker V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v2",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v2",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "goplus-locker-v3": {
+      "goplus-locker-v3": {
+        "name": "GoPlus Locker V3",
+        "contracts": {
+          "main": {
+            "name": "GoPlus Locker V3 Main Contract",
+            "type": "core",
+            "description": "Main contract for GoPlus Locker V3",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v3",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v3",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goplus-locker-v3",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "team-finance": {
+      "team-finance": {
+        "name": "Team Finance",
+        "contracts": {
+          "main": {
+            "name": "Team Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Team Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "flare": {
+            "chain": "flare",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/team-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "trustswap": {
+      "trustswap": {
+        "name": "TrustSwap",
+        "contracts": {
+          "main": {
+            "name": "TrustSwap Main Contract",
+            "type": "core",
+            "description": "Main contract for TrustSwap",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/trustswap",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "uncx-network-v2": {
+      "uncx-network-v2": {
+        "name": "UNCX Network V2",
+        "contracts": {
+          "main": {
+            "name": "UNCX Network V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for UNCX Network V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v2",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v2",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v2",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v2",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "uncx-network-v3": {
+      "uncx-network-v3": {
+        "name": "UNCX Network V3",
+        "contracts": {
+          "main": {
+            "name": "UNCX Network V3 Main Contract",
+            "type": "core",
+            "description": "Main contract for UNCX Network V3",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v3",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v3",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v3",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uncx-network-v3",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

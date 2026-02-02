@@ -1,0 +1,79 @@
+{
+  "id": "chainport",
+  "name": "ChainPort",
+  "type": "bridge",
+  "website": "https://app.chainport.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum",
+    "cardano",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ChainPort Main Contract",
+      "type": "core",
+      "description": "Main contract for ChainPort",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainport",
+      "updated": "2025-01-31"
+    },
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainport",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainport",
+      "updated": "2025-01-31"
+    }
+  }
+}

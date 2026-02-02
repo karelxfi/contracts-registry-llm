@@ -1,0 +1,45 @@
+{
+  "id": "moveflow",
+  "name": "MoveFlow",
+  "type": "payments",
+  "website": "https://www.moveflow.xyz/",
+  "github": [
+    "Move-Flow"
+  ],
+  "docs": "",
+  "tags": [
+    "payments",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MoveFlow Main Contract",
+      "type": "core",
+      "description": "Main contract for MoveFlow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moveflow",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

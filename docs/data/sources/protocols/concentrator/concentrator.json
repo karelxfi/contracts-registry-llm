@@ -1,0 +1,44 @@
+{
+  "id": "concentrator",
+  "name": "Concentrator",
+  "type": "yield",
+  "website": "https://concentrator.aladdin.club/",
+  "github": [
+    "AladdinDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Concentrator Main Contract",
+      "type": "core",
+      "description": "Main contract for Concentrator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/concentrator",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "aura",
+  "name": "Aura",
+  "type": "yield",
+  "website": "https://aura.finance",
+  "github": [
+    "aurafinance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "base",
+    "arbitrum",
+    "polygon",
+    "fraxtal",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aura Main Contract",
+      "type": "core",
+      "description": "Main contract for Aura",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    },
+    "fraxtal": {
+      "chain": "fraxtal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aura",
+      "updated": "2025-01-31"
+    }
+  }
+}

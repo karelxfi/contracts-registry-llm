@@ -1,0 +1,80 @@
+{
+  "id": "wepiggy",
+  "name": "WePiggy",
+  "type": "lending",
+  "website": "https://www.wepiggy.com/",
+  "github": [
+    "WePiggy"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WePiggy Main Contract",
+      "type": "core",
+      "description": "Main contract for WePiggy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wepiggy",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wepiggy",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wepiggy",
+      "updated": "2025-01-31"
+    }
+  }
+}

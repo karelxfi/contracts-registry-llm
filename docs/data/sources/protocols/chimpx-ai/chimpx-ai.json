@@ -1,0 +1,44 @@
+{
+  "id": "chimpx-ai",
+  "name": "ChimpX AI",
+  "type": "dexs",
+  "website": "https://chimpx.ai/",
+  "github": [
+    "chimpx-ai"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ChimpX AI Main Contract",
+      "type": "core",
+      "description": "Main contract for ChimpX AI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chimpx-ai",
+      "updated": "2025-01-31"
+    }
+  }
+}

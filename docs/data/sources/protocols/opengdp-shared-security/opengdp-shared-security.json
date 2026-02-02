@@ -1,0 +1,114 @@
+{
+  "id": "opengdp-shared-security",
+  "name": "OpenGDP Shared Security",
+  "type": "restaking",
+  "website": "https://karak.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "restaking",
+    "ethereum",
+    "arbitrum",
+    "mantle",
+    "blast",
+    "fraxtal"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OpenGDP Shared Security Main Contract",
+      "type": "core",
+      "description": "Main contract for OpenGDP Shared Security",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opengdp-shared-security",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opengdp-shared-security",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opengdp-shared-security",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opengdp-shared-security",
+      "updated": "2025-01-31"
+    },
+    "fraxtal": {
+      "chain": "fraxtal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opengdp-shared-security",
+      "updated": "2025-01-31"
+    }
+  }
+}

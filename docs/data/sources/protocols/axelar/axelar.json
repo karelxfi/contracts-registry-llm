@@ -1,0 +1,334 @@
+{
+  "id": "axelar",
+  "name": "Axelar",
+  "type": "bridge",
+  "website": "https://axelar.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum",
+    "arbitrum",
+    "polygon",
+    "osmosis",
+    "avalanche",
+    "base",
+    "sei",
+    "mantle",
+    "blast",
+    "injective",
+    "neutron",
+    "immutable-zkevm",
+    "fraxtal",
+    "celo",
+    "kava",
+    "scroll",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Axelar Main Contract",
+      "type": "core",
+      "description": "Main contract for Axelar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "immutable-zkevm": {
+      "chain": "immutable-zkevm",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "fraxtal": {
+      "chain": "fraxtal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar",
+      "updated": "2025-01-31"
+    }
+  }
+}

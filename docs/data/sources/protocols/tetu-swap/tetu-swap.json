@@ -1,0 +1,42 @@
+{
+  "id": "tetu-swap",
+  "name": "Tetu Swap",
+  "type": "yield",
+  "website": "https://swap.tetu.io/#/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tetu Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Tetu Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tetu-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

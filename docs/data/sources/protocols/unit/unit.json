@@ -1,0 +1,116 @@
+{
+  "id": "unit",
+  "name": "Unit",
+  "type": "bridge",
+  "website": "https://hyperunit.xyz/deposit",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin",
+    "solana",
+    "ethereum",
+    "plasma",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unit Main Contract",
+      "type": "core",
+      "description": "Main contract for Unit",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unit",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unit",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unit",
+      "updated": "2025-01-31"
+    },
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unit",
+      "updated": "2025-01-31"
+    },
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unit",
+      "updated": "2025-01-31"
+    }
+  }
+}

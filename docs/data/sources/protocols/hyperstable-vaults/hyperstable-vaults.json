@@ -1,0 +1,43 @@
+{
+  "id": "hyperstable-vaults",
+  "name": "Hyperstable Vaults",
+  "type": "risk curators",
+  "website": "https://app.hyperstable.xyz/r/DEFILLAMA",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hyperstable Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Hyperstable Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperstable-vaults",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

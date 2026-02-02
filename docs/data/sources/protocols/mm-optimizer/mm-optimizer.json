@@ -1,0 +1,42 @@
+{
+  "id": "mm-optimizer",
+  "name": "MM Optimizer",
+  "type": "yield aggregator",
+  "website": "https://vaults.mm.finance/vault",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MM Optimizer Main Contract",
+      "type": "core",
+      "description": "Main contract for MM Optimizer",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mm-optimizer",
+      "updated": "2025-01-31"
+    }
+  }
+}

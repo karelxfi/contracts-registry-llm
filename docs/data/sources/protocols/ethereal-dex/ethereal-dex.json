@@ -1,0 +1,42 @@
+{
+  "id": "ethereal-dex",
+  "name": "Ethereal DEX",
+  "type": "derivatives",
+  "website": "https://app.ethereal.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereal"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ethereal DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for Ethereal DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereal": {
+      "chain": "ethereal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ethereal-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

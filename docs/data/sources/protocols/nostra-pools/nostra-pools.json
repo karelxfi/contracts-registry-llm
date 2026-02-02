@@ -1,0 +1,43 @@
+{
+  "id": "nostra-pools",
+  "name": "Nostra Pools",
+  "type": "dexs",
+  "website": "https://app.nostra.finance/pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nostra Pools Main Contract",
+      "type": "core",
+      "description": "Main contract for Nostra Pools",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nostra-pools",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

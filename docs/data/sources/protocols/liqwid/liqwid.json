@@ -1,0 +1,43 @@
+{
+  "id": "liqwid",
+  "name": "Liqwid",
+  "type": "lending",
+  "website": "https://v2.liqwid.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Liqwid Main Contract",
+      "type": "core",
+      "description": "Main contract for Liqwid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liqwid",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

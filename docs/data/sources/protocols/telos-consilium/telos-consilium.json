@@ -1,0 +1,60 @@
+{
+  "id": "telos-consilium",
+  "name": "Telos Consilium",
+  "type": "risk curators",
+  "website": "https://telosc.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "plasma",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Telos Consilium Main Contract",
+      "type": "core",
+      "description": "Main contract for Telos Consilium",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/telos-consilium",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/telos-consilium",
+      "updated": "2025-01-31"
+    }
+  }
+}

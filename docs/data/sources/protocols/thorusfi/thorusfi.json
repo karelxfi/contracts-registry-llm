@@ -1,0 +1,42 @@
+{
+  "id": "thorusfi",
+  "name": "ThorusFi",
+  "type": "dexs",
+  "website": "https://thorus.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ThorusFi Main Contract",
+      "type": "core",
+      "description": "Main contract for ThorusFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thorusfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "soda-protocol",
+  "name": "Soda Protocol",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Soda Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Soda Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/soda-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

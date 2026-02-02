@@ -1,0 +1,1245 @@
+{
+  "category": "nft marketplace",
+  "protocols": {
+    "bluemove-staking": {
+      "bluemove-staking": {
+        "name": "BlueMove Staking",
+        "contracts": {
+          "main": {
+            "name": "BlueMove Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for BlueMove Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "aptos": {
+            "chain": "aptos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bluemove-staking",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "blur-bids": {
+      "blur-bids": {
+        "name": "Blur Bids",
+        "contracts": {
+          "main": {
+            "name": "Blur Bids Main Contract",
+            "type": "core",
+            "description": "Main contract for Blur Bids",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/blur-bids",
+            "updated": "2025-01-31"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/blur-bids",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "caviar-v1": {
+      "caviar-v1": {
+        "name": "Caviar V1",
+        "contracts": {
+          "main": {
+            "name": "Caviar V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Caviar V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/caviar-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "caviar-v2": {
+      "caviar-v2": {
+        "name": "Caviar V2",
+        "contracts": {
+          "main": {
+            "name": "Caviar V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Caviar V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/caviar-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "collection.xyz": {
+      "collection.xyz": {
+        "name": "Collection.xyz",
+        "contracts": {
+          "main": {
+            "name": "Collection.xyz Main Contract",
+            "type": "core",
+            "description": "Main contract for Collection.xyz",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/collection.xyz",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "element-nft-marketplace": {
+      "element-nft-marketplace": {
+        "name": "Element NFT Marketplace",
+        "contracts": {
+          "main": {
+            "name": "Element NFT Marketplace Main Contract",
+            "type": "core",
+            "description": "Main contract for Element NFT Marketplace",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/element-nft-marketplace",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/element-nft-marketplace",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/element-nft-marketplace",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/element-nft-marketplace",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "flooring-protocol": {
+      "flooring-protocol": {
+        "name": "Flooring Protocol",
+        "contracts": {
+          "main": {
+            "name": "Flooring Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Flooring Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flooring-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "gumball-protocol": {
+      "gumball-protocol": {
+        "name": "GumBall Protocol",
+        "contracts": {
+          "main": {
+            "name": "GumBall Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for GumBall Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gumball-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "immutablex": {
+      "immutablex": {
+        "name": "ImmutableX",
+        "contracts": {
+          "main": {
+            "name": "ImmutableX Main Contract",
+            "type": "core",
+            "description": "Main contract for ImmutableX",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/immutablex",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "jpg-store": {
+      "jpg-store": {
+        "name": "JPG Store",
+        "contracts": {
+          "main": {
+            "name": "JPG Store Main Contract",
+            "type": "core",
+            "description": "Main contract for JPG Store",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/jpg-store",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "kanvas": {
+      "kanvas": {
+        "name": "Kanvas",
+        "contracts": {
+          "main": {
+            "name": "Kanvas Main Contract",
+            "type": "core",
+            "description": "Main contract for Kanvas",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kanvas",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lenft": {
+      "lenft": {
+        "name": "leNFT",
+        "contracts": {
+          "main": {
+            "name": "leNFT Main Contract",
+            "type": "core",
+            "description": "Main contract for leNFT",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lenft",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "looksrare": {
+      "looksrare": {
+        "name": "LooksRare",
+        "contracts": {
+          "main": {
+            "name": "LooksRare Main Contract",
+            "type": "core",
+            "description": "Main contract for LooksRare",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/looksrare",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "magic-eden": {
+      "magic-eden": {
+        "name": "Magic Eden",
+        "contracts": {
+          "main": {
+            "name": "Magic Eden Main Contract",
+            "type": "core",
+            "description": "Main contract for Magic Eden",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/magic-eden",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/magic-eden",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/magic-eden",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/magic-eden",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/magic-eden",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "morkie": {
+      "morkie": {
+        "name": "Morkie",
+        "contracts": {
+          "main": {
+            "name": "Morkie Main Contract",
+            "type": "core",
+            "description": "Main contract for Morkie",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/morkie",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nft20": {
+      "nft20": {
+        "name": "NFT20",
+        "contracts": {
+          "main": {
+            "name": "NFT20 Main Contract",
+            "type": "core",
+            "description": "Main contract for NFT20",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nft20",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nft20",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nft360": {
+      "nft360": {
+        "name": "NFT360",
+        "contracts": {
+          "main": {
+            "name": "NFT360 Main Contract",
+            "type": "core",
+            "description": "Main contract for NFT360",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nft360",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nftx": {
+      "nftx": {
+        "name": "NFTX",
+        "contracts": {
+          "main": {
+            "name": "NFTX Main Contract",
+            "type": "core",
+            "description": "Main contract for NFTX",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nftx",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nftx",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "octoplace": {
+      "octoplace": {
+        "name": "OCTOplace",
+        "contracts": {
+          "main": {
+            "name": "OCTOplace Main Contract",
+            "type": "core",
+            "description": "Main contract for OCTOplace",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/octoplace",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "only1": {
+      "only1": {
+        "name": "Only1",
+        "contracts": {
+          "main": {
+            "name": "Only1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Only1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/only1",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "paintswap-on-sonic": {
+      "paintswap-on-sonic": {
+        "name": "Paintswap on Sonic",
+        "contracts": {
+          "main": {
+            "name": "Paintswap on Sonic Main Contract",
+            "type": "core",
+            "description": "Main contract for Paintswap on Sonic",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/paintswap-on-sonic",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "pinyottas": {
+      "pinyottas": {
+        "name": "Pinyottas",
+        "contracts": {
+          "main": {
+            "name": "Pinyottas Main Contract",
+            "type": "core",
+            "description": "Main contract for Pinyottas",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pinyottas",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "pxswap": {
+      "pxswap": {
+        "name": "pxswap",
+        "contracts": {
+          "main": {
+            "name": "pxswap Main Contract",
+            "type": "core",
+            "description": "Main contract for pxswap",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pxswap",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "salvor": {
+      "salvor": {
+        "name": "Salvor",
+        "contracts": {
+          "main": {
+            "name": "Salvor Main Contract",
+            "type": "core",
+            "description": "Main contract for Salvor",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/salvor",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sudoswap-v1": {
+      "sudoswap-v1": {
+        "name": "Sudoswap V1",
+        "contracts": {
+          "main": {
+            "name": "Sudoswap V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Sudoswap V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sudoswap-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sudoswap-v2": {
+      "sudoswap-v2": {
+        "name": "Sudoswap V2",
+        "contracts": {
+          "main": {
+            "name": "Sudoswap V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Sudoswap V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sudoswap-v2",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sudoswap-v2",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sudoswap-v2",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sudoswap-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "superrare": {
+      "superrare": {
+        "name": "SuperRare",
+        "contracts": {
+          "main": {
+            "name": "SuperRare Main Contract",
+            "type": "core",
+            "description": "Main contract for SuperRare",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superrare",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sweep-n-flip": {
+      "sweep-n-flip": {
+        "name": "Sweep n Flip",
+        "contracts": {
+          "main": {
+            "name": "Sweep n Flip Main Contract",
+            "type": "core",
+            "description": "Main contract for Sweep n Flip",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sweep-n-flip",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sweep-n-flip",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sweep-n-flip",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

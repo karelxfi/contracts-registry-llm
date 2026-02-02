@@ -1,0 +1,42 @@
+{
+  "id": "steakhut",
+  "name": "SteakHut",
+  "type": "farm",
+  "website": "https://www.steakhut.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SteakHut Main Contract",
+      "type": "core",
+      "description": "Main contract for SteakHut",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/steakhut",
+      "updated": "2025-01-31"
+    }
+  }
+}

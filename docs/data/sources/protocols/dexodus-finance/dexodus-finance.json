@@ -1,0 +1,78 @@
+{
+  "id": "dexodus-finance",
+  "name": "Dexodus Finance",
+  "type": "derivatives",
+  "website": "https://dexodus.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base",
+    "cronos",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dexodus Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Dexodus Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexodus-finance",
+      "updated": "2025-01-31"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexodus-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexodus-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

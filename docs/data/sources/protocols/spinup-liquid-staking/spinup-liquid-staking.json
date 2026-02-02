@@ -1,0 +1,43 @@
+{
+  "id": "spinup-liquid-staking",
+  "name": "SpinUp Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://www.spinup.zone/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpinUp Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for SpinUp Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spinup-liquid-staking",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

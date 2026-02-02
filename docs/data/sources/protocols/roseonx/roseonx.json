@@ -1,0 +1,42 @@
+{
+  "id": "roseonx",
+  "name": "RoseonX",
+  "type": "derivatives",
+  "website": "https://dex.roseon.world",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RoseonX Main Contract",
+      "type": "core",
+      "description": "Main contract for RoseonX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/roseonx",
+      "updated": "2025-01-31"
+    }
+  }
+}

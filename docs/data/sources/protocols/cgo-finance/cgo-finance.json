@@ -1,0 +1,42 @@
+{
+  "id": "cgo-finance",
+  "name": "CGO Finance",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CGO Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for CGO Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cgo-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

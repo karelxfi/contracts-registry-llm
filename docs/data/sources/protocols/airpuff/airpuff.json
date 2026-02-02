@@ -1,0 +1,80 @@
+{
+  "id": "airpuff",
+  "name": "AirPuff",
+  "type": "leveraged farming",
+  "website": "https://www.airpuff.io",
+  "github": [
+    "Airpuff"
+  ],
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "ethereum",
+    "arbitrum",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AirPuff Main Contract",
+      "type": "core",
+      "description": "Main contract for AirPuff",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/airpuff",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/airpuff",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/airpuff",
+      "updated": "2025-01-31"
+    }
+  }
+}

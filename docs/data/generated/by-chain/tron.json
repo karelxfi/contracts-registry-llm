@@ -1,0 +1,1437 @@
+{
+  "chain": "tron",
+  "chainInfo": {
+    "id": "tron",
+    "name": "Tron",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "TRON",
+      "symbol": "TRON",
+      "decimals": 8
+    },
+    "gecko_id": "tron",
+    "cmcId": "1958",
+    "explorers": {
+      "primary": {
+        "name": "Tron Explorer",
+        "url": "https://explorer.tron.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "allbridge-core": {
+      "allbridge-core": {
+        "name": "Allbridge Core",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "backpack": {
+      "backpack": {
+        "name": "Backpack",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "biconomy.com": {
+      "biconomy.com": {
+        "name": "Biconomy.com",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bigone": {
+      "bigone": {
+        "name": "BigONE",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "binance-cex": {
+      "binance-cex": {
+        "name": "Binance CEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bingx": {
+      "bingx": {
+        "name": "BingX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitfinex": {
+      "bitfinex": {
+        "name": "Bitfinex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitget": {
+      "bitget": {
+        "name": "Bitget",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitkan": {
+      "bitkan": {
+        "name": "BitKan",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitkub": {
+      "bitkub": {
+        "name": "Bitkub",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitlo": {
+      "bitlo": {
+        "name": "Bitlo",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitmex": {
+      "bitmex": {
+        "name": "Bitmex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitrue": {
+      "bitrue": {
+        "name": "Bitrue",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitunix": {
+      "bitunix": {
+        "name": "Bitunix",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitvenus": {
+      "bitvenus": {
+        "name": "BitVenus",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blofin": {
+      "blofin": {
+        "name": "BloFin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bouncebit-pre-launch-farm": {
+      "bouncebit-pre-launch-farm": {
+        "name": "BounceBit pre-launch Farm",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bridgers": {
+      "bridgers": {
+        "name": "Bridgers",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "butter-network": {
+      "butter-network": {
+        "name": "Butter Network",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bybit": {
+      "bybit": {
+        "name": "Bybit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "catfee-staking-vault": {
+      "catfee-staking-vault": {
+        "name": "CatFee Staking Vault",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "cex.io": {
+      "cex.io": {
+        "name": "CEX.IO",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coin8": {
+      "coin8": {
+        "name": "Coin8",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coindcx": {
+      "coindcx": {
+        "name": "CoinDCX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinex": {
+      "coinex": {
+        "name": "CoinEx",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinw": {
+      "coinw": {
+        "name": "CoinW",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exmo": {
+      "exmo": {
+        "name": "Exmo",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fastex": {
+      "fastex": {
+        "name": "Fastex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "flatcoin-dex": {
+      "flatcoin-dex": {
+        "name": "FlatCoin DEX",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "flipster": {
+      "flipster": {
+        "name": "Flipster",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "garble.money": {
+      "garble.money": {
+        "name": "Garble.Money",
+        "type": "privacy",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate": {
+      "gate": {
+        "name": "Gate",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate-us": {
+      "gate-us": {
+        "name": "Gate US",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hashkey-exchange": {
+      "hashkey-exchange": {
+        "name": "HashKey Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hashkey-global": {
+      "hashkey-global": {
+        "name": "HashKey Global",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hibt": {
+      "hibt": {
+        "name": "Hibt",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hotbit": {
+      "hotbit": {
+        "name": "Hotbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hotcoin": {
+      "hotcoin": {
+        "name": "Hotcoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "htx": {
+      "htx": {
+        "name": "HTX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "indodax": {
+      "indodax": {
+        "name": "Indodax",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "intercroneswap": {
+      "intercroneswap": {
+        "name": "Intercroneswap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "justcryptos": {
+      "justcryptos": {
+        "name": "JustCryptos",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "justlend": {
+      "justlend": {
+        "name": "JustLend",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "justmoney": {
+      "justmoney": {
+        "name": "JustMoney",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "juststables": {
+      "juststables": {
+        "name": "JustStables",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "klever-exchange": {
+      "klever-exchange": {
+        "name": "Klever Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kucoin": {
+      "kucoin": {
+        "name": "KuCoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "latoken": {
+      "latoken": {
+        "name": "Latoken",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "luminous-finance": {
+      "luminous-finance": {
+        "name": "Luminous Finance",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "maskex": {
+      "maskex": {
+        "name": "MaskEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "meson": {
+      "meson": {
+        "name": "Meson",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mexc": {
+      "mexc": {
+        "name": "MEXC",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "near-intents": {
+      "near-intents": {
+        "name": "NEAR Intents",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "neopin-staking": {
+      "neopin-staking": {
+        "name": "NEOPIN Staking",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nervebridge": {
+      "nervebridge": {
+        "name": "NerveBridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nonkyc": {
+      "nonkyc": {
+        "name": "NonKYC",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "okcoin": {
+      "okcoin": {
+        "name": "Okcoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "okx": {
+      "okx": {
+        "name": "OKX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "oneswap": {
+      "oneswap": {
+        "name": "OneSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "osl": {
+      "osl": {
+        "name": "OSL",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "osl-hk": {
+      "osl-hk": {
+        "name": "OSL HK",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ourbit": {
+      "ourbit": {
+        "name": "Ourbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pay-protocol": {
+      "pay-protocol": {
+        "name": "Pay Protocol",
+        "type": "payments",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pepeteam-bridge": {
+      "pepeteam-bridge": {
+        "name": "PepeTeam Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "phemex": {
+      "phemex": {
+        "name": "Phemex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pionex": {
+      "pionex": {
+        "name": "Pionex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "probit-global": {
+      "probit-global": {
+        "name": "ProBit Global",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "raidshift-marketplace": {
+      "raidshift-marketplace": {
+        "name": "RAIDSHIFT Marketplace",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "socialswap": {
+      "socialswap": {
+        "name": "SocialSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "strx-finance": {
+      "strx-finance": {
+        "name": "STRX Finance",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stusdt": {
+      "stusdt": {
+        "name": "stUSDT",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sun.io": {
+      "sun.io": {
+        "name": "SUN.io",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sunpump": {
+      "sunpump": {
+        "name": "SunPump",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sunswap-v1": {
+      "sunswap-v1": {
+        "name": "SUNSwap V1",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sunswap-v2": {
+      "sunswap-v2": {
+        "name": "SUNSwap V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sunswap-v3": {
+      "sunswap-v3": {
+        "name": "SUNSwap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sunx-bridge": {
+      "sunx-bridge": {
+        "name": "SunX Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "swissborg": {
+      "swissborg": {
+        "name": "SwissBorg",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "symbiosis": {
+      "symbiosis": {
+        "name": "Symbiosis",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thorchain-dex": {
+      "thorchain-dex": {
+        "name": "Thorchain DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tothemoon": {
+      "tothemoon": {
+        "name": "Tothemoon",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tradeogre": {
+      "tradeogre": {
+        "name": "TradeOgre",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tronnrg": {
+      "tronnrg": {
+        "name": "TronNRG",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "unifi": {
+      "unifi": {
+        "name": "UniFi",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "unifi-staking": {
+      "unifi-staking": {
+        "name": "UniFi Staking",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "usdd": {
+      "usdd": {
+        "name": "USDD",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "uswap": {
+      "uswap": {
+        "name": "Uswap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "valr": {
+      "valr": {
+        "name": "VALR",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "wan-bridge": {
+      "wan-bridge": {
+        "name": "Wan Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "weex": {
+      "weex": {
+        "name": "WEEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "woo-x": {
+      "woo-x": {
+        "name": "WOO X",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zkbob": {
+      "zkbob": {
+        "name": "zkBob",
+        "type": "privacy",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zklink-nova": {
+      "zklink-nova": {
+        "name": "zkLink Nova",
+        "type": "chain",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zoomex": {
+      "zoomex": {
+        "name": "Zoomex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

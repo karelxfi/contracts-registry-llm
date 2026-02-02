@@ -1,0 +1,118 @@
+{
+  "id": "sosovalue-indexes",
+  "name": "SoSoValue Indexes",
+  "type": "indexes",
+  "website": "https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "bitcoin",
+    "ethereum",
+    "solana",
+    "doge",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SoSoValue Indexes Main Contract",
+      "type": "core",
+      "description": "Main contract for SoSoValue Indexes",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-indexes",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-indexes",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-indexes",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "doge": {
+      "chain": "doge",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-indexes",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-indexes",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

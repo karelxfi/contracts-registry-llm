@@ -1,0 +1,186 @@
+{
+  "id": "charm-finance-v2",
+  "name": "Charm Finance V2",
+  "type": "liquidity manager",
+  "website": "https://alpha.charm.fi/vaults",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "berachain",
+    "katana",
+    "ethereum",
+    "arbitrum",
+    "base",
+    "polygon",
+    "blast",
+    "scroll",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Charm Finance V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Charm Finance V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "katana": {
+      "chain": "katana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/charm-finance-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

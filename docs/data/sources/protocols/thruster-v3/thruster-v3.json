@@ -1,0 +1,42 @@
+{
+  "id": "thruster-v3",
+  "name": "Thruster V3",
+  "type": "dexs",
+  "website": "https://app.thruster.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Thruster V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Thruster V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thruster-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

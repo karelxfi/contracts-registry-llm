@@ -1,0 +1,42 @@
+{
+  "id": "atomic-green",
+  "name": "Atomic Green",
+  "type": "derivatives",
+  "website": "https://atomic.green",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Atomic Green Main Contract",
+      "type": "core",
+      "description": "Main contract for Atomic Green",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atomic-green",
+      "updated": "2025-01-31"
+    }
+  }
+}

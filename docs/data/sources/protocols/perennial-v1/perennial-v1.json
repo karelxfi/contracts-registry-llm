@@ -1,0 +1,60 @@
+{
+  "id": "perennial-v1",
+  "name": "Perennial V1",
+  "type": "derivatives",
+  "website": "https://perennial.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Perennial V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Perennial V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perennial-v1",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perennial-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

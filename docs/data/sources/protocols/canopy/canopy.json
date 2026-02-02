@@ -1,0 +1,43 @@
+{
+  "id": "canopy",
+  "name": "Canopy",
+  "type": "yield aggregator",
+  "website": "https://app.canopyhub.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "movement"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Canopy Main Contract",
+      "type": "core",
+      "description": "Main contract for Canopy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "movement": {
+      "chain": "movement",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/canopy",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

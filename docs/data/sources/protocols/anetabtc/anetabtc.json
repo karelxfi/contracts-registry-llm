@@ -1,0 +1,45 @@
+{
+  "id": "anetabtc",
+  "name": "anetaBTC",
+  "type": "bridge",
+  "website": "https://anetabtc.io",
+  "github": [
+    "anetabtc"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "anetaBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for anetaBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anetabtc",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

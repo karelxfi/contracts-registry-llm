@@ -1,0 +1,42 @@
+{
+  "id": "saharadao",
+  "name": "SaharaDAO",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SaharaDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for SaharaDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/saharadao",
+      "updated": "2025-01-31"
+    }
+  }
+}

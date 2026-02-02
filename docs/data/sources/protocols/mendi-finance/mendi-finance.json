@@ -1,0 +1,44 @@
+{
+  "id": "mendi-finance",
+  "name": "Mendi Finance",
+  "type": "lending",
+  "website": "https://mendi.finance",
+  "github": [
+    "mendi-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mendi Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Mendi Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mendi-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

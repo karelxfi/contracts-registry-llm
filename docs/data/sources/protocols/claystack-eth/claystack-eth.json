@@ -1,0 +1,42 @@
+{
+  "id": "claystack-eth",
+  "name": "ClayStack ETH",
+  "type": "liquid restaking",
+  "website": "https://claystack.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ClayStack ETH Main Contract",
+      "type": "core",
+      "description": "Main contract for ClayStack ETH",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/claystack-eth",
+      "updated": "2025-01-31"
+    }
+  }
+}

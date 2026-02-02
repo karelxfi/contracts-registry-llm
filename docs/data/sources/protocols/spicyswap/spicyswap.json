@@ -1,0 +1,43 @@
+{
+  "id": "spicyswap",
+  "name": "SpicySwap",
+  "type": "dexs",
+  "website": "https://spicyswap.xyz/#/app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpicySwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SpicySwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spicyswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

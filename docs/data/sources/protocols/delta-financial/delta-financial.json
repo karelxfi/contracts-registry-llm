@@ -1,0 +1,44 @@
+{
+  "id": "delta-financial",
+  "name": "Delta Financial",
+  "type": "options",
+  "website": "https://www.delta.finance",
+  "github": [
+    "Delta-Financial"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Delta Financial Main Contract",
+      "type": "core",
+      "description": "Main contract for Delta Financial",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/delta-financial",
+      "updated": "2025-01-31"
+    }
+  }
+}

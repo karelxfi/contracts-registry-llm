@@ -1,0 +1,44 @@
+{
+  "id": "lumi-finance",
+  "name": "Lumi Finance",
+  "type": "algo-stables",
+  "website": "https://app.lumi.finance",
+  "github": [
+    "TheLandGame"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lumi Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Lumi Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lumi-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "b2-buzz",
+  "name": "B2 Buzz",
+  "type": "canonical bridge",
+  "website": "https://www.bsquared.network",
+  "github": [
+    "b2network"
+  ],
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "bitcoin",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "B2 Buzz Main Contract",
+      "type": "core",
+      "description": "Main contract for B2 Buzz",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+      "updated": "2025-01-31"
+    }
+  }
+}

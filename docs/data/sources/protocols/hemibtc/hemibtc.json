@@ -1,0 +1,43 @@
+{
+  "id": "hemibtc",
+  "name": "hemiBTC",
+  "type": "bridge",
+  "website": "https://app.hemi.xyz/en/tunnel/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "hemiBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for hemiBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hemibtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

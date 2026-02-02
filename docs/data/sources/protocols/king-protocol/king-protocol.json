@@ -1,0 +1,44 @@
+{
+  "id": "king-protocol",
+  "name": "King Protocol",
+  "type": "liquid restaking",
+  "website": "https://kingprotocol.org/",
+  "github": [
+    "King-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "King Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for King Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/king-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

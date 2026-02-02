@@ -1,0 +1,42 @@
+{
+  "id": "solera",
+  "name": "Solera",
+  "type": "lending",
+  "website": "https://app.solera.market/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solera Main Contract",
+      "type": "core",
+      "description": "Main contract for Solera",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solera",
+      "updated": "2025-01-31"
+    }
+  }
+}

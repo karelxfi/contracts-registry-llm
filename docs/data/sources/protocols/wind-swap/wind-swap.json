@@ -1,0 +1,43 @@
+{
+  "id": "wind-swap",
+  "name": "Wind Swap",
+  "type": "dexs",
+  "website": "https://windswap.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wind Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Wind Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wind-swap",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

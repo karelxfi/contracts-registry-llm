@@ -1,0 +1,101 @@
+{
+  "id": "stride",
+  "name": "Stride",
+  "type": "liquid staking",
+  "website": "https://stride.zone/",
+  "github": [
+    "Stride-Labs"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "osmosis",
+    "dydx",
+    "injective",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stride Main Contract",
+      "type": "core",
+      "description": "Main contract for Stride",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stride",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "dydx": {
+      "chain": "dydx",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stride",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stride",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stride",
+      "updated": "2025-01-31"
+    }
+  }
+}

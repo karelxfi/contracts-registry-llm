@@ -1,0 +1,78 @@
+{
+  "id": "summer.fi-pro",
+  "name": "Summer.fi Pro",
+  "type": "cdp manager",
+  "website": "https://summer.fi/earn?referralCode=2001317",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp manager",
+    "ethereum",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Summer.fi Pro Main Contract",
+      "type": "core",
+      "description": "Main contract for Summer.fi Pro",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/summer.fi-pro",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/summer.fi-pro",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/summer.fi-pro",
+      "updated": "2025-01-31"
+    }
+  }
+}

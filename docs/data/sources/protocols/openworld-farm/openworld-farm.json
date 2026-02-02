@@ -1,0 +1,42 @@
+{
+  "id": "openworld-farm",
+  "name": "OpenWorld Farm",
+  "type": "leveraged farming",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OpenWorld Farm Main Contract",
+      "type": "core",
+      "description": "Main contract for OpenWorld Farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/openworld-farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

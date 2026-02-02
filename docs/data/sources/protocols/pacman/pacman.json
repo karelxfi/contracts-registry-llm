@@ -1,0 +1,42 @@
+{
+  "id": "pacman",
+  "name": "Pacman",
+  "type": "leveraged farming",
+  "website": "https://pacman.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pacman Main Contract",
+      "type": "core",
+      "description": "Main contract for Pacman",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pacman",
+      "updated": "2025-01-31"
+    }
+  }
+}

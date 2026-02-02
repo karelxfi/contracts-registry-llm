@@ -1,0 +1,42 @@
+{
+  "id": "aso-finance",
+  "name": "Aso Finance",
+  "type": "lending",
+  "website": "https://aso.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aso Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Aso Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aso-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

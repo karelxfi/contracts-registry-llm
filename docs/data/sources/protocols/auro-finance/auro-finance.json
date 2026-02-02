@@ -1,0 +1,43 @@
+{
+  "id": "auro-finance",
+  "name": "Auro Finance",
+  "type": "cdp",
+  "website": "http://auro.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Auro Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Auro Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/auro-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

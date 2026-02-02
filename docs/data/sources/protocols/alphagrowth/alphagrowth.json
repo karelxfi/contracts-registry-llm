@@ -1,0 +1,60 @@
+{
+  "id": "alphagrowth",
+  "name": "alphagrowth",
+  "type": "risk curators",
+  "website": "https://app.euler.finance/governor/alphagrowth?network=unichain",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "base",
+    "unichain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "alphagrowth Main Contract",
+      "type": "core",
+      "description": "Main contract for alphagrowth",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphagrowth",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphagrowth",
+      "updated": "2025-01-31"
+    }
+  }
+}

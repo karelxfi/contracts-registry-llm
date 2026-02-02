@@ -1,0 +1,43 @@
+{
+  "id": "lendao",
+  "name": "Lendao",
+  "type": "lending",
+  "website": "https://lendao.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lendao Main Contract",
+      "type": "core",
+      "description": "Main contract for Lendao",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lendao",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,2412 @@
+{
+  "chain": "bitcoin",
+  "chainInfo": {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "platform": "bitcoin",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "BTC",
+      "symbol": "BTC",
+      "decimals": 8
+    },
+    "gecko_id": "bitcoin",
+    "cmcId": "1",
+    "explorers": {
+      "primary": {
+        "name": "Bitcoin Explorer",
+        "url": "https://explorer.bitcoin.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "21.co": {
+      "21.co": {
+        "name": "21.co",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ailayer-farm": {
+      "ailayer-farm": {
+        "name": "AILayer farm",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "allobtc": {
+      "allobtc": {
+        "name": "alloBTC",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "arkham-exchange": {
+      "arkham-exchange": {
+        "name": "Arkham Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "avalanche-core-bridge": {
+      "avalanche-core-bridge": {
+        "name": "Avalanche Core Bridge",
+        "type": "canonical bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "b14g": {
+      "b14g": {
+        "name": "b14g",
+        "type": "restaking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "b2-buzz": {
+      "b2-buzz": {
+        "name": "B2 Buzz",
+        "type": "canonical bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "babylon-protocol": {
+      "babylon-protocol": {
+        "name": "Babylon Protocol",
+        "type": "restaking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "backpack": {
+      "backpack": {
+        "name": "Backpack",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bake.io": {
+      "bake.io": {
+        "name": "Bake.io",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bedrock-unibtc": {
+      "bedrock-unibtc": {
+        "name": "Bedrock uniBTC",
+        "type": "anchor btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bevm": {
+      "bevm": {
+        "name": "BEVM",
+        "type": "chain",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "biconomy.com": {
+      "biconomy.com": {
+        "name": "Biconomy.com",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bigone": {
+      "bigone": {
+        "name": "BigONE",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bima-cdp": {
+      "bima-cdp": {
+        "name": "BIMA CDP",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "binance-bitcoin": {
+      "binance-bitcoin": {
+        "name": "Binance Bitcoin",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "binance-cex": {
+      "binance-cex": {
+        "name": "Binance CEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bingx": {
+      "bingx": {
+        "name": "BingX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitfinex": {
+      "bitfinex": {
+        "name": "Bitfinex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitget": {
+      "bitget": {
+        "name": "Bitget",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitget-bgbtc": {
+      "bitget-bgbtc": {
+        "name": "Bitget bgBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitkan": {
+      "bitkan": {
+        "name": "BitKan",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitkub": {
+      "bitkub": {
+        "name": "Bitkub",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitlayer-ybtc-family": {
+      "bitlayer-ybtc-family": {
+        "name": "Bitlayer YBTC Family",
+        "type": "anchor btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitlo": {
+      "bitlo": {
+        "name": "Bitlo",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitmake": {
+      "bitmake": {
+        "name": "BitMake",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitmart": {
+      "bitmart": {
+        "name": "BitMart",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitmex": {
+      "bitmex": {
+        "name": "Bitmex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitomato": {
+      "bitomato": {
+        "name": "BiTomato",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitrue": {
+      "bitrue": {
+        "name": "Bitrue",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitstable-finance": {
+      "bitstable-finance": {
+        "name": "BitStable Finance",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitstamp": {
+      "bitstamp": {
+        "name": "Bitstamp",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitty": {
+      "bitty": {
+        "name": "Bitty",
+        "type": "nft lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitunix": {
+      "bitunix": {
+        "name": "Bitunix",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bitvenus": {
+      "bitvenus": {
+        "name": "BitVenus",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blofin": {
+      "blofin": {
+        "name": "BloFin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "boringdao": {
+      "boringdao": {
+        "name": "BoringDAO",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "botanix-bridge": {
+      "botanix-bridge": {
+        "name": "Botanix Bridge",
+        "type": "canonical bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "brotocol": {
+      "brotocol": {
+        "name": "Brotocol",
+        "type": "bridge aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "btcfi-cdp": {
+      "btcfi-cdp": {
+        "name": "BTCFi CDP",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "btse": {
+      "btse": {
+        "name": "BTSE",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bybit": {
+      "bybit": {
+        "name": "Bybit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bydfi": {
+      "bydfi": {
+        "name": "BYDFi",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "byte-exchange": {
+      "byte-exchange": {
+        "name": "Byte Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "c3-exchange": {
+      "c3-exchange": {
+        "name": "C3 Exchange",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "cex.io": {
+      "cex.io": {
+        "name": "CEX.IO",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "chain-fusion": {
+      "chain-fusion": {
+        "name": "Chain Fusion",
+        "type": "decentralized btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "chakra": {
+      "chakra": {
+        "name": "Chakra",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coffer-network": {
+      "coffer-network": {
+        "name": "Coffer Network",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coin8": {
+      "coin8": {
+        "name": "Coin8",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinbase-bridge": {
+      "coinbase-bridge": {
+        "name": "Coinbase Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coindcx": {
+      "coindcx": {
+        "name": "CoinDCX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinex": {
+      "coinex": {
+        "name": "CoinEx",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinsquare": {
+      "coinsquare": {
+        "name": "Coinsquare",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "coinw": {
+      "coinw": {
+        "name": "CoinW",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "core-bitcoin-bridge": {
+      "core-bitcoin-bridge": {
+        "name": "Core Bitcoin Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "crypto-com": {
+      "crypto-com": {
+        "name": "Crypto-com",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "deribit": {
+      "deribit": {
+        "name": "Deribit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "echo-movement-bridge": {
+      "echo-movement-bridge": {
+        "name": "Echo Movement Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exmo": {
+      "exmo": {
+        "name": "Exmo",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exsat-bridge": {
+      "exsat-bridge": {
+        "name": "exSat Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exsat-staking-btc": {
+      "exsat-staking-btc": {
+        "name": "exSat Staking BTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fastex": {
+      "fastex": {
+        "name": "Fastex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fiamma": {
+      "fiamma": {
+        "name": "Fiamma",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "firi": {
+      "firi": {
+        "name": "Firi",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "flipster": {
+      "flipster": {
+        "name": "Flipster",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "function-fbtc": {
+      "function-fbtc": {
+        "name": "Function FBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate": {
+      "gate": {
+        "name": "Gate",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate-us": {
+      "gate-us": {
+        "name": "Gate US",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gemini": {
+      "gemini": {
+        "name": "Gemini",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gtbtc": {
+      "gtbtc": {
+        "name": "GTBTC",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hashkey-exchange": {
+      "hashkey-exchange": {
+        "name": "HashKey Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hashkey-global": {
+      "hashkey-global": {
+        "name": "HashKey Global",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hemibtc": {
+      "hemibtc": {
+        "name": "hemiBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hermetica-usdh": {
+      "hermetica-usdh": {
+        "name": "Hermetica USDh",
+        "type": "basis trading",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hibt": {
+      "hibt": {
+        "name": "Hibt",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hope-collateral": {
+      "hope-collateral": {
+        "name": "HOPE Collateral",
+        "type": "basis trading",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hotbit": {
+      "hotbit": {
+        "name": "Hotbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hotcoin": {
+      "hotcoin": {
+        "name": "Hotcoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "htx": {
+      "htx": {
+        "name": "HTX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ibtc-network": {
+      "ibtc-network": {
+        "name": "iBTC Network",
+        "type": "decentralized btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "indodax": {
+      "indodax": {
+        "name": "Indodax",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "jbtc": {
+      "jbtc": {
+        "name": "jBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "klever-exchange": {
+      "klever-exchange": {
+        "name": "Klever Exchange",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "korbit": {
+      "korbit": {
+        "name": "Korbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kraken": {
+      "kraken": {
+        "name": "Kraken",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kraken-bitcoin": {
+      "kraken-bitcoin": {
+        "name": "Kraken Bitcoin",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kucoin": {
+      "kucoin": {
+        "name": "KuCoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "latoken": {
+      "latoken": {
+        "name": "Latoken",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lbank": {
+      "lbank": {
+        "name": "LBank",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "leadfi-leadbtc": {
+      "leadfi-leadbtc": {
+        "name": "LeadFi leadBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "levex": {
+      "levex": {
+        "name": "LeveX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lightning-network": {
+      "lightning-network": {
+        "name": "Lightning Network",
+        "type": "payments",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lisa-btc-lst": {
+      "lisa-btc-lst": {
+        "name": "LISA BTC LST",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lombard-btc.b": {
+      "lombard-btc.b": {
+        "name": "Lombard BTC.b",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lombard-lbtc": {
+      "lombard-lbtc": {
+        "name": "Lombard LBTC",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lorenzo-enzobtc": {
+      "lorenzo-enzobtc": {
+        "name": "Lorenzo enzoBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lorenzo-stbtc": {
+      "lorenzo-stbtc": {
+        "name": "Lorenzo stBTC",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "magic-eden": {
+      "magic-eden": {
+        "name": "Magic Eden",
+        "type": "nft marketplace",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "maskex": {
+      "maskex": {
+        "name": "MaskEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "maya-protocol": {
+      "maya-protocol": {
+        "name": "Maya Protocol",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mento": {
+      "mento": {
+        "name": "Mento",
+        "type": "algo-stables",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "merlins-seal": {
+      "merlins-seal": {
+        "name": "Merlins Seal",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mexc": {
+      "mexc": {
+        "name": "MEXC",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "midas-rwa": {
+      "midas-rwa": {
+        "name": "Midas RWA",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "multibit-protocol": {
+      "multibit-protocol": {
+        "name": "MultiBit Protocol",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nbx": {
+      "nbx": {
+        "name": "NBX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "near-intents": {
+      "near-intents": {
+        "name": "NEAR Intents",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nervebridge": {
+      "nervebridge": {
+        "name": "NerveBridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nexus-btc": {
+      "nexus-btc": {
+        "name": "Nexus BTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "obeliskbtc": {
+      "obeliskbtc": {
+        "name": "ObeliskBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "okcoin": {
+      "okcoin": {
+        "name": "Okcoin",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "okx": {
+      "okx": {
+        "name": "OKX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "okx-xbtc": {
+      "okx-xbtc": {
+        "name": "OKX xBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "orangex": {
+      "orangex": {
+        "name": "OrangeX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "osl": {
+      "osl": {
+        "name": "OSL",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "osl-hk": {
+      "osl-hk": {
+        "name": "OSL HK",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ourbit": {
+      "ourbit": {
+        "name": "Ourbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "p2pb2b": {
+      "p2pb2b": {
+        "name": "P2PB2B",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "phemex": {
+      "phemex": {
+        "name": "Phemex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pionex": {
+      "pionex": {
+        "name": "Pionex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "probit-global": {
+      "probit-global": {
+        "name": "ProBit Global",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pstake-btc": {
+      "pstake-btc": {
+        "name": "pSTAKE BTC",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pumpbtc": {
+      "pumpbtc": {
+        "name": "PumpBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "river-omni-cdp": {
+      "river-omni-cdp": {
+        "name": "River Omni-CDP",
+        "type": "cedefi",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "robinhood": {
+      "robinhood": {
+        "name": "Robinhood",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rosen-bridge": {
+      "rosen-bridge": {
+        "name": "Rosen Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "roup": {
+      "roup": {
+        "name": "ROUP",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rsk-bridge": {
+      "rsk-bridge": {
+        "name": "RSK Bridge",
+        "type": "canonical bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sodex-bridge": {
+      "sodex-bridge": {
+        "name": "SoDEX Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "solvbtc": {
+      "solvbtc": {
+        "name": "SolvBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "solvbtc-lsts": {
+      "solvbtc-lsts": {
+        "name": "SolvBTC LSTs",
+        "type": "restaked btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sosovalue-indexes": {
+      "sosovalue-indexes": {
+        "name": "SoSoValue Indexes",
+        "type": "indexes",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stacks-sbtc": {
+      "stacks-sbtc": {
+        "name": "Stacks sBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stroom": {
+      "stroom": {
+        "name": "Stroom",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "swissborg": {
+      "swissborg": {
+        "name": "SwissBorg",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tapbit": {
+      "tapbit": {
+        "name": "Tapbit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tbtc": {
+      "tbtc": {
+        "name": "tBTC",
+        "type": "decentralized btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "teleswap": {
+      "teleswap": {
+        "name": "TeleSwap",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "templar-protocol": {
+      "templar-protocol": {
+        "name": "Templar Protocol",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "the-tokenized-bitcoin": {
+      "the-tokenized-bitcoin": {
+        "name": "The Tokenized Bitcoin",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thorchain-dex": {
+      "thorchain-dex": {
+        "name": "Thorchain DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "toobit": {
+      "toobit": {
+        "name": "Toobit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tothemoon": {
+      "tothemoon": {
+        "name": "Tothemoon",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tzbtc": {
+      "tzbtc": {
+        "name": "tzBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "unit": {
+      "unit": {
+        "name": "Unit",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "valr": {
+      "valr": {
+        "name": "VALR",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vaultlayer": {
+      "vaultlayer": {
+        "name": "VaultLayer",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vishwa": {
+      "vishwa": {
+        "name": "Vishwa",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "wan-bridge": {
+      "wan-bridge": {
+        "name": "Wan Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "wbtc": {
+      "wbtc": {
+        "name": "WBTC",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "weex": {
+      "weex": {
+        "name": "WEEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "woo-x": {
+      "woo-x": {
+        "name": "WOO X",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "xrgb": {
+      "xrgb": {
+        "name": "XRGB",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yala": {
+      "yala": {
+        "name": "Yala",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yusan": {
+      "yusan": {
+        "name": "Yusan",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zenrock-bridge": {
+      "zenrock-bridge": {
+        "name": "Zenrock Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zeus-network": {
+      "zeus-network": {
+        "name": "Zeus Network",
+        "type": "decentralized btc",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zoomex": {
+      "zoomex": {
+        "name": "Zoomex",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

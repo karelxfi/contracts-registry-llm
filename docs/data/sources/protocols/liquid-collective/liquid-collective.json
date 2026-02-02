@@ -1,0 +1,42 @@
+{
+  "id": "liquid-collective",
+  "name": "Liquid Collective",
+  "type": "liquid staking",
+  "website": "https://liquidcollective.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Liquid Collective Main Contract",
+      "type": "core",
+      "description": "Main contract for Liquid Collective",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquid-collective",
+      "updated": "2025-01-31"
+    }
+  }
+}

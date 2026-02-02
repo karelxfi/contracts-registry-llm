@@ -1,0 +1,102 @@
+{
+  "chain": "bifrost-network",
+  "chainInfo": {
+    "id": "bifrost-network",
+    "name": "Bifrost Network",
+    "platform": "evm",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "BFC",
+      "symbol": "BFC",
+      "decimals": 18
+    },
+    "gecko_id": "bifrost",
+    "cmcId": "7817",
+    "explorers": {
+      "primary": {
+        "name": "Bifrost Network Explorer",
+        "url": "https://explorer.bifrost-network.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "bifi": {
+      "bifi": {
+        "name": "BiFi",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "biquid": {
+      "biquid": {
+        "name": "Biquid",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "btcfi-cdp": {
+      "btcfi-cdp": {
+        "name": "BTCFi CDP",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "btcfi-farm": {
+      "btcfi-farm": {
+        "name": "BTCFi Farm",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "everdex": {
+      "everdex": {
+        "name": "Everdex",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

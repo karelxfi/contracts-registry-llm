@@ -1,0 +1,44 @@
+{
+  "id": "liquid-ron",
+  "name": "Liquid Ron",
+  "type": "liquid staking",
+  "website": "https://www.liquidron.com/",
+  "github": [
+    "OwlOfMoistness"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ronin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Liquid Ron Main Contract",
+      "type": "core",
+      "description": "Main contract for Liquid Ron",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ronin": {
+      "chain": "ronin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquid-ron",
+      "updated": "2025-01-31"
+    }
+  }
+}

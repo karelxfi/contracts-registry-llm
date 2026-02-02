@@ -1,0 +1,42 @@
+{
+  "id": "goldminer",
+  "name": "GoldMiner",
+  "type": "ponzi",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "ponzi",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GoldMiner Main Contract",
+      "type": "core",
+      "description": "Main contract for GoldMiner",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goldminer",
+      "updated": "2025-01-31"
+    }
+  }
+}

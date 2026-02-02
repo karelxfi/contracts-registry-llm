@@ -1,0 +1,42 @@
+{
+  "id": "sophon-farm",
+  "name": "Sophon Farm",
+  "type": "chain",
+  "website": "https://farm.sophon.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "chain",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sophon Farm Main Contract",
+      "type": "core",
+      "description": "Main contract for Sophon Farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sophon-farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

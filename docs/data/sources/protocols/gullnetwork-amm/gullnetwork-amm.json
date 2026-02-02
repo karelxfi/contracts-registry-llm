@@ -1,0 +1,42 @@
+{
+  "id": "gullnetwork-amm",
+  "name": "GullNetwork AMM",
+  "type": "dexs",
+  "website": "https://www.gullnetwork.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GullNetwork AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for GullNetwork AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gullnetwork-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

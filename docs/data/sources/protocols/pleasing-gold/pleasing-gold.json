@@ -1,0 +1,42 @@
+{
+  "id": "pleasing-gold",
+  "name": "Pleasing Gold",
+  "type": "rwa",
+  "website": "https://www.pleasinggold.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pleasing Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for Pleasing Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pleasing-gold",
+      "updated": "2025-01-31"
+    }
+  }
+}

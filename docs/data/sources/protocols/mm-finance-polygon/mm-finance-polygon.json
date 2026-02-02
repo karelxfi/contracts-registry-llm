@@ -1,0 +1,42 @@
+{
+  "id": "mm-finance-polygon",
+  "name": "MM Finance Polygon",
+  "type": "dexs",
+  "website": "https://polymm.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MM Finance Polygon Main Contract",
+      "type": "core",
+      "description": "Main contract for MM Finance Polygon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mm-finance-polygon",
+      "updated": "2025-01-31"
+    }
+  }
+}

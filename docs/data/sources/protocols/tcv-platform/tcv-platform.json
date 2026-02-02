@@ -1,0 +1,42 @@
+{
+  "id": "tcv-platform",
+  "name": "TCV Platform",
+  "type": "liquidity manager",
+  "website": "https://tcvault.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TCV Platform Main Contract",
+      "type": "core",
+      "description": "Main contract for TCV Platform",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tcv-platform",
+      "updated": "2025-01-31"
+    }
+  }
+}

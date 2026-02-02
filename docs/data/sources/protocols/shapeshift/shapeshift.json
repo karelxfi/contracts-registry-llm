@@ -1,0 +1,80 @@
+{
+  "id": "shapeshift",
+  "name": "ShapeShift",
+  "type": "dexs",
+  "website": "https://shapeshift.com",
+  "github": [
+    "shapeshift"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ShapeShift Main Contract",
+      "type": "core",
+      "description": "Main contract for ShapeShift",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shapeshift",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shapeshift",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shapeshift",
+      "updated": "2025-01-31"
+    }
+  }
+}

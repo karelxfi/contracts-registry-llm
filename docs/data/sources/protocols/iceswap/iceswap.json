@@ -1,0 +1,42 @@
+{
+  "id": "iceswap",
+  "name": "IceSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "IceSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for IceSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iceswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

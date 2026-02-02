@@ -1,0 +1,42 @@
+{
+  "id": "superlend",
+  "name": "Superlend",
+  "type": "lending",
+  "website": "https://www.superlend.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "etherlink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Superlend Main Contract",
+      "type": "core",
+      "description": "Main contract for Superlend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "etherlink": {
+      "chain": "etherlink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superlend",
+      "updated": "2025-01-31"
+    }
+  }
+}

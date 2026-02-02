@@ -1,0 +1,96 @@
+{
+  "id": "dexvaults",
+  "name": "dexVAULTS",
+  "type": "yield",
+  "website": "https://www.dexfinance.com/vaults",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "base",
+    "manta",
+    "arbitrum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "dexVAULTS Main Contract",
+      "type": "core",
+      "description": "Main contract for dexVAULTS",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexvaults",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexvaults",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexvaults",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexvaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

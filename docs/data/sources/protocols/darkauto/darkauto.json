@@ -1,0 +1,42 @@
+{
+  "id": "darkauto",
+  "name": "DarkAuto",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DarkAuto Main Contract",
+      "type": "core",
+      "description": "Main contract for DarkAuto",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/darkauto",
+      "updated": "2025-01-31"
+    }
+  }
+}

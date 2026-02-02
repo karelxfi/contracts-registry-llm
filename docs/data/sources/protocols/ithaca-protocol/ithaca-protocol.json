@@ -1,0 +1,44 @@
+{
+  "id": "ithaca-protocol",
+  "name": "Ithaca Protocol",
+  "type": "options",
+  "website": "https://www.ithacaprotocol.io",
+  "github": [
+    "ithaca-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ithaca Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Ithaca Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ithaca-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

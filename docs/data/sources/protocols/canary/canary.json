@@ -1,0 +1,62 @@
+{
+  "id": "canary",
+  "name": "Canary",
+  "type": "dexs",
+  "website": "https://canary.exchange",
+  "github": [
+    "canarydex"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Canary Main Contract",
+      "type": "core",
+      "description": "Main contract for Canary",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/canary",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/canary",
+      "updated": "2025-01-31"
+    }
+  }
+}

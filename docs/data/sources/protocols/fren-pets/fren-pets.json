@@ -1,0 +1,42 @@
+{
+  "id": "fren-pets",
+  "name": "Fren Pets",
+  "type": "gaming",
+  "website": "https://frenpet.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fren Pets Main Contract",
+      "type": "core",
+      "description": "Main contract for Fren Pets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fren-pets",
+      "updated": "2025-01-31"
+    }
+  }
+}

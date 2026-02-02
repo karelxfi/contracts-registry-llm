@@ -1,0 +1,42 @@
+{
+  "id": "currentx",
+  "name": "CurrentX",
+  "type": "dexs",
+  "website": "https://currentx.app/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "megaeth"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CurrentX Main Contract",
+      "type": "core",
+      "description": "Main contract for CurrentX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "megaeth": {
+      "chain": "megaeth",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/currentx",
+      "updated": "2025-01-31"
+    }
+  }
+}

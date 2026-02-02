@@ -1,0 +1,42 @@
+{
+  "id": "flat-money-v1",
+  "name": "Flat Money V1",
+  "type": "partially algorithmic stablecoin",
+  "website": "https://flat.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "partially algorithmic stablecoin",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Flat Money V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Flat Money V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flat-money-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cryptex-v2",
+  "name": "Cryptex V2",
+  "type": "derivatives",
+  "website": "https://v2.cryptex.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cryptex V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Cryptex V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cryptex-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

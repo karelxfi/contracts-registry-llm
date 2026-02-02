@@ -1,0 +1,42 @@
+{
+  "id": "cron-finance",
+  "name": "Cron Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cron Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Cron Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cron-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

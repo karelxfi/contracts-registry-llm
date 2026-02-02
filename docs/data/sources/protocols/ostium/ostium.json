@@ -1,0 +1,44 @@
+{
+  "id": "ostium",
+  "name": "Ostium",
+  "type": "derivatives",
+  "website": "https://www.ostium.io/",
+  "github": [
+    "0xOstium"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ostium Main Contract",
+      "type": "core",
+      "description": "Main contract for Ostium",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ostium",
+      "updated": "2025-01-31"
+    }
+  }
+}

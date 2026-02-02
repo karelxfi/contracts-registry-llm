@@ -1,0 +1,42 @@
+{
+  "id": "sumswap",
+  "name": "SumSwap",
+  "type": "dexs",
+  "website": "https://www.sumswap.org/#/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SumSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SumSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sumswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

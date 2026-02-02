@@ -1,0 +1,42 @@
+{
+  "id": "apy-finance",
+  "name": "APY Finance",
+  "type": "yield",
+  "website": "https://apy.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "APY Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for APY Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apy-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

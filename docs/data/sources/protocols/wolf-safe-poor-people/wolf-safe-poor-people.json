@@ -1,0 +1,60 @@
+{
+  "id": "wolf-safe-poor-people",
+  "name": "Wolf Safe Poor People",
+  "type": "yield",
+  "website": "https://wolfsafepoorpeople.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wolf Safe Poor People Main Contract",
+      "type": "core",
+      "description": "Main contract for Wolf Safe Poor People",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wolf-safe-poor-people",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wolf-safe-poor-people",
+      "updated": "2025-01-31"
+    }
+  }
+}

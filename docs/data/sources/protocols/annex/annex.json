@@ -1,0 +1,62 @@
+{
+  "id": "annex",
+  "name": "Annex",
+  "type": "lending",
+  "website": "https://www.annex.finance",
+  "github": [
+    "annexfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "cronos",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Annex Main Contract",
+      "type": "core",
+      "description": "Main contract for Annex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/annex",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/annex",
+      "updated": "2025-01-31"
+    }
+  }
+}

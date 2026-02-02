@@ -1,0 +1,42 @@
+{
+  "id": "beracaine",
+  "name": "Beracaine",
+  "type": "dexs",
+  "website": "https://www.beracaine.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Beracaine Main Contract",
+      "type": "core",
+      "description": "Main contract for Beracaine",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beracaine",
+      "updated": "2025-01-31"
+    }
+  }
+}

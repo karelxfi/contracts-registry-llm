@@ -1,0 +1,81 @@
+{
+  "id": "railgun",
+  "name": "Railgun",
+  "type": "privacy",
+  "website": "https://railgun.org",
+  "github": [
+    "Railgun-Privacy",
+    "Railgun-Community"
+  ],
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Railgun Main Contract",
+      "type": "core",
+      "description": "Main contract for Railgun",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/railgun",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/railgun",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/railgun",
+      "updated": "2025-01-31"
+    }
+  }
+}

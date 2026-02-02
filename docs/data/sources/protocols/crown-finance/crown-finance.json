@@ -1,0 +1,42 @@
+{
+  "id": "crown-finance",
+  "name": "Crown Finance",
+  "type": "yield aggregator",
+  "website": "https://www.crownfinance.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crown Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Crown Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crown-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

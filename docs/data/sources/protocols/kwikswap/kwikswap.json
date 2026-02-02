@@ -1,0 +1,62 @@
+{
+  "id": "kwikswap",
+  "name": "KwikSwap",
+  "type": "dexs",
+  "website": "https://home.kwikswap.org",
+  "github": [
+    "kwikswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KwikSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for KwikSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kwikswap",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kwikswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

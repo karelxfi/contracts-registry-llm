@@ -1,0 +1,42 @@
+{
+  "id": "bitswap",
+  "name": "BitSwap",
+  "type": "cross chain bridge",
+  "website": "https://bitswap.site",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cross chain bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for BitSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

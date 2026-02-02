@@ -1,0 +1,62 @@
+{
+  "id": "orange-finance",
+  "name": "Orange Finance",
+  "type": "liquidity manager",
+  "website": "https://www.orangefinance.io",
+  "github": [
+    "orange-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "arbitrum",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Orange Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Orange Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/orange-finance",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/orange-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

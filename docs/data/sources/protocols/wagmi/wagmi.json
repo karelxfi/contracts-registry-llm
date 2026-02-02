@@ -1,0 +1,116 @@
+{
+  "id": "wagmi",
+  "name": "WAGMI",
+  "type": "dexs",
+  "website": "https://wagmi.com/",
+  "github": [
+    "wagmi-dev"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic",
+    "kava",
+    "metis",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WAGMI Main Contract",
+      "type": "core",
+      "description": "Main contract for WAGMI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wagmi",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wagmi",
+      "updated": "2025-01-31"
+    },
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wagmi",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wagmi",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wagmi",
+      "updated": "2025-01-31"
+    }
+  }
+}

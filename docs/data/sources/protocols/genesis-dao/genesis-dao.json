@@ -1,0 +1,44 @@
+{
+  "id": "genesis-dao",
+  "name": "Genesis DAO",
+  "type": "farm",
+  "website": "https://www.genesisdao.io",
+  "github": [
+    "0xGenesisDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Genesis DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Genesis DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/genesis-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

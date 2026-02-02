@@ -1,0 +1,42 @@
+{
+  "id": "paal-ai",
+  "name": "PAAL AI",
+  "type": "telegram bot",
+  "website": "https://paalai.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "telegram bot",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PAAL AI Main Contract",
+      "type": "core",
+      "description": "Main contract for PAAL AI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paal-ai",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "category": "options vault",
+  "protocols": {
+    "3jane-options": {
+      "3jane-options": {
+        "name": "3jane Options",
+        "contracts": {
+          "main": {
+            "name": "3jane Options Main Contract",
+            "type": "core",
+            "description": "Main contract for 3jane Options",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/3jane-options",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "aeria": {
+      "aeria": {
+        "name": "Aeria",
+        "contracts": {
+          "main": {
+            "name": "Aeria Main Contract",
+            "type": "core",
+            "description": "Main contract for Aeria",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aeria",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "algorai-finance": {
+      "algorai-finance": {
+        "name": "AlgoRai Finance",
+        "contracts": {
+          "main": {
+            "name": "AlgoRai Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for AlgoRai Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "algorand": {
+            "chain": "algorand",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/algorai-finance",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "chest-finance": {
+      "chest-finance": {
+        "name": "Chest Finance",
+        "contracts": {
+          "main": {
+            "name": "Chest Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Chest Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chest-finance",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "dvol": {
+      "dvol": {
+        "name": "dVOL",
+        "contracts": {
+          "main": {
+            "name": "dVOL Main Contract",
+            "type": "core",
+            "description": "Main contract for dVOL",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dvol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "friktion": {
+      "friktion": {
+        "name": "Friktion",
+        "contracts": {
+          "main": {
+            "name": "Friktion Main Contract",
+            "type": "core",
+            "description": "Main contract for Friktion",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/friktion",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "grappa-finance": {
+      "grappa-finance": {
+        "name": "Grappa Finance",
+        "contracts": {
+          "main": {
+            "name": "Grappa Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Grappa Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/grappa-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "katana": {
+      "katana": {
+        "name": "Katana",
+        "contracts": {
+          "main": {
+            "name": "Katana Main Contract",
+            "type": "core",
+            "description": "Main contract for Katana",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/katana",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "moret": {
+      "moret": {
+        "name": "Moret",
+        "contracts": {
+          "main": {
+            "name": "Moret Main Contract",
+            "type": "core",
+            "description": "Main contract for Moret",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/moret",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "olive": {
+      "olive": {
+        "name": "Olive",
+        "contracts": {
+          "main": {
+            "name": "Olive Main Contract",
+            "type": "core",
+            "description": "Main contract for Olive",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/olive",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/olive",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/olive",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ribbon": {
+      "ribbon": {
+        "name": "Ribbon",
+        "contracts": {
+          "main": {
+            "name": "Ribbon Main Contract",
+            "type": "core",
+            "description": "Main contract for Ribbon",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ribbon",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ribbon",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ribbon",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "silo-protocol": {
+      "silo-protocol": {
+        "name": "Silo Protocol",
+        "contracts": {
+          "main": {
+            "name": "Silo Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Silo Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "algorand": {
+            "chain": "algorand",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/silo-protocol",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "spin-dov": {
+      "spin-dov": {
+        "name": "Spin DOV",
+        "contracts": {
+          "main": {
+            "name": "Spin DOV Main Contract",
+            "type": "core",
+            "description": "Main contract for Spin DOV",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "near": {
+            "chain": "near",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/spin-dov",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "tivel-finance": {
+      "tivel-finance": {
+        "name": "Tivel Finance",
+        "contracts": {
+          "main": {
+            "name": "Tivel Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Tivel Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tivel-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "typus-dov": {
+      "typus-dov": {
+        "name": "Typus DOV",
+        "contracts": {
+          "main": {
+            "name": "Typus DOV Main Contract",
+            "type": "core",
+            "description": "Main contract for Typus DOV",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/typus-dov",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "valorem": {
+      "valorem": {
+        "name": "Valorem",
+        "contracts": {
+          "main": {
+            "name": "Valorem Main Contract",
+            "type": "core",
+            "description": "Main contract for Valorem",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/valorem",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

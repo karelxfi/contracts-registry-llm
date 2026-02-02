@@ -1,0 +1,42 @@
+{
+  "id": "gt3",
+  "name": "GT3",
+  "type": "dexs",
+  "website": "https://gt3.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GT3 Main Contract",
+      "type": "core",
+      "description": "Main contract for GT3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gt3",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "pearl-v1",
+  "name": "Pearl V1",
+  "type": "dexs",
+  "website": "https://www.pearl.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pearl V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Pearl V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pearl-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "robots.farm",
+  "name": "Robots.Farm",
+  "type": "gaming",
+  "website": "https://robots.farm",
+  "github": [
+    "pratokol"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Robots.Farm Main Contract",
+      "type": "core",
+      "description": "Main contract for Robots.Farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/robots.farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bracket-lst",
+  "name": "Bracket LST",
+  "type": "liquid staking",
+  "website": "https://app.bracket.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bracket LST Main Contract",
+      "type": "core",
+      "description": "Main contract for Bracket LST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bracket-lst",
+      "updated": "2025-01-31"
+    }
+  }
+}

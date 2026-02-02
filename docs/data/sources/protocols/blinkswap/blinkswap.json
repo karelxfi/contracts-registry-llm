@@ -1,0 +1,42 @@
+{
+  "id": "blinkswap",
+  "name": "Blinkswap",
+  "type": "dexs",
+  "website": "https://blinkswap.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blinkswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Blinkswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blinkswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "mstable-cdp",
+  "name": "mStable CDP",
+  "type": "cdp",
+  "website": "https://mstable.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "mStable CDP Main Contract",
+      "type": "core",
+      "description": "Main contract for mStable CDP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mstable-cdp",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mstable-cdp",
+      "updated": "2025-01-31"
+    }
+  }
+}

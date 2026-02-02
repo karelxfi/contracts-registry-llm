@@ -1,0 +1,95 @@
+{
+  "chain": "rollux",
+  "chainInfo": {
+    "id": "rollux",
+    "name": "Rollux",
+    "platform": "evm",
+    "status": "active",
+    "explorers": {
+      "primary": {
+        "name": "Rollux Explorer",
+        "url": "https://explorer.rollux.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "chainge-finance": {
+      "chainge-finance": {
+        "name": "Chainge Finance",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gamma": {
+      "gamma": {
+        "name": "Gamma",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lunos": {
+      "lunos": {
+        "name": "Lunos",
+        "type": "insurance",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pegasys-v3": {
+      "pegasys-v3": {
+        "name": "PegaSys V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "superdapp": {
+      "superdapp": {
+        "name": "SuperDapp",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

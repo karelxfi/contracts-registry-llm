@@ -1,0 +1,43 @@
+{
+  "id": "hydro-lsd-fi",
+  "name": "Hydro LSD-Fi",
+  "type": "yield",
+  "website": "https://app.hydroprotocol.finance/lsdFi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hydro LSD-Fi Main Contract",
+      "type": "core",
+      "description": "Main contract for Hydro LSD-Fi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hydro-lsd-fi",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

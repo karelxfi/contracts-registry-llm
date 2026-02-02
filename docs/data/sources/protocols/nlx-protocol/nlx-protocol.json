@@ -1,0 +1,44 @@
+{
+  "id": "nlx-protocol",
+  "name": "NLX Protocol",
+  "type": "derivatives",
+  "website": "https://nlx.trade/",
+  "github": [
+    "NLX-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NLX Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for NLX Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nlx-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

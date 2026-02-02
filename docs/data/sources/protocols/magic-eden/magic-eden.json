@@ -1,0 +1,116 @@
+{
+  "id": "magic-eden",
+  "name": "Magic Eden",
+  "type": "nft marketplace",
+  "website": "https://magiceden.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "bitcoin",
+    "solana",
+    "arbitrum",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Magic Eden Main Contract",
+      "type": "core",
+      "description": "Main contract for Magic Eden",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-eden",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-eden",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-eden",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-eden",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-eden",
+      "updated": "2025-01-31"
+    }
+  }
+}

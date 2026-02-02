@@ -1,0 +1,96 @@
+{
+  "id": "yearn-curating",
+  "name": "Yearn Curating",
+  "type": "risk curators",
+  "website": "https://yearn.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "katana",
+    "ethereum",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yearn Curating Main Contract",
+      "type": "core",
+      "description": "Main contract for Yearn Curating",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "katana": {
+      "chain": "katana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yearn-curating",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yearn-curating",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yearn-curating",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yearn-curating",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "polyquail",
+  "name": "Polyquail",
+  "type": "yield",
+  "website": "https://www.polyquail.finance",
+  "github": [
+    "polyquail-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polyquail Main Contract",
+      "type": "core",
+      "description": "Main contract for Polyquail",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polyquail",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "manhattan",
+  "name": "Manhattan",
+  "type": "yield",
+  "website": "https://manhattan.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Manhattan Main Contract",
+      "type": "core",
+      "description": "Main contract for Manhattan",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/manhattan",
+      "updated": "2025-01-31"
+    }
+  }
+}

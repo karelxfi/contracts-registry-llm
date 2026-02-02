@@ -1,0 +1,44 @@
+{
+  "id": "dinoswap",
+  "name": "DinoSwap",
+  "type": "dexs",
+  "website": "https://dinoswap.exchange",
+  "github": [
+    "DinoSwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DinoSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for DinoSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dinoswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

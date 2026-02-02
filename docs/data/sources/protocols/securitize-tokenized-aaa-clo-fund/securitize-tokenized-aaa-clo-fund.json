@@ -1,0 +1,42 @@
+{
+  "id": "securitize-tokenized-aaa-clo-fund",
+  "name": "Securitize Tokenized AAA CLO Fund",
+  "type": "rwa",
+  "website": "https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/securitize-launches-tokenized-aaa-clo-fund-with-services-provided-by-bny-bringing-institutional-structured-credit-on-chain.html",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Securitize Tokenized AAA CLO Fund Main Contract",
+      "type": "core",
+      "description": "Main contract for Securitize Tokenized AAA CLO Fund",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/securitize-tokenized-aaa-clo-fund",
+      "updated": "2025-01-31"
+    }
+  }
+}

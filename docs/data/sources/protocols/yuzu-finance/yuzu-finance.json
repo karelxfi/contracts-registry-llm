@@ -1,0 +1,45 @@
+{
+  "id": "yuzu-finance",
+  "name": "Yuzu Finance",
+  "type": "dexs",
+  "website": "https://app.yuzu.finance/",
+  "github": [
+    "YuzuFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "movement"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yuzu Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Yuzu Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "movement": {
+      "chain": "movement",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yuzu-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

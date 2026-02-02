@@ -1,0 +1,60 @@
+{
+  "id": "multi-chain-miner",
+  "name": "Multi-Chain Miner",
+  "type": "ponzi",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "ponzi",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Multi-Chain Miner Main Contract",
+      "type": "core",
+      "description": "Main contract for Multi-Chain Miner",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/multi-chain-miner",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/multi-chain-miner",
+      "updated": "2025-01-31"
+    }
+  }
+}

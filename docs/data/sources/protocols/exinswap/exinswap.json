@@ -1,0 +1,43 @@
+{
+  "id": "exinswap",
+  "name": "ExinSwap",
+  "type": "dexs",
+  "website": "https://app.exinswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ExinSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ExinSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/exinswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

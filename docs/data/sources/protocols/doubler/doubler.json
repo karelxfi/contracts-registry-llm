@@ -1,0 +1,60 @@
+{
+  "id": "doubler",
+  "name": "Doubler",
+  "type": "derivatives",
+  "website": "https://doubler.pro/#/home",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Doubler Main Contract",
+      "type": "core",
+      "description": "Main contract for Doubler",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/doubler",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/doubler",
+      "updated": "2025-01-31"
+    }
+  }
+}

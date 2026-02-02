@@ -1,0 +1,432 @@
+{
+  "chain": "stellar",
+  "chainInfo": {
+    "id": "stellar",
+    "name": "Stellar",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "XLM",
+      "symbol": "XLM",
+      "decimals": 8
+    },
+    "gecko_id": "stellar",
+    "cmcId": "512",
+    "explorers": {
+      "primary": {
+        "name": "Stellar Explorer",
+        "url": "https://explorer.stellar.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "allbridge-core": {
+      "allbridge-core": {
+        "name": "Allbridge Core",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "aquarius-stellar": {
+      "aquarius-stellar": {
+        "name": "Aquarius Stellar",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "balanced-exchange": {
+      "balanced-exchange": {
+        "name": "Balanced Exchange",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "binance-cex": {
+      "binance-cex": {
+        "name": "Binance CEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blend-backstop": {
+      "blend-backstop": {
+        "name": "Blend Backstop",
+        "type": "insurance",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blend-backstop-v2": {
+      "blend-backstop-v2": {
+        "name": "Blend Backstop V2",
+        "type": "insurance",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blend-pools": {
+      "blend-pools": {
+        "name": "Blend Pools",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "blend-pools-v2": {
+      "blend-pools-v2": {
+        "name": "Blend Pools V2",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "cex.io": {
+      "cex.io": {
+        "name": "CEX.IO",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "etherfuse": {
+      "etherfuse": {
+        "name": "Etherfuse",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "excellar": {
+      "excellar": {
+        "name": "Excellar",
+        "type": "basis trading",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fxdao": {
+      "fxdao": {
+        "name": "FxDAO",
+        "type": "partially algorithmic stablecoin",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate-us": {
+      "gate-us": {
+        "name": "Gate US",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "indodax": {
+      "indodax": {
+        "name": "Indodax",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lumenswap": {
+      "lumenswap": {
+        "name": "LumenSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "near-intents": {
+      "near-intents": {
+        "name": "NEAR Intents",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ondo-yield-assets": {
+      "ondo-yield-assets": {
+        "name": "Ondo Yield Assets",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "osl": {
+      "osl": {
+        "name": "OSL",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "phoenix-defi-hub": {
+      "phoenix-defi-hub": {
+        "name": "Phoenix DeFi Hub",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "scopuly": {
+      "scopuly": {
+        "name": "Scopuly",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "soroswap": {
+      "soroswap": {
+        "name": "Soroswap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "spiko": {
+      "spiko": {
+        "name": "Spiko",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stellar-dex": {
+      "stellar-dex": {
+        "name": "Stellar DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "swissborg": {
+      "swissborg": {
+        "name": "SwissBorg",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "templar-protocol": {
+      "templar-protocol": {
+        "name": "Templar Protocol",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vnx": {
+      "vnx": {
+        "name": "VNX",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "wisdomtree": {
+      "wisdomtree": {
+        "name": "WisdomTree",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

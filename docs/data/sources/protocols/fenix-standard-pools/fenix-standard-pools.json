@@ -1,0 +1,42 @@
+{
+  "id": "fenix-standard-pools",
+  "name": "Fenix Standard Pools",
+  "type": "dexs",
+  "website": "https://www.fenixfinance.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fenix Standard Pools Main Contract",
+      "type": "core",
+      "description": "Main contract for Fenix Standard Pools",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fenix-standard-pools",
+      "updated": "2025-01-31"
+    }
+  }
+}

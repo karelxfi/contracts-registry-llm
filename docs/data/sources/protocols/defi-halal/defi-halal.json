@@ -1,0 +1,42 @@
+{
+  "id": "defi-halal",
+  "name": "Defi Halal",
+  "type": "cdp",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Defi Halal Main Contract",
+      "type": "core",
+      "description": "Main contract for Defi Halal",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi-halal",
+      "updated": "2025-01-31"
+    }
+  }
+}

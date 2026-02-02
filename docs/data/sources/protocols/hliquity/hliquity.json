@@ -1,0 +1,43 @@
+{
+  "id": "hliquity",
+  "name": "HLiquity",
+  "type": "cdp",
+  "website": "https://hliquity.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "hedera"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HLiquity Main Contract",
+      "type": "core",
+      "description": "Main contract for HLiquity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hedera": {
+      "chain": "hedera",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hliquity",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

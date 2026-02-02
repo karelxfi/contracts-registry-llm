@@ -1,0 +1,43 @@
+{
+  "id": "defituna-lending",
+  "name": "DefiTuna Lending",
+  "type": "lending",
+  "website": "https://defituna.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DefiTuna Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for DefiTuna Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defituna-lending",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

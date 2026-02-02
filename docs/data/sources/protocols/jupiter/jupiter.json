@@ -1,0 +1,76 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "type": "dex-aggregator",
+  "status": "complete",
+  "website": "https://jup.ag",
+  "github": "https://github.com/jup-ag",
+  "docs": "https://dev.jup.ag",
+  "tags": ["dex", "aggregator", "solana", "swap", "limit-orders"],
+  "contracts": {
+    "swapV6": {
+      "name": "Jupiter Swap V6",
+      "type": "core",
+      "description": "Main swap aggregator program for routing trades across Solana DEXs",
+      "proxy": false,
+      "idl": "https://github.com/jup-ag/jupiter-swap-api-client/blob/main/idl/jupiter.json",
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["token-swap", "routing", "price-aggregation"]
+    },
+    "swapV4": {
+      "name": "Jupiter Swap V4",
+      "type": "core",
+      "description": "Legacy swap program (V3/V4 API)",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["token-swap", "routing"]
+    },
+    "limitOrder": {
+      "name": "Jupiter Limit Order",
+      "type": "core",
+      "description": "Limit order program for placing conditional trades",
+      "proxy": false,
+      "idl": "https://github.com/jup-ag/limit-order/blob/main/idl/limit_order.json",
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["limit-orders", "conditional-trading"]
+    },
+    "jupToken": {
+      "name": "JUP Token",
+      "type": "token",
+      "description": "Jupiter governance and utility token",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["governance", "rewards"]
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "swapV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+        "swapV4": "JUP4Fb2cqiRUcaTHdrPC8h2gNsA2ETXiPDD33WcGuJB",
+        "limitOrder": "jupoNjAxXgZ4rjzxzPMP4oxduvQsQtZzyknqvzYNrNu",
+        "jupToken": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+      },
+      "deploymentBlocks": {
+        "swapV6": null,
+        "swapV4": null,
+        "limitOrder": null,
+        "jupToken": null
+      },
+      "verified": {
+        "swapV6": true,
+        "swapV4": true,
+        "limitOrder": true,
+        "jupToken": true
+      },
+      "source": ["official-docs"],
+      "sourceUrl": "https://dev.jup.ag/docs/old/additional-topics/links-and-contract-addresses",
+      "updated": "2025-02-02"
+    }
+  }
+}

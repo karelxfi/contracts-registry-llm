@@ -1,0 +1,42 @@
+{
+  "id": "merlinswap",
+  "name": "MerlinSwap",
+  "type": "dexs",
+  "website": "https://merlinswap.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "merlin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MerlinSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for MerlinSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "merlin": {
+      "chain": "merlin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/merlinswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

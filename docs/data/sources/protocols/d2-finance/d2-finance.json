@@ -1,0 +1,115 @@
+{
+  "id": "d2-finance",
+  "name": "D2 Finance",
+  "type": "onchain capital allocator",
+  "website": "https://d2.finance/strategies",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "hyperliquid-l1",
+    "arbitrum",
+    "base",
+    "berachain",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "D2 Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for D2 Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d2-finance",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d2-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d2-finance",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d2-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d2-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

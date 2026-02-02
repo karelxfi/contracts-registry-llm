@@ -1,0 +1,42 @@
+{
+  "id": "euclid-finance",
+  "name": "Euclid Finance",
+  "type": "liquid restaking",
+  "website": "https://euclidfinance.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Euclid Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Euclid Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/euclid-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

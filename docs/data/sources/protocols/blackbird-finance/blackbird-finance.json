@@ -1,0 +1,42 @@
+{
+  "id": "blackbird-finance",
+  "name": "BlackBird Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BlackBird Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for BlackBird Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blackbird-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

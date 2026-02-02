@@ -1,0 +1,97 @@
+{
+  "id": "zoo-finance",
+  "name": "Zoo Finance",
+  "type": "yield",
+  "website": "https://zoofi.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "sei",
+    "arbitrum",
+    "base",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zoo Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Zoo Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zoo-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zoo-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zoo-finance",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zoo-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

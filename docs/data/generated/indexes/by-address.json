@@ -1,0 +1,1370 @@
+{
+  "avalanche:": {
+    "protocol": "zookeeper",
+    "version": "zookeeper",
+    "contract": "main",
+    "chain": "avalanche"
+  },
+  "polygon:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "polygon"
+  },
+  "solana:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "solana"
+  },
+  "ethereum:": {
+    "protocol": "zunami-protocol",
+    "version": "zunami-protocol",
+    "contract": "main",
+    "chain": "ethereum"
+  },
+  "metis:": {
+    "protocol": "zkera-finance",
+    "version": "zkera-finance",
+    "contract": "main",
+    "chain": "metis"
+  },
+  "arbitrum:": {
+    "protocol": "zyfai",
+    "version": "zyfai",
+    "contract": "main",
+    "chain": "arbitrum"
+  },
+  "blast:": {
+    "protocol": "zklink-nova",
+    "version": "zklink-nova",
+    "contract": "main",
+    "chain": "blast"
+  },
+  "scroll:": {
+    "protocol": "zksynth",
+    "version": "zksynth",
+    "contract": "main",
+    "chain": "scroll"
+  },
+  "starknet:": {
+    "protocol": "zklend-lst",
+    "version": "zklend-lst",
+    "contract": "main",
+    "chain": "starknet"
+  },
+  "icp:": {
+    "protocol": "yusan",
+    "version": "yusan",
+    "contract": "main",
+    "chain": "icp"
+  },
+  "base:": {
+    "protocol": "zyfai",
+    "version": "zyfai",
+    "contract": "main",
+    "chain": "base"
+  },
+  "bitcoin:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "bitcoin"
+  },
+  "doge:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "doge"
+  },
+  "cardano:": {
+    "protocol": "yamfore",
+    "version": "yamfore",
+    "contract": "main",
+    "chain": "cardano"
+  },
+  "plasma:": {
+    "protocol": "zyfai",
+    "version": "zyfai",
+    "contract": "main",
+    "chain": "plasma"
+  },
+  "sonic:": {
+    "protocol": "zyfai",
+    "version": "zyfai",
+    "contract": "main",
+    "chain": "sonic"
+  },
+  "linea:": {
+    "protocol": "zkusd",
+    "version": "zkusd",
+    "contract": "main",
+    "chain": "linea"
+  },
+  "mixin:": {
+    "protocol": "pando-rings",
+    "version": "pando-rings",
+    "contract": "main",
+    "chain": "mixin"
+  },
+  "unichain:": {
+    "protocol": "zenolend",
+    "version": "zenolend",
+    "contract": "main",
+    "chain": "unichain"
+  },
+  "manta:": {
+    "protocol": "zklink-nova",
+    "version": "zklink-nova",
+    "contract": "main",
+    "chain": "manta"
+  },
+  "aptos:": {
+    "protocol": "tsunamix",
+    "version": "tsunamix",
+    "contract": "main",
+    "chain": "aptos"
+  },
+  "ethereum:0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "lendingPool",
+    "chain": "ethereum"
+  },
+  "ethereum:0xb53c1a33016b2dc2ff3653530bff1848a515c8c5": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolAddressesProvider",
+    "chain": "ethereum"
+  },
+  "ethereum:0x311bb771e4f8952e6da169b425e7e92d6ac45756": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolConfigurator",
+    "chain": "ethereum"
+  },
+  "ethereum:0xa50ba011c48153de246e5192c8f9258a2ba79ca9": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "aaveOracle",
+    "chain": "ethereum"
+  },
+  "ethereum:0x057835ad21a177dbdd3090bb1cae03eacf78fc6d": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "protocolDataProvider",
+    "chain": "ethereum"
+  },
+  "ethereum:0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "ethereum"
+  },
+  "polygon:0x8dff5e27ea6b7ac08ebfdf9eb090f32ee9a30fcf": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "lendingPool",
+    "chain": "polygon"
+  },
+  "polygon:0xd05e3e715d945b59290df0ae8ef85c1bdb684744": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolAddressesProvider",
+    "chain": "polygon"
+  },
+  "polygon:0x26db2b833021583566323e3b8985999981b9f1f3": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolConfigurator",
+    "chain": "polygon"
+  },
+  "polygon:0x0229f777b0fab107f9591a41d5f02e4e98db6f2d": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "aaveOracle",
+    "chain": "polygon"
+  },
+  "polygon:0x7551b5d2763519d4e37e8b81929d336de671d46d": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "protocolDataProvider",
+    "chain": "polygon"
+  },
+  "polygon:0xe8599f3cc5d38a9ad6f3684cd5cea72f10dbc383": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "polygon"
+  },
+  "avalanche:0x4f01aed16d97e3ab5ab2b501154dc9bb0f1a5a2c": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "lendingPool",
+    "chain": "avalanche"
+  },
+  "avalanche:0xb6a86025f0fe1862b372cb0ca18ce3ede02a318f": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolAddressesProvider",
+    "chain": "avalanche"
+  },
+  "avalanche:0x230b618ad4c475393a7239ae03630042281bd86e": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "poolConfigurator",
+    "chain": "avalanche"
+  },
+  "avalanche:0xdc336cd4769f4cc7e9d726da53e6d3fc710ceb89": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "aaveOracle",
+    "chain": "avalanche"
+  },
+  "avalanche:0x65285e9dfab318f57051ab2b139cccf232945451": {
+    "protocol": "aave-v2",
+    "version": "aave-v2",
+    "contract": "protocolDataProvider",
+    "chain": "avalanche"
+  },
+  "avalanche:0x5ba7fd868c40c16f7adfae6cf87121e13fc2f7a0": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "avalanche"
+  },
+  "ethereum:0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "ethereum"
+  },
+  "ethereum:0x2f39d218133afab8f2b819b1066c7e434ad94e9e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "ethereum"
+  },
+  "ethereum:0x64b761d848206f447fe2dd461b0c635ec39ebb27": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "ethereum"
+  },
+  "ethereum:0x54586be62e3c3580375ae3723c145253060ca0c2": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "ethereum"
+  },
+  "ethereum:0x0a16f2fcc0d44fae41cc54e079281d84a363becd": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "ethereum"
+  },
+  "ethereum:0xc2aacf6553d20d1e9d78e365aaba8032af9c85b0": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "ethereum"
+  },
+  "arbitrum:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x243aa95cac2a25651eda86e80bee66114413c43b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x053d55f9b5af8694c503eb288a1b7e552f590710": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "arbitrum"
+  },
+  "base:0xa238dd80c259a72e81d7e4664a9801593f98d1c5": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "base"
+  },
+  "base:0xe20fcbdbffc4dd138ce8b2e6fbb6cb49777ad64d": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "base"
+  },
+  "base:0x5731a04b1e775f0fdd454bf70f3335886e9a96be": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "base"
+  },
+  "base:0x2cc0fc26ed4563a5ce5e8bdcfe1a2878676ae156": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "base"
+  },
+  "base:0x0f43731eb8d45a581f4a36dd74f5f358bc90c73a": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "base"
+  },
+  "base:0x43955b0899ab7232e3a454cf84aedd22ad46fd33": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "base"
+  },
+  "base:0xba9424d650a4f5c80a0da641254d1acce2a37057": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "base"
+  },
+  "avalanche:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "avalanche"
+  },
+  "avalanche:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "avalanche"
+  },
+  "avalanche:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "avalanche"
+  },
+  "avalanche:0xebd36016b3ed09d4693ed4251c67bd858c3c7c9c": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "avalanche"
+  },
+  "avalanche:0x243aa95cac2a25651eda86e80bee66114413c43b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "avalanche"
+  },
+  "avalanche:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "avalanche"
+  },
+  "polygon:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "polygon"
+  },
+  "polygon:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "polygon"
+  },
+  "polygon:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "polygon"
+  },
+  "polygon:0xb023e699f5a33916ea823a16485e259257ca8bd1": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "polygon"
+  },
+  "polygon:0x243aa95cac2a25651eda86e80bee66114413c43b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "polygon"
+  },
+  "polygon:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "polygon"
+  },
+  "linea:0xc47b8c00b0f69a36fa203ffeac0334874574a8ac": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "linea"
+  },
+  "linea:0x89502c3731f69ddc95b65753708a07f8cd0373f4": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "linea"
+  },
+  "linea:0x812e7c19421d9f41a6ddcf047d5cc2de2ca5bfa2": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "linea"
+  },
+  "linea:0xcfdada7dcd2e785cf706badbc2b8af5084d595e9": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "linea"
+  },
+  "linea:0x47cd4b507b81cb831669c71c7077f4daf6762ff4": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "linea"
+  },
+  "linea:0xbf32c7dfc72b730967072b112927ca0de205dbb5": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "linea"
+  },
+  "linea:0x86e2938dae289763d4e09a7e42c5ccca62cf9809": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "linea"
+  },
+  "sonic:0x5362dbb1e601abf3a4c14c22ffeda64042e5eaa3": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "sonic"
+  },
+  "sonic:0x5c2e738f6e27bce0f7558051bf90605dd6176900": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "sonic"
+  },
+  "sonic:0x50c70feb95abc1a92fc30b9acc41bd349e5de2f0": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "sonic"
+  },
+  "sonic:0xd63f7658c66b2934bd234d79d06aef5290734b30": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "sonic"
+  },
+  "sonic:0xc0a344397cfa89df1e1d3e4fb330834d789cf2cd": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "sonic"
+  },
+  "sonic:0x3a790a47c4d531fd333fad24f70b0ccb521b3b5a": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "sonic"
+  },
+  "sonic:0x1ab55bbdd5df0782bbcf73553af93bc6b29a286b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "sonic"
+  },
+  "celo:0x3e59a31363e2ad014dcbc521c4a0d5757d9f3402": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "celo"
+  },
+  "celo:0x9f7cf9417d5251c59fe94fb9147feee1aad9cea5": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "celo"
+  },
+  "celo:0x7567e3434cc1bef724ab595e6072367ef4914691": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "celo"
+  },
+  "celo:0x1e693d088cefd1e95ba4c4a5f7eea41a1ec37e8b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "celo"
+  },
+  "celo:0x2e0f8d3b1631296cc7c56538d6eb6032601e15ed": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "celo"
+  },
+  "celo:0x7a12dcfd73c1b4cddf294da4cfce75fcabba314c": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "celo"
+  },
+  "celo:0xc959439207da5341b74adcdac59016aa9be7e9e7": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "celo"
+  },
+  "scroll:0x11fcfe756c05ad438e312a7fd934381537d3cffe": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "scroll"
+  },
+  "scroll:0x69850d0b276776781c063771b161bd8894bcdd04": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "scroll"
+  },
+  "scroll:0x32bcab42a2bb5ac577d24b425d46d8b8e0df9b7f": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "scroll"
+  },
+  "scroll:0x04421d8c506e2fa2371a08efaabf791f624054f3": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "scroll"
+  },
+  "scroll:0xbea2b648f05887ecbf1d115da8b7e4a317975a51": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "scroll"
+  },
+  "scroll:0x7633f981d87dc6307227de9383d2ce7243158081": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "scroll"
+  },
+  "scroll:0x90eb541e1a431d8a30ed85a77675d1f001128cb5": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "scroll"
+  },
+  "soneium:0xdd3d7a7d03d9fd9ef45f3e587287922ef65ca38b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "soneium"
+  },
+  "soneium:0x82405d1a189bd6ce4667809c35b37fbe136a4c5b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "soneium"
+  },
+  "soneium:0x1607fceec8deba4d5da66d620b2363066d025a02": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "soneium"
+  },
+  "soneium:0x20040a64612555042335926d72b4e5f667a67fa1": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "soneium"
+  },
+  "soneium:0x4a24b44b252db149b5b9bcec4dc3c2752807d626": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "soneium"
+  },
+  "soneium:0x7635bff69e52023ab76267ab1eff63434cdce458": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "soneium"
+  },
+  "soneium:0xc7b3cc5f5988613b0d620623c514edfb32539720": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "soneium"
+  },
+  "metis:0x90df02551bb792286e8d4f13e0e357b4bf1d6a57": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "metis"
+  },
+  "metis:0xb9fabd7500b2c6781c35dd48d54f81fc2299d7af": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "metis"
+  },
+  "metis:0x69fee8f261e004453be0800bc9039717528645a6": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "metis"
+  },
+  "metis:0x38d36e85e47ea6ff0d18b0adf12e5fc8984a6f8e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "metis"
+  },
+  "metis:0x602bef1d4c381e5a29f0c562a310416a73d8be19": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "metis"
+  },
+  "metis:0xcdcb65fc657b701a5100a12efb663978e7e8ffb8": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "metis"
+  },
+  "metis:0xb5b64c7e00374e766272f8b442cd261412d4b118": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "metis"
+  },
+  "optimism:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "optimism"
+  },
+  "optimism:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "optimism"
+  },
+  "optimism:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "optimism"
+  },
+  "optimism:0xd81eb3728a631871a7ebbad631b5f424909f0c77": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "optimism"
+  },
+  "optimism:0x243aa95cac2a25651eda86e80bee66114413c43b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "optimism"
+  },
+  "optimism:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "optimism"
+  },
+  "optimism:0xb2289e329d2f85f1ed31adbb30ea345278f21bcf": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "optimism"
+  },
+  "gnosis:0xb50201558b00496a145fe76f7424749556e326d8": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "gnosis"
+  },
+  "gnosis:0x36616cf17557639614c1cddb356b1b83fc0b2132": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "gnosis"
+  },
+  "gnosis:0x7304979ec9e4eaa0273b6a037a31c4e9e5a75d16": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "gnosis"
+  },
+  "gnosis:0xeb0a051be10228213baeb449db63719d6742f7c4": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "gnosis"
+  },
+  "gnosis:0xf1f5acb596568895393cb5e4d0452d6592a2fa70": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "gnosis"
+  },
+  "gnosis:0xec710f59005f48703908bc519d552df5b8472614": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "gnosis"
+  },
+  "gnosis:0x3e652e97ff339b73421f824f5b03d75b62f1fb51": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "gnosis"
+  },
+  "bsc:0x6807dc923806fe8fd134338eabca509979a7e0cb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "bsc"
+  },
+  "bsc:0xff75b6da14ffbbfd355daf7a2731456b3562ba6d": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "bsc"
+  },
+  "bsc:0x67bdf23c7fce7c65ff7415ba3f2520b45d6f9584": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "bsc"
+  },
+  "bsc:0x39bc1bfda2130d6bb6dbefd366939b4c7aa7c697": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "bsc"
+  },
+  "bsc:0xc90df74a7c16245c5f5c5870327ceb38fe5d5328": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "bsc"
+  },
+  "bsc:0x2d97f8fa96886fd923c065f5457f9ddd494e3877": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "bsc"
+  },
+  "bsc:0x25ec457d1778b0e5316e7f38f3c22baf413f1a8c": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "bsc"
+  },
+  "zksync-era:0x78e30497a3c7527d953c6b1e3541b021a98ac43c": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x2a3948bb219d6b2fa83d64100006391a96be6cb7": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x0207d31b4377c74bec37356aad83e3dcc979f40e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xc7f58fca663a8d377b6d0c9703c697f56dc40088": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x9057ac7b2d35606f8ad5ae2fcbafcd94e58d9927": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xc6150b63c2f02528d4a969a248710a4658ed7928": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xd69cbda644c6be817aafb5fd9174f50c33803b6b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "zksync-era"
+  },
+  "fantom:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "fantom"
+  },
+  "fantom:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "fantom"
+  },
+  "fantom:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "fantom"
+  },
+  "fantom:0xfd6f3c1845604c8ae6c6e402ad17fb9885160754": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "fantom"
+  },
+  "fantom:0x69fa688f1dc47d4b5d8029d5a35fb7a548310654": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "fantom"
+  },
+  "fantom:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "fantom"
+  },
+  "fantom:0xbe85413851d195fc6341619cd68bfdc26a25b928": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "fantom"
+  },
+  "harmony:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "harmony"
+  },
+  "harmony:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "harmony"
+  },
+  "harmony:0x8145edddf43f50276641b55bd3ad95944510021e": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "harmony"
+  },
+  "harmony:0x3c90887ede8d65ccb2777a5d577beab2548280ad": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "harmony"
+  },
+  "harmony:0x69fa688f1dc47d4b5d8029d5a35fb7a548310654": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "harmony"
+  },
+  "harmony:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "harmony"
+  },
+  "harmony:0x8a020d92d6b119978582be4d3edfdc9f7b28bf31": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "harmony"
+  },
+  "mantle:0x458f293454fe0d67ec0655f3672301301dd51422": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "pool",
+    "chain": "mantle"
+  },
+  "mantle:0xba50cd2a20f6da35d788639e581bca8d0b5d4d5f": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolAddressesProvider",
+    "chain": "mantle"
+  },
+  "mantle:0x719755fc1acf2f9079b0cbc56e23712c09ab8626": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolConfigurator",
+    "chain": "mantle"
+  },
+  "mantle:0x47a063cfda980532267970d478ec340c0f80e8df": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aaveOracle",
+    "chain": "mantle"
+  },
+  "mantle:0x487c5c669d9eee6057c44973207101276cf73b68": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "poolDataProvider",
+    "chain": "mantle"
+  },
+  "mantle:0x810d46f9a9027e28f9b01f75e2bdde839da61115": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "aclManager",
+    "chain": "mantle"
+  },
+  "mantle:0x0cd2670339cd520bf9428ad881be60a698ab9b32": {
+    "protocol": "aave-v3",
+    "version": "aave-v3",
+    "contract": "collector",
+    "chain": "mantle"
+  },
+  "mantle:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "mantle"
+  },
+  "kava:": {
+    "protocol": "ysmart",
+    "version": "ysmart",
+    "contract": "main",
+    "chain": "kava"
+  },
+  "sui:": {
+    "protocol": "zo-perps",
+    "version": "zo-perps",
+    "contract": "main",
+    "chain": "sui"
+  },
+  "abstract:": {
+    "protocol": "zoo.fun",
+    "version": "zoo.fun",
+    "contract": "main",
+    "chain": "abstract"
+  },
+  "x-layer:": {
+    "protocol": "zerolend-lending",
+    "version": "zerolend-lending",
+    "contract": "main",
+    "chain": "x-layer"
+  },
+  "monad:": {
+    "protocol": "zkswap-v3",
+    "version": "zkswap-v3",
+    "contract": "main",
+    "chain": "monad"
+  },
+  "sei:": {
+    "protocol": "zoo-finance",
+    "version": "zoo-finance",
+    "contract": "main",
+    "chain": "sei"
+  },
+  "cronos:": {
+    "protocol": "zeus-finance",
+    "version": "zeus-finance",
+    "contract": "main",
+    "chain": "cronos"
+  },
+  "fraxtal:": {
+    "protocol": "vnx",
+    "version": "vnx",
+    "contract": "main",
+    "chain": "fraxtal"
+  },
+  "ton:": {
+    "protocol": "wonton",
+    "version": "wonton",
+    "contract": "main",
+    "chain": "ton"
+  },
+  "core:": {
+    "protocol": "zeepr",
+    "version": "zeepr",
+    "contract": "main",
+    "chain": "core"
+  },
+  "stacks:": {
+    "protocol": "zest",
+    "version": "zest",
+    "contract": "main",
+    "chain": "stacks"
+  },
+  "algorand:": {
+    "protocol": "yieldly",
+    "version": "yieldly",
+    "contract": "main",
+    "chain": "algorand"
+  },
+  "tezos:": {
+    "protocol": "yupana",
+    "version": "yupana",
+    "contract": "main",
+    "chain": "tezos"
+  },
+  "near:": {
+    "protocol": "veax",
+    "version": "veax",
+    "contract": "main",
+    "chain": "near"
+  },
+  "celo:": {
+    "protocol": "yieldwolf",
+    "version": "yieldwolf",
+    "contract": "main",
+    "chain": "celo"
+  },
+  "tron:": {
+    "protocol": "zoomex",
+    "version": "zoomex",
+    "contract": "main",
+    "chain": "tron"
+  },
+  "stellar:": {
+    "protocol": "wisdomtree",
+    "version": "wisdomtree",
+    "contract": "main",
+    "chain": "stellar"
+  },
+  "hyperliquid-l1:": {
+    "protocol": "wrapped-hlp",
+    "version": "wrapped-hlp",
+    "contract": "main",
+    "chain": "hyperliquid-l1"
+  },
+  "neutron:": {
+    "protocol": "valence",
+    "version": "valence",
+    "contract": "main",
+    "chain": "neutron"
+  },
+  "plume-mainnet:": {
+    "protocol": "yieldfi",
+    "version": "yieldfi",
+    "contract": "main",
+    "chain": "plume-mainnet"
+  },
+  "berachain:": {
+    "protocol": "zoo-finance",
+    "version": "zoo-finance",
+    "contract": "main",
+    "chain": "berachain"
+  },
+  "flow:": {
+    "protocol": "trado-spot",
+    "version": "trado-spot",
+    "contract": "main",
+    "chain": "flow"
+  },
+  "ink:": {
+    "protocol": "vfat.io",
+    "version": "vfat.io",
+    "contract": "main",
+    "chain": "ink"
+  },
+  "osmosis:": {
+    "protocol": "white-whale-dex",
+    "version": "white-whale-dex",
+    "contract": "main",
+    "chain": "osmosis"
+  },
+  "movement:": {
+    "protocol": "yuzu-finance",
+    "version": "yuzu-finance",
+    "contract": "main",
+    "chain": "movement"
+  },
+  "injective:": {
+    "protocol": "white-whale-dex",
+    "version": "white-whale-dex",
+    "contract": "main",
+    "chain": "injective"
+  },
+  "merlin:": {
+    "protocol": "zklink-nova",
+    "version": "zklink-nova",
+    "contract": "main",
+    "chain": "merlin"
+  },
+  "bob:": {
+    "protocol": "velodrome-v2",
+    "version": "velodrome-v2",
+    "contract": "main",
+    "chain": "bob"
+  },
+  "immutable-zkevm:": {
+    "protocol": "warpgate",
+    "version": "warpgate",
+    "contract": "main",
+    "chain": "immutable-zkevm"
+  },
+  "xdc:": {
+    "protocol": "xswap-v3",
+    "version": "xswap-v3",
+    "contract": "main",
+    "chain": "xdc"
+  },
+  "saga:": {
+    "protocol": "yieldfi",
+    "version": "yieldfi",
+    "contract": "main",
+    "chain": "saga"
+  },
+  "bifrost-network:": {
+    "protocol": "everdex",
+    "version": "everdex",
+    "contract": "main",
+    "chain": "bifrost-network"
+  },
+  "hedera:": {
+    "protocol": "tangent",
+    "version": "tangent",
+    "contract": "main",
+    "chain": "hedera"
+  },
+  "ronin:": {
+    "protocol": "steer-protocol",
+    "version": "steer-protocol",
+    "contract": "main",
+    "chain": "ronin"
+  },
+  "mezo:": {
+    "protocol": "velar-perps",
+    "version": "velar-perps",
+    "contract": "main",
+    "chain": "mezo"
+  },
+  "flare:": {
+    "protocol": "upshift",
+    "version": "upshift",
+    "contract": "main",
+    "chain": "flare"
+  },
+  "dydx:": {
+    "protocol": "stride",
+    "version": "stride",
+    "contract": "main",
+    "chain": "dydx"
+  },
+  "world-chain:": {
+    "protocol": "z3z",
+    "version": "z3z",
+    "contract": "main",
+    "chain": "world-chain"
+  },
+  "chainflip:": {
+    "protocol": "chainflip",
+    "version": "chainflip",
+    "contract": "main",
+    "chain": "chainflip"
+  },
+  "rollux:": {
+    "protocol": "superdapp",
+    "version": "superdapp",
+    "contract": "main",
+    "chain": "rollux"
+  },
+  "katana:": {
+    "protocol": "yieldfi",
+    "version": "yieldfi",
+    "contract": "main",
+    "chain": "katana"
+  },
+  "soneium:": {
+    "protocol": "zenolend",
+    "version": "zenolend",
+    "contract": "main",
+    "chain": "soneium"
+  },
+  "megaeth:": {
+    "protocol": "warpx",
+    "version": "warpx",
+    "contract": "main",
+    "chain": "megaeth"
+  },
+  "etherlink:": {
+    "protocol": "uranium.io",
+    "version": "uranium.io",
+    "contract": "main",
+    "chain": "etherlink"
+  },
+  "eni:": {
+    "protocol": "fufuture-contract",
+    "version": "fufuture-contract",
+    "contract": "main",
+    "chain": "eni"
+  },
+  "ethereal:": {
+    "protocol": "ethereal-dex",
+    "version": "ethereal-dex",
+    "contract": "main",
+    "chain": "ethereal"
+  },
+  "provenance:": {
+    "protocol": "figure-markets-exchange",
+    "version": "figure-markets-exchange",
+    "contract": "main",
+    "chain": "provenance"
+  },
+  "gala:": {
+    "protocol": "gala-swap",
+    "version": "gala-swap",
+    "contract": "main",
+    "chain": "gala"
+  },
+  "arbitrum-one:0x489ee077994b6658eafa855c308275ead8097c4a": {
+    "protocol": "gmx",
+    "version": "v1",
+    "contract": "vault",
+    "chain": "arbitrum-one"
+  },
+  "solana:jup6lkbzbjs1jkkwapdhny74zcz3tluzoi5qnyvtav4": {
+    "protocol": "jupiter",
+    "version": "jupiter",
+    "contract": "swapV6",
+    "chain": "solana"
+  },
+  "solana:jup4fb2cqirucathdrpc8h2gnsa2etxipdd33wcgujb": {
+    "protocol": "jupiter",
+    "version": "jupiter",
+    "contract": "swapV4",
+    "chain": "solana"
+  },
+  "solana:juponjaxxgz4rjzxzpmp4oxduvqsqtzzyknqvzynrnu": {
+    "protocol": "jupiter",
+    "version": "jupiter",
+    "contract": "limitOrder",
+    "chain": "solana"
+  },
+  "solana:jupyiwryjfskupiha7hker8vutaefosybkedznsdvcn": {
+    "protocol": "jupiter",
+    "version": "jupiter",
+    "contract": "jupToken",
+    "chain": "solana"
+  },
+  "thorchain:": {
+    "protocol": "thorchain-lending",
+    "version": "thorchain-lending",
+    "contract": "main",
+    "chain": "thorchain"
+  },
+  "ethereum:0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "ethereum"
+  },
+  "ethereum:0x870ac11d48b15db9a138cf899d20f13f79ba00bc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "ethereum"
+  },
+  "ethereum:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "ethereum"
+  },
+  "base:0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "base"
+  },
+  "base:0x46415998764c29ab2a25cbea6254146d50d22687": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "base"
+  },
+  "base:0x23055618898e202386e6c13955a58d3c68200bfb": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "base"
+  },
+  "arbitrum-one:0x6c247b1f6182318877311737bac0844baa518f5e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "arbitrum-one"
+  },
+  "arbitrum-one:0x66f30587fb8d4206918deb78eca7d5ebbafd06da": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "arbitrum-one"
+  },
+  "arbitrum-one:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "arbitrum-one"
+  },
+  "waves:": {
+    "protocol": "wavesbridge",
+    "version": "wavesbridge",
+    "contract": "main",
+    "chain": "waves"
+  },
+  "verus:": {
+    "protocol": "verus-market",
+    "version": "verus-market",
+    "contract": "main",
+    "chain": "verus"
+  }
+}

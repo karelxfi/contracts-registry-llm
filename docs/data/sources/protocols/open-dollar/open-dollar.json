@@ -1,0 +1,44 @@
+{
+  "id": "open-dollar",
+  "name": "Open Dollar",
+  "type": "cdp",
+  "website": "https://www.opendollar.com/",
+  "github": [
+    "open-dollar"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Open Dollar Main Contract",
+      "type": "core",
+      "description": "Main contract for Open Dollar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/open-dollar",
+      "updated": "2025-01-31"
+    }
+  }
+}

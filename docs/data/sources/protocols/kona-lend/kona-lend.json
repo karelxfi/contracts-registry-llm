@@ -1,0 +1,42 @@
+{
+  "id": "kona-lend",
+  "name": "Kona Lend",
+  "type": "lending",
+  "website": "https://app.kona.surf/lending",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "abstract"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kona Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Kona Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kona-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

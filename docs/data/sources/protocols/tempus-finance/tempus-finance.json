@@ -1,0 +1,44 @@
+{
+  "id": "tempus-finance",
+  "name": "Tempus Finance",
+  "type": "services",
+  "website": "https://tempus.finance",
+  "github": [
+    "tempusfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tempus Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Tempus Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tempus-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

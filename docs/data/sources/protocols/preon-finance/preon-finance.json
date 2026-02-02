@@ -1,0 +1,78 @@
+{
+  "id": "preon-finance",
+  "name": "Preon Finance",
+  "type": "cdp",
+  "website": "https://app.preon.finance/borrow",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum",
+    "polygon",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Preon Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Preon Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/preon-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/preon-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/preon-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

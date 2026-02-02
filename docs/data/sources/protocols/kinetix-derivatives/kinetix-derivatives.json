@@ -1,0 +1,42 @@
+{
+  "id": "kinetix-derivatives",
+  "name": "Kinetix Derivatives",
+  "type": "derivatives",
+  "website": "https://kinetix.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinetix Derivatives Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinetix Derivatives",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetix-derivatives",
+      "updated": "2025-01-31"
+    }
+  }
+}

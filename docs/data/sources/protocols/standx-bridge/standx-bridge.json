@@ -1,0 +1,43 @@
+{
+  "id": "standx-bridge",
+  "name": "StandX Bridge",
+  "type": "canonical bridge",
+  "website": "https://standx.com/referral?code=defillama",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StandX Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for StandX Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/standx-bridge",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

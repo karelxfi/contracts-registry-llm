@@ -1,0 +1,81 @@
+{
+  "id": "fluidity-money",
+  "name": "Fluidity Money",
+  "type": "cdp",
+  "website": "https://fluidity.money/",
+  "github": [
+    "fluidity-money"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum",
+    "ethereum",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fluidity Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Fluidity Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fluidity-money",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fluidity-money",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fluidity-money",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

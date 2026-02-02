@@ -1,0 +1,63 @@
+{
+  "id": "b14g",
+  "name": "b14g",
+  "type": "restaking",
+  "website": "https://www.b14g.xyz/",
+  "github": [
+    "b14glabs"
+  ],
+  "docs": "",
+  "tags": [
+    "restaking",
+    "bitcoin",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "b14g Main Contract",
+      "type": "core",
+      "description": "Main contract for b14g",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/b14g",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/b14g",
+      "updated": "2025-01-31"
+    }
+  }
+}

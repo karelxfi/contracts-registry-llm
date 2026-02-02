@@ -1,0 +1,45 @@
+{
+  "id": "silostake",
+  "name": "SiloStake",
+  "type": "liquid staking",
+  "website": "https://www.silostaking.io",
+  "github": [
+    "silostaking"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SiloStake Main Contract",
+      "type": "core",
+      "description": "Main contract for SiloStake",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/silostake",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

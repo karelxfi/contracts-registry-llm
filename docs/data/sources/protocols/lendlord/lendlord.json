@@ -1,0 +1,44 @@
+{
+  "id": "lendlord",
+  "name": "LendLord",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "LendLordorg"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LendLord Main Contract",
+      "type": "core",
+      "description": "Main contract for LendLord",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lendlord",
+      "updated": "2025-01-31"
+    }
+  }
+}

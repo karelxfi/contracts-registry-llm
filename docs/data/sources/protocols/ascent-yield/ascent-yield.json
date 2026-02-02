@@ -1,0 +1,44 @@
+{
+  "id": "ascent-yield",
+  "name": "Ascent Yield",
+  "type": "yield",
+  "website": "https://www.ascentyield.io",
+  "github": [
+    "AscentYield"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ascent Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for Ascent Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ascent-yield",
+      "updated": "2025-01-31"
+    }
+  }
+}

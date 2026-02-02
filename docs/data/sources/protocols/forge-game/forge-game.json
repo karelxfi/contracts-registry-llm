@@ -1,0 +1,43 @@
+{
+  "id": "forge-game",
+  "name": "Forge Game",
+  "type": "gaming",
+  "website": "https://x.com/forge_game_bot",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Forge Game Main Contract",
+      "type": "core",
+      "description": "Main contract for Forge Game",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/forge-game",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

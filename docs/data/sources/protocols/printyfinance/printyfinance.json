@@ -1,0 +1,42 @@
+{
+  "id": "printyfinance",
+  "name": "printyfinance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "printyfinance Main Contract",
+      "type": "core",
+      "description": "Main contract for printyfinance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/printyfinance",
+      "updated": "2025-01-31"
+    }
+  }
+}

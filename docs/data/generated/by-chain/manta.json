@@ -1,0 +1,1138 @@
+{
+  "chain": "manta",
+  "chainInfo": {
+    "id": "manta",
+    "name": "Manta",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 169,
+    "nativeCurrency": {
+      "name": "MANTA",
+      "symbol": "MANTA",
+      "decimals": 18
+    },
+    "gecko_id": "manta-network",
+    "cmcId": "13631",
+    "explorers": {
+      "primary": {
+        "name": "Manta Explorer",
+        "url": "https://explorer.manta.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "a51-finance-v3": {
+      "a51-finance-v3": {
+        "name": "A51 Finance V3",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "aboard-exchange": {
+      "aboard-exchange": {
+        "name": "Aboard Exchange",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "accumulated-finance-liquid-staking": {
+      "accumulated-finance-liquid-staking": {
+        "name": "Accumulated Finance Liquid Staking",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "amet-finance": {
+      "amet-finance": {
+        "name": "Amet Finance",
+        "type": "services",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "anzen-v2": {
+      "anzen-v2": {
+        "name": "Anzen V2",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "apertureswap": {
+      "apertureswap": {
+        "name": "ApertureSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "apx-bridge": {
+      "apx-bridge": {
+        "name": "APX Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "beefy": {
+      "beefy": {
+        "name": "Beefy",
+        "type": "yield aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bella-protocol": {
+      "bella-protocol": {
+        "name": "Bella Protocol",
+        "type": "yield",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bifrost-liquid-staking": {
+      "bifrost-liquid-staking": {
+        "name": "Bifrost Liquid Staking",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "binance-cex": {
+      "binance-cex": {
+        "name": "Binance CEX",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bridgem": {
+      "bridgem": {
+        "name": "BridgeM",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bybit": {
+      "bybit": {
+        "name": "Bybit",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ceto-swap": {
+      "ceto-swap": {
+        "name": "Ceto Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "circlepacific": {
+      "circlepacific": {
+        "name": "CirclePacific",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "crosscurve": {
+      "crosscurve": {
+        "name": "CrossCurve",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "cytonic-airdrop-campaign": {
+      "cytonic-airdrop-campaign": {
+        "name": "Cytonic Airdrop Campaign",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "deri-v4": {
+      "deri-v4": {
+        "name": "Deri V4",
+        "type": "options",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "dexfinance-etf": {
+      "dexfinance-etf": {
+        "name": "DexFinance ETF",
+        "type": "yield",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "dexvaults": {
+      "dexvaults": {
+        "name": "dexVAULTS",
+        "type": "yield",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "dodo-amm": {
+      "dodo-amm": {
+        "name": "DODO AMM",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "doubler": {
+      "doubler": {
+        "name": "Doubler",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "firefly": {
+      "firefly": {
+        "name": "firefly",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "free-protocol": {
+      "free-protocol": {
+        "name": "Free Protocol",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gamma": {
+      "gamma": {
+        "name": "Gamma",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate": {
+      "gate": {
+        "name": "Gate",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gate-us": {
+      "gate-us": {
+        "name": "Gate US",
+        "type": "cex",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "goku-money": {
+      "goku-money": {
+        "name": "Goku Money",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gullnetwork-amm": {
+      "gullnetwork-amm": {
+        "name": "GullNetwork AMM",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gullnetwork-service": {
+      "gullnetwork-service": {
+        "name": "GullNetwork Service",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "interport-finance": {
+      "interport-finance": {
+        "name": "Interport Finance",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ispolink": {
+      "ispolink": {
+        "name": "Ispolink",
+        "type": "gaming",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "iziswap": {
+      "iziswap": {
+        "name": "iZiSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kelp": {
+      "kelp": {
+        "name": "Kelp",
+        "type": "liquid restaking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "keom-protocol": {
+      "keom-protocol": {
+        "name": "Keom Protocol",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kiloex": {
+      "kiloex": {
+        "name": "KiloEx",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "layerbank": {
+      "layerbank": {
+        "name": "LayerBank",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "leetswap": {
+      "leetswap": {
+        "name": "LeetSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lendlord": {
+      "lendlord": {
+        "name": "LendLord",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "logx-v1": {
+      "logx-v1": {
+        "name": "LogX V1",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "logx-v2": {
+      "logx-v2": {
+        "name": "LogX V2",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "manta-cedefi": {
+      "manta-cedefi": {
+        "name": "Manta CeDeFi",
+        "type": "basis trading",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mantaswap": {
+      "mantaswap": {
+        "name": "MantaSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "manxswap": {
+      "manxswap": {
+        "name": "ManXSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "memeta": {
+      "memeta": {
+        "name": "Memeta",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "meson": {
+      "meson": {
+        "name": "Meson",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mitosis": {
+      "mitosis": {
+        "name": "Mitosis",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "monocerus": {
+      "monocerus": {
+        "name": "Monocerus",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "monroe-protocol": {
+      "monroe-protocol": {
+        "name": "Monroe Protocol",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "native-swap": {
+      "native-swap": {
+        "name": "Native Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nervebridge": {
+      "nervebridge": {
+        "name": "NerveBridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "oceanos": {
+      "oceanos": {
+        "name": "Oceanos",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "openocean": {
+      "openocean": {
+        "name": "OpenOcean",
+        "type": "dex aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pacificswap-v2": {
+      "pacificswap-v2": {
+        "name": "PacificSwap V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pacificswap-v3": {
+      "pacificswap-v3": {
+        "name": "PacificSwap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "poolz-vesting": {
+      "poolz-vesting": {
+        "name": "Poolz Vesting",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "quickswap-hydra": {
+      "quickswap-hydra": {
+        "name": "Quickswap Hydra",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "quickswap-v3": {
+      "quickswap-v3": {
+        "name": "Quickswap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "realperp": {
+      "realperp": {
+        "name": "Realperp",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rehold-v2": {
+      "rehold-v2": {
+        "name": "ReHold V2",
+        "type": "yield",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rivera-money": {
+      "rivera-money": {
+        "name": "Rivera Money",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rubydex": {
+      "rubydex": {
+        "name": "RubyDex",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "shoebill-v2": {
+      "shoebill-v2": {
+        "name": "Shoebill V2",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "skate-fi": {
+      "skate-fi": {
+        "name": "Skate Fi",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stargate-v2": {
+      "stargate-v2": {
+        "name": "Stargate V2",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "steer-protocol": {
+      "steer-protocol": {
+        "name": "Steer Protocol",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "symbiosis": {
+      "symbiosis": {
+        "name": "Symbiosis",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tempest-finance": {
+      "tempest-finance": {
+        "name": "Tempest Finance",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "uniswap-v3": {
+      "uniswap-v3": {
+        "name": "Uniswap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "whales-market": {
+      "whales-market": {
+        "name": "Whales Market",
+        "type": "otc marketplace",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zeepr": {
+      "zeepr": {
+        "name": "Zeepr",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zendex": {
+      "zendex": {
+        "name": "ZenDEX",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zerolend-lending": {
+      "zerolend-lending": {
+        "name": "ZeroLend Lending",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "zklink-nova": {
+      "zklink-nova": {
+        "name": "zkLink Nova",
+        "type": "chain",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

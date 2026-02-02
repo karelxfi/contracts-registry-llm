@@ -1,0 +1,98 @@
+{
+  "id": "autofarm",
+  "name": "Autofarm",
+  "type": "yield aggregator",
+  "website": "https://autofarm.network/",
+  "github": [
+    "autofarmnetwork"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "cronos",
+    "polygon",
+    "avalanche",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Autofarm Main Contract",
+      "type": "core",
+      "description": "Main contract for Autofarm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/autofarm",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/autofarm",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/autofarm",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/autofarm",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "easedefi.org",
+  "name": "Easedefi.org",
+  "type": "insurance",
+  "website": "https://easedefi.org",
+  "github": [
+    "EaseDeFi"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Easedefi.org Main Contract",
+      "type": "core",
+      "description": "Main contract for Easedefi.org",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/easedefi.org",
+      "updated": "2025-01-31"
+    }
+  }
+}

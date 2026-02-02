@@ -1,0 +1,42 @@
+{
+  "id": "molecular",
+  "name": "Molecular",
+  "type": "leveraged farming",
+  "website": "https://molecular.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Molecular Main Contract",
+      "type": "core",
+      "description": "Main contract for Molecular",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/molecular",
+      "updated": "2025-01-31"
+    }
+  }
+}

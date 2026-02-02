@@ -1,0 +1,63 @@
+{
+  "id": "rumpel-labs",
+  "name": "Rumpel Labs",
+  "type": "synthetics",
+  "website": "https://www.rumpel.xyz",
+  "github": [
+    "sense-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rumpel Labs Main Contract",
+      "type": "core",
+      "description": "Main contract for Rumpel Labs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rumpel-labs",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rumpel-labs",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

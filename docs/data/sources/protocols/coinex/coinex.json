@@ -1,0 +1,99 @@
+{
+  "id": "coinex",
+  "name": "CoinEx",
+  "type": "cex",
+  "website": "https://www.coinex.com/en",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "bitcoin",
+    "ethereum",
+    "tron",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CoinEx Main Contract",
+      "type": "core",
+      "description": "Main contract for CoinEx",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinex",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinex",
+      "updated": "2025-01-31"
+    },
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

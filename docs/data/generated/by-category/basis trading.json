@@ -1,0 +1,1615 @@
+{
+  "category": "basis trading",
+  "protocols": {
+    "aegis": {
+      "aegis": {
+        "name": "Aegis",
+        "contracts": {
+          "main": {
+            "name": "Aegis Main Contract",
+            "type": "core",
+            "description": "Main contract for Aegis",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aegis",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "avant-avusd": {
+      "avant-avusd": {
+        "name": "Avant avUSD",
+        "contracts": {
+          "main": {
+            "name": "Avant avUSD Main Contract",
+            "type": "core",
+            "description": "Main contract for Avant avUSD",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/avant-avusd",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "basisos": {
+      "basisos": {
+        "name": "BasisOS",
+        "contracts": {
+          "main": {
+            "name": "BasisOS Main Contract",
+            "type": "core",
+            "description": "Main contract for BasisOS",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/basisos",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "bitfi-basis": {
+      "bitfi-basis": {
+        "name": "BitFi Basis",
+        "contracts": {
+          "main": {
+            "name": "BitFi Basis Main Contract",
+            "type": "core",
+            "description": "Main contract for BitFi Basis",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+            "updated": "2025-01-31"
+          },
+          "core": {
+            "chain": "core",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "bouncebit-cedefi-yield": {
+      "bouncebit-cedefi-yield": {
+        "name": "BounceBit CeDeFi Yield",
+        "contracts": {
+          "main": {
+            "name": "BounceBit CeDeFi Yield Main Contract",
+            "type": "core",
+            "description": "Main contract for BounceBit CeDeFi Yield",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "bouncebit-prime": {
+      "bouncebit-prime": {
+        "name": "BounceBit Prime",
+        "contracts": {
+          "main": {
+            "name": "BounceBit Prime Main Contract",
+            "type": "core",
+            "description": "Main contract for BounceBit Prime",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bouncebit-prime",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "desyn-basis-trading": {
+      "desyn-basis-trading": {
+        "name": "DeSyn Basis Trading",
+        "contracts": {
+          "main": {
+            "name": "DeSyn Basis Trading Main Contract",
+            "type": "core",
+            "description": "Main contract for DeSyn Basis Trading",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "core": {
+            "chain": "core",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "plume-mainnet": {
+            "chain": "plume-mainnet",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "merlin": {
+            "chain": "merlin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desyn-basis-trading",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ethena-usde": {
+      "ethena-usde": {
+        "name": "Ethena USDe",
+        "contracts": {
+          "main": {
+            "name": "Ethena USDe Main Contract",
+            "type": "core",
+            "description": "Main contract for Ethena USDe",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ethena-usde",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "excellar": {
+      "excellar": {
+        "name": "Excellar",
+        "contracts": {
+          "main": {
+            "name": "Excellar Main Contract",
+            "type": "core",
+            "description": "Main contract for Excellar",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "stellar": {
+            "chain": "stellar",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/excellar",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "falcon-finance": {
+      "falcon-finance": {
+        "name": "Falcon Finance",
+        "contracts": {
+          "main": {
+            "name": "Falcon Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Falcon Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/falcon-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hermetica-usdh": {
+      "hermetica-usdh": {
+        "name": "Hermetica USDh",
+        "contracts": {
+          "main": {
+            "name": "Hermetica USDh Main Contract",
+            "type": "core",
+            "description": "Main contract for Hermetica USDh",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "stacks": {
+            "chain": "stacks",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hermetica-usdh",
+            "updated": "2025-01-31"
+          },
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hermetica-usdh",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "hope-collateral": {
+      "hope-collateral": {
+        "name": "HOPE Collateral",
+        "contracts": {
+          "main": {
+            "name": "HOPE Collateral Main Contract",
+            "type": "core",
+            "description": "Main contract for HOPE Collateral",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hope-collateral",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hope-collateral",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "jupusd": {
+      "jupusd": {
+        "name": "JupUSD",
+        "contracts": {
+          "main": {
+            "name": "JupUSD Main Contract",
+            "type": "core",
+            "description": "Main contract for JupUSD",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/jupusd",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "liminal": {
+      "liminal": {
+        "name": "Liminal",
+        "contracts": {
+          "main": {
+            "name": "Liminal Main Contract",
+            "type": "core",
+            "description": "Main contract for Liminal",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/liminal",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "mainstreet": {
+      "mainstreet": {
+        "name": "Mainstreet",
+        "contracts": {
+          "main": {
+            "name": "Mainstreet Main Contract",
+            "type": "core",
+            "description": "Main contract for Mainstreet",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mainstreet",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "manta-cedefi": {
+      "manta-cedefi": {
+        "name": "Manta CeDeFi",
+        "contracts": {
+          "main": {
+            "name": "Manta CeDeFi Main Contract",
+            "type": "core",
+            "description": "Main contract for Manta CeDeFi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "manta": {
+            "chain": "manta",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/manta-cedefi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nexton": {
+      "nexton": {
+        "name": "Nexton",
+        "contracts": {
+          "main": {
+            "name": "Nexton Main Contract",
+            "type": "core",
+            "description": "Main contract for Nexton",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ton": {
+            "chain": "ton",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nexton",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "opendelta-perpetual-bond": {
+      "opendelta-perpetual-bond": {
+        "name": "OpenDelta Perpetual Bond",
+        "contracts": {
+          "main": {
+            "name": "OpenDelta Perpetual Bond Main Contract",
+            "type": "core",
+            "description": "Main contract for OpenDelta Perpetual Bond",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/opendelta-perpetual-bond",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "resolv": {
+      "resolv": {
+        "name": "Resolv",
+        "contracts": {
+          "main": {
+            "name": "Resolv Main Contract",
+            "type": "core",
+            "description": "Main contract for Resolv",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/resolv",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "smardex-usdn": {
+      "smardex-usdn": {
+        "name": "SMARDEX USDN",
+        "contracts": {
+          "main": {
+            "name": "SMARDEX USDN Main Contract",
+            "type": "core",
+            "description": "Main contract for SMARDEX USDN",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/smardex-usdn",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "solomon-usdv": {
+      "solomon-usdv": {
+        "name": "Solomon USDv",
+        "contracts": {
+          "main": {
+            "name": "Solomon USDv Main Contract",
+            "type": "core",
+            "description": "Main contract for Solomon USDv",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solomon-usdv",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "solstice-usx": {
+      "solstice-usx": {
+        "name": "Solstice USX",
+        "contracts": {
+          "main": {
+            "name": "Solstice USX Main Contract",
+            "type": "core",
+            "description": "Main contract for Solstice USX",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solstice-usx",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "solv-basis-trading": {
+      "solv-basis-trading": {
+        "name": "Solv Basis Trading",
+        "contracts": {
+          "main": {
+            "name": "Solv Basis Trading Main Contract",
+            "type": "core",
+            "description": "Main contract for Solv Basis Trading",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "soneium": {
+            "chain": "soneium",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "merlin": {
+            "chain": "merlin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solv-basis-trading",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sosovalue-basis": {
+      "sosovalue-basis": {
+        "name": "SoSoValue Basis",
+        "contracts": {
+          "main": {
+            "name": "SoSoValue Basis Main Contract",
+            "type": "core",
+            "description": "Main contract for SoSoValue Basis",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sosovalue-basis",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "stables-labs-usdx": {
+      "stables-labs-usdx": {
+        "name": "Stables Labs USDX",
+        "contracts": {
+          "main": {
+            "name": "Stables Labs USDX Main Contract",
+            "type": "core",
+            "description": "Main contract for Stables Labs USDX",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/stables-labs-usdx",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/stables-labs-usdx",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "suidollar": {
+      "suidollar": {
+        "name": "SuiDollar",
+        "contracts": {
+          "main": {
+            "name": "SuiDollar Main Contract",
+            "type": "core",
+            "description": "Main contract for SuiDollar",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/suidollar",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "superstate-uscc": {
+      "superstate-uscc": {
+        "name": "Superstate USCC",
+        "contracts": {
+          "main": {
+            "name": "Superstate USCC Main Contract",
+            "type": "core",
+            "description": "Main contract for Superstate USCC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "plume-mainnet": {
+            "chain": "plume-mainnet",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "theo-straddle-vaults": {
+      "theo-straddle-vaults": {
+        "name": "Theo Straddle Vaults",
+        "contracts": {
+          "main": {
+            "name": "Theo Straddle Vaults Main Contract",
+            "type": "core",
+            "description": "Main contract for Theo Straddle Vaults",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "umoja-ybtc": {
+      "umoja-ybtc": {
+        "name": "Umoja yBTC",
+        "contracts": {
+          "main": {
+            "name": "Umoja yBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for Umoja yBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/umoja-ybtc",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/umoja-ybtc",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "unitas": {
+      "unitas": {
+        "name": "Unitas",
+        "contracts": {
+          "main": {
+            "name": "Unitas Main Contract",
+            "type": "core",
+            "description": "Main contract for Unitas",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/unitas",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "xsy": {
+      "xsy": {
+        "name": "XSY",
+        "contracts": {
+          "main": {
+            "name": "XSY Main Contract",
+            "type": "core",
+            "description": "Main contract for XSY",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/xsy",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zerobase-cedefi": {
+      "zerobase-cedefi": {
+        "name": "ZEROBASE CeDeFi",
+        "contracts": {
+          "main": {
+            "name": "ZEROBASE CeDeFi Main Contract",
+            "type": "core",
+            "description": "Main contract for ZEROBASE CeDeFi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zerobase-cedefi",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zerobase-cedefi",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zerobase-cedefi",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zerobase-cedefi",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zerobase-cedefi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

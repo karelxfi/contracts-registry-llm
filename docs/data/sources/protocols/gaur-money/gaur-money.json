@@ -1,0 +1,42 @@
+{
+  "id": "gaur-money",
+  "name": "Gaur Money",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gaur Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Gaur Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaur-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

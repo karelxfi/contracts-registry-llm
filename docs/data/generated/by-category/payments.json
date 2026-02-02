@@ -1,0 +1,1959 @@
+{
+  "category": "payments",
+  "protocols": {
+    "ajira-pay-finance-v1": {
+      "ajira-pay-finance-v1": {
+        "name": "Ajira Pay Finance V1",
+        "contracts": {
+          "main": {
+            "name": "Ajira Pay Finance V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Ajira Pay Finance V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ajira-pay-finance-v1",
+            "updated": "2025-01-31"
+          },
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ajira-pay-finance-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ajira-pay-finance-v2": {
+      "ajira-pay-finance-v2": {
+        "name": "Ajira Pay Finance V2",
+        "contracts": {
+          "main": {
+            "name": "Ajira Pay Finance V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Ajira Pay Finance V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ajira-pay-finance-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "compx-streaming": {
+      "compx-streaming": {
+        "name": "Compx Streaming",
+        "contracts": {
+          "main": {
+            "name": "Compx Streaming Main Contract",
+            "type": "core",
+            "description": "Main contract for Compx Streaming",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "algorand": {
+            "chain": "algorand",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/compx-streaming",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "flexa": {
+      "flexa": {
+        "name": "Flexa",
+        "contracts": {
+          "main": {
+            "name": "Flexa Main Contract",
+            "type": "core",
+            "description": "Main contract for Flexa",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flexa",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hedgey": {
+      "hedgey": {
+        "name": "Hedgey",
+        "contracts": {
+          "main": {
+            "name": "Hedgey Main Contract",
+            "type": "core",
+            "description": "Main contract for Hedgey",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgey",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lightning-network": {
+      "lightning-network": {
+        "name": "Lightning Network",
+        "contracts": {
+          "main": {
+            "name": "Lightning Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Lightning Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lightning-network",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "llamapay": {
+      "llamapay": {
+        "name": "LlamaPay",
+        "contracts": {
+          "main": {
+            "name": "LlamaPay Main Contract",
+            "type": "core",
+            "description": "Main contract for LlamaPay",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "metis": {
+            "chain": "metis",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          },
+          "fraxtal": {
+            "chain": "fraxtal",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/llamapay",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "monarchpay": {
+      "monarchpay": {
+        "name": "MonarchPay",
+        "contracts": {
+          "main": {
+            "name": "MonarchPay Main Contract",
+            "type": "core",
+            "description": "Main contract for MonarchPay",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/monarchpay",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "moveflow": {
+      "moveflow": {
+        "name": "MoveFlow",
+        "contracts": {
+          "main": {
+            "name": "MoveFlow Main Contract",
+            "type": "core",
+            "description": "Main contract for MoveFlow",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "aptos": {
+            "chain": "aptos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/moveflow",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "pay-protocol": {
+      "pay-protocol": {
+        "name": "Pay Protocol",
+        "contracts": {
+          "main": {
+            "name": "Pay Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Pay Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pay-protocol",
+            "updated": "2025-01-31",
+            "platform": "other"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pay-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "roketo": {
+      "roketo": {
+        "name": "Roketo",
+        "contracts": {
+          "main": {
+            "name": "Roketo Main Contract",
+            "type": "core",
+            "description": "Main contract for Roketo",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "near": {
+            "chain": "near",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/roketo",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "sablier-flow": {
+      "sablier-flow": {
+        "name": "Sablier Flow",
+        "contracts": {
+          "main": {
+            "name": "Sablier Flow Main Contract",
+            "type": "core",
+            "description": "Main contract for Sablier Flow",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "abstract": {
+            "chain": "abstract",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "core": {
+            "chain": "core",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31",
+            "platform": "other"
+          },
+          "unichain": {
+            "chain": "unichain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "xdc": {
+            "chain": "xdc",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          },
+          "sei": {
+            "chain": "sei",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-flow",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sablier-legacy": {
+      "sablier-legacy": {
+        "name": "Sablier Legacy",
+        "contracts": {
+          "main": {
+            "name": "Sablier Legacy Main Contract",
+            "type": "core",
+            "description": "Main contract for Sablier Legacy",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-legacy",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-legacy",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-legacy",
+            "updated": "2025-01-31"
+          },
+          "ronin": {
+            "chain": "ronin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-legacy",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-legacy",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sablier-lockup": {
+      "sablier-lockup": {
+        "name": "Sablier Lockup",
+        "contracts": {
+          "main": {
+            "name": "Sablier Lockup Main Contract",
+            "type": "core",
+            "description": "Main contract for Sablier Lockup",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "unichain": {
+            "chain": "unichain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "abstract": {
+            "chain": "abstract",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "core": {
+            "chain": "core",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "sei": {
+            "chain": "sei",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          },
+          "xdc": {
+            "chain": "xdc",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sablier-lockup",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "streamflow": {
+      "streamflow": {
+        "name": "Streamflow",
+        "contracts": {
+          "main": {
+            "name": "Streamflow Main Contract",
+            "type": "core",
+            "description": "Main contract for Streamflow",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/streamflow",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "aptos": {
+            "chain": "aptos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/streamflow",
+            "updated": "2025-01-31",
+            "platform": "move"
+          },
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/streamflow",
+            "updated": "2025-01-31",
+            "platform": "move"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/streamflow",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/streamflow",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "superfluid": {
+      "superfluid": {
+        "name": "Superfluid",
+        "contracts": {
+          "main": {
+            "name": "Superfluid Main Contract",
+            "type": "core",
+            "description": "Main contract for Superfluid",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "celo": {
+            "chain": "celo",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/superfluid",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sushi-furo": {
+      "sushi-furo": {
+        "name": "Sushi Furo",
+        "contracts": {
+          "main": {
+            "name": "Sushi Furo Main Contract",
+            "type": "core",
+            "description": "Main contract for Sushi Furo",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sushi-furo",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sushi-furo",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sushi-furo",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sushi-furo",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "telcoin": {
+      "telcoin": {
+        "name": "Telcoin",
+        "contracts": {
+          "main": {
+            "name": "Telcoin Main Contract",
+            "type": "core",
+            "description": "Main contract for Telcoin",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/telcoin",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "univoucher": {
+      "univoucher": {
+        "name": "UniVoucher",
+        "contracts": {
+          "main": {
+            "name": "UniVoucher Main Contract",
+            "type": "core",
+            "description": "Main contract for UniVoucher",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/univoucher",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/univoucher",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/univoucher",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/univoucher",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/univoucher",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zkp2p": {
+      "zkp2p": {
+        "name": "ZKP2P",
+        "contracts": {
+          "main": {
+            "name": "ZKP2P Main Contract",
+            "type": "core",
+            "description": "Main contract for ZKP2P",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkp2p",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

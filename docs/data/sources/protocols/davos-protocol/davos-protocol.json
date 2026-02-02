@@ -1,0 +1,96 @@
+{
+  "id": "davos-protocol",
+  "name": "Davos Protocol",
+  "type": "cdp",
+  "website": "https://davos.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum",
+    "polygon",
+    "linea",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Davos Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Davos Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/davos-protocol",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/davos-protocol",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/davos-protocol",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/davos-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

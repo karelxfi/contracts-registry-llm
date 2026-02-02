@@ -1,0 +1,42 @@
+{
+  "id": "toxicdeer-finance",
+  "name": "ToxicDeer Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ToxicDeer Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for ToxicDeer Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/toxicdeer-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

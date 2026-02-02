@@ -1,0 +1,44 @@
+{
+  "id": "yieldnest",
+  "name": "YieldNest",
+  "type": "onchain capital allocator",
+  "website": "https://yieldnest.finance/",
+  "github": [
+    "yieldnest"
+  ],
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "YieldNest Main Contract",
+      "type": "core",
+      "description": "Main contract for YieldNest",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yieldnest",
+      "updated": "2025-01-31"
+    }
+  }
+}

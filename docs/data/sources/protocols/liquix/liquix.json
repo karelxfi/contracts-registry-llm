@@ -1,0 +1,78 @@
+{
+  "id": "liquix",
+  "name": "LiquiX",
+  "type": "liquidity manager",
+  "website": "https://liquix.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "blast",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LiquiX Main Contract",
+      "type": "core",
+      "description": "Main contract for LiquiX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquix",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquix",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquix",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "detto-finance",
+  "name": "Detto Finance",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Detto Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Detto Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/detto-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

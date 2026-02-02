@@ -1,0 +1,42 @@
+{
+  "id": "colors",
+  "name": "Colors",
+  "type": "farm",
+  "website": "https://www.colors.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Colors Main Contract",
+      "type": "core",
+      "description": "Main contract for Colors",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/colors",
+      "updated": "2025-01-31"
+    }
+  }
+}

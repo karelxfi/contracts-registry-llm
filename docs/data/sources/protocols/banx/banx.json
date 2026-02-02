@@ -1,0 +1,43 @@
+{
+  "id": "banx",
+  "name": "Banx",
+  "type": "nft lending",
+  "website": "https://banx.gg",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Banx Main Contract",
+      "type": "core",
+      "description": "Main contract for Banx",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/banx",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

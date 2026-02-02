@@ -1,0 +1,43 @@
+{
+  "id": "alphafi-stsui",
+  "name": "AlphaFi stSUI",
+  "type": "liquid staking",
+  "website": "https://stsui.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AlphaFi stSUI Main Contract",
+      "type": "core",
+      "description": "Main contract for AlphaFi stSUI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphafi-stsui",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

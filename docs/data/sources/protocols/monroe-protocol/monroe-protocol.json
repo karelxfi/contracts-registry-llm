@@ -1,0 +1,80 @@
+{
+  "id": "monroe-protocol",
+  "name": "Monroe Protocol",
+  "type": "cdp",
+  "website": "https://monroeprotocol.com/",
+  "github": [
+    "MonroeProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "avalanche",
+    "manta",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Monroe Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Monroe Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/monroe-protocol",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/monroe-protocol",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/monroe-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

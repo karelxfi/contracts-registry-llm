@@ -1,0 +1,44 @@
+{
+  "id": "mytrade",
+  "name": "MyTrade",
+  "type": "dexs",
+  "website": "https://www.mytrade.org",
+  "github": [
+    "mytrade-dex"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MyTrade Main Contract",
+      "type": "core",
+      "description": "Main contract for MyTrade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mytrade",
+      "updated": "2025-01-31"
+    }
+  }
+}

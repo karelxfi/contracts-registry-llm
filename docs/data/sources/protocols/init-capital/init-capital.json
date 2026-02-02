@@ -1,0 +1,62 @@
+{
+  "id": "init-capital",
+  "name": "INIT Capital",
+  "type": "lending",
+  "website": "https://app.init.capital",
+  "github": [
+    "init-capital"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "mantle",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "INIT Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for INIT Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/init-capital",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/init-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

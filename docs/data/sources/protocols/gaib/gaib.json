@@ -1,0 +1,99 @@
+{
+  "id": "gaib",
+  "name": "GAIB",
+  "type": "rwa",
+  "website": "https://aid.gaib.ai/spice?ref=4A3909EB",
+  "github": [
+    "gaib-ai"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "sei",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GAIB Main Contract",
+      "type": "core",
+      "description": "Main contract for GAIB",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaib",
+      "updated": "2025-01-31"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaib",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaib",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gaib",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "funbear",
+  "name": "FunBear",
+  "type": "services",
+  "website": "https://funbear.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FunBear Main Contract",
+      "type": "core",
+      "description": "Main contract for FunBear",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/funbear",
+      "updated": "2025-01-31"
+    }
+  }
+}

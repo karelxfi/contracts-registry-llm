@@ -1,0 +1,64 @@
+{
+  "id": "animeswap",
+  "name": "AnimeSwap",
+  "type": "dexs",
+  "website": "https://animeswap.org",
+  "github": [
+    "AnimeSwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "aptos",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AnimeSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for AnimeSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/animeswap",
+      "updated": "2025-01-31",
+      "platform": "move"
+    },
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/animeswap",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

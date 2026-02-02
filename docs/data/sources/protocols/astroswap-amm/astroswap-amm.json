@@ -1,0 +1,43 @@
+{
+  "id": "astroswap-amm",
+  "name": "AstroSwap AMM",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AstroSwap AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for AstroSwap AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astroswap-amm",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

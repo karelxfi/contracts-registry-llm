@@ -1,0 +1,42 @@
+{
+  "id": "seer",
+  "name": "Seer",
+  "type": "prediction market",
+  "website": "https://seer.pm/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Seer Main Contract",
+      "type": "core",
+      "description": "Main contract for Seer",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/seer",
+      "updated": "2025-01-31"
+    }
+  }
+}

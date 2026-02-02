@@ -1,0 +1,42 @@
+{
+  "id": "munchables-v2",
+  "name": "Munchables V2",
+  "type": "farm",
+  "website": "https://munchables.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Munchables V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Munchables V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/munchables-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

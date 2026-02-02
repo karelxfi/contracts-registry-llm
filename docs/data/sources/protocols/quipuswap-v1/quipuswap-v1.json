@@ -1,0 +1,43 @@
+{
+  "id": "quipuswap-v1",
+  "name": "QuipuSwap V1",
+  "type": "dexs",
+  "website": "https://quipuswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "QuipuSwap V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for QuipuSwap V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quipuswap-v1",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

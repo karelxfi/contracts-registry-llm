@@ -1,0 +1,43 @@
+{
+  "id": "stellar-dex",
+  "name": "Stellar DEX",
+  "type": "dexs",
+  "website": "https://developers.stellar.org/docs/learn/encyclopedia/sdex/liquidity-on-stellar-sdex-liquidity-pools#sdex",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stellar DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for Stellar DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stellar-dex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

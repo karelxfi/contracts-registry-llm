@@ -1,0 +1,42 @@
+{
+  "id": "vooi-v1",
+  "name": "Vooi V1",
+  "type": "dexs",
+  "website": "https://vooi.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vooi V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Vooi V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vooi-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "aliensfarm",
+  "name": "AliensFarm",
+  "type": "dexs",
+  "website": "https://aliens.farm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AliensFarm Main Contract",
+      "type": "core",
+      "description": "Main contract for AliensFarm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aliensfarm",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

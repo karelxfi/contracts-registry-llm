@@ -1,0 +1,42 @@
+{
+  "id": "biquid",
+  "name": "Biquid",
+  "type": "liquid staking",
+  "website": "https://biquid.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "bifrost-network"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Biquid Main Contract",
+      "type": "core",
+      "description": "Main contract for Biquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bifrost-network": {
+      "chain": "bifrost-network",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/biquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

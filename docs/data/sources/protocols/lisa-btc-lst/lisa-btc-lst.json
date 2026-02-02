@@ -1,0 +1,43 @@
+{
+  "id": "lisa-btc-lst",
+  "name": "LISA BTC LST",
+  "type": "restaked btc",
+  "website": "https://www.lisalab.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "restaked btc",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LISA BTC LST Main Contract",
+      "type": "core",
+      "description": "Main contract for LISA BTC LST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lisa-btc-lst",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

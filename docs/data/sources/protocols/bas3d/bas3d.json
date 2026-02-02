@@ -1,0 +1,42 @@
+{
+  "id": "bas3d",
+  "name": "BAS3D",
+  "type": "yield aggregator",
+  "website": "https://bas3d.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BAS3D Main Contract",
+      "type": "core",
+      "description": "Main contract for BAS3D",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bas3d",
+      "updated": "2025-01-31"
+    }
+  }
+}

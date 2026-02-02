@@ -1,0 +1,62 @@
+{
+  "id": "unbound",
+  "name": "Unbound",
+  "type": "derivatives",
+  "website": "https://www.unbound.finance/",
+  "github": [
+    "unbound-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unbound Main Contract",
+      "type": "core",
+      "description": "Main contract for Unbound",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unbound",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unbound",
+      "updated": "2025-01-31"
+    }
+  }
+}

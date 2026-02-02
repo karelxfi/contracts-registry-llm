@@ -1,0 +1,39 @@
+{
+  "chain": "arbitrum-one",
+  "chainId": 42161,
+  "chainInfo": null,
+  "protocols": {
+    "gmx": {
+      "v1": {
+        "name": "GMX V1",
+        "type": "perpetuals",
+        "addresses": {
+          "vault": "0x489ee077994B6658eAfA855C308275EAd8097C4A"
+        },
+        "deploymentBlocks": {
+          "vault": 227091
+        },
+        "verified": {
+          "vault": true
+        }
+      }
+    },
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+          "adaptiveCurveIrm": "0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA",
+          "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+        },
+        "deploymentBlocks": {},
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

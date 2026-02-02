@@ -1,0 +1,98 @@
+{
+  "id": "d8x",
+  "name": "D8X",
+  "type": "derivatives",
+  "website": "https://d8x.exchange/",
+  "github": [
+    "D8-X"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "berachain",
+    "arbitrum",
+    "base",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "D8X Main Contract",
+      "type": "core",
+      "description": "Main contract for D8X",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d8x",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d8x",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d8x",
+      "updated": "2025-01-31"
+    },
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/d8x",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "popfi",
+  "name": "PopFi",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PopFi Main Contract",
+      "type": "core",
+      "description": "Main contract for PopFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/popfi",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

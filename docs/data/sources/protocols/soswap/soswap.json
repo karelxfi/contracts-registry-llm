@@ -1,0 +1,42 @@
+{
+  "id": "soswap",
+  "name": "Soswap",
+  "type": "dexs",
+  "website": "https://soswap.rai.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Soswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Soswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/soswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

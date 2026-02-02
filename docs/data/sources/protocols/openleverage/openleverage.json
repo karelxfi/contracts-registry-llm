@@ -1,0 +1,62 @@
+{
+  "id": "openleverage",
+  "name": "OpenLeverage",
+  "type": "dexs",
+  "website": "https://openleverage.finance",
+  "github": [
+    "OpenLeverageDev"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OpenLeverage Main Contract",
+      "type": "core",
+      "description": "Main contract for OpenLeverage",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/openleverage",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/openleverage",
+      "updated": "2025-01-31"
+    }
+  }
+}

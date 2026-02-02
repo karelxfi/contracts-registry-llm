@@ -1,0 +1,45 @@
+{
+  "id": "hx-finance",
+  "name": "HX Finance",
+  "type": "dexs",
+  "website": "https://app.hx.finance",
+  "github": [
+    "hxfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HX Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for HX Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hx-finance",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "function-fbtc",
+  "name": "Function FBTC",
+  "type": "bridge",
+  "website": "https://www.fxn.xyz",
+  "github": [
+    "fbtc-xyz"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Function FBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for Function FBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/function-fbtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

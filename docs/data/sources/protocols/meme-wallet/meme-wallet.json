@@ -1,0 +1,42 @@
+{
+  "id": "meme-wallet",
+  "name": "Meme Wallet",
+  "type": "launchpad",
+  "website": "https://nextjs-boilerplate-three-beta-84.vercel.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "world-chain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meme Wallet Main Contract",
+      "type": "core",
+      "description": "Main contract for Meme Wallet",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meme-wallet",
+      "updated": "2025-01-31"
+    }
+  }
+}

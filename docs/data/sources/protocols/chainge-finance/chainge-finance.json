@@ -1,0 +1,44 @@
+{
+  "id": "chainge-finance",
+  "name": "Chainge Finance",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "ChaingeFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "rollux"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chainge Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Chainge Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "rollux": {
+      "chain": "rollux",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainge-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

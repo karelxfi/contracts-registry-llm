@@ -1,0 +1,42 @@
+{
+  "id": "alfafrens",
+  "name": "AlfaFrens",
+  "type": "sofi",
+  "website": "https://www.alfafrens.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AlfaFrens Main Contract",
+      "type": "core",
+      "description": "Main contract for AlfaFrens",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alfafrens",
+      "updated": "2025-01-31"
+    }
+  }
+}

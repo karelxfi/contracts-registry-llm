@@ -1,0 +1,78 @@
+{
+  "id": "anemoy-capital",
+  "name": "Anemoy Capital",
+  "type": "rwa",
+  "website": "https://www.anemoy.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "celo",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Anemoy Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for Anemoy Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anemoy-capital",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anemoy-capital",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anemoy-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

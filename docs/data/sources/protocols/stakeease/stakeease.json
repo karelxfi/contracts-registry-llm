@@ -1,0 +1,42 @@
+{
+  "id": "stakeease",
+  "name": "StakeEase",
+  "type": "indexes",
+  "website": "https://stakeease.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StakeEase Main Contract",
+      "type": "core",
+      "description": "Main contract for StakeEase",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stakeease",
+      "updated": "2025-01-31"
+    }
+  }
+}

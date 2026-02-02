@@ -1,0 +1,75 @@
+{
+  "category": "charity fundraising",
+  "protocols": {
+    "aelin": {
+      "aelin": {
+        "name": "Aelin",
+        "contracts": {
+          "main": {
+            "name": "Aelin Main Contract",
+            "type": "core",
+            "description": "Main contract for Aelin",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aelin",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "giveth": {
+      "giveth": {
+        "name": "Giveth",
+        "contracts": {
+          "main": {
+            "name": "Giveth Main Contract",
+            "type": "core",
+            "description": "Main contract for Giveth",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/giveth",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

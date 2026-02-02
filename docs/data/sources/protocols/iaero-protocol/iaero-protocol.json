@@ -1,0 +1,44 @@
+{
+  "id": "iaero-protocol",
+  "name": "iAero Protocol",
+  "type": "liquid staking",
+  "website": "https://app.iaero.finance/",
+  "github": [
+    "iaeroProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "iAero Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for iAero Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iaero-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

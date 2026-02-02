@@ -1,0 +1,133 @@
+{
+  "id": "thedeep",
+  "name": "TheDeep",
+  "type": "liquidity manager",
+  "website": "https://app.thedeep.ink/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "base",
+    "celo",
+    "flow",
+    "ink",
+    "polygon",
+    "katana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TheDeep Main Contract",
+      "type": "core",
+      "description": "Main contract for TheDeep",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31"
+    },
+    "flow": {
+      "chain": "flow",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "ink": {
+      "chain": "ink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31"
+    },
+    "katana": {
+      "chain": "katana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thedeep",
+      "updated": "2025-01-31"
+    }
+  }
+}

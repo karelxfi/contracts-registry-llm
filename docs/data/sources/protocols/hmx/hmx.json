@@ -1,0 +1,78 @@
+{
+  "id": "hmx",
+  "name": "HMX",
+  "type": "derivatives",
+  "website": "https://hmx.org/arbitrum",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "blast",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HMX Main Contract",
+      "type": "core",
+      "description": "Main contract for HMX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hmx",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hmx",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hmx",
+      "updated": "2025-01-31"
+    }
+  }
+}

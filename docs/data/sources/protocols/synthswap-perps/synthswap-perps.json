@@ -1,0 +1,42 @@
+{
+  "id": "synthswap-perps",
+  "name": "Synthswap Perps",
+  "type": "derivatives",
+  "website": "https://perps.synthswap.io/#/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Synthswap Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for Synthswap Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synthswap-perps",
+      "updated": "2025-01-31"
+    }
+  }
+}

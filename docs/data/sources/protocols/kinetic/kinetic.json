@@ -1,0 +1,44 @@
+{
+  "id": "kinetic",
+  "name": "Kinetic",
+  "type": "lending",
+  "website": "https://kinetic.market",
+  "github": [
+    "kinetic-market"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinetic Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinetic",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetic",
+      "updated": "2025-01-31"
+    }
+  }
+}

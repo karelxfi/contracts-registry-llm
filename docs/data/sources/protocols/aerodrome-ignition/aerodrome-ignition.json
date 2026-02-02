@@ -1,0 +1,42 @@
+{
+  "id": "aerodrome-ignition",
+  "name": "Aerodrome Ignition",
+  "type": "launchpad",
+  "website": "https://aero.drome.eth.limo/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aerodrome Ignition Main Contract",
+      "type": "core",
+      "description": "Main contract for Aerodrome Ignition",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aerodrome-ignition",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "atrium",
+  "name": "Atrium",
+  "type": "farm",
+  "website": "https://atrium.io/",
+  "github": [
+    "atma-community"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Atrium Main Contract",
+      "type": "core",
+      "description": "Main contract for Atrium",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atrium",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "metronome-synth",
+  "name": "Metronome Synth",
+  "type": "synthetics",
+  "website": "https://www.metronome.io/synth",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Metronome Synth Main Contract",
+      "type": "core",
+      "description": "Main contract for Metronome Synth",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metronome-synth",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metronome-synth",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "category": "interface",
+  "protocols": {
+    "aark-digital": {
+      "aark-digital": {
+        "name": "Aark Digital",
+        "contracts": {
+          "main": {
+            "name": "Aark Digital Main Contract",
+            "type": "core",
+            "description": "Main contract for Aark Digital",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aark-digital",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "desk-clob": {
+      "desk-clob": {
+        "name": "DESK CLOB",
+        "contracts": {
+          "main": {
+            "name": "DESK CLOB Main Contract",
+            "type": "core",
+            "description": "Main contract for DESK CLOB",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/desk-clob",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "dflow-prediction-market": {
+      "dflow-prediction-market": {
+        "name": "DFlow Prediction Market",
+        "contracts": {
+          "main": {
+            "name": "DFlow Prediction Market Main Contract",
+            "type": "core",
+            "description": "Main contract for DFlow Prediction Market",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dflow-prediction-market",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "jupiter-prediction": {
+      "jupiter-prediction": {
+        "name": "Jupiter Prediction",
+        "contracts": {
+          "main": {
+            "name": "Jupiter Prediction Main Contract",
+            "type": "core",
+            "description": "Main contract for Jupiter Prediction",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/jupiter-prediction",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    }
+  }
+}

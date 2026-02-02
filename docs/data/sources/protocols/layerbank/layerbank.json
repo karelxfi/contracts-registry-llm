@@ -1,0 +1,116 @@
+{
+  "id": "layerbank",
+  "name": "LayerBank",
+  "type": "lending",
+  "website": "https://layerbank.finance",
+  "github": [
+    "layerbank"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "manta",
+    "linea",
+    "scroll",
+    "bob",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LayerBank Main Contract",
+      "type": "core",
+      "description": "Main contract for LayerBank",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerbank",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerbank",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerbank",
+      "updated": "2025-01-31"
+    },
+    "bob": {
+      "chain": "bob",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerbank",
+      "updated": "2025-01-31"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerbank",
+      "updated": "2025-01-31"
+    }
+  }
+}

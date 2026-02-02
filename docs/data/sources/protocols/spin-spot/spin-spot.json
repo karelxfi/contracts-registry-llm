@@ -1,0 +1,43 @@
+{
+  "id": "spin-spot",
+  "name": "Spin Spot",
+  "type": "dexs",
+  "website": "https://spin.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Spin Spot Main Contract",
+      "type": "core",
+      "description": "Main contract for Spin Spot",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spin-spot",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

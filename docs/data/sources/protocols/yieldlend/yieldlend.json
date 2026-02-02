@@ -1,0 +1,44 @@
+{
+  "id": "yieldlend",
+  "name": "YieldLend",
+  "type": "lending",
+  "website": "https://yieldlend.xyz",
+  "github": [
+    "yieldlend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "YieldLend Main Contract",
+      "type": "core",
+      "description": "Main contract for YieldLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yieldlend",
+      "updated": "2025-01-31"
+    }
+  }
+}

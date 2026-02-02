@@ -1,0 +1,595 @@
+{
+  "category": "ai agents",
+  "protocols": {
+    "agentfi": {
+      "agentfi": {
+        "name": "AgentFi",
+        "contracts": {
+          "main": {
+            "name": "AgentFi Main Contract",
+            "type": "core",
+            "description": "Main contract for AgentFi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/agentfi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "arbius": {
+      "arbius": {
+        "name": "Arbius",
+        "contracts": {
+          "main": {
+            "name": "Arbius Main Contract",
+            "type": "core",
+            "description": "Main contract for Arbius",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/arbius",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "botto": {
+      "botto": {
+        "name": "Botto",
+        "contracts": {
+          "main": {
+            "name": "Botto Main Contract",
+            "type": "core",
+            "description": "Main contract for Botto",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/botto",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/botto",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "giza": {
+      "giza": {
+        "name": "Giza",
+        "contracts": {
+          "main": {
+            "name": "Giza Main Contract",
+            "type": "core",
+            "description": "Main contract for Giza",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/giza",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/giza",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/giza",
+            "updated": "2025-01-31",
+            "platform": "other"
+          },
+          "plasma": {
+            "chain": "plasma",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/giza",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "infinit": {
+      "infinit": {
+        "name": "INFINIT",
+        "contracts": {
+          "main": {
+            "name": "INFINIT Main Contract",
+            "type": "core",
+            "description": "Main contract for INFINIT",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31",
+            "platform": "other"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "plasma": {
+            "chain": "plasma",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          },
+          "berachain": {
+            "chain": "berachain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinit",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "infinite-trading-protocol": {
+      "infinite-trading-protocol": {
+        "name": "Infinite Trading Protocol",
+        "contracts": {
+          "main": {
+            "name": "Infinite Trading Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Infinite Trading Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mind-network": {
+      "mind-network": {
+        "name": "Mind Network",
+        "contracts": {
+          "main": {
+            "name": "Mind Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Mind Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mind-network",
+            "updated": "2025-01-31"
+          },
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mind-network",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "morpheusai": {
+      "morpheusai": {
+        "name": "MorpheusAI",
+        "contracts": {
+          "main": {
+            "name": "MorpheusAI Main Contract",
+            "type": "core",
+            "description": "Main contract for MorpheusAI",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/morpheusai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "vader-ai": {
+      "vader-ai": {
+        "name": "Vader AI",
+        "contracts": {
+          "main": {
+            "name": "Vader AI Main Contract",
+            "type": "core",
+            "description": "Main contract for Vader AI",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/vader-ai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "yoko": {
+      "yoko": {
+        "name": "Yoko",
+        "contracts": {
+          "main": {
+            "name": "Yoko Main Contract",
+            "type": "core",
+            "description": "Main contract for Yoko",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/yoko",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pooltogether-v5",
+  "name": "PoolTogether V5",
+  "type": "yield lottery",
+  "website": "https://pooltogether.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield lottery",
+    "base",
+    "ethereum",
+    "world-chain",
+    "arbitrum",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PoolTogether V5 Main Contract",
+      "type": "core",
+      "description": "Main contract for PoolTogether V5",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pooltogether-v5",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pooltogether-v5",
+      "updated": "2025-01-31"
+    },
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pooltogether-v5",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pooltogether-v5",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pooltogether-v5",
+      "updated": "2025-01-31"
+    }
+  }
+}

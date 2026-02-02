@@ -1,0 +1,43 @@
+{
+  "id": "aptin-finance-v2",
+  "name": "Aptin Finance V2",
+  "type": "lending",
+  "website": "https://aptin.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aptin Finance V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Aptin Finance V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aptin-finance-v2",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

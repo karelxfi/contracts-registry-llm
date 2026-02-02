@@ -1,0 +1,60 @@
+{
+  "id": "enosys-bridge",
+  "name": "Enosys Bridge",
+  "type": "bridge",
+  "website": "https://bridge.enosys.global/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Enosys Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Enosys Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/enosys-bridge",
+      "updated": "2025-01-31"
+    },
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/enosys-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

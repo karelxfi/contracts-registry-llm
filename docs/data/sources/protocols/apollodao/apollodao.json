@@ -1,0 +1,62 @@
+{
+  "id": "apollodao",
+  "name": "ApolloDAO",
+  "type": "yield",
+  "website": "https://apollo.farm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "neutron",
+    "osmosis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ApolloDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ApolloDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apollodao",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apollodao",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

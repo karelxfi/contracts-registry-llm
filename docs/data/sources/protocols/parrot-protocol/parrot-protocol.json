@@ -1,0 +1,43 @@
+{
+  "id": "parrot-protocol",
+  "name": "Parrot Protocol",
+  "type": "cdp",
+  "website": "https://parrot.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Parrot Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Parrot Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/parrot-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

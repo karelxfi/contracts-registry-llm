@@ -1,0 +1,57 @@
+{
+  "chain": "provenance",
+  "chainInfo": {
+    "id": "provenance",
+    "name": "Provenance",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "HASH",
+      "symbol": "HASH",
+      "decimals": 8
+    },
+    "gecko_id": "hash-2",
+    "cmcId": "19960",
+    "explorers": {
+      "primary": {
+        "name": "Provenance Explorer",
+        "url": "https://explorer.provenance.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "figure-markets-democratized-prime": {
+      "figure-markets-democratized-prime": {
+        "name": "Figure Markets Democratized Prime",
+        "type": "rwa lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "figure-markets-exchange": {
+      "figure-markets-exchange": {
+        "name": "Figure Markets Exchange",
+        "type": "otc marketplace",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

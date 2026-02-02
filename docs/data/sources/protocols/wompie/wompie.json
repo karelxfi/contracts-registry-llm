@@ -1,0 +1,42 @@
+{
+  "id": "wompie",
+  "name": "Wompie",
+  "type": "yield",
+  "website": "https://www.magpiexyz.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wompie Main Contract",
+      "type": "core",
+      "description": "Main contract for Wompie",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wompie",
+      "updated": "2025-01-31"
+    }
+  }
+}

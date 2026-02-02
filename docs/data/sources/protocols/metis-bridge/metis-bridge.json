@@ -1,0 +1,42 @@
+{
+  "id": "metis-bridge",
+  "name": "Metis Bridge",
+  "type": "canonical bridge",
+  "website": "https://bridge.metis.io/home",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Metis Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Metis Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metis-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

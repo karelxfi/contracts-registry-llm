@@ -1,0 +1,96 @@
+{
+  "id": "izumi-liquidbox",
+  "name": "iZUMi LiquidBox",
+  "type": "yield",
+  "website": "https://izumi.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum",
+    "ethereum",
+    "polygon",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "iZUMi LiquidBox Main Contract",
+      "type": "core",
+      "description": "Main contract for iZUMi LiquidBox",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/izumi-liquidbox",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/izumi-liquidbox",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/izumi-liquidbox",
+      "updated": "2025-01-31"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/izumi-liquidbox",
+      "updated": "2025-01-31"
+    }
+  }
+}

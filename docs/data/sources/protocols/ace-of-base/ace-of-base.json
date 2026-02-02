@@ -1,0 +1,42 @@
+{
+  "id": "ace-of-base",
+  "name": "Ace of Base",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ace of Base Main Contract",
+      "type": "core",
+      "description": "Main contract for Ace of Base",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ace-of-base",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "spindash",
+  "name": "Spindash",
+  "type": "prediction market",
+  "website": "https://spindash.gg/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Spindash Main Contract",
+      "type": "core",
+      "description": "Main contract for Spindash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spindash",
+      "updated": "2025-01-31"
+    }
+  }
+}

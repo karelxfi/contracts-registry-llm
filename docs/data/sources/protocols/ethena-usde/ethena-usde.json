@@ -1,0 +1,42 @@
+{
+  "id": "ethena-usde",
+  "name": "Ethena USDe",
+  "type": "basis trading",
+  "website": "https://www.app.ethena.fi/join/3y20d",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ethena USDe Main Contract",
+      "type": "core",
+      "description": "Main contract for Ethena USDe",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ethena-usde",
+      "updated": "2025-01-31"
+    }
+  }
+}

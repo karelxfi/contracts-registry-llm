@@ -1,0 +1,60 @@
+{
+  "id": "kinetix-amm-v3",
+  "name": "Kinetix AMM V3",
+  "type": "dexs",
+  "website": "https://kinetix.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinetix AMM V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinetix AMM V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetix-amm-v3",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetix-amm-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

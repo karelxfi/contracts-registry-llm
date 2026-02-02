@@ -1,0 +1,42 @@
+{
+  "id": "minotaur-money",
+  "name": "Minotaur Money",
+  "type": "reserve currency",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Minotaur Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Minotaur Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/minotaur-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "heroes-of-mavia",
+  "name": "Heroes of Mavia",
+  "type": "gaming",
+  "website": "https://www.mavia.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Heroes of Mavia Main Contract",
+      "type": "core",
+      "description": "Main contract for Heroes of Mavia",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/heroes-of-mavia",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/heroes-of-mavia",
+      "updated": "2025-01-31"
+    }
+  }
+}

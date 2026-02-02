@@ -1,0 +1,43 @@
+{
+  "id": "folks-finance-lending",
+  "name": "Folks Finance Lending",
+  "type": "lending",
+  "website": "https://folks.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Folks Finance Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Folks Finance Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/folks-finance-lending",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

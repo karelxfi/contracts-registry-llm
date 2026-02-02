@@ -1,0 +1,44 @@
+{
+  "id": "epns",
+  "name": "EPNS",
+  "type": "services",
+  "website": "https://epns.io",
+  "github": [
+    "ethereum-push-notification-service"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "EPNS Main Contract",
+      "type": "core",
+      "description": "Main contract for EPNS",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/epns",
+      "updated": "2025-01-31"
+    }
+  }
+}

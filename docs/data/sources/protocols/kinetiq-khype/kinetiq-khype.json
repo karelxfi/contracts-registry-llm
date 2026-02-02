@@ -1,0 +1,43 @@
+{
+  "id": "kinetiq-khype",
+  "name": "Kinetiq kHYPE",
+  "type": "liquid staking",
+  "website": "https://kinetiq.xyz/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinetiq kHYPE Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinetiq kHYPE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetiq-khype",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "alien-finance",
+  "name": "Alien Finance",
+  "type": "lending",
+  "website": "https://alien.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alien Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Alien Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alien-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

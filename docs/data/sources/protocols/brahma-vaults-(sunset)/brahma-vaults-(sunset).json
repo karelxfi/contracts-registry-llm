@@ -1,0 +1,62 @@
+{
+  "id": "brahma-vaults-(sunset)",
+  "name": "Brahma Vaults (Sunset)",
+  "type": "yield",
+  "website": "https://www.brahma.fi/blog/withdrawal-mode-brahma-vaults",
+  "github": [
+    "Brahma-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Brahma Vaults (Sunset) Main Contract",
+      "type": "core",
+      "description": "Main contract for Brahma Vaults (Sunset)",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brahma-vaults-(sunset)",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brahma-vaults-(sunset)",
+      "updated": "2025-01-31"
+    }
+  }
+}

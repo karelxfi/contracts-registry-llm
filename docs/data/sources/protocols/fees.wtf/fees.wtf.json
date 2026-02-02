@@ -1,0 +1,42 @@
+{
+  "id": "fees.wtf",
+  "name": "fees.wtf",
+  "type": "services",
+  "website": "https://fees.wtf/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "fees.wtf Main Contract",
+      "type": "core",
+      "description": "Main contract for fees.wtf",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fees.wtf",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dystopia",
+  "name": "Dystopia",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "dystopia-exchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dystopia Main Contract",
+      "type": "core",
+      "description": "Main contract for Dystopia",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dystopia",
+      "updated": "2025-01-31"
+    }
+  }
+}

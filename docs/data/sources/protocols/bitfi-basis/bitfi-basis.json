@@ -1,0 +1,78 @@
+{
+  "id": "bitfi-basis",
+  "name": "BitFi Basis",
+  "type": "basis trading",
+  "website": "https://www.bitfi.one",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum",
+    "base",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitFi Basis Main Contract",
+      "type": "core",
+      "description": "Main contract for BitFi Basis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+      "updated": "2025-01-31"
+    },
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitfi-basis",
+      "updated": "2025-01-31"
+    }
+  }
+}

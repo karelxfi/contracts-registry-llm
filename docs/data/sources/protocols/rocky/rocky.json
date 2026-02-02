@@ -1,0 +1,45 @@
+{
+  "id": "rocky",
+  "name": "Rocky",
+  "type": "cdp",
+  "website": "https://rocky.cash/",
+  "github": [
+    "rocky-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rocky Main Contract",
+      "type": "core",
+      "description": "Main contract for Rocky",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rocky",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

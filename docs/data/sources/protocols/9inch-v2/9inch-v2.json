@@ -1,0 +1,42 @@
+{
+  "id": "9inch-v2",
+  "name": "9inch V2",
+  "type": "dexs",
+  "website": "https://app.9inch.io/?chain=pulsechain",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "9inch V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for 9inch V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/9inch-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

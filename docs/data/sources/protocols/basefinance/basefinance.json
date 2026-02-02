@@ -1,0 +1,42 @@
+{
+  "id": "basefinance",
+  "name": "BaseFinance",
+  "type": "dexs",
+  "website": "https://baseswap.blog/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BaseFinance Main Contract",
+      "type": "core",
+      "description": "Main contract for BaseFinance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basefinance",
+      "updated": "2025-01-31"
+    }
+  }
+}

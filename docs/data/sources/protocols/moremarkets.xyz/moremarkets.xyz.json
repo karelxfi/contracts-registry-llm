@@ -1,0 +1,79 @@
+{
+  "id": "moremarkets.xyz",
+  "name": "MoreMarkets.xyz",
+  "type": "yield",
+  "website": "https://www.moremarkets.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "flare",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MoreMarkets.xyz Main Contract",
+      "type": "core",
+      "description": "Main contract for MoreMarkets.xyz",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moremarkets.xyz",
+      "updated": "2025-01-31"
+    },
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moremarkets.xyz",
+      "updated": "2025-01-31"
+    },
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moremarkets.xyz",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

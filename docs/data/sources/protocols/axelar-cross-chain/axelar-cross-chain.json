@@ -1,0 +1,60 @@
+{
+  "id": "axelar-cross-chain",
+  "name": "Axelar Cross Chain",
+  "type": "bridge",
+  "website": "https://axelar.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Axelar Cross Chain Main Contract",
+      "type": "core",
+      "description": "Main contract for Axelar Cross Chain",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar-cross-chain",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/axelar-cross-chain",
+      "updated": "2025-01-31"
+    }
+  }
+}

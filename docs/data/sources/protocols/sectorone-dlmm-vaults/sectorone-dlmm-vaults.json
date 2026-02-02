@@ -1,0 +1,42 @@
+{
+  "id": "sectorone-dlmm-vaults",
+  "name": "SectorOne DLMM Vaults",
+  "type": "liquidity manager",
+  "website": "https://sectorone.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "megaeth"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SectorOne DLMM Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for SectorOne DLMM Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "megaeth": {
+      "chain": "megaeth",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sectorone-dlmm-vaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

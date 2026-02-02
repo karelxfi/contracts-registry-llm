@@ -1,0 +1,42 @@
+{
+  "id": "y2k-v2",
+  "name": "Y2K V2",
+  "type": "derivatives",
+  "website": "https://app.y2k.finance/mint",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Y2K V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Y2K V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/y2k-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

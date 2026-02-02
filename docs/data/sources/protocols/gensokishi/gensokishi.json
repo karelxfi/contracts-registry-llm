@@ -1,0 +1,42 @@
+{
+  "id": "gensokishi",
+  "name": "Gensokishi",
+  "type": "gaming",
+  "website": "https://genso.game",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gensokishi Main Contract",
+      "type": "core",
+      "description": "Main contract for Gensokishi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gensokishi",
+      "updated": "2025-01-31"
+    }
+  }
+}

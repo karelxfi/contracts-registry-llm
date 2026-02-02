@@ -1,0 +1,42 @@
+{
+  "id": "smartcoin",
+  "name": "SmartCoin",
+  "type": "yield",
+  "website": "https://smartcoin.farm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SmartCoin Main Contract",
+      "type": "core",
+      "description": "Main contract for SmartCoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/smartcoin",
+      "updated": "2025-01-31"
+    }
+  }
+}

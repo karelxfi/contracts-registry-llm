@@ -1,0 +1,78 @@
+{
+  "id": "opentrade",
+  "name": "OpenTrade",
+  "type": "rwa",
+  "website": "https://www.opentrade.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "avalanche",
+    "ethereum",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OpenTrade Main Contract",
+      "type": "core",
+      "description": "Main contract for OpenTrade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opentrade",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opentrade",
+      "updated": "2025-01-31"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opentrade",
+      "updated": "2025-01-31"
+    }
+  }
+}

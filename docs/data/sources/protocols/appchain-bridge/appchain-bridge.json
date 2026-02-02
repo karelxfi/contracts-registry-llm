@@ -1,0 +1,42 @@
+{
+  "id": "appchain-bridge",
+  "name": "Appchain Bridge",
+  "type": "canonical bridge",
+  "website": "https://appchain.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Appchain Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Appchain Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/appchain-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

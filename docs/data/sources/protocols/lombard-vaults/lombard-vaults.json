@@ -1,0 +1,78 @@
+{
+  "id": "lombard-vaults",
+  "name": "Lombard Vaults",
+  "type": "onchain capital allocator",
+  "website": "https://www.lombard.finance/app/stake/?referrer=ssybnl",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "ethereum",
+    "base",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lombard Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Lombard Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lombard-vaults",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lombard-vaults",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lombard-vaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

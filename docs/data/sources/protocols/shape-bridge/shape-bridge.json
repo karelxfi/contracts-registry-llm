@@ -1,0 +1,42 @@
+{
+  "id": "shape-bridge",
+  "name": "Shape Bridge",
+  "type": "canonical bridge",
+  "website": "https://shape.network/bridge",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Shape Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Shape Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shape-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

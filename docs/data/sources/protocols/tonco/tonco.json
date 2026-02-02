@@ -1,0 +1,43 @@
+{
+  "id": "tonco",
+  "name": "TONCO",
+  "type": "dexs",
+  "website": "https://tonco.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TONCO Main Contract",
+      "type": "core",
+      "description": "Main contract for TONCO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonco",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

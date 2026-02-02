@@ -1,0 +1,62 @@
+{
+  "id": "virtuswap",
+  "name": "VirtuSwap",
+  "type": "dexs",
+  "website": "https://virtuswap.io",
+  "github": [
+    "Virtuswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VirtuSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for VirtuSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/virtuswap",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/virtuswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

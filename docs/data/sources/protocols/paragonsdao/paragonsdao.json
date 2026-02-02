@@ -1,0 +1,44 @@
+{
+  "id": "paragonsdao",
+  "name": "ParagonsDAO",
+  "type": "farm",
+  "website": "https://app.paragonsdao.com",
+  "github": [
+    "ParagonsDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ParagonsDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ParagonsDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paragonsdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

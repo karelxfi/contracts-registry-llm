@@ -1,0 +1,44 @@
+{
+  "id": "guard-helmet",
+  "name": "Guard-Helmet",
+  "type": "insurance",
+  "website": "https://www.guard.insure",
+  "github": [
+    "app-helmet-insure"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Guard-Helmet Main Contract",
+      "type": "core",
+      "description": "Main contract for Guard-Helmet",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/guard-helmet",
+      "updated": "2025-01-31"
+    }
+  }
+}

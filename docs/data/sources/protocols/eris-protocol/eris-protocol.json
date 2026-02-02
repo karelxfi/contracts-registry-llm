@@ -1,0 +1,100 @@
+{
+  "id": "eris-protocol",
+  "name": "Eris Protocol",
+  "type": "liquid staking",
+  "website": "https://www.erisprotocol.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "injective",
+    "osmosis",
+    "sei",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eris Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Eris Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eris-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eris-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eris-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eris-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

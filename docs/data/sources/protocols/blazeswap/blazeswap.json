@@ -1,0 +1,44 @@
+{
+  "id": "blazeswap",
+  "name": "BlazeSwap",
+  "type": "dexs",
+  "website": "https://blazeswap.xyz/",
+  "github": [
+    "blazeswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BlazeSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for BlazeSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blazeswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

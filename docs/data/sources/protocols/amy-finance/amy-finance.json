@@ -1,0 +1,42 @@
+{
+  "id": "amy-finance",
+  "name": "Amy Finance",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amy Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Amy Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amy-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

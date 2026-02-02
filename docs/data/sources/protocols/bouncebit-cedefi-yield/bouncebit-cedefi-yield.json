@@ -1,0 +1,79 @@
+{
+  "id": "bouncebit-cedefi-yield",
+  "name": "BounceBit CeDeFi Yield",
+  "type": "basis trading",
+  "website": "https://portal.bouncebit.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum",
+    "solana",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BounceBit CeDeFi Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for BounceBit CeDeFi Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bouncebit-cedefi-yield",
+      "updated": "2025-01-31"
+    }
+  }
+}

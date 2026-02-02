@@ -1,0 +1,44 @@
+{
+  "id": "deq",
+  "name": "Deq",
+  "type": "liquid staking",
+  "website": "https://deq.fi",
+  "github": [
+    "refresh-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deq Main Contract",
+      "type": "core",
+      "description": "Main contract for Deq",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deq",
+      "updated": "2025-01-31"
+    }
+  }
+}

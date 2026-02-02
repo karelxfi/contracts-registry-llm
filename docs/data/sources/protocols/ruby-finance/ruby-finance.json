@@ -1,0 +1,42 @@
+{
+  "id": "ruby-finance",
+  "name": "Ruby Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ruby Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Ruby Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ruby-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

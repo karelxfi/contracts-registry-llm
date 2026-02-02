@@ -1,0 +1,43 @@
+{
+  "id": "saros-amm",
+  "name": "Saros AMM",
+  "type": "dexs",
+  "website": "https://saros.xyz/pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Saros AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Saros AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/saros-amm",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

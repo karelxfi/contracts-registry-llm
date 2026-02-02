@@ -1,0 +1,43 @@
+{
+  "id": "matter-defi",
+  "name": "Matter Defi",
+  "type": "yield",
+  "website": "https://matterdefi.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Matter Defi Main Contract",
+      "type": "core",
+      "description": "Main contract for Matter Defi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/matter-defi",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

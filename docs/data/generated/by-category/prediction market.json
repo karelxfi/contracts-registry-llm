@@ -1,0 +1,2419 @@
+{
+  "category": "prediction market",
+  "protocols": {
+    "alpha-arcade": {
+      "alpha-arcade": {
+        "name": "Alpha Arcade",
+        "contracts": {
+          "main": {
+            "name": "Alpha Arcade Main Contract",
+            "type": "core",
+            "description": "Main contract for Alpha Arcade",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "algorand": {
+            "chain": "algorand",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/alpha-arcade",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "augur": {
+      "augur": {
+        "name": "Augur",
+        "contracts": {
+          "main": {
+            "name": "Augur Main Contract",
+            "type": "core",
+            "description": "Main contract for Augur",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/augur",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "azuro": {
+      "azuro": {
+        "name": "Azuro",
+        "contracts": {
+          "main": {
+            "name": "Azuro Main Contract",
+            "type": "core",
+            "description": "Main contract for Azuro",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/azuro",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/azuro",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "belief-market": {
+      "belief-market": {
+        "name": "Belief Market",
+        "contracts": {
+          "main": {
+            "name": "Belief Market Main Contract",
+            "type": "core",
+            "description": "Main contract for Belief Market",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/belief-market",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "betfolio": {
+      "betfolio": {
+        "name": "BetFolio",
+        "contracts": {
+          "main": {
+            "name": "BetFolio Main Contract",
+            "type": "core",
+            "description": "Main contract for BetFolio",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betfolio",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "betswirl": {
+      "betswirl": {
+        "name": "BetSwirl",
+        "contracts": {
+          "main": {
+            "name": "BetSwirl Main Contract",
+            "type": "core",
+            "description": "Main contract for BetSwirl",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "unichain": {
+            "chain": "unichain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betswirl",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betswirl",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betswirl",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betswirl",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betswirl",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "bodega-market": {
+      "bodega-market": {
+        "name": "Bodega Market",
+        "contracts": {
+          "main": {
+            "name": "Bodega Market Main Contract",
+            "type": "core",
+            "description": "Main contract for Bodega Market",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/bodega-market",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "clutch-markets": {
+      "clutch-markets": {
+        "name": "Clutch Markets",
+        "contracts": {
+          "main": {
+            "name": "Clutch Markets Main Contract",
+            "type": "core",
+            "description": "Main contract for Clutch Markets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clutch-markets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "cochilli": {
+      "cochilli": {
+        "name": "CoChilli",
+        "contracts": {
+          "main": {
+            "name": "CoChilli Main Contract",
+            "type": "core",
+            "description": "Main contract for CoChilli",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cochilli",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "debets": {
+      "debets": {
+        "name": "Debets",
+        "contracts": {
+          "main": {
+            "name": "Debets Main Contract",
+            "type": "core",
+            "description": "Main contract for Debets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/debets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "deeppdao": {
+      "deeppdao": {
+        "name": "DeeppDAO",
+        "contracts": {
+          "main": {
+            "name": "DeeppDAO Main Contract",
+            "type": "core",
+            "description": "Main contract for DeeppDAO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/deeppdao",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "divvy.bet": {
+      "divvy.bet": {
+        "name": "Divvy.Bet",
+        "contracts": {
+          "main": {
+            "name": "Divvy.Bet Main Contract",
+            "type": "core",
+            "description": "Main contract for Divvy.Bet",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/divvy.bet",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "dripit": {
+      "dripit": {
+        "name": "dripit",
+        "contracts": {
+          "main": {
+            "name": "dripit Main Contract",
+            "type": "core",
+            "description": "Main contract for dripit",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dripit",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "dropcopy": {
+      "dropcopy": {
+        "name": "DropCopy",
+        "contracts": {
+          "main": {
+            "name": "DropCopy Main Contract",
+            "type": "core",
+            "description": "Main contract for DropCopy",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dropcopy",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "eesee": {
+      "eesee": {
+        "name": "eesee",
+        "contracts": {
+          "main": {
+            "name": "eesee Main Contract",
+            "type": "core",
+            "description": "Main contract for eesee",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/eesee",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "entropyfi": {
+      "entropyfi": {
+        "name": "Entropyfi",
+        "contracts": {
+          "main": {
+            "name": "Entropyfi Main Contract",
+            "type": "core",
+            "description": "Main contract for Entropyfi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/entropyfi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "football.fun": {
+      "football.fun": {
+        "name": "Football.Fun",
+        "contracts": {
+          "main": {
+            "name": "Football.Fun Main Contract",
+            "type": "core",
+            "description": "Main contract for Football.Fun",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/football.fun",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "gacha": {
+      "gacha": {
+        "name": "Gacha",
+        "contracts": {
+          "main": {
+            "name": "Gacha Main Contract",
+            "type": "core",
+            "description": "Main contract for Gacha",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "abstract": {
+            "chain": "abstract",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gacha",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "gnosis-protocol-v1": {
+      "gnosis-protocol-v1": {
+        "name": "Gnosis Protocol v1",
+        "contracts": {
+          "main": {
+            "name": "Gnosis Protocol v1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Gnosis Protocol v1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gnosis-protocol-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hackenai": {
+      "hackenai": {
+        "name": "HackenAI",
+        "contracts": {
+          "main": {
+            "name": "HackenAI Main Contract",
+            "type": "core",
+            "description": "Main contract for HackenAI",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hackenai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hedgehog-markets": {
+      "hedgehog-markets": {
+        "name": "Hedgehog Markets",
+        "contracts": {
+          "main": {
+            "name": "Hedgehog Markets Main Contract",
+            "type": "core",
+            "description": "Main contract for Hedgehog Markets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hedgehog-markets",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "jackson-protocol": {
+      "jackson-protocol": {
+        "name": "Jackson Protocol",
+        "contracts": {
+          "main": {
+            "name": "Jackson Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Jackson Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/jackson-protocol",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "kava-football-club": {
+      "kava-football-club": {
+        "name": "Kava Football Club",
+        "contracts": {
+          "main": {
+            "name": "Kava Football Club Main Contract",
+            "type": "core",
+            "description": "Main contract for Kava Football Club",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kava-football-club",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "limitless-exchange": {
+      "limitless-exchange": {
+        "name": "Limitless Exchange",
+        "contracts": {
+          "main": {
+            "name": "Limitless Exchange Main Contract",
+            "type": "core",
+            "description": "Main contract for Limitless Exchange",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/limitless-exchange",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "liquidity-house": {
+      "liquidity-house": {
+        "name": "Liquidity House",
+        "contracts": {
+          "main": {
+            "name": "Liquidity House Main Contract",
+            "type": "core",
+            "description": "Main contract for Liquidity House",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "etherlink": {
+            "chain": "etherlink",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/liquidity-house",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lunafi": {
+      "lunafi": {
+        "name": "LunaFi",
+        "contracts": {
+          "main": {
+            "name": "LunaFi Main Contract",
+            "type": "core",
+            "description": "Main contract for LunaFi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lunafi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "myriad-markets": {
+      "myriad-markets": {
+        "name": "Myriad Markets",
+        "contracts": {
+          "main": {
+            "name": "Myriad Markets Main Contract",
+            "type": "core",
+            "description": "Main contract for Myriad Markets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "abstract": {
+            "chain": "abstract",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/myriad-markets",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/myriad-markets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nexter": {
+      "nexter": {
+        "name": "Nexter",
+        "contracts": {
+          "main": {
+            "name": "Nexter Main Contract",
+            "type": "core",
+            "description": "Main contract for Nexter",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nexter",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nexter",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nodo": {
+      "nodo": {
+        "name": "NODO",
+        "contracts": {
+          "main": {
+            "name": "NODO Main Contract",
+            "type": "core",
+            "description": "Main contract for NODO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "celo": {
+            "chain": "celo",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nodo",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nodo",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nodo",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nodo",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "o.lab": {
+      "o.lab": {
+        "name": "O.LAB",
+        "contracts": {
+          "main": {
+            "name": "O.LAB Main Contract",
+            "type": "core",
+            "description": "Main contract for O.LAB",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/o.lab",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "one-guy-finance": {
+      "one-guy-finance": {
+        "name": "One guy Finance",
+        "contracts": {
+          "main": {
+            "name": "One guy Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for One guy Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/one-guy-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "overtime": {
+      "overtime": {
+        "name": "Overtime",
+        "contracts": {
+          "main": {
+            "name": "Overtime Main Contract",
+            "type": "core",
+            "description": "Main contract for Overtime",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/overtime",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/overtime",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/overtime",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/overtime",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "perfect-pool": {
+      "perfect-pool": {
+        "name": "Perfect Pool",
+        "contracts": {
+          "main": {
+            "name": "Perfect Pool Main Contract",
+            "type": "core",
+            "description": "Main contract for Perfect Pool",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/perfect-pool",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/perfect-pool",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "polkamarkets": {
+      "polkamarkets": {
+        "name": "Polkamarkets",
+        "contracts": {
+          "main": {
+            "name": "Polkamarkets Main Contract",
+            "type": "core",
+            "description": "Main contract for Polkamarkets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/polkamarkets",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/polkamarkets",
+            "updated": "2025-01-31"
+          },
+          "celo": {
+            "chain": "celo",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/polkamarkets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "polymarket": {
+      "polymarket": {
+        "name": "Polymarket",
+        "contracts": {
+          "main": {
+            "name": "Polymarket Main Contract",
+            "type": "core",
+            "description": "Main contract for Polymarket",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/polymarket",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "prdt": {
+      "prdt": {
+        "name": "PRDT",
+        "contracts": {
+          "main": {
+            "name": "PRDT Main Contract",
+            "type": "core",
+            "description": "Main contract for PRDT",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/prdt",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/prdt",
+            "updated": "2025-01-31"
+          },
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/prdt",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/prdt",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "precog-market": {
+      "precog-market": {
+        "name": "Precog Market",
+        "contracts": {
+          "main": {
+            "name": "Precog Market Main Contract",
+            "type": "core",
+            "description": "Main contract for Precog Market",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/precog-market",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "predict-fun": {
+      "predict-fun": {
+        "name": "Predict Fun",
+        "contracts": {
+          "main": {
+            "name": "Predict Fun Main Contract",
+            "type": "core",
+            "description": "Main contract for Predict Fun",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "blast": {
+            "chain": "blast",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/predict-fun",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "predx-ai": {
+      "predx-ai": {
+        "name": "PredX Ai",
+        "contracts": {
+          "main": {
+            "name": "PredX Ai Main Contract",
+            "type": "core",
+            "description": "Main contract for PredX Ai",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/predx-ai",
+            "updated": "2025-01-31"
+          },
+          "linea": {
+            "chain": "linea",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/predx-ai",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/predx-ai",
+            "updated": "2025-01-31"
+          },
+          "sei": {
+            "chain": "sei",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/predx-ai",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "prophet.fun": {
+      "prophet.fun": {
+        "name": "Prophet.fun",
+        "contracts": {
+          "main": {
+            "name": "Prophet.fun Main Contract",
+            "type": "core",
+            "description": "Main contract for Prophet.fun",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/prophet.fun",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "r3r": {
+      "r3r": {
+        "name": "R3R",
+        "contracts": {
+          "main": {
+            "name": "R3R Main Contract",
+            "type": "core",
+            "description": "Main contract for R3R",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "world-chain": {
+            "chain": "world-chain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/r3r",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "rain": {
+      "rain": {
+        "name": "Rain",
+        "contracts": {
+          "main": {
+            "name": "Rain Main Contract",
+            "type": "core",
+            "description": "Main contract for Rain",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rain",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "random-reward": {
+      "random-reward": {
+        "name": "Random Reward",
+        "contracts": {
+          "main": {
+            "name": "Random Reward Main Contract",
+            "type": "core",
+            "description": "Main contract for Random Reward",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/random-reward",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sagebet": {
+      "sagebet": {
+        "name": "SageBet",
+        "contracts": {
+          "main": {
+            "name": "SageBet Main Contract",
+            "type": "core",
+            "description": "Main contract for SageBet",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sagebet",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "scoreplay.xyz": {
+      "scoreplay.xyz": {
+        "name": "ScorePlay.xyz",
+        "contracts": {
+          "main": {
+            "name": "ScorePlay.xyz Main Contract",
+            "type": "core",
+            "description": "Main contract for ScorePlay.xyz",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/scoreplay.xyz",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "seer": {
+      "seer": {
+        "name": "Seer",
+        "contracts": {
+          "main": {
+            "name": "Seer Main Contract",
+            "type": "core",
+            "description": "Main contract for Seer",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/seer",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "spindash": {
+      "spindash": {
+        "name": "Spindash",
+        "contracts": {
+          "main": {
+            "name": "Spindash Main Contract",
+            "type": "core",
+            "description": "Main contract for Spindash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/spindash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "suimarket": {
+      "suimarket": {
+        "name": "SuiMarket",
+        "contracts": {
+          "main": {
+            "name": "SuiMarket Main Contract",
+            "type": "core",
+            "description": "Main contract for SuiMarket",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/suimarket",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "synstation": {
+      "synstation": {
+        "name": "SynStation",
+        "contracts": {
+          "main": {
+            "name": "SynStation Main Contract",
+            "type": "core",
+            "description": "Main contract for SynStation",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "soneium": {
+            "chain": "soneium",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synstation",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synstation",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "topcut-finance": {
+      "topcut-finance": {
+        "name": "TopCut Finance",
+        "contracts": {
+          "main": {
+            "name": "TopCut Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for TopCut Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/topcut-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "truemarkets": {
+      "truemarkets": {
+        "name": "Truemarkets",
+        "contracts": {
+          "main": {
+            "name": "Truemarkets Main Contract",
+            "type": "core",
+            "description": "Main contract for Truemarkets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/truemarkets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "unihedge": {
+      "unihedge": {
+        "name": "Unihedge",
+        "contracts": {
+          "main": {
+            "name": "Unihedge Main Contract",
+            "type": "core",
+            "description": "Main contract for Unihedge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/unihedge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "whale-game": {
+      "whale-game": {
+        "name": "Whale Game",
+        "contracts": {
+          "main": {
+            "name": "Whale Game Main Contract",
+            "type": "core",
+            "description": "Main contract for Whale Game",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/whale-game",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "winr-protocol": {
+      "winr-protocol": {
+        "name": "WINR Protocol",
+        "contracts": {
+          "main": {
+            "name": "WINR Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for WINR Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/winr-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "x3x": {
+      "x3x": {
+        "name": "X3X",
+        "contracts": {
+          "main": {
+            "name": "X3X Main Contract",
+            "type": "core",
+            "description": "Main contract for X3X",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "world-chain": {
+            "chain": "world-chain",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/x3x",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zethr": {
+      "zethr": {
+        "name": "Zethr",
+        "contracts": {
+          "main": {
+            "name": "Zethr Main Contract",
+            "type": "core",
+            "description": "Main contract for Zethr",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zethr",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zkasino": {
+      "zkasino": {
+        "name": "ZKasino",
+        "contracts": {
+          "main": {
+            "name": "ZKasino Main Contract",
+            "type": "core",
+            "description": "Main contract for ZKasino",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkasino",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkasino",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

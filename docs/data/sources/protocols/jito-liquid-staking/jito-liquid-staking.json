@@ -1,0 +1,43 @@
+{
+  "id": "jito-liquid-staking",
+  "name": "Jito Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://jito.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jito Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Jito Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jito-liquid-staking",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

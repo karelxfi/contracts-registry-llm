@@ -1,0 +1,42 @@
+{
+  "id": "pv01",
+  "name": "PV01",
+  "type": "rwa",
+  "website": "https://pv0.one/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PV01 Main Contract",
+      "type": "core",
+      "description": "Main contract for PV01",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pv01",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "gumball-protocol",
+  "name": "GumBall Protocol",
+  "type": "nft marketplace",
+  "website": "https://www.gumball.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GumBall Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for GumBall Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gumball-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

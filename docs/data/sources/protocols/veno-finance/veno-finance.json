@@ -1,0 +1,60 @@
+{
+  "id": "veno-finance",
+  "name": "Veno Finance",
+  "type": "liquid staking",
+  "website": "https://veno.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "cronos",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Veno Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Veno Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/veno-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/veno-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

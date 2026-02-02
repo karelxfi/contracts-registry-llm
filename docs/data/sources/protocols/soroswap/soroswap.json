@@ -1,0 +1,45 @@
+{
+  "id": "soroswap",
+  "name": "Soroswap",
+  "type": "dexs",
+  "website": "https://soroswap.finance/",
+  "github": [
+    "soroswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Soroswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Soroswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/soroswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

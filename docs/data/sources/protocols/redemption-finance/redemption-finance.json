@@ -1,0 +1,42 @@
+{
+  "id": "redemption-finance",
+  "name": "Redemption Finance",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Redemption Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Redemption Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/redemption-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

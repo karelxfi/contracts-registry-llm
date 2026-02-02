@@ -1,0 +1,44 @@
+{
+  "id": "wildcat-protocol",
+  "name": "Wildcat Protocol",
+  "type": "uncollateralized lending",
+  "website": "https://wildcat.finance",
+  "github": [
+    "wildcat-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "uncollateralized lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wildcat Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Wildcat Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wildcat-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

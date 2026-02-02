@@ -1,0 +1,78 @@
+{
+  "id": "a51-finance-v2",
+  "name": "A51 Finance V2",
+  "type": "liquidity manager",
+  "website": "https://a51.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "ethereum",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "A51 Finance V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for A51 Finance V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/a51-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/a51-finance-v2",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/a51-finance-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

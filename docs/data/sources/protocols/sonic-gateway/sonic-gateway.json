@@ -1,0 +1,42 @@
+{
+  "id": "sonic-gateway",
+  "name": "Sonic Gateway",
+  "type": "canonical bridge",
+  "website": "https://gateway.soniclabs.com/ethereum/sonic/s",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sonic Gateway Main Contract",
+      "type": "core",
+      "description": "Main contract for Sonic Gateway",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sonic-gateway",
+      "updated": "2025-01-31"
+    }
+  }
+}

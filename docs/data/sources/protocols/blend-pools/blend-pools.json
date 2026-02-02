@@ -1,0 +1,43 @@
+{
+  "id": "blend-pools",
+  "name": "Blend Pools",
+  "type": "lending",
+  "website": "https://www.blend.capital",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blend Pools Main Contract",
+      "type": "core",
+      "description": "Main contract for Blend Pools",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blend-pools",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

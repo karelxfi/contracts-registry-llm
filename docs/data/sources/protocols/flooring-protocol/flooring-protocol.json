@@ -1,0 +1,42 @@
+{
+  "id": "flooring-protocol",
+  "name": "Flooring Protocol",
+  "type": "nft marketplace",
+  "website": "https://fp.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Flooring Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Flooring Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flooring-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

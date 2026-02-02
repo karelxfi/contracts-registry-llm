@@ -1,0 +1,60 @@
+{
+  "id": "miner-ercx",
+  "name": "Miner ERCX",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Miner ERCX Main Contract",
+      "type": "core",
+      "description": "Main contract for Miner ERCX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/miner-ercx",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/miner-ercx",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nft20",
+  "name": "NFT20",
+  "type": "nft marketplace",
+  "website": "https://nft20.io",
+  "github": [
+    "verynifty"
+  ],
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NFT20 Main Contract",
+      "type": "core",
+      "description": "Main contract for NFT20",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nft20",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nft20",
+      "updated": "2025-01-31"
+    }
+  }
+}

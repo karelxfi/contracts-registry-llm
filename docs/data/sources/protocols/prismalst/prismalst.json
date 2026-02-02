@@ -1,0 +1,42 @@
+{
+  "id": "prismalst",
+  "name": "PrismaLST",
+  "type": "cdp",
+  "website": "https://prismafinance.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PrismaLST Main Contract",
+      "type": "core",
+      "description": "Main contract for PrismaLST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/prismalst",
+      "updated": "2025-01-31"
+    }
+  }
+}

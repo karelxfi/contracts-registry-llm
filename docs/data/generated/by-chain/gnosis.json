@@ -1,0 +1,61 @@
+{
+  "chain": "gnosis",
+  "chainInfo": {
+    "id": "gnosis",
+    "name": "Gnosis",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 100,
+    "nativeCurrency": {
+      "name": "GNO",
+      "symbol": "GNO",
+      "decimals": 18
+    },
+    "gecko_id": "gnosis",
+    "cmcId": "1659",
+    "explorers": {
+      "primary": {
+        "name": "Gnosis Explorer",
+        "url": "https://explorer.gnosis.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "aave-v3": {
+      "aave-v3": {
+        "name": "Aave V3",
+        "type": "lending",
+        "addresses": {
+          "pool": "0xb50201558B00496A145fE76f7424749556E326D8",
+          "poolAddressesProvider": "0x36616cf17557639614c1cdDb356b1B83fc0B2132",
+          "poolConfigurator": "0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16",
+          "aaveOracle": "0xeb0a051be10228213BAEb449db63719d6742F7c4",
+          "poolDataProvider": "0xF1F5acB596568895393cB5E4D0452D6592A2fA70",
+          "aclManager": "0xEc710f59005f48703908bC519D552Df5B8472614",
+          "collector": "0x3e652E97ff339B73421f824F5b03d75b62F1Fb51"
+        },
+        "deploymentBlocks": {
+          "pool": null,
+          "poolAddressesProvider": null,
+          "poolConfigurator": null,
+          "aaveOracle": null,
+          "poolDataProvider": null,
+          "aclManager": null,
+          "collector": null
+        },
+        "verified": {
+          "pool": true,
+          "poolAddressesProvider": true,
+          "poolConfigurator": true,
+          "aaveOracle": true,
+          "poolDataProvider": true,
+          "aclManager": true,
+          "collector": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bbbfi",
+  "name": "BBBFI",
+  "type": "launchpad",
+  "website": "https://bbbfi.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BBBFI Main Contract",
+      "type": "core",
+      "description": "Main contract for BBBFI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bbbfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

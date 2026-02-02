@@ -1,0 +1,42 @@
+{
+  "id": "stout",
+  "name": "Stout",
+  "type": "cdp",
+  "website": "https://stout.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stout Main Contract",
+      "type": "core",
+      "description": "Main contract for Stout",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stout",
+      "updated": "2025-01-31"
+    }
+  }
+}

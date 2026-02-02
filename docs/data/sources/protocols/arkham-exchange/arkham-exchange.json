@@ -1,0 +1,136 @@
+{
+  "id": "arkham-exchange",
+  "name": "Arkham Exchange",
+  "type": "cex",
+  "website": "https://arkm.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "ethereum",
+    "bitcoin",
+    "solana",
+    "doge",
+    "avalanche",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arkham Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Arkham Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31"
+    },
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "doge": {
+      "chain": "doge",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31"
+    },
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkham-exchange",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

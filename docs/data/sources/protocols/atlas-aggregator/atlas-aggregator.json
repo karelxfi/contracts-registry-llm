@@ -1,0 +1,42 @@
+{
+  "id": "atlas-aggregator",
+  "name": "Atlas Aggregator",
+  "type": "yield aggregator",
+  "website": "https://atlasfi.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Atlas Aggregator Main Contract",
+      "type": "core",
+      "description": "Main contract for Atlas Aggregator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atlas-aggregator",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "m0",
+  "name": "M0",
+  "type": "stablecoin issuer",
+  "website": "https://www.m0.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "stablecoin issuer",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "M0 Main Contract",
+      "type": "core",
+      "description": "Main contract for M0",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/m0",
+      "updated": "2025-01-31"
+    }
+  }
+}

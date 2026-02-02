@@ -1,0 +1,42 @@
+{
+  "id": "wavex",
+  "name": "waveX",
+  "type": "derivatives",
+  "website": "https://wavex.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "waveX Main Contract",
+      "type": "core",
+      "description": "Main contract for waveX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wavex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fluid-lite",
+  "name": "Fluid Lite",
+  "type": "yield aggregator",
+  "website": "https://fluid.io/lite/1",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fluid Lite Main Contract",
+      "type": "core",
+      "description": "Main contract for Fluid Lite",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fluid-lite",
+      "updated": "2025-01-31"
+    }
+  }
+}

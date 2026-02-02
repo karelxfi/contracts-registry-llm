@@ -1,0 +1,43 @@
+{
+  "id": "meld-gold",
+  "name": "Meld Gold",
+  "type": "rwa",
+  "website": "https://meld.gold",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meld Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for Meld Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meld-gold",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

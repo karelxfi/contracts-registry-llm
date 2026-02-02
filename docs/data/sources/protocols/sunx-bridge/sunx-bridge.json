@@ -1,0 +1,79 @@
+{
+  "id": "sunx-bridge",
+  "name": "SunX Bridge",
+  "type": "bridge",
+  "website": "https://www.sunx.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "tron",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SunX Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for SunX Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sunx-bridge",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sunx-bridge",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sunx-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "octoswap-cl",
+  "name": "OctoSwap CL",
+  "type": "dexs",
+  "website": "https://octo.exchange/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OctoSwap CL Main Contract",
+      "type": "core",
+      "description": "Main contract for OctoSwap CL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/octoswap-cl",
+      "updated": "2025-01-31"
+    }
+  }
+}

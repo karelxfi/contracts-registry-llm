@@ -1,0 +1,42 @@
+{
+  "id": "nacho-finance",
+  "name": "Nacho Finance",
+  "type": "yield",
+  "website": "https://nachoxyz.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nacho Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Nacho Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nacho-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

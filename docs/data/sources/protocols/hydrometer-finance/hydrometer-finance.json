@@ -1,0 +1,42 @@
+{
+  "id": "hydrometer-finance",
+  "name": "Hydrometer Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hydrometer Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Hydrometer Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hydrometer-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

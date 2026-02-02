@@ -1,0 +1,44 @@
+{
+  "id": "angstrom",
+  "name": "Angstrom",
+  "type": "dexs",
+  "website": "https://angstrom.xyz/",
+  "github": [
+    "SorellaLabs"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Angstrom Main Contract",
+      "type": "core",
+      "description": "Main contract for Angstrom",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/angstrom",
+      "updated": "2025-01-31"
+    }
+  }
+}

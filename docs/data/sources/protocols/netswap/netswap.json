@@ -1,0 +1,42 @@
+{
+  "id": "netswap",
+  "name": "NetSwap",
+  "type": "dexs",
+  "website": "https://netswap.io/#/home",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NetSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for NetSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/netswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

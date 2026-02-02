@@ -1,0 +1,42 @@
+{
+  "id": "versagames",
+  "name": "VersaGames",
+  "type": "gaming",
+  "website": "https://versagames.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VersaGames Main Contract",
+      "type": "core",
+      "description": "Main contract for VersaGames",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/versagames",
+      "updated": "2025-01-31"
+    }
+  }
+}

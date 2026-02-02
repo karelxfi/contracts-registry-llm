@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://subsquid.io/schemas/contract.schema.json",
+  "title": "Contract Schema",
+  "description": "Schema for smart contract metadata",
+  "type": "object",
+  "required": ["name", "type"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Contract display name"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["core", "factory", "peripheral", "router", "helper", "oracle", "governance", "token", "vault"],
+      "description": "Contract functional type"
+    },
+    "description": {
+      "type": "string"
+    },
+    "proxy": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether contract uses proxy pattern"
+    },
+    "proxyType": {
+      "type": "string",
+      "enum": ["transparent", "uups", "beacon", "eip-1967", "custom"],
+      "description": "Proxy pattern type (if applicable)"
+    },
+    "keyEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "signature": {
+            "type": "string",
+            "description": "Event signature (optional, for verification)"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "keyFunctions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "signature": {
+            "type": "string"
+          },
+          "mutability": {
+            "type": "string",
+            "enum": ["view", "pure", "nonpayable", "payable"]
+          }
+        }
+      }
+    },
+    "useCases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Indexing use cases for this contract"
+    },
+    "github": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

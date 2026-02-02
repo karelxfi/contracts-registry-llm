@@ -1,0 +1,62 @@
+{
+  "id": "wasabix",
+  "name": "Wasabix",
+  "type": "yield",
+  "website": "https://wasabix.finance/#/app",
+  "github": [
+    "wasabi-swap-team"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wasabix Main Contract",
+      "type": "core",
+      "description": "Main contract for Wasabix",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wasabix",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wasabix",
+      "updated": "2025-01-31"
+    }
+  }
+}

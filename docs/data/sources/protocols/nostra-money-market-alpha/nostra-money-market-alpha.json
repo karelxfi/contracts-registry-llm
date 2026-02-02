@@ -1,0 +1,43 @@
+{
+  "id": "nostra-money-market-alpha",
+  "name": "Nostra Money Market Alpha",
+  "type": "lending",
+  "website": "https://alpha.nostra.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nostra Money Market Alpha Main Contract",
+      "type": "core",
+      "description": "Main contract for Nostra Money Market Alpha",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nostra-money-market-alpha",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

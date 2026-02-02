@@ -1,0 +1,42 @@
+{
+  "id": "glyph-v2",
+  "name": "Glyph V2",
+  "type": "dexs",
+  "website": "https://glyph.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Glyph V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Glyph V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/glyph-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

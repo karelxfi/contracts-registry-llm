@@ -1,0 +1,60 @@
+{
+  "id": "dsu-money",
+  "name": "DSU Money",
+  "type": "cdp",
+  "website": "https://app.dsu.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DSU Money Main Contract",
+      "type": "core",
+      "description": "Main contract for DSU Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dsu-money",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dsu-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

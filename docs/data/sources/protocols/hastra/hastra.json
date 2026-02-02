@@ -1,0 +1,43 @@
+{
+  "id": "hastra",
+  "name": "Hastra",
+  "type": "rwa",
+  "website": "https://hastra.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hastra Main Contract",
+      "type": "core",
+      "description": "Main contract for Hastra",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hastra",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

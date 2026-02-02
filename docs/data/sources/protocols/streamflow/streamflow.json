@@ -1,0 +1,119 @@
+{
+  "id": "streamflow",
+  "name": "Streamflow",
+  "type": "payments",
+  "website": "https://streamflow.finance",
+  "github": [
+    "streamflow-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "payments",
+    "solana",
+    "aptos",
+    "sui",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Streamflow Main Contract",
+      "type": "core",
+      "description": "Main contract for Streamflow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/streamflow",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/streamflow",
+      "updated": "2025-01-31",
+      "platform": "move"
+    },
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/streamflow",
+      "updated": "2025-01-31",
+      "platform": "move"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/streamflow",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/streamflow",
+      "updated": "2025-01-31"
+    }
+  }
+}

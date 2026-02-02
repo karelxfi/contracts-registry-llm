@@ -1,0 +1,42 @@
+{
+  "id": "kava-mint",
+  "name": "Kava Mint",
+  "type": "cdp",
+  "website": "https://www.kava.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kava Mint Main Contract",
+      "type": "core",
+      "description": "Main contract for Kava Mint",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kava-mint",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "guale",
+  "name": "Guale",
+  "type": "yield aggregator",
+  "website": "https://app.guale.co/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Guale Main Contract",
+      "type": "core",
+      "description": "Main contract for Guale",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/guale",
+      "updated": "2025-01-31"
+    }
+  }
+}

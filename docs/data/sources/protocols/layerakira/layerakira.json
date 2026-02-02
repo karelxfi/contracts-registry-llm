@@ -1,0 +1,45 @@
+{
+  "id": "layerakira",
+  "name": "LayerAkira",
+  "type": "dexs",
+  "website": "https://app.layerakira.xyz",
+  "github": [
+    "LayerAkira"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LayerAkira Main Contract",
+      "type": "core",
+      "description": "Main contract for LayerAkira",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/layerakira",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

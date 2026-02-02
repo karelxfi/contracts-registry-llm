@@ -1,0 +1,62 @@
+{
+  "id": "renegade",
+  "name": "Renegade",
+  "type": "dexs",
+  "website": "https://trade.renegade.fi",
+  "github": [
+    "renegade-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Renegade Main Contract",
+      "type": "core",
+      "description": "Main contract for Renegade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/renegade",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/renegade",
+      "updated": "2025-01-31"
+    }
+  }
+}

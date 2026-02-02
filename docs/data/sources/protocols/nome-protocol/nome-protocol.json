@@ -1,0 +1,42 @@
+{
+  "id": "nome-protocol",
+  "name": "NOME Protocol",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NOME Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for NOME Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nome-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

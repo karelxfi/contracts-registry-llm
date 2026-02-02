@@ -1,0 +1,43 @@
+{
+  "id": "bagel-finance-v1",
+  "name": "Bagel Finance V1",
+  "type": "dexs",
+  "website": "https://t.me/bagel_fi_bot/app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bagel Finance V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Bagel Finance V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bagel-finance-v1",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

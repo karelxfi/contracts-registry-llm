@@ -1,0 +1,42 @@
+{
+  "id": "warp",
+  "name": "Warp",
+  "type": "reserve currency",
+  "website": "https://warp.bond/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Warp Main Contract",
+      "type": "core",
+      "description": "Main contract for Warp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/warp",
+      "updated": "2025-01-31"
+    }
+  }
+}

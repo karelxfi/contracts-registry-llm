@@ -1,0 +1,43 @@
+{
+  "id": "phoenix-defi-hub",
+  "name": "Phoenix DeFi Hub",
+  "type": "dexs",
+  "website": "https://www.phoenix-hub.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Phoenix DeFi Hub Main Contract",
+      "type": "core",
+      "description": "Main contract for Phoenix DeFi Hub",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/phoenix-defi-hub",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

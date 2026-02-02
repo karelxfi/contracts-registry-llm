@@ -1,0 +1,42 @@
+{
+  "id": "equation-v2",
+  "name": "Equation V2",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Equation V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Equation V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/equation-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

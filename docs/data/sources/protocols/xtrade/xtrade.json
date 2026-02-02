@@ -1,0 +1,44 @@
+{
+  "id": "xtrade",
+  "name": "XTrade",
+  "type": "dexs",
+  "website": "https://www.xtrade.exchange/",
+  "github": [
+    "XTradeExchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "XTrade Main Contract",
+      "type": "core",
+      "description": "Main contract for XTrade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xtrade",
+      "updated": "2025-01-31"
+    }
+  }
+}

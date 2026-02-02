@@ -1,0 +1,42 @@
+{
+  "id": "switcheo-finance",
+  "name": "Switcheo Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Switcheo Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Switcheo Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/switcheo-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

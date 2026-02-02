@@ -1,0 +1,60 @@
+{
+  "id": "chimeradex-lend",
+  "name": "Chimeradex Lend",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "scroll",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chimeradex Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Chimeradex Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chimeradex-lend",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chimeradex-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

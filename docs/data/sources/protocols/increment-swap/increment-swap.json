@@ -1,0 +1,43 @@
+{
+  "id": "increment-swap",
+  "name": "Increment Swap",
+  "type": "dexs",
+  "website": "https://app.increment.fi/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "flow"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Increment Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Increment Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flow": {
+      "chain": "flow",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/increment-swap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

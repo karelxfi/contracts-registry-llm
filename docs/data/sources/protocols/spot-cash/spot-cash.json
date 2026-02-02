@@ -1,0 +1,44 @@
+{
+  "id": "spot-cash",
+  "name": "SPOT Cash",
+  "type": "algo-stables",
+  "website": "https://www.spot.cash",
+  "github": [
+    "ampleforth"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SPOT Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for SPOT Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spot-cash",
+      "updated": "2025-01-31"
+    }
+  }
+}

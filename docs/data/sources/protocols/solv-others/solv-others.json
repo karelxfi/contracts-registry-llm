@@ -1,0 +1,42 @@
+{
+  "id": "solv-others",
+  "name": "Solv Others",
+  "type": "anchor btc",
+  "website": "https://solv.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "anchor btc",
+    "merlin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solv Others Main Contract",
+      "type": "core",
+      "description": "Main contract for Solv Others",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "merlin": {
+      "chain": "merlin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solv-others",
+      "updated": "2025-01-31"
+    }
+  }
+}

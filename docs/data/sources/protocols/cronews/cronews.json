@@ -1,0 +1,42 @@
+{
+  "id": "cronews",
+  "name": "cronews",
+  "type": "sofi",
+  "website": "https://www.cronews.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "cronews Main Contract",
+      "type": "core",
+      "description": "Main contract for cronews",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cronews",
+      "updated": "2025-01-31"
+    }
+  }
+}

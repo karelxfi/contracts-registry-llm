@@ -1,0 +1,42 @@
+{
+  "id": "nocturne",
+  "name": "Nocturne",
+  "type": "privacy",
+  "website": "https://nocturne.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nocturne Main Contract",
+      "type": "core",
+      "description": "Main contract for Nocturne",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nocturne",
+      "updated": "2025-01-31"
+    }
+  }
+}

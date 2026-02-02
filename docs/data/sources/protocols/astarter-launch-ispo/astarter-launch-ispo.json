@@ -1,0 +1,43 @@
+{
+  "id": "astarter-launch-ispo",
+  "name": "Astarter Launch ISPO",
+  "type": "staking pool",
+  "website": "https://astarter.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Astarter Launch ISPO Main Contract",
+      "type": "core",
+      "description": "Main contract for Astarter Launch ISPO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astarter-launch-ispo",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

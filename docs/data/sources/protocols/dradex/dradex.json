@@ -1,0 +1,45 @@
+{
+  "id": "dradex",
+  "name": "Dradex",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "dradex-io"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dradex Main Contract",
+      "type": "core",
+      "description": "Main contract for Dradex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dradex",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

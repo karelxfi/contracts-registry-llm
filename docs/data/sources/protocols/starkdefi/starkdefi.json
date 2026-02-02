@@ -1,0 +1,45 @@
+{
+  "id": "starkdefi",
+  "name": "StarkDeFI",
+  "type": "dexs",
+  "website": "https://www.starkdefi.com",
+  "github": [
+    "Starkdefi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StarkDeFI Main Contract",
+      "type": "core",
+      "description": "Main contract for StarkDeFI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/starkdefi",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

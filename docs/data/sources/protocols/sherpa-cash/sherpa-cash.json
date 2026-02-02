@@ -1,0 +1,42 @@
+{
+  "id": "sherpa-cash",
+  "name": "Sherpa Cash",
+  "type": "privacy",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sherpa Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for Sherpa Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sherpa-cash",
+      "updated": "2025-01-31"
+    }
+  }
+}

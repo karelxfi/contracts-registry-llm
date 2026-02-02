@@ -1,0 +1,42 @@
+{
+  "id": "legion",
+  "name": "Legion",
+  "type": "launchpad",
+  "website": "https://legion.cc/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Legion Main Contract",
+      "type": "core",
+      "description": "Main contract for Legion",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/legion",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "hits4fun",
+  "name": "Hits4fun",
+  "type": "options",
+  "website": "https://hits4.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hits4fun Main Contract",
+      "type": "core",
+      "description": "Main contract for Hits4fun",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hits4fun",
+      "updated": "2025-01-31"
+    }
+  }
+}

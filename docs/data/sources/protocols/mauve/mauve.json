@@ -1,0 +1,44 @@
+{
+  "id": "mauve",
+  "name": "Mauve",
+  "type": "dexs",
+  "website": "https://www.mauve.org",
+  "github": [
+    "violetprotocol"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mauve Main Contract",
+      "type": "core",
+      "description": "Main contract for Mauve",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mauve",
+      "updated": "2025-01-31"
+    }
+  }
+}

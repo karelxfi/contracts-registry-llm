@@ -1,0 +1,42 @@
+{
+  "id": "yearn-ether",
+  "name": "Yearn Ether",
+  "type": "indexes",
+  "website": "https://yeth.yearn.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yearn Ether Main Contract",
+      "type": "core",
+      "description": "Main contract for Yearn Ether",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yearn-ether",
+      "updated": "2025-01-31"
+    }
+  }
+}

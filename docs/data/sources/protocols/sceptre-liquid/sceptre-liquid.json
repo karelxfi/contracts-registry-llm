@@ -1,0 +1,42 @@
+{
+  "id": "sceptre-liquid",
+  "name": "Sceptre Liquid",
+  "type": "liquid staking",
+  "website": "https://flare.sceptre.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sceptre Liquid Main Contract",
+      "type": "core",
+      "description": "Main contract for Sceptre Liquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sceptre-liquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

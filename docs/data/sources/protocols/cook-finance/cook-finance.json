@@ -1,0 +1,62 @@
+{
+  "id": "cook-finance",
+  "name": "Cook Finance",
+  "type": "indexes",
+  "website": "https://www.cook.finance",
+  "github": [
+    "CookFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cook Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Cook Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cook-finance",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cook-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

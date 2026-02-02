@@ -1,0 +1,45 @@
+{
+  "id": "renec-lend",
+  "name": "Renec Lend",
+  "type": "lending",
+  "website": "https://lend.renec.org/home",
+  "github": [
+    "renec-lend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Renec Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Renec Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/renec-lend",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

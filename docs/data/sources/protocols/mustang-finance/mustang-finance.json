@@ -1,0 +1,45 @@
+{
+  "id": "mustang-finance",
+  "name": "Mustang Finance",
+  "type": "cdp",
+  "website": "https://must.finance/",
+  "github": [
+    "MustangProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "saga"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mustang Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Mustang Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "saga": {
+      "chain": "saga",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mustang-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

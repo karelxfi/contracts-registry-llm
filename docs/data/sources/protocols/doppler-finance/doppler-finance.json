@@ -1,0 +1,44 @@
+{
+  "id": "doppler-finance",
+  "name": "Doppler Finance",
+  "type": "cedefi",
+  "website": "https://app.doppler.finance",
+  "github": [
+    "girin-app"
+  ],
+  "docs": "",
+  "tags": [
+    "cedefi",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Doppler Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Doppler Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/doppler-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

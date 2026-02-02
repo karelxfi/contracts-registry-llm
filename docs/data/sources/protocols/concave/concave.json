@@ -1,0 +1,44 @@
+{
+  "id": "concave",
+  "name": "Concave",
+  "type": "services",
+  "website": "https://concave.lol",
+  "github": [
+    "ConcaveFi"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Concave Main Contract",
+      "type": "core",
+      "description": "Main contract for Concave",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/concave",
+      "updated": "2025-01-31"
+    }
+  }
+}

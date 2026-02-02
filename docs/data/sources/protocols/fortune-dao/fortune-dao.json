@@ -1,0 +1,42 @@
+{
+  "id": "fortune-dao",
+  "name": "Fortune DAO",
+  "type": "reserve currency",
+  "website": "https://fortunedao.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fortune DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Fortune DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fortune-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

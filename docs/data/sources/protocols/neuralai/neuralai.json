@@ -1,0 +1,42 @@
+{
+  "id": "neuralai",
+  "name": "NeuralAI",
+  "type": "farm",
+  "website": "https://stake.goneural.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NeuralAI Main Contract",
+      "type": "core",
+      "description": "Main contract for NeuralAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/neuralai",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kittenswap-algebra",
+  "name": "Kittenswap Algebra",
+  "type": "dexs",
+  "website": "https://kittenswap.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kittenswap Algebra Main Contract",
+      "type": "core",
+      "description": "Main contract for Kittenswap Algebra",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kittenswap-algebra",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

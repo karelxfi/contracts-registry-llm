@@ -1,0 +1,78 @@
+{
+  "id": "arrakis-modular",
+  "name": "Arrakis Modular",
+  "type": "liquidity manager",
+  "website": "https://app.arrakis.fi/modular",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "ethereum",
+    "base",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arrakis Modular Main Contract",
+      "type": "core",
+      "description": "Main contract for Arrakis Modular",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrakis-modular",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrakis-modular",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrakis-modular",
+      "updated": "2025-01-31"
+    }
+  }
+}

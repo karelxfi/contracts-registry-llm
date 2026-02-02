@@ -1,0 +1,44 @@
+{
+  "id": "liveart",
+  "name": "LiveArt",
+  "type": "rwa",
+  "website": "https://liveart.io/",
+  "github": [
+    "LiveArtx"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LiveArt Main Contract",
+      "type": "core",
+      "description": "Main contract for LiveArt",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liveart",
+      "updated": "2025-01-31"
+    }
+  }
+}

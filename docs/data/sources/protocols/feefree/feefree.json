@@ -1,0 +1,62 @@
+{
+  "id": "feefree",
+  "name": "FeeFree",
+  "type": "dexs",
+  "website": "https://app.feefree.fi",
+  "github": [
+    "FeeFreeFi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FeeFree Main Contract",
+      "type": "core",
+      "description": "Main contract for FeeFree",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/feefree",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/feefree",
+      "updated": "2025-01-31"
+    }
+  }
+}

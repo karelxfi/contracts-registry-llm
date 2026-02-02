@@ -1,0 +1,39 @@
+{
+  "chain": "harmony",
+  "chainInfo": null,
+  "protocols": {
+    "aave-v3": {
+      "aave-v3": {
+        "name": "Aave V3",
+        "type": "lending",
+        "addresses": {
+          "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+          "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+          "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
+          "aaveOracle": "0x3C90887Ede8D65ccb2777A5d577beAb2548280AD",
+          "poolDataProvider": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+          "aclManager": "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B",
+          "collector": "0x8A020d92D6B119978582BE4d3EdFdC9F7b28BF31"
+        },
+        "deploymentBlocks": {
+          "pool": null,
+          "poolAddressesProvider": null,
+          "poolConfigurator": null,
+          "aaveOracle": null,
+          "poolDataProvider": null,
+          "aclManager": null,
+          "collector": null
+        },
+        "verified": {
+          "pool": true,
+          "poolAddressesProvider": true,
+          "poolConfigurator": true,
+          "aaveOracle": true,
+          "poolDataProvider": true,
+          "aclManager": true,
+          "collector": true
+        }
+      }
+    }
+  }
+}

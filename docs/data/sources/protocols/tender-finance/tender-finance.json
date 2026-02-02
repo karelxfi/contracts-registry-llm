@@ -1,0 +1,44 @@
+{
+  "id": "tender-finance",
+  "name": "Tender Finance",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "tender-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tender Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Tender Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tender-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

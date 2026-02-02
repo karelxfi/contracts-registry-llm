@@ -1,0 +1,42 @@
+{
+  "id": "smilee-finance-arbitrum",
+  "name": "Smilee Finance Arbitrum",
+  "type": "options",
+  "website": "https://smilee.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Smilee Finance Arbitrum Main Contract",
+      "type": "core",
+      "description": "Main contract for Smilee Finance Arbitrum",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/smilee-finance-arbitrum",
+      "updated": "2025-01-31"
+    }
+  }
+}

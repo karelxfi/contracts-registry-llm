@@ -1,0 +1,44 @@
+{
+  "id": "nomad",
+  "name": "Nomad",
+  "type": "bridge",
+  "website": "https://nomad.xyz",
+  "github": [
+    "nomad-xyz"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nomad Main Contract",
+      "type": "core",
+      "description": "Main contract for Nomad",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nomad",
+      "updated": "2025-01-31"
+    }
+  }
+}

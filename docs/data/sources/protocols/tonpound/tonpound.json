@@ -1,0 +1,42 @@
+{
+  "id": "tonpound",
+  "name": "Tonpound",
+  "type": "lending",
+  "website": "https://app.tonpound.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tonpound Main Contract",
+      "type": "core",
+      "description": "Main contract for Tonpound",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonpound",
+      "updated": "2025-01-31"
+    }
+  }
+}

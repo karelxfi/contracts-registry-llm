@@ -1,0 +1,60 @@
+{
+  "id": "rebalance-finance",
+  "name": "Rebalance Finance",
+  "type": "lending",
+  "website": "https://www.rebalance.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rebalance Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Rebalance Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rebalance-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rebalance-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

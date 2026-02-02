@@ -1,0 +1,42 @@
+{
+  "id": "tigris-mezo",
+  "name": "Tigris Mezo",
+  "type": "dexs",
+  "website": "https://mezo.org/explore/pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mezo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tigris Mezo Main Contract",
+      "type": "core",
+      "description": "Main contract for Tigris Mezo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mezo": {
+      "chain": "mezo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tigris-mezo",
+      "updated": "2025-01-31"
+    }
+  }
+}

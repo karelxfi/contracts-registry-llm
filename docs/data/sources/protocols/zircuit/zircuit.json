@@ -1,0 +1,42 @@
+{
+  "id": "zircuit",
+  "name": "Zircuit",
+  "type": "canonical bridge",
+  "website": "https://www.zircuit.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zircuit Main Contract",
+      "type": "core",
+      "description": "Main contract for Zircuit",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zircuit",
+      "updated": "2025-01-31"
+    }
+  }
+}

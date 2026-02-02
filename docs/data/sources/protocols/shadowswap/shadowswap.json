@@ -1,0 +1,42 @@
+{
+  "id": "shadowswap",
+  "name": "ShadowSwap",
+  "type": "dexs",
+  "website": "https://shadowswap.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ShadowSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ShadowSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shadowswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "category": "decentralized ai",
+  "protocols": {
+    "flock.io": {
+      "flock.io": {
+        "name": "FLock.io",
+        "contracts": {
+          "main": {
+            "name": "FLock.io Main Contract",
+            "type": "core",
+            "description": "Main contract for FLock.io",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flock.io",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "openledger": {
+      "openledger": {
+        "name": "OpenLedger",
+        "contracts": {
+          "main": {
+            "name": "OpenLedger Main Contract",
+            "type": "core",
+            "description": "Main contract for OpenLedger",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/openledger",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

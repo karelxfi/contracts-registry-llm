@@ -1,0 +1,42 @@
+{
+  "id": "standard-protocol-mode",
+  "name": "Standard Protocol Mode",
+  "type": "dexs",
+  "website": "https://app.standardweb3.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Standard Protocol Mode Main Contract",
+      "type": "core",
+      "description": "Main contract for Standard Protocol Mode",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/standard-protocol-mode",
+      "updated": "2025-01-31"
+    }
+  }
+}

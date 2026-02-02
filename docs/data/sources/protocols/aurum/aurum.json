@@ -1,0 +1,44 @@
+{
+  "id": "aurum",
+  "name": "Aurum",
+  "type": "lending",
+  "website": "https://aurumfi.io/",
+  "github": [
+    "aurum-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aurum Main Contract",
+      "type": "core",
+      "description": "Main contract for Aurum",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aurum",
+      "updated": "2025-01-31"
+    }
+  }
+}

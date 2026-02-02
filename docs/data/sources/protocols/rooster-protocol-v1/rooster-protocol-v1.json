@@ -1,0 +1,42 @@
+{
+  "id": "rooster-protocol-v1",
+  "name": "Rooster Protocol V1",
+  "type": "dexs",
+  "website": "https://www.rooster-protocol.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rooster Protocol V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Rooster Protocol V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rooster-protocol-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

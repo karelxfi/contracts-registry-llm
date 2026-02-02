@@ -1,0 +1,44 @@
+{
+  "id": "credit-guild",
+  "name": "Credit Guild",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "volt-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Credit Guild Main Contract",
+      "type": "core",
+      "description": "Main contract for Credit Guild",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/credit-guild",
+      "updated": "2025-01-31"
+    }
+  }
+}

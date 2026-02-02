@@ -1,0 +1,60 @@
+{
+  "id": "brink",
+  "name": "Brink",
+  "type": "onchain capital allocator",
+  "website": "https://brink.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "mantle",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Brink Main Contract",
+      "type": "core",
+      "description": "Main contract for Brink",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brink",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brink",
+      "updated": "2025-01-31"
+    }
+  }
+}

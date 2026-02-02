@@ -1,0 +1,45 @@
+{
+  "id": "hyperbrick",
+  "name": "HyperBrick",
+  "type": "dexs",
+  "website": "https://hyperbrick.xyz/point?ref=DEFILLAMA",
+  "github": [
+    "HyperBrickLabs"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HyperBrick Main Contract",
+      "type": "core",
+      "description": "Main contract for HyperBrick",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperbrick",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

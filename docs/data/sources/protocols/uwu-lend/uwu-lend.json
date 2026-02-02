@@ -1,0 +1,44 @@
+{
+  "id": "uwu-lend",
+  "name": "UwU Lend",
+  "type": "lending",
+  "website": "https://www.uwulend.fi/",
+  "github": [
+    "UwU-Lend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "UwU Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for UwU Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/uwu-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

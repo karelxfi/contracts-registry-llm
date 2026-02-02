@@ -1,0 +1,78 @@
+{
+  "id": "dao-maker-vesting",
+  "name": "DAO Maker Vesting",
+  "type": "services",
+  "website": "https://daomaker.com/farms-and-vestings",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum",
+    "polygon",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DAO Maker Vesting Main Contract",
+      "type": "core",
+      "description": "Main contract for DAO Maker Vesting",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dao-maker-vesting",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dao-maker-vesting",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dao-maker-vesting",
+      "updated": "2025-01-31"
+    }
+  }
+}

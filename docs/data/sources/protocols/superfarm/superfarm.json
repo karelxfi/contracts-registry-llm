@@ -1,0 +1,44 @@
+{
+  "id": "superfarm",
+  "name": "SuperFarm",
+  "type": "services",
+  "website": "https://superfarm.com/",
+  "github": [
+    "SuperFarmDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SuperFarm Main Contract",
+      "type": "core",
+      "description": "Main contract for SuperFarm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superfarm",
+      "updated": "2025-01-31"
+    }
+  }
+}

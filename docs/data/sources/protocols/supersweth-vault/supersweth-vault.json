@@ -1,0 +1,42 @@
+{
+  "id": "supersweth-vault",
+  "name": "SuperSweth Vault",
+  "type": "farm",
+  "website": "https://www.swellnetwork.io/vault",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SuperSweth Vault Main Contract",
+      "type": "core",
+      "description": "Main contract for SuperSweth Vault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/supersweth-vault",
+      "updated": "2025-01-31"
+    }
+  }
+}

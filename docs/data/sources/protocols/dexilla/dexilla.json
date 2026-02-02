@@ -1,0 +1,60 @@
+{
+  "id": "dexilla",
+  "name": "Dexilla",
+  "type": "dexs",
+  "website": "https://dexilla.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dexilla Main Contract",
+      "type": "core",
+      "description": "Main contract for Dexilla",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexilla",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dexilla",
+      "updated": "2025-01-31"
+    }
+  }
+}

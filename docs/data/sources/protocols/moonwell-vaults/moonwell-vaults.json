@@ -1,0 +1,42 @@
+{
+  "id": "moonwell-vaults",
+  "name": "Moonwell Vaults",
+  "type": "onchain capital allocator",
+  "website": "https://moonwell.fi/vaults",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moonwell Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Moonwell Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moonwell-vaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

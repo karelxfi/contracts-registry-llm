@@ -1,0 +1,43 @@
+{
+  "id": "yieldly",
+  "name": "Yieldly",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yieldly Main Contract",
+      "type": "core",
+      "description": "Main contract for Yieldly",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yieldly",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

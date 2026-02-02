@@ -1,0 +1,44 @@
+{
+  "id": "gravity-finance",
+  "name": "Gravity Finance",
+  "type": "dexs",
+  "website": "https://gravityfinance.io/",
+  "github": [
+    "inthenextversion"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gravity Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Gravity Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gravity-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

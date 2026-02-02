@@ -1,0 +1,45 @@
+{
+  "id": "emojicoin.fun",
+  "name": "Emojicoin.fun",
+  "type": "launchpad",
+  "website": "https://www.emojicoin.fun",
+  "github": [
+    "econia-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Emojicoin.fun Main Contract",
+      "type": "core",
+      "description": "Main contract for Emojicoin.fun",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/emojicoin.fun",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

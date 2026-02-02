@@ -1,0 +1,44 @@
+{
+  "id": "bitfire",
+  "name": "BitFire",
+  "type": "lending",
+  "website": "https://bit-fire.xyz/",
+  "github": [
+    "BitFire-Lending"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "mezo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitFire Main Contract",
+      "type": "core",
+      "description": "Main contract for BitFire",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mezo": {
+      "chain": "mezo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitfire",
+      "updated": "2025-01-31"
+    }
+  }
+}

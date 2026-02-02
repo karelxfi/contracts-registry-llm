@@ -1,0 +1,45 @@
+{
+  "id": "growihf",
+  "name": "GrowiHF",
+  "type": "yield",
+  "website": "https://hf.growi.fi/",
+  "github": [
+    "Growi-DeFi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GrowiHF Main Contract",
+      "type": "core",
+      "description": "Main contract for GrowiHF",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/growihf",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

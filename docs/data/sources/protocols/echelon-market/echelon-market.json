@@ -1,0 +1,43 @@
+{
+  "id": "echelon-market",
+  "name": "Echelon Market",
+  "type": "lending",
+  "website": "https://app.echelon.market/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Echelon Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Echelon Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/echelon-market",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

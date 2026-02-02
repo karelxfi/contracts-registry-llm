@@ -1,0 +1,63 @@
+{
+  "id": "bitstable-finance",
+  "name": "BitStable Finance",
+  "type": "cdp",
+  "website": "https://bitstable.finance",
+  "github": [
+    "BitStable-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitStable Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for BitStable Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitstable-finance",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitstable-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

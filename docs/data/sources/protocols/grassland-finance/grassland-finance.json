@@ -1,0 +1,42 @@
+{
+  "id": "grassland-finance",
+  "name": "GrassLand Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GrassLand Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for GrassLand Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grassland-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

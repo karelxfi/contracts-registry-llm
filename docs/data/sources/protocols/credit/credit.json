@@ -1,0 +1,42 @@
+{
+  "id": "credit",
+  "name": "Credit",
+  "type": "lending",
+  "website": "https://credit.cash/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "world-chain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Credit Main Contract",
+      "type": "core",
+      "description": "Main contract for Credit",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/credit",
+      "updated": "2025-01-31"
+    }
+  }
+}

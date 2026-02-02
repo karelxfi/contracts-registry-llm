@@ -1,0 +1,43 @@
+{
+  "id": "oxygen",
+  "name": "Oxygen",
+  "type": "lending",
+  "website": "https://www.oxygen.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Oxygen Main Contract",
+      "type": "core",
+      "description": "Main contract for Oxygen",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/oxygen",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

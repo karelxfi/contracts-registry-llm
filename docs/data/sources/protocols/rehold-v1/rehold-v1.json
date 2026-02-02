@@ -1,0 +1,78 @@
+{
+  "id": "rehold-v1",
+  "name": "ReHold V1",
+  "type": "yield",
+  "website": "https://reholdio.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon",
+    "arbitrum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ReHold V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for ReHold V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rehold-v1",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rehold-v1",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rehold-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

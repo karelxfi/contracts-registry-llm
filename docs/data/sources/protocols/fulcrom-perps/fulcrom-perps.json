@@ -1,0 +1,42 @@
+{
+  "id": "fulcrom-perps",
+  "name": "Fulcrom Perps",
+  "type": "derivatives",
+  "website": "https://fulcrom.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fulcrom Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for Fulcrom Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fulcrom-perps",
+      "updated": "2025-01-31"
+    }
+  }
+}

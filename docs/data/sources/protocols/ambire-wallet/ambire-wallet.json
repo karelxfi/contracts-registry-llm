@@ -1,0 +1,44 @@
+{
+  "id": "ambire-wallet",
+  "name": "Ambire Wallet",
+  "type": "wallets",
+  "website": "https://www.ambire.com",
+  "github": [
+    "AmbireTech"
+  ],
+  "docs": "",
+  "tags": [
+    "wallets",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ambire Wallet Main Contract",
+      "type": "core",
+      "description": "Main contract for Ambire Wallet",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ambire-wallet",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "run-money",
+  "name": "Run Money",
+  "type": "yield lottery",
+  "website": "https://runmoney.app",
+  "github": [
+    "Run-Money"
+  ],
+  "docs": "",
+  "tags": [
+    "yield lottery",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Run Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Run Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/run-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

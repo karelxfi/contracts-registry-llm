@@ -1,0 +1,44 @@
+{
+  "id": "paribus",
+  "name": "Paribus",
+  "type": "lending",
+  "website": "https://app.paribus.io",
+  "github": [
+    "Paribus"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Paribus Main Contract",
+      "type": "core",
+      "description": "Main contract for Paribus",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paribus",
+      "updated": "2025-01-31"
+    }
+  }
+}

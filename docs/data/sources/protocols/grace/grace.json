@@ -1,0 +1,62 @@
+{
+  "id": "grace",
+  "name": "Grace",
+  "type": "lending",
+  "website": "https://grace.loans/",
+  "github": [
+    "GraceProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Grace Main Contract",
+      "type": "core",
+      "description": "Main contract for Grace",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grace",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grace",
+      "updated": "2025-01-31"
+    }
+  }
+}

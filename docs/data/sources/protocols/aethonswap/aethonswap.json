@@ -1,0 +1,42 @@
+{
+  "id": "aethonswap",
+  "name": "AethonSwap",
+  "type": "dexs",
+  "website": "https://app.aethonswap.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AethonSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for AethonSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aethonswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

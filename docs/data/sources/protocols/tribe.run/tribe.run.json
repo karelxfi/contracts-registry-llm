@@ -1,0 +1,43 @@
+{
+  "id": "tribe.run",
+  "name": "Tribe.run",
+  "type": "sofi",
+  "website": "https://www.tribe.run/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tribe.run Main Contract",
+      "type": "core",
+      "description": "Main contract for Tribe.run",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tribe.run",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "whale-game",
+  "name": "Whale Game",
+  "type": "prediction market",
+  "website": "https://www.whalegame.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Whale Game Main Contract",
+      "type": "core",
+      "description": "Main contract for Whale Game",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/whale-game",
+      "updated": "2025-01-31"
+    }
+  }
+}

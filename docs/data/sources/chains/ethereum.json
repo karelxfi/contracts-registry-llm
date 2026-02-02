@@ -1,0 +1,23 @@
+{
+  "id": "ethereum",
+  "name": "Ethereum",
+  "platform": "evm",
+  "status": "active",
+  "chainId": 1,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "gecko_id": "ethereum",
+  "cmcId": "1027",
+  "explorers": {
+    "primary": {
+      "name": "Ethereum Explorer",
+      "url": "https://explorer.ethereum.network"
+    }
+  },
+  "rpc": {
+    "public": []
+  }
+}

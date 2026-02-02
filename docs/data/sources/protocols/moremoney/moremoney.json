@@ -1,0 +1,44 @@
+{
+  "id": "moremoney",
+  "name": "Moremoney",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "MoreMoney-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moremoney Main Contract",
+      "type": "core",
+      "description": "Main contract for Moremoney",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moremoney",
+      "updated": "2025-01-31"
+    }
+  }
+}

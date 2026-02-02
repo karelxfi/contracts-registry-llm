@@ -1,0 +1,42 @@
+{
+  "id": "polyyeld-finance",
+  "name": "PolyYeld Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PolyYeld Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for PolyYeld Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polyyeld-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

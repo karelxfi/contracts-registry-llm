@@ -1,0 +1,62 @@
+{
+  "id": "mind-network",
+  "name": "Mind Network",
+  "type": "ai agents",
+  "website": "https://www.mindnetwork.xyz",
+  "github": [
+    "mind-network"
+  ],
+  "docs": "",
+  "tags": [
+    "ai agents",
+    "ethereum",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mind Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Mind Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mind-network",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mind-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

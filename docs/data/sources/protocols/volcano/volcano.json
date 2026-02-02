@@ -1,0 +1,42 @@
+{
+  "id": "volcano",
+  "name": "Volcano",
+  "type": "farm",
+  "website": "https://volcanofinance.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Volcano Main Contract",
+      "type": "core",
+      "description": "Main contract for Volcano",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/volcano",
+      "updated": "2025-01-31"
+    }
+  }
+}

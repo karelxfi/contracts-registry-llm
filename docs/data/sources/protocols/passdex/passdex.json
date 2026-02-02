@@ -1,0 +1,60 @@
+{
+  "id": "passdex",
+  "name": "PassDEX",
+  "type": "dexs",
+  "website": "https://passdex.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "soneium",
+    "unichain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PassDEX Main Contract",
+      "type": "core",
+      "description": "Main contract for PassDEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/passdex",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/passdex",
+      "updated": "2025-01-31"
+    }
+  }
+}

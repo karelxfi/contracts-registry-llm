@@ -1,0 +1,44 @@
+{
+  "id": "stakingverse",
+  "name": "Stakingverse",
+  "type": "liquid staking",
+  "website": "https://stakingverse.io",
+  "github": [
+    "Stakingverse"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stakingverse Main Contract",
+      "type": "core",
+      "description": "Main contract for Stakingverse",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stakingverse",
+      "updated": "2025-01-31"
+    }
+  }
+}

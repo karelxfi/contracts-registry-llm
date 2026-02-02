@@ -1,0 +1,42 @@
+{
+  "id": "crolend-finance",
+  "name": "CroLend Finance",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CroLend Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for CroLend Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crolend-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

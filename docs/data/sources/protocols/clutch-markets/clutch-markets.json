@@ -1,0 +1,42 @@
+{
+  "id": "clutch-markets",
+  "name": "Clutch Markets",
+  "type": "prediction market",
+  "website": "https://clutch.market",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Clutch Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Clutch Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clutch-markets",
+      "updated": "2025-01-31"
+    }
+  }
+}

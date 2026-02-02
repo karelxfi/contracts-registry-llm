@@ -1,0 +1,43 @@
+{
+  "id": "only1",
+  "name": "Only1",
+  "type": "nft marketplace",
+  "website": "https://only1.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Only1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Only1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/only1",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

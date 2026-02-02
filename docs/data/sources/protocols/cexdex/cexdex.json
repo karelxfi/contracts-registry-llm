@@ -1,0 +1,42 @@
+{
+  "id": "cexdex",
+  "name": "CexDex",
+  "type": "yield",
+  "website": "https://cexdex.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CexDex Main Contract",
+      "type": "core",
+      "description": "Main contract for CexDex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cexdex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "reti-pooling",
+  "name": "Reti Pooling",
+  "type": "staking pool",
+  "website": "https://reti.nodely.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Reti Pooling Main Contract",
+      "type": "core",
+      "description": "Main contract for Reti Pooling",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reti-pooling",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

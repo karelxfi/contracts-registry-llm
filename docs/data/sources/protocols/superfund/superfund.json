@@ -1,0 +1,42 @@
+{
+  "id": "superfund",
+  "name": "Superfund",
+  "type": "onchain capital allocator",
+  "website": "https://funds.superlend.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Superfund Main Contract",
+      "type": "core",
+      "description": "Main contract for Superfund",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superfund",
+      "updated": "2025-01-31"
+    }
+  }
+}

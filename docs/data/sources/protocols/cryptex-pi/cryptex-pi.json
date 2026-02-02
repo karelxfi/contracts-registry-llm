@@ -1,0 +1,42 @@
+{
+  "id": "cryptex-pi",
+  "name": "Cryptex Pi",
+  "type": "derivatives",
+  "website": "https://app.cryptex.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cryptex Pi Main Contract",
+      "type": "core",
+      "description": "Main contract for Cryptex Pi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cryptex-pi",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cennznet-bridge",
+  "name": "CENNZnet Bridge",
+  "type": "bridge",
+  "website": "https://app.cennz.net/bridge",
+  "github": [
+    "cennznet"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CENNZnet Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for CENNZnet Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cennznet-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

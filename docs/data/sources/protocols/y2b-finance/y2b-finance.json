@@ -1,0 +1,42 @@
+{
+  "id": "y2b-finance",
+  "name": "Y2B Finance",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Y2B Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Y2B Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/y2b-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

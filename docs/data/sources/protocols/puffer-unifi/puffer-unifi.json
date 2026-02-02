@@ -1,0 +1,42 @@
+{
+  "id": "puffer-unifi",
+  "name": "Puffer UniFi",
+  "type": "yield",
+  "website": "https://www.puffer.fi/unifi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Puffer UniFi Main Contract",
+      "type": "core",
+      "description": "Main contract for Puffer UniFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/puffer-unifi",
+      "updated": "2025-01-31"
+    }
+  }
+}

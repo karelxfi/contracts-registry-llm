@@ -1,0 +1,102 @@
+{
+  "id": "astroport",
+  "name": "Astroport",
+  "type": "dexs",
+  "website": "https://astroport.fi",
+  "github": [
+    "astroport-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "neutron",
+    "injective",
+    "osmosis",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Astroport Main Contract",
+      "type": "core",
+      "description": "Main contract for Astroport",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astroport",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astroport",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astroport",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astroport",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

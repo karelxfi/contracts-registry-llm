@@ -1,0 +1,114 @@
+{
+  "id": "spark-liquidity-layer",
+  "name": "Spark Liquidity Layer",
+  "type": "onchain capital allocator",
+  "website": "https://app.spark.fi/points/KNQ5HD",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "ethereum",
+    "base",
+    "unichain",
+    "arbitrum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Spark Liquidity Layer Main Contract",
+      "type": "core",
+      "description": "Main contract for Spark Liquidity Layer",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spark-liquidity-layer",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spark-liquidity-layer",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spark-liquidity-layer",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spark-liquidity-layer",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spark-liquidity-layer",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gold-dao",
+  "name": "Gold DAO",
+  "type": "rwa",
+  "website": "https://www.gold-dao.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "icp"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gold DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Gold DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "icp": {
+      "chain": "icp",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gold-dao",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

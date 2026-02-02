@@ -1,0 +1,42 @@
+{
+  "id": "organic-growth",
+  "name": "Organic Growth",
+  "type": "launchpad",
+  "website": "https://www.organicgrowth.wtf/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "etherlink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Organic Growth Main Contract",
+      "type": "core",
+      "description": "Main contract for Organic Growth",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "etherlink": {
+      "chain": "etherlink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/organic-growth",
+      "updated": "2025-01-31"
+    }
+  }
+}

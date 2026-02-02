@@ -1,0 +1,132 @@
+{
+  "id": "desyn-liquid-strategy",
+  "name": "DeSyn Liquid Strategy",
+  "type": "yield aggregator",
+  "website": "https://www.desyn.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum",
+    "core",
+    "plume-mainnet",
+    "linea",
+    "merlin",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DeSyn Liquid Strategy Main Contract",
+      "type": "core",
+      "description": "Main contract for DeSyn Liquid Strategy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    },
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    },
+    "merlin": {
+      "chain": "merlin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/desyn-liquid-strategy",
+      "updated": "2025-01-31"
+    }
+  }
+}

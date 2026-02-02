@@ -1,0 +1,98 @@
+{
+  "id": "mountain-protocol",
+  "name": "Mountain Protocol",
+  "type": "rwa",
+  "website": "https://mountainprotocol.com",
+  "github": [
+    "mountainprotocol"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "arbitrum",
+    "base",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mountain Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Mountain Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mountain-protocol",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mountain-protocol",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mountain-protocol",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mountain-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

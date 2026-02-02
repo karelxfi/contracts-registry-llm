@@ -1,0 +1,44 @@
+{
+  "id": "fortress",
+  "name": "Fortress",
+  "type": "reserve currency",
+  "website": "https://app.fortressdao.finance",
+  "github": [
+    "Fortress-DAO"
+  ],
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fortress Main Contract",
+      "type": "core",
+      "description": "Main contract for Fortress",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fortress",
+      "updated": "2025-01-31"
+    }
+  }
+}

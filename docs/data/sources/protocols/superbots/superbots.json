@@ -1,0 +1,42 @@
+{
+  "id": "superbots",
+  "name": "SuperBots",
+  "type": "yield aggregator",
+  "website": "https://superbots.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SuperBots Main Contract",
+      "type": "core",
+      "description": "Main contract for SuperBots",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superbots",
+      "updated": "2025-01-31"
+    }
+  }
+}

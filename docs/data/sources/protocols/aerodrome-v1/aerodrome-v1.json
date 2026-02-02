@@ -1,0 +1,42 @@
+{
+  "id": "aerodrome-v1",
+  "name": "Aerodrome V1",
+  "type": "dexs",
+  "website": "https://aero.drome.eth.limo/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aerodrome V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Aerodrome V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aerodrome-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

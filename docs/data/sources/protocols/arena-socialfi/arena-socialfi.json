@@ -1,0 +1,42 @@
+{
+  "id": "arena-socialfi",
+  "name": "Arena SocialFi",
+  "type": "sofi",
+  "website": "https://arena.social/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arena SocialFi Main Contract",
+      "type": "core",
+      "description": "Main contract for Arena SocialFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arena-socialfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

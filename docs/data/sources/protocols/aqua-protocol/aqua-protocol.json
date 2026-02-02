@@ -1,0 +1,43 @@
+{
+  "id": "aqua-protocol",
+  "name": "Aqua Protocol",
+  "type": "cdp",
+  "website": "https://aquaprotocol.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aqua Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Aqua Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aqua-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

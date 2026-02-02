@@ -1,0 +1,42 @@
+{
+  "id": "alien-base-area51",
+  "name": "Alien Base Area51",
+  "type": "dexs",
+  "website": "https://alienbase.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alien Base Area51 Main Contract",
+      "type": "core",
+      "description": "Main contract for Alien Base Area51",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alien-base-area51",
+      "updated": "2025-01-31"
+    }
+  }
+}

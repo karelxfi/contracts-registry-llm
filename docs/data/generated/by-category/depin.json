@@ -1,0 +1,41 @@
+{
+  "category": "depin",
+  "protocols": {
+    "beamable-network": {
+      "beamable-network": {
+        "name": "Beamable Network",
+        "contracts": {
+          "main": {
+            "name": "Beamable Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Beamable Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/beamable-network",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "tornadao",
+  "name": "Tornadao",
+  "type": "reserve currency",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tornadao Main Contract",
+      "type": "core",
+      "description": "Main contract for Tornadao",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tornadao",
+      "updated": "2025-01-31"
+    }
+  }
+}

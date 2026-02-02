@@ -1,0 +1,62 @@
+{
+  "id": "shprd",
+  "name": "SHPRD",
+  "type": "indexes",
+  "website": "https://shprd.finance",
+  "github": [
+    "stealth-defi"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SHPRD Main Contract",
+      "type": "core",
+      "description": "Main contract for SHPRD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shprd",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shprd",
+      "updated": "2025-01-31"
+    }
+  }
+}

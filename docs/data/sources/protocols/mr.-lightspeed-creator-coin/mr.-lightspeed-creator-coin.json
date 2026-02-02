@@ -1,0 +1,42 @@
+{
+  "id": "mr.-lightspeed-creator-coin",
+  "name": "Mr. Lightspeed Creator Coin",
+  "type": "sofi",
+  "website": "https://zora.co/mr_lightspeed",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mr. Lightspeed Creator Coin Main Contract",
+      "type": "core",
+      "description": "Main contract for Mr. Lightspeed Creator Coin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mr.-lightspeed-creator-coin",
+      "updated": "2025-01-31"
+    }
+  }
+}

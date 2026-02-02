@@ -1,0 +1,42 @@
+{
+  "id": "ostrich",
+  "name": "Ostrich",
+  "type": "derivatives",
+  "website": "https://app.ostrich.exchange/explore",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ostrich Main Contract",
+      "type": "core",
+      "description": "Main contract for Ostrich",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ostrich",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "asseto-cash+",
+  "name": "Asseto CASH+",
+  "type": "rwa",
+  "website": "https://asseto.finance/#invest",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Asseto CASH+ Main Contract",
+      "type": "core",
+      "description": "Main contract for Asseto CASH+",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/asseto-cash+",
+      "updated": "2025-01-31"
+    }
+  }
+}

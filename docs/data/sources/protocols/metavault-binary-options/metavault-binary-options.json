@@ -1,0 +1,42 @@
+{
+  "id": "metavault-binary-options",
+  "name": "Metavault Binary Options",
+  "type": "options",
+  "website": "https://metavault.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Metavault Binary Options Main Contract",
+      "type": "core",
+      "description": "Main contract for Metavault Binary Options",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metavault-binary-options",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "chain": "icp",
+  "chainInfo": {
+    "id": "icp",
+    "name": "ICP",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "ICP",
+      "symbol": "ICP",
+      "decimals": 8
+    },
+    "gecko_id": "internet-computer",
+    "cmcId": "8916",
+    "explorers": {
+      "primary": {
+        "name": "ICP Explorer",
+        "url": "https://explorer.icp.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "1sec": {
+      "1sec": {
+        "name": "1sec",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gold-dao": {
+      "gold-dao": {
+        "name": "Gold DAO",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "helix-markets": {
+      "helix-markets": {
+        "name": "Helix Markets",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "icdex": {
+      "icdex": {
+        "name": "ICDex",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "icpex": {
+      "icpex": {
+        "name": "ICPEx",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "icpswap": {
+      "icpswap": {
+        "name": "ICPSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kongswap": {
+      "kongswap": {
+        "name": "KongSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "origyn": {
+      "origyn": {
+        "name": "ORIGYN",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "rakeoff": {
+      "rakeoff": {
+        "name": "Rakeoff",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "service-nervous-systems": {
+      "service-nervous-systems": {
+        "name": "Service Nervous Systems",
+        "type": "governance incentives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sonic-icp": {
+      "sonic-icp": {
+        "name": "Sonic ICP",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "stakedicp": {
+      "stakedicp": {
+        "name": "StakedICP",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vnx": {
+      "vnx": {
+        "name": "VNX",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "waterneuron": {
+      "waterneuron": {
+        "name": "WaterNeuron",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yusan": {
+      "yusan": {
+        "name": "Yusan",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

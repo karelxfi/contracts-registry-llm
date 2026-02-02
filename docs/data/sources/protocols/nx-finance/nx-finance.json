@@ -1,0 +1,43 @@
+{
+  "id": "nx-finance",
+  "name": "NX Finance",
+  "type": "yield aggregator",
+  "website": "https://www.nxfinance.info/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NX Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for NX Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nx-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "polar-bear-finance",
+  "name": "Polar Bear Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polar Bear Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Polar Bear Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polar-bear-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

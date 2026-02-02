@@ -1,0 +1,45 @@
+{
+  "id": "kryptonite",
+  "name": "Kryptonite",
+  "type": "liquid staking",
+  "website": "https://app.kryptonite.finance/home",
+  "github": [
+    "KryptoniteDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kryptonite Main Contract",
+      "type": "core",
+      "description": "Main contract for Kryptonite",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kryptonite",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

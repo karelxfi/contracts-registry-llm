@@ -1,0 +1,60 @@
+{
+  "id": "alta-finance",
+  "name": "ALTA Finance",
+  "type": "rwa lending",
+  "website": "https://alta.finance/how-it-works",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa lending",
+    "base",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ALTA Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for ALTA Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alta-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alta-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

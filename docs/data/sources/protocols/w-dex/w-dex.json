@@ -1,0 +1,42 @@
+{
+  "id": "w-dex",
+  "name": "W-DEX",
+  "type": "dexs",
+  "website": "https://w-dex.ai/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "W-DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for W-DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/w-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "stabl.fi-v2",
+  "name": "Stabl.fi V2",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stabl.fi V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Stabl.fi V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stabl.fi-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

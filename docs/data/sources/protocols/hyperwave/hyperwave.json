@@ -1,0 +1,97 @@
+{
+  "id": "hyperwave",
+  "name": "HyperWave",
+  "type": "yield",
+  "website": "https://app.hyperwavefi.xyz/hyperfren/DEFILLAMA",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum",
+    "hyperliquid-l1",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HyperWave Main Contract",
+      "type": "core",
+      "description": "Main contract for HyperWave",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperwave",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperwave",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperwave",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperwave",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "thesauros",
+  "name": "Thesauros",
+  "type": "yield",
+  "website": "https://thesauros.io",
+  "github": [
+    "Thesauros"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Thesauros Main Contract",
+      "type": "core",
+      "description": "Main contract for Thesauros",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thesauros",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thesauros",
+      "updated": "2025-01-31"
+    }
+  }
+}

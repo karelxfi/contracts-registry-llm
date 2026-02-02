@@ -1,0 +1,43 @@
+{
+  "id": "kamino-liquidity",
+  "name": "Kamino Liquidity",
+  "type": "liquidity manager",
+  "website": "https://kamino.com/liquidity",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kamino Liquidity Main Contract",
+      "type": "core",
+      "description": "Main contract for Kamino Liquidity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kamino-liquidity",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

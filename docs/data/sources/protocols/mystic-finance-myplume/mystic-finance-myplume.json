@@ -1,0 +1,42 @@
+{
+  "id": "mystic-finance-myplume",
+  "name": "Mystic Finance myPLUME",
+  "type": "liquid staking",
+  "website": "https://www.mysticfinance.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mystic Finance myPLUME Main Contract",
+      "type": "core",
+      "description": "Main contract for Mystic Finance myPLUME",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mystic-finance-myplume",
+      "updated": "2025-01-31"
+    }
+  }
+}

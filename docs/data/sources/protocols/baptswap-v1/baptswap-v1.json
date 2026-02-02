@@ -1,0 +1,43 @@
+{
+  "id": "baptswap-v1",
+  "name": "BaptSwap V1",
+  "type": "dexs",
+  "website": "https://baptswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BaptSwap V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for BaptSwap V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/baptswap-v1",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

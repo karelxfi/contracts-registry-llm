@@ -1,0 +1,43 @@
+{
+  "id": "ratex-dex",
+  "name": "RateX DEX",
+  "type": "yield",
+  "website": "https://app.rate-x.io/referral?ref=VS71Wksp",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RateX DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for RateX DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ratex-dex",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

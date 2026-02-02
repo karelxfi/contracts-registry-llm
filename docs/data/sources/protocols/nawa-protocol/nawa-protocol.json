@@ -1,0 +1,44 @@
+{
+  "id": "nawa-protocol",
+  "name": "Nawa Protocol",
+  "type": "yield aggregator",
+  "website": "https://nawa.finance/",
+  "github": [
+    "NawaTeam"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nawa Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Nawa Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nawa-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

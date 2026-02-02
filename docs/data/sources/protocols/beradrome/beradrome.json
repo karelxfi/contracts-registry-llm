@@ -1,0 +1,44 @@
+{
+  "id": "beradrome",
+  "name": "Beradrome",
+  "type": "yield",
+  "website": "https://www.beradrome.com",
+  "github": [
+    "BeraLabs"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Beradrome Main Contract",
+      "type": "core",
+      "description": "Main contract for Beradrome",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beradrome",
+      "updated": "2025-01-31"
+    }
+  }
+}

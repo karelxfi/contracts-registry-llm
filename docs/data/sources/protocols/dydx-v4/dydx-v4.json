@@ -1,0 +1,43 @@
+{
+  "id": "dydx-v4",
+  "name": "dYdX V4",
+  "type": "derivatives",
+  "website": "https://dydx.trade?ref=LoneHull0UN",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "dydx"
+  ],
+  "contracts": {
+    "main": {
+      "name": "dYdX V4 Main Contract",
+      "type": "core",
+      "description": "Main contract for dYdX V4",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "dydx": {
+      "chain": "dydx",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dydx-v4",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

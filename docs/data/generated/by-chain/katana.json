@@ -1,0 +1,336 @@
+{
+  "chain": "katana",
+  "chainInfo": {
+    "id": "katana",
+    "name": "Katana",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 747474,
+    "explorers": {
+      "primary": {
+        "name": "Katana Explorer",
+        "url": "https://explorer.katana.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "charm-finance-v2": {
+      "charm-finance-v2": {
+        "name": "Charm Finance V2",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "clearstar": {
+      "clearstar": {
+        "name": "Clearstar",
+        "type": "risk curators",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "concrete": {
+      "concrete": {
+        "name": "Concrete",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "dtrinity-dusd": {
+      "dtrinity-dusd": {
+        "name": "dTRINITY dUSD",
+        "type": "partially algorithmic stablecoin",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "gauntlet": {
+      "gauntlet": {
+        "name": "Gauntlet",
+        "type": "risk curators",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "lagoon": {
+      "lagoon": {
+        "name": "Lagoon",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "midas-rwa": {
+      "midas-rwa": {
+        "name": "Midas RWA",
+        "type": "rwa",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "morpho-v1": {
+      "morpho-v1": {
+        "name": "Morpho V1",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ploutos-money": {
+      "ploutos-money": {
+        "name": "Ploutos Money",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "spectra-v2": {
+      "spectra-v2": {
+        "name": "Spectra V2",
+        "type": "yield",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "steakhouse-financial": {
+      "steakhouse-financial": {
+        "name": "Steakhouse Financial",
+        "type": "risk curators",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "steer-protocol": {
+      "steer-protocol": {
+        "name": "Steer Protocol",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sushiswap": {
+      "sushiswap": {
+        "name": "SushiSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sushiswap-v3": {
+      "sushiswap-v3": {
+        "name": "SushiSwap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "symbiosis": {
+      "symbiosis": {
+        "name": "Symbiosis",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "teller": {
+      "teller": {
+        "name": "Teller",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thedeep": {
+      "thedeep": {
+        "name": "TheDeep",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vfat.io": {
+      "vfat.io": {
+        "name": "vfat.io",
+        "type": "yield aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yearn-curating": {
+      "yearn-curating": {
+        "name": "Yearn Curating",
+        "type": "risk curators",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yearn-finance": {
+      "yearn-finance": {
+        "name": "Yearn Finance",
+        "type": "yield aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yieldfi": {
+      "yieldfi": {
+        "name": "YieldFi",
+        "type": "yield aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

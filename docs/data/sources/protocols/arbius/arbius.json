@@ -1,0 +1,44 @@
+{
+  "id": "arbius",
+  "name": "Arbius",
+  "type": "ai agents",
+  "website": "https://arbius.ai",
+  "github": [
+    "semperai"
+  ],
+  "docs": "",
+  "tags": [
+    "ai agents",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arbius Main Contract",
+      "type": "core",
+      "description": "Main contract for Arbius",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arbius",
+      "updated": "2025-01-31"
+    }
+  }
+}

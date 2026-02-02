@@ -1,0 +1,42 @@
+{
+  "id": "jamfrens",
+  "name": "JamFrens",
+  "type": "sofi",
+  "website": "https://www.jamfrens.so",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JamFrens Main Contract",
+      "type": "core",
+      "description": "Main contract for JamFrens",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jamfrens",
+      "updated": "2025-01-31"
+    }
+  }
+}

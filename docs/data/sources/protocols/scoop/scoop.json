@@ -1,0 +1,42 @@
+{
+  "id": "scoop",
+  "name": "scoop",
+  "type": "sofi",
+  "website": "https://www.scoopit.lol/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "scoop Main Contract",
+      "type": "core",
+      "description": "Main contract for scoop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scoop",
+      "updated": "2025-01-31"
+    }
+  }
+}

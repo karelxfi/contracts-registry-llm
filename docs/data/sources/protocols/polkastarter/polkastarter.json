@@ -1,0 +1,44 @@
+{
+  "id": "polkastarter",
+  "name": "Polkastarter",
+  "type": "launchpad",
+  "website": "https://polkastarter.com/#upcoming-projects",
+  "github": [
+    "polkastarter"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polkastarter Main Contract",
+      "type": "core",
+      "description": "Main contract for Polkastarter",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polkastarter",
+      "updated": "2025-01-31"
+    }
+  }
+}

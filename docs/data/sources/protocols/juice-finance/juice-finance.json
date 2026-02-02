@@ -1,0 +1,42 @@
+{
+  "id": "juice-finance",
+  "name": "Juice Finance",
+  "type": "leveraged farming",
+  "website": "https://juice.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Juice Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Juice Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/juice-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

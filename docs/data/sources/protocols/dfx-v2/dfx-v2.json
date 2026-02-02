@@ -1,0 +1,78 @@
+{
+  "id": "dfx-v2",
+  "name": "DFX V2",
+  "type": "dexs",
+  "website": "https://app.dfx.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DFX V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for DFX V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dfx-v2",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dfx-v2",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dfx-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

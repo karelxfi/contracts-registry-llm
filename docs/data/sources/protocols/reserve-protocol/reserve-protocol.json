@@ -1,0 +1,80 @@
+{
+  "id": "reserve-protocol",
+  "name": "Reserve Protocol",
+  "type": "indexes",
+  "website": "https://reserve.org",
+  "github": [
+    "reserve-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum",
+    "base",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Reserve Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Reserve Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reserve-protocol",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reserve-protocol",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reserve-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

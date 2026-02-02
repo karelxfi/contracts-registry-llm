@@ -1,0 +1,42 @@
+{
+  "id": "flrfarm",
+  "name": "FLRFarm",
+  "type": "yield",
+  "website": "https://xff.flr.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FLRFarm Main Contract",
+      "type": "core",
+      "description": "Main contract for FLRFarm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flrfarm",
+      "updated": "2025-01-31"
+    }
+  }
+}

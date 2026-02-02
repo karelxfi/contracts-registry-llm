@@ -1,0 +1,42 @@
+{
+  "id": "bass-exchange",
+  "name": "Bass Exchange",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bass Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Bass Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bass-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "katana",
+  "name": "Katana",
+  "type": "options vault",
+  "website": "https://app.katana.so",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options vault",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Katana Main Contract",
+      "type": "core",
+      "description": "Main contract for Katana",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/katana",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

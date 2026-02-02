@@ -1,0 +1,61 @@
+{
+  "id": "bitlayer-ybtc-family",
+  "name": "Bitlayer YBTC Family",
+  "type": "anchor btc",
+  "website": "https://www.bitlayer.org/bridge",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "anchor btc",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bitlayer YBTC Family Main Contract",
+      "type": "core",
+      "description": "Main contract for Bitlayer YBTC Family",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitlayer-ybtc-family",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitlayer-ybtc-family",
+      "updated": "2025-01-31"
+    }
+  }
+}

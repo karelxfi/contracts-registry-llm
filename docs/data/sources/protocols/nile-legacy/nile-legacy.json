@@ -1,0 +1,42 @@
+{
+  "id": "nile-legacy",
+  "name": "Nile Legacy",
+  "type": "dexs",
+  "website": "https://nile.build",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nile Legacy Main Contract",
+      "type": "core",
+      "description": "Main contract for Nile Legacy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nile-legacy",
+      "updated": "2025-01-31"
+    }
+  }
+}

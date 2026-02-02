@@ -1,0 +1,42 @@
+{
+  "id": "aquabera",
+  "name": "AquaBera",
+  "type": "liquidity manager",
+  "website": "https://app.aquabera.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AquaBera Main Contract",
+      "type": "core",
+      "description": "Main contract for AquaBera",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aquabera",
+      "updated": "2025-01-31"
+    }
+  }
+}

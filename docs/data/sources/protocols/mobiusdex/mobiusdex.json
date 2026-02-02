@@ -1,0 +1,44 @@
+{
+  "id": "mobiusdex",
+  "name": "MobiusDEX",
+  "type": "dexs",
+  "website": "https://mobiusdex.xyz/",
+  "github": [
+    "planetmobius"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MobiusDEX Main Contract",
+      "type": "core",
+      "description": "Main contract for MobiusDEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mobiusdex",
+      "updated": "2025-01-31"
+    }
+  }
+}

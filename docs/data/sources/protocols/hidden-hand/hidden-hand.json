@@ -1,0 +1,60 @@
+{
+  "id": "hidden-hand",
+  "name": "Hidden Hand",
+  "type": "governance incentives",
+  "website": "https://hiddenhand.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "governance incentives",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hidden Hand Main Contract",
+      "type": "core",
+      "description": "Main contract for Hidden Hand",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hidden-hand",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hidden-hand",
+      "updated": "2025-01-31"
+    }
+  }
+}

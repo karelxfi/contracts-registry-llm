@@ -1,0 +1,42 @@
+{
+  "id": "inverse-finance-firm",
+  "name": "Inverse Finance FiRM",
+  "type": "cdp",
+  "website": "https://inverse.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Inverse Finance FiRM Main Contract",
+      "type": "core",
+      "description": "Main contract for Inverse Finance FiRM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/inverse-finance-firm",
+      "updated": "2025-01-31"
+    }
+  }
+}

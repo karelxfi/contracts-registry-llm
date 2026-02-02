@@ -1,0 +1,42 @@
+{
+  "id": "scoreplay.xyz",
+  "name": "ScorePlay.xyz",
+  "type": "prediction market",
+  "website": "https://app.scoreplay.xyz/compete?chainId=50104",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ScorePlay.xyz Main Contract",
+      "type": "core",
+      "description": "Main contract for ScorePlay.xyz",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scoreplay.xyz",
+      "updated": "2025-01-31"
+    }
+  }
+}

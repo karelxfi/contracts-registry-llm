@@ -1,0 +1,42 @@
+{
+  "id": "zksync-lite-bridge",
+  "name": "zkSync Lite Bridge",
+  "type": "canonical bridge",
+  "website": "https://lite.zksync.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "zkSync Lite Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for zkSync Lite Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zksync-lite-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

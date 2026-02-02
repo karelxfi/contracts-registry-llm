@@ -1,0 +1,42 @@
+{
+  "id": "neemo-finance",
+  "name": "Neemo Finance",
+  "type": "liquid restaking",
+  "website": "https://neemo.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Neemo Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Neemo Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/neemo-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

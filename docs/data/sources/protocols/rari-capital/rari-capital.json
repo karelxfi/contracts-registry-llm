@@ -1,0 +1,62 @@
+{
+  "id": "rari-capital",
+  "name": "Rari Capital",
+  "type": "yield aggregator",
+  "website": "",
+  "github": [
+    "Rari-Capital"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rari Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for Rari Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rari-capital",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rari-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

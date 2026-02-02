@@ -1,0 +1,109 @@
+{
+  "category": "bug bounty",
+  "protocols": {
+    "hats.v1": {
+      "hats.v1": {
+        "name": "Hats.V1",
+        "contracts": {
+          "main": {
+            "name": "Hats.V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Hats.V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hats.v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hats.v2": {
+      "hats.v2": {
+        "name": "Hats.V2",
+        "contracts": {
+          "main": {
+            "name": "Hats.V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Hats.V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hats.v2",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hats.v2",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hats.v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

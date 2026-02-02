@@ -1,0 +1,44 @@
+{
+  "id": "landx-finance",
+  "name": "LandX Finance",
+  "type": "rwa",
+  "website": "https://landx.fi",
+  "github": [
+    "LandXit"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LandX Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for LandX Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/landx-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

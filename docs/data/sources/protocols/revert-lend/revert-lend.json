@@ -1,0 +1,78 @@
+{
+  "id": "revert-lend",
+  "name": "Revert Lend",
+  "type": "lending",
+  "website": "https://revert.finance/#/lending",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Revert Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Revert Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revert-lend",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revert-lend",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revert-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

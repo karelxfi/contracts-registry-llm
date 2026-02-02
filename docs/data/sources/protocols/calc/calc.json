@@ -1,0 +1,64 @@
+{
+  "id": "calc",
+  "name": "CALC",
+  "type": "dca tools",
+  "website": "https://calculated.fi",
+  "github": [
+    "calculated-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "dca tools",
+    "osmosis",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CALC Main Contract",
+      "type": "core",
+      "description": "Main contract for CALC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/calc",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/calc",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

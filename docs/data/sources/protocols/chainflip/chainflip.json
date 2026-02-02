@@ -1,0 +1,60 @@
+{
+  "id": "chainflip",
+  "name": "Chainflip",
+  "type": "dexs",
+  "website": "https://chainflip.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "chainflip",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chainflip Main Contract",
+      "type": "core",
+      "description": "Main contract for Chainflip",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "chainflip": {
+      "chain": "chainflip",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainflip",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chainflip",
+      "updated": "2025-01-31"
+    }
+  }
+}

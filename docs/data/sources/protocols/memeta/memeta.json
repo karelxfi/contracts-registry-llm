@@ -1,0 +1,42 @@
+{
+  "id": "memeta",
+  "name": "Memeta",
+  "type": "launchpad",
+  "website": "https://www.memeta.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Memeta Main Contract",
+      "type": "core",
+      "description": "Main contract for Memeta",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/memeta",
+      "updated": "2025-01-31"
+    }
+  }
+}

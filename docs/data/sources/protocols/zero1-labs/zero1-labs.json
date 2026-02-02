@@ -1,0 +1,42 @@
+{
+  "id": "zero1-labs",
+  "name": "Zero1 Labs",
+  "type": "developer tools",
+  "website": "https://z1labs.ai",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "developer tools",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zero1 Labs Main Contract",
+      "type": "core",
+      "description": "Main contract for Zero1 Labs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zero1-labs",
+      "updated": "2025-01-31"
+    }
+  }
+}

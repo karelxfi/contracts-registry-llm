@@ -1,0 +1,44 @@
+{
+  "id": "quantoswap",
+  "name": "QuantoSwap",
+  "type": "dexs",
+  "website": "https://quantoswap.org",
+  "github": [
+    "QuantoSwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "QuantoSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for QuantoSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quantoswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

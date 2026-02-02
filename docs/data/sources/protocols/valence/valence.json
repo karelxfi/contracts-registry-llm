@@ -1,0 +1,43 @@
+{
+  "id": "valence",
+  "name": "Valence",
+  "type": "treasury manager",
+  "website": "https://www.valence.zone/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "treasury manager",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Valence Main Contract",
+      "type": "core",
+      "description": "Main contract for Valence",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/valence",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

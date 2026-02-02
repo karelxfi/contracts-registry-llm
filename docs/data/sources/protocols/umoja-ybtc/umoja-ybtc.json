@@ -1,0 +1,60 @@
+{
+  "id": "umoja-ybtc",
+  "name": "Umoja yBTC",
+  "type": "basis trading",
+  "website": "https://umoja.xyz/smartcoins",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Umoja yBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for Umoja yBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/umoja-ybtc",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/umoja-ybtc",
+      "updated": "2025-01-31"
+    }
+  }
+}

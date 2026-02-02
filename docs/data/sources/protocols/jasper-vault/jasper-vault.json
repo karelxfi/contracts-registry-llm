@@ -1,0 +1,60 @@
+{
+  "id": "jasper-vault",
+  "name": "Jasper Vault",
+  "type": "options",
+  "website": "https://www.jaspervault.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jasper Vault Main Contract",
+      "type": "core",
+      "description": "Main contract for Jasper Vault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jasper-vault",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jasper-vault",
+      "updated": "2025-01-31"
+    }
+  }
+}

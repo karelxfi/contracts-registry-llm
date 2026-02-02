@@ -1,0 +1,42 @@
+{
+  "id": "fan.tech",
+  "name": "fan.tech",
+  "type": "sofi",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "fan.tech Main Contract",
+      "type": "core",
+      "description": "Main contract for fan.tech",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fan.tech",
+      "updated": "2025-01-31"
+    }
+  }
+}

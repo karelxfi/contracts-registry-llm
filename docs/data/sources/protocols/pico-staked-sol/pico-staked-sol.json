@@ -1,0 +1,43 @@
+{
+  "id": "pico-staked-sol",
+  "name": "Pico Staked SOL",
+  "type": "liquid staking",
+  "website": "https://pico-sol.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pico Staked SOL Main Contract",
+      "type": "core",
+      "description": "Main contract for Pico Staked SOL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pico-staked-sol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

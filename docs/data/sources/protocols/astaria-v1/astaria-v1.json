@@ -1,0 +1,42 @@
+{
+  "id": "astaria-v1",
+  "name": "Astaria V1",
+  "type": "nft lending",
+  "website": "https://astaria.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Astaria V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Astaria V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astaria-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

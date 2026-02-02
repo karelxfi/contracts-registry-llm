@@ -1,0 +1,43 @@
+{
+  "id": "adrastea-restaking-operator",
+  "name": "Adrastea Restaking Operator",
+  "type": "staking pool",
+  "website": "https://adrastea.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Adrastea Restaking Operator Main Contract",
+      "type": "core",
+      "description": "Main contract for Adrastea Restaking Operator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adrastea-restaking-operator",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

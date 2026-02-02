@@ -1,0 +1,42 @@
+{
+  "id": "bob-cdp",
+  "name": "BOB CDP",
+  "type": "cdp",
+  "website": "https://cdp.zkbob.com/nft-vaults",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BOB CDP Main Contract",
+      "type": "core",
+      "description": "Main contract for BOB CDP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bob-cdp",
+      "updated": "2025-01-31"
+    }
+  }
+}

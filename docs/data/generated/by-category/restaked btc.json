@@ -1,0 +1,327 @@
+{
+  "category": "restaked btc",
+  "protocols": {
+    "allobtc": {
+      "allobtc": {
+        "name": "alloBTC",
+        "contracts": {
+          "main": {
+            "name": "alloBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for alloBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/allobtc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "chakra": {
+      "chakra": {
+        "name": "Chakra",
+        "contracts": {
+          "main": {
+            "name": "Chakra Main Contract",
+            "type": "core",
+            "description": "Main contract for Chakra",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chakra",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "gtbtc": {
+      "gtbtc": {
+        "name": "GTBTC",
+        "contracts": {
+          "main": {
+            "name": "GTBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for GTBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gtbtc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "lisa-btc-lst": {
+      "lisa-btc-lst": {
+        "name": "LISA BTC LST",
+        "contracts": {
+          "main": {
+            "name": "LISA BTC LST Main Contract",
+            "type": "core",
+            "description": "Main contract for LISA BTC LST",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lisa-btc-lst",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "lombard-lbtc": {
+      "lombard-lbtc": {
+        "name": "Lombard LBTC",
+        "contracts": {
+          "main": {
+            "name": "Lombard LBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for Lombard LBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lombard-lbtc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lombard-lbtc",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lorenzo-stbtc": {
+      "lorenzo-stbtc": {
+        "name": "Lorenzo stBTC",
+        "contracts": {
+          "main": {
+            "name": "Lorenzo stBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for Lorenzo stBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lorenzo-stbtc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "pstake-btc": {
+      "pstake-btc": {
+        "name": "pSTAKE BTC",
+        "contracts": {
+          "main": {
+            "name": "pSTAKE BTC Main Contract",
+            "type": "core",
+            "description": "Main contract for pSTAKE BTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pstake-btc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "solvbtc-lsts": {
+      "solvbtc-lsts": {
+        "name": "SolvBTC LSTs",
+        "contracts": {
+          "main": {
+            "name": "SolvBTC LSTs Main Contract",
+            "type": "core",
+            "description": "Main contract for SolvBTC LSTs",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solvbtc-lsts",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solvbtc-lsts",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

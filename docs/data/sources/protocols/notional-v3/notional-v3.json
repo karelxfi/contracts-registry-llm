@@ -1,0 +1,60 @@
+{
+  "id": "notional-v3",
+  "name": "Notional V3",
+  "type": "lending",
+  "website": "https://notional.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Notional V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Notional V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/notional-v3",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/notional-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

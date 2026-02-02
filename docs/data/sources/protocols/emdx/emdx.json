@@ -1,0 +1,44 @@
+{
+  "id": "emdx",
+  "name": "EMDX",
+  "type": "derivatives",
+  "website": "https://emdx.io/",
+  "github": [
+    "emdx-dex"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "EMDX Main Contract",
+      "type": "core",
+      "description": "Main contract for EMDX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/emdx",
+      "updated": "2025-01-31"
+    }
+  }
+}

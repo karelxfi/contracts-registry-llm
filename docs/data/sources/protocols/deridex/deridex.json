@@ -1,0 +1,43 @@
+{
+  "id": "deridex",
+  "name": "Deridex",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deridex Main Contract",
+      "type": "core",
+      "description": "Main contract for Deridex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deridex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

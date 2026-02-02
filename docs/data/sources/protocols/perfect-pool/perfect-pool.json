@@ -1,0 +1,63 @@
+{
+  "id": "perfect-pool",
+  "name": "Perfect Pool",
+  "type": "prediction market",
+  "website": "https://perfectpool.io",
+  "github": [
+    "Perfect-Pool"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Perfect Pool Main Contract",
+      "type": "core",
+      "description": "Main contract for Perfect Pool",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perfect-pool",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perfect-pool",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

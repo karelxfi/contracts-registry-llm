@@ -1,0 +1,60 @@
+{
+  "id": "optimism-bridge",
+  "name": "Optimism Bridge",
+  "type": "canonical bridge",
+  "website": "https://app.optimism.io/bridge/deposit",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Optimism Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Optimism Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/optimism-bridge",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/optimism-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

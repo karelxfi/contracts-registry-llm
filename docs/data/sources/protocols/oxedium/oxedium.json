@@ -1,0 +1,45 @@
+{
+  "id": "oxedium",
+  "name": "Oxedium",
+  "type": "dexs",
+  "website": "https://oxedium.com/",
+  "github": [
+    "oxedium-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Oxedium Main Contract",
+      "type": "core",
+      "description": "Main contract for Oxedium",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/oxedium",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

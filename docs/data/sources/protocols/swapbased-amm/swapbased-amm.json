@@ -1,0 +1,42 @@
+{
+  "id": "swapbased-amm",
+  "name": "SwapBased AMM",
+  "type": "dexs",
+  "website": "https://swapbased.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SwapBased AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for SwapBased AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swapbased-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kava-liquid",
+  "name": "Kava Liquid",
+  "type": "liquid staking",
+  "website": "https://app.kava.io/mint",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kava Liquid Main Contract",
+      "type": "core",
+      "description": "Main contract for Kava Liquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kava-liquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

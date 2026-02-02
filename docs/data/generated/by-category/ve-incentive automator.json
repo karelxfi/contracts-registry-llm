@@ -1,0 +1,40 @@
+{
+  "category": "ve-incentive automator",
+  "protocols": {
+    "aerostrategy": {
+      "aerostrategy": {
+        "name": "Aerostrategy",
+        "contracts": {
+          "main": {
+            "name": "Aerostrategy Main Contract",
+            "type": "core",
+            "description": "Main contract for Aerostrategy",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aerostrategy",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

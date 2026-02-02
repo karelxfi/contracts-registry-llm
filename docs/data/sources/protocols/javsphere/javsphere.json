@@ -1,0 +1,44 @@
+{
+  "id": "javsphere",
+  "name": "Javsphere",
+  "type": "derivatives",
+  "website": "https://javsphere.com/",
+  "github": [
+    "Javsphere"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Javsphere Main Contract",
+      "type": "core",
+      "description": "Main contract for Javsphere",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/javsphere",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "polyfriend.tech",
+  "name": "polyfriend.tech",
+  "type": "sofi",
+  "website": "https://polyfriend.tech/signIn",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "polyfriend.tech Main Contract",
+      "type": "core",
+      "description": "Main contract for polyfriend.tech",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polyfriend.tech",
+      "updated": "2025-01-31"
+    }
+  }
+}

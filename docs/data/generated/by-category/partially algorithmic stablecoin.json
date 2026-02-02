@@ -1,0 +1,304 @@
+{
+  "category": "partially algorithmic stablecoin",
+  "protocols": {
+    "chi-protocol": {
+      "chi-protocol": {
+        "name": "Chi Protocol",
+        "contracts": {
+          "main": {
+            "name": "Chi Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Chi Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chi-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "colt": {
+      "colt": {
+        "name": "Colt",
+        "contracts": {
+          "main": {
+            "name": "Colt Main Contract",
+            "type": "core",
+            "description": "Main contract for Colt",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "saga": {
+            "chain": "saga",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/colt",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "dtrinity-dusd": {
+      "dtrinity-dusd": {
+        "name": "dTRINITY dUSD",
+        "contracts": {
+          "main": {
+            "name": "dTRINITY dUSD Main Contract",
+            "type": "core",
+            "description": "Main contract for dTRINITY dUSD",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dtrinity-dusd",
+            "updated": "2025-01-31"
+          },
+          "fraxtal": {
+            "chain": "fraxtal",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dtrinity-dusd",
+            "updated": "2025-01-31"
+          },
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dtrinity-dusd",
+            "updated": "2025-01-31"
+          },
+          "katana": {
+            "chain": "katana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/dtrinity-dusd",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "flat-money-v1": {
+      "flat-money-v1": {
+        "name": "Flat Money V1",
+        "contracts": {
+          "main": {
+            "name": "Flat Money V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Flat Money V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flat-money-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "flat-money-v2": {
+      "flat-money-v2": {
+        "name": "Flat Money V2",
+        "contracts": {
+          "main": {
+            "name": "Flat Money V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Flat Money V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/flat-money-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "fxdao": {
+      "fxdao": {
+        "name": "FxDAO",
+        "contracts": {
+          "main": {
+            "name": "FxDAO Main Contract",
+            "type": "core",
+            "description": "Main contract for FxDAO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "stellar": {
+            "chain": "stellar",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/fxdao",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "uxd": {
+      "uxd": {
+        "name": "UXD",
+        "contracts": {
+          "main": {
+            "name": "UXD Main Contract",
+            "type": "core",
+            "description": "Main contract for UXD",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/uxd",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    }
+  }
+}

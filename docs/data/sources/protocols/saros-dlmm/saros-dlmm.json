@@ -1,0 +1,43 @@
+{
+  "id": "saros-dlmm",
+  "name": "Saros DLMM",
+  "type": "dexs",
+  "website": "https://dlmm.saros.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Saros DLMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Saros DLMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/saros-dlmm",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

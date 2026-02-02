@@ -1,0 +1,42 @@
+{
+  "id": "maximizer",
+  "name": "Maximizer",
+  "type": "reserve currency",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Maximizer Main Contract",
+      "type": "core",
+      "description": "Main contract for Maximizer",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/maximizer",
+      "updated": "2025-01-31"
+    }
+  }
+}

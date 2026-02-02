@@ -1,0 +1,60 @@
+{
+  "id": "sommelier",
+  "name": "Sommelier",
+  "type": "onchain capital allocator",
+  "website": "https://www.sommelier.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sommelier Main Contract",
+      "type": "core",
+      "description": "Main contract for Sommelier",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sommelier",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sommelier",
+      "updated": "2025-01-31"
+    }
+  }
+}

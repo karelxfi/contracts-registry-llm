@@ -1,0 +1,42 @@
+{
+  "id": "starmaker",
+  "name": "Starmaker",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Starmaker Main Contract",
+      "type": "core",
+      "description": "Main contract for Starmaker",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/starmaker",
+      "updated": "2025-01-31"
+    }
+  }
+}

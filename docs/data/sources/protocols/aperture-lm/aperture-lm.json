@@ -1,0 +1,42 @@
+{
+  "id": "aperture-lm",
+  "name": "Aperture LM",
+  "type": "liquidity manager",
+  "website": "https://aperture.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aperture LM Main Contract",
+      "type": "core",
+      "description": "Main contract for Aperture LM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aperture-lm",
+      "updated": "2025-01-31"
+    }
+  }
+}

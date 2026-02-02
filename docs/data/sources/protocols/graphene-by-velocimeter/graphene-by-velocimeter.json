@@ -1,0 +1,60 @@
+{
+  "id": "graphene-by-velocimeter",
+  "name": "Graphene by Velocimeter",
+  "type": "dexs",
+  "website": "https://graphene.velocimeter.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Graphene by Velocimeter Main Contract",
+      "type": "core",
+      "description": "Main contract for Graphene by Velocimeter",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/graphene-by-velocimeter",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/graphene-by-velocimeter",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "umbrella-network",
+  "name": "Umbrella Network",
+  "type": "oracle",
+  "website": "https://staking.umb.network/",
+  "github": [
+    "umbrella-network"
+  ],
+  "docs": "",
+  "tags": [
+    "oracle",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Umbrella Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Umbrella Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/umbrella-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

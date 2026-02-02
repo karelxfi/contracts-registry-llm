@@ -1,0 +1,42 @@
+{
+  "id": "akitaswap",
+  "name": "AkitaSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AkitaSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for AkitaSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/akitaswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "coincollect",
+  "name": "CoinCollect",
+  "type": "dexs",
+  "website": "https://coincollect.org",
+  "github": [
+    "Coin-Collect"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CoinCollect Main Contract",
+      "type": "core",
+      "description": "Main contract for CoinCollect",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coincollect",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "stkesol-by-sol-strategies",
+  "name": "STKESOL by SOL Strategies",
+  "type": "liquid staking",
+  "website": "https://app.solstrategies.io",
+  "github": [
+    "SOL-Strategies"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "STKESOL by SOL Strategies Main Contract",
+      "type": "core",
+      "description": "Main contract for STKESOL by SOL Strategies",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stkesol-by-sol-strategies",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

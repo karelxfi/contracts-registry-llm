@@ -1,0 +1,43 @@
+{
+  "id": "felix-vaults",
+  "name": "Felix Vaults",
+  "type": "onchain capital allocator",
+  "website": "https://www.usefelix.xyz?ref=4BF702FF",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Felix Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Felix Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/felix-vaults",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

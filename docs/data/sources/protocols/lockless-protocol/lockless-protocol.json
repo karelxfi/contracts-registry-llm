@@ -1,0 +1,42 @@
+{
+  "id": "lockless-protocol",
+  "name": "Lockless Protocol",
+  "type": "liquid staking",
+  "website": "https://eliteness.network/lockless",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lockless Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Lockless Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lockless-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

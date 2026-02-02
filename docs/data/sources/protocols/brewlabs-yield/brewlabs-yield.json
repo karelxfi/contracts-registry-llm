@@ -1,0 +1,60 @@
+{
+  "id": "brewlabs-yield",
+  "name": "Brewlabs Yield",
+  "type": "yield",
+  "website": "https://brewlabs.info/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Brewlabs Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for Brewlabs Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brewlabs-yield",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brewlabs-yield",
+      "updated": "2025-01-31"
+    }
+  }
+}
