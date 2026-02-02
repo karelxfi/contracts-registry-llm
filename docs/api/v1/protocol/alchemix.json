@@ -1,0 +1,62 @@
+{
+  "id": "alchemix",
+  "name": "Alchemix",
+  "type": "synthetics",
+  "website": "https://alchemix.fi/",
+  "github": [
+    "alchemix-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alchemix Main Contract",
+      "type": "core",
+      "description": "Main contract for Alchemix",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alchemix",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alchemix",
+      "updated": "2025-01-31"
+    }
+  }
+}

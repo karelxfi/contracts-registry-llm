@@ -1,0 +1,43 @@
+{
+  "id": "kea-credit",
+  "name": "Kea Credit",
+  "type": "rwa",
+  "website": "https://kea.credit",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "hedera"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kea Credit Main Contract",
+      "type": "core",
+      "description": "Main contract for Kea Credit",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hedera": {
+      "chain": "hedera",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kea-credit",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "digift",
+  "name": "DigiFT",
+  "type": "rwa",
+  "website": "https://www.digift.sg",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "plume-mainnet",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DigiFT Main Contract",
+      "type": "core",
+      "description": "Main contract for DigiFT",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/digift",
+      "updated": "2025-01-31"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/digift",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/digift",
+      "updated": "2025-01-31"
+    }
+  }
+}

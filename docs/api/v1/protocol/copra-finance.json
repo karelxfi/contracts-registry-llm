@@ -1,0 +1,42 @@
+{
+  "id": "copra-finance",
+  "name": "Copra Finance",
+  "type": "lending",
+  "website": "https://www.copra.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Copra Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Copra Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/copra-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

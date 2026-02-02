@@ -1,0 +1,45 @@
+{
+  "id": "genius-yield",
+  "name": "Genius Yield",
+  "type": "dexs",
+  "website": "https://www.geniusyield.co",
+  "github": [
+    "geniusyield"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Genius Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for Genius Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/genius-yield",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

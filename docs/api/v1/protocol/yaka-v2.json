@@ -1,0 +1,43 @@
+{
+  "id": "yaka-v2",
+  "name": "Yaka V2",
+  "type": "dexs",
+  "website": "https://yaka.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yaka V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Yaka V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yaka-v2",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

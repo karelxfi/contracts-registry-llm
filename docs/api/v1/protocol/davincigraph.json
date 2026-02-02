@@ -1,0 +1,45 @@
+{
+  "id": "davincigraph",
+  "name": "DaVinciGraph",
+  "type": "token locker",
+  "website": "https://davincigraph.io/devs/locks",
+  "github": [
+    "DaVinciGraph"
+  ],
+  "docs": "",
+  "tags": [
+    "token locker",
+    "hedera"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DaVinciGraph Main Contract",
+      "type": "core",
+      "description": "Main contract for DaVinciGraph",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hedera": {
+      "chain": "hedera",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/davincigraph",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

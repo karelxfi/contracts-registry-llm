@@ -1,0 +1,44 @@
+{
+  "id": "yfx",
+  "name": "YFX",
+  "type": "derivatives",
+  "website": "https://www.yfx.com",
+  "github": [
+    "yfxcom"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "YFX Main Contract",
+      "type": "core",
+      "description": "Main contract for YFX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yfx",
+      "updated": "2025-01-31"
+    }
+  }
+}

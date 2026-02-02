@@ -1,0 +1,44 @@
+{
+  "id": "bearn",
+  "name": "Bearn",
+  "type": "yield aggregator",
+  "website": "https://bearn.sucks/home",
+  "github": [
+    "Bearn-Sucks"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bearn Main Contract",
+      "type": "core",
+      "description": "Main contract for Bearn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bearn",
+      "updated": "2025-01-31"
+    }
+  }
+}

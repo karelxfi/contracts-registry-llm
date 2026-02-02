@@ -1,0 +1,42 @@
+{
+  "id": "snowcatdao",
+  "name": "SnowCatDAO",
+  "type": "reserve currency",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SnowCatDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for SnowCatDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/snowcatdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

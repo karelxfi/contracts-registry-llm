@@ -1,0 +1,42 @@
+{
+  "id": "vapordex-v2",
+  "name": "VaporDex V2",
+  "type": "dexs",
+  "website": "https://www.vapordex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VaporDex V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for VaporDex V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vapordex-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

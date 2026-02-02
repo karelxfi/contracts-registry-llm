@@ -1,0 +1,44 @@
+{
+  "id": "akropolis",
+  "name": "Akropolis",
+  "type": "yield",
+  "website": "",
+  "github": [
+    "akropolisio"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Akropolis Main Contract",
+      "type": "core",
+      "description": "Main contract for Akropolis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/akropolis",
+      "updated": "2025-01-31"
+    }
+  }
+}

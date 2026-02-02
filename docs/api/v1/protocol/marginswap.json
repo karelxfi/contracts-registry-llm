@@ -1,0 +1,80 @@
+{
+  "id": "marginswap",
+  "name": "MarginSwap",
+  "type": "dexs",
+  "website": "https://marginswap.finance",
+  "github": [
+    "marginswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MarginSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for MarginSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marginswap",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marginswap",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marginswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "DeFi Contracts Registry API",
+    "version": "1.0.0",
+    "description": "Static JSON API for querying DeFi protocol contract addresses across multiple chains",
+    "contact": {
+      "url": "https://github.com/karelxfi/contracts-registry-llm"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/karelxfi/contracts-registry-llm/blob/main/LICENSE"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://karelxfi.github.io/contracts-registry-llm",
+      "description": "Production server"
+    }
+  ],
+  "x-rateLimit": "None",
+  "x-cors": "Enabled",
+  "paths": {
+    "/api/v1/metadata.json": {
+      "get": {
+        "summary": "Get API metadata",
+        "description": "Returns metadata about the API including stats, available chains, and categories",
+        "tags": [
+          "Meta"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "max-age=3600"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "version": {
+                      "type": "string",
+                      "example": "1.0.0"
+                    },
+                    "lastUpdated": {
+                      "type": "string",
+                      "format": "date",
+                      "example": "2025-02-02"
+                    },
+                    "stats": {
+                      "type": "object",
+                      "properties": {
+                        "totalProtocols": {
+                          "type": "integer",
+                          "example": 4442
+                        },
+                        "populatedProtocols": {
+                          "type": "integer",
+                          "example": 5
+                        },
+                        "totalChains": {
+                          "type": "integer",
+                          "example": 106
+                        },
+                        "totalCategories": {
+                          "type": "integer",
+                          "example": 93
+                        }
+                      }
+                    },
+                    "chains": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "categories": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "endpoints": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/protocol/{id}.json": {
+      "get": {
+        "summary": "Get protocol details",
+        "description": "Returns complete details for a specific protocol including all deployments",
+        "tags": [
+          "Protocols"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Protocol ID (e.g., aave-v3)",
+            "schema": {
+              "type": "string"
+            },
+            "example": "aave-v3"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Protocol"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Protocol not found"
+          }
+        }
+      }
+    },
+    "/api/v1/search/by-address.json": {
+      "get": {
+        "summary": "Search by contract address",
+        "description": "Returns a map of contract addresses to protocol information. Use this for reverse lookups.",
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "protocol": {
+                        "type": "string",
+                        "example": "aave-v3"
+                      },
+                      "chain": {
+                        "type": "string",
+                        "example": "ethereum"
+                      },
+                      "contract": {
+                        "type": "string",
+                        "example": "pool"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/updates.json": {
+      "get": {
+        "summary": "Get recent updates",
+        "description": "Returns recent changes and newly populated protocols",
+        "tags": [
+          "Meta"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "version": {
+                      "type": "string"
+                    },
+                    "lastUpdated": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "recentUpdates": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "type": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "protocols": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "populatedProtocols": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/queries.json": {
+      "get": {
+        "summary": "Get common query results",
+        "description": "Pre-computed results for common queries like protocols by status, multi-chain protocols, etc.",
+        "tags": [
+          "Queries"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/api/updates.rss": {
+      "get": {
+        "summary": "RSS feed for updates",
+        "description": "Subscribe to registry updates via RSS",
+        "tags": [
+          "Meta"
+        ],
+        "responses": {
+          "200": {
+            "description": "RSS feed",
+            "content": {
+              "application/rss+xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/generated/by-chain/{chain}.json": {
+      "get": {
+        "summary": "Get protocols by chain",
+        "description": "Returns all protocols deployed on a specific chain",
+        "tags": [
+          "Legacy"
+        ],
+        "parameters": [
+          {
+            "name": "chain",
+            "in": "path",
+            "required": true,
+            "description": "Chain name (e.g., ethereum, base, arbitrum)",
+            "schema": {
+              "type": "string"
+            },
+            "example": "ethereum"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/data/generated/by-category/{category}.json": {
+      "get": {
+        "summary": "Get protocols by category",
+        "description": "Returns all protocols in a specific category",
+        "tags": [
+          "Legacy"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "description": "Category name (e.g., lending, dexs, derivatives)",
+            "schema": {
+              "type": "string"
+            },
+            "example": "lending"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Protocol": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "aave-v3"
+          },
+          "name": {
+            "type": "string",
+            "example": "Aave V3"
+          },
+          "type": {
+            "type": "string",
+            "example": "lending"
+          },
+          "website": {
+            "type": "string",
+            "example": "https://aave.com"
+          },
+          "github": {
+            "type": "string",
+            "example": "https://github.com/aave"
+          },
+          "docs": {
+            "type": "string"
+          },
+          "contracts": {
+            "type": "object"
+          },
+          "deployments": {
+            "type": "object"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "partial",
+              "placeholder"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Meta",
+      "description": "API metadata and information"
+    },
+    {
+      "name": "Protocols",
+      "description": "Protocol details and lookups"
+    },
+    {
+      "name": "Search",
+      "description": "Search and query endpoints"
+    },
+    {
+      "name": "Queries",
+      "description": "Pre-computed query results"
+    },
+    {
+      "name": "Legacy",
+      "description": "Legacy v0 endpoints"
+    }
+  ]
+}

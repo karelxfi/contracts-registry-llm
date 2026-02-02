@@ -1,0 +1,44 @@
+{
+  "id": "the-standard",
+  "name": "The Standard",
+  "type": "cdp",
+  "website": "https://www.thestandard.io/",
+  "github": [
+    "the-standard"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Standard Main Contract",
+      "type": "core",
+      "description": "Main contract for The Standard",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-standard",
+      "updated": "2025-01-31"
+    }
+  }
+}

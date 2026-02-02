@@ -1,0 +1,43 @@
+{
+  "id": "kinetiq-markets",
+  "name": "Kinetiq Markets",
+  "type": "derivatives",
+  "website": "https://markets.xyz/join/llama",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinetiq Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinetiq Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinetiq-markets",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "moar-market",
+  "name": "Moar Market",
+  "type": "leveraged farming",
+  "website": "https://moar.market",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moar Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Moar Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moar-market",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3f-mutual",
+  "name": "3F Mutual",
+  "type": "insurance",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "3F Mutual Main Contract",
+      "type": "core",
+      "description": "Main contract for 3F Mutual",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/3f-mutual",
+      "updated": "2025-01-31"
+    }
+  }
+}

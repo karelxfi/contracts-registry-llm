@@ -1,0 +1,45 @@
+{
+  "id": "clarity",
+  "name": "Clarity",
+  "type": "dao service provider",
+  "website": "https://www.clarity.community/",
+  "github": [
+    "ClearContracts"
+  ],
+  "docs": "",
+  "tags": [
+    "dao service provider",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Clarity Main Contract",
+      "type": "core",
+      "description": "Main contract for Clarity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clarity",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

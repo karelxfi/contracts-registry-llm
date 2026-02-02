@@ -1,0 +1,44 @@
+{
+  "id": "mars-poolin",
+  "name": "Mars Poolin",
+  "type": "yield",
+  "website": "https://mars.poolin.fi",
+  "github": [
+    "MarsFi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mars Poolin Main Contract",
+      "type": "core",
+      "description": "Main contract for Mars Poolin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mars-poolin",
+      "updated": "2025-01-31"
+    }
+  }
+}

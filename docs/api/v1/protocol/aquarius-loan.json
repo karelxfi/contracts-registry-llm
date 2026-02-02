@@ -1,0 +1,62 @@
+{
+  "id": "aquarius-loan",
+  "name": "Aquarius Loan",
+  "type": "lending",
+  "website": "https://www.aquarius.loan/",
+  "github": [
+    "aquarius-loan"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aquarius Loan Main Contract",
+      "type": "core",
+      "description": "Main contract for Aquarius Loan",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aquarius-loan",
+      "updated": "2025-01-31"
+    },
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aquarius-loan",
+      "updated": "2025-01-31"
+    }
+  }
+}

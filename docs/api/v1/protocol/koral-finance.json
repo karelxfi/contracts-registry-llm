@@ -1,0 +1,43 @@
+{
+  "id": "koral-finance",
+  "name": "Koral Finance",
+  "type": "onchain capital allocator",
+  "website": "https://koral.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Koral Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Koral Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/koral-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

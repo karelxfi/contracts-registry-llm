@@ -1,0 +1,60 @@
+{
+  "id": "moby",
+  "name": "Moby",
+  "type": "options",
+  "website": "https://app.moby.trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moby Main Contract",
+      "type": "core",
+      "description": "Main contract for Moby",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moby",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moby",
+      "updated": "2025-01-31"
+    }
+  }
+}

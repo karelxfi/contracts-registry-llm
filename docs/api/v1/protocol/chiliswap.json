@@ -1,0 +1,44 @@
+{
+  "id": "chiliswap",
+  "name": "Chiliswap",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "ChiliSwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chiliswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Chiliswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chiliswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

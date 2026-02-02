@@ -1,0 +1,42 @@
+{
+  "id": "bored-candy-city",
+  "name": "Bored Candy City",
+  "type": "dexs",
+  "website": "https://new.candycity.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bored Candy City Main Contract",
+      "type": "core",
+      "description": "Main contract for Bored Candy City",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bored-candy-city",
+      "updated": "2025-01-31"
+    }
+  }
+}

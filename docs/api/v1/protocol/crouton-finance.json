@@ -1,0 +1,45 @@
+{
+  "id": "crouton-finance",
+  "name": "Crouton Finance",
+  "type": "dexs",
+  "website": "https://crouton.finance/swap",
+  "github": [
+    "croutonfi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crouton Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Crouton Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crouton-finance",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

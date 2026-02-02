@@ -1,0 +1,42 @@
+{
+  "id": "typhoon-cash",
+  "name": "Typhoon Cash",
+  "type": "privacy",
+  "website": "https://typhoon.cash",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Typhoon Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for Typhoon Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/typhoon-cash",
+      "updated": "2025-01-31"
+    }
+  }
+}

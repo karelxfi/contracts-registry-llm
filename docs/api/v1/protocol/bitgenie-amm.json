@@ -1,0 +1,42 @@
+{
+  "id": "bitgenie-amm",
+  "name": "BitGenie AMM",
+  "type": "dexs",
+  "website": "https://www.bitgenie.io/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "merlin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitGenie AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for BitGenie AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "merlin": {
+      "chain": "merlin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitgenie-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

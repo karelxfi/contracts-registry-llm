@@ -1,0 +1,97 @@
+{
+  "id": "impermax-v3",
+  "name": "Impermax V3",
+  "type": "lending",
+  "website": "https://impermax.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "base",
+    "unichain",
+    "hyperliquid-l1",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Impermax V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Impermax V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/impermax-v3",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/impermax-v3",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/impermax-v3",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/impermax-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

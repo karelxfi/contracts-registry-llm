@@ -1,0 +1,42 @@
+{
+  "id": "agora",
+  "name": "Agora",
+  "type": "lending",
+  "website": "https://agoradefi.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Agora Main Contract",
+      "type": "core",
+      "description": "Main contract for Agora",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agora",
+      "updated": "2025-01-31"
+    }
+  }
+}

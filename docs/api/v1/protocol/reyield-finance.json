@@ -1,0 +1,44 @@
+{
+  "id": "reyield-finance",
+  "name": "REYIELD Finance",
+  "type": "liquidity manager",
+  "website": "",
+  "github": [
+    "reyield-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "REYIELD Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for REYIELD Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reyield-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

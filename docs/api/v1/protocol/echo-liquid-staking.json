@@ -1,0 +1,43 @@
+{
+  "id": "echo-liquid-staking",
+  "name": "Echo Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://www.echo-protocol.xyz/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Echo Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Echo Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/echo-liquid-staking",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

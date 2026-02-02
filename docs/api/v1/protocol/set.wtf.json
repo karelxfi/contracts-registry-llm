@@ -1,0 +1,42 @@
+{
+  "id": "set.wtf",
+  "name": "set.wtf",
+  "type": "yield",
+  "website": "https://www.set.wtf",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "set.wtf Main Contract",
+      "type": "core",
+      "description": "Main contract for set.wtf",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/set.wtf",
+      "updated": "2025-01-31"
+    }
+  }
+}

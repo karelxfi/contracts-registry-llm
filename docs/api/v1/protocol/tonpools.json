@@ -1,0 +1,43 @@
+{
+  "id": "tonpools",
+  "name": "TonPools",
+  "type": "staking pool",
+  "website": "https://www.tonpools.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TonPools Main Contract",
+      "type": "core",
+      "description": "Main contract for TonPools",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonpools",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

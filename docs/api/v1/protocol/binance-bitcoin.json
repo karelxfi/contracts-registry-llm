@@ -1,0 +1,43 @@
+{
+  "id": "binance-bitcoin",
+  "name": "Binance Bitcoin",
+  "type": "bridge",
+  "website": "https://www.binance.com/en/collateral-btokens",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Binance Bitcoin Main Contract",
+      "type": "core",
+      "description": "Main contract for Binance Bitcoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/binance-bitcoin",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

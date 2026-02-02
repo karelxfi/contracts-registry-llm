@@ -1,0 +1,42 @@
+{
+  "id": "falcon-finance",
+  "name": "Falcon Finance",
+  "type": "basis trading",
+  "website": "https://app.falcon.finance?r=ecf7be7f48d1ce67467fc040bcc1abd5",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Falcon Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Falcon Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/falcon-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

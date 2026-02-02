@@ -1,0 +1,42 @@
+{
+  "id": "liquity-v1",
+  "name": "Liquity V1",
+  "type": "cdp",
+  "website": "https://www.liquity.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Liquity V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Liquity V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/liquity-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

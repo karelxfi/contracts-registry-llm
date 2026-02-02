@@ -1,0 +1,42 @@
+{
+  "id": "tholgar-rings-auto-voter",
+  "name": "Tholgar Rings Auto Voter",
+  "type": "yield",
+  "website": "https://rings.tholgar.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tholgar Rings Auto Voter Main Contract",
+      "type": "core",
+      "description": "Main contract for Tholgar Rings Auto Voter",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tholgar-rings-auto-voter",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "mellow-yield",
+  "name": "Mellow Yield",
+  "type": "yield aggregator",
+  "website": "https://mellow.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum",
+    "polygon",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mellow Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for Mellow Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mellow-yield",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mellow-yield",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mellow-yield",
+      "updated": "2025-01-31"
+    }
+  }
+}

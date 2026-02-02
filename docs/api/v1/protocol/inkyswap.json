@@ -1,0 +1,44 @@
+{
+  "id": "inkyswap",
+  "name": "InkySwap",
+  "type": "dexs",
+  "website": "https://inkyswap.com/",
+  "github": [
+    "InkySwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "InkySwap Main Contract",
+      "type": "core",
+      "description": "Main contract for InkySwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ink": {
+      "chain": "ink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/inkyswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

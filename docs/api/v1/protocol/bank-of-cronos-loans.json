@@ -1,0 +1,42 @@
+{
+  "id": "bank-of-cronos-loans",
+  "name": "Bank of Cronos Loans",
+  "type": "lending",
+  "website": "https://app.bankofcronos.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bank of Cronos Loans Main Contract",
+      "type": "core",
+      "description": "Main contract for Bank of Cronos Loans",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bank-of-cronos-loans",
+      "updated": "2025-01-31"
+    }
+  }
+}

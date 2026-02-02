@@ -1,0 +1,44 @@
+{
+  "id": "infrared-finance",
+  "name": "Infrared Finance",
+  "type": "liquid staking",
+  "website": "https://infrared.finance",
+  "github": [
+    "infrared-dao"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Infrared Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Infrared Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infrared-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

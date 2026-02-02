@@ -1,0 +1,42 @@
+{
+  "id": "frigg.eco",
+  "name": "Frigg.eco",
+  "type": "rwa",
+  "website": "https://www.frigg.eco/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Frigg.eco Main Contract",
+      "type": "core",
+      "description": "Main contract for Frigg.eco",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frigg.eco",
+      "updated": "2025-01-31"
+    }
+  }
+}

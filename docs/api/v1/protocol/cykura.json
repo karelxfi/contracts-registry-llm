@@ -1,0 +1,45 @@
+{
+  "id": "cykura",
+  "name": "Cykura",
+  "type": "dexs",
+  "website": "https://cykura.io",
+  "github": [
+    "cykura"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cykura Main Contract",
+      "type": "core",
+      "description": "Main contract for Cykura",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cykura",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "indexed-finance",
+  "name": "Indexed Finance",
+  "type": "indexes",
+  "website": "https://indexed.finance/",
+  "github": [
+    "indexed-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Indexed Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Indexed Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/indexed-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

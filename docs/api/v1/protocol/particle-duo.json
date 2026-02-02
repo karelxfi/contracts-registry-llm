@@ -1,0 +1,42 @@
+{
+  "id": "particle-duo",
+  "name": "Particle DUO",
+  "type": "cdp",
+  "website": "https://duo.particle.trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Particle DUO Main Contract",
+      "type": "core",
+      "description": "Main contract for Particle DUO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/particle-duo",
+      "updated": "2025-01-31"
+    }
+  }
+}

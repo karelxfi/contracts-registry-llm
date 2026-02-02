@@ -1,0 +1,44 @@
+{
+  "id": "peakdefi",
+  "name": "PEAKDEFI",
+  "type": "yield",
+  "website": "",
+  "github": [
+    "PeakDeFi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PEAKDEFI Main Contract",
+      "type": "core",
+      "description": "Main contract for PEAKDEFI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/peakdefi",
+      "updated": "2025-01-31"
+    }
+  }
+}

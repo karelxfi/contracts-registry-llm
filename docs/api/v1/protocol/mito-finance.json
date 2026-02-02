@@ -1,0 +1,43 @@
+{
+  "id": "mito-finance",
+  "name": "Mito Finance",
+  "type": "liquidity manager",
+  "website": "https://mito.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mito Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Mito Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mito-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

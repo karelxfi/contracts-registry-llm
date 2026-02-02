@@ -1,0 +1,43 @@
+{
+  "id": "penguin",
+  "name": "Penguin",
+  "type": "dexs",
+  "website": "https://png.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Penguin Main Contract",
+      "type": "core",
+      "description": "Main contract for Penguin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/penguin",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

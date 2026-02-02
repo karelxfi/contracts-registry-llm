@@ -1,0 +1,42 @@
+{
+  "id": "blackhole-amm",
+  "name": "Blackhole AMM",
+  "type": "dexs",
+  "website": "https://blackhole.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blackhole AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Blackhole AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blackhole-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

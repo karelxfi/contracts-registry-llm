@@ -1,0 +1,43 @@
+{
+  "id": "tezfin",
+  "name": "TezFin",
+  "type": "lending",
+  "website": "https://app.tezos.finance/dashboard",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TezFin Main Contract",
+      "type": "core",
+      "description": "Main contract for TezFin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tezfin",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "alphax",
+  "name": "AlphaX",
+  "type": "derivatives",
+  "website": "https://alphax.com/",
+  "github": [
+    "AlphaX-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AlphaX Main Contract",
+      "type": "core",
+      "description": "Main contract for AlphaX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphax",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphax",
+      "updated": "2025-01-31"
+    }
+  }
+}

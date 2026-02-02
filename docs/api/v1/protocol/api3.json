@@ -1,0 +1,44 @@
+{
+  "id": "api3",
+  "name": "Api3",
+  "type": "oracle",
+  "website": "https://api3.eth.link/#/",
+  "github": [
+    "api3dao"
+  ],
+  "docs": "",
+  "tags": [
+    "oracle",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Api3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Api3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/api3",
+      "updated": "2025-01-31"
+    }
+  }
+}

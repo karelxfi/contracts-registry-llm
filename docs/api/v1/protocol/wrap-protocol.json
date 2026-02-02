@@ -1,0 +1,42 @@
+{
+  "id": "wrap-protocol",
+  "name": "Wrap Protocol",
+  "type": "synthetics",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wrap Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Wrap Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wrap-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bright-union",
+  "name": "Bright Union",
+  "type": "insurance",
+  "website": "https://brightunion.io",
+  "github": [
+    "Bright-Union"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bright Union Main Contract",
+      "type": "core",
+      "description": "Main contract for Bright Union",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bright-union",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "asa.gold",
+  "name": "ASA.Gold",
+  "type": "rwa",
+  "website": "https://www.asa.gold",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ASA.Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for ASA.Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/asa.gold",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "x2y2",
+  "name": "X2Y2",
+  "type": "nft lending",
+  "website": "https://x2y2.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "X2Y2 Main Contract",
+      "type": "core",
+      "description": "Main contract for X2Y2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/x2y2",
+      "updated": "2025-01-31"
+    }
+  }
+}

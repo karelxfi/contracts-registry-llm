@@ -1,0 +1,43 @@
+{
+  "id": "myswap-v1",
+  "name": "mySwap V1",
+  "type": "dexs",
+  "website": "https://www.myswap.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "mySwap V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for mySwap V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myswap-v1",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "yfii",
+  "name": "YFII",
+  "type": "yield aggregator",
+  "website": "",
+  "github": [
+    "yfii"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "YFII Main Contract",
+      "type": "core",
+      "description": "Main contract for YFII",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yfii",
+      "updated": "2025-01-31"
+    }
+  }
+}

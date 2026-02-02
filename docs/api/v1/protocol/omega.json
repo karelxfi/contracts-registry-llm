@@ -1,0 +1,42 @@
+{
+  "id": "omega",
+  "name": "Omega",
+  "type": "leveraged farming",
+  "website": "https://app.omega.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Omega Main Contract",
+      "type": "core",
+      "description": "Main contract for Omega",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/omega",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "salty.io",
+  "name": "Salty.IO",
+  "type": "dexs",
+  "website": "https://salty.io",
+  "github": [
+    "othernet-global"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Salty.IO Main Contract",
+      "type": "core",
+      "description": "Main contract for Salty.IO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/salty.io",
+      "updated": "2025-01-31"
+    }
+  }
+}

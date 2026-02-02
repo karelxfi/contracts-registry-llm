@@ -1,0 +1,42 @@
+{
+  "id": "magnet-dao",
+  "name": "Magnet DAO",
+  "type": "algo-stables",
+  "website": "https://magnetdao.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Magnet DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Magnet DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magnet-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

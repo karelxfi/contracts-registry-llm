@@ -1,0 +1,44 @@
+{
+  "id": "infusion",
+  "name": "Infusion",
+  "type": "dexs",
+  "website": "https://infusion.finance",
+  "github": [
+    "Infusion-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Infusion Main Contract",
+      "type": "core",
+      "description": "Main contract for Infusion",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infusion",
+      "updated": "2025-01-31"
+    }
+  }
+}

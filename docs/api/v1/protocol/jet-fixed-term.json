@@ -1,0 +1,43 @@
+{
+  "id": "jet-fixed-term",
+  "name": "Jet Fixed Term",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jet Fixed Term Main Contract",
+      "type": "core",
+      "description": "Main contract for Jet Fixed Term",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jet-fixed-term",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

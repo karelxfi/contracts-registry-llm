@@ -1,0 +1,42 @@
+{
+  "id": "owna",
+  "name": "Owna",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Owna Main Contract",
+      "type": "core",
+      "description": "Main contract for Owna",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/owna",
+      "updated": "2025-01-31"
+    }
+  }
+}

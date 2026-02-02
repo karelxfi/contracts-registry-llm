@@ -1,0 +1,44 @@
+{
+  "id": "sherlock",
+  "name": "Sherlock",
+  "type": "insurance",
+  "website": "https://sherlock.xyz",
+  "github": [
+    "sherlock-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sherlock Main Contract",
+      "type": "core",
+      "description": "Main contract for Sherlock",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sherlock",
+      "updated": "2025-01-31"
+    }
+  }
+}

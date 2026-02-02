@@ -1,0 +1,42 @@
+{
+  "id": "blume",
+  "name": "Blume",
+  "type": "lending",
+  "website": "https://blume.fm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blume Main Contract",
+      "type": "core",
+      "description": "Main contract for Blume",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blume",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "aux-exchange",
+  "name": "AUX Exchange",
+  "type": "dexs",
+  "website": "https://aux.exchange/",
+  "github": [
+    "aux-exchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AUX Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for AUX Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aux-exchange",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

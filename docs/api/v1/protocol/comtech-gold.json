@@ -1,0 +1,42 @@
+{
+  "id": "comtech-gold",
+  "name": "ComTech Gold",
+  "type": "rwa",
+  "website": "https://comtechgold.com/Digitalgold",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ComTech Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for ComTech Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/comtech-gold",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "delegate-marketplace",
+  "name": "Delegate Marketplace",
+  "type": "services",
+  "website": "https://delegate.xyz/",
+  "github": [
+    "delegatexyz"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Delegate Marketplace Main Contract",
+      "type": "core",
+      "description": "Main contract for Delegate Marketplace",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/delegate-marketplace",
+      "updated": "2025-01-31"
+    }
+  }
+}

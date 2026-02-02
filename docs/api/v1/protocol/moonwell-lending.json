@@ -1,0 +1,42 @@
+{
+  "id": "moonwell-lending",
+  "name": "Moonwell Lending",
+  "type": "lending",
+  "website": "https://moonwell.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moonwell Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Moonwell Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moonwell-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

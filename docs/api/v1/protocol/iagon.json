@@ -1,0 +1,45 @@
+{
+  "id": "iagon",
+  "name": "Iagon",
+  "type": "services",
+  "website": "https://iagon.com",
+  "github": [
+    "Iagonorg"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Iagon Main Contract",
+      "type": "core",
+      "description": "Main contract for Iagon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iagon",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

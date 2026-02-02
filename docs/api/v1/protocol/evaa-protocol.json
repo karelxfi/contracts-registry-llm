@@ -1,0 +1,45 @@
+{
+  "id": "evaa-protocol",
+  "name": "EVAA Protocol",
+  "type": "lending",
+  "website": "https://evaa.finance",
+  "github": [
+    "evaafi"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "EVAA Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for EVAA Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/evaa-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

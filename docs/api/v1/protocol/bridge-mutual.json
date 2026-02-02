@@ -1,0 +1,62 @@
+{
+  "id": "bridge-mutual",
+  "name": "Bridge Mutual",
+  "type": "insurance",
+  "website": "https://www.bridgemutual.io",
+  "github": [
+    "Bridge-Mutual"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bridge Mutual Main Contract",
+      "type": "core",
+      "description": "Main contract for Bridge Mutual",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bridge-mutual",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bridge-mutual",
+      "updated": "2025-01-31"
+    }
+  }
+}

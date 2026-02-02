@@ -1,0 +1,60 @@
+{
+  "id": "open-ticketing-ecosystem",
+  "name": "OPEN Ticketing Ecosystem",
+  "type": "farm",
+  "website": "https://onopen.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OPEN Ticketing Ecosystem Main Contract",
+      "type": "core",
+      "description": "Main contract for OPEN Ticketing Ecosystem",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/open-ticketing-ecosystem",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/open-ticketing-ecosystem",
+      "updated": "2025-01-31"
+    }
+  }
+}

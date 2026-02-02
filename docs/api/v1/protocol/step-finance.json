@@ -1,0 +1,43 @@
+{
+  "id": "step-finance",
+  "name": "Step Finance",
+  "type": "portfolio tracker",
+  "website": "https://step.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "portfolio tracker",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Step Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Step Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/step-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

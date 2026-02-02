@@ -1,0 +1,43 @@
+{
+  "id": "ultrasolid-v2",
+  "name": "Ultrasolid V2",
+  "type": "dexs",
+  "website": "https://app.ultrasolid.xyz/@DEFILLAMA",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ultrasolid V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Ultrasolid V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ultrasolid-v2",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

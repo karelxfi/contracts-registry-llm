@@ -1,0 +1,62 @@
+{
+  "id": "truefeedback",
+  "name": "TrueFeedBack",
+  "type": "gaming",
+  "website": "https://truefeedback.io",
+  "github": [
+    "TrueFeedBack"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "celo",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TrueFeedBack Main Contract",
+      "type": "core",
+      "description": "Main contract for TrueFeedBack",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/truefeedback",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/truefeedback",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "complifi",
+  "name": "CompliFi",
+  "type": "derivatives",
+  "website": "https://compli.fi/",
+  "github": [
+    "CompliFi"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CompliFi Main Contract",
+      "type": "core",
+      "description": "Main contract for CompliFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/complifi",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/complifi",
+      "updated": "2025-01-31"
+    }
+  }
+}

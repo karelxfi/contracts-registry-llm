@@ -1,0 +1,60 @@
+{
+  "id": "bracket-escrow-staking",
+  "name": "Bracket Escrow Staking",
+  "type": "farm",
+  "website": "https://www.bracket.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bracket Escrow Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Bracket Escrow Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bracket-escrow-staking",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bracket-escrow-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

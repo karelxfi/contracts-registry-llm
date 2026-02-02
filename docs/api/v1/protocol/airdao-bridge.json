@@ -1,0 +1,44 @@
+{
+  "id": "airdao-bridge",
+  "name": "AirDAO Bridge",
+  "type": "bridge",
+  "website": "https://airdao.io/bridge",
+  "github": [
+    "ambrosus"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AirDAO Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for AirDAO Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/airdao-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

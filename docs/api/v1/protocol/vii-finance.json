@@ -1,0 +1,44 @@
+{
+  "id": "vii-finance",
+  "name": "VII Finance",
+  "type": "leveraged farming",
+  "website": "https://www.vii.finance/",
+  "github": [
+    "VII-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "unichain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VII Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for VII Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vii-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

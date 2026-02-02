@@ -1,0 +1,44 @@
+{
+  "id": "enki-protocol",
+  "name": "ENKI Protocol",
+  "type": "liquid staking",
+  "website": "https://www.enkixyz.com/mint",
+  "github": [
+    "ENKIXYZ"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ENKI Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for ENKI Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/enki-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

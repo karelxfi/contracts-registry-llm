@@ -1,0 +1,42 @@
+{
+  "id": "ocean-point",
+  "name": "Ocean Point",
+  "type": "farm",
+  "website": "https://staking.oceanpoint.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ocean Point Main Contract",
+      "type": "core",
+      "description": "Main contract for Ocean Point",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ocean-point",
+      "updated": "2025-01-31"
+    }
+  }
+}

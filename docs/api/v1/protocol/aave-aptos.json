@@ -1,0 +1,43 @@
+{
+  "id": "aave-aptos",
+  "name": "Aave Aptos",
+  "type": "lending",
+  "website": "https://aave.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aave Aptos Main Contract",
+      "type": "core",
+      "description": "Main contract for Aave Aptos",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aave-aptos",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

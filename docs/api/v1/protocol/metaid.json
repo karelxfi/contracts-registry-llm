@@ -1,0 +1,42 @@
+{
+  "id": "metaid",
+  "name": "MetaID",
+  "type": "staking pool",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MetaID Main Contract",
+      "type": "core",
+      "description": "Main contract for MetaID",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metaid",
+      "updated": "2025-01-31"
+    }
+  }
+}

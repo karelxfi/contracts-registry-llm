@@ -1,0 +1,45 @@
+{
+  "id": "saturn-swap",
+  "name": "Saturn Swap",
+  "type": "dexs",
+  "website": "https://saturnswap.io/",
+  "github": [
+    "Orion-Crypto"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Saturn Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Saturn Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/saturn-swap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

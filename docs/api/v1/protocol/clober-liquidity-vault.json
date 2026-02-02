@@ -1,0 +1,60 @@
+{
+  "id": "clober-liquidity-vault",
+  "name": "Clober Liquidity Vault",
+  "type": "dexs",
+  "website": "https://app.clober.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "monad",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Clober Liquidity Vault Main Contract",
+      "type": "core",
+      "description": "Main contract for Clober Liquidity Vault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clober-liquidity-vault",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clober-liquidity-vault",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "archerswap",
+  "name": "ArcherSwap",
+  "type": "dexs",
+  "website": "https://archerswap.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ArcherSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ArcherSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/archerswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "stakehound",
+  "name": "StakeHound",
+  "type": "liquid staking",
+  "website": "https://stakehound.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StakeHound Main Contract",
+      "type": "core",
+      "description": "Main contract for StakeHound",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stakehound",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "kandle-finance",
+  "name": "Kandle Finance",
+  "type": "yield",
+  "website": "https://app.kandle.fi/",
+  "github": [
+    "kandle-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kandle Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Kandle Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kandle-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

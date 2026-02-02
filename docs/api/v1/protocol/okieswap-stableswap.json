@@ -1,0 +1,42 @@
+{
+  "id": "okieswap-stableswap",
+  "name": "OkieSwap Stableswap",
+  "type": "dexs",
+  "website": "https://okiedokie.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OkieSwap Stableswap Main Contract",
+      "type": "core",
+      "description": "Main contract for OkieSwap Stableswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/okieswap-stableswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "logx-v1",
+  "name": "LogX V1",
+  "type": "derivatives",
+  "website": "https://logx.network/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "manta",
+    "linea",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LogX V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for LogX V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/logx-v1",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/logx-v1",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/logx-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

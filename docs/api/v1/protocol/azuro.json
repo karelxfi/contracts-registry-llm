@@ -1,0 +1,62 @@
+{
+  "id": "azuro",
+  "name": "Azuro",
+  "type": "prediction market",
+  "website": "https://azuro.org",
+  "github": [
+    "Azuro-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "polygon",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Azuro Main Contract",
+      "type": "core",
+      "description": "Main contract for Azuro",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/azuro",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/azuro",
+      "updated": "2025-01-31"
+    }
+  }
+}

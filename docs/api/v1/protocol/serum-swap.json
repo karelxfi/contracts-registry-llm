@@ -1,0 +1,43 @@
+{
+  "id": "serum-swap",
+  "name": "Serum Swap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Serum Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Serum Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/serum-swap",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

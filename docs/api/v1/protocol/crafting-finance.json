@@ -1,0 +1,42 @@
+{
+  "id": "crafting-finance",
+  "name": "Crafting Finance",
+  "type": "synthetics",
+  "website": "https://crafting.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crafting Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Crafting Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crafting-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

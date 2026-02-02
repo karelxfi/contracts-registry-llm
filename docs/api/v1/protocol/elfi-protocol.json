@@ -1,0 +1,60 @@
+{
+  "id": "elfi-protocol",
+  "name": "ELFi Protocol",
+  "type": "derivatives",
+  "website": "https://www.elfi.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ELFi Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for ELFi Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/elfi-protocol",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/elfi-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

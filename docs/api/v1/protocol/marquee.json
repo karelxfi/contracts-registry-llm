@@ -1,0 +1,42 @@
+{
+  "id": "marquee",
+  "name": "Marquee",
+  "type": "insurance",
+  "website": "https://marquee.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Marquee Main Contract",
+      "type": "core",
+      "description": "Main contract for Marquee",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marquee",
+      "updated": "2025-01-31"
+    }
+  }
+}

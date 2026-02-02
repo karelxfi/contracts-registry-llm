@@ -1,0 +1,43 @@
+{
+  "id": "adrastea-lrt",
+  "name": "Adrastea LRT",
+  "type": "liquid restaking",
+  "website": "https://app.adrastea.fi/liquid-restaking",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Adrastea LRT Main Contract",
+      "type": "core",
+      "description": "Main contract for Adrastea LRT",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adrastea-lrt",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

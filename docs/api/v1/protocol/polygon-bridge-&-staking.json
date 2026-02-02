@@ -1,0 +1,42 @@
+{
+  "id": "polygon-bridge-&-staking",
+  "name": "Polygon Bridge & Staking",
+  "type": "chain",
+  "website": "https://polygon.technology/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "chain",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polygon Bridge & Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Polygon Bridge & Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polygon-bridge-&-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

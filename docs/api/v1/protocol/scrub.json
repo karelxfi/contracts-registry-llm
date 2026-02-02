@@ -1,0 +1,60 @@
+{
+  "id": "scrub",
+  "name": "Scrub",
+  "type": "algo-stables",
+  "website": "https://scrub.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "kava",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Scrub Main Contract",
+      "type": "core",
+      "description": "Main contract for Scrub",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scrub",
+      "updated": "2025-01-31"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scrub",
+      "updated": "2025-01-31"
+    }
+  }
+}

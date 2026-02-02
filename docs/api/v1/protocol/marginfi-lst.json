@@ -1,0 +1,43 @@
+{
+  "id": "marginfi-lst",
+  "name": "marginfi LST",
+  "type": "liquid staking",
+  "website": "https://app.marginfi.com/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "marginfi LST Main Contract",
+      "type": "core",
+      "description": "Main contract for marginfi LST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marginfi-lst",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

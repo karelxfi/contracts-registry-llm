@@ -1,0 +1,61 @@
+{
+  "id": "zkbob",
+  "name": "zkBob",
+  "type": "privacy",
+  "website": "https://app.zkbob.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "polygon",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "zkBob Main Contract",
+      "type": "core",
+      "description": "Main contract for zkBob",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zkbob",
+      "updated": "2025-01-31"
+    },
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zkbob",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

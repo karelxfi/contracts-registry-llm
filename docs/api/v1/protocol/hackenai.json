@@ -1,0 +1,44 @@
+{
+  "id": "hackenai",
+  "name": "HackenAI",
+  "type": "prediction market",
+  "website": "https://hai.hacken.io",
+  "github": [
+    "hknio"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HackenAI Main Contract",
+      "type": "core",
+      "description": "Main contract for HackenAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hackenai",
+      "updated": "2025-01-31"
+    }
+  }
+}

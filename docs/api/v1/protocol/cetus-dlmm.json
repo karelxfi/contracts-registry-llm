@@ -1,0 +1,43 @@
+{
+  "id": "cetus-dlmm",
+  "name": "Cetus DLMM",
+  "type": "dexs",
+  "website": "https://www.cetus.zone",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cetus DLMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Cetus DLMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cetus-dlmm",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

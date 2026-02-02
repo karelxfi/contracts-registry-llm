@@ -1,0 +1,44 @@
+{
+  "id": "themis-protocol",
+  "name": "Themis Protocol",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "Themis-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Themis Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Themis Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/themis-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

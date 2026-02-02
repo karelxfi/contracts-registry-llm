@@ -1,0 +1,42 @@
+{
+  "id": "arcadia-v2",
+  "name": "Arcadia V2",
+  "type": "liquidity manager",
+  "website": "https://arcadia.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arcadia V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Arcadia V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arcadia-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

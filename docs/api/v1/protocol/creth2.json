@@ -1,0 +1,42 @@
+{
+  "id": "creth2",
+  "name": "CRETH2",
+  "type": "liquid staking",
+  "website": "https://classic.cream.finance/eth2/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CRETH2 Main Contract",
+      "type": "core",
+      "description": "Main contract for CRETH2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/creth2",
+      "updated": "2025-01-31"
+    }
+  }
+}

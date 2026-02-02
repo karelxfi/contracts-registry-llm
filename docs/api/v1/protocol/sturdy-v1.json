@@ -1,0 +1,42 @@
+{
+  "id": "sturdy-v1",
+  "name": "Sturdy V1",
+  "type": "lending",
+  "website": "https://app.sturdy.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sturdy V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Sturdy V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sturdy-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

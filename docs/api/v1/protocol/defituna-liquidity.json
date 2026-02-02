@@ -1,0 +1,43 @@
+{
+  "id": "defituna-liquidity",
+  "name": "DefiTuna Liquidity",
+  "type": "liquidity manager",
+  "website": "https://defituna.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DefiTuna Liquidity Main Contract",
+      "type": "core",
+      "description": "Main contract for DefiTuna Liquidity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defituna-liquidity",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

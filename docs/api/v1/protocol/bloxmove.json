@@ -1,0 +1,42 @@
+{
+  "id": "bloxmove",
+  "name": "BloXmove",
+  "type": "services",
+  "website": "https://bloxmove.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BloXmove Main Contract",
+      "type": "core",
+      "description": "Main contract for BloXmove",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bloxmove",
+      "updated": "2025-01-31"
+    }
+  }
+}

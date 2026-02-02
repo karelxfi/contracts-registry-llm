@@ -1,0 +1,31 @@
+{
+  "name": "DeFi Contracts Registry API",
+  "version": "1.0.0",
+  "description": "Static JSON API for querying DeFi protocol contract addresses across multiple chains",
+  "documentation": "https://github.com/karelxfi/contracts-registry-llm",
+  "baseUrl": "https://karelxfi.github.io/contracts-registry-llm",
+  "endpoints": {
+    "metadata": "/api/v1/metadata.json",
+    "protocols": "/api/v1/protocols.json",
+    "search": "/api/v1/search",
+    "protocol": "/api/v1/protocol/{id}",
+    "updates": "/api/v1/updates.json",
+    "openapi": "/api/v1/openapi.json",
+    "queries": "/api/v1/queries.json",
+    "rss": "/api/updates.rss"
+  },
+  "features": {
+    "rateLimit": "None",
+    "cors": "Enabled",
+    "compression": "gzip available",
+    "authentication": "Not required",
+    "versioning": "v1"
+  },
+  "quickStart": {
+    "metadata": "GET /api/v1/metadata.json",
+    "protocol": "GET /api/v1/protocol/aave-v3.json",
+    "search": "GET /api/v1/search/by-address.json",
+    "updates": "GET /api/v1/updates.json",
+    "openapi": "GET /api/v1/openapi.json"
+  }
+}

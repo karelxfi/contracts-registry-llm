@@ -1,0 +1,43 @@
+{
+  "id": "pstake-btc",
+  "name": "pSTAKE BTC",
+  "type": "restaked btc",
+  "website": "https://pstake.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "restaked btc",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "pSTAKE BTC Main Contract",
+      "type": "core",
+      "description": "Main contract for pSTAKE BTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pstake-btc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

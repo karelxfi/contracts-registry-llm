@@ -1,0 +1,43 @@
+{
+  "id": "sun.io",
+  "name": "SUN.io",
+  "type": "dexs",
+  "website": "https://sun.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SUN.io Main Contract",
+      "type": "core",
+      "description": "Main contract for SUN.io",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sun.io",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

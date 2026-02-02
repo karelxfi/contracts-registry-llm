@@ -1,0 +1,42 @@
+{
+  "id": "avant-avusd",
+  "name": "Avant avUSD",
+  "type": "basis trading",
+  "website": "https://app.avantprotocol.com/rewards?ref=defillama",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Avant avUSD Main Contract",
+      "type": "core",
+      "description": "Main contract for Avant avUSD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avant-avusd",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "sakuraswap-clmm",
+  "name": "SakuraSwap CLMM",
+  "type": "dexs",
+  "website": "https://sakuraswap.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "abstract",
+    "ink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SakuraSwap CLMM Main Contract",
+      "type": "core",
+      "description": "Main contract for SakuraSwap CLMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sakuraswap-clmm",
+      "updated": "2025-01-31"
+    },
+    "ink": {
+      "chain": "ink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sakuraswap-clmm",
+      "updated": "2025-01-31"
+    }
+  }
+}

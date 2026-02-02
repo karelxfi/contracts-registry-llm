@@ -1,0 +1,42 @@
+{
+  "id": "betfolio",
+  "name": "BetFolio",
+  "type": "prediction market",
+  "website": "https://betfolio.co",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BetFolio Main Contract",
+      "type": "core",
+      "description": "Main contract for BetFolio",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/betfolio",
+      "updated": "2025-01-31"
+    }
+  }
+}

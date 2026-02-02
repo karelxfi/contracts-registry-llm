@@ -1,0 +1,42 @@
+{
+  "id": "nestfi",
+  "name": "NestFi",
+  "type": "derivatives",
+  "website": "https://nestprotocol.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NestFi Main Contract",
+      "type": "core",
+      "description": "Main contract for NestFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nestfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

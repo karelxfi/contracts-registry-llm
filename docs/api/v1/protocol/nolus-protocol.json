@@ -1,0 +1,64 @@
+{
+  "id": "nolus-protocol",
+  "name": "Nolus Protocol",
+  "type": "lending",
+  "website": "https://nolus.io/",
+  "github": [
+    "nolus-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "osmosis",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nolus Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Nolus Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nolus-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nolus-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

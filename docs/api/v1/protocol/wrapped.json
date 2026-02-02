@@ -1,0 +1,60 @@
+{
+  "id": "wrapped",
+  "name": "Wrapped",
+  "type": "bridge",
+  "website": "https://wrapped.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "celo",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wrapped Main Contract",
+      "type": "core",
+      "description": "Main contract for Wrapped",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wrapped",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wrapped",
+      "updated": "2025-01-31"
+    }
+  }
+}

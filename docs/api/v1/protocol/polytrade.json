@@ -1,0 +1,42 @@
+{
+  "id": "polytrade",
+  "name": "Polytrade",
+  "type": "yield",
+  "website": "https://www.polytrade.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polytrade Main Contract",
+      "type": "core",
+      "description": "Main contract for Polytrade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polytrade",
+      "updated": "2025-01-31"
+    }
+  }
+}

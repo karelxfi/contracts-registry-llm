@@ -1,0 +1,42 @@
+{
+  "id": "xusd-money",
+  "name": "XUSD Money",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "XUSD Money Main Contract",
+      "type": "core",
+      "description": "Main contract for XUSD Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xusd-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

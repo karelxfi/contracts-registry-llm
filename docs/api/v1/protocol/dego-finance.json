@@ -1,0 +1,42 @@
+{
+  "id": "dego-finance",
+  "name": "Dego Finance",
+  "type": "services",
+  "website": "https://dego.finance/home/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dego Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Dego Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dego-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

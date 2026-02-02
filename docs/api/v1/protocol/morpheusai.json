@@ -1,0 +1,44 @@
+{
+  "id": "morpheusai",
+  "name": "MorpheusAI",
+  "type": "ai agents",
+  "website": "https://mor.org",
+  "github": [
+    "MorpheusAIs"
+  ],
+  "docs": "",
+  "tags": [
+    "ai agents",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MorpheusAI Main Contract",
+      "type": "core",
+      "description": "Main contract for MorpheusAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/morpheusai",
+      "updated": "2025-01-31"
+    }
+  }
+}

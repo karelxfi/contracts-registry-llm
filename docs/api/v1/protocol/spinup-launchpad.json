@@ -1,0 +1,43 @@
+{
+  "id": "spinup-launchpad",
+  "name": "SpinUp Launchpad",
+  "type": "launchpad",
+  "website": "https://www.spinup.zone/meme",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpinUp Launchpad Main Contract",
+      "type": "core",
+      "description": "Main contract for SpinUp Launchpad",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spinup-launchpad",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

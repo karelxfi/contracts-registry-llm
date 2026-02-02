@@ -1,0 +1,42 @@
+{
+  "id": "manta-pacific",
+  "name": "Manta Pacific",
+  "type": "canonical bridge",
+  "website": "https://pacific-bridge.manta.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Manta Pacific Main Contract",
+      "type": "core",
+      "description": "Main contract for Manta Pacific",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/manta-pacific",
+      "updated": "2025-01-31"
+    }
+  }
+}

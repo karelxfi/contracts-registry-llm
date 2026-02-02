@@ -1,0 +1,42 @@
+{
+  "id": "matrixai",
+  "name": "MatrixAI",
+  "type": "algo-stables",
+  "website": "https://matrixai.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MatrixAI Main Contract",
+      "type": "core",
+      "description": "Main contract for MatrixAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/matrixai",
+      "updated": "2025-01-31"
+    }
+  }
+}

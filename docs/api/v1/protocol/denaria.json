@@ -1,0 +1,42 @@
+{
+  "id": "denaria",
+  "name": "Denaria",
+  "type": "derivatives",
+  "website": "https://denaria.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Denaria Main Contract",
+      "type": "core",
+      "description": "Main contract for Denaria",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/denaria",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "springsui",
+  "name": "SpringSui",
+  "type": "liquid staking",
+  "website": "https://springsui.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpringSui Main Contract",
+      "type": "core",
+      "description": "Main contract for SpringSui",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/springsui",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

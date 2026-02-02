@@ -1,0 +1,44 @@
+{
+  "id": "banano",
+  "name": "Banano",
+  "type": "yield",
+  "website": "https://banano.cc",
+  "github": [
+    "BananoCoin"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Banano Main Contract",
+      "type": "core",
+      "description": "Main contract for Banano",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/banano",
+      "updated": "2025-01-31"
+    }
+  }
+}

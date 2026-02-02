@@ -1,0 +1,42 @@
+{
+  "id": "mstable-v2",
+  "name": "mStable V2",
+  "type": "cdp",
+  "website": "https://mstable.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "mStable V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for mStable V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mstable-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

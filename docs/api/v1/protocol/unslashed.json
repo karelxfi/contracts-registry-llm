@@ -1,0 +1,42 @@
+{
+  "id": "unslashed",
+  "name": "Unslashed",
+  "type": "insurance",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unslashed Main Contract",
+      "type": "core",
+      "description": "Main contract for Unslashed",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unslashed",
+      "updated": "2025-01-31"
+    }
+  }
+}

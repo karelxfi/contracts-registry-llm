@@ -1,0 +1,60 @@
+{
+  "id": "stablehodl",
+  "name": "StableHodl",
+  "type": "yield",
+  "website": "https://stablehodl.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StableHodl Main Contract",
+      "type": "core",
+      "description": "Main contract for StableHodl",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stablehodl",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stablehodl",
+      "updated": "2025-01-31"
+    }
+  }
+}

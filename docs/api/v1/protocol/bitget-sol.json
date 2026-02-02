@@ -1,0 +1,43 @@
+{
+  "id": "bitget-sol",
+  "name": "Bitget SOL",
+  "type": "liquid staking",
+  "website": "https://www.bitget.com/price/solana/staking",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bitget SOL Main Contract",
+      "type": "core",
+      "description": "Main contract for Bitget SOL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitget-sol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

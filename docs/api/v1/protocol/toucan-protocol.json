@@ -1,0 +1,80 @@
+{
+  "id": "toucan-protocol",
+  "name": "Toucan Protocol",
+  "type": "rwa",
+  "website": "https://toucan.earth",
+  "github": [
+    "ToucanProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "polygon",
+    "celo",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Toucan Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Toucan Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/toucan-protocol",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/toucan-protocol",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/toucan-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

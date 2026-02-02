@@ -1,0 +1,42 @@
+{
+  "id": "sacra",
+  "name": "Sacra",
+  "type": "gaming",
+  "website": "https://sacra.game/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sacra Main Contract",
+      "type": "core",
+      "description": "Main contract for Sacra",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sacra",
+      "updated": "2025-01-31"
+    }
+  }
+}

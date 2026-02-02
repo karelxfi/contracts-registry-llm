@@ -1,0 +1,42 @@
+{
+  "id": "chickenswap",
+  "name": "ChickenSwap",
+  "type": "dexs",
+  "website": "https://www.chickenswap.org/#/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ChickenSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ChickenSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chickenswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

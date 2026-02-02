@@ -1,0 +1,43 @@
+{
+  "id": "titan-dex",
+  "name": "Titan Dex",
+  "type": "dexs",
+  "website": "https://titan.tg",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Titan Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for Titan Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/titan-dex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

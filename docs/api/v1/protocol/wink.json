@@ -1,0 +1,42 @@
+{
+  "id": "wink",
+  "name": "WINK",
+  "type": "farm",
+  "website": "https://wink.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WINK Main Contract",
+      "type": "core",
+      "description": "Main contract for WINK",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wink",
+      "updated": "2025-01-31"
+    }
+  }
+}

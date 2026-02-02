@@ -1,0 +1,42 @@
+{
+  "id": "predict-fun",
+  "name": "Predict Fun",
+  "type": "prediction market",
+  "website": "https://predict.fun?ref=04249",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Predict Fun Main Contract",
+      "type": "core",
+      "description": "Main contract for Predict Fun",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/predict-fun",
+      "updated": "2025-01-31"
+    }
+  }
+}

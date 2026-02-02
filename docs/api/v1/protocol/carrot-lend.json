@@ -1,0 +1,43 @@
+{
+  "id": "carrot-lend",
+  "name": "Carrot Lend",
+  "type": "lending",
+  "website": "https://use.deficarrot.com?code=0eb6b6",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Carrot Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Carrot Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/carrot-lend",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

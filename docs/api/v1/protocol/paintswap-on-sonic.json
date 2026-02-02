@@ -1,0 +1,42 @@
+{
+  "id": "paintswap-on-sonic",
+  "name": "Paintswap on Sonic",
+  "type": "nft marketplace",
+  "website": "https://paintswap.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Paintswap on Sonic Main Contract",
+      "type": "core",
+      "description": "Main contract for Paintswap on Sonic",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paintswap-on-sonic",
+      "updated": "2025-01-31"
+    }
+  }
+}

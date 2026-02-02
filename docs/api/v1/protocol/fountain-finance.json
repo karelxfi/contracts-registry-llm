@@ -1,0 +1,43 @@
+{
+  "id": "fountain-finance",
+  "name": "Fountain Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fountain Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Fountain Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fountain-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

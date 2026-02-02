@@ -1,0 +1,44 @@
+{
+  "id": "sociogram",
+  "name": "Sociogram",
+  "type": "sofi",
+  "website": "https://sociogram.org",
+  "github": [
+    "SociogramSoFi"
+  ],
+  "docs": "",
+  "tags": [
+    "sofi",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sociogram Main Contract",
+      "type": "core",
+      "description": "Main contract for Sociogram",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sociogram",
+      "updated": "2025-01-31"
+    }
+  }
+}

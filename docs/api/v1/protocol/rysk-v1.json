@@ -1,0 +1,42 @@
+{
+  "id": "rysk-v1",
+  "name": "Rysk V1",
+  "type": "options",
+  "website": "https://app.rysk.finance/join?code=DEFILLAMA",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rysk V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Rysk V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rysk-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

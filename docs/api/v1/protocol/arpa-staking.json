@@ -1,0 +1,44 @@
+{
+  "id": "arpa-staking",
+  "name": "ARPA Staking",
+  "type": "staking pool",
+  "website": "https://staking.arpanetwork.io/en-US/stake?action=Stake",
+  "github": [
+    "arpachain"
+  ],
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ARPA Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for ARPA Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arpa-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

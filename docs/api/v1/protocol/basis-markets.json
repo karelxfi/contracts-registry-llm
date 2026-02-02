@@ -1,0 +1,43 @@
+{
+  "id": "basis-markets",
+  "name": "Basis Markets",
+  "type": "dexs",
+  "website": "https://basis.markets",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basis Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Basis Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basis-markets",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

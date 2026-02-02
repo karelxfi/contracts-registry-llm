@@ -1,0 +1,42 @@
+{
+  "id": "agni-finance",
+  "name": "Agni Finance",
+  "type": "dexs",
+  "website": "https://agni.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Agni Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Agni Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agni-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

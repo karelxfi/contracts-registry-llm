@@ -1,0 +1,43 @@
+{
+  "id": "picwe",
+  "name": "PICWE",
+  "type": "dexs",
+  "website": "https://www.picwe.org/en",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "movement"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PICWE Main Contract",
+      "type": "core",
+      "description": "Main contract for PICWE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "movement": {
+      "chain": "movement",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/picwe",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

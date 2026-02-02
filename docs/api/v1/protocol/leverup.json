@@ -1,0 +1,42 @@
+{
+  "id": "leverup",
+  "name": "LeverUp",
+  "type": "derivatives",
+  "website": "https://app.leverup.xyz?code=DEFILLAMA",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LeverUp Main Contract",
+      "type": "core",
+      "description": "Main contract for LeverUp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/leverup",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "symphony-finance",
+  "name": "Symphony Finance",
+  "type": "dexs",
+  "website": "https://symphony.finance",
+  "github": [
+    "symphony-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Symphony Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Symphony Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/symphony-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/symphony-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

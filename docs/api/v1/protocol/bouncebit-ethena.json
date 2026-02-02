@@ -1,0 +1,42 @@
+{
+  "id": "bouncebit-ethena",
+  "name": "BounceBit Ethena",
+  "type": "yield",
+  "website": "https://portal.bouncebit.io/ethena",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BounceBit Ethena Main Contract",
+      "type": "core",
+      "description": "Main contract for BounceBit Ethena",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bouncebit-ethena",
+      "updated": "2025-01-31"
+    }
+  }
+}

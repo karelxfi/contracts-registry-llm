@@ -1,0 +1,45 @@
+{
+  "id": "myth-finance-dualstake",
+  "name": "Myth Finance dualSTAKE",
+  "type": "liquid staking",
+  "website": "https://myth.finance/dualSTAKE",
+  "github": [
+    "MythFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Myth Finance dualSTAKE Main Contract",
+      "type": "core",
+      "description": "Main contract for Myth Finance dualSTAKE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myth-finance-dualstake",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

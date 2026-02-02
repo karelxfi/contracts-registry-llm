@@ -1,0 +1,45 @@
+{
+  "id": "kai-finance",
+  "name": "Kai Finance",
+  "type": "leveraged farming",
+  "website": "https://kai.finance",
+  "github": [
+    "kunalabs-io"
+  ],
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kai Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Kai Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kai-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

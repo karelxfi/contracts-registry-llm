@@ -1,0 +1,42 @@
+{
+  "id": "synthswap-v3",
+  "name": "Synthswap V3",
+  "type": "dexs",
+  "website": "https://synthswap.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Synthswap V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Synthswap V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synthswap-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "joule-finance",
+  "name": "Joule Finance",
+  "type": "lending",
+  "website": "https://www.joule.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Joule Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Joule Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/joule-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

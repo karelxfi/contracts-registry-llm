@@ -1,0 +1,42 @@
+{
+  "id": "tetu-pawnshop",
+  "name": "Tetu Pawnshop",
+  "type": "nft lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tetu Pawnshop Main Contract",
+      "type": "core",
+      "description": "Main contract for Tetu Pawnshop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tetu-pawnshop",
+      "updated": "2025-01-31"
+    }
+  }
+}

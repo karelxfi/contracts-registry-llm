@@ -1,0 +1,42 @@
+{
+  "id": "swyrl-cl",
+  "name": "Swyrl CL",
+  "type": "dexs",
+  "website": "https://swyrl.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swyrl CL Main Contract",
+      "type": "core",
+      "description": "Main contract for Swyrl CL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swyrl-cl",
+      "updated": "2025-01-31"
+    }
+  }
+}

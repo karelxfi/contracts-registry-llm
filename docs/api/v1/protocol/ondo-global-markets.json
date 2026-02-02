@@ -1,0 +1,61 @@
+{
+  "id": "ondo-global-markets",
+  "name": "Ondo Global Markets",
+  "type": "rwa",
+  "website": "https://ondo.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ondo Global Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Ondo Global Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ondo-global-markets",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ondo-global-markets",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

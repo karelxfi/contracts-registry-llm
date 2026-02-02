@@ -1,0 +1,42 @@
+{
+  "id": "realperp",
+  "name": "Realperp",
+  "type": "derivatives",
+  "website": "https://realperp.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Realperp Main Contract",
+      "type": "core",
+      "description": "Main contract for Realperp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/realperp",
+      "updated": "2025-01-31"
+    }
+  }
+}

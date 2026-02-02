@@ -1,0 +1,42 @@
+{
+  "id": "fraxtal",
+  "name": "Fraxtal",
+  "type": "chain",
+  "website": "https://frax.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "chain",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fraxtal Main Contract",
+      "type": "core",
+      "description": "Main contract for Fraxtal",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fraxtal",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "shibaswap-v2",
+  "name": "ShibaSwap V2",
+  "type": "dexs",
+  "website": "https://shibaswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ShibaSwap V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for ShibaSwap V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shibaswap-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

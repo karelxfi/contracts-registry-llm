@@ -1,0 +1,45 @@
+{
+  "id": "cairofi",
+  "name": "CairoFi",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "CairoFi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CairoFi Main Contract",
+      "type": "core",
+      "description": "Main contract for CairoFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cairofi",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

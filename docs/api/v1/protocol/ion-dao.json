@@ -1,0 +1,45 @@
+{
+  "id": "ion-dao",
+  "name": "ION DAO",
+  "type": "synthetics",
+  "website": "https://ion.wtf",
+  "github": [
+    "many-things"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "osmosis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ION DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ION DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ion-dao",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

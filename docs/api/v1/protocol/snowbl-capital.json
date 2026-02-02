@@ -1,0 +1,44 @@
+{
+  "id": "snowbl-capital",
+  "name": "Snowbl Capital",
+  "type": "onchain capital allocator",
+  "website": "https://snowbl.capital",
+  "github": [
+    "snowbl-capital"
+  ],
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Snowbl Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for Snowbl Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/snowbl-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

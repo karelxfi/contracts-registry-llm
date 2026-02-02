@@ -1,0 +1,42 @@
+{
+  "id": "vultureswap",
+  "name": "VultureSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VultureSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for VultureSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vultureswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

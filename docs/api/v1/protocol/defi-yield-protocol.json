@@ -1,0 +1,62 @@
+{
+  "id": "defi-yield-protocol",
+  "name": "Defi Yield Protocol",
+  "type": "yield",
+  "website": "https://dyp.finance",
+  "github": [
+    "dypfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Defi Yield Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Defi Yield Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi-yield-protocol",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi-yield-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

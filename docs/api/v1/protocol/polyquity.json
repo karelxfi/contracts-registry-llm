@@ -1,0 +1,44 @@
+{
+  "id": "polyquity",
+  "name": "PolyQuity",
+  "type": "cdp",
+  "website": "",
+  "github": [
+    "PolyQuity"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PolyQuity Main Contract",
+      "type": "core",
+      "description": "Main contract for PolyQuity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polyquity",
+      "updated": "2025-01-31"
+    }
+  }
+}

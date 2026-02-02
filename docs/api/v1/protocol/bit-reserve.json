@@ -1,0 +1,60 @@
+{
+  "id": "bit-reserve",
+  "name": "Bit Reserve",
+  "type": "yield aggregator",
+  "website": "https://www.bitreserve.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "core",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bit Reserve Main Contract",
+      "type": "core",
+      "description": "Main contract for Bit Reserve",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bit-reserve",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bit-reserve",
+      "updated": "2025-01-31"
+    }
+  }
+}

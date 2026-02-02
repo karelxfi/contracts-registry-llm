@@ -1,0 +1,44 @@
+{
+  "id": "synlev",
+  "name": "SynLev",
+  "type": "synthetics",
+  "website": "https://synlev.com/",
+  "github": [
+    "SynLev"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SynLev Main Contract",
+      "type": "core",
+      "description": "Main contract for SynLev",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synlev",
+      "updated": "2025-01-31"
+    }
+  }
+}

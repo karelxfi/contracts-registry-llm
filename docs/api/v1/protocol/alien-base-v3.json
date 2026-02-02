@@ -1,0 +1,42 @@
+{
+  "id": "alien-base-v3",
+  "name": "Alien Base V3",
+  "type": "dexs",
+  "website": "https://alienbase.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alien Base V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Alien Base V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alien-base-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

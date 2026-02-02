@@ -1,0 +1,42 @@
+{
+  "id": "vicuna-lending",
+  "name": "Vicuna Lending",
+  "type": "lending",
+  "website": "https://vicunafinance.com/borrow",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vicuna Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Vicuna Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vicuna-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

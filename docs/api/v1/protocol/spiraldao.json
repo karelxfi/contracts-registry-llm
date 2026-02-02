@@ -1,0 +1,42 @@
+{
+  "id": "spiraldao",
+  "name": "SpiralDao",
+  "type": "yield",
+  "website": "https://spiral.farm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpiralDao Main Contract",
+      "type": "core",
+      "description": "Main contract for SpiralDao",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spiraldao",
+      "updated": "2025-01-31"
+    }
+  }
+}

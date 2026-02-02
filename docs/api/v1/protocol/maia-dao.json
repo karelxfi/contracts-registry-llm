@@ -1,0 +1,60 @@
+{
+  "id": "maia-dao",
+  "name": "Maia DAO",
+  "type": "yield",
+  "website": "https://maiadao.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "metis",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Maia DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Maia DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/maia-dao",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/maia-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "choice-exchange",
+  "name": "Choice Exchange",
+  "type": "dexs",
+  "website": "https://choice.exchange",
+  "github": [
+    "choice-exchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Choice Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Choice Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/choice-exchange",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

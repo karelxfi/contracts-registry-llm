@@ -1,0 +1,61 @@
+{
+  "id": "wisdomtree",
+  "name": "WisdomTree",
+  "type": "rwa",
+  "website": "https://www.wisdomtreeconnect.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WisdomTree Main Contract",
+      "type": "core",
+      "description": "Main contract for WisdomTree",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wisdomtree",
+      "updated": "2025-01-31"
+    },
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wisdomtree",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

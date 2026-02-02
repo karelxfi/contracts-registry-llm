@@ -1,0 +1,42 @@
+{
+  "id": "beets-lst",
+  "name": "Beets LST",
+  "type": "liquid staking",
+  "website": "https://beets.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Beets LST Main Contract",
+      "type": "core",
+      "description": "Main contract for Beets LST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beets-lst",
+      "updated": "2025-01-31"
+    }
+  }
+}

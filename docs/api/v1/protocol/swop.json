@@ -1,0 +1,45 @@
+{
+  "id": "swop",
+  "name": "Swop",
+  "type": "dexs",
+  "website": "https://swop.fi",
+  "github": [
+    "swopfi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "waves"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swop Main Contract",
+      "type": "core",
+      "description": "Main contract for Swop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "waves": {
+      "chain": "waves",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swop",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

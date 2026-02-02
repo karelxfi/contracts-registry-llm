@@ -1,0 +1,63 @@
+{
+  "id": "arkis",
+  "name": "Arkis",
+  "type": "leveraged farming",
+  "website": "https://www.arkis.xyz/",
+  "github": [
+    "ArkisXYZ"
+  ],
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "ethereum",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arkis Main Contract",
+      "type": "core",
+      "description": "Main contract for Arkis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkis",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkis",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

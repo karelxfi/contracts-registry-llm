@@ -1,0 +1,42 @@
+{
+  "id": "sharesgram",
+  "name": "SharesGram",
+  "type": "sofi",
+  "website": "https://twitter.com/SharesGram",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SharesGram Main Contract",
+      "type": "core",
+      "description": "Main contract for SharesGram",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sharesgram",
+      "updated": "2025-01-31"
+    }
+  }
+}

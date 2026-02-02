@@ -1,0 +1,43 @@
+{
+  "id": "privacy-cash",
+  "name": "Privacy Cash",
+  "type": "privacy",
+  "website": "https://privacycash.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Privacy Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for Privacy Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/privacy-cash",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

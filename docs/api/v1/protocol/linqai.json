@@ -1,0 +1,42 @@
+{
+  "id": "linqai",
+  "name": "LinqAI",
+  "type": "farm",
+  "website": "https://www.linqai.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LinqAI Main Contract",
+      "type": "core",
+      "description": "Main contract for LinqAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/linqai",
+      "updated": "2025-01-31"
+    }
+  }
+}

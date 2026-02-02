@@ -1,0 +1,43 @@
+{
+  "id": "sunpump",
+  "name": "SunPump",
+  "type": "launchpad",
+  "website": "https://sunpump.meme/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SunPump Main Contract",
+      "type": "core",
+      "description": "Main contract for SunPump",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sunpump",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

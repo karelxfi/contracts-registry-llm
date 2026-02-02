@@ -1,0 +1,44 @@
+{
+  "id": "vector-finance",
+  "name": "Vector Finance",
+  "type": "yield",
+  "website": "https://vectorfinance.io/",
+  "github": [
+    "VectorFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vector Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Vector Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vector-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "catsapes",
+  "name": "CatsApes",
+  "type": "gaming",
+  "website": "https://catsapes.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CatsApes Main Contract",
+      "type": "core",
+      "description": "Main contract for CatsApes",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/catsapes",
+      "updated": "2025-01-31"
+    }
+  }
+}

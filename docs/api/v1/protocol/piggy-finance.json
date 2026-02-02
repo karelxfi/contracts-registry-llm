@@ -1,0 +1,42 @@
+{
+  "id": "piggy-finance",
+  "name": "Piggy Finance",
+  "type": "yield",
+  "website": "https://piggyfinance.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Piggy Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Piggy Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/piggy-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

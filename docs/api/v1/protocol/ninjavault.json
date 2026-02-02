@@ -1,0 +1,43 @@
+{
+  "id": "ninjavault",
+  "name": "NinjaVault",
+  "type": "yield aggregator",
+  "website": "https://ninjavault.co/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NinjaVault Main Contract",
+      "type": "core",
+      "description": "Main contract for NinjaVault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ninjavault",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "scrub-invest",
+  "name": "Scrub Invest",
+  "type": "yield",
+  "website": "https://invest.scrub.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Scrub Invest Main Contract",
+      "type": "core",
+      "description": "Main contract for Scrub Invest",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scrub-invest",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ebisu-v2",
+  "name": "Ebisu V2",
+  "type": "cdp",
+  "website": "https://ebisu.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum",
+    "plasma"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ebisu V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Ebisu V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ebisu-v2",
+      "updated": "2025-01-31"
+    },
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ebisu-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

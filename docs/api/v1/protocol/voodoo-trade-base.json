@@ -1,0 +1,42 @@
+{
+  "id": "voodoo-trade-base",
+  "name": "Voodoo Trade Base",
+  "type": "derivatives",
+  "website": "https://voodoo.trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Voodoo Trade Base Main Contract",
+      "type": "core",
+      "description": "Main contract for Voodoo Trade Base",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/voodoo-trade-base",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "spartadex",
+  "name": "SpartaDex",
+  "type": "dexs",
+  "website": "https://spartadex.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SpartaDex Main Contract",
+      "type": "core",
+      "description": "Main contract for SpartaDex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spartadex",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spartadex",
+      "updated": "2025-01-31"
+    }
+  }
+}

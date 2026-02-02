@@ -1,0 +1,44 @@
+{
+  "id": "arcx",
+  "name": "ARCx",
+  "type": "insurance",
+  "website": "",
+  "github": [
+    "arcxgame"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ARCx Main Contract",
+      "type": "core",
+      "description": "Main contract for ARCx",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arcx",
+      "updated": "2025-01-31"
+    }
+  }
+}

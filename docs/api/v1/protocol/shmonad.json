@@ -1,0 +1,42 @@
+{
+  "id": "shmonad",
+  "name": "ShMonad",
+  "type": "liquid staking",
+  "website": "https://shmonad.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ShMonad Main Contract",
+      "type": "core",
+      "description": "Main contract for ShMonad",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shmonad",
+      "updated": "2025-01-31"
+    }
+  }
+}

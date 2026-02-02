@@ -1,0 +1,42 @@
+{
+  "id": "alcum",
+  "name": "Alcum",
+  "type": "yield",
+  "website": "https://web3.alcum.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alcum Main Contract",
+      "type": "core",
+      "description": "Main contract for Alcum",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alcum",
+      "updated": "2025-01-31"
+    }
+  }
+}

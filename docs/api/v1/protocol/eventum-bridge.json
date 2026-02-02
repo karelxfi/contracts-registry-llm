@@ -1,0 +1,42 @@
+{
+  "id": "eventum-bridge",
+  "name": "Eventum Bridge",
+  "type": "canonical bridge",
+  "website": "https://evedex.com/en-US/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eventum Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Eventum Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eventum-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

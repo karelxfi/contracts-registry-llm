@@ -1,0 +1,44 @@
+{
+  "id": "immortal",
+  "name": "Immortal",
+  "type": "reserve currency",
+  "website": "https://www.immortaldao.finance/",
+  "github": [
+    "ImmortalDAO-Fi"
+  ],
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Immortal Main Contract",
+      "type": "core",
+      "description": "Main contract for Immortal",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/immortal",
+      "updated": "2025-01-31"
+    }
+  }
+}

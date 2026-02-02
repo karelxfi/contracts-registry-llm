@@ -1,0 +1,43 @@
+{
+  "id": "verus-market",
+  "name": "Verus Market",
+  "type": "dexs",
+  "website": "https://eth.verusbridge.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "verus"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Verus Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Verus Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "verus": {
+      "chain": "verus",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/verus-market",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

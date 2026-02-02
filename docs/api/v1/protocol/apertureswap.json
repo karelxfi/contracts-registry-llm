@@ -1,0 +1,42 @@
+{
+  "id": "apertureswap",
+  "name": "ApertureSwap",
+  "type": "dexs",
+  "website": "https://app.aperture.finance/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ApertureSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ApertureSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apertureswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

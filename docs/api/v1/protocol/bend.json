@@ -1,0 +1,42 @@
+{
+  "id": "bend",
+  "name": "BEND",
+  "type": "lending",
+  "website": "https://bend.berachain.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BEND Main Contract",
+      "type": "core",
+      "description": "Main contract for BEND",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bend",
+      "updated": "2025-01-31"
+    }
+  }
+}

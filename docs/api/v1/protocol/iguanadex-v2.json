@@ -1,0 +1,42 @@
+{
+  "id": "iguanadex-v2",
+  "name": "IguanaDEX V2",
+  "type": "dexs",
+  "website": "https://iguanadex.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "etherlink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "IguanaDEX V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for IguanaDEX V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "etherlink": {
+      "chain": "etherlink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iguanadex-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

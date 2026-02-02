@@ -1,0 +1,44 @@
+{
+  "id": "bolide",
+  "name": "Bolide",
+  "type": "yield aggregator",
+  "website": "https://bolide.fi/",
+  "github": [
+    "bolide-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bolide Main Contract",
+      "type": "core",
+      "description": "Main contract for Bolide",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bolide",
+      "updated": "2025-01-31"
+    }
+  }
+}

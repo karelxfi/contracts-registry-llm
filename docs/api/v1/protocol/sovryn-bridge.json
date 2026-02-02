@@ -1,0 +1,42 @@
+{
+  "id": "sovryn-bridge",
+  "name": "Sovryn Bridge",
+  "type": "canonical bridge",
+  "website": "https://alpha.sovryn.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sovryn Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Sovryn Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sovryn-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

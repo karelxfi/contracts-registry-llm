@@ -1,0 +1,44 @@
+{
+  "id": "papparico-finance",
+  "name": "Papparico Finance",
+  "type": "farm",
+  "website": "https://papparico.finance/home",
+  "github": [
+    "PapparicoFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Papparico Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Papparico Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/papparico-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

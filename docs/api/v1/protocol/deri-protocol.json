@@ -1,0 +1,60 @@
+{
+  "id": "deri-protocol",
+  "name": "Deri Protocol",
+  "type": "options",
+  "website": "https://deri.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deri Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Deri Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-protocol",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deri-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

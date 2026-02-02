@@ -1,0 +1,42 @@
+{
+  "id": "icecream-finance",
+  "name": "IceCream Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "IceCream Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for IceCream Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/icecream-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

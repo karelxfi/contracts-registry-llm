@@ -1,0 +1,45 @@
+{
+  "id": "hashstack",
+  "name": "Hashstack",
+  "type": "lending",
+  "website": "https://hashstack.finance",
+  "github": [
+    "0xHashstack"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hashstack Main Contract",
+      "type": "core",
+      "description": "Main contract for Hashstack",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hashstack",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

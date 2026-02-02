@@ -1,0 +1,43 @@
+{
+  "id": "manaswap",
+  "name": "ManaSwap",
+  "type": "dexs",
+  "website": "https://mana.win/app/dex",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ManaSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ManaSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/manaswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

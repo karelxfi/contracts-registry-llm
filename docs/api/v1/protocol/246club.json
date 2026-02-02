@@ -1,0 +1,44 @@
+{
+  "id": "246club",
+  "name": "246Club",
+  "type": "lending",
+  "website": "https://www.246club.xyz/",
+  "github": [
+    "246club"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "plasma"
+  ],
+  "contracts": {
+    "main": {
+      "name": "246Club Main Contract",
+      "type": "core",
+      "description": "Main contract for 246Club",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/246club",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bao-masterchef-v1",
+  "name": "Bao Masterchef V1",
+  "type": "farm",
+  "website": "https://baofinance.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bao Masterchef V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Bao Masterchef V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bao-masterchef-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

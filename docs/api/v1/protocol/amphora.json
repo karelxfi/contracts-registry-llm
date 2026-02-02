@@ -1,0 +1,44 @@
+{
+  "id": "amphora",
+  "name": "Amphora",
+  "type": "lending",
+  "website": "https://amphorafinance.com/",
+  "github": [
+    "AmphoraProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amphora Main Contract",
+      "type": "core",
+      "description": "Main contract for Amphora",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amphora",
+      "updated": "2025-01-31"
+    }
+  }
+}

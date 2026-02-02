@@ -1,0 +1,42 @@
+{
+  "id": "superloop",
+  "name": "Superloop",
+  "type": "onchain capital allocator",
+  "website": "https://loop.superlend.xyz/earn",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "etherlink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Superloop Main Contract",
+      "type": "core",
+      "description": "Main contract for Superloop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "etherlink": {
+      "chain": "etherlink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superloop",
+      "updated": "2025-01-31"
+    }
+  }
+}

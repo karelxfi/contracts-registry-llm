@@ -1,0 +1,42 @@
+{
+  "id": "kperp-exchange",
+  "name": "KPerp Exchange",
+  "type": "derivatives",
+  "website": "https://kperp.exchange/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KPerp Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for KPerp Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kperp-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

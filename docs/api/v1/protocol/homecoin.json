@@ -1,0 +1,42 @@
+{
+  "id": "homecoin",
+  "name": "HomeCoin",
+  "type": "cdp",
+  "website": "https://www.homecoin.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HomeCoin Main Contract",
+      "type": "core",
+      "description": "Main contract for HomeCoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/homecoin",
+      "updated": "2025-01-31"
+    }
+  }
+}

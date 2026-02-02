@@ -1,0 +1,43 @@
+{
+  "id": "thorchain-lending",
+  "name": "Thorchain Lending",
+  "type": "cdp",
+  "website": "https://linktr.ee/thorchain",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "thorchain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Thorchain Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Thorchain Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "thorchain": {
+      "chain": "thorchain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thorchain-lending",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

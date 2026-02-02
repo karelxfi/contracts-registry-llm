@@ -1,0 +1,42 @@
+{
+  "id": "redacted-protocol",
+  "name": "Redacted Protocol",
+  "type": "yield",
+  "website": "https://www.redacted.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Redacted Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Redacted Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/redacted-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

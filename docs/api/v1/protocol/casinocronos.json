@@ -1,0 +1,42 @@
+{
+  "id": "casinocronos",
+  "name": "casinocronos",
+  "type": "dexs",
+  "website": "https://casinocronos.com/#/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "casinocronos Main Contract",
+      "type": "core",
+      "description": "Main contract for casinocronos",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/casinocronos",
+      "updated": "2025-01-31"
+    }
+  }
+}

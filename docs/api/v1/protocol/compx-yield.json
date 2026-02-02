@@ -1,0 +1,43 @@
+{
+  "id": "compx-yield",
+  "name": "Compx Yield",
+  "type": "yield",
+  "website": "https://www.compx.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Compx Yield Main Contract",
+      "type": "core",
+      "description": "Main contract for Compx Yield",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/compx-yield",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

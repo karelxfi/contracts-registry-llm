@@ -1,0 +1,42 @@
+{
+  "id": "jaceswap",
+  "name": "JaceSwap",
+  "type": "dexs",
+  "website": "https://swap.woofingjace.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JaceSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for JaceSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jaceswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

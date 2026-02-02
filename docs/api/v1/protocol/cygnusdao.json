@@ -1,0 +1,62 @@
+{
+  "id": "cygnusdao",
+  "name": "CygnusDAO",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "CygnusDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CygnusDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for CygnusDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cygnusdao",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cygnusdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

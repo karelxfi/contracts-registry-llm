@@ -1,0 +1,43 @@
+{
+  "id": "astarter-amm",
+  "name": "Astarter AMM",
+  "type": "dexs",
+  "website": "https://astarter.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Astarter AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Astarter AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astarter-amm",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

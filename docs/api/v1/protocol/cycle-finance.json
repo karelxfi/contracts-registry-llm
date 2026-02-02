@@ -1,0 +1,44 @@
+{
+  "id": "cycle-finance",
+  "name": "Cycle Finance",
+  "type": "yield aggregator",
+  "website": "https://www.cycle.finance",
+  "github": [
+    "CycleProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cycle Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Cycle Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cycle-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

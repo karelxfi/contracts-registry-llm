@@ -1,0 +1,62 @@
+{
+  "id": "meow-protocol",
+  "name": "Meow Protocol",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "0xMeowProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "scroll",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meow Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Meow Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meow-protocol",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meow-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

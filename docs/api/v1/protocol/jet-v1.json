@@ -1,0 +1,43 @@
+{
+  "id": "jet-v1",
+  "name": "Jet V1",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jet V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Jet V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jet-v1",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

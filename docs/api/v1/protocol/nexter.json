@@ -1,0 +1,62 @@
+{
+  "id": "nexter",
+  "name": "Nexter",
+  "type": "prediction market",
+  "website": "https://nexter.fi/",
+  "github": [
+    "Bhavish-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "polygon",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nexter Main Contract",
+      "type": "core",
+      "description": "Main contract for Nexter",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nexter",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nexter",
+      "updated": "2025-01-31"
+    }
+  }
+}

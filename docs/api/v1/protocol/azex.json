@@ -1,0 +1,60 @@
+{
+  "id": "azex",
+  "name": "AZEX",
+  "type": "derivatives",
+  "website": "https://azex.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "berachain",
+    "unichain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AZEX Main Contract",
+      "type": "core",
+      "description": "Main contract for AZEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/azex",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/azex",
+      "updated": "2025-01-31"
+    }
+  }
+}

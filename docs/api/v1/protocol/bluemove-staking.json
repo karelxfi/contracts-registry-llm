@@ -1,0 +1,43 @@
+{
+  "id": "bluemove-staking",
+  "name": "BlueMove Staking",
+  "type": "nft marketplace",
+  "website": "https://bluemove.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BlueMove Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for BlueMove Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bluemove-staking",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

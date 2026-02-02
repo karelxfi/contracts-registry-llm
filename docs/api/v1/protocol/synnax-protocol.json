@@ -1,0 +1,45 @@
+{
+  "id": "synnax-protocol",
+  "name": "Synnax Protocol",
+  "type": "cdp",
+  "website": "https://www.synnax.fi",
+  "github": [
+    "Synnax-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Synnax Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Synnax Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synnax-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

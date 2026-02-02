@@ -1,0 +1,42 @@
+{
+  "id": "windfall",
+  "name": "Windfall",
+  "type": "yield lottery",
+  "website": "https://www.windfallgame.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield lottery",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Windfall Main Contract",
+      "type": "core",
+      "description": "Main contract for Windfall",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/windfall",
+      "updated": "2025-01-31"
+    }
+  }
+}

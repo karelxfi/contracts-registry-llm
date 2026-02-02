@@ -1,0 +1,42 @@
+{
+  "id": "glori-finance",
+  "name": "Glori Finance",
+  "type": "lending",
+  "website": "https://www.glori.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Glori Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Glori Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/glori-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

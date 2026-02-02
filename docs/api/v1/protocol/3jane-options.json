@@ -1,0 +1,42 @@
+{
+  "id": "3jane-options",
+  "name": "3jane Options",
+  "type": "options vault",
+  "website": "https://www.3jane.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options vault",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "3jane Options Main Contract",
+      "type": "core",
+      "description": "Main contract for 3jane Options",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/3jane-options",
+      "updated": "2025-01-31"
+    }
+  }
+}

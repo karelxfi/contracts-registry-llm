@@ -1,0 +1,42 @@
+{
+  "id": "muito-finance",
+  "name": "Muito Finance",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Muito Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Muito Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/muito-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

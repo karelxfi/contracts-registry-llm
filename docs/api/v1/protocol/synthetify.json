@@ -1,0 +1,45 @@
+{
+  "id": "synthetify",
+  "name": "Synthetify",
+  "type": "synthetics",
+  "website": "https://www.synthetify.io",
+  "github": [
+    "Synthetify"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Synthetify Main Contract",
+      "type": "core",
+      "description": "Main contract for Synthetify",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synthetify",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

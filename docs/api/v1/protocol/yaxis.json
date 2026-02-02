@@ -1,0 +1,44 @@
+{
+  "id": "yaxis",
+  "name": "yAxis",
+  "type": "yield aggregator",
+  "website": "",
+  "github": [
+    "yaxis-project"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "yAxis Main Contract",
+      "type": "core",
+      "description": "Main contract for yAxis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yaxis",
+      "updated": "2025-01-31"
+    }
+  }
+}

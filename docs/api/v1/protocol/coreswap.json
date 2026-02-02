@@ -1,0 +1,42 @@
+{
+  "id": "coreswap",
+  "name": "CoreSwap",
+  "type": "dexs",
+  "website": "https://www.coreswap.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CoreSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for CoreSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coreswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

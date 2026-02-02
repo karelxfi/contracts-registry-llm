@@ -1,0 +1,42 @@
+{
+  "id": "kava-football-club",
+  "name": "Kava Football Club",
+  "type": "prediction market",
+  "website": "https://sport.kavafc.bet",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kava Football Club Main Contract",
+      "type": "core",
+      "description": "Main contract for Kava Football Club",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kava-football-club",
+      "updated": "2025-01-31"
+    }
+  }
+}

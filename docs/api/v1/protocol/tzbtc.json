@@ -1,0 +1,43 @@
+{
+  "id": "tzbtc",
+  "name": "tzBTC",
+  "type": "bridge",
+  "website": "https://tzbtc.io/transparency",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "tzBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for tzBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tzbtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

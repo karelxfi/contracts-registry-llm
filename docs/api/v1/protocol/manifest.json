@@ -1,0 +1,42 @@
+{
+  "id": "manifest",
+  "name": "Manifest",
+  "type": "services",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Manifest Main Contract",
+      "type": "core",
+      "description": "Main contract for Manifest",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/manifest",
+      "updated": "2025-01-31"
+    }
+  }
+}

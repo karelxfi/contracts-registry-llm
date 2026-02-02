@@ -1,0 +1,78 @@
+{
+  "id": "yield-yak-aggregator",
+  "name": "Yield Yak Aggregator",
+  "type": "yield aggregator",
+  "website": "https://yieldyak.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "avalanche",
+    "arbitrum",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yield Yak Aggregator Main Contract",
+      "type": "core",
+      "description": "Main contract for Yield Yak Aggregator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-yak-aggregator",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-yak-aggregator",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-yak-aggregator",
+      "updated": "2025-01-31"
+    }
+  }
+}

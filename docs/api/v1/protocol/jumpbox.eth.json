@@ -1,0 +1,42 @@
+{
+  "id": "jumpbox.eth",
+  "name": "JUMPBOX.ETH",
+  "type": "yield",
+  "website": "https://www.jumpbox.tech/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JUMPBOX.ETH Main Contract",
+      "type": "core",
+      "description": "Main contract for JUMPBOX.ETH",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jumpbox.eth",
+      "updated": "2025-01-31"
+    }
+  }
+}

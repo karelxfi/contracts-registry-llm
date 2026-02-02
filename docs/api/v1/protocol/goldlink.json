@@ -1,0 +1,62 @@
+{
+  "id": "goldlink",
+  "name": "GoldLink",
+  "type": "leveraged farming",
+  "website": "https://app.goldlink.io",
+  "github": [
+    "GoldLink-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "arbitrum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GoldLink Main Contract",
+      "type": "core",
+      "description": "Main contract for GoldLink",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goldlink",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goldlink",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rain",
+  "name": "Rain",
+  "type": "prediction market",
+  "website": "https://www.rain.one/",
+  "github": [
+    "rain1-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rain Main Contract",
+      "type": "core",
+      "description": "Main contract for Rain",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rain",
+      "updated": "2025-01-31"
+    }
+  }
+}

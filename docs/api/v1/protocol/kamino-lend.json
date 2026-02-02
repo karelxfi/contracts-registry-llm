@@ -1,0 +1,43 @@
+{
+  "id": "kamino-lend",
+  "name": "Kamino Lend",
+  "type": "lending",
+  "website": "https://kamino.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kamino Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Kamino Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kamino-lend",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

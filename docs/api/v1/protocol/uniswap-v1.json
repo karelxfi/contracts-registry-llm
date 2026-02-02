@@ -1,0 +1,42 @@
+{
+  "id": "uniswap-v1",
+  "name": "Uniswap V1",
+  "type": "dexs",
+  "website": "https://app.uniswap.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Uniswap V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Uniswap V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/uniswap-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

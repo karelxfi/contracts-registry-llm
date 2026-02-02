@@ -1,0 +1,42 @@
+{
+  "id": "mobius-finance",
+  "name": "Mobius Finance",
+  "type": "synthetics",
+  "website": "https://mobius.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mobius Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Mobius Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mobius-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

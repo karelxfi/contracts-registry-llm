@@ -1,0 +1,44 @@
+{
+  "id": "dev-protocol",
+  "name": "Dev Protocol",
+  "type": "yield",
+  "website": "https://www.devprotocol.xyz",
+  "github": [
+    "dev-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dev Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Dev Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dev-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "circlepacific",
+  "name": "CirclePacific",
+  "type": "dexs",
+  "website": "https://circlepacific.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CirclePacific Main Contract",
+      "type": "core",
+      "description": "Main contract for CirclePacific",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/circlepacific",
+      "updated": "2025-01-31"
+    }
+  }
+}

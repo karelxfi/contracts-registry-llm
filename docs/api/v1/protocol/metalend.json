@@ -1,0 +1,42 @@
+{
+  "id": "metalend",
+  "name": "MetaLend",
+  "type": "lending",
+  "website": "https://metalend.tech/app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ronin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MetaLend Main Contract",
+      "type": "core",
+      "description": "Main contract for MetaLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ronin": {
+      "chain": "ronin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metalend",
+      "updated": "2025-01-31"
+    }
+  }
+}

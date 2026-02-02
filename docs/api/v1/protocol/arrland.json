@@ -1,0 +1,44 @@
+{
+  "id": "arrland",
+  "name": "Arrland",
+  "type": "gaming",
+  "website": "https://arrland.com/",
+  "github": [
+    "arrland"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arrland Main Contract",
+      "type": "core",
+      "description": "Main contract for Arrland",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrland",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "defi.money",
+  "name": "defi.money",
+  "type": "cdp",
+  "website": "https://defi.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "defi.money Main Contract",
+      "type": "core",
+      "description": "Main contract for defi.money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi.money",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defi.money",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "grave-finance",
+  "name": "Grave Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Grave Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Grave Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grave-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "myriad-markets",
+  "name": "Myriad Markets",
+  "type": "prediction market",
+  "website": "https://myriad.markets/markets",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "abstract",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Myriad Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Myriad Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myriad-markets",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myriad-markets",
+      "updated": "2025-01-31"
+    }
+  }
+}

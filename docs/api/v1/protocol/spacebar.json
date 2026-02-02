@@ -1,0 +1,44 @@
+{
+  "id": "spacebar",
+  "name": "Spacebar",
+  "type": "gaming",
+  "website": "https://www.spacebar.xyz",
+  "github": [
+    "ao-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Spacebar Main Contract",
+      "type": "core",
+      "description": "Main contract for Spacebar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spacebar",
+      "updated": "2025-01-31"
+    }
+  }
+}

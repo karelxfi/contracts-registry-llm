@@ -1,0 +1,45 @@
+{
+  "id": "algodex",
+  "name": "Algodex",
+  "type": "dexs",
+  "website": "https://app.algodex.com/about",
+  "github": [
+    "algodex"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Algodex Main Contract",
+      "type": "core",
+      "description": "Main contract for Algodex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/algodex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

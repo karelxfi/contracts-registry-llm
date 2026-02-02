@@ -1,0 +1,43 @@
+{
+  "id": "tonstakers-lsd",
+  "name": "Tonstakers LSD",
+  "type": "liquid staking",
+  "website": "https://tonstakers.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tonstakers LSD Main Contract",
+      "type": "core",
+      "description": "Main contract for Tonstakers LSD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonstakers-lsd",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "waterneuron",
+  "name": "WaterNeuron",
+  "type": "liquid staking",
+  "website": "https://waterneuron.fi/",
+  "github": [
+    "WaterNeuron"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "icp"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WaterNeuron Main Contract",
+      "type": "core",
+      "description": "Main contract for WaterNeuron",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "icp": {
+      "chain": "icp",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/waterneuron",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

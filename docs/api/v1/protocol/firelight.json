@@ -1,0 +1,44 @@
+{
+  "id": "firelight",
+  "name": "Firelight",
+  "type": "farm",
+  "website": "https://firelight.finance/",
+  "github": [
+    "firelight-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Firelight Main Contract",
+      "type": "core",
+      "description": "Main contract for Firelight",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/firelight",
+      "updated": "2025-01-31"
+    }
+  }
+}

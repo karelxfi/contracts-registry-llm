@@ -1,0 +1,44 @@
+{
+  "id": "hakka-finance",
+  "name": "Hakka Finance",
+  "type": "derivatives",
+  "website": "https://hakka.finance/",
+  "github": [
+    "hakkafinance"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hakka Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Hakka Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hakka-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

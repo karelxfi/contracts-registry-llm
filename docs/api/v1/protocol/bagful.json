@@ -1,0 +1,42 @@
+{
+  "id": "bagful",
+  "name": "Bagful",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bagful Main Contract",
+      "type": "core",
+      "description": "Main contract for Bagful",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bagful",
+      "updated": "2025-01-31"
+    }
+  }
+}

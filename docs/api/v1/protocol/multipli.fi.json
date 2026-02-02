@@ -1,0 +1,60 @@
+{
+  "id": "multipli.fi",
+  "name": "Multipli.fi",
+  "type": "yield",
+  "website": "https://app.multipli.fi?referral_code=Y7YQDT",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Multipli.fi Main Contract",
+      "type": "core",
+      "description": "Main contract for Multipli.fi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/multipli.fi",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/multipli.fi",
+      "updated": "2025-01-31"
+    }
+  }
+}

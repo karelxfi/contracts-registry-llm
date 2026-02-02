@@ -1,0 +1,43 @@
+{
+  "id": "remora-markets",
+  "name": "Remora Markets",
+  "type": "rwa",
+  "website": "https://remoramarkets.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Remora Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Remora Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/remora-markets",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ebisu-v1",
+  "name": "Ebisu V1",
+  "type": "cdp",
+  "website": "https://ebisu.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ebisu V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Ebisu V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ebisu-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

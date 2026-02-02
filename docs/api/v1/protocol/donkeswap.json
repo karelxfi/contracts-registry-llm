@@ -1,0 +1,43 @@
+{
+  "id": "donkeswap",
+  "name": "Donkeswap",
+  "type": "dexs",
+  "website": "https://donkeswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Donkeswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Donkeswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/donkeswap",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

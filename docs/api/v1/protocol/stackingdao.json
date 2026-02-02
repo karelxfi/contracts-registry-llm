@@ -1,0 +1,44 @@
+{
+  "id": "stackingdao",
+  "name": "StackingDAO",
+  "type": "liquid staking",
+  "website": "https://app.stackingdao.com",
+  "github": [
+    "StackingDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "stacks"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StackingDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for StackingDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stacks": {
+      "chain": "stacks",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stackingdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

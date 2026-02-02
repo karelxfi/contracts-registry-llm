@@ -1,0 +1,42 @@
+{
+  "id": "portal-to-bitcoin",
+  "name": "Portal To Bitcoin",
+  "type": "bridge",
+  "website": "https://portaltobitcoin.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Portal To Bitcoin Main Contract",
+      "type": "core",
+      "description": "Main contract for Portal To Bitcoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/portal-to-bitcoin",
+      "updated": "2025-01-31"
+    }
+  }
+}

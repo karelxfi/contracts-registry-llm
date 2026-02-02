@@ -1,0 +1,42 @@
+{
+  "id": "1776.meme",
+  "name": "1776.MEME",
+  "type": "launchpad",
+  "website": "https://1776.meme/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "1776.MEME Main Contract",
+      "type": "core",
+      "description": "Main contract for 1776.MEME",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/1776.meme",
+      "updated": "2025-01-31"
+    }
+  }
+}

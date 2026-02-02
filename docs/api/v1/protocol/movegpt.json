@@ -1,0 +1,43 @@
+{
+  "id": "movegpt",
+  "name": "MoveGPT",
+  "type": "launchpad",
+  "website": "https://movegpt.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MoveGPT Main Contract",
+      "type": "core",
+      "description": "Main contract for MoveGPT",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/movegpt",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fwx-dex",
+  "name": "FWX DEX",
+  "type": "dexs",
+  "website": "https://swap.fwx.finance/pool",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FWX DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for FWX DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fwx-dex",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fwx-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

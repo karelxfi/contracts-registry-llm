@@ -1,0 +1,45 @@
+{
+  "id": "bonzo-finance",
+  "name": "Bonzo Finance",
+  "type": "lending",
+  "website": "https://bonzo.finance/",
+  "github": [
+    "Bonzo-Labs"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "hedera"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bonzo Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Bonzo Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hedera": {
+      "chain": "hedera",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bonzo-finance",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "hover",
+  "name": "Hover",
+  "type": "lending",
+  "website": "https://hover.market/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hover Main Contract",
+      "type": "core",
+      "description": "Main contract for Hover",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hover",
+      "updated": "2025-01-31"
+    }
+  }
+}

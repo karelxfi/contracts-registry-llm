@@ -1,0 +1,44 @@
+{
+  "id": "tokan-exchange",
+  "name": "Tokan Exchange",
+  "type": "dexs",
+  "website": "https://tokan.exchange/",
+  "github": [
+    "TokanExchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tokan Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Tokan Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tokan-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

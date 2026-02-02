@@ -1,0 +1,42 @@
+{
+  "id": "moonlander",
+  "name": "Moonlander",
+  "type": "derivatives",
+  "website": "https://moonlander.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moonlander Main Contract",
+      "type": "core",
+      "description": "Main contract for Moonlander",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moonlander",
+      "updated": "2025-01-31"
+    }
+  }
+}

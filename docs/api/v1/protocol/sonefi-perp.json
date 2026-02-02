@@ -1,0 +1,42 @@
+{
+  "id": "sonefi-perp",
+  "name": "SoneFi Perp",
+  "type": "derivatives",
+  "website": "https://sonefi.xyz/#/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SoneFi Perp Main Contract",
+      "type": "core",
+      "description": "Main contract for SoneFi Perp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sonefi-perp",
+      "updated": "2025-01-31"
+    }
+  }
+}

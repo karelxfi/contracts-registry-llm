@@ -1,0 +1,61 @@
+{
+  "id": "pond0x",
+  "name": "Pond0x",
+  "type": "dex aggregator",
+  "website": "http://pond0x.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "ethereum",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pond0x Main Contract",
+      "type": "core",
+      "description": "Main contract for Pond0x",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pond0x",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pond0x",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

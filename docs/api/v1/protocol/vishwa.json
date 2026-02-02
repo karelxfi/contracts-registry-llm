@@ -1,0 +1,43 @@
+{
+  "id": "vishwa",
+  "name": "Vishwa",
+  "type": "onchain capital allocator",
+  "website": "https://vishwanetwork.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vishwa Main Contract",
+      "type": "core",
+      "description": "Main contract for Vishwa",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vishwa",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

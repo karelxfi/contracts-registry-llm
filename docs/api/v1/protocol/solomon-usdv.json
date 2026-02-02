@@ -1,0 +1,45 @@
+{
+  "id": "solomon-usdv",
+  "name": "Solomon USDv",
+  "type": "basis trading",
+  "website": "https://solomonlabs.org/",
+  "github": [
+    "SolomonLabs"
+  ],
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solomon USDv Main Contract",
+      "type": "core",
+      "description": "Main contract for Solomon USDv",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solomon-usdv",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

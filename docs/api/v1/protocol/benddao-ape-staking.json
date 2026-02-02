@@ -1,0 +1,42 @@
+{
+  "id": "benddao-ape-staking",
+  "name": "BendDAO APE Staking",
+  "type": "yield",
+  "website": "https://www.benddao.xyz/en/apecoin-staking/explore/pairing-listings/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BendDAO APE Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for BendDAO APE Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/benddao-ape-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

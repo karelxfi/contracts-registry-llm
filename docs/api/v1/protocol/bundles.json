@@ -1,0 +1,42 @@
+{
+  "id": "bundles",
+  "name": "Bundles",
+  "type": "indexes",
+  "website": "https://bundles.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bundles Main Contract",
+      "type": "core",
+      "description": "Main contract for Bundles",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bundles",
+      "updated": "2025-01-31"
+    }
+  }
+}

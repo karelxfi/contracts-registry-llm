@@ -1,0 +1,42 @@
+{
+  "id": "grvt-bridge",
+  "name": "Grvt Bridge",
+  "type": "bridge",
+  "website": "https://grvt.io/?ref=WCDISXW",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Grvt Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Grvt Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grvt-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

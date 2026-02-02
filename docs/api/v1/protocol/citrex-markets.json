@@ -1,0 +1,43 @@
+{
+  "id": "citrex-markets",
+  "name": "Citrex Markets",
+  "type": "derivatives",
+  "website": "https://app.citrex.markets/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Citrex Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Citrex Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/citrex-markets",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

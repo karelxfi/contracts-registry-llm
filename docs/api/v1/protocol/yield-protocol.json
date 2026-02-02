@@ -1,0 +1,62 @@
+{
+  "id": "yield-protocol",
+  "name": "Yield Protocol",
+  "type": "lending",
+  "website": "https://yieldprotocol.com/",
+  "github": [
+    "yieldprotocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yield Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Yield Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-protocol",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

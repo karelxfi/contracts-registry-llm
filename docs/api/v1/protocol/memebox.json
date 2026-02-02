@@ -1,0 +1,42 @@
+{
+  "id": "memebox",
+  "name": "Memebox",
+  "type": "dexs",
+  "website": "https://memebox.fi/#/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Memebox Main Contract",
+      "type": "core",
+      "description": "Main contract for Memebox",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/memebox",
+      "updated": "2025-01-31"
+    }
+  }
+}

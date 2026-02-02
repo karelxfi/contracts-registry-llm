@@ -1,0 +1,42 @@
+{
+  "id": "zebradao",
+  "name": "ZebraDAO",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ZebraDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ZebraDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zebradao",
+      "updated": "2025-01-31"
+    }
+  }
+}

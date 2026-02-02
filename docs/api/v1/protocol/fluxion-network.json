@@ -1,0 +1,44 @@
+{
+  "id": "fluxion-network",
+  "name": "Fluxion Network",
+  "type": "dexs",
+  "website": "https://app.fluxion.network/",
+  "github": [
+    "Fluxion-Exchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fluxion Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Fluxion Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fluxion-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

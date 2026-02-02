@@ -1,0 +1,44 @@
+{
+  "id": "bumper-finance",
+  "name": "Bumper Finance",
+  "type": "options",
+  "website": "https://www.bumper.fi",
+  "github": [
+    "bumper-dao"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bumper Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Bumper Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bumper-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

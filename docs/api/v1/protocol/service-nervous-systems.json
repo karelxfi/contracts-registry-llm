@@ -1,0 +1,43 @@
+{
+  "id": "service-nervous-systems",
+  "name": "Service Nervous Systems",
+  "type": "governance incentives",
+  "website": "https://dashboard.internetcomputer.org/sns",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "governance incentives",
+    "icp"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Service Nervous Systems Main Contract",
+      "type": "core",
+      "description": "Main contract for Service Nervous Systems",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "icp": {
+      "chain": "icp",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/service-nervous-systems",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

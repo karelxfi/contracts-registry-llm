@@ -1,0 +1,45 @@
+{
+  "id": "singularitynet-agix-staking",
+  "name": "SingularityNet AGIX Staking",
+  "type": "staking pool",
+  "website": "https://staking.singularitynet.io/howitworks",
+  "github": [
+    "singnet"
+  ],
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SingularityNet AGIX Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for SingularityNet AGIX Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/singularitynet-agix-staking",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

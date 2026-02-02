@@ -1,0 +1,99 @@
+{
+  "id": "bitmart",
+  "name": "BitMart",
+  "type": "cex",
+  "website": "https://www.bitmart.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "solana",
+    "ethereum",
+    "starknet",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitMart Main Contract",
+      "type": "core",
+      "description": "Main contract for BitMart",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitmart",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitmart",
+      "updated": "2025-01-31"
+    },
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitmart",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitmart",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

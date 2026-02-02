@@ -1,0 +1,43 @@
+{
+  "id": "sundaeswap-v3",
+  "name": "SundaeSwap V3",
+  "type": "dexs",
+  "website": "https://www.sundaeswap.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SundaeSwap V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for SundaeSwap V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sundaeswap-v3",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

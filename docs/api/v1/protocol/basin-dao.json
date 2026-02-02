@@ -1,0 +1,42 @@
+{
+  "id": "basin-dao",
+  "name": "Basin DAO",
+  "type": "cdp",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basin DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Basin DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basin-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

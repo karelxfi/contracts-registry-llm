@@ -1,0 +1,44 @@
+{
+  "id": "kingdefi",
+  "name": "KingDefi",
+  "type": "yield",
+  "website": "https://kingdefi.io",
+  "github": [
+    "KingDeFi-Solidity"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KingDefi Main Contract",
+      "type": "core",
+      "description": "Main contract for KingDefi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kingdefi",
+      "updated": "2025-01-31"
+    }
+  }
+}

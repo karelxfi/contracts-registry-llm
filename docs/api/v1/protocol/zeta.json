@@ -1,0 +1,45 @@
+{
+  "id": "zeta",
+  "name": "Zeta",
+  "type": "derivatives",
+  "website": "https://www.zeta.markets",
+  "github": [
+    "zetamarkets"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zeta Main Contract",
+      "type": "core",
+      "description": "Main contract for Zeta",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zeta",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "vires-finance",
+  "name": "Vires Finance",
+  "type": "lending",
+  "website": "https://vires.finance",
+  "github": [
+    "viresfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "waves"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vires Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Vires Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "waves": {
+      "chain": "waves",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vires-finance",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mvl-staking",
+  "name": "MVL Staking",
+  "type": "yield",
+  "website": "https://mvlbridge.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MVL Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for MVL Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mvl-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

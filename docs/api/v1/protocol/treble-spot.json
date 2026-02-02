@@ -1,0 +1,42 @@
+{
+  "id": "treble-spot",
+  "name": "Treble Spot",
+  "type": "dexs",
+  "website": "https://trebleswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Treble Spot Main Contract",
+      "type": "core",
+      "description": "Main contract for Treble Spot",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/treble-spot",
+      "updated": "2025-01-31"
+    }
+  }
+}

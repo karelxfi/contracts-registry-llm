@@ -1,0 +1,61 @@
+{
+  "id": "solvbtc-lsts",
+  "name": "SolvBTC LSTs",
+  "type": "restaked btc",
+  "website": "https://solv.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "restaked btc",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SolvBTC LSTs Main Contract",
+      "type": "core",
+      "description": "Main contract for SolvBTC LSTs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solvbtc-lsts",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solvbtc-lsts",
+      "updated": "2025-01-31"
+    }
+  }
+}

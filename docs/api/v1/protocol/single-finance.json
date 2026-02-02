@@ -1,0 +1,60 @@
+{
+  "id": "single-finance",
+  "name": "Single Finance",
+  "type": "leveraged farming",
+  "website": "https://singlefinance.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "cronos",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Single Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Single Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/single-finance",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/single-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "goatxtech",
+  "name": "GoatxTech",
+  "type": "services",
+  "website": "https://mainnet.goat.tech",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GoatxTech Main Contract",
+      "type": "core",
+      "description": "Main contract for GoatxTech",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goatxtech",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "silent-protocol",
+  "name": "Silent Protocol",
+  "type": "privacy",
+  "website": "https://ceremony.silentprotocol.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Silent Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Silent Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/silent-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

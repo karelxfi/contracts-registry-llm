@@ -1,0 +1,42 @@
+{
+  "id": "rising-undead",
+  "name": "Rising Undead",
+  "type": "gaming",
+  "website": "http://risingundead.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rising Undead Main Contract",
+      "type": "core",
+      "description": "Main contract for Rising Undead",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rising-undead",
+      "updated": "2025-01-31"
+    }
+  }
+}

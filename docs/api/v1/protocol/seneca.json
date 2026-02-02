@@ -1,0 +1,62 @@
+{
+  "id": "seneca",
+  "name": "Seneca",
+  "type": "cdp",
+  "website": "https://senecaprotocol.com",
+  "github": [
+    "SenecaDefi"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Seneca Main Contract",
+      "type": "core",
+      "description": "Main contract for Seneca",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/seneca",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/seneca",
+      "updated": "2025-01-31"
+    }
+  }
+}

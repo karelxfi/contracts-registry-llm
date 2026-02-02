@@ -1,0 +1,45 @@
+{
+  "id": "eversol",
+  "name": "Eversol",
+  "type": "liquid staking",
+  "website": "https://eversol.one",
+  "github": [
+    "everstake"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eversol Main Contract",
+      "type": "core",
+      "description": "Main contract for Eversol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eversol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

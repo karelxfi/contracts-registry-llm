@@ -1,0 +1,44 @@
+{
+  "id": "sharedstake",
+  "name": "SharedStake",
+  "type": "liquid staking",
+  "website": "https://www.sharedstake.org/",
+  "github": [
+    "SharedStake"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SharedStake Main Contract",
+      "type": "core",
+      "description": "Main contract for SharedStake",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sharedstake",
+      "updated": "2025-01-31"
+    }
+  }
+}

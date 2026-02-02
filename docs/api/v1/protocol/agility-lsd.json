@@ -1,0 +1,42 @@
+{
+  "id": "agility-lsd",
+  "name": "Agility LSD",
+  "type": "indexes",
+  "website": "https://agilitylsd.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Agility LSD Main Contract",
+      "type": "core",
+      "description": "Main contract for Agility LSD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agility-lsd",
+      "updated": "2025-01-31"
+    }
+  }
+}

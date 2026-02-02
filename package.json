@@ -5,7 +5,7 @@
   "main": "helpers/query.js",
   "type": "module",
   "scripts": {
-    "build": "node helpers/build.js",
+    "build": "node helpers/build.js && node helpers/build-api.js",
     "validate": "node helpers/validate.js",
     "fetch-blocks": "node helpers/fetch-deployment-blocks.js",
     "scaffold": "node scripts/add-protocol.js",

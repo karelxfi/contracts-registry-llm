@@ -1,0 +1,44 @@
+{
+  "id": "cap",
+  "name": "cap",
+  "type": "lending",
+  "website": "https://cap.app/",
+  "github": [
+    "cap-labs-dev"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "cap Main Contract",
+      "type": "core",
+      "description": "Main contract for cap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cap",
+      "updated": "2025-01-31"
+    }
+  }
+}

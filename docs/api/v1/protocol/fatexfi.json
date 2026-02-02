@@ -1,0 +1,42 @@
+{
+  "id": "fatexfi",
+  "name": "FATExFi",
+  "type": "dexs",
+  "website": "https://fatex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FATExFi Main Contract",
+      "type": "core",
+      "description": "Main contract for FATExFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fatexfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

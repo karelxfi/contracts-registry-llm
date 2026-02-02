@@ -1,0 +1,43 @@
+{
+  "id": "fixes-frc20",
+  "name": "Fixes frc20",
+  "type": "services",
+  "website": "https://fixes.world",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "flow"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fixes frc20 Main Contract",
+      "type": "core",
+      "description": "Main contract for Fixes frc20",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flow": {
+      "chain": "flow",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fixes-frc20",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "coinbase-bridge",
+  "name": "Coinbase Bridge",
+  "type": "bridge",
+  "website": "https://www.coinbase.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin",
+    "doge",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Coinbase Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Coinbase Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinbase-bridge",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "doge": {
+      "chain": "doge",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinbase-bridge",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinbase-bridge",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

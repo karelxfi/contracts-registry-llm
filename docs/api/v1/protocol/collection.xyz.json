@@ -1,0 +1,42 @@
+{
+  "id": "collection.xyz",
+  "name": "Collection.xyz",
+  "type": "nft marketplace",
+  "website": "https://collection.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Collection.xyz Main Contract",
+      "type": "core",
+      "description": "Main contract for Collection.xyz",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/collection.xyz",
+      "updated": "2025-01-31"
+    }
+  }
+}

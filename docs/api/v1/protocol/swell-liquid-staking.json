@@ -1,0 +1,42 @@
+{
+  "id": "swell-liquid-staking",
+  "name": "Swell Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://app.swellnetwork.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swell Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Swell Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swell-liquid-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

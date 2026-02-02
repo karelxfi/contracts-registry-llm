@@ -1,0 +1,42 @@
+{
+  "id": "hashdao-finance",
+  "name": "HashDAO Finance",
+  "type": "derivatives",
+  "website": "https://www.hashdao.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HashDAO Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for HashDAO Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hashdao-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

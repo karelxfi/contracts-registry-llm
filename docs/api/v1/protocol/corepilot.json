@@ -1,0 +1,42 @@
+{
+  "id": "corepilot",
+  "name": "Corepilot",
+  "type": "liquid staking",
+  "website": "https://www.corepilot.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Corepilot Main Contract",
+      "type": "core",
+      "description": "Main contract for Corepilot",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/corepilot",
+      "updated": "2025-01-31"
+    }
+  }
+}

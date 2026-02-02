@@ -1,0 +1,42 @@
+{
+  "id": "sailing-protocol",
+  "name": "Sailing Protocol",
+  "type": "rwa",
+  "website": "https://sailingprotocol.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sailing Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Sailing Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sailing-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

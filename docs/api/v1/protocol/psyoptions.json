@@ -1,0 +1,45 @@
+{
+  "id": "psyoptions",
+  "name": "PsyOptions",
+  "type": "options",
+  "website": "https://www.psyoptions.io",
+  "github": [
+    "mithraiclabs"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PsyOptions Main Contract",
+      "type": "core",
+      "description": "Main contract for PsyOptions",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/psyoptions",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

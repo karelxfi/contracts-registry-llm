@@ -1,0 +1,42 @@
+{
+  "id": "steth.win",
+  "name": "stETH.win",
+  "type": "yield lottery",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield lottery",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "stETH.win Main Contract",
+      "type": "core",
+      "description": "Main contract for stETH.win",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/steth.win",
+      "updated": "2025-01-31"
+    }
+  }
+}

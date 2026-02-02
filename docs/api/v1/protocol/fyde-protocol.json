@@ -1,0 +1,42 @@
+{
+  "id": "fyde-protocol",
+  "name": "Fyde Protocol",
+  "type": "yield aggregator",
+  "website": "http://www.fyde.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fyde Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Fyde Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fyde-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

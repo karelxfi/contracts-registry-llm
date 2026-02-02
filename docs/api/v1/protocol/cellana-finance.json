@@ -1,0 +1,43 @@
+{
+  "id": "cellana-finance",
+  "name": "Cellana Finance",
+  "type": "dexs",
+  "website": "https://cellana.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cellana Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Cellana Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cellana-finance",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

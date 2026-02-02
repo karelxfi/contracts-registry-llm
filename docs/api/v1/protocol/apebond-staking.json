@@ -1,0 +1,60 @@
+{
+  "id": "apebond-staking",
+  "name": "ApeBond Staking",
+  "type": "farm",
+  "website": "https://ape.bond",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ApeBond Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for ApeBond Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apebond-staking",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/apebond-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

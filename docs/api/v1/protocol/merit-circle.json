@@ -1,0 +1,44 @@
+{
+  "id": "merit-circle",
+  "name": "Merit Circle",
+  "type": "launchpad",
+  "website": "https://www.meritcircle.io/",
+  "github": [
+    "Merit-Circle"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Merit Circle Main Contract",
+      "type": "core",
+      "description": "Main contract for Merit Circle",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/merit-circle",
+      "updated": "2025-01-31"
+    }
+  }
+}

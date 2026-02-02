@@ -1,0 +1,42 @@
+{
+  "id": "syntropia",
+  "name": "Syntropia",
+  "type": "yield aggregator",
+  "website": "https://syntropia.ai/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Syntropia Main Contract",
+      "type": "core",
+      "description": "Main contract for Syntropia",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/syntropia",
+      "updated": "2025-01-31"
+    }
+  }
+}

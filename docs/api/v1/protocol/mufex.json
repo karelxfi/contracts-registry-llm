@@ -1,0 +1,78 @@
+{
+  "id": "mufex",
+  "name": "MUFEX",
+  "type": "derivatives",
+  "website": "https://www.mufex.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "polygon",
+    "arbitrum",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MUFEX Main Contract",
+      "type": "core",
+      "description": "Main contract for MUFEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mufex",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mufex",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mufex",
+      "updated": "2025-01-31"
+    }
+  }
+}

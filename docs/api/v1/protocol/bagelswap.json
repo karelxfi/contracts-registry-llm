@@ -1,0 +1,42 @@
+{
+  "id": "bagelswap",
+  "name": "Bagelswap",
+  "type": "dexs",
+  "website": "https://www.bagelswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bagelswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Bagelswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bagelswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

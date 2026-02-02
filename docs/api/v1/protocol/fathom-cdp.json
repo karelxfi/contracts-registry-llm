@@ -1,0 +1,42 @@
+{
+  "id": "fathom-cdp",
+  "name": "Fathom CDP",
+  "type": "cdp",
+  "website": "https://fathom.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fathom CDP Main Contract",
+      "type": "core",
+      "description": "Main contract for Fathom CDP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fathom-cdp",
+      "updated": "2025-01-31"
+    }
+  }
+}

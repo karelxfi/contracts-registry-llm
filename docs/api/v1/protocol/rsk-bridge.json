@@ -1,0 +1,61 @@
+{
+  "id": "rsk-bridge",
+  "name": "RSK Bridge",
+  "type": "canonical bridge",
+  "website": "https://tokenbridge.rsk.co",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RSK Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for RSK Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rsk-bridge",
+      "updated": "2025-01-31"
+    },
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rsk-bridge",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

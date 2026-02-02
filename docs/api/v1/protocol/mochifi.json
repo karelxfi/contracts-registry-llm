@@ -1,0 +1,42 @@
+{
+  "id": "mochifi",
+  "name": "MochiFi",
+  "type": "lending",
+  "website": "https://mochi.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MochiFi Main Contract",
+      "type": "core",
+      "description": "Main contract for MochiFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mochifi",
+      "updated": "2025-01-31"
+    }
+  }
+}

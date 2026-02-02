@@ -1,0 +1,42 @@
+{
+  "id": "caviar-v1",
+  "name": "Caviar V1",
+  "type": "nft marketplace",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft marketplace",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Caviar V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Caviar V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/caviar-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

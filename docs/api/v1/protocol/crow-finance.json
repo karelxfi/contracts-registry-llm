@@ -1,0 +1,44 @@
+{
+  "id": "crow-finance",
+  "name": "Crow Finance",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "crowfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Crow Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Crow Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crow-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

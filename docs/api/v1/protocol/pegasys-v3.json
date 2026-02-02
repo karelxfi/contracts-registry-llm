@@ -1,0 +1,42 @@
+{
+  "id": "pegasys-v3",
+  "name": "PegaSys V3",
+  "type": "dexs",
+  "website": "https://pegasys.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "rollux"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PegaSys V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for PegaSys V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "rollux": {
+      "chain": "rollux",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pegasys-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

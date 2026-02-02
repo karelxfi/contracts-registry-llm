@@ -1,0 +1,42 @@
+{
+  "id": "handle.fi-hsp",
+  "name": "handle.fi hSP",
+  "type": "derivatives",
+  "website": "https://app.handle.fi/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "handle.fi hSP Main Contract",
+      "type": "core",
+      "description": "Main contract for handle.fi hSP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/handle.fi-hsp",
+      "updated": "2025-01-31"
+    }
+  }
+}

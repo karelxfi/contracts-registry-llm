@@ -1,0 +1,61 @@
+{
+  "id": "hope-collateral",
+  "name": "HOPE Collateral",
+  "type": "basis trading",
+  "website": "https://hope.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HOPE Collateral Main Contract",
+      "type": "core",
+      "description": "Main contract for HOPE Collateral",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hope-collateral",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hope-collateral",
+      "updated": "2025-01-31"
+    }
+  }
+}

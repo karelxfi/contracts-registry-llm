@@ -1,0 +1,44 @@
+{
+  "id": "symbiotic",
+  "name": "Symbiotic",
+  "type": "restaking",
+  "website": "https://symbiotic.fi",
+  "github": [
+    "symbioticfi"
+  ],
+  "docs": "",
+  "tags": [
+    "restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Symbiotic Main Contract",
+      "type": "core",
+      "description": "Main contract for Symbiotic",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/symbiotic",
+      "updated": "2025-01-31"
+    }
+  }
+}

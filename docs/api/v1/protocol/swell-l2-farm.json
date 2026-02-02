@@ -1,0 +1,42 @@
+{
+  "id": "swell-l2-farm",
+  "name": "Swell L2 Farm",
+  "type": "farm",
+  "website": "https://www.swellnetwork.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swell L2 Farm Main Contract",
+      "type": "core",
+      "description": "Main contract for Swell L2 Farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swell-l2-farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

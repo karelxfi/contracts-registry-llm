@@ -1,0 +1,42 @@
+{
+  "id": "mirrosset",
+  "name": "mirrosset",
+  "type": "cdp",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "mirrosset Main Contract",
+      "type": "core",
+      "description": "Main contract for mirrosset",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mirrosset",
+      "updated": "2025-01-31"
+    }
+  }
+}

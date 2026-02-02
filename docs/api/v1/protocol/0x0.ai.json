@@ -1,0 +1,42 @@
+{
+  "id": "0x0.ai",
+  "name": "0x0.ai",
+  "type": "privacy",
+  "website": "https://0x0.ai",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "0x0.ai Main Contract",
+      "type": "core",
+      "description": "Main contract for 0x0.ai",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0x0.ai",
+      "updated": "2025-01-31"
+    }
+  }
+}

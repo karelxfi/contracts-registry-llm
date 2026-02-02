@@ -1,0 +1,42 @@
+{
+  "id": "orbit-protocol",
+  "name": "Orbit Protocol",
+  "type": "lending",
+  "website": "https://app.orbitlending.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Orbit Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Orbit Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/orbit-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

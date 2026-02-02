@@ -1,0 +1,97 @@
+{
+  "id": "accumulated-finance-liquid-staking",
+  "name": "Accumulated Finance Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://accumulated.finance/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "manta",
+    "sei",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Accumulated Finance Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Accumulated Finance Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/accumulated-finance-liquid-staking",
+      "updated": "2025-01-31"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/accumulated-finance-liquid-staking",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/accumulated-finance-liquid-staking",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/accumulated-finance-liquid-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

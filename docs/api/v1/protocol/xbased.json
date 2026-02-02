@@ -1,0 +1,44 @@
+{
+  "id": "xbased",
+  "name": "XBased",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "xbased-xyz"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "XBased Main Contract",
+      "type": "core",
+      "description": "Main contract for XBased",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xbased",
+      "updated": "2025-01-31"
+    }
+  }
+}

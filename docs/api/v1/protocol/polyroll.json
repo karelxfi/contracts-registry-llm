@@ -1,0 +1,42 @@
+{
+  "id": "polyroll",
+  "name": "Polyroll",
+  "type": "yield",
+  "website": "https://polyroll.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polyroll Main Contract",
+      "type": "core",
+      "description": "Main contract for Polyroll",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polyroll",
+      "updated": "2025-01-31"
+    }
+  }
+}

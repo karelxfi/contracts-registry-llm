@@ -1,0 +1,42 @@
+{
+  "id": "hummus-amm",
+  "name": "Hummus AMM",
+  "type": "dexs",
+  "website": "https://www.hummus.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hummus AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Hummus AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hummus-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

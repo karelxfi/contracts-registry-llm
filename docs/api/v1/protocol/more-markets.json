@@ -1,0 +1,43 @@
+{
+  "id": "more-markets",
+  "name": "MORE Markets",
+  "type": "lending",
+  "website": "https://www.more.markets",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "flow"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MORE Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for MORE Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flow": {
+      "chain": "flow",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/more-markets",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linea-bridge",
+  "name": "Linea Bridge",
+  "type": "canonical bridge",
+  "website": "https://bridge.linea.build",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Linea Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Linea Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/linea-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

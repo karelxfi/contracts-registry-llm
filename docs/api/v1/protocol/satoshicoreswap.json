@@ -1,0 +1,42 @@
+{
+  "id": "satoshicoreswap",
+  "name": "SatoshiCoreSwap",
+  "type": "dexs",
+  "website": "https://satoshicoreswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SatoshiCoreSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SatoshiCoreSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/satoshicoreswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

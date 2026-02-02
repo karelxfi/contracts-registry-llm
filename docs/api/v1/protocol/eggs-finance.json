@@ -1,0 +1,42 @@
+{
+  "id": "eggs-finance",
+  "name": "Eggs Finance",
+  "type": "reserve currency",
+  "website": "https://eggs.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eggs Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Eggs Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eggs-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

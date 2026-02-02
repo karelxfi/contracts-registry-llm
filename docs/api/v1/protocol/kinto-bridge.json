@@ -1,0 +1,42 @@
+{
+  "id": "kinto-bridge",
+  "name": "Kinto Bridge",
+  "type": "canonical bridge",
+  "website": "https://www.kinto.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinto Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinto Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinto-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

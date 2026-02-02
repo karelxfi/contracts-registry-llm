@@ -1,0 +1,60 @@
+{
+  "id": "invariant-group",
+  "name": "Invariant Group",
+  "type": "risk curators",
+  "website": "https://invariant.group/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "plasma",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Invariant Group Main Contract",
+      "type": "core",
+      "description": "Main contract for Invariant Group",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/invariant-group",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/invariant-group",
+      "updated": "2025-01-31"
+    }
+  }
+}

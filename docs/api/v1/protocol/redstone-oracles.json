@@ -1,0 +1,42 @@
+{
+  "id": "redstone-oracles",
+  "name": "RedStone Oracles",
+  "type": "oracle",
+  "website": "https://redstone.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "oracle",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RedStone Oracles Main Contract",
+      "type": "core",
+      "description": "Main contract for RedStone Oracles",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/redstone-oracles",
+      "updated": "2025-01-31"
+    }
+  }
+}

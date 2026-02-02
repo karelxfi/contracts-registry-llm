@@ -1,0 +1,44 @@
+{
+  "id": "basemax",
+  "name": "Basemax",
+  "type": "derivatives",
+  "website": "",
+  "github": [
+    "basemaxfi"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basemax Main Contract",
+      "type": "core",
+      "description": "Main contract for Basemax",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basemax",
+      "updated": "2025-01-31"
+    }
+  }
+}

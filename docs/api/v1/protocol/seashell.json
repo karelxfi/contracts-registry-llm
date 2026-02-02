@@ -1,0 +1,42 @@
+{
+  "id": "seashell",
+  "name": "Seashell",
+  "type": "yield",
+  "website": "http://www.seashell.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Seashell Main Contract",
+      "type": "core",
+      "description": "Main contract for Seashell",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/seashell",
+      "updated": "2025-01-31"
+    }
+  }
+}

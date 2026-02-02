@@ -1,0 +1,42 @@
+{
+  "id": "alphadex",
+  "name": "Alphadex",
+  "type": "dexs",
+  "website": "https://alphadex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alphadex Main Contract",
+      "type": "core",
+      "description": "Main contract for Alphadex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alphadex",
+      "updated": "2025-01-31"
+    }
+  }
+}

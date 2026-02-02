@@ -1,0 +1,45 @@
+{
+  "id": "dual-finance",
+  "name": "Dual Finance",
+  "type": "options",
+  "website": "https://beta.dual.finance",
+  "github": [
+    "Dual-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dual Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Dual Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dual-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

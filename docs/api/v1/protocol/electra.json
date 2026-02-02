@@ -1,0 +1,63 @@
+{
+  "id": "electra",
+  "name": "Electra",
+  "type": "derivatives",
+  "website": "https://electra.trade/",
+  "github": [
+    "ElectraFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Electra Main Contract",
+      "type": "core",
+      "description": "Main contract for Electra",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/electra",
+      "updated": "2025-01-31"
+    },
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/electra",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

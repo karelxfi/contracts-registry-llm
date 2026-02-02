@@ -1,0 +1,44 @@
+{
+  "id": "grappa-finance",
+  "name": "Grappa Finance",
+  "type": "options vault",
+  "website": "https://www.grappa.finance",
+  "github": [
+    "grappafinance"
+  ],
+  "docs": "",
+  "tags": [
+    "options vault",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Grappa Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Grappa Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/grappa-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

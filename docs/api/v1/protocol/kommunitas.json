@@ -1,0 +1,60 @@
+{
+  "id": "kommunitas",
+  "name": "Kommunitas",
+  "type": "launchpad",
+  "website": "https://kommunitas.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kommunitas Main Contract",
+      "type": "core",
+      "description": "Main contract for Kommunitas",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kommunitas",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kommunitas",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "swell-earn",
+  "name": "Swell Earn",
+  "type": "yield aggregator",
+  "website": "https://app.swellnetwork.io/earn/vaults",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swell Earn Main Contract",
+      "type": "core",
+      "description": "Main contract for Swell Earn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swell-earn",
+      "updated": "2025-01-31"
+    }
+  }
+}

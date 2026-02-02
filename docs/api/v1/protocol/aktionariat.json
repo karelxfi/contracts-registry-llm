@@ -1,0 +1,62 @@
+{
+  "id": "aktionariat",
+  "name": "Aktionariat",
+  "type": "rwa",
+  "website": "https://www.aktionariat.com/",
+  "github": [
+    "aktionariat"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aktionariat Main Contract",
+      "type": "core",
+      "description": "Main contract for Aktionariat",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aktionariat",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aktionariat",
+      "updated": "2025-01-31"
+    }
+  }
+}

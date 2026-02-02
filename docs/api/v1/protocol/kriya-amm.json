@@ -1,0 +1,43 @@
+{
+  "id": "kriya-amm",
+  "name": "Kriya AMM",
+  "type": "dexs",
+  "website": "https://app.kriya.finance/spot/liquidity",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kriya AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Kriya AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kriya-amm",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

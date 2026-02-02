@@ -1,0 +1,100 @@
+{
+  "id": "21.co",
+  "name": "21.co",
+  "type": "bridge",
+  "website": "https://www.21.co/tokens",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin",
+    "doge",
+    "solana",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "21.co Main Contract",
+      "type": "core",
+      "description": "Main contract for 21.co",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/21.co",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "doge": {
+      "chain": "doge",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/21.co",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/21.co",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/21.co",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

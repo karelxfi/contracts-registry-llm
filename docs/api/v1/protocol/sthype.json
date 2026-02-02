@@ -1,0 +1,43 @@
+{
+  "id": "sthype",
+  "name": "stHYPE",
+  "type": "liquid staking",
+  "website": "https://www.stakedhype.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "stHYPE Main Contract",
+      "type": "core",
+      "description": "Main contract for stHYPE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sthype",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

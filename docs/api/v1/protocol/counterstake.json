@@ -1,0 +1,78 @@
+{
+  "id": "counterstake",
+  "name": "Counterstake",
+  "type": "cross chain bridge",
+  "website": "https://counterstake.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cross chain bridge",
+    "ethereum",
+    "polygon",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Counterstake Main Contract",
+      "type": "core",
+      "description": "Main contract for Counterstake",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/counterstake",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/counterstake",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/counterstake",
+      "updated": "2025-01-31"
+    }
+  }
+}

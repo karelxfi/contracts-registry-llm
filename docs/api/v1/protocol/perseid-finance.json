@@ -1,0 +1,42 @@
+{
+  "id": "perseid-finance",
+  "name": "Perseid Finance",
+  "type": "leveraged farming",
+  "website": "https://www.perseid.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Perseid Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Perseid Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perseid-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

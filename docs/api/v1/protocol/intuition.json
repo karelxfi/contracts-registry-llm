@@ -1,0 +1,44 @@
+{
+  "id": "intuition",
+  "name": "Intuition",
+  "type": "developer tools",
+  "website": "https://www.intuition.systems",
+  "github": [
+    "0xIntuition"
+  ],
+  "docs": "",
+  "tags": [
+    "developer tools",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Intuition Main Contract",
+      "type": "core",
+      "description": "Main contract for Intuition",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/intuition",
+      "updated": "2025-01-31"
+    }
+  }
+}

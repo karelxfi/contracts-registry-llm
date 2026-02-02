@@ -1,0 +1,43 @@
+{
+  "id": "rain.fi",
+  "name": "Rain.fi",
+  "type": "lending",
+  "website": "https://rain.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rain.fi Main Contract",
+      "type": "core",
+      "description": "Main contract for Rain.fi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rain.fi",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

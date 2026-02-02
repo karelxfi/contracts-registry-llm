@@ -1,0 +1,42 @@
+{
+  "id": "itrust-finance",
+  "name": "iTrust Finance",
+  "type": "insurance",
+  "website": "https://itrust.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "iTrust Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for iTrust Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/itrust-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "onre",
+  "name": "OnRe",
+  "type": "rwa",
+  "website": "https://app.onre.finance/earn/leaderboard?ref=FDHRTE658",
+  "github": [
+    "onre-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OnRe Main Contract",
+      "type": "core",
+      "description": "Main contract for OnRe",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/onre",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

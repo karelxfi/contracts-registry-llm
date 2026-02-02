@@ -1,0 +1,42 @@
+{
+  "id": "bulla-exchange",
+  "name": "Bulla Exchange",
+  "type": "dexs",
+  "website": "https://www.bulla.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bulla Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Bulla Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bulla-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "stakehouse",
+  "name": "Stakehouse",
+  "type": "liquid staking",
+  "website": "https://joinstakehouse.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stakehouse Main Contract",
+      "type": "core",
+      "description": "Main contract for Stakehouse",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stakehouse",
+      "updated": "2025-01-31"
+    }
+  }
+}

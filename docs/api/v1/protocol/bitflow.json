@@ -1,0 +1,44 @@
+{
+  "id": "bitflow",
+  "name": "Bitflow",
+  "type": "dexs",
+  "website": "https://www.bitflow.finance/",
+  "github": [
+    "BitflowFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "stacks"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bitflow Main Contract",
+      "type": "core",
+      "description": "Main contract for Bitflow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stacks": {
+      "chain": "stacks",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitflow",
+      "updated": "2025-01-31"
+    }
+  }
+}

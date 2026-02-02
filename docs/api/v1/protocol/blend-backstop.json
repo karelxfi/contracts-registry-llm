@@ -1,0 +1,43 @@
+{
+  "id": "blend-backstop",
+  "name": "Blend Backstop",
+  "type": "insurance",
+  "website": "https://www.blend.capital",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blend Backstop Main Contract",
+      "type": "core",
+      "description": "Main contract for Blend Backstop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blend-backstop",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

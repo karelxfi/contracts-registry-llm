@@ -1,0 +1,45 @@
+{
+  "id": "bodega-market",
+  "name": "Bodega Market",
+  "type": "prediction market",
+  "website": "https://www.bodegamarket.io",
+  "github": [
+    "bodega-market"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bodega Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Bodega Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bodega-market",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ctez",
+  "name": "ctez",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "Tezsure"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ctez Main Contract",
+      "type": "core",
+      "description": "Main contract for ctez",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ctez",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

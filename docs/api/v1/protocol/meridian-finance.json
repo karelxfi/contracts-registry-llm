@@ -1,0 +1,42 @@
+{
+  "id": "meridian-finance",
+  "name": "Meridian Finance",
+  "type": "cdp",
+  "website": "https://www.meridianfinance.net/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meridian Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Meridian Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meridian-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

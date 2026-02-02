@@ -1,0 +1,42 @@
+{
+  "id": "mama",
+  "name": "MAMA",
+  "type": "dexs",
+  "website": "https://mama.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MAMA Main Contract",
+      "type": "core",
+      "description": "Main contract for MAMA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mama",
+      "updated": "2025-01-31"
+    }
+  }
+}

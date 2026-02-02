@@ -1,0 +1,43 @@
+{
+  "id": "rhea-lst",
+  "name": "RHEA LST",
+  "type": "liquid staking",
+  "website": "https://www.rhea.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RHEA LST Main Contract",
+      "type": "core",
+      "description": "Main contract for RHEA LST",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rhea-lst",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

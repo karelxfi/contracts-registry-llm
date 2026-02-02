@@ -1,0 +1,45 @@
+{
+  "id": "access-protocol",
+  "name": "Access Protocol",
+  "type": "sofi",
+  "website": "https://www.accessprotocol.co",
+  "github": [
+    "Access-Labs-Inc"
+  ],
+  "docs": "",
+  "tags": [
+    "sofi",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Access Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Access Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/access-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

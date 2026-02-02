@@ -1,0 +1,44 @@
+{
+  "id": "winnieswap",
+  "name": "WinnieSwap",
+  "type": "dexs",
+  "website": "https://winnieswap.com",
+  "github": [
+    "StakeLab-Zone"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WinnieSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for WinnieSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/winnieswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

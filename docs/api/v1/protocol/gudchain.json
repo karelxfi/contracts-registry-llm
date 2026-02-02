@@ -1,0 +1,42 @@
+{
+  "id": "gudchain",
+  "name": "Gudchain",
+  "type": "farm",
+  "website": "https://gudchain.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Gudchain Main Contract",
+      "type": "core",
+      "description": "Main contract for Gudchain",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gudchain",
+      "updated": "2025-01-31"
+    }
+  }
+}

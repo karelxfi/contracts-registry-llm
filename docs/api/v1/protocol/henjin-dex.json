@@ -1,0 +1,44 @@
+{
+  "id": "henjin-dex",
+  "name": "Henjin DEX",
+  "type": "dexs",
+  "website": "https://henjin.xyz/",
+  "github": [
+    "HenjinDEX"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Henjin DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for Henjin DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/henjin-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

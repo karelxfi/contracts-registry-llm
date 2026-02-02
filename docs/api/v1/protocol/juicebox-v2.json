@@ -1,0 +1,42 @@
+{
+  "id": "juicebox-v2",
+  "name": "Juicebox V2",
+  "type": "launchpad",
+  "website": "https://juicebox.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Juicebox V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Juicebox V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/juicebox-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

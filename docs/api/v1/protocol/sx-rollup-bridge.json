@@ -1,0 +1,42 @@
+{
+  "id": "sx-rollup-bridge",
+  "name": "SX Rollup Bridge",
+  "type": "canonical bridge",
+  "website": "https://bridge.sx.technology/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SX Rollup Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for SX Rollup Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sx-rollup-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

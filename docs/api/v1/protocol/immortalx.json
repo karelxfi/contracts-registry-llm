@@ -1,0 +1,42 @@
+{
+  "id": "immortalx",
+  "name": "ImmortalX",
+  "type": "derivatives",
+  "website": "https://www.immortalx.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ImmortalX Main Contract",
+      "type": "core",
+      "description": "Main contract for ImmortalX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/immortalx",
+      "updated": "2025-01-31"
+    }
+  }
+}

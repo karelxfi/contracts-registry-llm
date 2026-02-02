@@ -1,0 +1,42 @@
+{
+  "id": "kavastarter",
+  "name": "Kavastarter",
+  "type": "launchpad",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kavastarter Main Contract",
+      "type": "core",
+      "description": "Main contract for Kavastarter",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kavastarter",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "furucombo",
+  "name": "Furucombo",
+  "type": "services",
+  "website": "https://furucombo.app",
+  "github": [
+    "dinngodev"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Furucombo Main Contract",
+      "type": "core",
+      "description": "Main contract for Furucombo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/furucombo",
+      "updated": "2025-01-31"
+    }
+  }
+}

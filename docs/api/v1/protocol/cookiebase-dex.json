@@ -1,0 +1,42 @@
+{
+  "id": "cookiebase-dex",
+  "name": "CookieBase Dex",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CookieBase Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for CookieBase Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cookiebase-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "kewl-exchange",
+  "name": "KEWL EXCHANGE",
+  "type": "dexs",
+  "website": "https://www.kewl.exchange",
+  "github": [
+    "kewlexchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "avalanche",
+    "sonic",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KEWL EXCHANGE Main Contract",
+      "type": "core",
+      "description": "Main contract for KEWL EXCHANGE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kewl-exchange",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kewl-exchange",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kewl-exchange",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kewl-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

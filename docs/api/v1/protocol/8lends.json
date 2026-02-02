@@ -1,0 +1,42 @@
+{
+  "id": "8lends",
+  "name": "8lends",
+  "type": "rwa lending",
+  "website": "https://app.8lends.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "8lends Main Contract",
+      "type": "core",
+      "description": "Main contract for 8lends",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/8lends",
+      "updated": "2025-01-31"
+    }
+  }
+}

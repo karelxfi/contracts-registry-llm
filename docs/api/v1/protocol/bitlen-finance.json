@@ -1,0 +1,44 @@
+{
+  "id": "bitlen-finance",
+  "name": "Bitlen Finance",
+  "type": "lending",
+  "website": "https://www.bitlen.io",
+  "github": [
+    "bitlen-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bitlen Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Bitlen Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitlen-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "solstice-usx",
+  "name": "Solstice USX",
+  "type": "basis trading",
+  "website": "https://solstice.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solstice USX Main Contract",
+      "type": "core",
+      "description": "Main contract for Solstice USX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solstice-usx",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

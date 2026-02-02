@@ -1,0 +1,60 @@
+{
+  "id": "snowswap",
+  "name": "SnowSwap",
+  "type": "dexs",
+  "website": "https://snowswap.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SnowSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SnowSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/snowswap",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/snowswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

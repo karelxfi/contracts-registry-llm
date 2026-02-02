@@ -1,0 +1,62 @@
+{
+  "id": "myx-finance",
+  "name": "MYX Finance",
+  "type": "derivatives",
+  "website": "https://app.myx.finance/referrals?invitationCode=H43P6XB",
+  "github": [
+    "myx-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "linea",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MYX Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for MYX Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myx-finance",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/myx-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bfx-(blast-futures)",
+  "name": "BFX (Blast Futures)",
+  "type": "derivatives",
+  "website": "https://bfx.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BFX (Blast Futures) Main Contract",
+      "type": "core",
+      "description": "Main contract for BFX (Blast Futures)",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bfx-(blast-futures)",
+      "updated": "2025-01-31"
+    }
+  }
+}

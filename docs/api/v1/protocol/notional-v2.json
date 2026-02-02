@@ -1,0 +1,42 @@
+{
+  "id": "notional-v2",
+  "name": "Notional V2",
+  "type": "lending",
+  "website": "https://notional.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Notional V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Notional V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/notional-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

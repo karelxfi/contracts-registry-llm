@@ -1,0 +1,43 @@
+{
+  "id": "hypervault",
+  "name": "HyperVault",
+  "type": "yield aggregator",
+  "website": "https://app.hypervault.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HyperVault Main Contract",
+      "type": "core",
+      "description": "Main contract for HyperVault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hypervault",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sharwa.finance",
+  "name": "Sharwa.Finance",
+  "type": "derivatives",
+  "website": "https://sharwa.finance/",
+  "github": [
+    "SharwaFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sharwa.Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Sharwa.Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sharwa.finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "hlp0",
+  "name": "HLP0",
+  "type": "yield",
+  "website": "https://www.hlp0.to/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HLP0 Main Contract",
+      "type": "core",
+      "description": "Main contract for HLP0",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hlp0",
+      "updated": "2025-01-31"
+    }
+  }
+}

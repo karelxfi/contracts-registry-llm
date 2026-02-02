@@ -1,0 +1,62 @@
+{
+  "id": "kogefarm",
+  "name": "Kogefarm",
+  "type": "yield",
+  "website": "https://kogefarm.io",
+  "github": [
+    "kogecoin"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "polygon",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kogefarm Main Contract",
+      "type": "core",
+      "description": "Main contract for Kogefarm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kogefarm",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kogefarm",
+      "updated": "2025-01-31"
+    }
+  }
+}

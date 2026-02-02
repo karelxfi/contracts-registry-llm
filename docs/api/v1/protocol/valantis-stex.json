@@ -1,0 +1,43 @@
+{
+  "id": "valantis-stex",
+  "name": "Valantis STEX",
+  "type": "dexs",
+  "website": "https://www.valantis.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Valantis STEX Main Contract",
+      "type": "core",
+      "description": "Main contract for Valantis STEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/valantis-stex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

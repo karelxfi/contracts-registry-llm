@@ -1,0 +1,44 @@
+{
+  "id": "bencufi",
+  "name": "BencuFi",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "bencufi"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BencuFi Main Contract",
+      "type": "core",
+      "description": "Main contract for BencuFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bencufi",
+      "updated": "2025-01-31"
+    }
+  }
+}

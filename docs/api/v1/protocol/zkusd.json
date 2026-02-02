@@ -1,0 +1,44 @@
+{
+  "id": "zkusd",
+  "name": "zkUSD",
+  "type": "cdp",
+  "website": "",
+  "github": [
+    "zkUSD"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "zkUSD Main Contract",
+      "type": "core",
+      "description": "Main contract for zkUSD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zkusd",
+      "updated": "2025-01-31"
+    }
+  }
+}

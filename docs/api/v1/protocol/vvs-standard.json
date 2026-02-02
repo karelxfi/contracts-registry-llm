@@ -1,0 +1,42 @@
+{
+  "id": "vvs-standard",
+  "name": "VVS Standard",
+  "type": "dexs",
+  "website": "https://vvs.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "VVS Standard Main Contract",
+      "type": "core",
+      "description": "Main contract for VVS Standard",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vvs-standard",
+      "updated": "2025-01-31"
+    }
+  }
+}

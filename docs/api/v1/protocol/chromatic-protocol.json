@@ -1,0 +1,44 @@
+{
+  "id": "chromatic-protocol",
+  "name": "Chromatic Protocol",
+  "type": "derivatives",
+  "website": "https://www.chromatic.finance",
+  "github": [
+    "chromatic-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chromatic Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Chromatic Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chromatic-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

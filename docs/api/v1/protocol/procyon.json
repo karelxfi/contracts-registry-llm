@@ -1,0 +1,42 @@
+{
+  "id": "procyon",
+  "name": "Procyon",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Procyon Main Contract",
+      "type": "core",
+      "description": "Main contract for Procyon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/procyon",
+      "updated": "2025-01-31"
+    }
+  }
+}

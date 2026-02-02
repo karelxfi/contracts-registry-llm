@@ -1,0 +1,43 @@
+{
+  "id": "filament-v1",
+  "name": "Filament V1",
+  "type": "derivatives",
+  "website": "https://filament.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Filament V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Filament V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/filament-v1",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

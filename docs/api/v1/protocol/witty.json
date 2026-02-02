@@ -1,0 +1,44 @@
+{
+  "id": "witty",
+  "name": "Witty",
+  "type": "gaming",
+  "website": "https://www.witty.game/",
+  "github": [
+    "maketh-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "abstract"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Witty Main Contract",
+      "type": "core",
+      "description": "Main contract for Witty",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/witty",
+      "updated": "2025-01-31"
+    }
+  }
+}

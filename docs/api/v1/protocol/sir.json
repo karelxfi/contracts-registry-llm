@@ -1,0 +1,63 @@
+{
+  "id": "sir",
+  "name": "SIR",
+  "type": "derivatives",
+  "website": "https://www.sir.trading",
+  "github": [
+    "SIR-trading"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SIR Main Contract",
+      "type": "core",
+      "description": "Main contract for SIR",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sir",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sir",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

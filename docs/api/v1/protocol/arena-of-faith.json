@@ -1,0 +1,42 @@
+{
+  "id": "arena-of-faith",
+  "name": "Arena of Faith",
+  "type": "farm",
+  "website": "https://aof.global/staking",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arena of Faith Main Contract",
+      "type": "core",
+      "description": "Main contract for Arena of Faith",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arena-of-faith",
+      "updated": "2025-01-31"
+    }
+  }
+}

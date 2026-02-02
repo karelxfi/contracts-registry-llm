@@ -1,0 +1,60 @@
+{
+  "id": "synfutures-v3",
+  "name": "SynFutures V3",
+  "type": "derivatives",
+  "website": "https://trade.synfutures.com/#/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SynFutures V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for SynFutures V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synfutures-v3",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synfutures-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

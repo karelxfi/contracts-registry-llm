@@ -1,0 +1,42 @@
+{
+  "id": "limitless-exchange",
+  "name": "Limitless Exchange",
+  "type": "prediction market",
+  "website": "https://limitless.exchange/?r=0UWWSGL92U",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Limitless Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Limitless Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/limitless-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "botanix-bridge",
+  "name": "Botanix Bridge",
+  "type": "canonical bridge",
+  "website": "https://bridge.botanixlabs.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Botanix Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Botanix Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/botanix-bridge",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "firebird",
+  "name": "Firebird",
+  "type": "dex aggregator",
+  "website": "",
+  "github": [
+    "firebird-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Firebird Main Contract",
+      "type": "core",
+      "description": "Main contract for Firebird",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/firebird",
+      "updated": "2025-01-31"
+    }
+  }
+}

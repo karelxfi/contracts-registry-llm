@@ -1,0 +1,42 @@
+{
+  "id": "anchor",
+  "name": "Anchor",
+  "type": "lending",
+  "website": "https://anchorprotocol.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Anchor Main Contract",
+      "type": "core",
+      "description": "Main contract for Anchor",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anchor",
+      "updated": "2025-01-31"
+    }
+  }
+}

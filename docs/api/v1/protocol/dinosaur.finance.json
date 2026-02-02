@@ -1,0 +1,42 @@
+{
+  "id": "dinosaur.finance",
+  "name": "Dinosaur.Finance",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Dinosaur.Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Dinosaur.Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dinosaur.finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

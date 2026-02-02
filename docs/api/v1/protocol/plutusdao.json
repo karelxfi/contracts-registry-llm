@@ -1,0 +1,42 @@
+{
+  "id": "plutusdao",
+  "name": "PlutusDAO",
+  "type": "yield",
+  "website": "https://plutusdao.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PlutusDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for PlutusDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/plutusdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

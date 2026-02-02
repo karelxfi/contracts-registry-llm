@@ -1,0 +1,43 @@
+{
+  "id": "lifinity-v1",
+  "name": "Lifinity V1",
+  "type": "dexs",
+  "website": "https://lifinity.io/pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lifinity V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Lifinity V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lifinity-v1",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

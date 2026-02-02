@@ -1,0 +1,61 @@
+{
+  "id": "blueberry",
+  "name": "Blueberry",
+  "type": "yield",
+  "website": "https://app.blueberry.garden",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "hyperliquid-l1",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blueberry Main Contract",
+      "type": "core",
+      "description": "Main contract for Blueberry",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blueberry",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blueberry",
+      "updated": "2025-01-31"
+    }
+  }
+}

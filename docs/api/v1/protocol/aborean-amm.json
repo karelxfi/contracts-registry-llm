@@ -1,0 +1,42 @@
+{
+  "id": "aborean-amm",
+  "name": "Aborean AMM",
+  "type": "dexs",
+  "website": "https://aborean.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "abstract"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aborean AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Aborean AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aborean-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

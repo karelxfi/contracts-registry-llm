@@ -1,0 +1,43 @@
+{
+  "id": "mining-tycoon",
+  "name": "Mining Tycoon",
+  "type": "ponzi",
+  "website": "https://miningtycoon.fun",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "ponzi",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mining Tycoon Main Contract",
+      "type": "core",
+      "description": "Main contract for Mining Tycoon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mining-tycoon",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

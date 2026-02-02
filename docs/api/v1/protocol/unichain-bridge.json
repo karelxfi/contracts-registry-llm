@@ -1,0 +1,42 @@
+{
+  "id": "unichain-bridge",
+  "name": "Unichain Bridge",
+  "type": "canonical bridge",
+  "website": "https://www.unichain.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unichain Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Unichain Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unichain-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

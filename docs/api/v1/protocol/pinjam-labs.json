@@ -1,0 +1,42 @@
+{
+  "id": "pinjam-labs",
+  "name": "Pinjam Labs",
+  "type": "lending",
+  "website": "https://pinjamlabs.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pinjam Labs Main Contract",
+      "type": "core",
+      "description": "Main contract for Pinjam Labs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pinjam-labs",
+      "updated": "2025-01-31"
+    }
+  }
+}

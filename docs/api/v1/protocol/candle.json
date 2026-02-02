@@ -1,0 +1,42 @@
+{
+  "id": "candle",
+  "name": "Candle",
+  "type": "dexs",
+  "website": "https://candlelabs.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Candle Main Contract",
+      "type": "core",
+      "description": "Main contract for Candle",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/candle",
+      "updated": "2025-01-31"
+    }
+  }
+}

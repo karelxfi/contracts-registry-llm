@@ -1,0 +1,42 @@
+{
+  "id": "kona-stableswap",
+  "name": "Kona Stableswap",
+  "type": "dexs",
+  "website": "https://kona.surf/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "abstract"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kona Stableswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Kona Stableswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kona-stableswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

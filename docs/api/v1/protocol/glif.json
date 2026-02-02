@@ -1,0 +1,44 @@
+{
+  "id": "glif",
+  "name": "GLIF",
+  "type": "liquid staking",
+  "website": "https://glif.io",
+  "github": [
+    "glifio"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GLIF Main Contract",
+      "type": "core",
+      "description": "Main contract for GLIF",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/glif",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "qilin",
+  "name": "Qilin",
+  "type": "dexs",
+  "website": "https://qilin.fi/",
+  "github": [
+    "CodexDao"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Qilin Main Contract",
+      "type": "core",
+      "description": "Main contract for Qilin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/qilin",
+      "updated": "2025-01-31"
+    }
+  }
+}

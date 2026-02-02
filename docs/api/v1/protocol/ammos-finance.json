@@ -1,0 +1,42 @@
+{
+  "id": "ammos-finance",
+  "name": "Ammos Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ammos Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Ammos Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ammos-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

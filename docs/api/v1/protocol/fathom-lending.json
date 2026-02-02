@@ -1,0 +1,42 @@
+{
+  "id": "fathom-lending",
+  "name": "Fathom Lending",
+  "type": "lending",
+  "website": "https://fathom.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fathom Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Fathom Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fathom-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

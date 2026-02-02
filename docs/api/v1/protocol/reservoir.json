@@ -1,0 +1,42 @@
+{
+  "id": "reservoir",
+  "name": "Reservoir",
+  "type": "dexs",
+  "website": "https://reservoir.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Reservoir Main Contract",
+      "type": "core",
+      "description": "Main contract for Reservoir",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reservoir",
+      "updated": "2025-01-31"
+    }
+  }
+}

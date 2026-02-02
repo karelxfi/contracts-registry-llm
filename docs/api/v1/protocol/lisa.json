@@ -1,0 +1,42 @@
+{
+  "id": "lisa",
+  "name": "LISA",
+  "type": "liquid staking",
+  "website": "https://www.lisalab.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "stacks"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LISA Main Contract",
+      "type": "core",
+      "description": "Main contract for LISA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stacks": {
+      "chain": "stacks",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lisa",
+      "updated": "2025-01-31"
+    }
+  }
+}

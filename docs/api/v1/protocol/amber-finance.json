@@ -1,0 +1,45 @@
+{
+  "id": "amber-finance",
+  "name": "Amber Finance",
+  "type": "lending",
+  "website": "https://amberfi.io",
+  "github": [
+    "Amber-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amber Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Amber Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amber-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

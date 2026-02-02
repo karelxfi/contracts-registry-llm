@@ -1,0 +1,42 @@
+{
+  "id": "moonbase-alpha",
+  "name": "Moonbase Alpha",
+  "type": "dexs",
+  "website": "https://exchange.themoonbase.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moonbase Alpha Main Contract",
+      "type": "core",
+      "description": "Main contract for Moonbase Alpha",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moonbase-alpha",
+      "updated": "2025-01-31"
+    }
+  }
+}

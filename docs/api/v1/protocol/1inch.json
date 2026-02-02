@@ -1,0 +1,44 @@
+{
+  "id": "1inch",
+  "name": "1inch",
+  "type": "dex aggregator",
+  "website": "https://1inch.com",
+  "github": [
+    "1inch"
+  ],
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "1inch Main Contract",
+      "type": "core",
+      "description": "Main contract for 1inch",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/1inch",
+      "updated": "2025-01-31"
+    }
+  }
+}

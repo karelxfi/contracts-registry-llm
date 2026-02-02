@@ -1,0 +1,43 @@
+{
+  "id": "marinade-liquid-staking",
+  "name": "Marinade Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://marinade.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Marinade Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Marinade Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marinade-liquid-staking",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}
