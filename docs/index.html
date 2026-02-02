@@ -11,7 +11,9 @@
         box-sizing: border-box;
       }
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
         line-height: 1.6;
         color: #1a1a1a;
         background: #fafafa;
@@ -125,14 +127,25 @@
       .endpoint-path {
         display: block;
         background: white;
-        padding: 6px 12px;
+        padding: 8px 12px;
         border-radius: 4px;
         font-family: monospace;
-        font-size: 13px;
+        font-size: 12px;
         color: #0066cc;
         margin: 8px 0;
         border: 1px solid #e0e0e0;
         word-break: break-all;
+        line-height: 1.4;
+      }
+      .endpoint-method {
+        display: inline-block;
+        background: #10b981;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-right: 6px;
       }
       .endpoint-desc {
         font-size: 13px;
@@ -284,13 +297,28 @@
         <div class="version-badge">v1.0.0</div>
         <h1>DeFi Contracts Registry API</h1>
         <p class="subtitle">
-          Static JSON API for querying DeFi protocol contract addresses across multiple chains. Optimized for AI agents.
+          Static JSON API for querying DeFi protocol contract addresses across
+          multiple chains. Optimized for AI agents.
         </p>
-        <div class="base-url">https://karelxfi.github.io/contracts-registry-llm</div>
+        <div class="base-url">
+          https://karelxfi.github.io/contracts-registry-llm
+        </div>
         <div class="quick-links">
-          <a href="/contracts-registry-llm/api/v1/metadata.json" class="quick-link">API Metadata</a>
-          <a href="/contracts-registry-llm/api/v1/openapi.json" class="quick-link secondary">OpenAPI Spec</a>
-          <a href="/contracts-registry-llm/api/updates.rss" class="quick-link secondary">RSS Feed</a>
+          <a
+            href="/contracts-registry-llm/api/v1/metadata.json"
+            class="quick-link"
+            >API Metadata</a
+          >
+          <a
+            href="/contracts-registry-llm/api/v1/openapi.json"
+            class="quick-link secondary"
+            >OpenAPI Spec</a
+          >
+          <a
+            href="/contracts-registry-llm/api/updates.rss"
+            class="quick-link secondary"
+            >RSS Feed</a
+          >
         </div>
       </div>
     </header>
@@ -298,77 +326,262 @@
     <div class="container">
       <section>
         <h2>API v1 Endpoints <span class="new-badge">New</span></h2>
-        <p style="margin-bottom: 24px; color: #666;">Enhanced endpoints designed for AI agents with better discoverability and querying capabilities.</p>
+        <p style="margin-bottom: 24px; color: #666">
+          Enhanced endpoints designed for AI agents with better discoverability
+          and querying capabilities.
+        </p>
 
         <div class="endpoint-grid">
           <div class="endpoint">
             <div class="endpoint-title">API Metadata</div>
-            <code class="endpoint-path">GET /api/v1/metadata.json</code>
-            <div class="endpoint-desc">Stats, available chains, categories, and endpoint list</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/metadata.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json</code
+            >
+            <div class="endpoint-desc">
+              Stats, available chains, categories, and endpoint list
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/metadata.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
 
           <div class="endpoint">
             <div class="endpoint-title">Search by Address</div>
-            <code class="endpoint-path">GET /api/v1/search/by-address.json</code>
-            <div class="endpoint-desc">Reverse lookup: address → protocol</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/search/by-address.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/search/by-address.json</code
+            >
+            <div class="endpoint-desc">
+              Reverse lookup: address → protocol. Example: Search for
+              0xD533a949740bb3306d119CC777fa900bA034cd52 (CRV token)
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/search/by-address.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
 
           <div class="endpoint">
             <div class="endpoint-title">Protocol Details</div>
-            <code class="endpoint-path">GET /api/v1/protocol/{id}.json</code>
-            <div class="endpoint-desc">Complete protocol data with all deployments</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/protocol/aave-v3.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/curve.json</code
+            >
+            <div class="endpoint-desc">
+              Complete protocol data with all deployments. Replace "curve" with
+              any protocol ID (curve, uniswap-v3, lido, aave-v3, etc.)
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/protocol/curve.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
 
           <div class="endpoint">
             <div class="endpoint-title">Recent Updates</div>
-            <code class="endpoint-path">GET /api/v1/updates.json</code>
-            <div class="endpoint-desc">Latest protocol additions and changes</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/updates.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/updates.json</code
+            >
+            <div class="endpoint-desc">
+              Latest protocol additions and changes
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/updates.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
 
           <div class="endpoint">
             <div class="endpoint-title">Common Queries</div>
-            <code class="endpoint-path">GET /api/v1/queries.json</code>
-            <div class="endpoint-desc">Pre-computed results for frequent queries</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/queries.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/queries.json</code
+            >
+            <div class="endpoint-desc">
+              Pre-computed results for frequent queries (multi-chain protocols,
+              popular chains, etc.)
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/queries.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
 
           <div class="endpoint">
             <div class="endpoint-title">OpenAPI Specification</div>
-            <code class="endpoint-path">GET /api/v1/openapi.json</code>
-            <div class="endpoint-desc">Machine-readable API documentation</div>
-            <button class="try-button" onclick="tryEndpoint('/api/v1/openapi.json', this)">Try it</button>
+            <code class="endpoint-path"
+              ><span class="endpoint-method">GET</span
+              >https://karelxfi.github.io/contracts-registry-llm/api/v1/openapi.json</code
+            >
+            <div class="endpoint-desc">
+              Machine-readable API documentation for auto-discovery
+            </div>
+            <button
+              class="try-button"
+              onclick="tryEndpoint('/api/v1/openapi.json', this)"
+            >
+              Try it
+            </button>
             <div class="response-container">
-              <div class="response-header">Response <span class="response-status"></span></div>
+              <div class="response-header">
+                Response <span class="response-status"></span>
+              </div>
               <div class="response-body"></div>
             </div>
           </div>
         </div>
+
+        <h3>More Examples</h3>
+        <div style="margin-top: 16px">
+          <p style="color: #666; margin-bottom: 12px">
+            Try these specific protocol endpoints:
+          </p>
+          <ul class="links">
+            <li>
+              <a
+                href="/contracts-registry-llm/api/v1/protocol/uniswap-v3.json"
+                target="_blank"
+                >Uniswap V3 (14 chains)</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contracts-registry-llm/api/v1/protocol/aave-v3.json"
+                target="_blank"
+                >Aave V3 (19 chains)</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contracts-registry-llm/api/v1/protocol/lido.json"
+                target="_blank"
+                >Lido (10 chains)</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contracts-registry-llm/api/v1/protocol/morpho-blue.json"
+                target="_blank"
+                >Morpho Blue (3 chains)</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
-            <div class="feature-icon"></div>
+
+      <section>
+        <h2>Quick Stats</h2>
+        <div class="feature-grid">
+          <div class="feature-box">
+            <div class="feature-label">Total Protocols</div>
+            <div class="feature-value">4,447</div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-label">Populated</div>
+            <div class="feature-value">8</div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-label">Blockchains</div>
+            <div class="feature-value">87</div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-label">Categories</div>
+            <div class="feature-value">89</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Getting Started</h2>
+        <p style="color: #666; margin-bottom: 20px">
+          All endpoints return JSON data and support CORS for browser access. No
+          authentication required.
+        </p>
+        <h3>Example: Get Protocol Info</h3>
+        <pre>
+curl https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/curve.json</pre
+        >
+
+        <h3>Example: Search by Address</h3>
+        <pre>
+curl https://karelxfi.github.io/contracts-registry-llm/api/v1/search/by-address.json | \
+  jq '.["0xd533a949740bb3306d119cc777fa900ba034cd52"]'</pre
+        >
+      </section>
+
+      <section>
+        <h2>Resources</h2>
+        <ul class="links">
+          <li>
+            <a
+              href="https://github.com/karelxfi/contracts-registry-llm"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </li>
+          <li>
+            <a
+              href="/contracts-registry-llm/api/v1/openapi.json"
+              target="_blank"
+              >OpenAPI Specification</a
+            >
+          </li>
+          <li>
+            <a href="/contracts-registry-llm/api/updates.rss" target="_blank"
+              >RSS Feed</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        DeFi Contracts Registry API v1.0.0 | Built for AI agents | MIT License
+      </div>
     </footer>
 
     <script>
