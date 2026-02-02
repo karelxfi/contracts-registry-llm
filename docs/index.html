@@ -1,98 +1,260 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DeFi Contracts Registry API</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1 { color: #000; }
-        h2 { color: #333; margin-top: 40px; }
-        code {
-            background: #f4f4f4;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-size: 14px;
-        }
-        pre {
-            background: #f4f4f4;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        .endpoint {
-            background: #f9f9f9;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 4px solid #333;
-        }
-        .endpoint code {
-            background: #e8e8e8;
-        }
-        a { color: #0366d6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #fafafa;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      header {
+        background: white;
+        padding: 60px 0;
+        margin-bottom: 60px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      h1 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #000;
+      }
+      .subtitle {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 30px;
+      }
+      .base-url {
+        display: inline-block;
+        background: #f5f5f5;
+        padding: 12px 20px;
+        border-radius: 6px;
+        font-family: monospace;
+        font-size: 15px;
+        color: #0066cc;
+        border: 1px solid #e0e0e0;
+      }
+      section {
+        background: white;
+        padding: 40px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        color: #000;
+      }
+      .endpoint {
+        background: #fafafa;
+        padding: 20px;
+        margin-bottom: 16px;
+        border-radius: 6px;
+        border-left: 3px solid #0066cc;
+      }
+      .endpoint-title {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #1a1a1a;
+      }
+      .endpoint-path {
+        display: inline-block;
+        background: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 14px;
+        color: #0066cc;
+        margin: 8px 0;
+        border: 1px solid #e0e0e0;
+      }
+      .endpoint-desc {
+        font-size: 14px;
+        color: #666;
+        margin-top: 8px;
+      }
+      pre {
+        background: #1a1a1a;
+        color: #f5f5f5;
+        padding: 20px;
+        border-radius: 6px;
+        overflow-x: auto;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .tag {
+        background: #f0f0f0;
+        padding: 4px 12px;
+        border-radius: 4px;
+        font-size: 13px;
+        color: #555;
+        font-family: monospace;
+      }
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .info-box {
+        padding: 20px;
+        background: #fafafa;
+        border-radius: 6px;
+        border: 1px solid #e5e5e5;
+      }
+      .info-label {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #999;
+        margin-bottom: 8px;
+      }
+      .info-value {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a1a;
+      }
+      .links {
+        list-style: none;
+        margin-top: 16px;
+      }
+      .links li {
+        margin-bottom: 12px;
+      }
+      .links a {
+        color: #0066cc;
+        text-decoration: none;
+        font-size: 15px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .links a:hover {
+        text-decoration: underline;
+      }
+      .links a:before {
+        content: "→";
+        margin-right: 8px;
+        font-weight: bold;
+      }
+      footer {
+        text-align: center;
+        padding: 40px 0;
+        color: #999;
+        font-size: 14px;
+      }
     </style>
-</head>
-<body>
-    <h1>DeFi Contracts Registry API</h1>
-    <p>Static JSON API for querying DeFi protocol contract addresses across multiple chains.</p>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>DeFi Contracts Registry API</h1>
+        <p class="subtitle">
+          Static JSON API for querying DeFi protocol contract addresses across
+          multiple chains
+        </p>
+        <div class="base-url">
+          https://karelxfi.github.io/contracts-registry-llm
+        </div>
+      </div>
+    </header>
 
-    <h2>Base URL</h2>
-    <code>https://karelxfi.github.io/contracts-registry-llm</code>
+    <div class="container">
+      <section>
+        <h2>Endpoints</h2>
 
-    <h2>Endpoints</h2>
+        <div class="endpoint">
+          <div class="endpoint-title">Get all protocols</div>
+          <div class="endpoint-path">GET /data/generated/protocols.json</div>
+          <div class="endpoint-desc">
+            Returns metadata for all 4,442 protocols
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Get all protocols</strong><br>
-        <code>GET /data/generated/protocols.json</code><br>
-        <small>Returns metadata for all 4,442 protocols</small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Get protocols by chain</div>
+          <div class="endpoint-path">
+            GET /data/generated/by-chain/{chain}.json
+          </div>
+          <div class="endpoint-desc">
+            Example: /data/generated/by-chain/ethereum.json
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Get protocols by chain</strong><br>
-        <code>GET /data/generated/by-chain/{chain}.json</code><br>
-        <small>Example: <code>/data/generated/by-chain/ethereum.json</code></small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Get protocols by category</div>
+          <div class="endpoint-path">
+            GET /data/generated/by-category/{category}.json
+          </div>
+          <div class="endpoint-desc">
+            Example: /data/generated/by-category/lending.json
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Get protocols by category</strong><br>
-        <code>GET /data/generated/by-category/{category}.json</code><br>
-        <small>Example: <code>/data/generated/by-category/lending.json</code></small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Reverse lookup by address</div>
+          <div class="endpoint-path">
+            GET /data/generated/indexes/by-address.json
+          </div>
+          <div class="endpoint-desc">
+            Search for protocols by contract address
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Reverse lookup by address</strong><br>
-        <code>GET /data/generated/indexes/by-address.json</code><br>
-        <small>Search for protocols by contract address</small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Get populated protocols</div>
+          <div class="endpoint-path">GET /data/populated-protocols.json</div>
+          <div class="endpoint-desc">
+            Quick lookup for protocols with addresses
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Get populated protocols</strong><br>
-        <code>GET /data/populated-protocols.json</code><br>
-        <small>Quick lookup for protocols with addresses</small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Get specific protocol</div>
+          <div class="endpoint-path">
+            GET /data/sources/protocols/{protocol}/{version}.json
+          </div>
+          <div class="endpoint-desc">
+            Example: /data/sources/protocols/aave-v3/aave-v3.json
+          </div>
+        </div>
 
-    <div class="endpoint">
-        <strong>Get specific protocol</strong><br>
-        <code>GET /data/sources/protocols/{protocol}/{version}.json</code><br>
-        <small>Example: <code>/data/sources/protocols/aave-v3/aave-v3.json</code></small>
-    </div>
+        <div class="endpoint">
+          <div class="endpoint-title">Get chain metadata</div>
+          <div class="endpoint-path">GET /data/sources/chains/{chain}.json</div>
+          <div class="endpoint-desc">
+            Example: /data/sources/chains/ethereum.json
+          </div>
+        </div>
+      </section>
 
-    <div class="endpoint">
-        <strong>Get chain metadata</strong><br>
-        <code>GET /data/sources/chains/{chain}.json</code><br>
-        <small>Example: <code>/data/sources/chains/ethereum.json</code></small>
-    </div>
-
-    <h2>Example Usage</h2>
-    <pre>
+      <section>
+        <h2>Example Usage</h2>
+        <pre>
 # Get all Ethereum protocols
 curl https://karelxfi.github.io/contracts-registry-llm/data/generated/by-chain/ethereum.json
 
@@ -100,30 +262,101 @@ curl https://karelxfi.github.io/contracts-registry-llm/data/generated/by-chain/e
 curl https://karelxfi.github.io/contracts-registry-llm/data/sources/protocols/aave-v3/aave-v3.json
 
 # Get all lending protocols
-curl https://karelxfi.github.io/contracts-registry-llm/data/generated/by-category/lending.json
-    </pre>
+curl https://karelxfi.github.io/contracts-registry-llm/data/generated/by-category/lending.json</pre
+        >
+      </section>
 
-    <h2>Available Chains</h2>
-    <p>ethereum, base, arbitrum, optimism, polygon, avalanche, gnosis, bsc, scroll, metis, zksync-era, linea, fantom, solana, and 92+ more</p>
+      <section>
+        <h2>Available Chains</h2>
+        <div class="tag-list">
+          <span class="tag">ethereum</span>
+          <span class="tag">base</span>
+          <span class="tag">arbitrum</span>
+          <span class="tag">optimism</span>
+          <span class="tag">polygon</span>
+          <span class="tag">avalanche</span>
+          <span class="tag">gnosis</span>
+          <span class="tag">bsc</span>
+          <span class="tag">scroll</span>
+          <span class="tag">metis</span>
+          <span class="tag">zksync-era</span>
+          <span class="tag">linea</span>
+          <span class="tag">fantom</span>
+          <span class="tag">solana</span>
+          <span class="tag">+92 more</span>
+        </div>
+      </section>
 
-    <h2>Available Categories</h2>
-    <p>lending, dexs, derivatives, liquid-staking, cdp, bridge, yield, restaking, rwa, and 84+ more</p>
+      <section>
+        <h2>Available Categories</h2>
+        <div class="tag-list">
+          <span class="tag">lending</span>
+          <span class="tag">dexs</span>
+          <span class="tag">derivatives</span>
+          <span class="tag">liquid-staking</span>
+          <span class="tag">cdp</span>
+          <span class="tag">bridge</span>
+          <span class="tag">yield</span>
+          <span class="tag">restaking</span>
+          <span class="tag">rwa</span>
+          <span class="tag">+84 more</span>
+        </div>
+      </section>
 
-    <h2>Documentation</h2>
-    <ul>
-        <li><a href="https://github.com/karelxfi/contracts-registry-llm">GitHub Repository</a></li>
-        <li><a href="https://github.com/karelxfi/contracts-registry-llm/blob/main/README.md">README</a></li>
-        <li><a href="https://github.com/karelxfi/contracts-registry-llm/blob/main/SCHEMA.md">Schema Documentation</a></li>
-        <li><a href="https://github.com/karelxfi/contracts-registry-llm/blob/main/EXAMPLES.md">Query Examples</a></li>
-    </ul>
+      <section>
+        <h2>Features</h2>
+        <div class="info-grid">
+          <div class="info-box">
+            <div class="info-label">Rate Limits</div>
+            <div class="info-value">None</div>
+          </div>
+          <div class="info-box">
+            <div class="info-label">CORS</div>
+            <div class="info-value">Enabled</div>
+          </div>
+          <div class="info-box">
+            <div class="info-label">Cost</div>
+            <div class="info-value">Free</div>
+          </div>
+          <div class="info-box">
+            <div class="info-label">CDN</div>
+            <div class="info-value">Global</div>
+          </div>
+        </div>
+      </section>
 
-    <h2>CORS</h2>
-    <p>All endpoints support cross-origin requests. Safe to use from browser applications.</p>
+      <section>
+        <h2>Documentation</h2>
+        <ul class="links">
+          <li>
+            <a href="https://github.com/karelxfi/contracts-registry-llm"
+              >GitHub Repository</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/karelxfi/contracts-registry-llm/blob/main/README.md"
+              >README</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/karelxfi/contracts-registry-llm/blob/main/SCHEMA.md"
+              >Schema Documentation</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/karelxfi/contracts-registry-llm/blob/main/EXAMPLES.md"
+              >Query Examples</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
 
-    <h2>Rate Limits</h2>
-    <p>No rate limits. Served via GitHub Pages CDN.</p>
-
-    <h2>License</h2>
-    <p>MIT License - Free to use commercially</p>
-</body>
+    <footer>
+      <div class="container">MIT License - Free to use commercially</div>
+    </footer>
+  </body>
 </html>
