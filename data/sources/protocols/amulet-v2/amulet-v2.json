@@ -1,0 +1,61 @@
+{
+  "id": "amulet-v2",
+  "name": "Amulet V2",
+  "type": "yield aggregator",
+  "website": "https://amulet.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "solana",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amulet V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Amulet V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amulet-v2",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amulet-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

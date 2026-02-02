@@ -1,0 +1,42 @@
+{
+  "id": "orio",
+  "name": "ORIO",
+  "type": "yield",
+  "website": "https://orio.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ORIO Main Contract",
+      "type": "core",
+      "description": "Main contract for ORIO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/orio",
+      "updated": "2025-01-31"
+    }
+  }
+}

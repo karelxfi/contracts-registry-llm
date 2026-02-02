@@ -1,0 +1,42 @@
+{
+  "id": "lexer-markets",
+  "name": "Lexer Markets",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lexer Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Lexer Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lexer-markets",
+      "updated": "2025-01-31"
+    }
+  }
+}

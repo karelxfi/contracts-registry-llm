@@ -1,0 +1,43 @@
+{
+  "id": "solrise-finance",
+  "name": "Solrise Finance",
+  "type": "indexes",
+  "website": "https://solrise.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solrise Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Solrise Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solrise-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

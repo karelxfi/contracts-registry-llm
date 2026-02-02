@@ -1,0 +1,42 @@
+{
+  "id": "bladeswap-cl",
+  "name": "BladeSwap CL",
+  "type": "dexs",
+  "website": "https://bladeswap.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BladeSwap CL Main Contract",
+      "type": "core",
+      "description": "Main contract for BladeSwap CL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bladeswap-cl",
+      "updated": "2025-01-31"
+    }
+  }
+}

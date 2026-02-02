@@ -1,0 +1,43 @@
+{
+  "id": "fiva",
+  "name": "FIVA",
+  "type": "yield",
+  "website": "https://www.thefiva.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FIVA Main Contract",
+      "type": "core",
+      "description": "Main contract for FIVA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fiva",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

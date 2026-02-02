@@ -1,0 +1,44 @@
+{
+  "id": "sashimiswap",
+  "name": "SashimiSwap",
+  "type": "dexs",
+  "website": "https://sashimi.cool/home/swap",
+  "github": [
+    "SashimiProject"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SashimiSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for SashimiSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sashimiswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

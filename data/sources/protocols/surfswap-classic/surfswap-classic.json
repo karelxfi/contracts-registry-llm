@@ -1,0 +1,42 @@
+{
+  "id": "surfswap-classic",
+  "name": "Surfswap Classic",
+  "type": "dexs",
+  "website": "https://surfdex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Surfswap Classic Main Contract",
+      "type": "core",
+      "description": "Main contract for Surfswap Classic",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/surfswap-classic",
+      "updated": "2025-01-31"
+    }
+  }
+}

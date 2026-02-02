@@ -1,0 +1,42 @@
+{
+  "id": "reformdao",
+  "name": "ReformDAO",
+  "type": "farm",
+  "website": "https://www.reformdao.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ReformDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ReformDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reformdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

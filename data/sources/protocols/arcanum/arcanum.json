@@ -1,0 +1,44 @@
+{
+  "id": "arcanum",
+  "name": "Arcanum",
+  "type": "derivatives",
+  "website": "https://www.arcanum.to/",
+  "github": [
+    "arcanum-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arcanum Main Contract",
+      "type": "core",
+      "description": "Main contract for Arcanum",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arcanum",
+      "updated": "2025-01-31"
+    }
+  }
+}

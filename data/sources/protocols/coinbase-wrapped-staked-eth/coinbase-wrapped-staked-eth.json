@@ -1,0 +1,44 @@
+{
+  "id": "coinbase-wrapped-staked-eth",
+  "name": "Coinbase Wrapped Staked ETH",
+  "type": "liquid staking",
+  "website": "https://www.coinbase.com/price/coinbase-wrapped-staked-eth",
+  "github": [
+    "coinbase"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Coinbase Wrapped Staked ETH Main Contract",
+      "type": "core",
+      "description": "Main contract for Coinbase Wrapped Staked ETH",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/coinbase-wrapped-staked-eth",
+      "updated": "2025-01-31"
+    }
+  }
+}

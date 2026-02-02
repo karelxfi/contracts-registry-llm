@@ -1,0 +1,42 @@
+{
+  "id": "handle.fi-perps",
+  "name": "handle.fi Perps",
+  "type": "derivatives",
+  "website": "https://app.handle.fi/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "handle.fi Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for handle.fi Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/handle.fi-perps",
+      "updated": "2025-01-31"
+    }
+  }
+}

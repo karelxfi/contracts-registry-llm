@@ -1,0 +1,45 @@
+{
+  "id": "magma-finance-almm",
+  "name": "Magma Finance ALMM",
+  "type": "dexs",
+  "website": "https://magmafinance.io/",
+  "github": [
+    "MagmaFinanceIO"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Magma Finance ALMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Magma Finance ALMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magma-finance-almm",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

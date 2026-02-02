@@ -1,0 +1,114 @@
+{
+  "id": "t3rn-bridge",
+  "name": "t3rn Bridge",
+  "type": "bridge",
+  "website": "https://www.t3rn.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "linea",
+    "ethereum",
+    "arbitrum",
+    "base",
+    "unichain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "t3rn Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for t3rn Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/t3rn-bridge",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/t3rn-bridge",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/t3rn-bridge",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/t3rn-bridge",
+      "updated": "2025-01-31"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/t3rn-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

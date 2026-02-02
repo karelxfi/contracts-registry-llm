@@ -1,0 +1,42 @@
+{
+  "id": "fuseon",
+  "name": "Fuseon",
+  "type": "dexs",
+  "website": "https://app.fuseon.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "plasma"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fuseon Main Contract",
+      "type": "core",
+      "description": "Main contract for Fuseon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fuseon",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ajna-v1",
+  "name": "Ajna V1",
+  "type": "lending",
+  "website": "https://www.ajna.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ajna V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Ajna V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ajna-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

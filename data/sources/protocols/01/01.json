@@ -1,0 +1,43 @@
+{
+  "id": "01",
+  "name": "01",
+  "type": "derivatives",
+  "website": "https://01.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "01 Main Contract",
+      "type": "core",
+      "description": "Main contract for 01",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/01",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

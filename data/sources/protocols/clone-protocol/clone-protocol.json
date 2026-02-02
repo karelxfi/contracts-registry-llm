@@ -1,0 +1,45 @@
+{
+  "id": "clone-protocol",
+  "name": "Clone Protocol",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "Clone-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Clone Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Clone Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clone-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

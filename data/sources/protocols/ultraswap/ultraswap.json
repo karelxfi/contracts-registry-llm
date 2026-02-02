@@ -1,0 +1,43 @@
+{
+  "id": "ultraswap",
+  "name": "Ultraswap",
+  "type": "lending",
+  "website": "https://app.folks.finance/ultraswap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ultraswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Ultraswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ultraswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

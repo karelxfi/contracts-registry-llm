@@ -1,0 +1,42 @@
+{
+  "id": "aurus",
+  "name": "Aurus",
+  "type": "rwa",
+  "website": "https://aurus.io/marketplace?token=tXAU",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aurus Main Contract",
+      "type": "core",
+      "description": "Main contract for Aurus",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aurus",
+      "updated": "2025-01-31"
+    }
+  }
+}

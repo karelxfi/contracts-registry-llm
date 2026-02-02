@@ -1,0 +1,44 @@
+{
+  "id": "hurricaneswap",
+  "name": "HurricaneSwap",
+  "type": "dexs",
+  "website": "https://hurricaneswap.com",
+  "github": [
+    "HurricaneSwap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HurricaneSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for HurricaneSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hurricaneswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

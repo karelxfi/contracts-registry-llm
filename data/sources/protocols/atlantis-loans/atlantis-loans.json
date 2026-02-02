@@ -1,0 +1,62 @@
+{
+  "id": "atlantis-loans",
+  "name": "Atlantis Loans",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "atlantis-loans"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Atlantis Loans Main Contract",
+      "type": "core",
+      "description": "Main contract for Atlantis Loans",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atlantis-loans",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atlantis-loans",
+      "updated": "2025-01-31"
+    }
+  }
+}

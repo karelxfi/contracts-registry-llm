@@ -1,0 +1,43 @@
+{
+  "id": "phantom-sol",
+  "name": "Phantom SOL",
+  "type": "liquid staking",
+  "website": "https://phantom.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Phantom SOL Main Contract",
+      "type": "core",
+      "description": "Main contract for Phantom SOL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/phantom-sol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

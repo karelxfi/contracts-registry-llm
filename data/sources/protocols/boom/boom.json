@@ -1,0 +1,44 @@
+{
+  "id": "boom",
+  "name": "BOOM",
+  "type": "farm",
+  "website": "",
+  "github": [
+    "boom-polygon"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BOOM Main Contract",
+      "type": "core",
+      "description": "Main contract for BOOM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/boom",
+      "updated": "2025-01-31"
+    }
+  }
+}

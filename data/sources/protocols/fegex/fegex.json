@@ -1,0 +1,42 @@
+{
+  "id": "fegex",
+  "name": "Fegex",
+  "type": "services",
+  "website": "https://fegtoken.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fegex Main Contract",
+      "type": "core",
+      "description": "Main contract for Fegex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fegex",
+      "updated": "2025-01-31"
+    }
+  }
+}

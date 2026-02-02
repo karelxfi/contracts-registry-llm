@@ -1,329 +1,182 @@
-# Contracts Registry for LLM
+# Contracts Registry for LLMs
 
-A comprehensive, schema-validated blockchain contract deployment registry optimized for LLM consumption and blockchain indexer development.
+A structured registry of smart contract addresses optimized for consumption by large language models and AI agents.
 
-## Features
+## Purpose
 
-✅ **Schema-first design** - JSON Schema validation for all data  
-✅ **Multi-chain support** - EVM chains (Ethereum, Base, Arbitrum, etc.)  
-✅ **Fast lookups** - Pre-built indexes for address and event queries  
-✅ **Multiple views** - Query by chain, category, address, or event  
-✅ **Type-safe** - Validated contract metadata with events and functions  
-✅ **Automated builds** - Generate all outputs from source data  
-✅ **Deployment tracking** - Block numbers and verification status  
-
-## Quick Start
-
-```bash
-# Clone and install
-git clone <repo-url>
-cd contracts-registry-llm
-npm install
-
-# Build the registry
-npm run build
-
-# Query contracts
-node helpers/query.js find-address ethereum 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb
-node helpers/query.js find-event Supply
-node helpers/query.js chains
-node helpers/query.js type lending
-```
-
-## Architecture
-
-```
-data/
-├── schemas/                    # JSON Schema definitions
-│   ├── protocol.schema.json
-│   ├── contract.schema.json
-│   ├── deployment.schema.json
-│   └── chain.schema.json
-│
-├── sources/                    # Source data (edit these)
-│   ├── protocols/
-│   │   ├── morpho/
-│   │   │   └── blue.json
-│   │   └── gmx/
-│   │       └── v1.json
-│   └── chains/
-│       ├── ethereum.json
-│       ├── base.json
-│       └── arbitrum-one.json
-│
-└── generated/                  # Auto-generated (don't edit)
-    ├── protocols.json          # All protocols combined
-    ├── contract-addresses.json # Address lookup
-    ├── protocol-metadata.json  # Metadata only
-    ├── by-chain/              # Chain-centric views
-    │   ├── ethereum.json
-    │   └── base.json
-    ├── by-category/           # Category views
-    │   ├── lending.json
-    │   └── perpetuals.json
-    └── indexes/               # Fast lookups
-        ├── by-address.json    # Address → Protocol
-        └── by-event.json      # Event → Contracts
-```
+This registry provides machine-readable contract address data for DeFi protocols across multiple blockchain networks. The data structure is designed for efficient parsing and querying by AI systems.
 
 ## Data Structure
 
-### Protocol File (`sources/protocols/<protocol>/<version>.json`)
+```
+data/
+├── sources/
+│   ├── chains/          # Chain-specific metadata
+│   └── protocols/       # Protocol contract addresses organized by protocol name
+```
+
+Each protocol is stored in its own directory with a JSON file containing:
+- Protocol metadata (name, type, website, documentation)
+- Contract definitions (names, types, descriptions)
+- Deployment information per chain (addresses, verification status, deployment blocks)
+
+## Usage for AI Agents
+
+### Finding Contract Addresses
+
+To retrieve contract addresses for a specific protocol on a chain:
+
+1. Navigate to `data/sources/protocols/{protocol-name}/{protocol-name}.json`
+2. Access the `deployments` object
+3. Select the target chain
+4. Extract addresses from the `addresses` object
+
+### Example: Get Aave V3 Pool address on Base
+
+```
+File: data/sources/protocols/aave-v3/aave-v3.json
+Path: deployments.base.addresses.pool
+Result: 0xA238Dd80C259a72e81d7e4664a9801593F98d1c5
+```
+
+### Supported Chains
+
+Chain identifiers use lowercase with hyphens:
+- `ethereum`
+- `polygon`
+- `arbitrum`
+- `optimism`
+- `base`
+- `avalanche`
+- `bsc`
+- `gnosis`
+- See `data/sources/chains/` for complete list
+
+### Supported Protocols
+
+Protocol identifiers use lowercase with hyphens and version suffixes:
+- `aave-v2`
+- `aave-v3`
+- `uniswap-v2`
+- `uniswap-v3`
+- See `data/sources/protocols/` for complete list
+
+## Data Format
+
+### Protocol File Structure
 
 ```json
 {
-  "id": "morpho-blue",
-  "name": "Morpho Blue",
-  "type": "lending",
-  "website": "https://morpho.org",
-  "github": "https://github.com/morpho-org/morpho-blue",
-  "docs": "https://docs.morpho.org",
-  "tags": ["lending", "peer-to-peer"],
+  "id": "protocol-name",
+  "name": "Protocol Name",
+  "type": "protocol-type",
+  "website": "https://protocol.com",
+  "github": "https://github.com/org/repo",
+  "docs": "https://docs.protocol.com",
+  "tags": ["tag1", "tag2"],
   "contracts": {
-    "morpho": {
-      "name": "Morpho Market V1",
-      "type": "core",
-      "description": "Main lending protocol contract",
-      "keyEvents": [
-        {
-          "name": "Supply",
-          "signature": "Supply(bytes32 indexed id, ...)",
-          "description": "Emitted when assets are supplied"
-        }
-      ],
-      "useCases": [
-        "Track user deposits and withdrawals by market"
-      ]
+    "contractId": {
+      "name": "Contract Name",
+      "type": "contract-type",
+      "description": "Contract purpose",
+      "proxy": true/false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
     }
   },
   "deployments": {
-    "ethereum": {
-      "chain": "ethereum",
-      "chainId": 1,
+    "chainName": {
+      "chain": "chainName",
       "addresses": {
-        "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+        "contractId": "0x..."
       },
       "deploymentBlocks": {
-        "morpho": 18883845
+        "contractId": 12345678
       },
       "verified": {
-        "morpho": true
+        "contractId": true/false
       },
-      "source": "docs",
-      "updated": "2025-01-31"
+      "source": ["source-name"],
+      "sourceUrl": "https://source.url",
+      "updated": "YYYY-MM-DD"
     }
   }
 }
 ```
 
-### Chain File (`sources/chains/<chain>.json`)
+### Chain File Structure
 
 ```json
 {
-  "id": "ethereum",
-  "name": "Ethereum Mainnet",
+  "id": "chain-name",
+  "name": "Chain Name",
   "chainId": 1,
-  "platform": "evm",
-  "portalDataset": "ethereum-mainnet",
-  "explorers": {
-    "primary": {
-      "name": "Etherscan",
-      "url": "https://etherscan.io",
-      "api": "https://api.etherscan.io/api"
-    }
+  "nativeCurrency": {
+    "name": "Token Name",
+    "symbol": "SYMBOL",
+    "decimals": 18
   },
-  "aliases": ["eth", "mainnet"],
-  "status": "active"
+  "rpc": ["https://rpc.url"],
+  "explorer": "https://explorer.url",
+  "tags": ["layer1", "evm"]
 }
 ```
 
-## Usage Examples
+## Data Sources
 
-### JavaScript/Node.js
+Contract addresses are sourced from:
+- Official protocol documentation
+- Verified blockchain explorers
+- Protocol GitHub repositories
+- Community-maintained registries
 
-```javascript
-import { findByAddress, findByEvent, getProtocolsByChain } from './helpers/query.js';
+Each deployment includes:
+- `source`: Array of source names
+- `sourceUrl`: URL to the source
+- `updated`: Last verification date
 
-// Find protocol by contract address
-const info = findByAddress('ethereum', '0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb');
-console.log(info.protocol);  // "morpho"
-console.log(info.contract);  // "morpho"
-console.log(info.metadata.keyEvents);  // Array of events
+## Data Quality
 
-// Find all contracts with "Supply" event
-const contracts = findByEvent('Supply');
-// [{ protocol: "morpho", version: "blue", contract: "morpho", ... }]
+- All Ethereum addresses are checksummed
+- `verified` field indicates if the contract is verified on block explorers
+- Empty addresses (`""`) indicate known deployments without confirmed addresses
+- `null` deployment blocks indicate missing data
 
-// Get all protocols on Ethereum
-const ethereum = getProtocolsByChain('ethereum');
-console.log(Object.keys(ethereum.protocols));  // ["morpho"]
-```
+## Querying Patterns
 
-### Command Line
+### Get all deployments for a protocol
+Read the protocol JSON file and iterate through the `deployments` object.
 
-```bash
-# Find contract by address
-node helpers/query.js find-address ethereum 0xBBBB...
+### Get all protocols on a chain
+Iterate through protocol files and check if the target chain exists in their `deployments`.
 
-# Find contracts by event
-node helpers/query.js find-event Supply
+### Find protocols by type
+Read protocol files and filter by the `type` field (e.g., "lending", "dex", "bridge").
 
-# List all chains
-node helpers/query.js chains
+### Get verified contracts only
+Filter deployments where `verified.{contractId}` is `true`.
 
-# List all protocol types
-node helpers/query.js types
+## File Naming Conventions
 
-# Get all protocols on a chain
-node helpers/query.js chain ethereum
+- Protocol directories: lowercase with hyphens, match the protocol ID
+- Protocol files: `{protocol-id}.json`
+- Chain files: `{chain-id}.json`
+- All JSON files use 2-space indentation
 
-# Get all protocols of a type
-node helpers/query.js type lending
-```
+## Updates
 
-## Adding New Protocols
-
-### Step 1: Create Protocol File
-
-```bash
-mkdir -p data/sources/protocols/uniswap
-cat > data/sources/protocols/uniswap/v3.json << 'EOF'
-{
-  "id": "uniswap-v3",
-  "name": "Uniswap V3",
-  "type": "dex",
-  "website": "https://uniswap.org",
-  "contracts": {
-    "factory": {
-      "name": "UniswapV3Factory",
-      "type": "factory",
-      "keyEvents": [
-        { "name": "PoolCreated" }
-      ]
-    }
-  },
-  "deployments": {
-    "ethereum": {
-      "chain": "ethereum",
-      "chainId": 1,
-      "addresses": {
-        "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984"
-      },
-      "source": "docs",
-      "updated": "2025-01-31"
-    }
-  }
-}
-EOF
-```
-
-### Step 2: Rebuild
-
-```bash
-npm run build
-```
-
-### Step 3: Verify
-
-```bash
-node helpers/query.js find-address ethereum 0x1F98431c8aD98523631AE4a59f267346ea31F984
-```
-
-## Schema Validation
-
-All data is validated against JSON schemas:
-
-```bash
-# Build will fail if data is invalid
-npm run build
-
-# Example error:
-# ❌ Validation failed for morpho/blue:
-# - data/contracts/morpho must have required property 'name'
-```
-
-## Generated Outputs
-
-### by-address index
-
-```json
-{
-  "ethereum:0xbbbb...": {
-    "protocol": "morpho",
-    "version": "blue",
-    "contract": "morpho",
-    "chain": "ethereum"
-  }
-}
-```
-
-### by-event index
-
-```json
-{
-  "Supply": [
-    {
-      "protocol": "morpho",
-      "version": "blue",
-      "contract": "morpho",
-      "signature": "Supply(bytes32 indexed id, ...)"
-    }
-  ]
-}
-```
-
-### by-chain view
-
-```json
-{
-  "chain": "ethereum",
-  "chainId": 1,
-  "protocols": {
-    "morpho": {
-      "blue": {
-        "name": "Morpho Blue",
-        "type": "lending",
-        "addresses": { "morpho": "0x..." }
-      }
-    }
-  }
-}
-```
-
-## Current Coverage
-
-### Protocols
-- **Morpho Blue** (lending) - Ethereum, Base, Arbitrum
-- **GMX V1** (perpetuals) - Arbitrum
-
-### Chains
-- **Ethereum** (chainId: 1)
-- **Base** (chainId: 8453)
-- **Arbitrum One** (chainId: 42161)
-
-## Roadmap
-
-- [ ] Automated deployment block fetching
-- [ ] Contract verification status checking
-- [ ] ABI caching
-- [ ] More protocols (Uniswap, Aave, Compound, etc.)
-- [ ] Solana support
-- [ ] TypeScript types generation
-- [ ] Web interface
+Data is updated periodically. Check the `updated` field in each deployment for the last verification date.
 
 ## Contributing
 
-1. Fork the repository
-2. Add your protocol data to `data/sources/protocols/`
-3. Run `npm run build` to validate
-4. Submit a pull request
+To add or update protocol data:
+1. Follow the JSON schema structure
+2. Use checksummed addresses for Ethereum-compatible chains
+3. Include source attribution
+4. Verify addresses against official sources
+5. Update the `updated` date
 
 ## License
 
-MIT
-
-## Links
-
-- Architecture docs: `docs/CONTRACT_REGISTRY_ARCHITECTURE.md`
-- JSON Schemas: `data/schemas/`
-- Query API: `helpers/query.js`
+See LICENSE file for details.

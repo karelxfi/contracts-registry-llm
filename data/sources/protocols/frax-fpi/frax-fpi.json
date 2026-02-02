@@ -1,0 +1,42 @@
+{
+  "id": "frax-fpi",
+  "name": "Frax FPI",
+  "type": "algo-stables",
+  "website": "https://app.frax.finance/fpifpis/fpi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Frax FPI Main Contract",
+      "type": "core",
+      "description": "Main contract for Frax FPI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frax-fpi",
+      "updated": "2025-01-31"
+    }
+  }
+}

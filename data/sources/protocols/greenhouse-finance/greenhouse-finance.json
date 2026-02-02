@@ -1,0 +1,60 @@
+{
+  "id": "greenhouse-finance",
+  "name": "Greenhouse Finance",
+  "type": "risk curators",
+  "website": "https://greenhouse.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "sonic",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Greenhouse Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Greenhouse Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/greenhouse-finance",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/greenhouse-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "z3z",
+  "name": "Z3Z",
+  "type": "gaming",
+  "website": "https://world.org/ecosystem/app_414a9e0340275a42a2a252f0f76a7a27",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "world-chain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Z3Z Main Contract",
+      "type": "core",
+      "description": "Main contract for Z3Z",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/z3z",
+      "updated": "2025-01-31"
+    }
+  }
+}

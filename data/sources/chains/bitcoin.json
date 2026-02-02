@@ -1,0 +1,22 @@
+{
+  "id": "bitcoin",
+  "name": "Bitcoin",
+  "platform": "bitcoin",
+  "status": "active",
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 8
+  },
+  "gecko_id": "bitcoin",
+  "cmcId": "1",
+  "explorers": {
+    "primary": {
+      "name": "Bitcoin Explorer",
+      "url": "https://explorer.bitcoin.network"
+    }
+  },
+  "rpc": {
+    "public": []
+  }
+}

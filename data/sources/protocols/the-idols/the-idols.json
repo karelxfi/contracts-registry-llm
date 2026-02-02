@@ -1,0 +1,42 @@
+{
+  "id": "the-idols",
+  "name": "The Idols",
+  "type": "reserve currency",
+  "website": "https://www.theidols.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Idols Main Contract",
+      "type": "core",
+      "description": "Main contract for The Idols",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-idols",
+      "updated": "2025-01-31"
+    }
+  }
+}

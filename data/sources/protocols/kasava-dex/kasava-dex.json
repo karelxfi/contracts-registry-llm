@@ -1,0 +1,42 @@
+{
+  "id": "kasava-dex",
+  "name": "Kasava Dex",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kasava Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for Kasava Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kasava-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bob-fusion",
+  "name": "BOB Fusion",
+  "type": "farm",
+  "website": "https://gobob.xyz",
+  "github": [
+    "bob-collective"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BOB Fusion Main Contract",
+      "type": "core",
+      "description": "Main contract for BOB Fusion",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bob-fusion",
+      "updated": "2025-01-31"
+    }
+  }
+}

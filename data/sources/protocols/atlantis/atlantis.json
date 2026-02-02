@@ -1,0 +1,42 @@
+{
+  "id": "atlantis",
+  "name": "Atlantis",
+  "type": "dexs",
+  "website": "https://www.atlantisprotocol.so/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Atlantis Main Contract",
+      "type": "core",
+      "description": "Main contract for Atlantis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/atlantis",
+      "updated": "2025-01-31"
+    }
+  }
+}

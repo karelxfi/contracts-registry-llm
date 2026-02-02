@@ -1,0 +1,62 @@
+{
+  "id": "ufarm-digital",
+  "name": "UFarm Digital",
+  "type": "onchain capital allocator",
+  "website": "https://ufarm.digital",
+  "github": [
+    "UFarmDigital"
+  ],
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "UFarm Digital Main Contract",
+      "type": "core",
+      "description": "Main contract for UFarm Digital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ufarm-digital",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ufarm-digital",
+      "updated": "2025-01-31"
+    }
+  }
+}

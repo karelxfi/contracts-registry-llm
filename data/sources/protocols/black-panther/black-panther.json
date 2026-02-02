@@ -1,0 +1,43 @@
+{
+  "id": "black-panther",
+  "name": "Black Panther",
+  "type": "yield",
+  "website": "https://blackpanther.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Black Panther Main Contract",
+      "type": "core",
+      "description": "Main contract for Black Panther",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/black-panther",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

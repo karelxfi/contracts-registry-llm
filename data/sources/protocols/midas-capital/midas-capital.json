@@ -1,0 +1,60 @@
+{
+  "id": "midas-capital",
+  "name": "Midas Capital",
+  "type": "lending",
+  "website": "https://midascapital.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Midas Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for Midas Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/midas-capital",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/midas-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "perpetual-protocol",
+  "name": "Perpetual Protocol",
+  "type": "derivatives",
+  "website": "https://app.perp.com",
+  "github": [
+    "perpetual-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Perpetual Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Perpetual Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perpetual-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

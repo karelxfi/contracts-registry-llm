@@ -1,0 +1,43 @@
+{
+  "id": "dropcopy",
+  "name": "DropCopy",
+  "type": "prediction market",
+  "website": "https://dropcopy.io/pari",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DropCopy Main Contract",
+      "type": "core",
+      "description": "Main contract for DropCopy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dropcopy",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

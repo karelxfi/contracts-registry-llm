@@ -1,0 +1,60 @@
+{
+  "id": "kiloex",
+  "name": "KiloEx",
+  "type": "derivatives",
+  "website": "https://app.kiloex.io/#/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KiloEx Main Contract",
+      "type": "core",
+      "description": "Main contract for KiloEx",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kiloex",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kiloex",
+      "updated": "2025-01-31"
+    }
+  }
+}

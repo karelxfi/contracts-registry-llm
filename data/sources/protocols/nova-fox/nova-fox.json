@@ -1,0 +1,42 @@
+{
+  "id": "nova-fox",
+  "name": "Nova Fox",
+  "type": "launchpad",
+  "website": "https://www.novalaunch.app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nova Fox Main Contract",
+      "type": "core",
+      "description": "Main contract for Nova Fox",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nova-fox",
+      "updated": "2025-01-31"
+    }
+  }
+}

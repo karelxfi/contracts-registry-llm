@@ -1,0 +1,44 @@
+{
+  "id": "compound-blue",
+  "name": "Compound Blue",
+  "type": "lending",
+  "website": "https://www.compound.blue/",
+  "github": [
+    "papercliplabs"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Compound Blue Main Contract",
+      "type": "core",
+      "description": "Main contract for Compound Blue",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/compound-blue",
+      "updated": "2025-01-31"
+    }
+  }
+}

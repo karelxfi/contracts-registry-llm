@@ -1,0 +1,62 @@
+{
+  "id": "zenolend",
+  "name": "ZenoLend",
+  "type": "lending",
+  "website": "https://zeno.finance",
+  "github": [
+    "Zeno-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "unichain",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ZenoLend Main Contract",
+      "type": "core",
+      "description": "Main contract for ZenoLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "unichain": {
+      "chain": "unichain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zenolend",
+      "updated": "2025-01-31"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zenolend",
+      "updated": "2025-01-31"
+    }
+  }
+}

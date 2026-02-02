@@ -1,0 +1,42 @@
+{
+  "id": "polycat-dex",
+  "name": "Polycat Dex",
+  "type": "dexs",
+  "website": "https://polycat.finance/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polycat Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for Polycat Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polycat-dex",
+      "updated": "2025-01-31"
+    }
+  }
+}

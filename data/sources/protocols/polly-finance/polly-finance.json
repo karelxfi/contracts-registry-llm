@@ -1,0 +1,42 @@
+{
+  "id": "polly-finance",
+  "name": "Polly Finance",
+  "type": "indexes",
+  "website": "https://pollyfinance.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Polly Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Polly Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polly-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

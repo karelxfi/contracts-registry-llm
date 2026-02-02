@@ -8,8 +8,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Unique protocol identifier (lowercase, kebab-case)"
+      "pattern": "^[a-z0-9.-]+$",
+      "description": "Unique protocol identifier (lowercase, kebab-case, dots allowed)"
     },
     "name": {
       "type": "string",
@@ -17,20 +17,19 @@
     },
     "type": {
       "type": "string",
-      "enum": ["dex", "lending", "liquid-staking", "bridge", "aggregator", "derivatives", "cdp", "yield", "nft-marketplace", "oracle", "perpetuals", "other"],
       "description": "Protocol category"
     },
     "website": {
       "type": "string",
-      "format": "uri"
+      "description": "Website URL (empty string allowed)"
     },
     "github": {
       "type": "string",
-      "format": "uri"
+      "description": "GitHub URL (empty string allowed)"
     },
     "docs": {
       "type": "string",
-      "format": "uri"
+      "description": "Documentation URL (empty string allowed)"
     },
     "tags": {
       "type": "array",

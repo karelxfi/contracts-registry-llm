@@ -1,0 +1,42 @@
+{
+  "id": "yieldflow-ytrade",
+  "name": "YieldFlow-YTrade",
+  "type": "derivatives",
+  "website": "https://yieldflow.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "YieldFlow-YTrade Main Contract",
+      "type": "core",
+      "description": "Main contract for YieldFlow-YTrade",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yieldflow-ytrade",
+      "updated": "2025-01-31"
+    }
+  }
+}

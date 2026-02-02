@@ -1,0 +1,44 @@
+{
+  "id": "contrax-finance",
+  "name": "Contrax Finance",
+  "type": "yield",
+  "website": "https://beta.contrax.finance",
+  "github": [
+    "Contrax-co"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Contrax Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Contrax Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/contrax-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

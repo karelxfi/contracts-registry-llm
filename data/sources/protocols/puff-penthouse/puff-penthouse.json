@@ -1,0 +1,42 @@
+{
+  "id": "puff-penthouse",
+  "name": "Puff Penthouse",
+  "type": "farm",
+  "website": "https://www.methlab.xyz/puffpenthouse?page=stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Puff Penthouse Main Contract",
+      "type": "core",
+      "description": "Main contract for Puff Penthouse",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/puff-penthouse",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "0xroulette-protocol",
+  "name": "0xRoulette Protocol",
+  "type": "luck games",
+  "website": "https://0xroulette.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "luck games",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "0xRoulette Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for 0xRoulette Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0xroulette-protocol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

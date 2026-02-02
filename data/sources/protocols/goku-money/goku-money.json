@@ -1,0 +1,42 @@
+{
+  "id": "goku-money",
+  "name": "Goku Money",
+  "type": "cdp",
+  "website": "https://goku.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Goku Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Goku Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goku-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

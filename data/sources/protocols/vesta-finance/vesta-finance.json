@@ -1,0 +1,44 @@
+{
+  "id": "vesta-finance",
+  "name": "Vesta Finance",
+  "type": "cdp",
+  "website": "https://vestafinance.xyz",
+  "github": [
+    "vesta-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vesta Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Vesta Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vesta-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

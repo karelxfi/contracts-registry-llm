@@ -1,0 +1,81 @@
+{
+  "id": "white-whale-dex",
+  "name": "White Whale Dex",
+  "type": "dexs",
+  "website": "https://app.whitewhale.money/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "osmosis",
+    "sei",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "White Whale Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for White Whale Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/white-whale-dex",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/white-whale-dex",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/white-whale-dex",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

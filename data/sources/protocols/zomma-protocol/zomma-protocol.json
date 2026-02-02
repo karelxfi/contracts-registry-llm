@@ -1,0 +1,42 @@
+{
+  "id": "zomma-protocol",
+  "name": "Zomma Protocol",
+  "type": "options",
+  "website": "https://zomma.pro",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zomma Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Zomma Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zomma-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

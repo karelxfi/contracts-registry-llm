@@ -1,0 +1,42 @@
+{
+  "id": "ceto-swap",
+  "name": "Ceto Swap",
+  "type": "dexs",
+  "website": "https://exchange.cetoswap.com/#/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ceto Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Ceto Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ceto-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

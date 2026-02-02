@@ -1,0 +1,44 @@
+{
+  "id": "piku",
+  "name": "Piku",
+  "type": "yield",
+  "website": "https://piku.co/",
+  "github": [
+    "piku-co"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Piku Main Contract",
+      "type": "core",
+      "description": "Main contract for Piku",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/piku",
+      "updated": "2025-01-31"
+    }
+  }
+}

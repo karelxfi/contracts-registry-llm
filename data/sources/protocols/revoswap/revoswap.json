@@ -1,0 +1,42 @@
+{
+  "id": "revoswap",
+  "name": "Revoswap",
+  "type": "dexs",
+  "website": "https://revoswap.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Revoswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Revoswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revoswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

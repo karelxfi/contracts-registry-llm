@@ -1,0 +1,42 @@
+{
+  "id": "eigenpie",
+  "name": "Eigenpie",
+  "type": "liquid restaking",
+  "website": "https://www.eigenlayer.magpiexyz.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eigenpie Main Contract",
+      "type": "core",
+      "description": "Main contract for Eigenpie",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eigenpie",
+      "updated": "2025-01-31"
+    }
+  }
+}

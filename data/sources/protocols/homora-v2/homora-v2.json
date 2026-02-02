@@ -1,0 +1,60 @@
+{
+  "id": "homora-v2",
+  "name": "Homora V2",
+  "type": "leveraged farming",
+  "website": "https://homora-v2.alphaventuredao.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "ethereum",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Homora V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Homora V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/homora-v2",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/homora-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

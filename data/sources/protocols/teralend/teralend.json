@@ -1,0 +1,42 @@
+{
+  "id": "teralend",
+  "name": "Teralend",
+  "type": "lending",
+  "website": "https://teralend.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Teralend Main Contract",
+      "type": "core",
+      "description": "Main contract for Teralend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/teralend",
+      "updated": "2025-01-31"
+    }
+  }
+}

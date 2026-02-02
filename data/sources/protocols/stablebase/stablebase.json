@@ -1,0 +1,44 @@
+{
+  "id": "stablebase",
+  "name": "StableBase",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "stablebasefi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StableBase Main Contract",
+      "type": "core",
+      "description": "Main contract for StableBase",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stablebase",
+      "updated": "2025-01-31"
+    }
+  }
+}

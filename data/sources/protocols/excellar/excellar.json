@@ -1,0 +1,43 @@
+{
+  "id": "excellar",
+  "name": "Excellar",
+  "type": "basis trading",
+  "website": "https://excellar.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "stellar"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Excellar Main Contract",
+      "type": "core",
+      "description": "Main contract for Excellar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stellar": {
+      "chain": "stellar",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/excellar",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

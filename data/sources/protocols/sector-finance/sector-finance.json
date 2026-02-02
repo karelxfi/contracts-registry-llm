@@ -1,0 +1,60 @@
+{
+  "id": "sector-finance",
+  "name": "Sector Finance",
+  "type": "yield",
+  "website": "https://sector.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sector Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Sector Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sector-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sector-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

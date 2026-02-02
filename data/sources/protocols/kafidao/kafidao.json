@@ -1,0 +1,42 @@
+{
+  "id": "kafidao",
+  "name": "KafiDAO",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KafiDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for KafiDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kafidao",
+      "updated": "2025-01-31"
+    }
+  }
+}

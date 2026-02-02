@@ -1,0 +1,62 @@
+{
+  "id": "titi-protocol",
+  "name": "TiTi Protocol",
+  "type": "algo-stables",
+  "website": "https://titi.finance/",
+  "github": [
+    "TiTi-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TiTi Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for TiTi Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/titi-protocol",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/titi-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

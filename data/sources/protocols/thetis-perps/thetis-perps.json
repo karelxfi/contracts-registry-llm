@@ -1,0 +1,43 @@
+{
+  "id": "thetis-perps",
+  "name": "Thetis Perps",
+  "type": "derivatives",
+  "website": "https://thetis.market",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Thetis Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for Thetis Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thetis-perps",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

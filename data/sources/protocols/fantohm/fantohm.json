@@ -1,0 +1,44 @@
+{
+  "id": "fantohm",
+  "name": "Fantohm",
+  "type": "reserve currency",
+  "website": "",
+  "github": [
+    "fantohm-dev"
+  ],
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fantohm Main Contract",
+      "type": "core",
+      "description": "Main contract for Fantohm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fantohm",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bitunix",
+  "name": "Bitunix",
+  "type": "cex",
+  "website": "https://www.bitunix.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "bitcoin",
+    "tron",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bitunix Main Contract",
+      "type": "core",
+      "description": "Main contract for Bitunix",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitunix",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitunix",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitunix",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "solace",
+  "name": "Solace",
+  "type": "insurance",
+  "website": "",
+  "github": [
+    "solace-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solace Main Contract",
+      "type": "core",
+      "description": "Main contract for Solace",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solace",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solace",
+      "updated": "2025-01-31"
+    }
+  }
+}

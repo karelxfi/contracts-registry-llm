@@ -1,0 +1,43 @@
+{
+  "id": "newrlrwa",
+  "name": "NewrlRWA",
+  "type": "rwa",
+  "website": "https://newrl.net/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NewrlRWA Main Contract",
+      "type": "core",
+      "description": "Main contract for NewrlRWA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/newrlrwa",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

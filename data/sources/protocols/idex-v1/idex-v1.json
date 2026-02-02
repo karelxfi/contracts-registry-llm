@@ -1,0 +1,42 @@
+{
+  "id": "idex-v1",
+  "name": "IDEX V1",
+  "type": "dexs",
+  "website": "https://idex.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "IDEX V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for IDEX V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/idex-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

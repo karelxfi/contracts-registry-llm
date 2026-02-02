@@ -1,0 +1,80 @@
+{
+  "id": "hundred-finance",
+  "name": "Hundred Finance",
+  "type": "lending",
+  "website": "https://hundred.finance",
+  "github": [
+    "hundred-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hundred Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Hundred Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hundred-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hundred-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hundred-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

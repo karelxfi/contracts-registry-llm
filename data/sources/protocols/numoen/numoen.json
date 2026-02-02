@@ -1,0 +1,80 @@
+{
+  "id": "numoen",
+  "name": "Numoen",
+  "type": "derivatives",
+  "website": "https://app.numoen.com/trade",
+  "github": [
+    "Numoen"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "polygon",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Numoen Main Contract",
+      "type": "core",
+      "description": "Main contract for Numoen",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/numoen",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/numoen",
+      "updated": "2025-01-31"
+    },
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/numoen",
+      "updated": "2025-01-31"
+    }
+  }
+}

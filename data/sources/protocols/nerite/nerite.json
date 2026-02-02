@@ -1,0 +1,44 @@
+{
+  "id": "nerite",
+  "name": "Nerite",
+  "type": "cdp",
+  "website": "https://app.nerite.org/",
+  "github": [
+    "NeriteOrg"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nerite Main Contract",
+      "type": "core",
+      "description": "Main contract for Nerite",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nerite",
+      "updated": "2025-01-31"
+    }
+  }
+}

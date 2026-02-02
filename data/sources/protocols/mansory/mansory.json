@@ -1,0 +1,43 @@
+{
+  "id": "mansory",
+  "name": "Mansory",
+  "type": "rwa",
+  "website": "https://mansorytoken.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mansory Main Contract",
+      "type": "core",
+      "description": "Main contract for Mansory",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mansory",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

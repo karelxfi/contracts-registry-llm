@@ -1,0 +1,43 @@
+{
+  "id": "zeus-btcsol",
+  "name": "Zeus btcSOL",
+  "type": "liquid restaking",
+  "website": "https://btcsol.co/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid restaking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zeus btcSOL Main Contract",
+      "type": "core",
+      "description": "Main contract for Zeus btcSOL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zeus-btcsol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

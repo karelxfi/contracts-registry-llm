@@ -1,0 +1,43 @@
+{
+  "id": "bluemove-dex",
+  "name": "BlueMove DEX",
+  "type": "dexs",
+  "website": "https://dex.bluemove.net/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BlueMove DEX Main Contract",
+      "type": "core",
+      "description": "Main contract for BlueMove DEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bluemove-dex",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

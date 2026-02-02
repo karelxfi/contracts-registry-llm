@@ -1,0 +1,43 @@
+{
+  "id": "ocean-one",
+  "name": "Ocean One",
+  "type": "dexs",
+  "website": "https://ocean.one",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ocean One Main Contract",
+      "type": "core",
+      "description": "Main contract for Ocean One",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ocean-one",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

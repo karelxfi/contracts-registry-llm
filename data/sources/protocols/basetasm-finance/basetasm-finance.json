@@ -1,0 +1,44 @@
+{
+  "id": "basetasm-finance",
+  "name": "Basetasm Finance",
+  "type": "algo-stables",
+  "website": "",
+  "github": [
+    "basetasmfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basetasm Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Basetasm Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basetasm-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

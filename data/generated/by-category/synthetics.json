@@ -1,0 +1,1217 @@
+{
+  "category": "synthetics",
+  "protocols": {
+    "alchemix": {
+      "alchemix": {
+        "name": "Alchemix",
+        "contracts": {
+          "main": {
+            "name": "Alchemix Main Contract",
+            "type": "core",
+            "description": "Main contract for Alchemix",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/alchemix",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/alchemix",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "amulet-finance": {
+      "amulet-finance": {
+        "name": "Amulet Finance",
+        "contracts": {
+          "main": {
+            "name": "Amulet Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Amulet Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "neutron": {
+            "chain": "neutron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/amulet-finance",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "apollon": {
+      "apollon": {
+        "name": "Apollon",
+        "contracts": {
+          "main": {
+            "name": "Apollon Main Contract",
+            "type": "core",
+            "description": "Main contract for Apollon",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sei": {
+            "chain": "sei",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/apollon",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "arable-protocol": {
+      "arable-protocol": {
+        "name": "Arable Protocol",
+        "contracts": {
+          "main": {
+            "name": "Arable Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Arable Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/arable-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "argano": {
+      "argano": {
+        "name": "Argano",
+        "contracts": {
+          "main": {
+            "name": "Argano Main Contract",
+            "type": "core",
+            "description": "Main contract for Argano",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/argano",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "crafting-finance": {
+      "crafting-finance": {
+        "name": "Crafting Finance",
+        "contracts": {
+          "main": {
+            "name": "Crafting Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Crafting Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/crafting-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "cvi-finance": {
+      "cvi-finance": {
+        "name": "CVI Finance",
+        "contracts": {
+          "main": {
+            "name": "CVI Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for CVI Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cvi-finance",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cvi-finance",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cvi-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "domination-finance": {
+      "domination-finance": {
+        "name": "Domination Finance",
+        "contracts": {
+          "main": {
+            "name": "Domination Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Domination Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/domination-finance",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/domination-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "duet-protocol": {
+      "duet-protocol": {
+        "name": "Duet Protocol",
+        "contracts": {
+          "main": {
+            "name": "Duet Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Duet Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/duet-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "forge-sx-ovens": {
+      "forge-sx-ovens": {
+        "name": "Forge SX Ovens",
+        "contracts": {
+          "main": {
+            "name": "Forge SX Ovens Main Contract",
+            "type": "core",
+            "description": "Main contract for Forge SX Ovens",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/forge-sx-ovens",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ion-dao": {
+      "ion-dao": {
+        "name": "ION DAO",
+        "contracts": {
+          "main": {
+            "name": "ION DAO Main Contract",
+            "type": "core",
+            "description": "Main contract for ION DAO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "osmosis": {
+            "chain": "osmosis",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ion-dao",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "klondike-finance": {
+      "klondike-finance": {
+        "name": "Klondike Finance",
+        "contracts": {
+          "main": {
+            "name": "Klondike Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Klondike Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/klondike-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "metronome-synth": {
+      "metronome-synth": {
+        "name": "Metronome Synth",
+        "contracts": {
+          "main": {
+            "name": "Metronome Synth Main Contract",
+            "type": "core",
+            "description": "Main contract for Metronome Synth",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/metronome-synth",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/metronome-synth",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mobius-finance": {
+      "mobius-finance": {
+        "name": "Mobius Finance",
+        "contracts": {
+          "main": {
+            "name": "Mobius Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Mobius Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mobius-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "outcome-finance": {
+      "outcome-finance": {
+        "name": "Outcome Finance",
+        "contracts": {
+          "main": {
+            "name": "Outcome Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Outcome Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/outcome-finance",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/outcome-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "parcl-v2": {
+      "parcl-v2": {
+        "name": "Parcl V2",
+        "contracts": {
+          "main": {
+            "name": "Parcl V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Parcl V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/parcl-v2",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "poison-finance": {
+      "poison-finance": {
+        "name": "POISON FINANCE",
+        "contracts": {
+          "main": {
+            "name": "POISON FINANCE Main Contract",
+            "type": "core",
+            "description": "Main contract for POISON FINANCE",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/poison-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "qian": {
+      "qian": {
+        "name": "QIAN",
+        "contracts": {
+          "main": {
+            "name": "QIAN Main Contract",
+            "type": "core",
+            "description": "Main contract for QIAN",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/qian",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "reax-assets": {
+      "reax-assets": {
+        "name": "Reax Assets",
+        "contracts": {
+          "main": {
+            "name": "Reax Assets Main Contract",
+            "type": "core",
+            "description": "Main contract for Reax Assets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reax-assets",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "rumpel-labs": {
+      "rumpel-labs": {
+        "name": "Rumpel Labs",
+        "contracts": {
+          "main": {
+            "name": "Rumpel Labs Main Contract",
+            "type": "core",
+            "description": "Main contract for Rumpel Labs",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rumpel-labs",
+            "updated": "2025-01-31"
+          },
+          "hyperliquid-l1": {
+            "chain": "hyperliquid-l1",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rumpel-labs",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "syde": {
+      "syde": {
+        "name": "Syde",
+        "contracts": {
+          "main": {
+            "name": "Syde Main Contract",
+            "type": "core",
+            "description": "Main contract for Syde",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ton": {
+            "chain": "ton",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/syde",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "synlev": {
+      "synlev": {
+        "name": "SynLev",
+        "contracts": {
+          "main": {
+            "name": "SynLev Main Contract",
+            "type": "core",
+            "description": "Main contract for SynLev",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synlev",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "synthetify": {
+      "synthetify": {
+        "name": "Synthetify",
+        "contracts": {
+          "main": {
+            "name": "Synthetify Main Contract",
+            "type": "core",
+            "description": "Main contract for Synthetify",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synthetify",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "synthetix-v1+v2": {
+      "synthetix-v1+v2": {
+        "name": "Synthetix v1+v2",
+        "contracts": {
+          "main": {
+            "name": "Synthetix v1+v2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Synthetix v1+v2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synthetix-v1+v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "synthex": {
+      "synthex": {
+        "name": "SynthEx",
+        "contracts": {
+          "main": {
+            "name": "SynthEx Main Contract",
+            "type": "core",
+            "description": "Main contract for SynthEx",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/synthex",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "umoja-synths": {
+      "umoja-synths": {
+        "name": "Umoja Synths",
+        "contracts": {
+          "main": {
+            "name": "Umoja Synths Main Contract",
+            "type": "core",
+            "description": "Main contract for Umoja Synths",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/umoja-synths",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "wrap-protocol": {
+      "wrap-protocol": {
+        "name": "Wrap Protocol",
+        "contracts": {
+          "main": {
+            "name": "Wrap Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Wrap Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/wrap-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "yam-finance": {
+      "yam-finance": {
+        "name": "Yam Finance",
+        "contracts": {
+          "main": {
+            "name": "Yam Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Yam Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/yam-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "youves": {
+      "youves": {
+        "name": "Youves",
+        "contracts": {
+          "main": {
+            "name": "Youves Main Contract",
+            "type": "core",
+            "description": "Main contract for Youves",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tezos": {
+            "chain": "tezos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/youves",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "zeroliquid": {
+      "zeroliquid": {
+        "name": "ZeroLiquid",
+        "contracts": {
+          "main": {
+            "name": "ZeroLiquid Main Contract",
+            "type": "core",
+            "description": "Main contract for ZeroLiquid",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zeroliquid",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zksynth": {
+      "zksynth": {
+        "name": "ZKSynth",
+        "contracts": {
+          "main": {
+            "name": "ZKSynth Main Contract",
+            "type": "core",
+            "description": "Main contract for ZKSynth",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "scroll": {
+            "chain": "scroll",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zksynth",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

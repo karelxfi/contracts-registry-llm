@@ -1,0 +1,45 @@
+{
+  "id": "troves",
+  "name": "Troves",
+  "type": "yield",
+  "website": "https://www.troves.fi/",
+  "github": [
+    "troves"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Troves Main Contract",
+      "type": "core",
+      "description": "Main contract for Troves",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/troves",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

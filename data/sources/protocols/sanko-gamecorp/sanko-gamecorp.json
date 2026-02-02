@@ -1,0 +1,42 @@
+{
+  "id": "sanko-gamecorp",
+  "name": "Sanko GameCorp",
+  "type": "sofi",
+  "website": "https://sanko.tv/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sanko GameCorp Main Contract",
+      "type": "core",
+      "description": "Main contract for Sanko GameCorp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sanko-gamecorp",
+      "updated": "2025-01-31"
+    }
+  }
+}

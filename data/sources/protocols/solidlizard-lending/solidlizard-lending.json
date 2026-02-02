@@ -1,0 +1,42 @@
+{
+  "id": "solidlizard-lending",
+  "name": "SolidLizard Lending",
+  "type": "lending",
+  "website": "https://lending.solidlizard.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SolidLizard Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for SolidLizard Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solidlizard-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "shroomy-protocol-lending",
+  "name": "Shroomy Protocol Lending",
+  "type": "lending",
+  "website": "https://app.shroomy.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ink"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Shroomy Protocol Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Shroomy Protocol Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ink": {
+      "chain": "ink",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shroomy-protocol-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

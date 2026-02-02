@@ -1,0 +1,60 @@
+{
+  "id": "locus-finance",
+  "name": "Locus Finance",
+  "type": "yield",
+  "website": "https://www.locus.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Locus Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Locus Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/locus-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/locus-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

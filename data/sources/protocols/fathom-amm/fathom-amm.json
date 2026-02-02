@@ -1,0 +1,42 @@
+{
+  "id": "fathom-amm",
+  "name": "Fathom AMM",
+  "type": "dexs",
+  "website": "https://fathom.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fathom AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Fathom AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fathom-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

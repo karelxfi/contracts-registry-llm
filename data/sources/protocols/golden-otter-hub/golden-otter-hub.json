@@ -1,0 +1,42 @@
+{
+  "id": "golden-otter-hub",
+  "name": "Golden Otter Hub",
+  "type": "farm",
+  "website": "https://otter.trading",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "world-chain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Golden Otter Hub Main Contract",
+      "type": "core",
+      "description": "Main contract for Golden Otter Hub",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/golden-otter-hub",
+      "updated": "2025-01-31"
+    }
+  }
+}

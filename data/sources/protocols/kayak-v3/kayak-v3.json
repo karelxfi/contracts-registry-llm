@@ -1,0 +1,42 @@
+{
+  "id": "kayak-v3",
+  "name": "Kayak V3",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kayak V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Kayak V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kayak-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

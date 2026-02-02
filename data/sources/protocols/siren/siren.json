@@ -1,0 +1,80 @@
+{
+  "id": "siren",
+  "name": "Siren",
+  "type": "options",
+  "website": "https://sirenmarkets.com/",
+  "github": [
+    "sirenmarkets"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "ethereum",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Siren Main Contract",
+      "type": "core",
+      "description": "Main contract for Siren",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/siren",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/siren",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/siren",
+      "updated": "2025-01-31"
+    }
+  }
+}

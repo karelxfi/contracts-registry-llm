@@ -1,0 +1,43 @@
+{
+  "id": "yamfore",
+  "name": "Yamfore",
+  "type": "lending",
+  "website": "https://www.yamfore.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yamfore Main Contract",
+      "type": "core",
+      "description": "Main contract for Yamfore",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yamfore",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

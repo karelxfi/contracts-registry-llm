@@ -1,0 +1,44 @@
+{
+  "id": "yam-finance",
+  "name": "Yam Finance",
+  "type": "synthetics",
+  "website": "https://yam.finance/",
+  "github": [
+    "yam-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yam Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Yam Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yam-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

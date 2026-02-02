@@ -1,0 +1,78 @@
+{
+  "id": "ordernchaos",
+  "name": "OrderNChaos",
+  "type": "algo-stables",
+  "website": "https://ordernchaos.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "arbitrum",
+    "avalanche",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OrderNChaos Main Contract",
+      "type": "core",
+      "description": "Main contract for OrderNChaos",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ordernchaos",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ordernchaos",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ordernchaos",
+      "updated": "2025-01-31"
+    }
+  }
+}

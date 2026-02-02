@@ -1,0 +1,45 @@
+{
+  "id": "justlend",
+  "name": "JustLend",
+  "type": "lending",
+  "website": "https://justlend.just.network",
+  "github": [
+    "justlend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JustLend Main Contract",
+      "type": "core",
+      "description": "Main contract for JustLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/justlend",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

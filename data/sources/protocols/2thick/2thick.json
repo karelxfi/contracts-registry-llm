@@ -1,0 +1,60 @@
+{
+  "id": "2thick",
+  "name": "2THICK",
+  "type": "dexs",
+  "website": "https://eliteness.network/thick",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "2THICK Main Contract",
+      "type": "core",
+      "description": "Main contract for 2THICK",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/2thick",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/2thick",
+      "updated": "2025-01-31"
+    }
+  }
+}

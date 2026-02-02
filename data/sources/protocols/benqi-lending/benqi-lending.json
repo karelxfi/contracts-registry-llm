@@ -1,0 +1,42 @@
+{
+  "id": "benqi-lending",
+  "name": "Benqi Lending",
+  "type": "lending",
+  "website": "https://benqi.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Benqi Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Benqi Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/benqi-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

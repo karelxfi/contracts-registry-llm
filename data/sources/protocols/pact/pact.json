@@ -1,0 +1,45 @@
+{
+  "id": "pact",
+  "name": "Pact",
+  "type": "dexs",
+  "website": "https://app.pact.fi",
+  "github": [
+    "pactfi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pact Main Contract",
+      "type": "core",
+      "description": "Main contract for Pact",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pact",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

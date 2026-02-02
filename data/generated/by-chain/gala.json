@@ -1,0 +1,42 @@
+{
+  "chain": "gala",
+  "chainInfo": {
+    "id": "gala",
+    "name": "Gala",
+    "platform": "evm",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "GALA",
+      "symbol": "GALA",
+      "decimals": 18
+    },
+    "gecko_id": "gala",
+    "cmcId": "7080",
+    "explorers": {
+      "primary": {
+        "name": "Gala Explorer",
+        "url": "https://explorer.gala.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "gala-swap": {
+      "gala-swap": {
+        "name": "Gala Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "jvault",
+  "name": "JVault",
+  "type": "farm",
+  "website": "https://jvault.xyz",
+  "github": [
+    "Vault-app"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JVault Main Contract",
+      "type": "core",
+      "description": "Main contract for JVault",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jvault",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

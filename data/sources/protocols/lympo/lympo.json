@@ -1,0 +1,42 @@
+{
+  "id": "lympo",
+  "name": "Lympo",
+  "type": "gaming",
+  "website": "https://lympo.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lympo Main Contract",
+      "type": "core",
+      "description": "Main contract for Lympo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lympo",
+      "updated": "2025-01-31"
+    }
+  }
+}

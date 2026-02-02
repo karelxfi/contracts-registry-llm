@@ -1,0 +1,163 @@
+{
+  "chain": "movement",
+  "chainInfo": {
+    "id": "movement",
+    "name": "Movement",
+    "platform": "move",
+    "status": "active",
+    "chainId": 3073,
+    "nativeCurrency": {
+      "name": "MOVE",
+      "symbol": "MOVE",
+      "decimals": 8
+    },
+    "gecko_id": "movement",
+    "cmcId": "32452",
+    "explorers": {
+      "primary": {
+        "name": "Movement Explorer",
+        "url": "https://explorer.movement.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "arche-protocol": {
+      "arche-protocol": {
+        "name": "Arche Protocol",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "canopy": {
+      "canopy": {
+        "name": "Canopy",
+        "type": "yield aggregator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "interest-curve": {
+      "interest-curve": {
+        "name": "Interest Curve",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "interest-dex": {
+      "interest-dex": {
+        "name": "Interest DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "meridian-amm": {
+      "meridian-amm": {
+        "name": "Meridian AMM",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mosaic-amm": {
+      "mosaic-amm": {
+        "name": "Mosaic AMM",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "moveposition": {
+      "moveposition": {
+        "name": "MovePosition",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "picwe": {
+      "picwe": {
+        "name": "PICWE",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "yuzu-finance": {
+      "yuzu-finance": {
+        "name": "Yuzu Finance",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

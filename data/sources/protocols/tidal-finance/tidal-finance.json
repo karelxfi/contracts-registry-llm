@@ -1,0 +1,44 @@
+{
+  "id": "tidal-finance",
+  "name": "Tidal Finance",
+  "type": "insurance",
+  "website": "https://tidal.finance",
+  "github": [
+    "TidalFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tidal Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Tidal Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tidal-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

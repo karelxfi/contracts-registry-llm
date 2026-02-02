@@ -1,0 +1,60 @@
+{
+  "id": "bifrost-liquid-staking",
+  "name": "Bifrost Liquid Staking",
+  "type": "liquid staking",
+  "website": "https://bifrost.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bifrost Liquid Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Bifrost Liquid Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bifrost-liquid-staking",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bifrost-liquid-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "avolend",
+  "name": "AvoLend",
+  "type": "lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AvoLend Main Contract",
+      "type": "core",
+      "description": "Main contract for AvoLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avolend",
+      "updated": "2025-01-31"
+    }
+  }
+}

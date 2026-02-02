@@ -1,0 +1,45 @@
+{
+  "id": "pluto",
+  "name": "Pluto",
+  "type": "yield",
+  "website": "https://pluto.so/",
+  "github": [
+    "plutoleverage"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pluto Main Contract",
+      "type": "core",
+      "description": "Main contract for Pluto",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pluto",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

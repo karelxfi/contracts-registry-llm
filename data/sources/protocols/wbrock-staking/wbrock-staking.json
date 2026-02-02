@@ -1,0 +1,42 @@
+{
+  "id": "wbrock-staking",
+  "name": "WBROCK Staking",
+  "type": "staking pool",
+  "website": "https://www.bit-rock.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WBROCK Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for WBROCK Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wbrock-staking",
+      "updated": "2025-01-31"
+    }
+  }
+}

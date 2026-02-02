@@ -1,0 +1,967 @@
+{
+  "category": "privacy",
+  "protocols": {
+    "0x0.ai": {
+      "0x0.ai": {
+        "name": "0x0.ai",
+        "contracts": {
+          "main": {
+            "name": "0x0.ai Main Contract",
+            "type": "core",
+            "description": "Main contract for 0x0.ai",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/0x0.ai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "aztec-connect": {
+      "aztec-connect": {
+        "name": "Aztec Connect",
+        "contracts": {
+          "main": {
+            "name": "Aztec Connect Main Contract",
+            "type": "core",
+            "description": "Main contract for Aztec Connect",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aztec-connect",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "common": {
+      "common": {
+        "name": "Common",
+        "contracts": {
+          "main": {
+            "name": "Common Main Contract",
+            "type": "core",
+            "description": "Main contract for Common",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/common",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "encoins": {
+      "encoins": {
+        "name": "Encoins",
+        "contracts": {
+          "main": {
+            "name": "Encoins Main Contract",
+            "type": "core",
+            "description": "Main contract for Encoins",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/encoins",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "foom-cash": {
+      "foom-cash": {
+        "name": "FOOM Cash",
+        "contracts": {
+          "main": {
+            "name": "FOOM Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for FOOM Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/foom-cash",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/foom-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "garble.money": {
+      "garble.money": {
+        "name": "Garble.Money",
+        "contracts": {
+          "main": {
+            "name": "Garble.Money Main Contract",
+            "type": "core",
+            "description": "Main contract for Garble.Money",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/garble.money",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "ghost-protocol": {
+      "ghost-protocol": {
+        "name": "Ghost Protocol",
+        "contracts": {
+          "main": {
+            "name": "Ghost Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Ghost Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "monad": {
+            "chain": "monad",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ghost-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hinkal": {
+      "hinkal": {
+        "name": "Hinkal",
+        "contracts": {
+          "main": {
+            "name": "Hinkal Main Contract",
+            "type": "core",
+            "description": "Main contract for Hinkal",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hinkal",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hinkal",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hinkal",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hinkal",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nata-network": {
+      "nata-network": {
+        "name": "Nata Network",
+        "contracts": {
+          "main": {
+            "name": "Nata Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Nata Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nata-network",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "nocturne": {
+      "nocturne": {
+        "name": "Nocturne",
+        "contracts": {
+          "main": {
+            "name": "Nocturne Main Contract",
+            "type": "core",
+            "description": "Main contract for Nocturne",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/nocturne",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "privacy-cash": {
+      "privacy-cash": {
+        "name": "Privacy Cash",
+        "contracts": {
+          "main": {
+            "name": "Privacy Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Privacy Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/privacy-cash",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "privacy-pools": {
+      "privacy-pools": {
+        "name": "Privacy Pools",
+        "contracts": {
+          "main": {
+            "name": "Privacy Pools Main Contract",
+            "type": "core",
+            "description": "Main contract for Privacy Pools",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/privacy-pools",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/privacy-pools",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "privcash": {
+      "privcash": {
+        "name": "PrivCash",
+        "contracts": {
+          "main": {
+            "name": "PrivCash Main Contract",
+            "type": "core",
+            "description": "Main contract for PrivCash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/privcash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "railgun": {
+      "railgun": {
+        "name": "Railgun",
+        "contracts": {
+          "main": {
+            "name": "Railgun Main Contract",
+            "type": "core",
+            "description": "Main contract for Railgun",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/railgun",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/railgun",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/railgun",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sherpa-cash": {
+      "sherpa-cash": {
+        "name": "Sherpa Cash",
+        "contracts": {
+          "main": {
+            "name": "Sherpa Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Sherpa Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sherpa-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "silent-protocol": {
+      "silent-protocol": {
+        "name": "Silent Protocol",
+        "contracts": {
+          "main": {
+            "name": "Silent Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Silent Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/silent-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "tonic-cash": {
+      "tonic-cash": {
+        "name": "Tonic Cash",
+        "contracts": {
+          "main": {
+            "name": "Tonic Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Tonic Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tonic-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "tonnel-network": {
+      "tonnel-network": {
+        "name": "Tonnel Network",
+        "contracts": {
+          "main": {
+            "name": "Tonnel Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Tonnel Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ton": {
+            "chain": "ton",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tonnel-network",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "tornado-cash": {
+      "tornado-cash": {
+        "name": "Tornado Cash",
+        "contracts": {
+          "main": {
+            "name": "Tornado Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Tornado Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tornado-cash",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tornado-cash",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tornado-cash",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tornado-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "typhoon-cash": {
+      "typhoon-cash": {
+        "name": "Typhoon Cash",
+        "contracts": {
+          "main": {
+            "name": "Typhoon Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Typhoon Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/typhoon-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "veil-cash": {
+      "veil-cash": {
+        "name": "Veil Cash",
+        "contracts": {
+          "main": {
+            "name": "Veil Cash Main Contract",
+            "type": "core",
+            "description": "Main contract for Veil Cash",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/veil-cash",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zkbob": {
+      "zkbob": {
+        "name": "zkBob",
+        "contracts": {
+          "main": {
+            "name": "zkBob Main Contract",
+            "type": "core",
+            "description": "Main contract for zkBob",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkbob",
+            "updated": "2025-01-31"
+          },
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkbob",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "macaronswap",
+  "name": "MacaronSwap",
+  "type": "dexs",
+  "website": "https://macaronswap.finance",
+  "github": [
+    "macaronswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MacaronSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for MacaronSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/macaronswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

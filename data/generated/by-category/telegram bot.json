@@ -1,0 +1,111 @@
+{
+  "category": "telegram bot",
+  "protocols": {
+    "defidash-agent": {
+      "defidash-agent": {
+        "name": "Defidash Agent",
+        "contracts": {
+          "main": {
+            "name": "Defidash Agent Main Contract",
+            "type": "core",
+            "description": "Main contract for Defidash Agent",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/defidash-agent",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "paal-ai": {
+      "paal-ai": {
+        "name": "PAAL AI",
+        "contracts": {
+          "main": {
+            "name": "PAAL AI Main Contract",
+            "type": "core",
+            "description": "Main contract for PAAL AI",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/paal-ai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ton-pump": {
+      "ton-pump": {
+        "name": "TON Pump",
+        "contracts": {
+          "main": {
+            "name": "TON Pump Main Contract",
+            "type": "core",
+            "description": "Main contract for TON Pump",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ton": {
+            "chain": "ton",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ton-pump",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    }
+  }
+}

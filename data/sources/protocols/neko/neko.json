@@ -1,0 +1,45 @@
+{
+  "id": "neko",
+  "name": "NEKO",
+  "type": "farm",
+  "website": "https://www.nekotoken.xyz/",
+  "github": [
+    "Good-Fortune-Felines-Core-Team"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NEKO Main Contract",
+      "type": "core",
+      "description": "Main contract for NEKO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/neko",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

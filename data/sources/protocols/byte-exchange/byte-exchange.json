@@ -1,0 +1,61 @@
+{
+  "id": "byte-exchange",
+  "name": "Byte Exchange",
+  "type": "cex",
+  "website": "https://bexc.io//",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Byte Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Byte Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/byte-exchange",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/byte-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

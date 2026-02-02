@@ -1,0 +1,43 @@
+{
+  "id": "solayer-restaking",
+  "name": "Solayer Restaking",
+  "type": "restaking",
+  "website": "https://solayer.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "restaking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solayer Restaking Main Contract",
+      "type": "core",
+      "description": "Main contract for Solayer Restaking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solayer-restaking",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

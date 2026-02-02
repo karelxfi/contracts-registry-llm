@@ -1,0 +1,42 @@
+{
+  "id": "bondlink-finance",
+  "name": "Bondlink Finance",
+  "type": "rwa",
+  "website": "https://www.bondlink.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bondlink Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Bondlink Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bondlink-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

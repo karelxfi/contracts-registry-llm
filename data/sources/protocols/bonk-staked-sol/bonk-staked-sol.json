@@ -1,0 +1,43 @@
+{
+  "id": "bonk-staked-sol",
+  "name": "Bonk Staked SOL",
+  "type": "liquid staking",
+  "website": "https://bonkcoin.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bonk Staked SOL Main Contract",
+      "type": "core",
+      "description": "Main contract for Bonk Staked SOL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bonk-staked-sol",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

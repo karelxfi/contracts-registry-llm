@@ -1,0 +1,44 @@
+{
+  "id": "solid-world",
+  "name": "Solid World",
+  "type": "rwa",
+  "website": "https://www.solid.world",
+  "github": [
+    "solid-world"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Solid World Main Contract",
+      "type": "core",
+      "description": "Main contract for Solid World",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/solid-world",
+      "updated": "2025-01-31"
+    }
+  }
+}

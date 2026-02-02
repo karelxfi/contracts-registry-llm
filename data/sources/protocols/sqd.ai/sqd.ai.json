@@ -1,0 +1,42 @@
+{
+  "id": "sqd.ai",
+  "name": "SQD.ai",
+  "type": "developer tools",
+  "website": "https://www.sqd.ai/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "developer tools",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SQD.ai Main Contract",
+      "type": "core",
+      "description": "Main contract for SQD.ai",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sqd.ai",
+      "updated": "2025-01-31"
+    }
+  }
+}

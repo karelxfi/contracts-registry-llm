@@ -1,0 +1,45 @@
+{
+  "id": "algomint",
+  "name": "Algomint",
+  "type": "algo-stables",
+  "website": "https://basket.algomint.io/",
+  "github": [
+    "Algomint"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Algomint Main Contract",
+      "type": "core",
+      "description": "Main contract for Algomint",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/algomint",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "echidna-finance",
+  "name": "Echidna Finance",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Echidna Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Echidna Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/echidna-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

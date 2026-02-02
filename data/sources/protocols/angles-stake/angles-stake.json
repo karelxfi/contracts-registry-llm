@@ -1,0 +1,42 @@
+{
+  "id": "angles-stake",
+  "name": "Angles Stake",
+  "type": "liquid staking",
+  "website": "https://angles.fi/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Angles Stake Main Contract",
+      "type": "core",
+      "description": "Main contract for Angles Stake",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/angles-stake",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tea-rex",
+  "name": "Tea-REX",
+  "type": "derivatives",
+  "website": "https://alpha.trex.trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tea-REX Main Contract",
+      "type": "core",
+      "description": "Main contract for Tea-REX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tea-rex",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

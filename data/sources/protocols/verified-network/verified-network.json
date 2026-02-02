@@ -1,0 +1,60 @@
+{
+  "id": "verified-network",
+  "name": "Verified Network",
+  "type": "rwa",
+  "website": "https://www.verified.network/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Verified Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Verified Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/verified-network",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/verified-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

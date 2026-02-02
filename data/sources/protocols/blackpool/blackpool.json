@@ -1,0 +1,62 @@
+{
+  "id": "blackpool",
+  "name": "BlackPool",
+  "type": "indexes",
+  "website": "https://blackpool.finance/",
+  "github": [
+    "BlackPool-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BlackPool Main Contract",
+      "type": "core",
+      "description": "Main contract for BlackPool",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blackpool",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blackpool",
+      "updated": "2025-01-31"
+    }
+  }
+}

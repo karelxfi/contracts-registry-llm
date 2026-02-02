@@ -1,0 +1,44 @@
+{
+  "id": "loanshark-core",
+  "name": "Loanshark Core",
+  "type": "lending",
+  "website": "https://loanshark.tech/",
+  "github": [
+    "loansharktechteam"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Loanshark Core Main Contract",
+      "type": "core",
+      "description": "Main contract for Loanshark Core",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/loanshark-core",
+      "updated": "2025-01-31"
+    }
+  }
+}

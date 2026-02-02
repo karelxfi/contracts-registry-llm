@@ -1,0 +1,42 @@
+{
+  "id": "swapbased-concentrated-liquidity",
+  "name": "SwapBased Concentrated Liquidity",
+  "type": "dexs",
+  "website": "https://swapbased.finance/#/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SwapBased Concentrated Liquidity Main Contract",
+      "type": "core",
+      "description": "Main contract for SwapBased Concentrated Liquidity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swapbased-concentrated-liquidity",
+      "updated": "2025-01-31"
+    }
+  }
+}

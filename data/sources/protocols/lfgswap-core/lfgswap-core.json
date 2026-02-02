@@ -1,0 +1,42 @@
+{
+  "id": "lfgswap-core",
+  "name": "LFGSwap Core",
+  "type": "dexs",
+  "website": "https://app.lfgswap.finance/?chainId=1116",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LFGSwap Core Main Contract",
+      "type": "core",
+      "description": "Main contract for LFGSwap Core",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lfgswap-core",
+      "updated": "2025-01-31"
+    }
+  }
+}

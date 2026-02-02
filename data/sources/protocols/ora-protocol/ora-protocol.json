@@ -1,0 +1,42 @@
+{
+  "id": "ora-protocol",
+  "name": "Ora Protocol",
+  "type": "farm",
+  "website": "https://oraprotocol.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ora Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Ora Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ora-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

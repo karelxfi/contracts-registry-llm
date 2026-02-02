@@ -1,0 +1,43 @@
+{
+  "id": "fabric",
+  "name": "Fabric",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fabric Main Contract",
+      "type": "core",
+      "description": "Main contract for Fabric",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fabric",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

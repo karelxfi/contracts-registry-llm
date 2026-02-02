@@ -1,0 +1,62 @@
+{
+  "id": "definer",
+  "name": "DeFiner",
+  "type": "lending",
+  "website": "https://definer.org/",
+  "github": [
+    "DeFinerOrg"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DeFiner Main Contract",
+      "type": "core",
+      "description": "Main contract for DeFiner",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/definer",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/definer",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "margin-zero",
+  "name": "Margin Zero",
+  "type": "options",
+  "website": "https://www.marginzero.xyz/",
+  "github": [
+    "marginzero-xyz"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Margin Zero Main Contract",
+      "type": "core",
+      "description": "Main contract for Margin Zero",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/margin-zero",
+      "updated": "2025-01-31"
+    }
+  }
+}

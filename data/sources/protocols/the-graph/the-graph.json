@@ -1,0 +1,62 @@
+{
+  "id": "the-graph",
+  "name": "The Graph",
+  "type": "developer tools",
+  "website": "https://thegraph.com/",
+  "github": [
+    "graphprotocol"
+  ],
+  "docs": "",
+  "tags": [
+    "developer tools",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Graph Main Contract",
+      "type": "core",
+      "description": "Main contract for The Graph",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-graph",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-graph",
+      "updated": "2025-01-31"
+    }
+  }
+}

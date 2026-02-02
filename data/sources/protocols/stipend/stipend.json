@@ -1,0 +1,44 @@
+{
+  "id": "stipend",
+  "name": "Stipend",
+  "type": "yield",
+  "website": "https://governordao.org",
+  "github": [
+    "Stipend-Developer"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stipend Main Contract",
+      "type": "core",
+      "description": "Main contract for Stipend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stipend",
+      "updated": "2025-01-31"
+    }
+  }
+}

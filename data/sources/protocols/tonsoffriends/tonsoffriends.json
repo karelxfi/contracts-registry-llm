@@ -1,0 +1,43 @@
+{
+  "id": "tonsoffriends",
+  "name": "TonsOfFriends",
+  "type": "sofi",
+  "website": "https://twitter.com/TonsOfFriends",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TonsOfFriends Main Contract",
+      "type": "core",
+      "description": "Main contract for TonsOfFriends",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonsoffriends",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

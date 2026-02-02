@@ -1,0 +1,64 @@
+{
+  "id": "backbone-labs",
+  "name": "BackBone Labs",
+  "type": "liquid staking",
+  "website": "https://backbonelabs.io",
+  "github": [
+    "backbonelabsio"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "injective",
+    "osmosis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BackBone Labs Main Contract",
+      "type": "core",
+      "description": "Main contract for BackBone Labs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/backbone-labs",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/backbone-labs",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

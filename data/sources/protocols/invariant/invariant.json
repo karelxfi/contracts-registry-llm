@@ -1,0 +1,45 @@
+{
+  "id": "invariant",
+  "name": "Invariant",
+  "type": "dexs",
+  "website": "https://invariant.app",
+  "github": [
+    "invariant-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Invariant Main Contract",
+      "type": "core",
+      "description": "Main contract for Invariant",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/invariant",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

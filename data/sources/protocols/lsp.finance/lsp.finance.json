@@ -1,0 +1,42 @@
+{
+  "id": "lsp.finance",
+  "name": "LSP.Finance",
+  "type": "staking pool",
+  "website": "https://lsp.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LSP.Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for LSP.Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lsp.finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

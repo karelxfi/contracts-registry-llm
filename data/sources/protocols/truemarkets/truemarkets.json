@@ -1,0 +1,42 @@
+{
+  "id": "truemarkets",
+  "name": "Truemarkets",
+  "type": "prediction market",
+  "website": "https://truemarkets.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Truemarkets Main Contract",
+      "type": "core",
+      "description": "Main contract for Truemarkets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/truemarkets",
+      "updated": "2025-01-31"
+    }
+  }
+}

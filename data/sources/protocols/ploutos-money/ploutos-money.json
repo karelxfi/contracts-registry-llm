@@ -1,0 +1,116 @@
+{
+  "id": "ploutos-money",
+  "name": "Ploutos Money",
+  "type": "lending",
+  "website": "https://ploutos.money/",
+  "github": [
+    "ploutusFi"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "plasma",
+    "polygon",
+    "arbitrum",
+    "katana",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ploutos Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Ploutos Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ploutos-money",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ploutos-money",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ploutos-money",
+      "updated": "2025-01-31"
+    },
+    "katana": {
+      "chain": "katana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ploutos-money",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ploutos-money",
+      "updated": "2025-01-31"
+    }
+  }
+}

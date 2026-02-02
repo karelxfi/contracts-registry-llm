@@ -1,0 +1,62 @@
+{
+  "id": "deus-finance",
+  "name": "DEUS Finance",
+  "type": "cdp",
+  "website": "https://deus.finance",
+  "github": [
+    "deusfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DEUS Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for DEUS Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deus-finance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deus-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

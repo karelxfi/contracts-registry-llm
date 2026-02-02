@@ -1,0 +1,60 @@
+{
+  "id": "optyfi",
+  "name": "Optyfi",
+  "type": "yield aggregator",
+  "website": "https://opty.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Optyfi Main Contract",
+      "type": "core",
+      "description": "Main contract for Optyfi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/optyfi",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/optyfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

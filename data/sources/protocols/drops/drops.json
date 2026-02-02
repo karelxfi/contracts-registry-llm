@@ -1,0 +1,42 @@
+{
+  "id": "drops",
+  "name": "Drops",
+  "type": "nft lending",
+  "website": "https://drops.co",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Drops Main Contract",
+      "type": "core",
+      "description": "Main contract for Drops",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/drops",
+      "updated": "2025-01-31"
+    }
+  }
+}

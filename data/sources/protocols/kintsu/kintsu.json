@@ -1,0 +1,61 @@
+{
+  "id": "kintsu",
+  "name": "Kintsu",
+  "type": "liquid staking",
+  "website": "https://kintsu.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "monad",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kintsu Main Contract",
+      "type": "core",
+      "description": "Main contract for Kintsu",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kintsu",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kintsu",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

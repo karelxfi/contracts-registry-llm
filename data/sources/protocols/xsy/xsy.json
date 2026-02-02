@@ -1,0 +1,42 @@
+{
+  "id": "xsy",
+  "name": "XSY",
+  "type": "basis trading",
+  "website": "https://xsy.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "XSY Main Contract",
+      "type": "core",
+      "description": "Main contract for XSY",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xsy",
+      "updated": "2025-01-31"
+    }
+  }
+}

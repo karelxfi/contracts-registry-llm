@@ -1,0 +1,42 @@
+{
+  "id": "ubeswap-v2",
+  "name": "Ubeswap V2",
+  "type": "dexs",
+  "website": "https://ubeswap.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ubeswap V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Ubeswap V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ubeswap-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

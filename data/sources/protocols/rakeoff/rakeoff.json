@@ -1,0 +1,45 @@
+{
+  "id": "rakeoff",
+  "name": "Rakeoff",
+  "type": "staking pool",
+  "website": "https://rakeoff.io",
+  "github": [
+    "rakeoff-labs"
+  ],
+  "docs": "",
+  "tags": [
+    "staking pool",
+    "icp"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rakeoff Main Contract",
+      "type": "core",
+      "description": "Main contract for Rakeoff",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "icp": {
+      "chain": "icp",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rakeoff",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

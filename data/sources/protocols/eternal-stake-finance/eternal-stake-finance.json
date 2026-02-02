@@ -1,0 +1,43 @@
+{
+  "id": "eternal-stake-finance",
+  "name": "Eternal Stake Finance",
+  "type": "yield",
+  "website": "https://eternalstakefinance.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Eternal Stake Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Eternal Stake Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eternal-stake-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

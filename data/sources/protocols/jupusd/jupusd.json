@@ -1,0 +1,43 @@
+{
+  "id": "jupusd",
+  "name": "JupUSD",
+  "type": "basis trading",
+  "website": "https://jup.ag/?ref=f6y1ryr2snn3",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JupUSD Main Contract",
+      "type": "core",
+      "description": "Main contract for JupUSD",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jupusd",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "btcfi-cdp",
+  "name": "BTCFi CDP",
+  "type": "cdp",
+  "website": "https://btcfi.one",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "bitcoin",
+    "bifrost-network",
+    "base",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BTCFi CDP Main Contract",
+      "type": "core",
+      "description": "Main contract for BTCFi CDP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/btcfi-cdp",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "bifrost-network": {
+      "chain": "bifrost-network",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/btcfi-cdp",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/btcfi-cdp",
+      "updated": "2025-01-31"
+    },
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/btcfi-cdp",
+      "updated": "2025-01-31"
+    }
+  }
+}

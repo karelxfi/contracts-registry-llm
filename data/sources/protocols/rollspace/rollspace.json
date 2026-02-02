@@ -1,0 +1,42 @@
+{
+  "id": "rollspace",
+  "name": "Rollspace",
+  "type": "luck games",
+  "website": "https://rollspace.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "luck games",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rollspace Main Contract",
+      "type": "core",
+      "description": "Main contract for Rollspace",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rollspace",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "predx-ai",
+  "name": "PredX Ai",
+  "type": "prediction market",
+  "website": "https://predx.ai",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base",
+    "linea",
+    "mantle",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PredX Ai Main Contract",
+      "type": "core",
+      "description": "Main contract for PredX Ai",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/predx-ai",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/predx-ai",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/predx-ai",
+      "updated": "2025-01-31"
+    },
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/predx-ai",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

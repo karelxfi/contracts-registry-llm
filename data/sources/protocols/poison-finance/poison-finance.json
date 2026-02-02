@@ -1,0 +1,42 @@
+{
+  "id": "poison-finance",
+  "name": "POISON FINANCE",
+  "type": "synthetics",
+  "website": "https://poison.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "POISON FINANCE Main Contract",
+      "type": "core",
+      "description": "Main contract for POISON FINANCE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/poison-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

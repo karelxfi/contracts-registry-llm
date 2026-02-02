@@ -1,0 +1,80 @@
+{
+  "id": "infinite-trading-protocol",
+  "name": "Infinite Trading Protocol",
+  "type": "ai agents",
+  "website": "https://www.infinitetrading.io/",
+  "github": [
+    "InfiniteTradingProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "ai agents",
+    "base",
+    "polygon",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Infinite Trading Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Infinite Trading Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infinite-trading-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

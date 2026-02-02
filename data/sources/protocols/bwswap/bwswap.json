@@ -1,0 +1,44 @@
+{
+  "id": "bwswap",
+  "name": "BWSWAP",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "DEXXX001"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BWSWAP Main Contract",
+      "type": "core",
+      "description": "Main contract for BWSWAP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bwswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

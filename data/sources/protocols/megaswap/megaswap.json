@@ -1,0 +1,42 @@
+{
+  "id": "megaswap",
+  "name": "Megaswap",
+  "type": "dexs",
+  "website": "https://megaswap.co/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "megaeth"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Megaswap Main Contract",
+      "type": "core",
+      "description": "Main contract for Megaswap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "megaeth": {
+      "chain": "megaeth",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/megaswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

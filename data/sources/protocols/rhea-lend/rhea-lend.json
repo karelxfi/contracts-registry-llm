@@ -1,0 +1,43 @@
+{
+  "id": "rhea-lend",
+  "name": "Rhea Lend",
+  "type": "lending",
+  "website": "https://lending.rhea.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rhea Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Rhea Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rhea-lend",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

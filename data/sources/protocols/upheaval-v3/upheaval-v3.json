@@ -1,0 +1,43 @@
+{
+  "id": "upheaval-v3",
+  "name": "Upheaval V3",
+  "type": "dexs",
+  "website": "https://upheaval.fi/portfolio?ref=674574",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Upheaval V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Upheaval V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/upheaval-v3",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

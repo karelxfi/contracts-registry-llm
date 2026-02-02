@@ -1,0 +1,44 @@
+{
+  "id": "bank-of-chain",
+  "name": "Bank of Chain",
+  "type": "yield aggregator",
+  "website": "",
+  "github": [
+    "Bank-Of-Chain"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bank of Chain Main Contract",
+      "type": "core",
+      "description": "Main contract for Bank of Chain",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bank-of-chain",
+      "updated": "2025-01-31"
+    }
+  }
+}

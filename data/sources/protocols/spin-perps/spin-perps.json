@@ -1,0 +1,43 @@
+{
+  "id": "spin-perps",
+  "name": "Spin Perps",
+  "type": "derivatives",
+  "website": "https://perp.spin.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Spin Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for Spin Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/spin-perps",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

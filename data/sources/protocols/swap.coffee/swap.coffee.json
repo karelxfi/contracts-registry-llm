@@ -1,0 +1,43 @@
+{
+  "id": "swap.coffee",
+  "name": "swap.coffee",
+  "type": "dex aggregator",
+  "website": "https://swap.coffee/dex",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "swap.coffee Main Contract",
+      "type": "core",
+      "description": "Main contract for swap.coffee",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swap.coffee",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

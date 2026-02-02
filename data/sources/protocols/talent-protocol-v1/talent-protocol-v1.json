@@ -1,0 +1,42 @@
+{
+  "id": "talent-protocol-v1",
+  "name": "Talent Protocol V1",
+  "type": "sofi",
+  "website": "https://www.talentprotocol.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Talent Protocol V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Talent Protocol V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/talent-protocol-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

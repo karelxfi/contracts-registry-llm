@@ -1,0 +1,61 @@
+{
+  "id": "felix-usdhl",
+  "name": "Felix USDhl",
+  "type": "yield",
+  "website": "https://www.usefelix.xyz?ref=4BF702FF",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Felix USDhl Main Contract",
+      "type": "core",
+      "description": "Main contract for Felix USDhl",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/felix-usdhl",
+      "updated": "2025-01-31"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/felix-usdhl",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

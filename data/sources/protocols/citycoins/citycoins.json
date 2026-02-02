@@ -1,0 +1,44 @@
+{
+  "id": "citycoins",
+  "name": "CityCoins",
+  "type": "yield",
+  "website": "https://www.citycoins.co",
+  "github": [
+    "citycoins"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "stacks"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CityCoins Main Contract",
+      "type": "core",
+      "description": "Main contract for CityCoins",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stacks": {
+      "chain": "stacks",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/citycoins",
+      "updated": "2025-01-31"
+    }
+  }
+}

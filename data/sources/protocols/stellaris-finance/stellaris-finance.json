@@ -1,0 +1,42 @@
+{
+  "id": "stellaris-finance",
+  "name": "Stellaris Finance",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stellaris Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Stellaris Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stellaris-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

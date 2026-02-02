@@ -1,0 +1,60 @@
+{
+  "id": "infy-protocol",
+  "name": "Infy Protocol",
+  "type": "nft lending",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "polygon",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Infy Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Infy Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infy-protocol",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/infy-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

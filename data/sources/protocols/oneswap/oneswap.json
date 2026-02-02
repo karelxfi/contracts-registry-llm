@@ -1,0 +1,61 @@
+{
+  "id": "oneswap",
+  "name": "OneSwap",
+  "type": "dexs",
+  "website": "https://www.oneswap.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OneSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for OneSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/oneswap",
+      "updated": "2025-01-31"
+    },
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/oneswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

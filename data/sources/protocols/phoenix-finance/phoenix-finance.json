@@ -1,0 +1,44 @@
+{
+  "id": "phoenix-finance",
+  "name": "Phoenix Finance",
+  "type": "options",
+  "website": "",
+  "github": [
+    "Phoenix-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "options",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Phoenix Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Phoenix Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/phoenix-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

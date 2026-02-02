@@ -1,0 +1,78 @@
+{
+  "id": "wefi",
+  "name": "wefi",
+  "type": "lending",
+  "website": "https://wefi.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "xdc",
+    "polygon",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "wefi Main Contract",
+      "type": "core",
+      "description": "Main contract for wefi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wefi",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wefi",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wefi",
+      "updated": "2025-01-31"
+    }
+  }
+}

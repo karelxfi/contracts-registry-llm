@@ -1,0 +1,42 @@
+{
+  "id": "clink",
+  "name": "Clink",
+  "type": "sofi",
+  "website": "https://clinkfi.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Clink Main Contract",
+      "type": "core",
+      "description": "Main contract for Clink",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/clink",
+      "updated": "2025-01-31"
+    }
+  }
+}

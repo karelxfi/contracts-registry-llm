@@ -1,0 +1,43 @@
+{
+  "id": "duality",
+  "name": "Duality",
+  "type": "dexs",
+  "website": "https://app.neutron.org/orderbook/NTRN/USDC",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Duality Main Contract",
+      "type": "core",
+      "description": "Main contract for Duality",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/duality",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

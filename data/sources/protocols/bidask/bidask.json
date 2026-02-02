@@ -1,0 +1,43 @@
+{
+  "id": "bidask",
+  "name": "Bidask",
+  "type": "dexs",
+  "website": "https://bidask.finance/en/app",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bidask Main Contract",
+      "type": "core",
+      "description": "Main contract for Bidask",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bidask",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

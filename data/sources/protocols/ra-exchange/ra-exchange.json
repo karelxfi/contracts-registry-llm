@@ -1,0 +1,42 @@
+{
+  "id": "ra-exchange",
+  "name": "Ra Exchange",
+  "type": "dexs",
+  "website": "https://www.ra.exchange/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "fraxtal"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ra Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Ra Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "fraxtal": {
+      "chain": "fraxtal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ra-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

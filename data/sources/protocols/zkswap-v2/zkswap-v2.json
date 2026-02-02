@@ -1,0 +1,60 @@
+{
+  "id": "zkswap-v2",
+  "name": "zkSwap V2",
+  "type": "dexs",
+  "website": "https://zkswap.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "zkSwap V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for zkSwap V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zkswap-v2",
+      "updated": "2025-01-31"
+    },
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zkswap-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

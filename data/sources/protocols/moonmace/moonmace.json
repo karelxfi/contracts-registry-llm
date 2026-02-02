@@ -1,0 +1,42 @@
+{
+  "id": "moonmace",
+  "name": "Moonmace",
+  "type": "liquid staking",
+  "website": "https://moonmace.ai/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Moonmace Main Contract",
+      "type": "core",
+      "description": "Main contract for Moonmace",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/moonmace",
+      "updated": "2025-01-31"
+    }
+  }
+}

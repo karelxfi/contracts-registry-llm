@@ -1,0 +1,42 @@
+{
+  "id": "flex-perpetuals",
+  "name": "Flex Perpetuals",
+  "type": "derivatives",
+  "website": "https://flex.trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Flex Perpetuals Main Contract",
+      "type": "core",
+      "description": "Main contract for Flex Perpetuals",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flex-perpetuals",
+      "updated": "2025-01-31"
+    }
+  }
+}

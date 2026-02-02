@@ -1,0 +1,42 @@
+{
+  "id": "mmo-finance",
+  "name": "MMO Finance",
+  "type": "nft lending",
+  "website": "https://mmo.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MMO Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for MMO Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mmo-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

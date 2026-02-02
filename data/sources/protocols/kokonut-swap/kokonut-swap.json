@@ -1,0 +1,44 @@
+{
+  "id": "kokonut-swap",
+  "name": "Kokonut Swap",
+  "type": "dexs",
+  "website": "https://kokonutswap.finance",
+  "github": [
+    "kokoa-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kokonut Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Kokonut Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kokonut-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

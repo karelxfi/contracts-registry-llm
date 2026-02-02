@@ -1,0 +1,61 @@
+{
+  "id": "ekubo",
+  "name": "Ekubo",
+  "type": "dexs",
+  "website": "https://ekubo.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "starknet",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ekubo Main Contract",
+      "type": "core",
+      "description": "Main contract for Ekubo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ekubo",
+      "updated": "2025-01-31",
+      "platform": "other"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ekubo",
+      "updated": "2025-01-31"
+    }
+  }
+}

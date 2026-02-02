@@ -1,0 +1,42 @@
+{
+  "id": "yield-millionaire",
+  "name": "Yield Millionaire",
+  "type": "yield",
+  "website": "https://www.yieldmillionaire.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yield Millionaire Main Contract",
+      "type": "core",
+      "description": "Main contract for Yield Millionaire",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yield-millionaire",
+      "updated": "2025-01-31"
+    }
+  }
+}

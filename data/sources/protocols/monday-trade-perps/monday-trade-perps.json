@@ -1,0 +1,42 @@
+{
+  "id": "monday-trade-perps",
+  "name": "Monday Trade Perps",
+  "type": "derivatives",
+  "website": "https://app.monday.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Monday Trade Perps Main Contract",
+      "type": "core",
+      "description": "Main contract for Monday Trade Perps",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/monday-trade-perps",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "paraspace-ape-staking-v1",
+  "name": "ParaSpace APE Staking V1",
+  "type": "yield",
+  "website": "https://apecoinstaking.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ParaSpace APE Staking V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for ParaSpace APE Staking V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paraspace-ape-staking-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

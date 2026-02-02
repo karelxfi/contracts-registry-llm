@@ -1,0 +1,42 @@
+{
+  "id": "stake.link-liquid",
+  "name": "stake.link liquid",
+  "type": "liquid staking",
+  "website": "https://stake.link/staking-pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "stake.link liquid Main Contract",
+      "type": "core",
+      "description": "Main contract for stake.link liquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stake.link-liquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

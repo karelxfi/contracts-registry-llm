@@ -1,0 +1,42 @@
+{
+  "id": "xswap-v2",
+  "name": "XSwap V2",
+  "type": "dexs",
+  "website": "https://app.xspswap.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "xdc"
+  ],
+  "contracts": {
+    "main": {
+      "name": "XSwap V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for XSwap V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "xdc": {
+      "chain": "xdc",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xswap-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

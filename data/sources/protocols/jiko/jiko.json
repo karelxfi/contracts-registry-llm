@@ -1,0 +1,42 @@
+{
+  "id": "jiko",
+  "name": "Jiko",
+  "type": "gaming",
+  "website": "https://app.beraji.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jiko Main Contract",
+      "type": "core",
+      "description": "Main contract for Jiko",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jiko",
+      "updated": "2025-01-31"
+    }
+  }
+}

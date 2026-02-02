@@ -1,0 +1,78 @@
+{
+  "id": "origami-finance",
+  "name": "Origami Finance",
+  "type": "leveraged farming",
+  "website": "https://origami.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "ethereum",
+    "berachain",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Origami Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Origami Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/origami-finance",
+      "updated": "2025-01-31"
+    },
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/origami-finance",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/origami-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "chain": "thorchain",
+  "chainInfo": {
+    "id": "thorchain",
+    "name": "Thorchain",
+    "platform": "cosmos",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "RUNE",
+      "symbol": "RUNE",
+      "decimals": 8
+    },
+    "gecko_id": "thorchain",
+    "cmcId": "4157",
+    "explorers": {
+      "primary": {
+        "name": "Thorchain Explorer",
+        "url": "https://explorer.thorchain.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "maya-protocol": {
+      "maya-protocol": {
+        "name": "Maya Protocol",
+        "type": "cross chain bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "nami-index": {
+      "nami-index": {
+        "name": "Nami Index",
+        "type": "indexes",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thorchain-dex": {
+      "thorchain-dex": {
+        "name": "Thorchain DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thorchain-lending": {
+      "thorchain-lending": {
+        "name": "Thorchain Lending",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

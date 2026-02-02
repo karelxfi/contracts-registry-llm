@@ -1,0 +1,42 @@
+{
+  "id": "crovegas",
+  "name": "CroVegas",
+  "type": "luck games",
+  "website": "https://www.crovegas.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "luck games",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CroVegas Main Contract",
+      "type": "core",
+      "description": "Main contract for CroVegas",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/crovegas",
+      "updated": "2025-01-31"
+    }
+  }
+}

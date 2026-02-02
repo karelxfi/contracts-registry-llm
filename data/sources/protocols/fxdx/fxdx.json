@@ -1,0 +1,42 @@
+{
+  "id": "fxdx",
+  "name": "FXDX",
+  "type": "derivatives",
+  "website": "https://fxdx.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FXDX Main Contract",
+      "type": "core",
+      "description": "Main contract for FXDX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fxdx",
+      "updated": "2025-01-31"
+    }
+  }
+}

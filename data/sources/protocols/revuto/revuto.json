@@ -1,0 +1,43 @@
+{
+  "id": "revuto",
+  "name": "Revuto",
+  "type": "services",
+  "website": "https://revuto.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Revuto Main Contract",
+      "type": "core",
+      "description": "Main contract for Revuto",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revuto",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

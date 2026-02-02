@@ -1,0 +1,44 @@
+{
+  "id": "keysea",
+  "name": "KeySea",
+  "type": "sofi",
+  "website": "https://keysea.xyz/",
+  "github": [
+    "KeySeaXyz"
+  ],
+  "docs": "",
+  "tags": [
+    "sofi",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KeySea Main Contract",
+      "type": "core",
+      "description": "Main contract for KeySea",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/keysea",
+      "updated": "2025-01-31"
+    }
+  }
+}

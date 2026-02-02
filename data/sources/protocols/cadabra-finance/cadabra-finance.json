@@ -1,0 +1,62 @@
+{
+  "id": "cadabra-finance",
+  "name": "Cadabra Finance",
+  "type": "yield aggregator",
+  "website": "https://cadabra.finance/",
+  "github": [
+    "cadabra-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cadabra Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Cadabra Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cadabra-finance",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cadabra-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

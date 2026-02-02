@@ -1,0 +1,44 @@
+{
+  "id": "promethium",
+  "name": "Promethium",
+  "type": "lending",
+  "website": "",
+  "github": [
+    "Spectrum-Dev-Team"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Promethium Main Contract",
+      "type": "core",
+      "description": "Main contract for Promethium",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/promethium",
+      "updated": "2025-01-31"
+    }
+  }
+}

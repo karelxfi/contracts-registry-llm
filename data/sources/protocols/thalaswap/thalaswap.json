@@ -1,0 +1,43 @@
+{
+  "id": "thalaswap",
+  "name": "ThalaSwap",
+  "type": "dexs",
+  "website": "https://www.thala.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ThalaSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for ThalaSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thalaswap",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

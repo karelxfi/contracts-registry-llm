@@ -1,0 +1,43 @@
+{
+  "id": "silo-protocol",
+  "name": "Silo Protocol",
+  "type": "options vault",
+  "website": "https://www.silodefi.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options vault",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Silo Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Silo Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/silo-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

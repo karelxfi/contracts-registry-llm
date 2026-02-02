@@ -1,0 +1,44 @@
+{
+  "id": "agentfi",
+  "name": "AgentFi",
+  "type": "ai agents",
+  "website": "https://agentfi.io/",
+  "github": [
+    "AgentFi"
+  ],
+  "docs": "",
+  "tags": [
+    "ai agents",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AgentFi Main Contract",
+      "type": "core",
+      "description": "Main contract for AgentFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agentfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

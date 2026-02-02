@@ -1,0 +1,44 @@
+{
+  "id": "derpdex",
+  "name": "DerpDEX",
+  "type": "dexs",
+  "website": "https://derpdex.com/",
+  "github": [
+    "derpdex-official"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DerpDEX Main Contract",
+      "type": "core",
+      "description": "Main contract for DerpDEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/derpdex",
+      "updated": "2025-01-31"
+    }
+  }
+}

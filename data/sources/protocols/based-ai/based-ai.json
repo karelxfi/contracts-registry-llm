@@ -1,0 +1,42 @@
+{
+  "id": "based-ai",
+  "name": "based AI",
+  "type": "farm",
+  "website": "https://basedai.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "based AI Main Contract",
+      "type": "core",
+      "description": "Main contract for based AI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/based-ai",
+      "updated": "2025-01-31"
+    }
+  }
+}

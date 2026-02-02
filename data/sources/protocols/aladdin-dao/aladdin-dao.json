@@ -1,0 +1,44 @@
+{
+  "id": "aladdin-dao",
+  "name": "Aladdin DAO",
+  "type": "yield aggregator",
+  "website": "https://www.aladdin.club",
+  "github": [
+    "AladdinDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aladdin DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Aladdin DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aladdin-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

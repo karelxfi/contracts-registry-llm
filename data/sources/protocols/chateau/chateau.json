@@ -1,0 +1,44 @@
+{
+  "id": "chateau",
+  "name": "CHATEAU",
+  "type": "rwa",
+  "website": "https://www.chateau.capital",
+  "github": [
+    "chateau-capital"
+  ],
+  "docs": "",
+  "tags": [
+    "rwa",
+    "plasma"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CHATEAU Main Contract",
+      "type": "core",
+      "description": "Main contract for CHATEAU",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chateau",
+      "updated": "2025-01-31"
+    }
+  }
+}

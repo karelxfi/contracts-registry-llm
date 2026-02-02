@@ -1,0 +1,42 @@
+{
+  "id": "asteria-finance",
+  "name": "Asteria Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Asteria Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Asteria Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/asteria-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

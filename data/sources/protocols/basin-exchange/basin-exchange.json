@@ -1,0 +1,60 @@
+{
+  "id": "basin-exchange",
+  "name": "Basin Exchange",
+  "type": "dexs",
+  "website": "https://basin.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basin Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Basin Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basin-exchange",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basin-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

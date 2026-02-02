@@ -1,0 +1,44 @@
+{
+  "id": "lazyotter-finance",
+  "name": "LazyOtter Finance",
+  "type": "yield aggregator",
+  "website": "https://lazyotter.finance",
+  "github": [
+    "lazyotter-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LazyOtter Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for LazyOtter Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lazyotter-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

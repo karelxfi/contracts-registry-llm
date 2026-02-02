@@ -1,0 +1,62 @@
+{
+  "id": "frontrun-market",
+  "name": "Frontrun Market",
+  "type": "services",
+  "website": "https://frontrun.market",
+  "github": [
+    "frontrun-market"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Frontrun Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Frontrun Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frontrun-market",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frontrun-market",
+      "updated": "2025-01-31"
+    }
+  }
+}

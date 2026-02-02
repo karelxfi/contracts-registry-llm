@@ -1,0 +1,42 @@
+{
+  "id": "rbx",
+  "name": "RBX",
+  "type": "dexs",
+  "website": "https://rbxdefi.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RBX Main Contract",
+      "type": "core",
+      "description": "Main contract for RBX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rbx",
+      "updated": "2025-01-31"
+    }
+  }
+}

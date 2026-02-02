@@ -1,0 +1,42 @@
+{
+  "id": "ancora-finance",
+  "name": "Ancora Finance",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ancora Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Ancora Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ancora-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

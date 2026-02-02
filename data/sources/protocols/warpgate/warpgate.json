@@ -1,0 +1,42 @@
+{
+  "id": "warpgate",
+  "name": "WarpGate",
+  "type": "dexs",
+  "website": "https://warpgate.pro",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "immutable-zkevm"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WarpGate Main Contract",
+      "type": "core",
+      "description": "Main contract for WarpGate",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "immutable-zkevm": {
+      "chain": "immutable-zkevm",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/warpgate",
+      "updated": "2025-01-31"
+    }
+  }
+}

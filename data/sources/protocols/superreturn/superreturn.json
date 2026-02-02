@@ -1,0 +1,96 @@
+{
+  "id": "superreturn",
+  "name": "SuperReturn",
+  "type": "onchain capital allocator",
+  "website": "https://www.superreturn.ai/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "arbitrum",
+    "plume-mainnet",
+    "soneium",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SuperReturn Main Contract",
+      "type": "core",
+      "description": "Main contract for SuperReturn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superreturn",
+      "updated": "2025-01-31"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superreturn",
+      "updated": "2025-01-31"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superreturn",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superreturn",
+      "updated": "2025-01-31"
+    }
+  }
+}

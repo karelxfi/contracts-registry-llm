@@ -1,0 +1,43 @@
+{
+  "id": "ninjaroll",
+  "name": "NinjaRoll",
+  "type": "luck games",
+  "website": "https://ninjaroll.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "luck games",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NinjaRoll Main Contract",
+      "type": "core",
+      "description": "Main contract for NinjaRoll",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ninjaroll",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

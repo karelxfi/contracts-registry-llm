@@ -1,0 +1,42 @@
+{
+  "id": "protectorate-protocol",
+  "name": "Protectorate Protocol",
+  "type": "yield aggregator",
+  "website": "https://app.protectorate.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Protectorate Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Protectorate Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/protectorate-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

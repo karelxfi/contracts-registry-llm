@@ -1,0 +1,42 @@
+{
+  "id": "polydex-cryption-network",
+  "name": "PolyDEX-Cryption Network",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PolyDEX-Cryption Network Main Contract",
+      "type": "core",
+      "description": "Main contract for PolyDEX-Cryption Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/polydex-cryption-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mint-bridge",
+  "name": "Mint Bridge",
+  "type": "canonical bridge",
+  "website": "https://bridge.mintchain.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mint Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Mint Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mint-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

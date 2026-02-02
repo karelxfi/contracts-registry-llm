@@ -1,0 +1,42 @@
+{
+  "id": "stationdex-v2",
+  "name": "StationDEX V2",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "StationDEX V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for StationDEX V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stationdex-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

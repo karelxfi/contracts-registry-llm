@@ -1,0 +1,42 @@
+{
+  "id": "mintswap",
+  "name": "MintSwap",
+  "type": "farm",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MintSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for MintSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mintswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

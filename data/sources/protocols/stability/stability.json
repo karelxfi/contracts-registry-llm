@@ -1,0 +1,80 @@
+{
+  "id": "stability",
+  "name": "Stability",
+  "type": "liquidity manager",
+  "website": "https://stability.farm",
+  "github": [
+    "stabilitydao"
+  ],
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "sonic",
+    "base",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stability Main Contract",
+      "type": "core",
+      "description": "Main contract for Stability",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stability",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stability",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stability",
+      "updated": "2025-01-31"
+    }
+  }
+}

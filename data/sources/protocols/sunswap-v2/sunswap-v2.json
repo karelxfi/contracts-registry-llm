@@ -1,0 +1,43 @@
+{
+  "id": "sunswap-v2",
+  "name": "SUNSwap V2",
+  "type": "dexs",
+  "website": "https://sunswap.com/#/home",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SUNSwap V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for SUNSwap V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sunswap-v2",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

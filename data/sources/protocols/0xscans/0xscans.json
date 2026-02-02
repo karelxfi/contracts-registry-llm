@@ -1,0 +1,42 @@
+{
+  "id": "0xscans",
+  "name": "0xScans",
+  "type": "developer tools",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "developer tools",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "0xScans Main Contract",
+      "type": "core",
+      "description": "Main contract for 0xScans",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0xscans",
+      "updated": "2025-01-31"
+    }
+  }
+}

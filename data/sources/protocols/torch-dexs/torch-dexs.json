@@ -1,0 +1,43 @@
+{
+  "id": "torch-dexs",
+  "name": "Torch Dexs",
+  "type": "dexs",
+  "website": "https://torch.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Torch Dexs Main Contract",
+      "type": "core",
+      "description": "Main contract for Torch Dexs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/torch-dexs",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

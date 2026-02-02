@@ -1,0 +1,42 @@
+{
+  "id": "degenprime",
+  "name": "DegenPrime",
+  "type": "leveraged farming",
+  "website": "https://www.degenprime.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DegenPrime Main Contract",
+      "type": "core",
+      "description": "Main contract for DegenPrime",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/degenprime",
+      "updated": "2025-01-31"
+    }
+  }
+}

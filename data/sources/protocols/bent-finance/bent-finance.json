@@ -1,0 +1,42 @@
+{
+  "id": "bent-finance",
+  "name": "Bent Finance",
+  "type": "yield",
+  "website": "https://app.bentfinance.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bent Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Bent Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bent-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

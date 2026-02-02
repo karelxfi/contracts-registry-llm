@@ -1,0 +1,43 @@
+{
+  "id": "goosefx-v2",
+  "name": "GooseFX V2",
+  "type": "dexs",
+  "website": "https://app.goosefx.io/gamma",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GooseFX V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for GooseFX V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goosefx-v2",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

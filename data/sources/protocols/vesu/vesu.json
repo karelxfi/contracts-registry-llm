@@ -1,0 +1,45 @@
+{
+  "id": "vesu",
+  "name": "Vesu",
+  "type": "lending",
+  "website": "https://www.vesu.xyz",
+  "github": [
+    "vesuxyz"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vesu Main Contract",
+      "type": "core",
+      "description": "Main contract for Vesu",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vesu",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

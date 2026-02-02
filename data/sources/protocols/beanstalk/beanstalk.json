@@ -1,0 +1,60 @@
+{
+  "id": "beanstalk",
+  "name": "Beanstalk",
+  "type": "algo-stables",
+  "website": "https://bean.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Beanstalk Main Contract",
+      "type": "core",
+      "description": "Main contract for Beanstalk",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beanstalk",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beanstalk",
+      "updated": "2025-01-31"
+    }
+  }
+}

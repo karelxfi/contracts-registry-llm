@@ -1,0 +1,42 @@
+{
+  "id": "meow-miner",
+  "name": "Meow Miner",
+  "type": "ponzi",
+  "website": "https://meowminer.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "ponzi",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meow Miner Main Contract",
+      "type": "core",
+      "description": "Main contract for Meow Miner",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meow-miner",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "iloop",
+  "name": "ILoop",
+  "type": "lending",
+  "website": "https://app.iloop.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ILoop Main Contract",
+      "type": "core",
+      "description": "Main contract for ILoop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iloop",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sharpe-magnum",
+  "name": "Sharpe Magnum",
+  "type": "yield",
+  "website": "https://www.sharpe.ai",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sharpe Magnum Main Contract",
+      "type": "core",
+      "description": "Main contract for Sharpe Magnum",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sharpe-magnum",
+      "updated": "2025-01-31"
+    }
+  }
+}

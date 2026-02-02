@@ -1,0 +1,42 @@
+{
+  "id": "sectorone-dlmm",
+  "name": "SectorOne DLMM",
+  "type": "dexs",
+  "website": "https://sectorone.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "megaeth"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SectorOne DLMM Main Contract",
+      "type": "core",
+      "description": "Main contract for SectorOne DLMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "megaeth": {
+      "chain": "megaeth",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sectorone-dlmm",
+      "updated": "2025-01-31"
+    }
+  }
+}

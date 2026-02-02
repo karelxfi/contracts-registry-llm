@@ -1,0 +1,60 @@
+{
+  "id": "yay!",
+  "name": "Yay!",
+  "type": "sofi",
+  "website": "https://portal.yay.space/stake",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "ethereum",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Yay! Main Contract",
+      "type": "core",
+      "description": "Main contract for Yay!",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yay!",
+      "updated": "2025-01-31"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yay!",
+      "updated": "2025-01-31"
+    }
+  }
+}

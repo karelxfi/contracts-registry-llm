@@ -1,0 +1,42 @@
+{
+  "id": "terminal-finance-pre-deposits",
+  "name": "Terminal Finance Pre-Deposits",
+  "type": "farm",
+  "website": "https://terminal.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Terminal Finance Pre-Deposits Main Contract",
+      "type": "core",
+      "description": "Main contract for Terminal Finance Pre-Deposits",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/terminal-finance-pre-deposits",
+      "updated": "2025-01-31"
+    }
+  }
+}

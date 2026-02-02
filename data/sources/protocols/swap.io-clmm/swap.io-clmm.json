@@ -1,0 +1,45 @@
+{
+  "id": "swap.io-clmm",
+  "name": "Swap.io CLMM",
+  "type": "dexs",
+  "website": "https://swap.io",
+  "github": [
+    "swap-dot-io"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Swap.io CLMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Swap.io CLMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swap.io-clmm",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

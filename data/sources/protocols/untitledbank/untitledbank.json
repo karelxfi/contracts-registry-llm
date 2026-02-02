@@ -1,0 +1,42 @@
+{
+  "id": "untitledbank",
+  "name": "UntitledBank",
+  "type": "lending",
+  "website": "https://untitledbank.co/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "UntitledBank Main Contract",
+      "type": "core",
+      "description": "Main contract for UntitledBank",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/untitledbank",
+      "updated": "2025-01-31"
+    }
+  }
+}

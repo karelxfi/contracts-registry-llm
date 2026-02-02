@@ -1,0 +1,42 @@
+{
+  "id": "lst-optimizer",
+  "name": "LST Optimizer",
+  "type": "liquid staking",
+  "website": "https://dapp.getketh.com/home/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LST Optimizer Main Contract",
+      "type": "core",
+      "description": "Main contract for LST Optimizer",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lst-optimizer",
+      "updated": "2025-01-31"
+    }
+  }
+}

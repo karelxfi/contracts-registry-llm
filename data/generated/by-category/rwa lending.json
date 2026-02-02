@@ -1,0 +1,791 @@
+{
+  "category": "rwa lending",
+  "protocols": {
+    "8lends": {
+      "8lends": {
+        "name": "8lends",
+        "contracts": {
+          "main": {
+            "name": "8lends Main Contract",
+            "type": "core",
+            "description": "Main contract for 8lends",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/8lends",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "aave-horizon-rwa": {
+      "aave-horizon-rwa": {
+        "name": "Aave Horizon RWA",
+        "contracts": {
+          "main": {
+            "name": "Aave Horizon RWA Main Contract",
+            "type": "core",
+            "description": "Main contract for Aave Horizon RWA",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/aave-horizon-rwa",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "alta-finance": {
+      "alta-finance": {
+        "name": "ALTA Finance",
+        "contracts": {
+          "main": {
+            "name": "ALTA Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for ALTA Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/alta-finance",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/alta-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "atlendis-v2": {
+      "atlendis-v2": {
+        "name": "Atlendis V2",
+        "contracts": {
+          "main": {
+            "name": "Atlendis V2 Main Contract",
+            "type": "core",
+            "description": "Main contract for Atlendis V2",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/atlendis-v2",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "credit-coop": {
+      "credit-coop": {
+        "name": "Credit Coop",
+        "contracts": {
+          "main": {
+            "name": "Credit Coop Main Contract",
+            "type": "core",
+            "description": "Main contract for Credit Coop",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/credit-coop",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/credit-coop",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "credix": {
+      "credix": {
+        "name": "Credix",
+        "contracts": {
+          "main": {
+            "name": "Credix Main Contract",
+            "type": "core",
+            "description": "Main contract for Credix",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/credix",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "csigma-finance": {
+      "csigma-finance": {
+        "name": "cSigma Finance",
+        "contracts": {
+          "main": {
+            "name": "cSigma Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for cSigma Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/csigma-finance",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/csigma-finance",
+            "updated": "2025-01-31"
+          },
+          "hedera": {
+            "chain": "hedera",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/csigma-finance",
+            "updated": "2025-01-31",
+            "platform": "other"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/csigma-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "figure-markets-democratized-prime": {
+      "figure-markets-democratized-prime": {
+        "name": "Figure Markets Democratized Prime",
+        "contracts": {
+          "main": {
+            "name": "Figure Markets Democratized Prime Main Contract",
+            "type": "core",
+            "description": "Main contract for Figure Markets Democratized Prime",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "provenance": {
+            "chain": "provenance",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/figure-markets-democratized-prime",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "florence-finance": {
+      "florence-finance": {
+        "name": "Florence Finance",
+        "contracts": {
+          "main": {
+            "name": "Florence Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Florence Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/florence-finance",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/florence-finance",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/florence-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "goldfinch": {
+      "goldfinch": {
+        "name": "Goldfinch",
+        "contracts": {
+          "main": {
+            "name": "Goldfinch Main Contract",
+            "type": "core",
+            "description": "Main contract for Goldfinch",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goldfinch",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "harvest-flow": {
+      "harvest-flow": {
+        "name": "HARVEST FLOW",
+        "contracts": {
+          "main": {
+            "name": "HARVEST FLOW Main Contract",
+            "type": "core",
+            "description": "Main contract for HARVEST FLOW",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "plume-mainnet": {
+            "chain": "plume-mainnet",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/harvest-flow",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/harvest-flow",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "helix-finance": {
+      "helix-finance": {
+        "name": "HELIX Finance",
+        "contracts": {
+          "main": {
+            "name": "HELIX Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for HELIX Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/helix-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "isle-finance": {
+      "isle-finance": {
+        "name": "Isle Finance",
+        "contracts": {
+          "main": {
+            "name": "Isle Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for Isle Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "hedera": {
+            "chain": "hedera",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/isle-finance",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "kasu": {
+      "kasu": {
+        "name": "Kasu",
+        "contracts": {
+          "main": {
+            "name": "Kasu Main Contract",
+            "type": "core",
+            "description": "Main contract for Kasu",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kasu",
+            "updated": "2025-01-31"
+          },
+          "plume-mainnet": {
+            "chain": "plume-mainnet",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kasu",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "pareto-credit": {
+      "pareto-credit": {
+        "name": "Pareto Credit",
+        "contracts": {
+          "main": {
+            "name": "Pareto Credit Main Contract",
+            "type": "core",
+            "description": "Main contract for Pareto Credit",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pareto-credit",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pareto-credit",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pareto-credit",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "tinlake": {
+      "tinlake": {
+        "name": "Tinlake",
+        "contracts": {
+          "main": {
+            "name": "Tinlake Main Contract",
+            "type": "core",
+            "description": "Main contract for Tinlake",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tinlake",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "usd-ai": {
+      "usd-ai": {
+        "name": "USD AI",
+        "contracts": {
+          "main": {
+            "name": "USD AI Main Contract",
+            "type": "core",
+            "description": "Main contract for USD AI",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/usd-ai",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

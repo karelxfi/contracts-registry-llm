@@ -1,0 +1,42 @@
+{
+  "id": "friend.tech-v1",
+  "name": "friend.tech V1",
+  "type": "sofi",
+  "website": "https://www.friend.tech",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "friend.tech V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for friend.tech V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/friend.tech-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

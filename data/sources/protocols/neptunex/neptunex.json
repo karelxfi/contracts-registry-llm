@@ -1,0 +1,44 @@
+{
+  "id": "neptunex",
+  "name": "Neptunex",
+  "type": "dexs",
+  "website": "https://neptunex.io",
+  "github": [
+    "NeptuneX-Aggregator"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Neptunex Main Contract",
+      "type": "core",
+      "description": "Main contract for Neptunex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/neptunex",
+      "updated": "2025-01-31"
+    }
+  }
+}

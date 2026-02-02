@@ -1,0 +1,473 @@
+{
+  "category": "uncollateralized lending",
+  "protocols": {
+    "3jane-lending": {
+      "3jane-lending": {
+        "name": "3jane Lending",
+        "contracts": {
+          "main": {
+            "name": "3jane Lending Main Contract",
+            "type": "core",
+            "description": "Main contract for 3jane Lending",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/3jane-lending",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "accountable": {
+      "accountable": {
+        "name": "Accountable",
+        "contracts": {
+          "main": {
+            "name": "Accountable Main Contract",
+            "type": "core",
+            "description": "Main contract for Accountable",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "monad": {
+            "chain": "monad",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/accountable",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "atlendis-v1": {
+      "atlendis-v1": {
+        "name": "Atlendis V1",
+        "contracts": {
+          "main": {
+            "name": "Atlendis V1 Main Contract",
+            "type": "core",
+            "description": "Main contract for Atlendis V1",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/atlendis-v1",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "clearpool-lending": {
+      "clearpool-lending": {
+        "name": "Clearpool Lending",
+        "contracts": {
+          "main": {
+            "name": "Clearpool Lending Main Contract",
+            "type": "core",
+            "description": "Main contract for Clearpool Lending",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          },
+          "flare": {
+            "chain": "flare",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/clearpool-lending",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "damm-finance": {
+      "damm-finance": {
+        "name": "dAMM Finance",
+        "contracts": {
+          "main": {
+            "name": "dAMM Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for dAMM Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/damm-finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ribbon-lend": {
+      "ribbon-lend": {
+        "name": "Ribbon Lend",
+        "contracts": {
+          "main": {
+            "name": "Ribbon Lend Main Contract",
+            "type": "core",
+            "description": "Main contract for Ribbon Lend",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ribbon-lend",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "truefi": {
+      "truefi": {
+        "name": "TrueFi",
+        "contracts": {
+          "main": {
+            "name": "TrueFi Main Contract",
+            "type": "core",
+            "description": "Main contract for TrueFi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/truefi",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/truefi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "union-protocol": {
+      "union-protocol": {
+        "name": "Union Protocol",
+        "contracts": {
+          "main": {
+            "name": "Union Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Union Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/union-protocol",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/union-protocol",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/union-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "wildcat-protocol": {
+      "wildcat-protocol": {
+        "name": "Wildcat Protocol",
+        "contracts": {
+          "main": {
+            "name": "Wildcat Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Wildcat Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/wildcat-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

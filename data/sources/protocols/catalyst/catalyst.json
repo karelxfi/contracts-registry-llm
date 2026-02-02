@@ -1,0 +1,80 @@
+{
+  "id": "catalyst",
+  "name": "Catalyst",
+  "type": "cross chain bridge",
+  "website": "https://catalyst.exchange",
+  "github": [
+    "catalystdao"
+  ],
+  "docs": "",
+  "tags": [
+    "cross chain bridge",
+    "base",
+    "blast",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Catalyst Main Contract",
+      "type": "core",
+      "description": "Main contract for Catalyst",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/catalyst",
+      "updated": "2025-01-31"
+    },
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/catalyst",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/catalyst",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "peridot",
+  "name": "Peridot",
+  "type": "lending",
+  "website": "https://peridot.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Peridot Main Contract",
+      "type": "core",
+      "description": "Main contract for Peridot",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/peridot",
+      "updated": "2025-01-31"
+    }
+  }
+}

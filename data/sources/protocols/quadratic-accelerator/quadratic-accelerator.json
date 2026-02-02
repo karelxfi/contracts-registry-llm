@@ -1,0 +1,44 @@
+{
+  "id": "quadratic-accelerator",
+  "name": "Quadratic Accelerator",
+  "type": "launchpad",
+  "website": "https://q-acc.giveth.io/",
+  "github": [
+    "GeneralMagicio"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Quadratic Accelerator Main Contract",
+      "type": "core",
+      "description": "Main contract for Quadratic Accelerator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quadratic-accelerator",
+      "updated": "2025-01-31"
+    }
+  }
+}

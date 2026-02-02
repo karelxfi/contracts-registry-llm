@@ -1,0 +1,42 @@
+{
+  "id": "cache.gold",
+  "name": "CACHE.Gold",
+  "type": "rwa",
+  "website": "https://cache.gold/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CACHE.Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for CACHE.Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cache.gold",
+      "updated": "2025-01-31"
+    }
+  }
+}

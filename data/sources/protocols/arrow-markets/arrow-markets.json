@@ -1,0 +1,42 @@
+{
+  "id": "arrow-markets",
+  "name": "Arrow Markets",
+  "type": "options",
+  "website": "https://arrow.markets",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arrow Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Arrow Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrow-markets",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linehub-v2",
+  "name": "LineHub V2",
+  "type": "dexs",
+  "website": "https://linehub.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LineHub V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for LineHub V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/linehub-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

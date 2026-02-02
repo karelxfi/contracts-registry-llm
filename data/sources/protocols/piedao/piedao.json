@@ -1,0 +1,44 @@
+{
+  "id": "piedao",
+  "name": "PieDAO",
+  "type": "indexes",
+  "website": "",
+  "github": [
+    "pie-dao"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PieDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for PieDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/piedao",
+      "updated": "2025-01-31"
+    }
+  }
+}

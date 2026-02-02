@@ -1,0 +1,42 @@
+{
+  "id": "gammaswap-yield-tokens",
+  "name": "GammaSwap Yield Tokens",
+  "type": "yield",
+  "website": "https://app.gammaswap.com/yield-tokens",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GammaSwap Yield Tokens Main Contract",
+      "type": "core",
+      "description": "Main contract for GammaSwap Yield Tokens",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gammaswap-yield-tokens",
+      "updated": "2025-01-31"
+    }
+  }
+}

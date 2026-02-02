@@ -1,0 +1,62 @@
+{
+  "id": "ispolink",
+  "name": "Ispolink",
+  "type": "gaming",
+  "website": "https://www.ispolink.com/",
+  "github": [
+    "ispolink"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "ethereum",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ispolink Main Contract",
+      "type": "core",
+      "description": "Main contract for Ispolink",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ispolink",
+      "updated": "2025-01-31"
+    },
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ispolink",
+      "updated": "2025-01-31"
+    }
+  }
+}

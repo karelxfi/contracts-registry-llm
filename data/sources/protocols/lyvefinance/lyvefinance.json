@@ -1,0 +1,60 @@
+{
+  "id": "lyvefinance",
+  "name": "LyveFinance",
+  "type": "cdp",
+  "website": "https://www.lyvefi.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "linea",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LyveFinance Main Contract",
+      "type": "core",
+      "description": "Main contract for LyveFinance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lyvefinance",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lyvefinance",
+      "updated": "2025-01-31"
+    }
+  }
+}

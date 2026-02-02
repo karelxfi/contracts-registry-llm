@@ -1,0 +1,42 @@
+{
+  "id": "tokenworks",
+  "name": "TokenWorks",
+  "type": "nft automated strategies",
+  "website": "https://www.nftstrategy.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft automated strategies",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TokenWorks Main Contract",
+      "type": "core",
+      "description": "Main contract for TokenWorks",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tokenworks",
+      "updated": "2025-01-31"
+    }
+  }
+}

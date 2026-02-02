@@ -1,0 +1,42 @@
+{
+  "id": "fence-finance",
+  "name": "Fence Finance",
+  "type": "risk curators",
+  "website": "https://fence.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fence Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Fence Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fence-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "smartcredit",
+  "name": "SmartCredit",
+  "type": "lending",
+  "website": "https://smartcredit.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SmartCredit Main Contract",
+      "type": "core",
+      "description": "Main contract for SmartCredit",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/smartcredit",
+      "updated": "2025-01-31"
+    }
+  }
+}

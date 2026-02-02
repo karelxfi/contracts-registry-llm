@@ -2,10 +2,16 @@
   "id": "gmx-v1",
   "name": "GMX V1",
   "type": "perpetuals",
+  "status": "complete",
   "website": "https://gmx.io",
   "github": "https://github.com/gmx-io/gmx-contracts",
   "docs": "https://docs.gmx.io",
-  "tags": ["perpetuals", "derivatives", "leverage-trading", "decentralized-exchange"],
+  "tags": [
+    "perpetuals",
+    "derivatives",
+    "leverage-trading",
+    "decentralized-exchange"
+  ],
   "contracts": {
     "vault": {
       "name": "GMX Vault",

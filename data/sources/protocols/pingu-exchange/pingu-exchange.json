@@ -1,0 +1,60 @@
+{
+  "id": "pingu-exchange",
+  "name": "Pingu Exchange",
+  "type": "derivatives",
+  "website": "https://pingu.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "monad",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pingu Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Pingu Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pingu-exchange",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pingu-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

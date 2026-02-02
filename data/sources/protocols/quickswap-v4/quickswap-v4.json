@@ -1,0 +1,78 @@
+{
+  "id": "quickswap-v4",
+  "name": "Quickswap V4",
+  "type": "dexs",
+  "website": "https://dapp.quickswap.exchange/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base",
+    "soneium",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Quickswap V4 Main Contract",
+      "type": "core",
+      "description": "Main contract for Quickswap V4",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quickswap-v4",
+      "updated": "2025-01-31"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quickswap-v4",
+      "updated": "2025-01-31"
+    },
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quickswap-v4",
+      "updated": "2025-01-31"
+    }
+  }
+}

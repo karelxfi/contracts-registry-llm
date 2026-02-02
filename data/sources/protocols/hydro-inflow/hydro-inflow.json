@@ -1,0 +1,43 @@
+{
+  "id": "hydro-inflow",
+  "name": "Hydro Inflow",
+  "type": "yield",
+  "website": "https://hydro.markets/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hydro Inflow Main Contract",
+      "type": "core",
+      "description": "Main contract for Hydro Inflow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hydro-inflow",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

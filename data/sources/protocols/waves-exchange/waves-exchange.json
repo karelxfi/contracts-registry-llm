@@ -1,0 +1,43 @@
+{
+  "id": "waves-exchange",
+  "name": "Waves Exchange",
+  "type": "farm",
+  "website": "https://wx.network",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "waves"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Waves Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Waves Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "waves": {
+      "chain": "waves",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/waves-exchange",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

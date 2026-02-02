@@ -1,0 +1,42 @@
+{
+  "id": "ft33-dao",
+  "name": "FT33 DAO",
+  "type": "reserve currency",
+  "website": "https://friendtech33.xyz/#/about",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FT33 DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for FT33 DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ft33-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "jelly",
+  "name": "Jelly",
+  "type": "yield",
+  "website": "https://www.jelly.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Jelly Main Contract",
+      "type": "core",
+      "description": "Main contract for Jelly",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jelly",
+      "updated": "2025-01-31"
+    }
+  }
+}

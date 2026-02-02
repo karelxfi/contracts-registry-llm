@@ -1,0 +1,42 @@
+{
+  "id": "market",
+  "name": "Market",
+  "type": "lending",
+  "website": "https://www.market.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/market",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "lombard-btc.b",
+  "name": "Lombard BTC.b",
+  "type": "bridge",
+  "website": "https://www.lombard.finance/app/stake/?referrer=ssybnl",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lombard BTC.b Main Contract",
+      "type": "core",
+      "description": "Main contract for Lombard BTC.b",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lombard-btc.b",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

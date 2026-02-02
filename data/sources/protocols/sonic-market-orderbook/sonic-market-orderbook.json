@@ -1,0 +1,42 @@
+{
+  "id": "sonic-market-orderbook",
+  "name": "Sonic Market OrderBook",
+  "type": "dexs",
+  "website": "https://www.sonic.market",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Sonic Market OrderBook Main Contract",
+      "type": "core",
+      "description": "Main contract for Sonic Market OrderBook",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sonic-market-orderbook",
+      "updated": "2025-01-31"
+    }
+  }
+}

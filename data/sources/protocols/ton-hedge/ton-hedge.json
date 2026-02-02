@@ -1,0 +1,43 @@
+{
+  "id": "ton-hedge",
+  "name": "TON Hedge",
+  "type": "options",
+  "website": "https://x.com/tonhedge",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TON Hedge Main Contract",
+      "type": "core",
+      "description": "Main contract for TON Hedge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ton-hedge",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "bank-of-cronos-ohm",
+  "name": "Bank of Cronos OHM",
+  "type": "reserve currency",
+  "website": "https://app.bankofcronos.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bank of Cronos OHM Main Contract",
+      "type": "core",
+      "description": "Main contract for Bank of Cronos OHM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bank-of-cronos-ohm",
+      "updated": "2025-01-31"
+    }
+  }
+}

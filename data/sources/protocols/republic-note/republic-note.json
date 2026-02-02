@@ -1,0 +1,42 @@
+{
+  "id": "republic-note",
+  "name": "Republic Note",
+  "type": "rwa",
+  "website": "https://republic.com/note",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Republic Note Main Contract",
+      "type": "core",
+      "description": "Main contract for Republic Note",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/republic-note",
+      "updated": "2025-01-31"
+    }
+  }
+}

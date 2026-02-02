@@ -1,10 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
-
-# Generated files (committed for convenience, but can be regenerated)
-# Uncomment if you want to gitignore generated files:
-# data/generated/
 
 # Cache
 data/cache/
@@ -30,3 +25,7 @@ npm-debug.log*
 # Testing
 coverage/
 .nyc_output/
+
+# Temporary files
+*.tmp
+.claude/

@@ -1,0 +1,2559 @@
+{
+  "category": "canonical bridge",
+  "protocols": {
+    "ao-bridge": {
+      "ao-bridge": {
+        "name": "AO Bridge",
+        "contracts": {
+          "main": {
+            "name": "AO Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for AO Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ao-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "appchain-bridge": {
+      "appchain-bridge": {
+        "name": "Appchain Bridge",
+        "contracts": {
+          "main": {
+            "name": "Appchain Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Appchain Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/appchain-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "arbitrum-bridge": {
+      "arbitrum-bridge": {
+        "name": "Arbitrum Bridge",
+        "contracts": {
+          "main": {
+            "name": "Arbitrum Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Arbitrum Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/arbitrum-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "arbitrum-nova-bridge": {
+      "arbitrum-nova-bridge": {
+        "name": "Arbitrum Nova Bridge",
+        "contracts": {
+          "main": {
+            "name": "Arbitrum Nova Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Arbitrum Nova Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/arbitrum-nova-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "avalanche-core-bridge": {
+      "avalanche-core-bridge": {
+        "name": "Avalanche Core Bridge",
+        "contracts": {
+          "main": {
+            "name": "Avalanche Core Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Avalanche Core Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/avalanche-core-bridge",
+            "updated": "2025-01-31"
+          },
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/avalanche-core-bridge",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "b2-buzz": {
+      "b2-buzz": {
+        "name": "B2 Buzz",
+        "contracts": {
+          "main": {
+            "name": "B2 Buzz Main Contract",
+            "type": "core",
+            "description": "Main contract for B2 Buzz",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/b2-buzz",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "base-bridge": {
+      "base-bridge": {
+        "name": "Base Bridge",
+        "contracts": {
+          "main": {
+            "name": "Base Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Base Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/base-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "blast-bridge": {
+      "blast-bridge": {
+        "name": "Blast Bridge",
+        "contracts": {
+          "main": {
+            "name": "Blast Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Blast Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/blast-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "boba-bridge": {
+      "boba-bridge": {
+        "name": "Boba Bridge",
+        "contracts": {
+          "main": {
+            "name": "Boba Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Boba Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/boba-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "botanix-bridge": {
+      "botanix-bridge": {
+        "name": "Botanix Bridge",
+        "contracts": {
+          "main": {
+            "name": "Botanix Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Botanix Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/botanix-bridge",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "core-bridge": {
+      "core-bridge": {
+        "name": "CORE Bridge",
+        "contracts": {
+          "main": {
+            "name": "CORE Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for CORE Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/core-bridge",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/core-bridge",
+            "updated": "2025-01-31"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/core-bridge",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/core-bridge",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/core-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "cronos-zkevm-bridge": {
+      "cronos-zkevm-bridge": {
+        "name": "Cronos zkEVM Bridge",
+        "contracts": {
+          "main": {
+            "name": "Cronos zkEVM Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Cronos zkEVM Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cronos-zkevm-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "degen-bridge": {
+      "degen-bridge": {
+        "name": "Degen Bridge",
+        "contracts": {
+          "main": {
+            "name": "Degen Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Degen Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/degen-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "eclipse-bridge": {
+      "eclipse-bridge": {
+        "name": "Eclipse Bridge",
+        "contracts": {
+          "main": {
+            "name": "Eclipse Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Eclipse Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/eclipse-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "enibridge": {
+      "enibridge": {
+        "name": "ENIBridge",
+        "contracts": {
+          "main": {
+            "name": "ENIBridge Main Contract",
+            "type": "core",
+            "description": "Main contract for ENIBridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/enibridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "eventum-bridge": {
+      "eventum-bridge": {
+        "name": "Eventum Bridge",
+        "contracts": {
+          "main": {
+            "name": "Eventum Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Eventum Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/eventum-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "gravity-by-galxe": {
+      "gravity-by-galxe": {
+        "name": "Gravity by Galxe",
+        "contracts": {
+          "main": {
+            "name": "Gravity by Galxe Main Contract",
+            "type": "core",
+            "description": "Main contract for Gravity by Galxe",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gravity-by-galxe",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hemi": {
+      "hemi": {
+        "name": "Hemi",
+        "contracts": {
+          "main": {
+            "name": "Hemi Main Contract",
+            "type": "core",
+            "description": "Main contract for Hemi",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hemi",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ink-bridge": {
+      "ink-bridge": {
+        "name": "Ink Bridge",
+        "contracts": {
+          "main": {
+            "name": "Ink Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Ink Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ink-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "kinto-bridge": {
+      "kinto-bridge": {
+        "name": "Kinto Bridge",
+        "contracts": {
+          "main": {
+            "name": "Kinto Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Kinto Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kinto-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lens-chain": {
+      "lens-chain": {
+        "name": "Lens Chain",
+        "contracts": {
+          "main": {
+            "name": "Lens Chain Main Contract",
+            "type": "core",
+            "description": "Main contract for Lens Chain",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lens-chain",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "linea-bridge": {
+      "linea-bridge": {
+        "name": "Linea Bridge",
+        "contracts": {
+          "main": {
+            "name": "Linea Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Linea Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/linea-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lisk-bridge": {
+      "lisk-bridge": {
+        "name": "Lisk Bridge",
+        "contracts": {
+          "main": {
+            "name": "Lisk Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Lisk Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lisk-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "manta-pacific": {
+      "manta-pacific": {
+        "name": "Manta Pacific",
+        "contracts": {
+          "main": {
+            "name": "Manta Pacific Main Contract",
+            "type": "core",
+            "description": "Main contract for Manta Pacific",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/manta-pacific",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mantle-bridge": {
+      "mantle-bridge": {
+        "name": "Mantle Bridge",
+        "contracts": {
+          "main": {
+            "name": "Mantle Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Mantle Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mantle-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "megaeth-bridge": {
+      "megaeth-bridge": {
+        "name": "MegaETH Bridge",
+        "contracts": {
+          "main": {
+            "name": "MegaETH Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for MegaETH Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/megaeth-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "metis-bridge": {
+      "metis-bridge": {
+        "name": "Metis Bridge",
+        "contracts": {
+          "main": {
+            "name": "Metis Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Metis Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/metis-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mint-bridge": {
+      "mint-bridge": {
+        "name": "Mint Bridge",
+        "contracts": {
+          "main": {
+            "name": "Mint Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Mint Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mint-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mode-bridge": {
+      "mode-bridge": {
+        "name": "Mode Bridge",
+        "contracts": {
+          "main": {
+            "name": "Mode Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Mode Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mode-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "openzk": {
+      "openzk": {
+        "name": "OpenZK",
+        "contracts": {
+          "main": {
+            "name": "OpenZK Main Contract",
+            "type": "core",
+            "description": "Main contract for OpenZK",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/openzk",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "optimism-bridge": {
+      "optimism-bridge": {
+        "name": "Optimism Bridge",
+        "contracts": {
+          "main": {
+            "name": "Optimism Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Optimism Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/optimism-bridge",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/optimism-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "orderly-chain": {
+      "orderly-chain": {
+        "name": "Orderly Chain",
+        "contracts": {
+          "main": {
+            "name": "Orderly Chain Main Contract",
+            "type": "core",
+            "description": "Main contract for Orderly Chain",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/orderly-chain",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "polygon-zkevm-bridge": {
+      "polygon-zkevm-bridge": {
+        "name": "Polygon zkEVM Bridge",
+        "contracts": {
+          "main": {
+            "name": "Polygon zkEVM Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Polygon zkEVM Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/polygon-zkevm-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "pulsechain-bridge": {
+      "pulsechain-bridge": {
+        "name": "PulseChain Bridge",
+        "contracts": {
+          "main": {
+            "name": "PulseChain Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for PulseChain Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/pulsechain-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "rari-chain": {
+      "rari-chain": {
+        "name": "Rari Chain",
+        "contracts": {
+          "main": {
+            "name": "Rari Chain Main Contract",
+            "type": "core",
+            "description": "Main contract for Rari Chain",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rari-chain",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "redstone": {
+      "redstone": {
+        "name": "Redstone",
+        "contracts": {
+          "main": {
+            "name": "Redstone Main Contract",
+            "type": "core",
+            "description": "Main contract for Redstone",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/redstone",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "reya-bridge": {
+      "reya-bridge": {
+        "name": "Reya Bridge",
+        "contracts": {
+          "main": {
+            "name": "Reya Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Reya Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reya-bridge",
+            "updated": "2025-01-31"
+          },
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reya-bridge",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reya-bridge",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reya-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ronin-bridge": {
+      "ronin-bridge": {
+        "name": "Ronin Bridge",
+        "contracts": {
+          "main": {
+            "name": "Ronin Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Ronin Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ronin-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "rsk-bridge": {
+      "rsk-bridge": {
+        "name": "RSK Bridge",
+        "contracts": {
+          "main": {
+            "name": "RSK Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for RSK Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rsk-bridge",
+            "updated": "2025-01-31"
+          },
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rsk-bridge",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "rss3-bridge": {
+      "rss3-bridge": {
+        "name": "RSS3 Bridge",
+        "contracts": {
+          "main": {
+            "name": "RSS3 Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for RSS3 Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rss3-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sanko-bridge": {
+      "sanko-bridge": {
+        "name": "Sanko Bridge",
+        "contracts": {
+          "main": {
+            "name": "Sanko Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Sanko Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sanko-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "scroll-bridge": {
+      "scroll-bridge": {
+        "name": "Scroll Bridge",
+        "contracts": {
+          "main": {
+            "name": "Scroll Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Scroll Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/scroll-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "shape-bridge": {
+      "shape-bridge": {
+        "name": "Shape Bridge",
+        "contracts": {
+          "main": {
+            "name": "Shape Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Shape Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/shape-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "soneium-bridge": {
+      "soneium-bridge": {
+        "name": "Soneium Bridge",
+        "contracts": {
+          "main": {
+            "name": "Soneium Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Soneium Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/soneium-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sonic-gateway": {
+      "sonic-gateway": {
+        "name": "Sonic Gateway",
+        "contracts": {
+          "main": {
+            "name": "Sonic Gateway Main Contract",
+            "type": "core",
+            "description": "Main contract for Sonic Gateway",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sonic-gateway",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sophon-bridge": {
+      "sophon-bridge": {
+        "name": "Sophon Bridge",
+        "contracts": {
+          "main": {
+            "name": "Sophon Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Sophon Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sophon-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sorare-bridge": {
+      "sorare-bridge": {
+        "name": "Sorare Bridge",
+        "contracts": {
+          "main": {
+            "name": "Sorare Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Sorare Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sorare-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sovryn-bridge": {
+      "sovryn-bridge": {
+        "name": "Sovryn Bridge",
+        "contracts": {
+          "main": {
+            "name": "Sovryn Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Sovryn Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sovryn-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "standx-bridge": {
+      "standx-bridge": {
+        "name": "StandX Bridge",
+        "contracts": {
+          "main": {
+            "name": "StandX Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for StandX Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/standx-bridge",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "starknet-bridge": {
+      "starknet-bridge": {
+        "name": "Starknet Bridge",
+        "contracts": {
+          "main": {
+            "name": "Starknet Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Starknet Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/starknet-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "suibridge": {
+      "suibridge": {
+        "name": "SuiBridge",
+        "contracts": {
+          "main": {
+            "name": "SuiBridge Main Contract",
+            "type": "core",
+            "description": "Main contract for SuiBridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/suibridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "supra-bridge": {
+      "supra-bridge": {
+        "name": "Supra Bridge",
+        "contracts": {
+          "main": {
+            "name": "Supra Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Supra Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/supra-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "swellchain-bridge": {
+      "swellchain-bridge": {
+        "name": "Swellchain Bridge",
+        "contracts": {
+          "main": {
+            "name": "Swellchain Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Swellchain Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/swellchain-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sx-rollup-bridge": {
+      "sx-rollup-bridge": {
+        "name": "SX Rollup Bridge",
+        "contracts": {
+          "main": {
+            "name": "SX Rollup Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for SX Rollup Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sx-rollup-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "taiko-bridge": {
+      "taiko-bridge": {
+        "name": "Taiko Bridge",
+        "contracts": {
+          "main": {
+            "name": "Taiko Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Taiko Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/taiko-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "treasure-bridge": {
+      "treasure-bridge": {
+        "name": "Treasure Bridge",
+        "contracts": {
+          "main": {
+            "name": "Treasure Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Treasure Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/treasure-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "unichain-bridge": {
+      "unichain-bridge": {
+        "name": "Unichain Bridge",
+        "contracts": {
+          "main": {
+            "name": "Unichain Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Unichain Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/unichain-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "world-chain": {
+      "world-chain": {
+        "name": "World Chain",
+        "contracts": {
+          "main": {
+            "name": "World Chain Main Contract",
+            "type": "core",
+            "description": "Main contract for World Chain",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/world-chain",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "xai-bridge": {
+      "xai-bridge": {
+        "name": "XAI Bridge",
+        "contracts": {
+          "main": {
+            "name": "XAI Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for XAI Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/xai-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "xdai-stake-bridge": {
+      "xdai-stake-bridge": {
+        "name": "xDAI Stake Bridge",
+        "contracts": {
+          "main": {
+            "name": "xDAI Stake Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for xDAI Stake Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/xdai-stake-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zero-network": {
+      "zero-network": {
+        "name": "Zero Network",
+        "contracts": {
+          "main": {
+            "name": "Zero Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Zero Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zero-network",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zircuit": {
+      "zircuit": {
+        "name": "Zircuit",
+        "contracts": {
+          "main": {
+            "name": "Zircuit Main Contract",
+            "type": "core",
+            "description": "Main contract for Zircuit",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zircuit",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zkcandy-bridge": {
+      "zkcandy-bridge": {
+        "name": "ZKcandy Bridge",
+        "contracts": {
+          "main": {
+            "name": "ZKcandy Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for ZKcandy Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkcandy-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zkfair": {
+      "zkfair": {
+        "name": "Zkfair",
+        "contracts": {
+          "main": {
+            "name": "Zkfair Main Contract",
+            "type": "core",
+            "description": "Main contract for Zkfair",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zkfair",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zksync-era-txbridge": {
+      "zksync-era-txbridge": {
+        "name": "zkSync Era txBridge",
+        "contracts": {
+          "main": {
+            "name": "zkSync Era txBridge Main Contract",
+            "type": "core",
+            "description": "Main contract for zkSync Era txBridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zksync-era-txbridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zksync-lite-bridge": {
+      "zksync-lite-bridge": {
+        "name": "zkSync Lite Bridge",
+        "contracts": {
+          "main": {
+            "name": "zkSync Lite Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for zkSync Lite Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zksync-lite-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zora-bridge": {
+      "zora-bridge": {
+        "name": "Zora Bridge",
+        "contracts": {
+          "main": {
+            "name": "Zora Bridge Main Contract",
+            "type": "core",
+            "description": "Main contract for Zora Bridge",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zora-bridge",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

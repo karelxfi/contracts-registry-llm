@@ -1,0 +1,44 @@
+{
+  "id": "votre",
+  "name": "Votre",
+  "type": "lending",
+  "website": "https://www.votre.xyz/",
+  "github": [
+    "CollarNetworks"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Votre Main Contract",
+      "type": "core",
+      "description": "Main contract for Votre",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/votre",
+      "updated": "2025-01-31"
+    }
+  }
+}

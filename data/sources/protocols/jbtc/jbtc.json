@@ -1,0 +1,61 @@
+{
+  "id": "jbtc",
+  "name": "jBTC",
+  "type": "bridge",
+  "website": "https://jettonbtc.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "jBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for jBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jbtc",
+      "updated": "2025-01-31"
+    },
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jbtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

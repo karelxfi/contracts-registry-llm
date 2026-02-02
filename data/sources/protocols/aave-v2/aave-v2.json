@@ -1,0 +1,158 @@
+{
+  "id": "aave-v2",
+  "name": "Aave V2",
+  "type": "lending",
+  "status": "complete",
+  "website": "https://aave.com",
+  "github": "",
+  "docs": "",
+  "tags": ["lending", "ethereum", "polygon", "avalanche"],
+  "contracts": {
+    "lendingPool": {
+      "name": "LendingPool",
+      "type": "core",
+      "description": "Main lending pool contract for Aave V2",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["lending", "borrowing", "liquidity"]
+    },
+    "poolAddressesProvider": {
+      "name": "PoolAddressesProvider",
+      "type": "registry",
+      "description": "Registry of all protocol addresses",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["address-registry"]
+    },
+    "poolConfigurator": {
+      "name": "PoolConfigurator",
+      "type": "admin",
+      "description": "Protocol configuration management",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["configuration"]
+    },
+    "aaveOracle": {
+      "name": "AaveOracle",
+      "type": "oracle",
+      "description": "Price oracle aggregator",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["price-feeds"]
+    },
+    "protocolDataProvider": {
+      "name": "ProtocolDataProvider",
+      "type": "data",
+      "description": "Protocol data queries",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["data-query"]
+    },
+    "collector": {
+      "name": "Collector",
+      "type": "treasury",
+      "description": "Protocol treasury",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": ["treasury"]
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "lendingPool": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+        "poolAddressesProvider": "0xB53C1a33016B2DC2fF3653530bfF1848a515c8c5",
+        "poolConfigurator": "0x311Bb771e4F8952E6Da169b425E7e92d6Ac45756",
+        "aaveOracle": "0xA50ba011c48153De246E5192C8f9258A2ba79Ca9",
+        "protocolDataProvider": "0x057835Ad21a177dbdd3090bB1CAE03EaCF78Fc6d",
+        "collector": "0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c"
+      },
+      "deploymentBlocks": {
+        "lendingPool": null,
+        "poolAddressesProvider": null,
+        "poolConfigurator": null,
+        "aaveOracle": null,
+        "protocolDataProvider": null,
+        "collector": null
+      },
+      "verified": {
+        "lendingPool": true,
+        "poolAddressesProvider": true,
+        "poolConfigurator": true,
+        "aaveOracle": true,
+        "protocolDataProvider": true,
+        "collector": true
+      },
+      "source": ["aave-address-book"],
+      "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "lendingPool": "0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf",
+        "poolAddressesProvider": "0xd05e3E715d945B59290df0ae8eF85c1BdB684744",
+        "poolConfigurator": "0x26db2B833021583566323E3b8985999981b9F1F3",
+        "aaveOracle": "0x0229F777B0fAb107F9591a41d5F02E4e98dB6f2d",
+        "protocolDataProvider": "0x7551b5D2763519d4e37e8B81929D336De671d46d",
+        "collector": "0xe8599F3cc5D38a9aD6F3684cd5CEa72f10Dbc383"
+      },
+      "deploymentBlocks": {
+        "lendingPool": null,
+        "poolAddressesProvider": null,
+        "poolConfigurator": null,
+        "aaveOracle": null,
+        "protocolDataProvider": null,
+        "collector": null
+      },
+      "verified": {
+        "lendingPool": true,
+        "poolAddressesProvider": true,
+        "poolConfigurator": true,
+        "aaveOracle": true,
+        "protocolDataProvider": true,
+        "collector": true
+      },
+      "source": ["aave-address-book"],
+      "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "lendingPool": "0x4F01AeD16D97E3aB5ab2B501154DC9bb0F1A5A2C",
+        "poolAddressesProvider": "0xb6A86025F0FE1862B372cb0ca18CE3EDe02A318f",
+        "poolConfigurator": "0x230B618aD4C475393A7239aE03630042281BD86e",
+        "aaveOracle": "0xdC336Cd4769f4cC7E9d726DA53e6d3fC710cEB89",
+        "protocolDataProvider": "0x65285E9dfab318f57051ab2b139ccCf232945451",
+        "collector": "0x5ba7fd868c40c16f7aDfAe6CF87121E13FC2F7a0"
+      },
+      "deploymentBlocks": {
+        "lendingPool": null,
+        "poolAddressesProvider": null,
+        "poolConfigurator": null,
+        "aaveOracle": null,
+        "protocolDataProvider": null,
+        "collector": null
+      },
+      "verified": {
+        "lendingPool": true,
+        "poolAddressesProvider": true,
+        "poolConfigurator": true,
+        "aaveOracle": true,
+        "protocolDataProvider": true,
+        "collector": true
+      },
+      "source": ["aave-address-book"],
+      "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
+      "updated": "2025-01-31"
+    }
+  }
+}

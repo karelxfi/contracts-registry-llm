@@ -1,0 +1,42 @@
+{
+  "id": "chat3",
+  "name": "Chat3",
+  "type": "sofi",
+  "website": "https://chat3.one/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Chat3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Chat3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chat3",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "shoebill-v2",
+  "name": "Shoebill V2",
+  "type": "lending",
+  "website": "https://shoebill.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "manta",
+    "bob",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Shoebill V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Shoebill V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shoebill-v2",
+      "updated": "2025-01-31"
+    },
+    "bob": {
+      "chain": "bob",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shoebill-v2",
+      "updated": "2025-01-31"
+    },
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/shoebill-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

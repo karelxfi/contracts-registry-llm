@@ -1,0 +1,62 @@
+{
+  "id": "sparklex",
+  "name": "SparkleX",
+  "type": "yield",
+  "website": "https://sparklex.ai/",
+  "github": [
+    "sparklexai"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SparkleX Main Contract",
+      "type": "core",
+      "description": "Main contract for SparkleX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sparklex",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sparklex",
+      "updated": "2025-01-31"
+    }
+  }
+}

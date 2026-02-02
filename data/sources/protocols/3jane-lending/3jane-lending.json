@@ -1,0 +1,42 @@
+{
+  "id": "3jane-lending",
+  "name": "3jane Lending",
+  "type": "uncollateralized lending",
+  "website": "https://www.3jane.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "uncollateralized lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "3jane Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for 3jane Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/3jane-lending",
+      "updated": "2025-01-31"
+    }
+  }
+}

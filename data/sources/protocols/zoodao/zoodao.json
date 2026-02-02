@@ -1,0 +1,44 @@
+{
+  "id": "zoodao",
+  "name": "ZooDAO",
+  "type": "yield",
+  "website": "",
+  "github": [
+    "ZooDAO-Project"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ZooDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for ZooDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zoodao",
+      "updated": "2025-01-31"
+    }
+  }
+}

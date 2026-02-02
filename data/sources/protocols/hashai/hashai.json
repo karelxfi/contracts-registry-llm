@@ -1,0 +1,42 @@
+{
+  "id": "hashai",
+  "name": "HashAI",
+  "type": "farm",
+  "website": "https://hashai.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HashAI Main Contract",
+      "type": "core",
+      "description": "Main contract for HashAI",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hashai",
+      "updated": "2025-01-31"
+    }
+  }
+}

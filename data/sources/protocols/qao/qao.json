@@ -1,0 +1,44 @@
+{
+  "id": "qao",
+  "name": "QAO",
+  "type": "indexes",
+  "website": "https://www.qao.io",
+  "github": [
+    "rarechain"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "QAO Main Contract",
+      "type": "core",
+      "description": "Main contract for QAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/qao",
+      "updated": "2025-01-31"
+    }
+  }
+}

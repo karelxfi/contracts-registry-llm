@@ -1,0 +1,44 @@
+{
+  "id": "nsure",
+  "name": "Nsure",
+  "type": "insurance",
+  "website": "https://nsure.network/",
+  "github": [
+    "nsure-tech"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Nsure Main Contract",
+      "type": "core",
+      "description": "Main contract for Nsure",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nsure",
+      "updated": "2025-01-31"
+    }
+  }
+}

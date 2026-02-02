@@ -1,0 +1,43 @@
+{
+  "id": "lofty",
+  "name": "Lofty",
+  "type": "rwa",
+  "website": "https://www.lofty.ai",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lofty Main Contract",
+      "type": "core",
+      "description": "Main contract for Lofty",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lofty",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

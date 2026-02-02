@@ -1,0 +1,43 @@
+{
+  "id": "bwatch",
+  "name": "Bwatch",
+  "type": "indexes",
+  "website": "https://b.watch/#/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Bwatch Main Contract",
+      "type": "core",
+      "description": "Main contract for Bwatch",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bwatch",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

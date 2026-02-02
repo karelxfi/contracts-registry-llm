@@ -1,0 +1,42 @@
+{
+  "id": "ethereal-season-zero",
+  "name": "Ethereal Season Zero",
+  "type": "farm",
+  "website": "https://www.ethereal.trade/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ethereal Season Zero Main Contract",
+      "type": "core",
+      "description": "Main contract for Ethereal Season Zero",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ethereal-season-zero",
+      "updated": "2025-01-31"
+    }
+  }
+}

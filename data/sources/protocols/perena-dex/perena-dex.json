@@ -1,0 +1,43 @@
+{
+  "id": "perena-dex",
+  "name": "Perena Dex",
+  "type": "dexs",
+  "website": "https://app.perena.org/?ref=ILPYAL",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Perena Dex Main Contract",
+      "type": "core",
+      "description": "Main contract for Perena Dex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/perena-dex",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

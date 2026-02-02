@@ -1,0 +1,44 @@
+{
+  "id": "nxd-protocol",
+  "name": "NXD Protocol",
+  "type": "farm",
+  "website": "https://dxn-hyperstructure.com/",
+  "github": [
+    "DXN-Hyperstructure"
+  ],
+  "docs": "",
+  "tags": [
+    "farm",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NXD Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for NXD Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nxd-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

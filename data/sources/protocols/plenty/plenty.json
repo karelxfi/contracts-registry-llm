@@ -1,0 +1,45 @@
+{
+  "id": "plenty",
+  "name": "Plenty",
+  "type": "dexs",
+  "website": "https://www.plenty.network",
+  "github": [
+    "Plenty-network"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "tezos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Plenty Main Contract",
+      "type": "core",
+      "description": "Main contract for Plenty",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tezos": {
+      "chain": "tezos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/plenty",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "magic-land",
+  "name": "Magic Land",
+  "type": "yield",
+  "website": "",
+  "github": [
+    "magiclandfinance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Magic Land Main Contract",
+      "type": "core",
+      "description": "Main contract for Magic Land",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/magic-land",
+      "updated": "2025-01-31"
+    }
+  }
+}

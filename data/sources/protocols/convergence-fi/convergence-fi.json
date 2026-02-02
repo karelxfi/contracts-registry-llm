@@ -1,0 +1,42 @@
+{
+  "id": "convergence-fi",
+  "name": "Convergence Fi",
+  "type": "yield",
+  "website": "https://app.cvg.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Convergence Fi Main Contract",
+      "type": "core",
+      "description": "Main contract for Convergence Fi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/convergence-fi",
+      "updated": "2025-01-31"
+    }
+  }
+}

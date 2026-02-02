@@ -1,0 +1,60 @@
+{
+  "id": "wise-lending-v2",
+  "name": "Wise Lending V2",
+  "type": "lending",
+  "website": "https://wiselending.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wise Lending V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Wise Lending V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wise-lending-v2",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wise-lending-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

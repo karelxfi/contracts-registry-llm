@@ -1,0 +1,45 @@
+{
+  "id": "tonic",
+  "name": "Tonic",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "tonic-foundation"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tonic Main Contract",
+      "type": "core",
+      "description": "Main contract for Tonic",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tonic",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

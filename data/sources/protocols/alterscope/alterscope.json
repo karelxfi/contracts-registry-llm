@@ -1,0 +1,79 @@
+{
+  "id": "alterscope",
+  "name": "Alterscope",
+  "type": "risk curators",
+  "website": "https://www.alterscope.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "base",
+    "ethereum",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Alterscope Main Contract",
+      "type": "core",
+      "description": "Main contract for Alterscope",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alterscope",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alterscope",
+      "updated": "2025-01-31"
+    },
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alterscope",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

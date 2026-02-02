@@ -1,0 +1,42 @@
+{
+  "id": "sakefinance",
+  "name": "SakeFinance",
+  "type": "lending",
+  "website": "https://app.sakefinance.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "soneium"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SakeFinance Main Contract",
+      "type": "core",
+      "description": "Main contract for SakeFinance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "soneium": {
+      "chain": "soneium",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sakefinance",
+      "updated": "2025-01-31"
+    }
+  }
+}

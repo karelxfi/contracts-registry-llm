@@ -1,0 +1,98 @@
+{
+  "id": "0x-nodes",
+  "name": "0x NODES",
+  "type": "yield aggregator",
+  "website": "https://0xnodes.io/",
+  "github": [
+    "0xNODES"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum",
+    "polygon",
+    "metis",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "0x NODES Main Contract",
+      "type": "core",
+      "description": "Main contract for 0x NODES",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0x-nodes",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0x-nodes",
+      "updated": "2025-01-31"
+    },
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0x-nodes",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/0x-nodes",
+      "updated": "2025-01-31"
+    }
+  }
+}

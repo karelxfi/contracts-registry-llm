@@ -1,0 +1,42 @@
+{
+  "id": "hydrex-integral",
+  "name": "Hydrex Integral",
+  "type": "dexs",
+  "website": "https://www.hydrex.fi?anchorRef=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hydrex Integral Main Contract",
+      "type": "core",
+      "description": "Main contract for Hydrex Integral",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hydrex-integral",
+      "updated": "2025-01-31"
+    }
+  }
+}

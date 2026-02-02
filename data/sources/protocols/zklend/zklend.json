@@ -1,0 +1,43 @@
+{
+  "id": "zklend",
+  "name": "zkLend",
+  "type": "lending",
+  "website": "https://zklend.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "zkLend Main Contract",
+      "type": "core",
+      "description": "Main contract for zkLend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zklend",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

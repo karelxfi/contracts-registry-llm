@@ -1,0 +1,44 @@
+{
+  "id": "anvil",
+  "name": "Anvil",
+  "type": "collateral management",
+  "website": "https://anvil.xyz/",
+  "github": [
+    "AcronymFoundation"
+  ],
+  "docs": "",
+  "tags": [
+    "collateral management",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Anvil Main Contract",
+      "type": "core",
+      "description": "Main contract for Anvil",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/anvil",
+      "updated": "2025-01-31"
+    }
+  }
+}

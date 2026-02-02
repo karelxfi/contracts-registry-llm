@@ -1,0 +1,42 @@
+{
+  "id": "the-open-dao-sos",
+  "name": "The Open DAO SOS",
+  "type": "services",
+  "website": "https://www.theopendao.com/#sos",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Open DAO SOS Main Contract",
+      "type": "core",
+      "description": "Main contract for The Open DAO SOS",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-open-dao-sos",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "category": "luck games",
+  "protocols": {
+    "0xroulette-protocol": {
+      "0xroulette-protocol": {
+        "name": "0xRoulette Protocol",
+        "contracts": {
+          "main": {
+            "name": "0xRoulette Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for 0xRoulette Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/0xroulette-protocol",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "betmode": {
+      "betmode": {
+        "name": "BetMode",
+        "contracts": {
+          "main": {
+            "name": "BetMode Main Contract",
+            "type": "core",
+            "description": "Main contract for BetMode",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/betmode",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "croissant-games": {
+      "croissant-games": {
+        "name": "Croissant Games",
+        "contracts": {
+          "main": {
+            "name": "Croissant Games Main Contract",
+            "type": "core",
+            "description": "Main contract for Croissant Games",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/croissant-games",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "cronos-bet": {
+      "cronos-bet": {
+        "name": "Cronos Bet",
+        "contracts": {
+          "main": {
+            "name": "Cronos Bet Main Contract",
+            "type": "core",
+            "description": "Main contract for Cronos Bet",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/cronos-bet",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "crovegas": {
+      "crovegas": {
+        "name": "CroVegas",
+        "contracts": {
+          "main": {
+            "name": "CroVegas Main Contract",
+            "type": "core",
+            "description": "Main contract for CroVegas",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/crovegas",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "crypto-lottery": {
+      "crypto-lottery": {
+        "name": "Crypto Lottery",
+        "contracts": {
+          "main": {
+            "name": "Crypto Lottery Main Contract",
+            "type": "core",
+            "description": "Main contract for Crypto Lottery",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/crypto-lottery",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/crypto-lottery",
+            "updated": "2025-01-31"
+          },
+          "celo": {
+            "chain": "celo",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/crypto-lottery",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "doubleup": {
+      "doubleup": {
+        "name": "DoubleUp",
+        "contracts": {
+          "main": {
+            "name": "DoubleUp Main Contract",
+            "type": "core",
+            "description": "Main contract for DoubleUp",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sui": {
+            "chain": "sui",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/doubleup",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "etherflip": {
+      "etherflip": {
+        "name": "EtherFlip",
+        "contracts": {
+          "main": {
+            "name": "EtherFlip Main Contract",
+            "type": "core",
+            "description": "Main contract for EtherFlip",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/etherflip",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ferdyflip": {
+      "ferdyflip": {
+        "name": "FerdyFlip",
+        "contracts": {
+          "main": {
+            "name": "FerdyFlip Main Contract",
+            "type": "core",
+            "description": "Main contract for FerdyFlip",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "mantle": {
+            "chain": "mantle",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ferdyflip",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ferdyflip",
+            "updated": "2025-01-31"
+          },
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ferdyflip",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "kaching": {
+      "kaching": {
+        "name": "Kaching",
+        "contracts": {
+          "main": {
+            "name": "Kaching Main Contract",
+            "type": "core",
+            "description": "Main contract for Kaching",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "aptos": {
+            "chain": "aptos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/kaching",
+            "updated": "2025-01-31",
+            "platform": "move"
+          }
+        }
+      }
+    },
+    "megamoon": {
+      "megamoon": {
+        "name": "MegaMoon",
+        "contracts": {
+          "main": {
+            "name": "MegaMoon Main Contract",
+            "type": "core",
+            "description": "Main contract for MegaMoon",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/megamoon",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "narbet": {
+      "narbet": {
+        "name": "NarBet",
+        "contracts": {
+          "main": {
+            "name": "NarBet Main Contract",
+            "type": "core",
+            "description": "Main contract for NarBet",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "monad": {
+            "chain": "monad",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/narbet",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ngmi-zone": {
+      "ngmi-zone": {
+        "name": "NGMI Zone",
+        "contracts": {
+          "main": {
+            "name": "NGMI Zone Main Contract",
+            "type": "core",
+            "description": "Main contract for NGMI Zone",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "neutron": {
+            "chain": "neutron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ngmi-zone",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "ninjaroll": {
+      "ninjaroll": {
+        "name": "NinjaRoll",
+        "contracts": {
+          "main": {
+            "name": "NinjaRoll Main Contract",
+            "type": "core",
+            "description": "Main contract for NinjaRoll",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "injective": {
+            "chain": "injective",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ninjaroll",
+            "updated": "2025-01-31",
+            "platform": "cosmos"
+          }
+        }
+      }
+    },
+    "rollspace": {
+      "rollspace": {
+        "name": "Rollspace",
+        "contracts": {
+          "main": {
+            "name": "Rollspace Main Contract",
+            "type": "core",
+            "description": "Main contract for Rollspace",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rollspace",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "sunrise-gaming": {
+      "sunrise-gaming": {
+        "name": "Sunrise Gaming",
+        "contracts": {
+          "main": {
+            "name": "Sunrise Gaming Main Contract",
+            "type": "core",
+            "description": "Main contract for Sunrise Gaming",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/sunrise-gaming",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "tg-casino": {
+      "tg-casino": {
+        "name": "TG Casino",
+        "contracts": {
+          "main": {
+            "name": "TG Casino Main Contract",
+            "type": "core",
+            "description": "Main contract for TG Casino",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tg-casino",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

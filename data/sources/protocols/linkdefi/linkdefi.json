@@ -1,0 +1,44 @@
+{
+  "id": "linkdefi",
+  "name": "LinkDeFi",
+  "type": "yield aggregator",
+  "website": "https://linkdefi.xyz",
+  "github": [
+    "AES-256-2"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LinkDeFi Main Contract",
+      "type": "core",
+      "description": "Main contract for LinkDeFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/linkdefi",
+      "updated": "2025-01-31"
+    }
+  }
+}

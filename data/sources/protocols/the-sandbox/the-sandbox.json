@@ -1,0 +1,62 @@
+{
+  "id": "the-sandbox",
+  "name": "The Sandbox",
+  "type": "gaming",
+  "website": "https://www.sandbox.game",
+  "github": [
+    "thesandboxgame"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Sandbox Main Contract",
+      "type": "core",
+      "description": "Main contract for The Sandbox",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-sandbox",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-sandbox",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "chain": "mixin",
+  "chainInfo": {
+    "id": "mixin",
+    "name": "Mixin",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "XIN",
+      "symbol": "XIN",
+      "decimals": 8
+    },
+    "gecko_id": "mixin",
+    "cmcId": "2349",
+    "explorers": {
+      "primary": {
+        "name": "Mixin Explorer",
+        "url": "https://explorer.mixin.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "4swap": {
+      "4swap": {
+        "name": "4Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "bwatch": {
+      "bwatch": {
+        "name": "Bwatch",
+        "type": "indexes",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exinpool": {
+      "exinpool": {
+        "name": "ExinPool",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "exinswap": {
+      "exinswap": {
+        "name": "ExinSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "filet-finance": {
+      "filet-finance": {
+        "name": "Filet Finance",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "hodl-fox": {
+      "hodl-fox": {
+        "name": "Hodl Fox",
+        "type": "services",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "ocean-one": {
+      "ocean-one": {
+        "name": "Ocean One",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "option-dance": {
+      "option-dance": {
+        "name": "Option Dance",
+        "type": "options",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pando-leaf": {
+      "pando-leaf": {
+        "name": "Pando Leaf",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pando-rings": {
+      "pando-rings": {
+        "name": "Pando Rings",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

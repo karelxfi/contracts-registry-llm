@@ -1,0 +1,43 @@
+{
+  "id": "bitmake",
+  "name": "BitMake",
+  "type": "cex",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cex",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BitMake Main Contract",
+      "type": "core",
+      "description": "Main contract for BitMake",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitmake",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

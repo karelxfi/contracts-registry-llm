@@ -1,0 +1,96 @@
+{
+  "id": "theo-straddle-vaults",
+  "name": "Theo Straddle Vaults",
+  "type": "basis trading",
+  "website": "https://app.theo.xyz/invite?invite=defillama",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "arbitrum",
+    "ethereum",
+    "linea",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Theo Straddle Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Theo Straddle Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+      "updated": "2025-01-31"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/theo-straddle-vaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

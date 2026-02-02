@@ -1,0 +1,44 @@
+{
+  "id": "treasure",
+  "name": "Treasure",
+  "type": "gaming",
+  "website": "https://www.treasure.lol/",
+  "github": [
+    "TreasureProject"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Treasure Main Contract",
+      "type": "core",
+      "description": "Main contract for Treasure",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/treasure",
+      "updated": "2025-01-31"
+    }
+  }
+}

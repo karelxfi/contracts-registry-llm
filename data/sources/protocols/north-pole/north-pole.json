@@ -1,0 +1,42 @@
+{
+  "id": "north-pole",
+  "name": "North Pole",
+  "type": "cdp",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "North Pole Main Contract",
+      "type": "core",
+      "description": "Main contract for North Pole",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/north-pole",
+      "updated": "2025-01-31"
+    }
+  }
+}

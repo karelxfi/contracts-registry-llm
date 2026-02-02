@@ -1,0 +1,42 @@
+{
+  "id": "angles-liquid",
+  "name": "Angles Liquid",
+  "type": "onchain capital allocator",
+  "website": "https://angles.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Angles Liquid Main Contract",
+      "type": "core",
+      "description": "Main contract for Angles Liquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/angles-liquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "eesee",
+  "name": "eesee",
+  "type": "prediction market",
+  "website": "https://eesee.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "eesee Main Contract",
+      "type": "core",
+      "description": "Main contract for eesee",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/eesee",
+      "updated": "2025-01-31"
+    }
+  }
+}

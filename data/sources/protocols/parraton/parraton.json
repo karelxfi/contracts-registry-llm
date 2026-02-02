@@ -1,0 +1,45 @@
+{
+  "id": "parraton",
+  "name": "Parraton",
+  "type": "yield aggregator",
+  "website": "https://parraton.com",
+  "github": [
+    "parraton"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ton"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Parraton Main Contract",
+      "type": "core",
+      "description": "Main contract for Parraton",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ton": {
+      "chain": "ton",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/parraton",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "iq",
+  "name": "IQ",
+  "type": "services",
+  "website": "https://iq.wiki",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "IQ Main Contract",
+      "type": "core",
+      "description": "Main contract for IQ",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/iq",
+      "updated": "2025-01-31"
+    }
+  }
+}

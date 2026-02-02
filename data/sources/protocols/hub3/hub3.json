@@ -1,0 +1,43 @@
+{
+  "id": "hub3",
+  "name": "hub3",
+  "type": "sofi",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "hub3 Main Contract",
+      "type": "core",
+      "description": "Main contract for hub3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hub3",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

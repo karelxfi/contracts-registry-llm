@@ -1,0 +1,42 @@
+{
+  "id": "brunch",
+  "name": "Brunch",
+  "type": "cdp",
+  "website": "https://brunch.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Brunch Main Contract",
+      "type": "core",
+      "description": "Main contract for Brunch",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/brunch",
+      "updated": "2025-01-31"
+    }
+  }
+}

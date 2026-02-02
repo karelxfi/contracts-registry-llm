@@ -1,0 +1,42 @@
+{
+  "id": "influpia",
+  "name": "Influpia",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "merlin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Influpia Main Contract",
+      "type": "core",
+      "description": "Main contract for Influpia",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "merlin": {
+      "chain": "merlin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/influpia",
+      "updated": "2025-01-31"
+    }
+  }
+}

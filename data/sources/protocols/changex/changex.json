@@ -1,0 +1,42 @@
+{
+  "id": "changex",
+  "name": "Changex",
+  "type": "yield",
+  "website": "https://changex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Changex Main Contract",
+      "type": "core",
+      "description": "Main contract for Changex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/changex",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mobius-exchange",
+  "name": "Mobius Exchange",
+  "type": "dexs",
+  "website": "https://mobius.exchange/",
+  "github": [
+    "MobiusExchange"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mobius Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for Mobius Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mobius-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

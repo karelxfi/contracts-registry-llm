@@ -1,0 +1,42 @@
+{
+  "id": "devve",
+  "name": "DevvE",
+  "type": "launchpad",
+  "website": "https://devve.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DevvE Main Contract",
+      "type": "core",
+      "description": "Main contract for DevvE",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/devve",
+      "updated": "2025-01-31"
+    }
+  }
+}

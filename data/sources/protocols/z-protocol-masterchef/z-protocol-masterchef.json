@@ -1,0 +1,42 @@
+{
+  "id": "z-protocol-masterchef",
+  "name": "Z Protocol Masterchef",
+  "type": "yield",
+  "website": "https://app.zprotocol.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Z Protocol Masterchef Main Contract",
+      "type": "core",
+      "description": "Main contract for Z Protocol Masterchef",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/z-protocol-masterchef",
+      "updated": "2025-01-31"
+    }
+  }
+}

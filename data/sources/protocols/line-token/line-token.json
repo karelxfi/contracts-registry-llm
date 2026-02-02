@@ -1,0 +1,42 @@
+{
+  "id": "line-token",
+  "name": "LINE Token",
+  "type": "cdp",
+  "website": "https://linetoken.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LINE Token Main Contract",
+      "type": "core",
+      "description": "Main contract for LINE Token",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/line-token",
+      "updated": "2025-01-31"
+    }
+  }
+}

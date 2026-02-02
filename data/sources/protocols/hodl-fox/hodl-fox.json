@@ -1,0 +1,43 @@
+{
+  "id": "hodl-fox",
+  "name": "Hodl Fox",
+  "type": "services",
+  "website": "https://hodl.fox.one",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "services",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hodl Fox Main Contract",
+      "type": "core",
+      "description": "Main contract for Hodl Fox",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hodl-fox",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

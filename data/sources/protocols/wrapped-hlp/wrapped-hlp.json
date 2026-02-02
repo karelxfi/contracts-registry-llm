@@ -1,0 +1,43 @@
+{
+  "id": "wrapped-hlp",
+  "name": "Wrapped HLP",
+  "type": "yield",
+  "website": "https://www.loopingcollective.org/wrapped-hlp",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "hyperliquid-l1"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Wrapped HLP Main Contract",
+      "type": "core",
+      "description": "Main contract for Wrapped HLP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wrapped-hlp",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

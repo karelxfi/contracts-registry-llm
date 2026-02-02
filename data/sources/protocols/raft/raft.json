@@ -1,0 +1,44 @@
+{
+  "id": "raft",
+  "name": "Raft",
+  "type": "cdp",
+  "website": "https://raft.fi/",
+  "github": [
+    "raft-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Raft Main Contract",
+      "type": "core",
+      "description": "Main contract for Raft",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/raft",
+      "updated": "2025-01-31"
+    }
+  }
+}

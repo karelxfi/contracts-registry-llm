@@ -1,0 +1,44 @@
+{
+  "id": "leech-protocol",
+  "name": "Leech Protocol",
+  "type": "yield aggregator",
+  "website": "https://www.leechprotocol.com/",
+  "github": [
+    "Leech-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Leech Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Leech Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/leech-protocol",
+      "updated": "2025-01-31"
+    }
+  }
+}

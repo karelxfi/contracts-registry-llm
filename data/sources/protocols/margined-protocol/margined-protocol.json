@@ -1,0 +1,64 @@
+{
+  "id": "margined-protocol",
+  "name": "Margined Protocol",
+  "type": "derivatives",
+  "website": "https://www.margined.io/",
+  "github": [
+    "margined-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "osmosis",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Margined Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for Margined Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/margined-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/margined-protocol",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

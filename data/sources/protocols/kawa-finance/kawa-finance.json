@@ -1,0 +1,45 @@
+{
+  "id": "kawa-finance",
+  "name": "Kawa Finance",
+  "type": "lending",
+  "website": "https://kawa.finance",
+  "github": [
+    "kawafinance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kawa Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Kawa Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kawa-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

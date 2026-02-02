@@ -1,0 +1,42 @@
+{
+  "id": "blizzard",
+  "name": "Blizzard",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blizzard Main Contract",
+      "type": "core",
+      "description": "Main contract for Blizzard",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blizzard",
+      "updated": "2025-01-31"
+    }
+  }
+}

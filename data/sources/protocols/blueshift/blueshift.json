@@ -1,0 +1,80 @@
+{
+  "id": "blueshift",
+  "name": "Blueshift",
+  "type": "dexs",
+  "website": "https://blueshift.fi/",
+  "github": [
+    "blueshift-fi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "bob",
+    "kava",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blueshift Main Contract",
+      "type": "core",
+      "description": "Main contract for Blueshift",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bob": {
+      "chain": "bob",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blueshift",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blueshift",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blueshift",
+      "updated": "2025-01-31"
+    }
+  }
+}

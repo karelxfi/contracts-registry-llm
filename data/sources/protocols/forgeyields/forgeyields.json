@@ -1,0 +1,45 @@
+{
+  "id": "forgeyields",
+  "name": "ForgeYields",
+  "type": "onchain capital allocator",
+  "website": "https://app.forgeyields.com",
+  "github": [
+    "ForgeYields"
+  ],
+  "docs": "",
+  "tags": [
+    "onchain capital allocator",
+    "starknet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ForgeYields Main Contract",
+      "type": "core",
+      "description": "Main contract for ForgeYields",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "starknet": {
+      "chain": "starknet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/forgeyields",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

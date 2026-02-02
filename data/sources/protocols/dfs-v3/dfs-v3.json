@@ -1,0 +1,42 @@
+{
+  "id": "dfs-v3",
+  "name": "DFS V3",
+  "type": "dexs",
+  "website": "https://dfs.fun/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "x-layer"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DFS V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for DFS V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "x-layer": {
+      "chain": "x-layer",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dfs-v3",
+      "updated": "2025-01-31"
+    }
+  }
+}

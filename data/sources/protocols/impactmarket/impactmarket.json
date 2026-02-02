@@ -1,0 +1,44 @@
+{
+  "id": "impactmarket",
+  "name": "ImpactMarket",
+  "type": "yield",
+  "website": "https://www.impactmarket.com",
+  "github": [
+    "impactMarket"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "celo"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ImpactMarket Main Contract",
+      "type": "core",
+      "description": "Main contract for ImpactMarket",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "celo": {
+      "chain": "celo",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/impactmarket",
+      "updated": "2025-01-31"
+    }
+  }
+}

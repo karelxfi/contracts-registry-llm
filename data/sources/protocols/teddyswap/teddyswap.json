@@ -1,0 +1,45 @@
+{
+  "id": "teddyswap",
+  "name": "TeddySwap",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "teddy-swap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TeddySwap Main Contract",
+      "type": "core",
+      "description": "Main contract for TeddySwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/teddyswap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

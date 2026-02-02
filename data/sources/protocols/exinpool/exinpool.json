@@ -1,0 +1,43 @@
+{
+  "id": "exinpool",
+  "name": "ExinPool",
+  "type": "liquid staking",
+  "website": "https://support.exinpool.com/en",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "mixin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ExinPool Main Contract",
+      "type": "core",
+      "description": "Main contract for ExinPool",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mixin": {
+      "chain": "mixin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/exinpool",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

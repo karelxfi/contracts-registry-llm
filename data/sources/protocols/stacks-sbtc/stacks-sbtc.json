@@ -1,0 +1,43 @@
+{
+  "id": "stacks-sbtc",
+  "name": "Stacks sBTC",
+  "type": "bridge",
+  "website": "https://docs.stacks.co/concepts/sbtc/clarity-contracts/sbtc-deposit",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Stacks sBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for Stacks sBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stacks-sbtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

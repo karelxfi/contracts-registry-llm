@@ -1,0 +1,42 @@
+{
+  "id": "palma-swap",
+  "name": "Palma Swap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Palma Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Palma Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/palma-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

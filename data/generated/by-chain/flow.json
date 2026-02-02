@@ -1,0 +1,313 @@
+{
+  "chain": "flow",
+  "chainInfo": {
+    "id": "flow",
+    "name": "Flow",
+    "platform": "other",
+    "status": "active",
+    "chainId": 747,
+    "nativeCurrency": {
+      "name": "FLOW",
+      "symbol": "FLOW",
+      "decimals": 8
+    },
+    "gecko_id": "flow",
+    "cmcId": "4558",
+    "explorers": {
+      "primary": {
+        "name": "Flow Explorer",
+        "url": "https://explorer.flow.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "ankr": {
+      "ankr": {
+        "name": "Ankr",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fixes-frc20": {
+      "fixes-frc20": {
+        "name": "Fixes frc20",
+        "type": "services",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fixes-frc20-staking": {
+      "fixes-frc20-staking": {
+        "name": "Fixes frc20 Staking",
+        "type": "staking pool",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fixes-launchpad": {
+      "fixes-launchpad": {
+        "name": "Fixes Launchpad",
+        "type": "launchpad",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "flowswap-v2": {
+      "flowswap-v2": {
+        "name": "FlowSwap V2",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "flowswap-v3": {
+      "flowswap-v3": {
+        "name": "FlowSwap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "increment-lending": {
+      "increment-lending": {
+        "name": "Increment Lending",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "increment-liquid-staking": {
+      "increment-liquid-staking": {
+        "name": "Increment Liquid Staking",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "increment-swap": {
+      "increment-swap": {
+        "name": "Increment Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kittypunch-punchswap": {
+      "kittypunch-punchswap": {
+        "name": "KittyPunch PunchSwap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kittypunch-punchswap-v3": {
+      "kittypunch-punchswap-v3": {
+        "name": "KittyPunch PunchSwap V3",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "kittypunch-stablekitty": {
+      "kittypunch-stablekitty": {
+        "name": "KittyPunch StableKitty",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "more-markets": {
+      "more-markets": {
+        "name": "MORE Markets",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "more-vaults": {
+      "more-vaults": {
+        "name": "MORE Vaults",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "sturdy-v2": {
+      "sturdy-v2": {
+        "name": "Sturdy V2",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tau-labs": {
+      "tau-labs": {
+        "name": "TAU Labs",
+        "type": "risk curators",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "thedeep": {
+      "thedeep": {
+        "name": "TheDeep",
+        "type": "liquidity manager",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "trado-perpetual": {
+      "trado-perpetual": {
+        "name": "Trado Perpetual",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "trado-spot": {
+      "trado-spot": {
+        "name": "Trado Spot",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "amulet-finance",
+  "name": "Amulet Finance",
+  "type": "synthetics",
+  "website": "https://app.amulet.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amulet Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Amulet Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amulet-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

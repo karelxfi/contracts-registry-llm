@@ -1,0 +1,42 @@
+{
+  "id": "musical-chairs",
+  "name": "Musical Chairs",
+  "type": "gaming",
+  "website": "https://muschairs.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "gaming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Musical Chairs Main Contract",
+      "type": "core",
+      "description": "Main contract for Musical Chairs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/musical-chairs",
+      "updated": "2025-01-31"
+    }
+  }
+}

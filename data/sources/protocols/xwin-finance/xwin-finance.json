@@ -1,0 +1,60 @@
+{
+  "id": "xwin-finance",
+  "name": "xWin Finance",
+  "type": "indexes",
+  "website": "https://xwin.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "arbitrum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "xWin Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for xWin Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xwin-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xwin-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

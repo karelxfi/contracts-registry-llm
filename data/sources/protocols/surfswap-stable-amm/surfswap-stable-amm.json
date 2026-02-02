@@ -1,0 +1,42 @@
+{
+  "id": "surfswap-stable-amm",
+  "name": "Surfswap Stable AMM",
+  "type": "dexs",
+  "website": "https://surfdex.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Surfswap Stable AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Surfswap Stable AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/surfswap-stable-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

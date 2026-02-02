@@ -1,0 +1,45 @@
+{
+  "id": "wbtc",
+  "name": "WBTC",
+  "type": "bridge",
+  "website": "https://wbtc.network/",
+  "github": [
+    "WrappedBTC"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WBTC Main Contract",
+      "type": "core",
+      "description": "Main contract for WBTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wbtc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "paxos-gold",
+  "name": "Paxos Gold",
+  "type": "rwa",
+  "website": "https://paxos.com/paxgold/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Paxos Gold Main Contract",
+      "type": "core",
+      "description": "Main contract for Paxos Gold",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paxos-gold",
+      "updated": "2025-01-31"
+    }
+  }
+}

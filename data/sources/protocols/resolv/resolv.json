@@ -1,0 +1,44 @@
+{
+  "id": "resolv",
+  "name": "Resolv",
+  "type": "basis trading",
+  "website": "https://app.resolv.xyz/ref/defillama",
+  "github": [
+    "resolv-im"
+  ],
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Resolv Main Contract",
+      "type": "core",
+      "description": "Main contract for Resolv",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/resolv",
+      "updated": "2025-01-31"
+    }
+  }
+}

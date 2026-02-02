@@ -1,0 +1,43 @@
+{
+  "id": "winter-walrus",
+  "name": "Winter Walrus",
+  "type": "liquid staking",
+  "website": "https://www.winterwalrus.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Winter Walrus Main Contract",
+      "type": "core",
+      "description": "Main contract for Winter Walrus",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/winter-walrus",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

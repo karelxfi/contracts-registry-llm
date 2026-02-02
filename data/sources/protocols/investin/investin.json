@@ -1,0 +1,45 @@
+{
+  "id": "investin",
+  "name": "Investin",
+  "type": "indexes",
+  "website": "https://investin.pro",
+  "github": [
+    "Investin-pro"
+  ],
+  "docs": "",
+  "tags": [
+    "indexes",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Investin Main Contract",
+      "type": "core",
+      "description": "Main contract for Investin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/investin",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

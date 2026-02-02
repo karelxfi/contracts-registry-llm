@@ -1,0 +1,62 @@
+{
+  "id": "kinza-finance",
+  "name": "Kinza Finance",
+  "type": "lending",
+  "website": "https://kinza.finance",
+  "github": [
+    "Kinza-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kinza Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Kinza Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinza-finance",
+      "updated": "2025-01-31"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kinza-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

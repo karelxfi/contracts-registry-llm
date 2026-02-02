@@ -1,0 +1,43 @@
+{
+  "id": "deflex",
+  "name": "Deflex",
+  "type": "dex aggregator",
+  "website": "https://deflex.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deflex Main Contract",
+      "type": "core",
+      "description": "Main contract for Deflex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deflex",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

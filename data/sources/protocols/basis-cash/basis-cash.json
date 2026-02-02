@@ -1,0 +1,44 @@
+{
+  "id": "basis-cash",
+  "name": "Basis Cash",
+  "type": "algo-stables",
+  "website": "https://basis.cash/",
+  "github": [
+    "Basis-Cash"
+  ],
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Basis Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for Basis Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/basis-cash",
+      "updated": "2025-01-31"
+    }
+  }
+}

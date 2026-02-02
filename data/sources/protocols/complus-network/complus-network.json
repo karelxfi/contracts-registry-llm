@@ -1,0 +1,62 @@
+{
+  "id": "complus-network",
+  "name": "Complus Network",
+  "type": "dexs",
+  "website": "https://complusnetwork.com/",
+  "github": [
+    "complusnetwork"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "avalanche",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Complus Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Complus Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/complus-network",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/complus-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gemswap-by-golden-swan-solutions",
+  "name": "GemSwap by Golden Swan Solutions",
+  "type": "rwa",
+  "website": "https://goldenasset.org",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GemSwap by Golden Swan Solutions Main Contract",
+      "type": "core",
+      "description": "Main contract for GemSwap by Golden Swan Solutions",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gemswap-by-golden-swan-solutions",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "chain": "waves",
+  "chainInfo": {
+    "id": "waves",
+    "name": "Waves",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "WAVES",
+      "symbol": "WAVES",
+      "decimals": 8
+    },
+    "gecko_id": "waves",
+    "cmcId": "1274",
+    "explorers": {
+      "primary": {
+        "name": "Waves Explorer",
+        "url": "https://explorer.waves.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "neutrino": {
+      "neutrino": {
+        "name": "Neutrino",
+        "type": "indexes",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pepeteam-bridge": {
+      "pepeteam-bridge": {
+        "name": "PepeTeam Bridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pepeteam-dex": {
+      "pepeteam-dex": {
+        "name": "PepeTeam DEX",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pepeteam-swaves": {
+      "pepeteam-swaves": {
+        "name": "PepeTeam sWAVES",
+        "type": "liquid staking",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "pluto-on-waves": {
+      "pluto-on-waves": {
+        "name": "Pluto on Waves",
+        "type": "reserve currency",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "puzzle-lend": {
+      "puzzle-lend": {
+        "name": "Puzzle Lend",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "puzzle-swap": {
+      "puzzle-swap": {
+        "name": "Puzzle Swap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "swop": {
+      "swop": {
+        "name": "Swop",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "vires-finance": {
+      "vires-finance": {
+        "name": "Vires Finance",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "waves-exchange": {
+      "waves-exchange": {
+        "name": "Waves Exchange",
+        "type": "farm",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "wavesbridge": {
+      "wavesbridge": {
+        "name": "WavesBridge",
+        "type": "bridge",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "chain": "eni",
+  "chainInfo": {
+    "id": "eni",
+    "name": "ENI",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 173,
+    "nativeCurrency": {
+      "name": "ENI",
+      "symbol": "ENI",
+      "decimals": 18
+    },
+    "explorers": {
+      "primary": {
+        "name": "ENI Explorer",
+        "url": "https://explorer.eni.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "dswap": {
+      "dswap": {
+        "name": "Dswap",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "fufuture-contract": {
+      "fufuture-contract": {
+        "name": "Fufuture Contract",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "3a-dao",
+  "name": "3A DAO",
+  "type": "cdp",
+  "website": "https://3adao.org",
+  "github": [
+    "3A-DAO"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "linea",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "3A DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for 3A DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/3a-dao",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/3a-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

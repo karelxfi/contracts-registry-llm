@@ -1,0 +1,44 @@
+{
+  "id": "cochilli",
+  "name": "CoChilli",
+  "type": "prediction market",
+  "website": "",
+  "github": [
+    "cochilli"
+  ],
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CoChilli Main Contract",
+      "type": "core",
+      "description": "Main contract for CoChilli",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cochilli",
+      "updated": "2025-01-31"
+    }
+  }
+}

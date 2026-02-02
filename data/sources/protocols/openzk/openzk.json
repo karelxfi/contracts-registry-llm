@@ -1,0 +1,42 @@
+{
+  "id": "openzk",
+  "name": "OpenZK",
+  "type": "canonical bridge",
+  "website": "https://www.openzk.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "canonical bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "OpenZK Main Contract",
+      "type": "core",
+      "description": "Main contract for OpenZK",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/openzk",
+      "updated": "2025-01-31"
+    }
+  }
+}

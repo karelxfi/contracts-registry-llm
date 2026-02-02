@@ -1,0 +1,44 @@
+{
+  "id": "zeroliquid",
+  "name": "ZeroLiquid",
+  "type": "synthetics",
+  "website": "",
+  "github": [
+    "ZeroLiquid-xyz"
+  ],
+  "docs": "",
+  "tags": [
+    "synthetics",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ZeroLiquid Main Contract",
+      "type": "core",
+      "description": "Main contract for ZeroLiquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zeroliquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

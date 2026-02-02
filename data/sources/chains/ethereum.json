@@ -1,27 +1,23 @@
 {
   "id": "ethereum",
-  "name": "Ethereum Mainnet",
-  "chainId": 1,
+  "name": "Ethereum",
   "platform": "evm",
-  "portalDataset": "ethereum-mainnet",
-  "explorers": {
-    "primary": {
-      "name": "Etherscan",
-      "url": "https://etherscan.io",
-      "api": "https://api.etherscan.io/api"
-    }
-  },
-  "rpc": {
-    "public": [
-      "https://eth.llamarpc.com",
-      "https://rpc.ankr.com/eth"
-    ]
-  },
+  "status": "active",
+  "chainId": 1,
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "ETH",
     "symbol": "ETH",
     "decimals": 18
   },
-  "aliases": ["eth", "ethereum-mainnet", "mainnet"],
-  "status": "active"
+  "gecko_id": "ethereum",
+  "cmcId": "1027",
+  "explorers": {
+    "primary": {
+      "name": "Ethereum Explorer",
+      "url": "https://explorer.ethereum.network"
+    }
+  },
+  "rpc": {
+    "public": []
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "machfi",
+  "name": "MachFi",
+  "type": "lending",
+  "website": "https://www.machfi.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MachFi Main Contract",
+      "type": "core",
+      "description": "Main contract for MachFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/machfi",
+      "updated": "2025-01-31"
+    }
+  }
+}

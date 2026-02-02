@@ -1,0 +1,42 @@
+{
+  "id": "fuel-bridge",
+  "name": "Fuel Bridge",
+  "type": "bridge",
+  "website": "https://app.fuel.network/bridge",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Fuel Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Fuel Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/fuel-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

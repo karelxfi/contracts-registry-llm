@@ -1,0 +1,44 @@
+{
+  "id": "pumpbase",
+  "name": "PumpBase",
+  "type": "launchpad",
+  "website": "https://pumpbase.site/",
+  "github": [
+    "PumpBase-Launchpad"
+  ],
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PumpBase Main Contract",
+      "type": "core",
+      "description": "Main contract for PumpBase",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pumpbase",
+      "updated": "2025-01-31"
+    }
+  }
+}

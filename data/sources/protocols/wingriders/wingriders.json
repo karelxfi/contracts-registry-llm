@@ -1,0 +1,45 @@
+{
+  "id": "wingriders",
+  "name": "WingRiders",
+  "type": "dexs",
+  "website": "https://www.wingriders.com",
+  "github": [
+    "WingRiders"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "WingRiders Main Contract",
+      "type": "core",
+      "description": "Main contract for WingRiders",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/wingriders",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

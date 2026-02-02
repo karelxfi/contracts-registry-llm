@@ -1,0 +1,80 @@
+{
+  "id": "amet-finance",
+  "name": "Amet Finance",
+  "type": "services",
+  "website": "https://amet.finance",
+  "github": [
+    "Amet-Finance"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "manta",
+    "polygon",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amet Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Amet Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amet-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amet-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amet-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

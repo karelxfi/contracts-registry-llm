@@ -1,0 +1,43 @@
+{
+  "id": "levvy-for-nfts",
+  "name": "Levvy for NFTs",
+  "type": "nft lending",
+  "website": "https://levvy.fi",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "nft lending",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Levvy for NFTs Main Contract",
+      "type": "core",
+      "description": "Main contract for Levvy for NFTs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/levvy-for-nfts",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

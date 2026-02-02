@@ -1,0 +1,43 @@
+{
+  "id": "exsat-staking-btc",
+  "name": "exSat Staking BTC",
+  "type": "bridge",
+  "website": "https://esbtc.exsat.network/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin"
+  ],
+  "contracts": {
+    "main": {
+      "name": "exSat Staking BTC Main Contract",
+      "type": "core",
+      "description": "Main contract for exSat Staking BTC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/exsat-staking-btc",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    }
+  }
+}

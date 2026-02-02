@@ -1,0 +1,44 @@
+{
+  "id": "defrost",
+  "name": "Defrost",
+  "type": "cdp",
+  "website": "",
+  "github": [
+    "DefrostFinance"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Defrost Main Contract",
+      "type": "core",
+      "description": "Main contract for Defrost",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/defrost",
+      "updated": "2025-01-31"
+    }
+  }
+}

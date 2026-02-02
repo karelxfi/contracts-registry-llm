@@ -1,0 +1,43 @@
+{
+  "id": "humble-defi",
+  "name": "Humble Defi",
+  "type": "dexs",
+  "website": "https://www.humble.sh",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Humble Defi Main Contract",
+      "type": "core",
+      "description": "Main contract for Humble Defi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/humble-defi",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

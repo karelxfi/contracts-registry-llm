@@ -1,0 +1,45 @@
+{
+  "id": "linear-protocol",
+  "name": "LiNEAR Protocol",
+  "type": "liquid staking",
+  "website": "https://linearprotocol.org",
+  "github": [
+    "linear-protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "LiNEAR Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for LiNEAR Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/linear-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

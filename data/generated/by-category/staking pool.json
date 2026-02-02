@@ -1,0 +1,983 @@
+{
+  "category": "staking pool",
+  "protocols": {
+    "adrastea-restaking-operator": {
+      "adrastea-restaking-operator": {
+        "name": "Adrastea Restaking Operator",
+        "contracts": {
+          "main": {
+            "name": "Adrastea Restaking Operator Main Contract",
+            "type": "core",
+            "description": "Main contract for Adrastea Restaking Operator",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/adrastea-restaking-operator",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "adrastea-validator": {
+      "adrastea-validator": {
+        "name": "Adrastea Validator",
+        "contracts": {
+          "main": {
+            "name": "Adrastea Validator Main Contract",
+            "type": "core",
+            "description": "Main contract for Adrastea Validator",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/adrastea-validator",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "arpa-staking": {
+      "arpa-staking": {
+        "name": "ARPA Staking",
+        "contracts": {
+          "main": {
+            "name": "ARPA Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for ARPA Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/arpa-staking",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "astarter-launch-ispo": {
+      "astarter-launch-ispo": {
+        "name": "Astarter Launch ISPO",
+        "contracts": {
+          "main": {
+            "name": "Astarter Launch ISPO Main Contract",
+            "type": "core",
+            "description": "Main contract for Astarter Launch ISPO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/astarter-launch-ispo",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "catfee-staking-vault": {
+      "catfee-staking-vault": {
+        "name": "CatFee Staking Vault",
+        "contracts": {
+          "main": {
+            "name": "CatFee Staking Vault Main Contract",
+            "type": "core",
+            "description": "Main contract for CatFee Staking Vault",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/catfee-staking-vault",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "chainlink-staking": {
+      "chainlink-staking": {
+        "name": "Chainlink Staking",
+        "contracts": {
+          "main": {
+            "name": "Chainlink Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for Chainlink Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chainlink-staking",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "fixes-frc20-staking": {
+      "fixes-frc20-staking": {
+        "name": "Fixes frc20 Staking",
+        "contracts": {
+          "main": {
+            "name": "Fixes frc20 Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for Fixes frc20 Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "flow": {
+            "chain": "flow",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/fixes-frc20-staking",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "gracy-staking": {
+      "gracy-staking": {
+        "name": "Gracy Staking",
+        "contracts": {
+          "main": {
+            "name": "Gracy Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for Gracy Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gracy-staking",
+            "updated": "2025-01-31"
+          },
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/gracy-staking",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ignore-fud": {
+      "ignore-fud": {
+        "name": "Ignore Fud",
+        "contracts": {
+          "main": {
+            "name": "Ignore Fud Main Contract",
+            "type": "core",
+            "description": "Main contract for Ignore Fud",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "core": {
+            "chain": "core",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ignore-fud",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lsp.finance": {
+      "lsp.finance": {
+        "name": "LSP.Finance",
+        "contracts": {
+          "main": {
+            "name": "LSP.Finance Main Contract",
+            "type": "core",
+            "description": "Main contract for LSP.Finance",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lsp.finance",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "marinade-native": {
+      "marinade-native": {
+        "name": "Marinade Native",
+        "contracts": {
+          "main": {
+            "name": "Marinade Native Main Contract",
+            "type": "core",
+            "description": "Main contract for Marinade Native",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/marinade-native",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "marinade-select": {
+      "marinade-select": {
+        "name": "Marinade Select",
+        "contracts": {
+          "main": {
+            "name": "Marinade Select Main Contract",
+            "type": "core",
+            "description": "Main contract for Marinade Select",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/marinade-select",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "metaid": {
+      "metaid": {
+        "name": "MetaID",
+        "contracts": {
+          "main": {
+            "name": "MetaID Main Contract",
+            "type": "core",
+            "description": "Main contract for MetaID",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "kava": {
+            "chain": "kava",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/metaid",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "neopin-staking": {
+      "neopin-staking": {
+        "name": "NEOPIN Staking",
+        "contracts": {
+          "main": {
+            "name": "NEOPIN Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for NEOPIN Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/neopin-staking",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "obol": {
+      "obol": {
+        "name": "Obol",
+        "contracts": {
+          "main": {
+            "name": "Obol Main Contract",
+            "type": "core",
+            "description": "Main contract for Obol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/obol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "opengpu": {
+      "opengpu": {
+        "name": "OpenGPU",
+        "contracts": {
+          "main": {
+            "name": "OpenGPU Main Contract",
+            "type": "core",
+            "description": "Main contract for OpenGPU",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/opengpu",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "rakeoff": {
+      "rakeoff": {
+        "name": "Rakeoff",
+        "contracts": {
+          "main": {
+            "name": "Rakeoff Main Contract",
+            "type": "core",
+            "description": "Main contract for Rakeoff",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "icp": {
+            "chain": "icp",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/rakeoff",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "reti-pooling": {
+      "reti-pooling": {
+        "name": "Reti Pooling",
+        "contracts": {
+          "main": {
+            "name": "Reti Pooling Main Contract",
+            "type": "core",
+            "description": "Main contract for Reti Pooling",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "algorand": {
+            "chain": "algorand",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/reti-pooling",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "shardingdao": {
+      "shardingdao": {
+        "name": "ShardingDAO",
+        "contracts": {
+          "main": {
+            "name": "ShardingDAO Main Contract",
+            "type": "core",
+            "description": "Main contract for ShardingDAO",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/shardingdao",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "singularitynet-agix-staking": {
+      "singularitynet-agix-staking": {
+        "name": "SingularityNet AGIX Staking",
+        "contracts": {
+          "main": {
+            "name": "SingularityNet AGIX Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for SingularityNet AGIX Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/singularitynet-agix-staking",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "solana-miner": {
+      "solana-miner": {
+        "name": "Solana Miner",
+        "contracts": {
+          "main": {
+            "name": "Solana Miner Main Contract",
+            "type": "core",
+            "description": "Main contract for Solana Miner",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/solana-miner",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "taolie": {
+      "taolie": {
+        "name": "TAOlie",
+        "contracts": {
+          "main": {
+            "name": "TAOlie Main Contract",
+            "type": "core",
+            "description": "Main contract for TAOlie",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/taolie",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "tokenpocket": {
+      "tokenpocket": {
+        "name": "TokenPocket",
+        "contracts": {
+          "main": {
+            "name": "TokenPocket Main Contract",
+            "type": "core",
+            "description": "Main contract for TokenPocket",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tokenpocket",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "tonpools": {
+      "tonpools": {
+        "name": "TonPools",
+        "contracts": {
+          "main": {
+            "name": "TonPools Main Contract",
+            "type": "core",
+            "description": "Main contract for TonPools",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ton": {
+            "chain": "ton",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tonpools",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "tronnrg": {
+      "tronnrg": {
+        "name": "TronNRG",
+        "contracts": {
+          "main": {
+            "name": "TronNRG Main Contract",
+            "type": "core",
+            "description": "Main contract for TronNRG",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tronnrg",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "unifi-staking": {
+      "unifi-staking": {
+        "name": "UniFi Staking",
+        "contracts": {
+          "main": {
+            "name": "UniFi Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for UniFi Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "tron": {
+            "chain": "tron",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/unifi-staking",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "wbrock-staking": {
+      "wbrock-staking": {
+        "name": "WBROCK Staking",
+        "contracts": {
+          "main": {
+            "name": "WBROCK Staking Main Contract",
+            "type": "core",
+            "description": "Main contract for WBROCK Staking",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/wbrock-staking",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

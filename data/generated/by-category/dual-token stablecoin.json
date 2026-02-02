@@ -1,0 +1,112 @@
+{
+  "category": "dual-token stablecoin",
+  "protocols": {
+    "djed-stablecoin": {
+      "djed-stablecoin": {
+        "name": "Djed Stablecoin",
+        "contracts": {
+          "main": {
+            "name": "Djed Stablecoin Main Contract",
+            "type": "core",
+            "description": "Main contract for Djed Stablecoin",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cardano": {
+            "chain": "cardano",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/djed-stablecoin",
+            "updated": "2025-01-31",
+            "platform": "other"
+          }
+        }
+      }
+    },
+    "fx-protocol": {
+      "fx-protocol": {
+        "name": "fx Protocol",
+        "contracts": {
+          "main": {
+            "name": "fx Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for fx Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/fx-protocol",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "hylo-protocol": {
+      "hylo-protocol": {
+        "name": "Hylo Protocol",
+        "contracts": {
+          "main": {
+            "name": "Hylo Protocol Main Contract",
+            "type": "core",
+            "description": "Main contract for Hylo Protocol",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/hylo-protocol",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    }
+  }
+}

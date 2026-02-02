@@ -1,0 +1,44 @@
+{
+  "id": "arkadiko",
+  "name": "Arkadiko",
+  "type": "cdp",
+  "website": "https://arkadiko.finance",
+  "github": [
+    "arkadiko-dao"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "stacks"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arkadiko Main Contract",
+      "type": "core",
+      "description": "Main contract for Arkadiko",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "stacks": {
+      "chain": "stacks",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arkadiko",
+      "updated": "2025-01-31"
+    }
+  }
+}

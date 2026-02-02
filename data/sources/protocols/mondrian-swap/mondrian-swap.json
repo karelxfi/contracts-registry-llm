@@ -1,0 +1,44 @@
+{
+  "id": "mondrian-swap",
+  "name": "Mondrian Swap",
+  "type": "dexs",
+  "website": "https://www.mondrianswap.xyz",
+  "github": [
+    "mondrian-swap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "abstract"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mondrian Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Mondrian Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "abstract": {
+      "chain": "abstract",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mondrian-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

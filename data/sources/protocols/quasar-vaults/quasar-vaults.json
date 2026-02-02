@@ -1,0 +1,63 @@
+{
+  "id": "quasar-vaults",
+  "name": "Quasar Vaults",
+  "type": "yield",
+  "website": "https://app.quasar.fi",
+  "github": [
+    "quasar-finance"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "osmosis",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Quasar Vaults Main Contract",
+      "type": "core",
+      "description": "Main contract for Quasar Vaults",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "osmosis": {
+      "chain": "osmosis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quasar-vaults",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quasar-vaults",
+      "updated": "2025-01-31"
+    }
+  }
+}

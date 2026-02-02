@@ -1,0 +1,42 @@
+{
+  "id": "beamer-bridge",
+  "name": "Beamer Bridge",
+  "type": "bridge",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Beamer Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Beamer Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/beamer-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

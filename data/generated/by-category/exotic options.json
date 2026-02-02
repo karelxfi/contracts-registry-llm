@@ -1,0 +1,41 @@
+{
+  "category": "exotic options",
+  "protocols": {
+    "exotic-markets": {
+      "exotic-markets": {
+        "name": "Exotic Markets",
+        "contracts": {
+          "main": {
+            "name": "Exotic Markets Main Contract",
+            "type": "core",
+            "description": "Main contract for Exotic Markets",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/exotic-markets",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "surf-liquid",
+  "name": "Surf Liquid",
+  "type": "yield",
+  "website": "https://surfliquid.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Surf Liquid Main Contract",
+      "type": "core",
+      "description": "Main contract for Surf Liquid",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/surf-liquid",
+      "updated": "2025-01-31"
+    }
+  }
+}

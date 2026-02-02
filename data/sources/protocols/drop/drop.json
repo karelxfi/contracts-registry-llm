@@ -1,0 +1,45 @@
+{
+  "id": "drop",
+  "name": "Drop",
+  "type": "liquid staking",
+  "website": "https://drop.money/",
+  "github": [
+    "hadronlabs-org"
+  ],
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Drop Main Contract",
+      "type": "core",
+      "description": "Main contract for Drop",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/drop",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

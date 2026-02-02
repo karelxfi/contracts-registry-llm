@@ -1,0 +1,42 @@
+{
+  "id": "governor-dao",
+  "name": "Governor DAO",
+  "type": "yield",
+  "website": "https://governordao.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Governor DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Governor DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/governor-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

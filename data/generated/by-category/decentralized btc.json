@@ -1,0 +1,183 @@
+{
+  "category": "decentralized btc",
+  "protocols": {
+    "chain-fusion": {
+      "chain-fusion": {
+        "name": "Chain Fusion",
+        "contracts": {
+          "main": {
+            "name": "Chain Fusion Main Contract",
+            "type": "core",
+            "description": "Main contract for Chain Fusion",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chain-fusion",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/chain-fusion",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ibtc-network": {
+      "ibtc-network": {
+        "name": "iBTC Network",
+        "contracts": {
+          "main": {
+            "name": "iBTC Network Main Contract",
+            "type": "core",
+            "description": "Main contract for iBTC Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ibtc-network",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    },
+    "tbtc": {
+      "tbtc": {
+        "name": "tBTC",
+        "contracts": {
+          "main": {
+            "name": "tBTC Main Contract",
+            "type": "core",
+            "description": "Main contract for tBTC",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tbtc",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          },
+          "ethereum": {
+            "chain": "ethereum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/tbtc",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "zeus-network": {
+      "zeus-network": {
+        "name": "Zeus Network",
+        "contracts": {
+          "main": {
+            "name": "Zeus Network Main Contract",
+            "type": "core",
+            "description": "Main contract for Zeus Network",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "bitcoin": {
+            "chain": "bitcoin",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/zeus-network",
+            "updated": "2025-01-31",
+            "platform": "bitcoin"
+          }
+        }
+      }
+    }
+  }
+}

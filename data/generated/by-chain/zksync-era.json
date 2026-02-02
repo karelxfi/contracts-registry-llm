@@ -1,0 +1,61 @@
+{
+  "chain": "zksync-era",
+  "chainInfo": {
+    "id": "zksync-era",
+    "name": "ZKsync Era",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 324,
+    "nativeCurrency": {
+      "name": "ZK",
+      "symbol": "ZK",
+      "decimals": 18
+    },
+    "gecko_id": "zksync",
+    "cmcId": "24091",
+    "explorers": {
+      "primary": {
+        "name": "ZKsync Era Explorer",
+        "url": "https://explorer.zksync-era.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "aave-v3": {
+      "aave-v3": {
+        "name": "Aave V3",
+        "type": "lending",
+        "addresses": {
+          "pool": "0x78e30497a3c7527d953c6B1E3541b021A98Ac43c",
+          "poolAddressesProvider": "0x2A3948BB219D6B2Fa83D64100006391a96bE6cb7",
+          "poolConfigurator": "0x0207d31b4377C74bEC37356aaD83E3dCc979F40E",
+          "aaveOracle": "0xC7F58Fca663a8d377B6D0c9703C697f56dC40088",
+          "poolDataProvider": "0x9057ac7b2D35606F8AD5aE2FCBafcD94E58D9927",
+          "aclManager": "0xc6150b63c2F02528d4A969a248710A4658ed7928",
+          "collector": "0xd69Cbda644c6be817AaFb5Fd9174f50C33803B6b"
+        },
+        "deploymentBlocks": {
+          "pool": null,
+          "poolAddressesProvider": null,
+          "poolConfigurator": null,
+          "aaveOracle": null,
+          "poolDataProvider": null,
+          "aclManager": null,
+          "collector": null
+        },
+        "verified": {
+          "pool": true,
+          "poolAddressesProvider": true,
+          "poolConfigurator": true,
+          "aaveOracle": true,
+          "poolDataProvider": true,
+          "aclManager": true,
+          "collector": true
+        }
+      }
+    }
+  }
+}

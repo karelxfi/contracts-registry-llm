@@ -19,8 +19,15 @@
       "patternProperties": {
         "^[a-zA-Z0-9]+$": {
           "type": "string",
-          "pattern": "^0x[a-fA-F0-9]{40}$",
-          "description": "EVM contract address"
+          "description": "EVM contract address (empty string allowed for missing addresses)",
+          "oneOf": [
+            {
+              "pattern": "^0x[a-fA-F0-9]{40}$"
+            },
+            {
+              "pattern": "^$"
+            }
+          ]
         }
       },
       "minProperties": 1
@@ -29,9 +36,16 @@
       "type": "object",
       "patternProperties": {
         "^[a-zA-Z0-9]+$": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Block number when contract was deployed"
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Block number when contract was deployed (null if unknown)"
         }
       }
     },
@@ -55,9 +69,12 @@
       }
     },
     "source": {
-      "type": "string",
-      "enum": ["docs", "github", "etherscan", "on-chain", "manual"],
-      "description": "Source of deployment information"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "Sources of deployment information"
     },
     "sourceUrl": {
       "type": "string",

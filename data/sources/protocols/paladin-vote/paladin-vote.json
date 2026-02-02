@@ -1,0 +1,42 @@
+{
+  "id": "paladin-vote",
+  "name": "Paladin Vote",
+  "type": "lending",
+  "website": "https://www.paladin.vote",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Paladin Vote Main Contract",
+      "type": "core",
+      "description": "Main contract for Paladin Vote",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/paladin-vote",
+      "updated": "2025-01-31"
+    }
+  }
+}

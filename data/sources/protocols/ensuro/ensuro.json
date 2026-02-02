@@ -1,0 +1,42 @@
+{
+  "id": "ensuro",
+  "name": "Ensuro",
+  "type": "insurance",
+  "website": "https://ensuro.co",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ensuro Main Contract",
+      "type": "core",
+      "description": "Main contract for Ensuro",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ensuro",
+      "updated": "2025-01-31"
+    }
+  }
+}

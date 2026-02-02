@@ -1,0 +1,42 @@
+{
+  "id": "kodiak-islands",
+  "name": "Kodiak Islands",
+  "type": "liquidity manager",
+  "website": "https://app.kodiak.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Kodiak Islands Main Contract",
+      "type": "core",
+      "description": "Main contract for Kodiak Islands",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kodiak-islands",
+      "updated": "2025-01-31"
+    }
+  }
+}

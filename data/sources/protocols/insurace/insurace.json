@@ -1,0 +1,80 @@
+{
+  "id": "insurace",
+  "name": "InsurAce",
+  "type": "insurance",
+  "website": "https://www.insurace.io",
+  "github": [
+    "InsurAce-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum",
+    "polygon",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "InsurAce Main Contract",
+      "type": "core",
+      "description": "Main contract for InsurAce",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/insurace",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/insurace",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/insurace",
+      "updated": "2025-01-31"
+    }
+  }
+}

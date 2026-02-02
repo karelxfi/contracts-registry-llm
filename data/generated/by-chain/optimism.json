@@ -1,0 +1,61 @@
+{
+  "chain": "optimism",
+  "chainInfo": {
+    "id": "optimism",
+    "name": "OP Mainnet",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 10,
+    "nativeCurrency": {
+      "name": "OP",
+      "symbol": "OP",
+      "decimals": 18
+    },
+    "gecko_id": "optimism",
+    "cmcId": "11840",
+    "explorers": {
+      "primary": {
+        "name": "OP Mainnet Explorer",
+        "url": "https://explorer.optimism.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "aave-v3": {
+      "aave-v3": {
+        "name": "Aave V3",
+        "type": "lending",
+        "addresses": {
+          "pool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+          "poolAddressesProvider": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+          "poolConfigurator": "0x8145eddDf43f50276641b55bd3AD95944510021E",
+          "aaveOracle": "0xD81eb3728a631871a7eBBaD631b5f424909f0c77",
+          "poolDataProvider": "0x243Aa95cAC2a25651eda86e80bEe66114413c43b",
+          "aclManager": "0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B",
+          "collector": "0xB2289E329D2F85F1eD31Adbb30eA345278F21bcf"
+        },
+        "deploymentBlocks": {
+          "pool": null,
+          "poolAddressesProvider": null,
+          "poolConfigurator": null,
+          "aaveOracle": null,
+          "poolDataProvider": null,
+          "aclManager": null,
+          "collector": null
+        },
+        "verified": {
+          "pool": true,
+          "poolAddressesProvider": true,
+          "poolConfigurator": true,
+          "aaveOracle": true,
+          "poolDataProvider": true,
+          "aclManager": true,
+          "collector": true
+        }
+      }
+    }
+  }
+}

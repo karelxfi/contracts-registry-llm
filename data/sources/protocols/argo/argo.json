@@ -1,0 +1,43 @@
+{
+  "id": "argo",
+  "name": "Argo",
+  "type": "cdp",
+  "website": "https://argo.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Argo Main Contract",
+      "type": "core",
+      "description": "Main contract for Argo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/argo",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

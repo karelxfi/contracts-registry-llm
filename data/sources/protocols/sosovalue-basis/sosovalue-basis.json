@@ -1,0 +1,42 @@
+{
+  "id": "sosovalue-basis",
+  "name": "SoSoValue Basis",
+  "type": "basis trading",
+  "website": "https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SoSoValue Basis Main Contract",
+      "type": "core",
+      "description": "Main contract for SoSoValue Basis",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sosovalue-basis",
+      "updated": "2025-01-31"
+    }
+  }
+}

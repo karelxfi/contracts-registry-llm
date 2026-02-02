@@ -1,0 +1,42 @@
+{
+  "id": "lago-bridge",
+  "name": "Lago Bridge",
+  "type": "bridge",
+  "website": "https://www.lago.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Lago Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Lago Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/lago-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

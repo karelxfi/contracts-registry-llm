@@ -1,0 +1,43 @@
+{
+  "id": "pumex",
+  "name": "Pumex",
+  "type": "dex aggregator",
+  "website": "https://www.pumex.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "injective"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pumex Main Contract",
+      "type": "core",
+      "description": "Main contract for Pumex",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "injective": {
+      "chain": "injective",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pumex",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

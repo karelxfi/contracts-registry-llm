@@ -1,0 +1,44 @@
+{
+  "id": "plantbaseswap",
+  "name": "PlantBaseSwap",
+  "type": "dexs",
+  "website": "",
+  "github": [
+    "plantbaseswap"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "PlantBaseSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for PlantBaseSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/plantbaseswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

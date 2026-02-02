@@ -1,0 +1,42 @@
+{
+  "id": "flarebank",
+  "name": "FlareBank",
+  "type": "reserve currency",
+  "website": "https://www.flrbank.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "reserve currency",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FlareBank Main Contract",
+      "type": "core",
+      "description": "Main contract for FlareBank",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flarebank",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ad-astra-bridge",
+  "name": "Ad-Astra Bridge",
+  "type": "bridge",
+  "website": "https://ad-astra.multiversx.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ad-Astra Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Ad-Astra Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ad-astra-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

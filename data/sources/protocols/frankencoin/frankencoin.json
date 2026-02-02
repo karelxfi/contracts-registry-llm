@@ -1,0 +1,44 @@
+{
+  "id": "frankencoin",
+  "name": "Frankencoin",
+  "type": "cdp",
+  "website": "https://frankencoin.com",
+  "github": [
+    "Frankencoin-ZCHF"
+  ],
+  "docs": "",
+  "tags": [
+    "cdp",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Frankencoin Main Contract",
+      "type": "core",
+      "description": "Main contract for Frankencoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/frankencoin",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "garble.money",
+  "name": "Garble.Money",
+  "type": "privacy",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "privacy",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Garble.Money Main Contract",
+      "type": "core",
+      "description": "Main contract for Garble.Money",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/garble.money",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

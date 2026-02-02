@@ -1,0 +1,43 @@
+{
+  "id": "helix-markets",
+  "name": "Helix Markets",
+  "type": "dexs",
+  "website": "https://www.helixmarkets.io/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "icp"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Helix Markets Main Contract",
+      "type": "core",
+      "description": "Main contract for Helix Markets",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "icp": {
+      "chain": "icp",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/helix-markets",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

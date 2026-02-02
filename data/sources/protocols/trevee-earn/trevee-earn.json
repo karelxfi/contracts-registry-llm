@@ -1,0 +1,80 @@
+{
+  "id": "trevee-earn",
+  "name": "Trevee Earn",
+  "type": "yield aggregator",
+  "website": "https://rings.money/",
+  "github": [
+    "Rings-Protocol"
+  ],
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "ethereum",
+    "sonic",
+    "plasma"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Trevee Earn Main Contract",
+      "type": "core",
+      "description": "Main contract for Trevee Earn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/trevee-earn",
+      "updated": "2025-01-31"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/trevee-earn",
+      "updated": "2025-01-31"
+    },
+    "plasma": {
+      "chain": "plasma",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/trevee-earn",
+      "updated": "2025-01-31"
+    }
+  }
+}

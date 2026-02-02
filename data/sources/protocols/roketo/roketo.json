@@ -1,0 +1,45 @@
+{
+  "id": "roketo",
+  "name": "Roketo",
+  "type": "payments",
+  "website": "https://app2.roke.to/#/authorize",
+  "github": [
+    "roke-to"
+  ],
+  "docs": "",
+  "tags": [
+    "payments",
+    "near"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Roketo Main Contract",
+      "type": "core",
+      "description": "Main contract for Roketo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "near": {
+      "chain": "near",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/roketo",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

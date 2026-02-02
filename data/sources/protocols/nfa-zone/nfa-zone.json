@@ -1,0 +1,43 @@
+{
+  "id": "nfa-zone",
+  "name": "NFA Zone",
+  "type": "launchpad",
+  "website": "https://nfa.zone/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "launchpad",
+    "neutron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "NFA Zone Main Contract",
+      "type": "core",
+      "description": "Main contract for NFA Zone",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "neutron": {
+      "chain": "neutron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nfa-zone",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

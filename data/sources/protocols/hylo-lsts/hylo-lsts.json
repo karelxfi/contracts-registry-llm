@@ -1,0 +1,43 @@
+{
+  "id": "hylo-lsts",
+  "name": "Hylo LSTs",
+  "type": "liquid staking",
+  "website": "https://hylo.so/leverage?ref=XG3NTI",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Hylo LSTs Main Contract",
+      "type": "core",
+      "description": "Main contract for Hylo LSTs",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hylo-lsts",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

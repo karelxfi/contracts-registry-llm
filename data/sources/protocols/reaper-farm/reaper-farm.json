@@ -1,0 +1,42 @@
+{
+  "id": "reaper-farm",
+  "name": "Reaper Farm",
+  "type": "yield aggregator",
+  "website": "https://www.reaper.farm",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Reaper Farm Main Contract",
+      "type": "core",
+      "description": "Main contract for Reaper Farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/reaper-farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

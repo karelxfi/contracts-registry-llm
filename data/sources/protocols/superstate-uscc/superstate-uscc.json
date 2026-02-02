@@ -1,0 +1,79 @@
+{
+  "id": "superstate-uscc",
+  "name": "Superstate USCC",
+  "type": "basis trading",
+  "website": "https://superstate.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "basis trading",
+    "ethereum",
+    "solana",
+    "plume-mainnet"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Superstate USCC Main Contract",
+      "type": "core",
+      "description": "Main contract for Superstate USCC",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+      "updated": "2025-01-31"
+    },
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/superstate-uscc",
+      "updated": "2025-01-31"
+    }
+  }
+}

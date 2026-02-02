@@ -1,0 +1,60 @@
+{
+  "id": "astra-dao",
+  "name": "Astra DAO",
+  "type": "indexes",
+  "website": "https://astradao.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Astra DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Astra DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astra-dao",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/astra-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

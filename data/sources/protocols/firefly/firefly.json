@@ -1,0 +1,44 @@
+{
+  "id": "firefly",
+  "name": "firefly",
+  "type": "dexs",
+  "website": "https://fireflydex.io",
+  "github": [
+    "firefly-dex"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "manta"
+  ],
+  "contracts": {
+    "main": {
+      "name": "firefly Main Contract",
+      "type": "core",
+      "description": "Main contract for firefly",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "manta": {
+      "chain": "manta",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/firefly",
+      "updated": "2025-01-31"
+    }
+  }
+}

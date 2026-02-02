@@ -1,0 +1,45 @@
+{
+  "id": "agdex",
+  "name": "AGDEX",
+  "type": "derivatives",
+  "website": "https://agdex.io",
+  "github": [
+    "agdex-io"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "AGDEX Main Contract",
+      "type": "core",
+      "description": "Main contract for AGDEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/agdex",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

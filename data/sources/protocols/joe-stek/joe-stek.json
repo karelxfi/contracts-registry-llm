@@ -1,0 +1,42 @@
+{
+  "id": "joe-stek",
+  "name": "Joe Stek",
+  "type": "farm",
+  "website": "https://lfj.gg/avalanche/stek",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "farm",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Joe Stek Main Contract",
+      "type": "core",
+      "description": "Main contract for Joe Stek",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/joe-stek",
+      "updated": "2025-01-31"
+    }
+  }
+}

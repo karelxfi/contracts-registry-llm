@@ -1,0 +1,96 @@
+{
+  "chain": "mezo",
+  "chainInfo": {
+    "id": "mezo",
+    "name": "Mezo",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 31612,
+    "explorers": {
+      "primary": {
+        "name": "Mezo Explorer",
+        "url": "https://explorer.mezo.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "bitfire": {
+      "bitfire": {
+        "name": "BitFire",
+        "type": "lending",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "mezo-borrow": {
+      "mezo-borrow": {
+        "name": "Mezo Borrow",
+        "type": "cdp",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "tigris-mezo": {
+      "tigris-mezo": {
+        "name": "Tigris Mezo",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "upshift": {
+      "upshift": {
+        "name": "Upshift",
+        "type": "onchain capital allocator",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    },
+    "velar-perps": {
+      "velar-perps": {
+        "name": "Velar Perps",
+        "type": "derivatives",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

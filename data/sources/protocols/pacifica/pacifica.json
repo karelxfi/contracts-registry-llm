@@ -1,0 +1,43 @@
+{
+  "id": "pacifica",
+  "name": "Pacifica",
+  "type": "derivatives",
+  "website": "https://app.pacifica.fi?referral=defillama",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pacifica Main Contract",
+      "type": "core",
+      "description": "Main contract for Pacifica",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pacifica",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

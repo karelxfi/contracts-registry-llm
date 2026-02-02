@@ -1,0 +1,42 @@
+{
+  "id": "mellow",
+  "name": "Mellow",
+  "type": "sofi",
+  "website": "https://mellow.to/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mellow Main Contract",
+      "type": "core",
+      "description": "Main contract for Mellow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mellow",
+      "updated": "2025-01-31"
+    }
+  }
+}

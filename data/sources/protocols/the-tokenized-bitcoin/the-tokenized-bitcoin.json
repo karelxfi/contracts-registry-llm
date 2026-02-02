@@ -1,0 +1,63 @@
+{
+  "id": "the-tokenized-bitcoin",
+  "name": "The Tokenized Bitcoin",
+  "type": "bridge",
+  "website": "https://tokenlon.im/imbtc",
+  "github": [
+    "consenlabs"
+  ],
+  "docs": "",
+  "tags": [
+    "bridge",
+    "bitcoin",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "The Tokenized Bitcoin Main Contract",
+      "type": "core",
+      "description": "Main contract for The Tokenized Bitcoin",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "bitcoin": {
+      "chain": "bitcoin",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-tokenized-bitcoin",
+      "updated": "2025-01-31",
+      "platform": "bitcoin"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/the-tokenized-bitcoin",
+      "updated": "2025-01-31"
+    }
+  }
+}

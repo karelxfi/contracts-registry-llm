@@ -1,0 +1,42 @@
+{
+  "id": "rollie-finance",
+  "name": "Rollie Finance",
+  "type": "derivatives",
+  "website": "https://www.rollie.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Rollie Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Rollie Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rollie-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

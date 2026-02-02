@@ -1,0 +1,44 @@
+{
+  "id": "hyperjump",
+  "name": "HyperJump",
+  "type": "dexs",
+  "website": "https://www.hyperjump.app",
+  "github": [
+    "HyperJump-DeFi"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "metis"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HyperJump Main Contract",
+      "type": "core",
+      "description": "Main contract for HyperJump",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hyperjump",
+      "updated": "2025-01-31"
+    }
+  }
+}

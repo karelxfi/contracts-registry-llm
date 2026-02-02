@@ -1,0 +1,78 @@
+{
+  "id": "unidex-perp",
+  "name": "UniDex Perp",
+  "type": "derivatives",
+  "website": "https://unidex.exchange",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum",
+    "metis",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "UniDex Perp Main Contract",
+      "type": "core",
+      "description": "Main contract for UniDex Perp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unidex-perp",
+      "updated": "2025-01-31"
+    },
+    "metis": {
+      "chain": "metis",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unidex-perp",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unidex-perp",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "goosefx-v1",
+  "name": "GooseFX V1",
+  "type": "dexs",
+  "website": "https://app.goosefx.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "GooseFX V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for GooseFX V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/goosefx-v1",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

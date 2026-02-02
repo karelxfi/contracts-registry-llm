@@ -1,0 +1,43 @@
+{
+  "id": "puzzle-swap",
+  "name": "Puzzle Swap",
+  "type": "dexs",
+  "website": "https://puzzleswap.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "waves"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Puzzle Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Puzzle Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "waves": {
+      "chain": "waves",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/puzzle-swap",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

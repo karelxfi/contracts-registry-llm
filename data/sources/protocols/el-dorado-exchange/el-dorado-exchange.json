@@ -1,0 +1,42 @@
+{
+  "id": "el-dorado-exchange",
+  "name": "El Dorado Exchange",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "El Dorado Exchange Main Contract",
+      "type": "core",
+      "description": "Main contract for El Dorado Exchange",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/el-dorado-exchange",
+      "updated": "2025-01-31"
+    }
+  }
+}

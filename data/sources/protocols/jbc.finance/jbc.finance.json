@@ -1,0 +1,42 @@
+{
+  "id": "jbc.finance",
+  "name": "JBC.Finance",
+  "type": "leveraged farming",
+  "website": "https://jbc.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JBC.Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for JBC.Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jbc.finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

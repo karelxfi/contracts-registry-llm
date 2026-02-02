@@ -1,0 +1,62 @@
+{
+  "id": "blend-finance",
+  "name": "Blend Finance",
+  "type": "lending",
+  "website": "https://www.blend.fan/",
+  "github": [
+    "Blend-Blend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Blend Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Blend Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blend-finance",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/blend-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

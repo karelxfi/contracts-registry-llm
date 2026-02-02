@@ -1,0 +1,44 @@
+{
+  "id": "zenfinance",
+  "name": "ZenFinance",
+  "type": "yield",
+  "website": "https://www.zenfinance.space/",
+  "github": [
+    "Aryioshin"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ZenFinance Main Contract",
+      "type": "core",
+      "description": "Main contract for ZenFinance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zenfinance",
+      "updated": "2025-01-31"
+    }
+  }
+}

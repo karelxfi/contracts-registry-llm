@@ -1,0 +1,80 @@
+{
+  "id": "filda",
+  "name": "FilDA",
+  "type": "lending",
+  "website": "https://filda.io/",
+  "github": [
+    "fildaio"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "arbitrum",
+    "polygon",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FilDA Main Contract",
+      "type": "core",
+      "description": "Main contract for FilDA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/filda",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/filda",
+      "updated": "2025-01-31"
+    },
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/filda",
+      "updated": "2025-01-31"
+    }
+  }
+}

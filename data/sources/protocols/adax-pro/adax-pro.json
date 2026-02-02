@@ -1,0 +1,43 @@
+{
+  "id": "adax-pro",
+  "name": "ADAX Pro",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ADAX Pro Main Contract",
+      "type": "core",
+      "description": "Main contract for ADAX Pro",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adax-pro",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

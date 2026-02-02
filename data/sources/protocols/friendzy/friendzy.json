@@ -1,0 +1,43 @@
+{
+  "id": "friendzy",
+  "name": "Friendzy",
+  "type": "sofi",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "sofi",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Friendzy Main Contract",
+      "type": "core",
+      "description": "Main contract for Friendzy",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/friendzy",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "avalon-cedefi",
+  "name": "Avalon CeDeFi",
+  "type": "anchor btc",
+  "website": "https://www.avalonfinance.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "anchor btc",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Avalon CeDeFi Main Contract",
+      "type": "core",
+      "description": "Main contract for Avalon CeDeFi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/avalon-cedefi",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "meme-dollar",
+  "name": "Meme Dollar",
+  "type": "algo-stables",
+  "website": "https://www.dontdiememe.com/pina",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "algo-stables",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meme Dollar Main Contract",
+      "type": "core",
+      "description": "Main contract for Meme Dollar",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meme-dollar",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "deli-swap",
+  "name": "Deli Swap",
+  "type": "dexs",
+  "website": "https://deliswap.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Deli Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Deli Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/deli-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

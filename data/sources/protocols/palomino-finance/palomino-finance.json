@@ -1,0 +1,43 @@
+{
+  "id": "palomino-finance",
+  "name": "Palomino Finance",
+  "type": "lending",
+  "website": "https://palomino.fi/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "saga"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Palomino Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Palomino Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "saga": {
+      "chain": "saga",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/palomino-finance",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

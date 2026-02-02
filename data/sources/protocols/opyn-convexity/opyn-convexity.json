@@ -1,0 +1,42 @@
+{
+  "id": "opyn-convexity",
+  "name": "Opyn Convexity",
+  "type": "options",
+  "website": "https://www.opyn.co",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "options",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Opyn Convexity Main Contract",
+      "type": "core",
+      "description": "Main contract for Opyn Convexity",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/opyn-convexity",
+      "updated": "2025-01-31"
+    }
+  }
+}

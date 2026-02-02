@@ -1,0 +1,42 @@
+{
+  "id": "etherex-cl",
+  "name": "Etherex CL",
+  "type": "dexs",
+  "website": "https://etherex.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Etherex CL Main Contract",
+      "type": "core",
+      "description": "Main contract for Etherex CL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/etherex-cl",
+      "updated": "2025-01-31"
+    }
+  }
+}

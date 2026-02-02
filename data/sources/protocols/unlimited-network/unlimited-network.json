@@ -1,0 +1,42 @@
+{
+  "id": "unlimited-network",
+  "name": "Unlimited Network",
+  "type": "derivatives",
+  "website": "https://www.unlimited.trade/pools",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "arbitrum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unlimited Network Main Contract",
+      "type": "core",
+      "description": "Main contract for Unlimited Network",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unlimited-network",
+      "updated": "2025-01-31"
+    }
+  }
+}

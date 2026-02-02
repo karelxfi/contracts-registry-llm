@@ -1,0 +1,43 @@
+{
+  "id": "arrow",
+  "name": "Arrow",
+  "type": "yield",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Arrow Main Contract",
+      "type": "core",
+      "description": "Main contract for Arrow",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrow",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

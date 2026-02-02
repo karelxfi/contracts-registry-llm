@@ -1,0 +1,43 @@
+{
+  "id": "justcryptos",
+  "name": "JustCryptos",
+  "type": "bridge",
+  "website": "https://just.network/token",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "tron"
+  ],
+  "contracts": {
+    "main": {
+      "name": "JustCryptos Main Contract",
+      "type": "core",
+      "description": "Main contract for JustCryptos",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "tron": {
+      "chain": "tron",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/justcryptos",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

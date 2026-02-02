@@ -1,0 +1,43 @@
+{
+  "id": "saphyre-v3",
+  "name": "Saphyre V3",
+  "type": "dexs",
+  "website": "https://saphyre.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "sei"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Saphyre V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Saphyre V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sei": {
+      "chain": "sei",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/saphyre-v3",
+      "updated": "2025-01-31",
+      "platform": "cosmos"
+    }
+  }
+}

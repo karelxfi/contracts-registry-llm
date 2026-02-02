@@ -1,0 +1,42 @@
+{
+  "id": "synfutures-v2",
+  "name": "SynFutures V2",
+  "type": "derivatives",
+  "website": "https://trade.synfutures.com/#/trade",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "SynFutures V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for SynFutures V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synfutures-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

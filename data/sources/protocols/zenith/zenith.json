@@ -1,0 +1,42 @@
+{
+  "id": "zenith",
+  "name": "Zenith",
+  "type": "leveraged farming",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "leveraged farming",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zenith Main Contract",
+      "type": "core",
+      "description": "Main contract for Zenith",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zenith",
+      "updated": "2025-01-31"
+    }
+  }
+}

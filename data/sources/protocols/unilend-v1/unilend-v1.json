@@ -1,0 +1,60 @@
+{
+  "id": "unilend-v1",
+  "name": "Unilend V1",
+  "type": "lending",
+  "website": "https://unilend.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Unilend V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Unilend V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unilend-v1",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/unilend-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

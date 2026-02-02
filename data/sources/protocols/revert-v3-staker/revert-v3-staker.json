@@ -1,0 +1,42 @@
+{
+  "id": "revert-v3-staker",
+  "name": "Revert V3 Staker",
+  "type": "liquidity manager",
+  "website": "https://v3staker.revert.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquidity manager",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Revert V3 Staker Main Contract",
+      "type": "core",
+      "description": "Main contract for Revert V3 Staker",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/revert-v3-staker",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mango-markets-v3",
+  "name": "Mango Markets V3",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mango Markets V3 Main Contract",
+      "type": "core",
+      "description": "Main contract for Mango Markets V3",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mango-markets-v3",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

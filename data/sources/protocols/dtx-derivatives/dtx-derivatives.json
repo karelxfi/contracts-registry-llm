@@ -1,0 +1,42 @@
+{
+  "id": "dtx-derivatives",
+  "name": "DTX Derivatives",
+  "type": "derivatives",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DTX Derivatives Main Contract",
+      "type": "core",
+      "description": "Main contract for DTX Derivatives",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dtx-derivatives",
+      "updated": "2025-01-31"
+    }
+  }
+}

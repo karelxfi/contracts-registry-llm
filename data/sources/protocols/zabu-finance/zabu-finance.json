@@ -1,0 +1,42 @@
+{
+  "id": "zabu-finance",
+  "name": "Zabu Finance",
+  "type": "yield aggregator",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Zabu Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Zabu Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/zabu-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

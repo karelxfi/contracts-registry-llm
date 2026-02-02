@@ -1,0 +1,45 @@
+{
+  "id": "everlend",
+  "name": "Everlend",
+  "type": "lending",
+  "website": "https://everlend.finance",
+  "github": [
+    "everlend"
+  ],
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Everlend Main Contract",
+      "type": "core",
+      "description": "Main contract for Everlend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/everlend",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

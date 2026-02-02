@@ -1,0 +1,42 @@
+{
+  "id": "pike-v2",
+  "name": "Pike V2",
+  "type": "lending",
+  "website": "https://www.pike.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Pike V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Pike V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pike-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

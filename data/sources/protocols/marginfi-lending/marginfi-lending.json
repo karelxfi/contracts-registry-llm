@@ -1,0 +1,43 @@
+{
+  "id": "marginfi-lending",
+  "name": "marginfi Lending",
+  "type": "lending",
+  "website": "https://app.marginfi.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "marginfi Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for marginfi Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/marginfi-lending",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

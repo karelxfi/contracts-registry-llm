@@ -1,0 +1,62 @@
+{
+  "id": "foom-cash",
+  "name": "FOOM Cash",
+  "type": "privacy",
+  "website": "https://foom.cash",
+  "github": [
+    "Terrestrials"
+  ],
+  "docs": "",
+  "tags": [
+    "privacy",
+    "ethereum",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "FOOM Cash Main Contract",
+      "type": "core",
+      "description": "Main contract for FOOM Cash",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/foom-cash",
+      "updated": "2025-01-31"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/foom-cash",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cozy-v1",
+  "name": "Cozy V1",
+  "type": "insurance",
+  "website": "https://www.cozy.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "insurance",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cozy V1 Main Contract",
+      "type": "core",
+      "description": "Main contract for Cozy V1",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cozy-v1",
+      "updated": "2025-01-31"
+    }
+  }
+}

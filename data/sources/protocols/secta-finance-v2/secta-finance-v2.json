@@ -1,0 +1,42 @@
+{
+  "id": "secta-finance-v2",
+  "name": "Secta Finance V2",
+  "type": "dexs",
+  "website": "https://secta.finance/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "linea"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Secta Finance V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for Secta Finance V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/secta-finance-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tanken-capital",
+  "name": "Tanken Capital",
+  "type": "risk curators",
+  "website": "https://tankencapital.notion.site/Tanken-Capital-1841505ced0680d88c31feb5f6f83433",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "risk curators",
+    "base",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tanken Capital Main Contract",
+      "type": "core",
+      "description": "Main contract for Tanken Capital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tanken-capital",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tanken-capital",
+      "updated": "2025-01-31"
+    }
+  }
+}

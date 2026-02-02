@@ -1,0 +1,43 @@
+{
+  "id": "amulet-liquidity-staking",
+  "name": "Amulet Liquidity Staking",
+  "type": "liquid staking",
+  "website": "https://appv1.amulet.org/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Amulet Liquidity Staking Main Contract",
+      "type": "core",
+      "description": "Main contract for Amulet Liquidity Staking",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/amulet-liquidity-staking",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

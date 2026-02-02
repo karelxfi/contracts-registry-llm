@@ -1,0 +1,45 @@
+{
+  "id": "chopcorp",
+  "name": "CHOPCORP",
+  "type": "gamified mining",
+  "website": "https://chopcorp.io?invite=DEFILLAMA",
+  "github": [
+    "chopcorpio"
+  ],
+  "docs": "",
+  "tags": [
+    "gamified mining",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "CHOPCORP Main Contract",
+      "type": "core",
+      "description": "Main contract for CHOPCORP",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/chopcorp",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

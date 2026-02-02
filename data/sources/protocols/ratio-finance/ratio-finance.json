@@ -1,0 +1,43 @@
+{
+  "id": "ratio-finance",
+  "name": "Ratio Finance",
+  "type": "cdp",
+  "website": "https://ratio.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "cdp",
+    "solana"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ratio Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Ratio Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "solana": {
+      "chain": "solana",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ratio-finance",
+      "updated": "2025-01-31",
+      "platform": "svm"
+    }
+  }
+}

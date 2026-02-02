@@ -1,0 +1,42 @@
+{
+  "chain": "verus",
+  "chainInfo": {
+    "id": "verus",
+    "name": "Verus",
+    "platform": "other",
+    "status": "active",
+    "nativeCurrency": {
+      "name": "VRSC",
+      "symbol": "VRSC",
+      "decimals": 8
+    },
+    "gecko_id": "verus-coin",
+    "cmcId": "5049",
+    "explorers": {
+      "primary": {
+        "name": "Verus Explorer",
+        "url": "https://explorer.verus.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "verus-market": {
+      "verus-market": {
+        "name": "Verus Market",
+        "type": "dexs",
+        "addresses": {
+          "main": ""
+        },
+        "deploymentBlocks": {
+          "main": null
+        },
+        "verified": {
+          "main": false
+        }
+      }
+    }
+  }
+}

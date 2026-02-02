@@ -1,0 +1,98 @@
+{
+  "id": "adamant-finance",
+  "name": "Adamant Finance",
+  "type": "yield",
+  "website": "https://adamant.finance",
+  "github": [
+    "eepdev"
+  ],
+  "docs": "",
+  "tags": [
+    "yield",
+    "fraxtal",
+    "polygon",
+    "arbitrum",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Adamant Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Adamant Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "fraxtal": {
+      "chain": "fraxtal",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adamant-finance",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adamant-finance",
+      "updated": "2025-01-31"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adamant-finance",
+      "updated": "2025-01-31"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/adamant-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

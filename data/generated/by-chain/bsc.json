@@ -1,0 +1,61 @@
+{
+  "chain": "bsc",
+  "chainInfo": {
+    "id": "bsc",
+    "name": "BSC",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 56,
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "gecko_id": "binancecoin",
+    "cmcId": "1839",
+    "explorers": {
+      "primary": {
+        "name": "BSC Explorer",
+        "url": "https://explorer.bsc.network"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "aave-v3": {
+      "aave-v3": {
+        "name": "Aave V3",
+        "type": "lending",
+        "addresses": {
+          "pool": "0x6807dc923806fE8Fd134338EABCA509979a7e0cB",
+          "poolAddressesProvider": "0xff75B6da14FfbbfD355Daf7a2731456b3562Ba6D",
+          "poolConfigurator": "0x67bdF23C7fCE7C65fF7415Ba3F2520B45D6f9584",
+          "aaveOracle": "0x39bc1bfDa2130d6Bb6DBEfd366939b4c7aa7C697",
+          "poolDataProvider": "0xc90Df74A7c16245c5F5C5870327Ceb38Fe5d5328",
+          "aclManager": "0x2D97F8FA96886Fd923c065F5457F9DDd494e3877",
+          "collector": "0x25Ec457d1778b0E5316e7f38f3c22baF413F1A8C"
+        },
+        "deploymentBlocks": {
+          "pool": null,
+          "poolAddressesProvider": null,
+          "poolConfigurator": null,
+          "aaveOracle": null,
+          "poolDataProvider": null,
+          "aclManager": null,
+          "collector": null
+        },
+        "verified": {
+          "pool": true,
+          "poolAddressesProvider": true,
+          "poolConfigurator": true,
+          "aaveOracle": true,
+          "poolDataProvider": true,
+          "aclManager": true,
+          "collector": true
+        }
+      }
+    }
+  }
+}

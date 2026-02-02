@@ -1,0 +1,42 @@
+{
+  "id": "xena-finance",
+  "name": "Xena Finance",
+  "type": "derivatives",
+  "website": "https://xena.finance",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Xena Finance Main Contract",
+      "type": "core",
+      "description": "Main contract for Xena Finance",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/xena-finance",
+      "updated": "2025-01-31"
+    }
+  }
+}

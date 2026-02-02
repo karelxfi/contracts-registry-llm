@@ -1,0 +1,44 @@
+{
+  "id": "ddex",
+  "name": "DDEX",
+  "type": "dexs",
+  "website": "https://ddex.io/",
+  "github": [
+    "HydroProtocol"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DDEX Main Contract",
+      "type": "core",
+      "description": "Main contract for DDEX",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ddex",
+      "updated": "2025-01-31"
+    }
+  }
+}

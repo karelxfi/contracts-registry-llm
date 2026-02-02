@@ -1,0 +1,44 @@
+{
+  "id": "enterdao",
+  "name": "EnterDAO",
+  "type": "gaming",
+  "website": "",
+  "github": [
+    "EnterDAO"
+  ],
+  "docs": "",
+  "tags": [
+    "gaming",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "EnterDAO Main Contract",
+      "type": "core",
+      "description": "Main contract for EnterDAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/enterdao",
+      "updated": "2025-01-31"
+    }
+  }
+}

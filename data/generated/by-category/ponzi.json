@@ -1,0 +1,338 @@
+{
+  "category": "ponzi",
+  "protocols": {
+    "beebase": {
+      "beebase": {
+        "name": "BeeBase",
+        "contracts": {
+          "main": {
+            "name": "BeeBase Main Contract",
+            "type": "core",
+            "description": "Main contract for BeeBase",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/beebase",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "goldminer": {
+      "goldminer": {
+        "name": "GoldMiner",
+        "contracts": {
+          "main": {
+            "name": "GoldMiner Main Contract",
+            "type": "core",
+            "description": "Main contract for GoldMiner",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "sonic": {
+            "chain": "sonic",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/goldminer",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "lama-miner": {
+      "lama-miner": {
+        "name": "Lama Miner",
+        "contracts": {
+          "main": {
+            "name": "Lama Miner Main Contract",
+            "type": "core",
+            "description": "Main contract for Lama Miner",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/lama-miner",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "meow-miner": {
+      "meow-miner": {
+        "name": "Meow Miner",
+        "contracts": {
+          "main": {
+            "name": "Meow Miner Main Contract",
+            "type": "core",
+            "description": "Main contract for Meow Miner",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/meow-miner",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "mining-tycoon": {
+      "mining-tycoon": {
+        "name": "Mining Tycoon",
+        "contracts": {
+          "main": {
+            "name": "Mining Tycoon Main Contract",
+            "type": "core",
+            "description": "Main contract for Mining Tycoon",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "solana": {
+            "chain": "solana",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/mining-tycoon",
+            "updated": "2025-01-31",
+            "platform": "svm"
+          }
+        }
+      }
+    },
+    "multi-chain-miner": {
+      "multi-chain-miner": {
+        "name": "Multi-Chain Miner",
+        "contracts": {
+          "main": {
+            "name": "Multi-Chain Miner Main Contract",
+            "type": "core",
+            "description": "Main contract for Multi-Chain Miner",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "avalanche": {
+            "chain": "avalanche",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/multi-chain-miner",
+            "updated": "2025-01-31"
+          },
+          "polygon": {
+            "chain": "polygon",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/multi-chain-miner",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "ponzi.market": {
+      "ponzi.market": {
+        "name": "ponzi.market",
+        "contracts": {
+          "main": {
+            "name": "ponzi.market Main Contract",
+            "type": "core",
+            "description": "Main contract for ponzi.market",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "arbitrum": {
+            "chain": "arbitrum",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/ponzi.market",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "stakin": {
+      "stakin": {
+        "name": "Stakin",
+        "contracts": {
+          "main": {
+            "name": "Stakin Main Contract",
+            "type": "core",
+            "description": "Main contract for Stakin",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "base": {
+            "chain": "base",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/stakin",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    },
+    "vies-token": {
+      "vies-token": {
+        "name": "Vies Token",
+        "contracts": {
+          "main": {
+            "name": "Vies Token Main Contract",
+            "type": "core",
+            "description": "Main contract for Vies Token",
+            "proxy": false,
+            "keyEvents": [],
+            "keyFunctions": [],
+            "useCases": []
+          }
+        },
+        "deployments": {
+          "cronos": {
+            "chain": "cronos",
+            "addresses": {
+              "main": ""
+            },
+            "deploymentBlocks": {
+              "main": null
+            },
+            "verified": {
+              "main": false
+            },
+            "source": [
+              "defillama"
+            ],
+            "sourceUrl": "https://defillama.com/protocol/vies-token",
+            "updated": "2025-01-31"
+          }
+        }
+      }
+    }
+  }
+}

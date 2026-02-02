@@ -1,0 +1,43 @@
+{
+  "id": "echo-lending",
+  "name": "Echo Lending",
+  "type": "lending",
+  "website": "https://www.echo-protocol.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Echo Lending Main Contract",
+      "type": "core",
+      "description": "Main contract for Echo Lending",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/echo-lending",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

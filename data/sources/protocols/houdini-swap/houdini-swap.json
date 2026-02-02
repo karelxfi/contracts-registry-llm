@@ -1,0 +1,42 @@
+{
+  "id": "houdini-swap",
+  "name": "Houdini Swap",
+  "type": "dex aggregator",
+  "website": "https://houdiniswap.com/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dex aggregator",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Houdini Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Houdini Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/houdini-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

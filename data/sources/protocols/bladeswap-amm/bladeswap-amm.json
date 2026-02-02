@@ -1,0 +1,42 @@
+{
+  "id": "bladeswap-amm",
+  "name": "BladeSwap AMM",
+  "type": "dexs",
+  "website": "https://bladeswap.xyz",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "blast"
+  ],
+  "contracts": {
+    "main": {
+      "name": "BladeSwap AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for BladeSwap AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "blast": {
+      "chain": "blast",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bladeswap-amm",
+      "updated": "2025-01-31"
+    }
+  }
+}

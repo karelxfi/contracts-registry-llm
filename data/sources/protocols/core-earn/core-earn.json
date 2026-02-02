@@ -1,0 +1,42 @@
+{
+  "id": "core-earn",
+  "name": "Core Earn",
+  "type": "liquid staking",
+  "website": "https://stake.coredao.org/stcore",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Core Earn Main Contract",
+      "type": "core",
+      "description": "Main contract for Core Earn",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/core-earn",
+      "updated": "2025-01-31"
+    }
+  }
+}

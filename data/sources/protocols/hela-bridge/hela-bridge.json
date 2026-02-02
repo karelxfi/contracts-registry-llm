@@ -1,0 +1,60 @@
+{
+  "id": "hela-bridge",
+  "name": "HeLa Bridge",
+  "type": "bridge",
+  "website": "https://bridge.helachain.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "polygon",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "HeLa Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for HeLa Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hela-bridge",
+      "updated": "2025-01-31"
+    },
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hela-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

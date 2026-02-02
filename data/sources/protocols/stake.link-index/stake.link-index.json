@@ -1,0 +1,42 @@
+{
+  "id": "stake.link-index",
+  "name": "stake.link index",
+  "type": "indexes",
+  "website": "https://stake.link/staking-pools/eth-index/deposit",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "stake.link index Main Contract",
+      "type": "core",
+      "description": "Main contract for stake.link index",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stake.link-index",
+      "updated": "2025-01-31"
+    }
+  }
+}

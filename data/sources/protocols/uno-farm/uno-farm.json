@@ -1,0 +1,60 @@
+{
+  "id": "uno-farm",
+  "name": "UNO farm",
+  "type": "yield aggregator",
+  "website": "https://uno.farm/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield aggregator",
+    "polygon",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "UNO farm Main Contract",
+      "type": "core",
+      "description": "Main contract for UNO farm",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/uno-farm",
+      "updated": "2025-01-31"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/uno-farm",
+      "updated": "2025-01-31"
+    }
+  }
+}

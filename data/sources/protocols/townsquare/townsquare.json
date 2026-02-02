@@ -1,0 +1,42 @@
+{
+  "id": "townsquare",
+  "name": "TownSquare",
+  "type": "lending",
+  "website": "https://app.townsq.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "TownSquare Main Contract",
+      "type": "core",
+      "description": "Main contract for TownSquare",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/townsquare",
+      "updated": "2025-01-31"
+    }
+  }
+}

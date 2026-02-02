@@ -1,0 +1,44 @@
+{
+  "id": "cyclo",
+  "name": "Cyclo",
+  "type": "derivatives",
+  "website": "https://cyclo.finance",
+  "github": [
+    "cyclofinance"
+  ],
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "flare"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Cyclo Main Contract",
+      "type": "core",
+      "description": "Main contract for Cyclo",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "flare": {
+      "chain": "flare",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/cyclo",
+      "updated": "2025-01-31"
+    }
+  }
+}

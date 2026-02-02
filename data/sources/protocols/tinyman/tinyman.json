@@ -1,0 +1,45 @@
+{
+  "id": "tinyman",
+  "name": "Tinyman",
+  "type": "dexs",
+  "website": "https://tinyman.org",
+  "github": [
+    "tinymanorg"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "algorand"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tinyman Main Contract",
+      "type": "core",
+      "description": "Main contract for Tinyman",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "algorand": {
+      "chain": "algorand",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tinyman",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

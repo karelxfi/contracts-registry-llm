@@ -1,0 +1,43 @@
+{
+  "id": "meridian-amm",
+  "name": "Meridian AMM",
+  "type": "dexs",
+  "website": "https://www.meridian.money",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "movement"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Meridian AMM Main Contract",
+      "type": "core",
+      "description": "Main contract for Meridian AMM",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "movement": {
+      "chain": "movement",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/meridian-amm",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

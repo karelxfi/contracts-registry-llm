@@ -1,0 +1,43 @@
+{
+  "id": "mayz-protocol",
+  "name": "MAYZ Protocol",
+  "type": "indexes",
+  "website": "https://www.mayz.io",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "cardano"
+  ],
+  "contracts": {
+    "main": {
+      "name": "MAYZ Protocol Main Contract",
+      "type": "core",
+      "description": "Main contract for MAYZ Protocol",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cardano": {
+      "chain": "cardano",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mayz-protocol",
+      "updated": "2025-01-31",
+      "platform": "other"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "injective-bridge",
+  "name": "Injective Bridge",
+  "type": "bridge",
+  "website": "https://injective.com",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "bridge",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Injective Bridge Main Contract",
+      "type": "core",
+      "description": "Main contract for Injective Bridge",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/injective-bridge",
+      "updated": "2025-01-31"
+    }
+  }
+}

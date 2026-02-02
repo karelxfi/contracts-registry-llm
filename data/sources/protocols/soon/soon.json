@@ -1,0 +1,42 @@
+{
+  "id": "soon",
+  "name": "Soon",
+  "type": "chain",
+  "website": "https://soo.network/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "chain",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Soon Main Contract",
+      "type": "core",
+      "description": "Main contract for Soon",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/soon",
+      "updated": "2025-01-31"
+    }
+  }
+}

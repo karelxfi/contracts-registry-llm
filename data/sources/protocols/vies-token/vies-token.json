@@ -1,0 +1,42 @@
+{
+  "id": "vies-token",
+  "name": "Vies Token",
+  "type": "ponzi",
+  "website": "https://viescoin.xyz/home",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "ponzi",
+    "cronos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Vies Token Main Contract",
+      "type": "core",
+      "description": "Main contract for Vies Token",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "cronos": {
+      "chain": "cronos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vies-token",
+      "updated": "2025-01-31"
+    }
+  }
+}

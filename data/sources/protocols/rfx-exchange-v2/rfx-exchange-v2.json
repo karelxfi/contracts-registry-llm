@@ -1,0 +1,42 @@
+{
+  "id": "rfx-exchange-v2",
+  "name": "RFX Exchange V2",
+  "type": "derivatives",
+  "website": "https://rfx.exchange/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "derivatives",
+    "sonic"
+  ],
+  "contracts": {
+    "main": {
+      "name": "RFX Exchange V2 Main Contract",
+      "type": "core",
+      "description": "Main contract for RFX Exchange V2",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sonic": {
+      "chain": "sonic",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/rfx-exchange-v2",
+      "updated": "2025-01-31"
+    }
+  }
+}

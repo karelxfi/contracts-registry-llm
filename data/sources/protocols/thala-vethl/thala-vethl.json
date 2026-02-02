@@ -1,0 +1,43 @@
+{
+  "id": "thala-vethl",
+  "name": "Thala veTHL",
+  "type": "liquid staking",
+  "website": "https://app.thala.fi/ve",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "liquid staking",
+    "aptos"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Thala veTHL Main Contract",
+      "type": "core",
+      "description": "Main contract for Thala veTHL",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "aptos": {
+      "chain": "aptos",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/thala-vethl",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "issuaa",
+  "name": "ISSUAA",
+  "type": "dexs",
+  "website": "https://app.issuaa.org/",
+  "github": [
+    "issuaa"
+  ],
+  "docs": "",
+  "tags": [
+    "dexs",
+    "scroll"
+  ],
+  "contracts": {
+    "main": {
+      "name": "ISSUAA Main Contract",
+      "type": "core",
+      "description": "Main contract for ISSUAA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/issuaa",
+      "updated": "2025-01-31"
+    }
+  }
+}

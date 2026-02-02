@@ -1,0 +1,60 @@
+{
+  "id": "tea-fi",
+  "name": "Tea-Fi",
+  "type": "yield",
+  "website": "https://app.tea-fi.com/swap",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "ethereum",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Tea-Fi Main Contract",
+      "type": "core",
+      "description": "Main contract for Tea-Fi",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tea-fi",
+      "updated": "2025-01-31"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tea-fi",
+      "updated": "2025-01-31"
+    }
+  }
+}

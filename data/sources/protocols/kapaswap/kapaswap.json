@@ -1,0 +1,42 @@
+{
+  "id": "kapaswap",
+  "name": "KapaSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KapaSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for KapaSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kapaswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

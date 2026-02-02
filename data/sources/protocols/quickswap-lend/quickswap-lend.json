@@ -1,0 +1,42 @@
+{
+  "id": "quickswap-lend",
+  "name": "Quickswap Lend",
+  "type": "lending",
+  "website": "https://quickswap.exchange/#/lend",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "polygon"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Quickswap Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Quickswap Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/quickswap-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

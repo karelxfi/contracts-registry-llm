@@ -1,0 +1,42 @@
+{
+  "id": "kefirswap",
+  "name": "KefirSwap",
+  "type": "dexs",
+  "website": "",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "kava"
+  ],
+  "contracts": {
+    "main": {
+      "name": "KefirSwap Main Contract",
+      "type": "core",
+      "description": "Main contract for KefirSwap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "kava": {
+      "chain": "kava",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/kefirswap",
+      "updated": "2025-01-31"
+    }
+  }
+}

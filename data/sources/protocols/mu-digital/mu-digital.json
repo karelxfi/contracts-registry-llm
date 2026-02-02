@@ -1,0 +1,42 @@
+{
+  "id": "mu-digital",
+  "name": "Mu Digital",
+  "type": "rwa",
+  "website": "https://mudigital.net",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa",
+    "monad"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mu Digital Main Contract",
+      "type": "core",
+      "description": "Main contract for Mu Digital",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mu-digital",
+      "updated": "2025-01-31"
+    }
+  }
+}

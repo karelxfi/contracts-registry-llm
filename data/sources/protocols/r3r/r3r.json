@@ -1,0 +1,42 @@
+{
+  "id": "r3r",
+  "name": "R3R",
+  "type": "prediction market",
+  "website": "https://world.org/ecosystem/app_bf747d63b2fe4b537e4a91ae48ac3aed",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "world-chain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "R3R Main Contract",
+      "type": "core",
+      "description": "Main contract for R3R",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/r3r",
+      "updated": "2025-01-31"
+    }
+  }
+}

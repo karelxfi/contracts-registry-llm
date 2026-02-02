@@ -1,0 +1,44 @@
+{
+  "id": "ubiquity-dao",
+  "name": "Ubiquity DAO",
+  "type": "services",
+  "website": "https://ubq.fi",
+  "github": [
+    "ubiquity"
+  ],
+  "docs": "",
+  "tags": [
+    "services",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Ubiquity DAO Main Contract",
+      "type": "core",
+      "description": "Main contract for Ubiquity DAO",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ubiquity-dao",
+      "updated": "2025-01-31"
+    }
+  }
+}

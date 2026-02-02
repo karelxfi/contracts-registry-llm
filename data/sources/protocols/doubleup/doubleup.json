@@ -1,0 +1,43 @@
+{
+  "id": "doubleup",
+  "name": "DoubleUp",
+  "type": "luck games",
+  "website": "https://www.doubleup.fun/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "luck games",
+    "sui"
+  ],
+  "contracts": {
+    "main": {
+      "name": "DoubleUp Main Contract",
+      "type": "core",
+      "description": "Main contract for DoubleUp",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "sui": {
+      "chain": "sui",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/doubleup",
+      "updated": "2025-01-31",
+      "platform": "move"
+    }
+  }
+}

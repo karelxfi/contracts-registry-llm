@@ -1,0 +1,42 @@
+{
+  "id": "holdstation-swap",
+  "name": "Holdstation Swap",
+  "type": "dexs",
+  "website": "https://holdstation.exchange/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "dexs",
+    "berachain"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Holdstation Swap Main Contract",
+      "type": "core",
+      "description": "Main contract for Holdstation Swap",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "berachain": {
+      "chain": "berachain",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/holdstation-swap",
+      "updated": "2025-01-31"
+    }
+  }
+}

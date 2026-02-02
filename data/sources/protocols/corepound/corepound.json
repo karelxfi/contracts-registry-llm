@@ -1,0 +1,42 @@
+{
+  "id": "corepound",
+  "name": "Corepound",
+  "type": "yield",
+  "website": "https://corepound.xyz/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "yield",
+    "core"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Corepound Main Contract",
+      "type": "core",
+      "description": "Main contract for Corepound",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "core": {
+      "chain": "core",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/corepound",
+      "updated": "2025-01-31"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "belief-market",
+  "name": "Belief Market",
+  "type": "prediction market",
+  "website": "https://www.belief.market/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "prediction market",
+    "base"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Belief Market Main Contract",
+      "type": "core",
+      "description": "Main contract for Belief Market",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/belief-market",
+      "updated": "2025-01-31"
+    }
+  }
+}

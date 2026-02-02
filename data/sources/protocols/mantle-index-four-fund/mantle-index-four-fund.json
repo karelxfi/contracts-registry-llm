@@ -1,0 +1,42 @@
+{
+  "id": "mantle-index-four-fund",
+  "name": "Mantle Index Four Fund",
+  "type": "indexes",
+  "website": "https://securitize.io/primary-market/mantle-index-four-fund",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "indexes",
+    "mantle"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Mantle Index Four Fund Main Contract",
+      "type": "core",
+      "description": "Main contract for Mantle Index Four Fund",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/mantle-index-four-fund",
+      "updated": "2025-01-31"
+    }
+  }
+}

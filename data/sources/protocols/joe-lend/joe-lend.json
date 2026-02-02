@@ -1,0 +1,42 @@
+{
+  "id": "joe-lend",
+  "name": "Joe Lend",
+  "type": "lending",
+  "website": "https://v1.lfj.gg/lend#/",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "lending",
+    "avalanche"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Joe Lend Main Contract",
+      "type": "core",
+      "description": "Main contract for Joe Lend",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "avalanche": {
+      "chain": "avalanche",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/joe-lend",
+      "updated": "2025-01-31"
+    }
+  }
+}

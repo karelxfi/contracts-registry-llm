@@ -1,0 +1,42 @@
+{
+  "id": "aave-horizon-rwa",
+  "name": "Aave Horizon RWA",
+  "type": "rwa lending",
+  "website": "https://app.aave.com/markets/?marketName=proto_horizon_v3",
+  "github": "",
+  "docs": "",
+  "tags": [
+    "rwa lending",
+    "ethereum"
+  ],
+  "contracts": {
+    "main": {
+      "name": "Aave Horizon RWA Main Contract",
+      "type": "core",
+      "description": "Main contract for Aave Horizon RWA",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": []
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "main": ""
+      },
+      "deploymentBlocks": {
+        "main": null
+      },
+      "verified": {
+        "main": false
+      },
+      "source": [
+        "defillama"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aave-horizon-rwa",
+      "updated": "2025-01-31"
+    }
+  }
+}
