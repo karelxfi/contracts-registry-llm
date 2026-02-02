@@ -557,12 +557,12 @@ const apiIndex = {
 
 writeJSON("index.json", apiIndex);
 
-console.log("\n✓ API build complete!");
-console.log(`✓ Generated files in: ${API_DIR}`);
-console.log(`✓ Total protocols: ${protocols.length}`);
-console.log(`✓ Populated protocols: ${populatedProtocols.populatedProtocols}`);
-console.log(`✓ Chains: ${chains.length}`);
-console.log(`✓ Categories: ${categories.length}`);
+console.log("\n API build complete!");
+console.log(` Generated files in: ${API_DIR}`);
+console.log(` Total protocols: ${protocols.length}`);
+console.log(` Populated protocols: ${populatedProtocols.populatedProtocols}`);
+console.log(` Chains: ${chains.length}`);
+console.log(` Categories: ${categories.length}`);
 
 function writeJSON(relativePath, data) {
   const fullPath = path.join(API_DIR, relativePath);

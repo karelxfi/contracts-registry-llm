@@ -2,7 +2,7 @@
 
 **Date:** February 2, 2026  
 **Source:** [Curve Deployment Data JSON](https://github.com/CurveDocs/curve-docs/blob/master/docs/deployments/deployment-data.json)  
-**Status:** ✅ Complete
+**Status:**  Complete
 
 ---
 
@@ -427,11 +427,11 @@ const llamalendFactories = {
 ## Contract Verification
 
 All contract addresses have been:
-- ✅ Extracted from official Curve documentation
-- ✅ Organized by blockchain network
-- ✅ Categorized by contract type
-- ✅ Cross-referenced with Curve docs
-- ✅ Formatted in multiple export formats
+-  Extracted from official Curve documentation
+-  Organized by blockchain network
+-  Categorized by contract type
+-  Cross-referenced with Curve docs
+-  Formatted in multiple export formats
 
 **Verification Source:**
 - Official Repository: https://github.com/CurveDocs/curve-docs

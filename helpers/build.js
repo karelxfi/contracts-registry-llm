@@ -45,7 +45,7 @@ const validateChain = ajv.compile(chainSchema);
 
 // Main build function
 async function build() {
-  console.log("🔨 Building contracts registry...\n");
+  console.log(" Building contracts registry...\n");
 
   try {
     const protocols = loadProtocols();
@@ -58,20 +58,20 @@ async function build() {
     generateByCategoryViews(protocols);
     generateSearchIndexes(protocols);
 
-    console.log("\n✅ Build complete!\n");
+    console.log("\n Build complete!\n");
   } catch (error) {
-    console.error("\n❌ Build failed:", error.message);
+    console.error("\n Build failed:", error.message);
     process.exit(1);
   }
 }
 
 function loadProtocols() {
-  console.log("📂 Loading protocols...");
+  console.log(" Loading protocols...");
   const protocols = {};
   const protocolsPath = path.join(SOURCES_DIR, "protocols");
 
   if (!fs.existsSync(protocolsPath)) {
-    console.log("  ⚠️  No protocols directory found");
+    console.log("  ️  No protocols directory found");
     return protocols;
   }
 
@@ -98,14 +98,14 @@ function loadProtocols() {
       const valid = validateProtocol(data);
       if (!valid) {
         console.warn(
-          `  ⚠️  Validation warnings for ${protocolDir}/${version}:`,
+          `  ️  Validation warnings for ${protocolDir}/${version}:`,
         );
         console.warn(validateProtocol.errors);
         // Don't throw, just warn for now
       }
 
       protocols[protocolDir][version] = data;
-      console.log(`  ✓ ${protocolDir}/${version}`);
+      console.log(`   ${protocolDir}/${version}`);
     }
   }
 
@@ -113,12 +113,12 @@ function loadProtocols() {
 }
 
 function loadChains() {
-  console.log("\n📍 Loading chains...");
+  console.log("\n Loading chains...");
   const chains = {};
   const chainsPath = path.join(SOURCES_DIR, "chains");
 
   if (!fs.existsSync(chainsPath)) {
-    console.log("  ⚠️  No chains directory found");
+    console.log("  ️  No chains directory found");
     return chains;
   }
 
@@ -132,30 +132,30 @@ function loadChains() {
 
     const valid = validateChain(data);
     if (!valid) {
-      console.warn(`  ⚠️  Validation warnings for chain ${chainId}:`);
+      console.warn(`  ️  Validation warnings for chain ${chainId}:`);
       console.warn(validateChain.errors);
       // Don't throw, just warn for now
     }
 
     chains[chainId] = data;
-    console.log(`  ✓ ${chainId}`);
+    console.log(`   ${chainId}`);
   }
 
   return chains;
 }
 
 function generateCombinedProtocols(protocols) {
-  console.log("\n📦 Generating combined protocols...");
+  console.log("\n Generating combined protocols...");
   fs.mkdirSync(GENERATED_DIR, { recursive: true });
   fs.writeFileSync(
     path.join(GENERATED_DIR, "protocols.json"),
     JSON.stringify(protocols, null, 2),
   );
-  console.log("  ✓ protocols.json");
+  console.log("   protocols.json");
 }
 
 function generateContractAddresses(protocols) {
-  console.log("\n📋 Generating contract addresses...");
+  console.log("\n Generating contract addresses...");
   const addresses = {};
 
   for (const [protocolId, versions] of Object.entries(protocols)) {
@@ -181,11 +181,11 @@ function generateContractAddresses(protocols) {
     path.join(GENERATED_DIR, "contract-addresses.json"),
     JSON.stringify(addresses, null, 2),
   );
-  console.log("  ✓ contract-addresses.json");
+  console.log("   contract-addresses.json");
 }
 
 function generateProtocolMetadata(protocols) {
-  console.log("\n📝 Generating protocol metadata...");
+  console.log("\n Generating protocol metadata...");
   const metadata = {};
 
   for (const [protocolId, versions] of Object.entries(protocols)) {
@@ -209,11 +209,11 @@ function generateProtocolMetadata(protocols) {
     path.join(GENERATED_DIR, "protocol-metadata.json"),
     JSON.stringify(metadata, null, 2),
   );
-  console.log("  ✓ protocol-metadata.json");
+  console.log("   protocol-metadata.json");
 }
 
 function generateByChainViews(protocols, chains) {
-  console.log("\n🌐 Generating chain-specific views...");
+  console.log("\n Generating chain-specific views...");
   const byChain = {};
 
   for (const [protocolId, versions] of Object.entries(protocols)) {
@@ -253,12 +253,12 @@ function generateByChainViews(protocols, chains) {
       path.join(byChainDir, `${chainId}.json`),
       JSON.stringify(data, null, 2),
     );
-    console.log(`  ✓ by-chain/${chainId}.json`);
+    console.log(`   by-chain/${chainId}.json`);
   }
 }
 
 function generateByCategoryViews(protocols) {
-  console.log("\n📊 Generating category views...");
+  console.log("\n Generating category views...");
   const byCategory = {};
 
   for (const [protocolId, versions] of Object.entries(protocols)) {
@@ -292,12 +292,12 @@ function generateByCategoryViews(protocols) {
       path.join(byCategoryDir, `${category}.json`),
       JSON.stringify(data, null, 2),
     );
-    console.log(`  ✓ by-category/${category}.json`);
+    console.log(`   by-category/${category}.json`);
   }
 }
 
 function generateSearchIndexes(protocols) {
-  console.log("\n🔍 Generating search indexes...");
+  console.log("\n Generating search indexes...");
   const byAddress = {};
   const byEvent = {};
 
@@ -347,13 +347,13 @@ function generateSearchIndexes(protocols) {
     path.join(indexesDir, "by-address.json"),
     JSON.stringify(byAddress, null, 2),
   );
-  console.log("  ✓ indexes/by-address.json");
+  console.log("   indexes/by-address.json");
 
   fs.writeFileSync(
     path.join(indexesDir, "by-event.json"),
     JSON.stringify(byEvent, null, 2),
   );
-  console.log("  ✓ indexes/by-event.json");
+  console.log("   indexes/by-event.json");
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

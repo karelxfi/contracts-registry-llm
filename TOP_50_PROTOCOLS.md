@@ -6,7 +6,7 @@
 
 ---
 
-## Completed ✅
+## Completed 
 
 1. [x] **Aave V2** - Lending - 3 chains
 2. [x] **Aave V3** - Lending - 19 chains
