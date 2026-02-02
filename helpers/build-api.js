@@ -76,8 +76,30 @@ writeJSON("v1/metadata.json", metadata);
 // 2. Search by address
 console.log("Building search endpoints...");
 const searchByAddress = {};
-Object.entries(byAddress).forEach(([address, info]) => {
-  searchByAddress[address.toLowerCase()] = info;
+
+// Add both formats: "chain:address" and just "address"
+Object.entries(byAddress).forEach(([key, info]) => {
+  const keyLower = key.toLowerCase();
+
+  // Add the original chain:address format
+  searchByAddress[keyLower] = info;
+
+  // Extract and add just the address part (if it contains a colon)
+  if (keyLower.includes(":")) {
+    const address = keyLower.split(":")[1];
+    if (address) {
+      // If we already have this address (collision), convert to array
+      if (searchByAddress[address]) {
+        if (Array.isArray(searchByAddress[address])) {
+          searchByAddress[address].push(info);
+        } else {
+          searchByAddress[address] = [searchByAddress[address], info];
+        }
+      } else {
+        searchByAddress[address] = info;
+      }
+    }
+  }
 });
 
 writeJSON("v1/search/by-address.json", searchByAddress);
@@ -247,7 +269,7 @@ const openapi = {
       get: {
         summary: "Search by contract address",
         description:
-          "Returns a map of contract addresses to protocol information. Use this for reverse lookups.",
+          "Returns a map of contract addresses to protocol information. Supports both 'address' and 'chain:address' formats for lookups.",
         tags: ["Search"],
         responses: {
           200: {

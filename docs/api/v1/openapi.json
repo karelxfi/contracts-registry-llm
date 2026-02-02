@@ -136,7 +136,7 @@
     "/api/v1/search/by-address.json": {
       "get": {
         "summary": "Search by contract address",
-        "description": "Returns a map of contract addresses to protocol information. Use this for reverse lookups.",
+        "description": "Returns a map of contract addresses to protocol information. Supports both 'address' and 'chain:address' formats for lookups.",
         "tags": [
           "Search"
         ],
