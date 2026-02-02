@@ -2,421 +2,484 @@
   "id": "uniswap-v3",
   "name": "Uniswap V3",
   "type": "dexs",
-  "website": "https://app.uniswap.org/",
-  "github": "",
-  "docs": "",
-  "tags": [
-    "dexs",
-    "ethereum",
-    "arbitrum",
-    "base",
-    "polygon",
-    "bob",
-    "plasma",
-    "celo",
-    "avalanche",
-    "monad",
-    "world-chain",
-    "etherlink",
-    "xdc",
-    "unichain",
-    "mantle",
-    "sonic",
-    "sei",
-    "scroll",
-    "linea",
-    "blast",
-    "saga",
-    "manta",
-    "x-layer"
-  ],
+  "website": "https://uniswap.org",
+  "github": "https://github.com/Uniswap",
+  "docs": "https://docs.uniswap.org",
+  "status": "complete",
   "contracts": {
-    "main": {
-      "name": "Uniswap V3 Main Contract",
+    "UniswapV3Factory": {
+      "name": "Uniswap V3 Factory",
       "type": "core",
-      "description": "Main contract for Uniswap V3",
+      "description": "Core factory contract for creating Uniswap V3 liquidity pools",
       "proxy": false,
-      "keyEvents": [],
-      "keyFunctions": [],
-      "useCases": []
+      "keyFunctions": ["createPool", "enableFeeAmount", "setOwner"],
+      "useCases": ["pool-creation", "fee-configuration"]
+    },
+    "NonfungiblePositionManager": {
+      "name": "Nonfungible Position Manager",
+      "type": "core",
+      "description": "Manages liquidity positions as NFTs, allowing minting, increasing, decreasing, and collecting fees",
+      "proxy": false,
+      "keyFunctions": [
+        "mint",
+        "increaseLiquidity",
+        "decreaseLiquidity",
+        "collect",
+        "burn"
+      ],
+      "useCases": ["liquidity-management", "position-tracking"]
+    },
+    "SwapRouter": {
+      "name": "Swap Router",
+      "type": "core",
+      "description": "Original router for executing token swaps on Uniswap V3 pools",
+      "proxy": false,
+      "keyFunctions": [
+        "exactInputSingle",
+        "exactInput",
+        "exactOutputSingle",
+        "exactOutput"
+      ],
+      "useCases": ["token-swaps"]
+    },
+    "SwapRouter02": {
+      "name": "Swap Router 02",
+      "type": "core",
+      "description": "Enhanced swap router with additional features and gas optimizations",
+      "proxy": false,
+      "keyFunctions": [
+        "exactInputSingle",
+        "exactInput",
+        "exactOutputSingle",
+        "exactOutput"
+      ],
+      "useCases": ["token-swaps", "multi-hop-swaps"]
+    },
+    "UniversalRouter": {
+      "name": "Universal Router",
+      "type": "core",
+      "description": "Current preferred entrypoint for ERC20 and NFT swaps with support for multiple protocols",
+      "proxy": false,
+      "keyFunctions": ["execute", "collectRewards"],
+      "useCases": ["token-swaps", "nft-swaps", "cross-protocol-routing"]
+    },
+    "Quoter": {
+      "name": "Quoter",
+      "type": "utility",
+      "description": "Original quoter for estimating swap amounts and prices without executing trades",
+      "proxy": false,
+      "keyFunctions": [
+        "quoteExactInputSingle",
+        "quoteExactInput",
+        "quoteExactOutputSingle",
+        "quoteExactOutput"
+      ],
+      "useCases": ["price-estimation", "simulation"]
+    },
+    "QuoterV2": {
+      "name": "Quoter V2",
+      "type": "utility",
+      "description": "Enhanced quoter with improved gas estimation and additional functionality",
+      "proxy": false,
+      "keyFunctions": [
+        "quoteExactInputSingle",
+        "quoteExactInput",
+        "quoteExactOutputSingle",
+        "quoteExactOutput"
+      ],
+      "useCases": ["price-estimation", "simulation", "gas-estimation"]
+    },
+    "V3Migrator": {
+      "name": "V3 Migrator",
+      "type": "utility",
+      "description": "Utility contract for migrating liquidity from Uniswap V2 to V3",
+      "proxy": false,
+      "keyFunctions": ["migrate", "createAndInitializePoolIfNecessary"],
+      "useCases": ["liquidity-migration"]
+    },
+    "v3StakerAddress": {
+      "name": "V3 Staker",
+      "type": "utility",
+      "description": "Liquidity mining and staking rewards contract for V3 positions",
+      "proxy": false,
+      "keyFunctions": [
+        "createIncentive",
+        "stakeToken",
+        "unstakeToken",
+        "claimReward"
+      ],
+      "useCases": ["liquidity-mining", "incentives"]
+    },
+    "TickLens": {
+      "name": "Tick Lens",
+      "type": "utility",
+      "description": "Lens contract for querying tick data and liquidity information from pools",
+      "proxy": false,
+      "keyFunctions": ["getPopulatedTicksInWord"],
+      "useCases": ["tick-inspection", "liquidity-analysis"]
+    },
+    "Multicall": {
+      "name": "Multicall",
+      "type": "utility",
+      "description": "Batch call utility for executing multiple contract calls in a single transaction",
+      "proxy": false,
+      "keyFunctions": ["multicall"],
+      "useCases": ["batch-operations"]
+    },
+    "Multicall2": {
+      "name": "Multicall 2",
+      "type": "utility",
+      "description": "Enhanced multicall with additional features",
+      "proxy": false,
+      "keyFunctions": ["aggregate", "tryAggregate", "tryBlockAndAggregate"],
+      "useCases": ["batch-operations"]
+    },
+    "Permit2": {
+      "name": "Permit2",
+      "type": "utility",
+      "description": "Signature-based token approval standard for gasless approvals",
+      "proxy": false,
+      "keyFunctions": ["permit", "approve", "transferFrom"],
+      "useCases": ["token-approvals", "gasless-transactions"]
+    },
+    "NFTDescriptor": {
+      "name": "NFT Descriptor",
+      "type": "utility",
+      "description": "Library contract for generating on-chain NFT metadata",
+      "proxy": false,
+      "useCases": ["nft-metadata"]
+    },
+    "NonfungibleTokenPositionDescriptor": {
+      "name": "Nonfungible Token Position Descriptor",
+      "type": "utility",
+      "description": "Descriptor contract for rendering position NFT metadata and visuals",
+      "proxy": false,
+      "useCases": ["nft-visualization", "position-metadata"]
+    },
+    "ProxyAdmin": {
+      "name": "Proxy Admin",
+      "type": "governance",
+      "description": "OpenZeppelin proxy administration contract for managing upgradeable contracts",
+      "proxy": false,
+      "useCases": ["proxy-management", "upgrades"]
+    },
+    "TransparentUpgradeableProxy": {
+      "name": "Transparent Upgradeable Proxy",
+      "type": "governance",
+      "description": "OpenZeppelin transparent proxy pattern for upgradeable contracts",
+      "proxy": true,
+      "useCases": ["upgradeability"]
     }
   },
   "deployments": {
     "ethereum": {
       "chain": "ethereum",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "Multicall": "0x1F98415757620B543A52E61c46B32eB19261F984",
+        "Multicall2": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
+        "ProxyAdmin": "0xB753548F6E010e7e680BA186F9Ca1BdAB2E90cf2",
+        "TickLens": "0xbfd8137f7d1516D3ea5cA83523914859ec47F573",
+        "Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        "SwapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "NFTDescriptor": "0x42B24A95702b9986e82d421cC3568932790A48Ec",
+        "NonfungibleTokenPositionDescriptor": "0x91ae842A5Ffd8d12023116943e72A606179294f3",
+        "TransparentUpgradeableProxy": "0xEe6A57eC80ea46401049E92587E52f5Ec1c24785",
+        "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+        "V3Migrator": "0xA5644E29708357803b5A882D272c41cC0dF92B34",
+        "QuoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+        "SwapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+        "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/ethereum-deployments",
+      "updated": "2025-02-02"
     },
     "arbitrum": {
       "chain": "arbitrum",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "Multicall": "0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB",
+        "ProxyAdmin": "0xB753548F6E010e7e680BA186F9Ca1BdAB2E90cf2",
+        "TickLens": "0xbfd8137f7d1516D3ea5cA83523914859ec47F573",
+        "Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        "SwapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "NFTDescriptor": "0x42B24A95702b9986e82d421cC3568932790A48Ec",
+        "NonfungibleTokenPositionDescriptor": "0x91ae842A5Ffd8d12023116943e72A606179294f3",
+        "TransparentUpgradeableProxy": "0xEe6A57eC80ea46401049E92587E52f5Ec1c24785",
+        "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+        "V3Migrator": "0xA5644E29708357803b5A882D272c41cC0dF92B34",
+        "QuoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+        "SwapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0xa51afafe0263b40edaef0df8781ea9aa03e381a3",
+        "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/arbitrum-deployments",
+      "updated": "2025-02-02"
     },
-    "base": {
-      "chain": "base",
+    "optimism": {
+      "chain": "optimism",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "Multicall": "0x1F98415757620B543A52E61c46B32eB19261F984",
+        "TickLens": "0xbfd8137f7d1516D3ea5cA83523914859ec47F573",
+        "Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        "SwapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+        "QuoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+        "SwapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x851116d9223fabed8e56c0e6b8ad0c31d98b3507",
+        "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/optimism-deployments",
+      "updated": "2025-02-02"
     },
     "polygon": {
       "chain": "polygon",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "Multicall": "0x1F98415757620B543A52E61c46B32eB19261F984",
+        "ProxyAdmin": "0xB753548F6E010e7e680BA186F9Ca1BdAB2E90cf2",
+        "TickLens": "0xbfd8137f7d1516D3ea5cA83523914859ec47F573",
+        "Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+        "SwapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "NFTDescriptor": "0x42B24A95702b9986e82d421cC3568932790A48Ec",
+        "NonfungibleTokenPositionDescriptor": "0x91ae842A5Ffd8d12023116943e72A606179294f3",
+        "TransparentUpgradeableProxy": "0xEe6A57eC80ea46401049E92587E52f5Ec1c24785",
+        "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+        "V3Migrator": "0xA5644E29708357803b5A882D272c41cC0dF92B34",
+        "QuoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+        "SwapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x1095692A6237d83C6a72F3F5eFEdb9A670C49223",
+        "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "bob": {
-      "chain": "bob",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "plasma": {
-      "chain": "plasma",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "celo": {
-      "chain": "celo",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/polygon-deployments",
+      "updated": "2025-02-02"
     },
     "avalanche": {
       "chain": "avalanche",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD",
+        "Multicall": "0x0139141Cd4Ee88dF3Cdb65881D411bAE271Ef0C2",
+        "ProxyAdmin": "0x9AdA7D7879214073F40183F3410F2b3f088c6381",
+        "TickLens": "0xEB9fFC8bf81b4fFd11fb6A63a6B0f098c6e21950",
+        "NFTDescriptor": "0x27Dd7eE7fE723e83Bf3612a75a034951fe299E99",
+        "NonfungibleTokenPositionDescriptor": "0xe89B7C295d73FCCe88eF263F86e7310925DaEBAF",
+        "TransparentUpgradeableProxy": "0xE1f93a7cB6fFa2dB4F9d5A2FD43158A428993C09",
+        "NonfungiblePositionManager": "0x655C406EBFa14EE2006250925e54ec43AD184f8B",
+        "V3Migrator": "0x44f5f1f5E452ea8d29C890E8F6e893fC0f1f0f97",
+        "QuoterV2": "0xbe0F5544EC67e9B3b2D979aaA43f18Fd87E6257F",
+        "SwapRouter02": "0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x94b75331ae8d42c1b61065089b7d48fe14aa73b7",
+        "v3StakerAddress": "0xCA9D0668C600c4dd07ca54Be1615FE5CDFd76Ac3"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/avax-deployments",
+      "updated": "2025-02-02"
     },
-    "monad": {
-      "chain": "monad",
+    "base": {
+      "chain": "base",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+        "Multicall": "0x091e99cb1C49331a94dD62755D168E941AbD0693",
+        "ProxyAdmin": "0x3334d83e224aF5ef9C2E7DDA7c7C98Efd9621fA9",
+        "TickLens": "0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d",
+        "NFTDescriptor": "0xF9d1077fd35670d4ACbD27af82652a8d84577d9F",
+        "NonfungibleTokenPositionDescriptor": "0x4f225937EDc33EFD6109c4ceF7b560B2D6401009",
+        "TransparentUpgradeableProxy": "0x4615C383F85D0a2BbED973d83ccecf5CB7121463",
+        "NonfungiblePositionManager": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1",
+        "V3Migrator": "0x23cF10b1ee3AdfCA73B0eF17C07F7577e7ACd2d7",
+        "QuoterV2": "0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a",
+        "SwapRouter02": "0x2626664c2603336E57B271c5C0b26F421741e481",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x6fF5693b99212Da76ad316178A184AB56D299b43",
+        "v3StakerAddress": "0x42bE4D6527829FeFA1493e1fb9F3676d2425C3C1"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/base-deployments",
+      "updated": "2025-02-02"
     },
-    "world-chain": {
-      "chain": "world-chain",
+    "bsc": {
+      "chain": "bsc",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7",
+        "Multicall": "0x963Df249eD09c358A4819E39d9Cd5736c3087184",
+        "ProxyAdmin": "0xC9A7f5b73E853664044ab31936D0E6583d8b1c79",
+        "TickLens": "0xD9270014D396281579760619CCf4c3af0501A47C",
+        "NFTDescriptor": "0x831d93E55AF23A2977E4DA892d5005f4F2995071",
+        "NonfungibleTokenPositionDescriptor": "0x0281E98322e4e8E53491D576Ee6A2BFCE644C55C",
+        "TransparentUpgradeableProxy": "0xAec98e489AE35F243eB63452f6ad233A6c97eE97",
+        "NonfungiblePositionManager": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613",
+        "V3Migrator": "0x32681814957e0C13117ddc0c2aba232b5c9e760f",
+        "QuoterV2": "0x78D78E420Da98ad378D7799bE8f4AF69033EB077",
+        "SwapRouter02": "0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x1906c1d672b88cd1b9ac7593301ca990f94eae07",
+        "v3StakerAddress": "0x49B53C35AF9072fC71767577BF6380a88EE32C71"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "etherlink": {
-      "chain": "etherlink",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "xdc": {
-      "chain": "xdc",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "unichain": {
-      "chain": "unichain",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "mantle": {
-      "chain": "mantle",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "sonic": {
-      "chain": "sonic",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "sei": {
-      "chain": "sei",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31",
-      "platform": "cosmos"
-    },
-    "scroll": {
-      "chain": "scroll",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
-    },
-    "linea": {
-      "chain": "linea",
-      "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/bnb-deployments",
+      "updated": "2025-02-02"
     },
     "blast": {
       "chain": "blast",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x792edAdE80af5fC680d96a2eD80A44247D2Cf6Fd",
+        "Multicall": "0xdC7f370de7631cE9e2c2e1DCDA6B3B5744Cf4705",
+        "ProxyAdmin": "0x7C9cAa4ac84C8FAD8Bd504DBF90e791F91f41705",
+        "TickLens": "0x2E95185bCdD928a3e984B7e2D6560Ab1b17d7274",
+        "NFTDescriptor": "0xAa32bD3926097fd04d22b4433e9867417EE79333",
+        "NonfungibleTokenPositionDescriptor": "0x497089D9450BB58f536c38c1C0d0A37472303508",
+        "NonfungiblePositionManager": "0xB218e4f7cF0533d4696fDfC419A0023D33345F28",
+        "V3Migrator": "0x15CA7043CD84C5D21Ae76Ba0A1A967d42c40ecE0",
+        "QuoterV2": "0x6Cdcd65e03c1CEc3730AeeCd45bc140D57A25C77",
+        "SwapRouter02": "0x549FEB8c9bd4c12Ad2AB27022dA12492aC452B66",
+        "Permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+        "UniversalRouter": "0xeabbcb3e8e415306207ef514f660a3f820025be3",
+        "v3StakerAddress": "0xEcAF7c276f746170642e97De961f2f0361e1aCc8"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/blast-deployments",
+      "updated": "2025-02-02"
     },
-    "saga": {
-      "chain": "saga",
+    "celo": {
+      "chain": "celo",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0xAfE208a311B21f13EF87E33A90049fC17A7acDEc",
+        "Multicall2": "0x633987602DE5C4F337e3DbF265303A1080324204",
+        "TickLens": "0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D",
+        "NFTDescriptor": "0xa9Fd765d85938D278cb0b108DbE4BF7186831186",
+        "NonfungibleTokenPositionDescriptor": "0x644023b316bB65175C347DE903B60a756F6dd554",
+        "NonfungiblePositionManager": "0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A",
+        "V3Migrator": "0x3cFd4d48EDfDCC53D3f173F596f621064614C582",
+        "QuoterV2": "0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8",
+        "SwapRouter02": "0x5615CDAb10dc425a742d643d949a7F474C01abc4",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x643770E279d5D0733F21d6DC03A8efbABf3255B4",
+        "v3StakerAddress": "0x6586FB35393abF7Ff454977a9b3c912d218791C6"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31",
-      "platform": "cosmos"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/celo-deployments",
+      "updated": "2025-02-02"
     },
-    "manta": {
-      "chain": "manta",
+    "zksync-era": {
+      "chain": "zksync-era",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x8FdA5a7a8dCA67BBcDd10F02Fa0649A937215422",
+        "Multicall2": "0x0c68a7C72f074d1c45C16d41fa74eEbC6D16a65C",
+        "ProxyAdmin": "0xBb79274aD9C7f68A5B6a7E31F431175BB889b557",
+        "TickLens": "0xe10FF11b809f8EE07b056B452c3B2caa7FE24f89",
+        "NFTDescriptor": "0x7d67b8Ff4AbFfc020641F5e430fbeEd03897674d",
+        "NonfungibleTokenPositionDescriptor": "0xa819De78cAB1163F8605809392068EdE3BFcDd1E",
+        "TransparentUpgradeableProxy": "0xAeaBf2d69698C6810D2596fAE86099790A13Ee81",
+        "NonfungiblePositionManager": "0x0616e5762c1E7Dc3723c50663dF10a162D690a86",
+        "V3Migrator": "0x611841b24E43C4ACfd290B427a3D6cf1A59dac8E",
+        "QuoterV2": "0x8Cb537fc92E26d8EBBb760E632c95484b6Ea3e28",
+        "SwapRouter02": "0x99c56385daBCE3E81d8499d0b8d0257aBC07E8A3",
+        "Permit2": "0x0000000000225e31d15943971f47ad3022f714fa",
+        "UniversalRouter": "0x28731BCC616B5f51dD52CF2e4dF0E78dD1136C06",
+        "v3StakerAddress": "0xf84268FA8EB857c2e4298720C1C617178F5e78e1"
       },
-      "deploymentBlocks": {
-        "main": null
-      },
-      "verified": {
-        "main": false
-      },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/ZKsync-deployments",
+      "updated": "2025-02-02"
     },
-    "x-layer": {
-      "chain": "x-layer",
+    "unichain": {
+      "chain": "unichain",
       "addresses": {
-        "main": ""
+        "UniswapV3Factory": "0x1f98400000000000000000000000000000000003",
+        "Multicall": "0xb7610f9b733e7d45184be3a1bc966960ccc54f0b",
+        "TickLens": "0xd5d76fa166ab8d8ad4c9f61aaa81457b66cbe443",
+        "NFTDescriptor": "0x0dfa04b28ab68ffd0e6e17fac6ec16d4846a2004",
+        "NonfungiblePositionManager": "0x943e6e07a7e8e791dafc44083e54041d743c46e9",
+        "V3Migrator": "0xb9d0c246f306b1aaf02ae6ba112d5ef25e5b60dc",
+        "QuoterV2": "0x385a5cf5f83e99f7bb2852b6a19c3538b9fa7658",
+        "SwapRouter02": "0x73855d06de49d0fe4a9c42636ba96c62da12ff9c"
       },
-      "deploymentBlocks": {
-        "main": null
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/unichain-deployments",
+      "updated": "2025-02-02"
+    },
+    "monad": {
+      "chain": "monad",
+      "addresses": {
+        "UniswapV3Factory": "0x204faca1764b154221e35c0d20abb3c525710498",
+        "Multicall": "0xd1b797d92d87b688193a2b976efc8d577d204343",
+        "TickLens": "0xf025e0fe9e331a0ef05c2ad3c4e9c64b625cda6f",
+        "NFTDescriptor": "0x2e9d45bb7b30549f5216813ada9a6b7982c5b3ed",
+        "NonfungibleTokenPositionDescriptor": "0x315e413a11ab0df498ef83873012430ca36638ae",
+        "TransparentUpgradeableProxy": "0x63023c02f457a24594ad8fd411f56092179655e2",
+        "NonfungiblePositionManager": "0x7197e214c0b767cfb76fb734ab638e2c192f4e53",
+        "V3Migrator": "0x7078c4537c04c2b2e52ddba06074dbdacf23ca15",
+        "QuoterV2": "0x661e93cca42afacb172121ef892830ca3b70f08d",
+        "SwapRouter02": "0xfe31f71c1b106eac32f1a19239c9a9a72ddfb900",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x0d97dc33264bfc1c226207428a79b26757fb9dc3"
       },
-      "verified": {
-        "main": false
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/monad-deployments",
+      "updated": "2025-02-02"
+    },
+    "zora": {
+      "chain": "zora",
+      "addresses": {
+        "UniswapV3Factory": "0x7145F8aeef1f6510E92164038E1B6F8cB2c42Cbb",
+        "Multicall2": "0xA51c76bEE6746cB487a7e9312E43e2b8f4A37C15",
+        "TickLens": "0x209AAda09D74Ad3B8D0E92910Eaf85D2357e3044",
+        "NFTDescriptor": "0xffF2BffC03474F361B7f92cCfF2fD01CFBBDCdd1",
+        "NonfungiblePositionManager": "0xbC91e8DfA3fF18De43853372A3d7dfe585137D78",
+        "V3Migrator": "0x048352d8dCF13686982C799da63fA6426a9D0b60",
+        "QuoterV2": "0x11867e1b3348F3ce4FcC170BC5af3d23E07E64Df",
+        "SwapRouter02": "0x7De04c96BE5159c3b5CeffC82aa176dc81281557",
+        "Permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+        "UniversalRouter": "0x3315ef7ca28db74abadc6c44570efdf06b04b020",
+        "v3StakerAddress": "0x5eF5A6923d2f566F65f363b78EF7A88ab1E4206f"
       },
-      "source": [
-        "defillama"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/uniswap-v3",
-      "updated": "2025-01-31"
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/Zora-deployments",
+      "updated": "2025-02-02"
+    },
+    "world-chain": {
+      "chain": "world-chain",
+      "addresses": {
+        "UniswapV3Factory": "0x7a5028BDa40e7B173C278C5342087826455ea25a",
+        "Multicall2": "0x0a22c04215c97E3F532F4eF30e0aD9458792dAB9",
+        "ProxyAdmin": "0x8B52DaCB7B5d9A959CDcD5419061c0eDD1296c29",
+        "TickLens": "0xE61df0CaC9d85876aCE5E3037005D80943570623",
+        "TransparentUpgradeableProxy": "0xe6FcB4952b2d3Fab6DA4BC165831f5575e093feC",
+        "NonfungiblePositionManager": "0xec12a9F9a09f50550686363766Cc153D03c27b5e",
+        "V3Migrator": "0x9EBDdCBa71C9027E1eB45135672a30bcFEec9de3",
+        "QuoterV2": "0x10158D43e6cc414deE1Bd1eB0EfC6a5cBCfF244c",
+        "SwapRouter02": "0x091AD9e2e6e5eD44c1c66dB50e49A601F9f36cF6",
+        "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "UniversalRouter": "0x8ac7bee993bb44dab564ea4bc9ea67bf9eb5e743"
+      },
+      "verified": true,
+      "source": ["uniswap-docs"],
+      "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/WorldChain-deployments",
+      "updated": "2025-02-02"
     }
   }
 }

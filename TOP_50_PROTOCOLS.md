@@ -2,7 +2,7 @@
 
 **Goal:** Populate contract addresses for the top 50 DeFi protocols by TVL and importance.
 
-**Progress:** 6/50 (12%)
+**Progress:** 7/50 (14%)
 
 ---
 
@@ -13,13 +13,13 @@
 3. [x] **Morpho Blue** - Lending - 3 chains
 4. [x] **GMX V1** - Derivatives - 1 chain
 5. [x] **Jupiter** - DEX Aggregator - 1 chain (Solana)
+6. [x] **Lido** - Liquid Staking - 10 chains
+7. [x] **Uniswap V3** - DEX - 14 chains
 
 ---
 
 ## Tier 1: Multi-Billion TVL (Priority)
 
-6. [x] **Lido** - Liquid Staking - Ethereum, Polygon, Optimism, Arbitrum, Base
-7. [ ] **Uniswap V3** - DEX - Ethereum, Polygon, Arbitrum, Optimism, Base, BNB, Celo
 8. [ ] **Curve** - DEX - Ethereum, Polygon, Arbitrum, Optimism, Avalanche, Fantom
 9. [ ] **MakerDAO** - CDP - Ethereum
 10. [ ] **EigenLayer** - Restaking - Ethereum

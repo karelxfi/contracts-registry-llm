@@ -9582,14 +9582,23 @@
         "name": "Uniswap V3",
         "type": "dexs",
         "addresses": {
-          "main": ""
+          "UniswapV3Factory": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+          "Multicall": "0x091e99cb1C49331a94dD62755D168E941AbD0693",
+          "ProxyAdmin": "0x3334d83e224aF5ef9C2E7DDA7c7C98Efd9621fA9",
+          "TickLens": "0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d",
+          "NFTDescriptor": "0xF9d1077fd35670d4ACbD27af82652a8d84577d9F",
+          "NonfungibleTokenPositionDescriptor": "0x4f225937EDc33EFD6109c4ceF7b560B2D6401009",
+          "TransparentUpgradeableProxy": "0x4615C383F85D0a2BbED973d83ccecf5CB7121463",
+          "NonfungiblePositionManager": "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1",
+          "V3Migrator": "0x23cF10b1ee3AdfCA73B0eF17C07F7577e7ACd2d7",
+          "QuoterV2": "0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a",
+          "SwapRouter02": "0x2626664c2603336E57B271c5C0b26F421741e481",
+          "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+          "UniversalRouter": "0x6fF5693b99212Da76ad316178A184AB56D299b43",
+          "v3StakerAddress": "0x42bE4D6527829FeFA1493e1fb9F3676d2425C3C1"
         },
-        "deploymentBlocks": {
-          "main": null
-        },
-        "verified": {
-          "main": false
-        }
+        "deploymentBlocks": {},
+        "verified": true
       }
     },
     "uniswap-v4": {

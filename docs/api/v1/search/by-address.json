@@ -1493,6 +1493,1104 @@
     "contract": "main",
     "chain": "waves"
   },
+  "ethereum:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "ethereum"
+  },
+  "ethereum:0x1f98415757620b543a52e61c46b32eb19261f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "ethereum"
+  },
+  "ethereum:0x5ba1e12693dc8f9c48aad8770482f4739beed696": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall2",
+    "chain": "ethereum"
+  },
+  "ethereum:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "ethereum"
+  },
+  "ethereum:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "ethereum"
+  },
+  "ethereum:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Quoter",
+    "chain": "ethereum"
+  },
+  "ethereum:0xe592427a0aece92de3edee1f18e0157c05861564": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter",
+    "chain": "ethereum"
+  },
+  "ethereum:0x42b24a95702b9986e82d421cc3568932790a48ec": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "ethereum"
+  },
+  "ethereum:0x91ae842a5ffd8d12023116943e72a606179294f3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "ethereum"
+  },
+  "ethereum:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "ethereum"
+  },
+  "ethereum:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "ethereum"
+  },
+  "ethereum:0xa5644e29708357803b5a882d272c41cc0df92b34": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "ethereum"
+  },
+  "ethereum:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "ethereum"
+  },
+  "ethereum:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "ethereum"
+  },
+  "ethereum:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "ethereum"
+  },
+  "ethereum:0x66a9893cc07d91d95644aedd05d03f95e1dba8af": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "ethereum"
+  },
+  "ethereum:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "ethereum"
+  },
+  "arbitrum:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xadf885960b47ea2cd9b55e6dac6b42b7cb2806db": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Quoter",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xe592427a0aece92de3edee1f18e0157c05861564": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x42b24a95702b9986e82d421cc3568932790a48ec": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x91ae842a5ffd8d12023116943e72a606179294f3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xa5644e29708357803b5a882d272c41cc0df92b34": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xa51afafe0263b40edaef0df8781ea9aa03e381a3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "arbitrum"
+  },
+  "arbitrum:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "arbitrum"
+  },
+  "optimism:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "optimism"
+  },
+  "optimism:0x1f98415757620b543a52e61c46b32eb19261f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "optimism"
+  },
+  "optimism:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "optimism"
+  },
+  "optimism:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Quoter",
+    "chain": "optimism"
+  },
+  "optimism:0xe592427a0aece92de3edee1f18e0157c05861564": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter",
+    "chain": "optimism"
+  },
+  "optimism:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "optimism"
+  },
+  "optimism:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "optimism"
+  },
+  "optimism:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "optimism"
+  },
+  "optimism:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "optimism"
+  },
+  "optimism:0x851116d9223fabed8e56c0e6b8ad0c31d98b3507": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "optimism"
+  },
+  "optimism:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "optimism"
+  },
+  "polygon:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "polygon"
+  },
+  "polygon:0x1f98415757620b543a52e61c46b32eb19261f984": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "polygon"
+  },
+  "polygon:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "polygon"
+  },
+  "polygon:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "polygon"
+  },
+  "polygon:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Quoter",
+    "chain": "polygon"
+  },
+  "polygon:0xe592427a0aece92de3edee1f18e0157c05861564": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter",
+    "chain": "polygon"
+  },
+  "polygon:0x42b24a95702b9986e82d421cc3568932790a48ec": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "polygon"
+  },
+  "polygon:0x91ae842a5ffd8d12023116943e72a606179294f3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "polygon"
+  },
+  "polygon:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "polygon"
+  },
+  "polygon:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "polygon"
+  },
+  "polygon:0xa5644e29708357803b5a882d272c41cc0df92b34": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "polygon"
+  },
+  "polygon:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "polygon"
+  },
+  "polygon:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "polygon"
+  },
+  "polygon:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "polygon"
+  },
+  "polygon:0x1095692a6237d83c6a72f3f5efedb9a670c49223": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "polygon"
+  },
+  "polygon:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "polygon"
+  },
+  "avalanche:0x740b1c1de25031c31ff4fc9a62f554a55cdc1bad": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "avalanche"
+  },
+  "avalanche:0x0139141cd4ee88df3cdb65881d411bae271ef0c2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "avalanche"
+  },
+  "avalanche:0x9ada7d7879214073f40183f3410f2b3f088c6381": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "avalanche"
+  },
+  "avalanche:0xeb9ffc8bf81b4ffd11fb6a63a6b0f098c6e21950": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "avalanche"
+  },
+  "avalanche:0x27dd7ee7fe723e83bf3612a75a034951fe299e99": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "avalanche"
+  },
+  "avalanche:0xe89b7c295d73fcce88ef263f86e7310925daebaf": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "avalanche"
+  },
+  "avalanche:0xe1f93a7cb6ffa2db4f9d5a2fd43158a428993c09": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "avalanche"
+  },
+  "avalanche:0x655c406ebfa14ee2006250925e54ec43ad184f8b": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "avalanche"
+  },
+  "avalanche:0x44f5f1f5e452ea8d29c890e8f6e893fc0f1f0f97": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "avalanche"
+  },
+  "avalanche:0xbe0f5544ec67e9b3b2d979aaa43f18fd87e6257f": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "avalanche"
+  },
+  "avalanche:0xbb00ff08d01d300023c629e8ffffcb65a5a578ce": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "avalanche"
+  },
+  "avalanche:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "avalanche"
+  },
+  "avalanche:0x94b75331ae8d42c1b61065089b7d48fe14aa73b7": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "avalanche"
+  },
+  "avalanche:0xca9d0668c600c4dd07ca54be1615fe5cdfd76ac3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "avalanche"
+  },
+  "base:0x33128a8fc17869897dce68ed026d694621f6fdfd": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "base"
+  },
+  "base:0x091e99cb1c49331a94dd62755d168e941abd0693": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "base"
+  },
+  "base:0x3334d83e224af5ef9c2e7dda7c7c98efd9621fa9": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "base"
+  },
+  "base:0x0cdee061c75d43c82520ed998c23ac2991c9ac6d": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "base"
+  },
+  "base:0xf9d1077fd35670d4acbd27af82652a8d84577d9f": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "base"
+  },
+  "base:0x4f225937edc33efd6109c4cef7b560b2d6401009": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "base"
+  },
+  "base:0x4615c383f85d0a2bbed973d83ccecf5cb7121463": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "base"
+  },
+  "base:0x03a520b32c04bf3beef7beb72e919cf822ed34f1": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "base"
+  },
+  "base:0x23cf10b1ee3adfca73b0ef17c07f7577e7acd2d7": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "base"
+  },
+  "base:0x3d4e44eb1374240ce5f1b871ab261cd16335b76a": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "base"
+  },
+  "base:0x2626664c2603336e57b271c5c0b26f421741e481": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "base"
+  },
+  "base:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "base"
+  },
+  "base:0x6ff5693b99212da76ad316178a184ab56d299b43": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "base"
+  },
+  "base:0x42be4d6527829fefa1493e1fb9f3676d2425c3c1": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "base"
+  },
+  "bsc:0xdb1d10011ad0ff90774d0c6bb92e5c5c8b4461f7": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "bsc"
+  },
+  "bsc:0x963df249ed09c358a4819e39d9cd5736c3087184": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "bsc"
+  },
+  "bsc:0xc9a7f5b73e853664044ab31936d0e6583d8b1c79": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "bsc"
+  },
+  "bsc:0xd9270014d396281579760619ccf4c3af0501a47c": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "bsc"
+  },
+  "bsc:0x831d93e55af23a2977e4da892d5005f4f2995071": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "bsc"
+  },
+  "bsc:0x0281e98322e4e8e53491d576ee6a2bfce644c55c": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "bsc"
+  },
+  "bsc:0xaec98e489ae35f243eb63452f6ad233a6c97ee97": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "bsc"
+  },
+  "bsc:0x7b8a01b39d58278b5de7e48c8449c9f4f5170613": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "bsc"
+  },
+  "bsc:0x32681814957e0c13117ddc0c2aba232b5c9e760f": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "bsc"
+  },
+  "bsc:0x78d78e420da98ad378d7799be8f4af69033eb077": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "bsc"
+  },
+  "bsc:0xb971ef87ede563556b2ed4b1c0b0019111dd85d2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "bsc"
+  },
+  "bsc:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "bsc"
+  },
+  "bsc:0x1906c1d672b88cd1b9ac7593301ca990f94eae07": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "bsc"
+  },
+  "bsc:0x49b53c35af9072fc71767577bf6380a88ee32c71": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "bsc"
+  },
+  "blast:0x792edade80af5fc680d96a2ed80a44247d2cf6fd": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "blast"
+  },
+  "blast:0xdc7f370de7631ce9e2c2e1dcda6b3b5744cf4705": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "blast"
+  },
+  "blast:0x7c9caa4ac84c8fad8bd504dbf90e791f91f41705": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "blast"
+  },
+  "blast:0x2e95185bcdd928a3e984b7e2d6560ab1b17d7274": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "blast"
+  },
+  "blast:0xaa32bd3926097fd04d22b4433e9867417ee79333": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "blast"
+  },
+  "blast:0x497089d9450bb58f536c38c1c0d0a37472303508": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "blast"
+  },
+  "blast:0xb218e4f7cf0533d4696fdfc419a0023d33345f28": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "blast"
+  },
+  "blast:0x15ca7043cd84c5d21ae76ba0a1a967d42c40ece0": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "blast"
+  },
+  "blast:0x6cdcd65e03c1cec3730aeecd45bc140d57a25c77": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "blast"
+  },
+  "blast:0x549feb8c9bd4c12ad2ab27022da12492ac452b66": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "blast"
+  },
+  "blast:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "blast"
+  },
+  "blast:0xeabbcb3e8e415306207ef514f660a3f820025be3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "blast"
+  },
+  "blast:0xecaf7c276f746170642e97de961f2f0361e1acc8": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "blast"
+  },
+  "celo:0xafe208a311b21f13ef87e33a90049fc17a7acdec": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "celo"
+  },
+  "celo:0x633987602de5c4f337e3dbf265303a1080324204": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall2",
+    "chain": "celo"
+  },
+  "celo:0x5f115d9113f88e0a0db1b5033d90d4a9690acd3d": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "celo"
+  },
+  "celo:0xa9fd765d85938d278cb0b108dbe4bf7186831186": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "celo"
+  },
+  "celo:0x644023b316bb65175c347de903b60a756f6dd554": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "celo"
+  },
+  "celo:0x3d79edaabc0eab6f08ed885c05fc0b014290d95a": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "celo"
+  },
+  "celo:0x3cfd4d48edfdcc53d3f173f596f621064614c582": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "celo"
+  },
+  "celo:0x82825d0554fa07f7fc52ab63c961f330fdefa8e8": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "celo"
+  },
+  "celo:0x5615cdab10dc425a742d643d949a7f474c01abc4": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "celo"
+  },
+  "celo:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "celo"
+  },
+  "celo:0x643770e279d5d0733f21d6dc03a8efbabf3255b4": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "celo"
+  },
+  "celo:0x6586fb35393abf7ff454977a9b3c912d218791c6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "celo"
+  },
+  "zksync-era:0x8fda5a7a8dca67bbcdd10f02fa0649a937215422": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x0c68a7c72f074d1c45c16d41fa74eebc6d16a65c": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall2",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xbb79274ad9c7f68a5b6a7e31f431175bb889b557": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xe10ff11b809f8ee07b056b452c3b2caa7fe24f89": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x7d67b8ff4abffc020641f5e430fbeed03897674d": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xa819de78cab1163f8605809392068ede3bfcdd1e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xaeabf2d69698c6810d2596fae86099790a13ee81": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x0616e5762c1e7dc3723c50663df10a162d690a86": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x611841b24e43c4acfd290b427a3d6cf1a59dac8e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x8cb537fc92e26d8ebbb760e632c95484b6ea3e28": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x99c56385dabce3e81d8499d0b8d0257abc07e8a3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x0000000000225e31d15943971f47ad3022f714fa": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0x28731bcc616b5f51dd52cf2e4df0e78dd1136c06": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "zksync-era"
+  },
+  "zksync-era:0xf84268fa8eb857c2e4298720c1c617178f5e78e1": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "zksync-era"
+  },
+  "unichain:0x1f98400000000000000000000000000000000003": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "unichain"
+  },
+  "unichain:0xb7610f9b733e7d45184be3a1bc966960ccc54f0b": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "unichain"
+  },
+  "unichain:0xd5d76fa166ab8d8ad4c9f61aaa81457b66cbe443": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "unichain"
+  },
+  "unichain:0x0dfa04b28ab68ffd0e6e17fac6ec16d4846a2004": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "unichain"
+  },
+  "unichain:0x943e6e07a7e8e791dafc44083e54041d743c46e9": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "unichain"
+  },
+  "unichain:0xb9d0c246f306b1aaf02ae6ba112d5ef25e5b60dc": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "unichain"
+  },
+  "unichain:0x385a5cf5f83e99f7bb2852b6a19c3538b9fa7658": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "unichain"
+  },
+  "unichain:0x73855d06de49d0fe4a9c42636ba96c62da12ff9c": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "unichain"
+  },
+  "monad:0x204faca1764b154221e35c0d20abb3c525710498": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "monad"
+  },
+  "monad:0xd1b797d92d87b688193a2b976efc8d577d204343": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall",
+    "chain": "monad"
+  },
+  "monad:0xf025e0fe9e331a0ef05c2ad3c4e9c64b625cda6f": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "monad"
+  },
+  "monad:0x2e9d45bb7b30549f5216813ada9a6b7982c5b3ed": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "monad"
+  },
+  "monad:0x315e413a11ab0df498ef83873012430ca36638ae": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungibleTokenPositionDescriptor",
+    "chain": "monad"
+  },
+  "monad:0x63023c02f457a24594ad8fd411f56092179655e2": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "monad"
+  },
+  "monad:0x7197e214c0b767cfb76fb734ab638e2c192f4e53": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "monad"
+  },
+  "monad:0x7078c4537c04c2b2e52ddba06074dbdacf23ca15": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "monad"
+  },
+  "monad:0x661e93cca42afacb172121ef892830ca3b70f08d": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "monad"
+  },
+  "monad:0xfe31f71c1b106eac32f1a19239c9a9a72ddfb900": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "monad"
+  },
+  "monad:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "monad"
+  },
+  "monad:0x0d97dc33264bfc1c226207428a79b26757fb9dc3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "monad"
+  },
+  "zora:0x7145f8aeef1f6510e92164038e1b6f8cb2c42cbb": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "zora"
+  },
+  "zora:0xa51c76bee6746cb487a7e9312e43e2b8f4a37c15": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall2",
+    "chain": "zora"
+  },
+  "zora:0x209aada09d74ad3b8d0e92910eaf85d2357e3044": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "zora"
+  },
+  "zora:0xfff2bffc03474f361b7f92ccff2fd01cfbbdcdd1": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NFTDescriptor",
+    "chain": "zora"
+  },
+  "zora:0xbc91e8dfa3ff18de43853372a3d7dfe585137d78": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "zora"
+  },
+  "zora:0x048352d8dcf13686982c799da63fa6426a9d0b60": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "zora"
+  },
+  "zora:0x11867e1b3348f3ce4fcc170bc5af3d23e07e64df": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "zora"
+  },
+  "zora:0x7de04c96be5159c3b5ceffc82aa176dc81281557": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "zora"
+  },
+  "zora:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "zora"
+  },
+  "zora:0x3315ef7ca28db74abadc6c44570efdf06b04b020": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "zora"
+  },
+  "zora:0x5ef5a6923d2f566f65f363b78ef7a88ab1e4206f": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "v3StakerAddress",
+    "chain": "zora"
+  },
+  "world-chain:0x7a5028bda40e7b173c278c5342087826455ea25a": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniswapV3Factory",
+    "chain": "world-chain"
+  },
+  "world-chain:0x0a22c04215c97e3f532f4ef30e0ad9458792dab9": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Multicall2",
+    "chain": "world-chain"
+  },
+  "world-chain:0x8b52dacb7b5d9a959cdcd5419061c0edd1296c29": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "ProxyAdmin",
+    "chain": "world-chain"
+  },
+  "world-chain:0xe61df0cac9d85876ace5e3037005d80943570623": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TickLens",
+    "chain": "world-chain"
+  },
+  "world-chain:0xe6fcb4952b2d3fab6da4bc165831f5575e093fec": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "TransparentUpgradeableProxy",
+    "chain": "world-chain"
+  },
+  "world-chain:0xec12a9f9a09f50550686363766cc153d03c27b5e": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "NonfungiblePositionManager",
+    "chain": "world-chain"
+  },
+  "world-chain:0x9ebddcba71c9027e1eb45135672a30bcfeec9de3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "V3Migrator",
+    "chain": "world-chain"
+  },
+  "world-chain:0x10158d43e6cc414dee1bd1eb0efc6a5cbcff244c": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "QuoterV2",
+    "chain": "world-chain"
+  },
+  "world-chain:0x091ad9e2e6e5ed44c1c66db50e49a601f9f36cf6": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "SwapRouter02",
+    "chain": "world-chain"
+  },
+  "world-chain:0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "Permit2",
+    "chain": "world-chain"
+  },
+  "world-chain:0x8ac7bee993bb44dab564ea4bc9ea67bf9eb5e743": {
+    "protocol": "uniswap-v3",
+    "version": "uniswap-v3",
+    "contract": "UniversalRouter",
+    "chain": "world-chain"
+  },
   "verus:": {
     "protocol": "verus-market",
     "version": "verus-market",

@@ -107,6 +107,31 @@
           "status": "complete",
           "contractCount": 10,
           "lastUpdated": "2025-02-02"
+        },
+        {
+          "id": "uniswap-v3",
+          "name": "Uniswap V3",
+          "type": "dexs",
+          "chains": [
+            "ethereum",
+            "arbitrum",
+            "optimism",
+            "polygon",
+            "avalanche",
+            "base",
+            "bsc",
+            "blast",
+            "celo",
+            "zksync-era",
+            "unichain",
+            "monad",
+            "zora",
+            "world-chain"
+          ],
+          "chainCount": 14,
+          "status": "complete",
+          "contractCount": 17,
+          "lastUpdated": "2025-02-02"
         }
       ],
       "partial": [],
@@ -676,28 +701,49 @@
           "bsc"
         ],
         "chainCount": 10
+      },
+      {
+        "id": "uniswap-v3",
+        "name": "Uniswap V3",
+        "chains": [
+          "ethereum",
+          "arbitrum",
+          "optimism",
+          "polygon",
+          "avalanche",
+          "base",
+          "bsc",
+          "blast",
+          "celo",
+          "zksync-era",
+          "unichain",
+          "monad",
+          "zora",
+          "world-chain"
+        ],
+        "chainCount": 14
       }
     ],
     "top-chains-by-protocol-count": [
       {
         "chain": "ethereum",
-        "protocolCount": 1670
+        "protocolCount": 1669
       },
       {
         "chain": "arbitrum",
-        "protocolCount": 941
+        "protocolCount": 940
       },
       {
         "chain": "base",
-        "protocolCount": 697
+        "protocolCount": 696
       },
       {
         "chain": "polygon",
-        "protocolCount": 695
+        "protocolCount": 694
       },
       {
         "chain": "avalanche",
-        "protocolCount": 534
+        "protocolCount": 533
       },
       {
         "chain": "solana",
@@ -705,19 +751,19 @@
       },
       {
         "chain": "sonic",
-        "protocolCount": 170
-      },
-      {
-        "chain": "linea",
-        "protocolCount": 160
+        "protocolCount": 169
       },
       {
         "chain": "bitcoin",
         "protocolCount": 159
       },
       {
+        "chain": "linea",
+        "protocolCount": 159
+      },
+      {
         "chain": "blast",
-        "protocolCount": 157
+        "protocolCount": 156
       },
       {
         "chain": "kava",
@@ -725,11 +771,11 @@
       },
       {
         "chain": "scroll",
-        "protocolCount": 137
+        "protocolCount": 136
       },
       {
         "chain": "mantle",
-        "protocolCount": 136
+        "protocolCount": 135
       },
       {
         "chain": "cronos",

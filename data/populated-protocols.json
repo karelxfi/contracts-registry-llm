@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "updated": "2025-02-02",
   "totalProtocols": 4442,
-  "populatedProtocols": 6,
+  "populatedProtocols": 7,
   "populatedList": [
     {
       "id": "aave-v2",
@@ -94,41 +94,72 @@
       "status": "complete",
       "contractCount": 10,
       "lastUpdated": "2025-02-02"
+    },
+    {
+      "id": "uniswap-v3",
+      "name": "Uniswap V3",
+      "type": "dexs",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "bsc",
+        "blast",
+        "celo",
+        "zksync-era",
+        "unichain",
+        "monad",
+        "zora",
+        "world-chain"
+      ],
+      "chainCount": 14,
+      "status": "complete",
+      "contractCount": 17,
+      "lastUpdated": "2025-02-02"
     }
   ],
   "byChain": {
-    "ethereum": ["aave-v2", "aave-v3", "morpho-blue", "lido"],
-    "polygon": ["aave-v2", "aave-v3", "lido"],
-    "avalanche": ["aave-v2", "aave-v3"],
-    "arbitrum": ["aave-v3", "lido"],
+    "ethereum": ["aave-v2", "aave-v3", "morpho-blue", "lido", "uniswap-v3"],
+    "polygon": ["aave-v2", "aave-v3", "lido", "uniswap-v3"],
+    "avalanche": ["aave-v2", "aave-v3", "uniswap-v3"],
+    "arbitrum": ["aave-v3", "lido", "uniswap-v3"],
     "arbitrum-one": ["gmx-v1", "morpho-blue"],
-    "base": ["aave-v3", "morpho-blue", "lido"],
-    "optimism": ["aave-v3", "lido"],
+    "base": ["aave-v3", "morpho-blue", "lido", "uniswap-v3"],
+    "optimism": ["aave-v3", "lido", "uniswap-v3"],
     "gnosis": ["aave-v3"],
-    "bsc": ["aave-v3", "lido"],
+    "bsc": ["aave-v3", "lido", "uniswap-v3"],
     "scroll": ["aave-v3", "lido"],
     "metis": ["aave-v3"],
-    "zksync-era": ["aave-v3", "lido"],
+    "zksync-era": ["aave-v3", "lido", "uniswap-v3"],
     "linea": ["aave-v3", "lido"],
     "fantom": ["aave-v3"],
     "harmony": ["aave-v3"],
-    "celo": ["aave-v3"],
+    "celo": ["aave-v3", "uniswap-v3"],
     "sonic": ["aave-v3"],
     "soneium": ["aave-v3"],
     "mantle": ["aave-v3", "lido"],
     "plasma": ["aave-v3"],
-    "solana": ["jupiter"]
+    "solana": ["jupiter"],
+    "blast": ["uniswap-v3"],
+    "unichain": ["uniswap-v3"],
+    "monad": ["uniswap-v3"],
+    "zora": ["uniswap-v3"],
+    "world-chain": ["uniswap-v3"]
   },
   "byType": {
     "lending": ["aave-v2", "aave-v3", "morpho-blue"],
     "perpetuals": ["gmx-v1"],
     "dex-aggregator": ["jupiter"],
-    "liquid-staking": ["lido"]
+    "liquid-staking": ["lido"],
+    "dexs": ["uniswap-v3"]
   },
   "completionStats": {
-    "complete": 6,
+    "complete": 7,
     "partial": 0,
-    "placeholder": 4436,
-    "completionPercentage": 0.14
+    "placeholder": 4435,
+    "completionPercentage": 0.16
   }
 }

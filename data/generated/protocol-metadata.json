@@ -107422,43 +107422,241 @@
       "id": "uniswap-v3",
       "name": "Uniswap V3",
       "type": "dexs",
-      "website": "https://app.uniswap.org/",
-      "github": "",
-      "docs": "",
-      "tags": [
-        "dexs",
-        "ethereum",
-        "arbitrum",
-        "base",
-        "polygon",
-        "bob",
-        "plasma",
-        "celo",
-        "avalanche",
-        "monad",
-        "world-chain",
-        "etherlink",
-        "xdc",
-        "unichain",
-        "mantle",
-        "sonic",
-        "sei",
-        "scroll",
-        "linea",
-        "blast",
-        "saga",
-        "manta",
-        "x-layer"
-      ],
+      "website": "https://uniswap.org",
+      "github": "https://github.com/Uniswap",
+      "docs": "https://docs.uniswap.org",
       "contracts": {
-        "main": {
-          "name": "Uniswap V3 Main Contract",
+        "UniswapV3Factory": {
+          "name": "Uniswap V3 Factory",
           "type": "core",
-          "description": "Main contract for Uniswap V3",
+          "description": "Core factory contract for creating Uniswap V3 liquidity pools",
           "proxy": false,
-          "keyEvents": [],
-          "keyFunctions": [],
-          "useCases": []
+          "keyFunctions": [
+            "createPool",
+            "enableFeeAmount",
+            "setOwner"
+          ],
+          "useCases": [
+            "pool-creation",
+            "fee-configuration"
+          ]
+        },
+        "NonfungiblePositionManager": {
+          "name": "Nonfungible Position Manager",
+          "type": "core",
+          "description": "Manages liquidity positions as NFTs, allowing minting, increasing, decreasing, and collecting fees",
+          "proxy": false,
+          "keyFunctions": [
+            "mint",
+            "increaseLiquidity",
+            "decreaseLiquidity",
+            "collect",
+            "burn"
+          ],
+          "useCases": [
+            "liquidity-management",
+            "position-tracking"
+          ]
+        },
+        "SwapRouter": {
+          "name": "Swap Router",
+          "type": "core",
+          "description": "Original router for executing token swaps on Uniswap V3 pools",
+          "proxy": false,
+          "keyFunctions": [
+            "exactInputSingle",
+            "exactInput",
+            "exactOutputSingle",
+            "exactOutput"
+          ],
+          "useCases": [
+            "token-swaps"
+          ]
+        },
+        "SwapRouter02": {
+          "name": "Swap Router 02",
+          "type": "core",
+          "description": "Enhanced swap router with additional features and gas optimizations",
+          "proxy": false,
+          "keyFunctions": [
+            "exactInputSingle",
+            "exactInput",
+            "exactOutputSingle",
+            "exactOutput"
+          ],
+          "useCases": [
+            "token-swaps",
+            "multi-hop-swaps"
+          ]
+        },
+        "UniversalRouter": {
+          "name": "Universal Router",
+          "type": "core",
+          "description": "Current preferred entrypoint for ERC20 and NFT swaps with support for multiple protocols",
+          "proxy": false,
+          "keyFunctions": [
+            "execute",
+            "collectRewards"
+          ],
+          "useCases": [
+            "token-swaps",
+            "nft-swaps",
+            "cross-protocol-routing"
+          ]
+        },
+        "Quoter": {
+          "name": "Quoter",
+          "type": "utility",
+          "description": "Original quoter for estimating swap amounts and prices without executing trades",
+          "proxy": false,
+          "keyFunctions": [
+            "quoteExactInputSingle",
+            "quoteExactInput",
+            "quoteExactOutputSingle",
+            "quoteExactOutput"
+          ],
+          "useCases": [
+            "price-estimation",
+            "simulation"
+          ]
+        },
+        "QuoterV2": {
+          "name": "Quoter V2",
+          "type": "utility",
+          "description": "Enhanced quoter with improved gas estimation and additional functionality",
+          "proxy": false,
+          "keyFunctions": [
+            "quoteExactInputSingle",
+            "quoteExactInput",
+            "quoteExactOutputSingle",
+            "quoteExactOutput"
+          ],
+          "useCases": [
+            "price-estimation",
+            "simulation",
+            "gas-estimation"
+          ]
+        },
+        "V3Migrator": {
+          "name": "V3 Migrator",
+          "type": "utility",
+          "description": "Utility contract for migrating liquidity from Uniswap V2 to V3",
+          "proxy": false,
+          "keyFunctions": [
+            "migrate",
+            "createAndInitializePoolIfNecessary"
+          ],
+          "useCases": [
+            "liquidity-migration"
+          ]
+        },
+        "v3StakerAddress": {
+          "name": "V3 Staker",
+          "type": "utility",
+          "description": "Liquidity mining and staking rewards contract for V3 positions",
+          "proxy": false,
+          "keyFunctions": [
+            "createIncentive",
+            "stakeToken",
+            "unstakeToken",
+            "claimReward"
+          ],
+          "useCases": [
+            "liquidity-mining",
+            "incentives"
+          ]
+        },
+        "TickLens": {
+          "name": "Tick Lens",
+          "type": "utility",
+          "description": "Lens contract for querying tick data and liquidity information from pools",
+          "proxy": false,
+          "keyFunctions": [
+            "getPopulatedTicksInWord"
+          ],
+          "useCases": [
+            "tick-inspection",
+            "liquidity-analysis"
+          ]
+        },
+        "Multicall": {
+          "name": "Multicall",
+          "type": "utility",
+          "description": "Batch call utility for executing multiple contract calls in a single transaction",
+          "proxy": false,
+          "keyFunctions": [
+            "multicall"
+          ],
+          "useCases": [
+            "batch-operations"
+          ]
+        },
+        "Multicall2": {
+          "name": "Multicall 2",
+          "type": "utility",
+          "description": "Enhanced multicall with additional features",
+          "proxy": false,
+          "keyFunctions": [
+            "aggregate",
+            "tryAggregate",
+            "tryBlockAndAggregate"
+          ],
+          "useCases": [
+            "batch-operations"
+          ]
+        },
+        "Permit2": {
+          "name": "Permit2",
+          "type": "utility",
+          "description": "Signature-based token approval standard for gasless approvals",
+          "proxy": false,
+          "keyFunctions": [
+            "permit",
+            "approve",
+            "transferFrom"
+          ],
+          "useCases": [
+            "token-approvals",
+            "gasless-transactions"
+          ]
+        },
+        "NFTDescriptor": {
+          "name": "NFT Descriptor",
+          "type": "utility",
+          "description": "Library contract for generating on-chain NFT metadata",
+          "proxy": false,
+          "useCases": [
+            "nft-metadata"
+          ]
+        },
+        "NonfungibleTokenPositionDescriptor": {
+          "name": "Nonfungible Token Position Descriptor",
+          "type": "utility",
+          "description": "Descriptor contract for rendering position NFT metadata and visuals",
+          "proxy": false,
+          "useCases": [
+            "nft-visualization",
+            "position-metadata"
+          ]
+        },
+        "ProxyAdmin": {
+          "name": "Proxy Admin",
+          "type": "governance",
+          "description": "OpenZeppelin proxy administration contract for managing upgradeable contracts",
+          "proxy": false,
+          "useCases": [
+            "proxy-management",
+            "upgrades"
+          ]
+        },
+        "TransparentUpgradeableProxy": {
+          "name": "Transparent Upgradeable Proxy",
+          "type": "governance",
+          "description": "OpenZeppelin transparent proxy pattern for upgradeable contracts",
+          "proxy": true,
+          "useCases": [
+            "upgradeability"
+          ]
         }
       }
     }

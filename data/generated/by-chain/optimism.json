@@ -73,6 +73,27 @@
           "ldoToken": true
         }
       }
+    },
+    "uniswap-v3": {
+      "uniswap-v3": {
+        "name": "Uniswap V3",
+        "type": "dexs",
+        "addresses": {
+          "UniswapV3Factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+          "Multicall": "0x1F98415757620B543A52E61c46B32eB19261F984",
+          "TickLens": "0xbfd8137f7d1516D3ea5cA83523914859ec47F573",
+          "Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6",
+          "SwapRouter": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+          "NonfungiblePositionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+          "QuoterV2": "0x61fFE014bA17989E743c5F6cB21bF9697530B21e",
+          "SwapRouter02": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+          "Permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+          "UniversalRouter": "0x851116d9223fabed8e56c0e6b8ad0c31d98b3507",
+          "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
+        },
+        "deploymentBlocks": {},
+        "verified": true
+      }
     }
   }
 }
