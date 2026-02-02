@@ -3393,59 +3393,6 @@
         }
       }
     },
-    "lido": {
-      "lido": {
-        "name": "Lido",
-        "contracts": {
-          "main": {
-            "name": "Lido Main Contract",
-            "type": "core",
-            "description": "Main contract for Lido",
-            "proxy": false,
-            "keyEvents": [],
-            "keyFunctions": [],
-            "useCases": []
-          }
-        },
-        "deployments": {
-          "ethereum": {
-            "chain": "ethereum",
-            "addresses": {
-              "main": ""
-            },
-            "deploymentBlocks": {
-              "main": null
-            },
-            "verified": {
-              "main": false
-            },
-            "source": [
-              "defillama"
-            ],
-            "sourceUrl": "https://defillama.com/protocol/lido",
-            "updated": "2025-01-31"
-          },
-          "solana": {
-            "chain": "solana",
-            "addresses": {
-              "main": ""
-            },
-            "deploymentBlocks": {
-              "main": null
-            },
-            "verified": {
-              "main": false
-            },
-            "source": [
-              "defillama"
-            ],
-            "sourceUrl": "https://defillama.com/protocol/lido",
-            "updated": "2025-01-31",
-            "platform": "svm"
-          }
-        }
-      }
-    },
     "lido-impact-staking": {
       "lido-impact-staking": {
         "name": "Lido Impact Staking",

@@ -56,6 +56,19 @@
           "collector": true
         }
       }
+    },
+    "lido": {
+      "lido": {
+        "name": "Lido",
+        "type": "liquid-staking",
+        "addresses": {
+          "wstETH": "0x703b52F2b28fEbcB60E1372858AF5b18849FE867"
+        },
+        "deploymentBlocks": {},
+        "verified": {
+          "wstETH": true
+        }
+      }
     }
   }
 }

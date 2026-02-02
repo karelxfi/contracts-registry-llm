@@ -1,63 +1,321 @@
 {
   "id": "lido",
   "name": "Lido",
-  "type": "liquid staking",
-  "website": "https://lido.fi/",
-  "github": [
-    "lidofinance"
-  ],
-  "docs": "",
-  "tags": [
-    "liquid staking",
-    "ethereum",
-    "solana"
-  ],
+  "type": "liquid-staking",
+  "website": "https://lido.fi",
+  "github": "https://github.com/lidofinance",
+  "docs": "https://docs.lido.fi",
+  "description": "Liquid staking protocol for Ethereum, allowing users to stake ETH and receive stETH tokens representing their staked position",
+  "status": "complete",
   "contracts": {
-    "main": {
-      "name": "Lido Main Contract",
+    "stETH": {
+      "name": "stETH (Lido Token)",
       "type": "core",
-      "description": "Main contract for Lido",
+      "description": "Main liquid staking token representing staked ETH with rebasing functionality",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [
+        "submit",
+        "withdraw",
+        "transfer"
+      ],
+      "useCases": [
+        "liquid-staking",
+        "defi-collateral"
+      ]
+    },
+    "wstETH": {
+      "name": "Wrapped stETH",
+      "type": "core",
+      "description": "Non-rebasing wrapped version of stETH for DeFi integration",
       "proxy": false,
       "keyEvents": [],
+      "keyFunctions": [
+        "wrap",
+        "unwrap"
+      ],
+      "useCases": [
+        "defi-collateral",
+        "bridging"
+      ]
+    },
+    "withdrawalQueue": {
+      "name": "Withdrawal Queue ERC721",
+      "type": "core",
+      "description": "Manages ETH withdrawal requests as NFTs",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [
+        "requestWithdrawals",
+        "claimWithdrawals"
+      ],
+      "useCases": [
+        "withdrawals"
+      ]
+    },
+    "stakingRouter": {
+      "name": "Staking Router",
+      "type": "core",
+      "description": "Routes user deposits to different staking modules",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [
+        "deposit"
+      ],
+      "useCases": [
+        "staking"
+      ]
+    },
+    "accounting": {
+      "name": "Accounting",
+      "type": "core",
+      "description": "Tracks staking balance updates and protocol accounting",
+      "proxy": true,
+      "keyEvents": [],
       "keyFunctions": [],
-      "useCases": []
+      "useCases": [
+        "accounting"
+      ]
+    },
+    "accountingOracle": {
+      "name": "Accounting Oracle",
+      "type": "oracle",
+      "description": "Reports account balances and validator states from Beacon Chain",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [
+        "submitReportData"
+      ],
+      "useCases": [
+        "oracle"
+      ]
+    },
+    "nodeOperatorsRegistry": {
+      "name": "Node Operators Registry",
+      "type": "registry",
+      "description": "Manages curated/vetted node operators",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [
+        "addNodeOperator",
+        "setNodeOperatorStakingLimit"
+      ],
+      "useCases": [
+        "governance"
+      ]
+    },
+    "ldoToken": {
+      "name": "LDO Token",
+      "type": "governance",
+      "description": "Lido DAO governance token",
+      "proxy": false,
+      "keyEvents": [],
+      "keyFunctions": [
+        "transfer",
+        "approve"
+      ],
+      "useCases": [
+        "governance"
+      ]
+    },
+    "lidoLocator": {
+      "name": "Lido Locator",
+      "type": "registry",
+      "description": "Registry for protocol contract addresses",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": [
+        "registry"
+      ]
+    },
+    "withdrawalVault": {
+      "name": "Withdrawal Vault",
+      "type": "vault",
+      "description": "Collects withdrawals from Beacon Chain",
+      "proxy": true,
+      "keyEvents": [],
+      "keyFunctions": [],
+      "useCases": [
+        "withdrawals"
+      ]
     }
   },
   "deployments": {
     "ethereum": {
       "chain": "ethereum",
       "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
+        "stETH": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "wstETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "withdrawalQueue": "0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+        "stakingRouter": "0xFdDf38947aFB03C621C71B06C9C70bce73f12999",
+        "accounting": "0x23ED611be0e1a820978875C0122F92260804cdDf",
+        "accountingOracle": "0x852deD011285fe67063a08005c71a85690503Cee",
+        "nodeOperatorsRegistry": "0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5",
+        "ldoToken": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "lidoLocator": "0xC1d0b3DE6792Bf6b4b37EccdcC24e45978Cfd2Eb",
+        "withdrawalVault": "0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f"
       },
       "verified": {
-        "main": false
+        "stETH": true,
+        "wstETH": true,
+        "withdrawalQueue": true,
+        "stakingRouter": true,
+        "accounting": true,
+        "accountingOracle": true,
+        "nodeOperatorsRegistry": true,
+        "ldoToken": true,
+        "lidoLocator": true,
+        "withdrawalVault": true
       },
+      "deploymentBlocks": {},
       "source": [
-        "defillama"
+        "lido-docs",
+        "lido-github"
       ],
-      "sourceUrl": "https://defillama.com/protocol/lido",
-      "updated": "2025-01-31"
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
     },
-    "solana": {
-      "chain": "solana",
+    "arbitrum": {
+      "chain": "arbitrum",
       "addresses": {
-        "main": ""
-      },
-      "deploymentBlocks": {
-        "main": null
+        "wstETH": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "ldoToken": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
       },
       "verified": {
-        "main": false
+        "wstETH": true,
+        "ldoToken": true
       },
+      "deploymentBlocks": {},
       "source": [
-        "defillama"
+        "lido-docs"
       ],
-      "sourceUrl": "https://defillama.com/protocol/lido",
-      "updated": "2025-01-31",
-      "platform": "svm"
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "optimism": {
+      "chain": "optimism",
+      "addresses": {
+        "wstETH": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+        "stETH": "0x76A50b8c7349cCDDb7578c6627e79b5d99D24138",
+        "ldoToken": "0xFdb794692724153d1488CcdBE0C56c252596735F"
+      },
+      "verified": {
+        "wstETH": true,
+        "stETH": true,
+        "ldoToken": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "base": {
+      "chain": "base",
+      "addresses": {
+        "wstETH": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "addresses": {
+        "wstETH": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "zksync-era": {
+      "chain": "zksync-era",
+      "addresses": {
+        "wstETH": "0x703b52F2b28fEbcB60E1372858AF5b18849FE867"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "mantle": {
+      "chain": "mantle",
+      "addresses": {
+        "wstETH": "0x458ed78EB972a369799fb278c0243b25e5242A83"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "linea": {
+      "chain": "linea",
+      "addresses": {
+        "wstETH": "0xB5beDd42000b71FddE22D3eE8a79Bd49A568fC8F"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "addresses": {
+        "wstETH": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
+    },
+    "bsc": {
+      "chain": "bsc",
+      "addresses": {
+        "wstETH": "0x26c5e01524d2E6280A48F2c50fF6De7e52E9611C"
+      },
+      "verified": {
+        "wstETH": true
+      },
+      "deploymentBlocks": {},
+      "source": [
+        "lido-docs"
+      ],
+      "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
+      "updated": "2025-02-02"
     }
   }
 }

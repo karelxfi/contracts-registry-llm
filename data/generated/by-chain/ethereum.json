@@ -11835,15 +11835,31 @@
     "lido": {
       "lido": {
         "name": "Lido",
-        "type": "liquid staking",
+        "type": "liquid-staking",
         "addresses": {
-          "main": ""
+          "stETH": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+          "wstETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "withdrawalQueue": "0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+          "stakingRouter": "0xFdDf38947aFB03C621C71B06C9C70bce73f12999",
+          "accounting": "0x23ED611be0e1a820978875C0122F92260804cdDf",
+          "accountingOracle": "0x852deD011285fe67063a08005c71a85690503Cee",
+          "nodeOperatorsRegistry": "0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5",
+          "ldoToken": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+          "lidoLocator": "0xC1d0b3DE6792Bf6b4b37EccdcC24e45978Cfd2Eb",
+          "withdrawalVault": "0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f"
         },
-        "deploymentBlocks": {
-          "main": null
-        },
+        "deploymentBlocks": {},
         "verified": {
-          "main": false
+          "stETH": true,
+          "wstETH": true,
+          "withdrawalQueue": true,
+          "stakingRouter": true,
+          "accounting": true,
+          "accountingOracle": true,
+          "nodeOperatorsRegistry": true,
+          "ldoToken": true,
+          "lidoLocator": true,
+          "withdrawalVault": true
         }
       }
     },

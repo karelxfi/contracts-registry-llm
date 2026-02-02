@@ -56901,26 +56901,142 @@
     "lido": {
       "id": "lido",
       "name": "Lido",
-      "type": "liquid staking",
-      "website": "https://lido.fi/",
-      "github": [
-        "lidofinance"
-      ],
-      "docs": "",
-      "tags": [
-        "liquid staking",
-        "ethereum",
-        "solana"
-      ],
+      "type": "liquid-staking",
+      "website": "https://lido.fi",
+      "github": "https://github.com/lidofinance",
+      "docs": "https://docs.lido.fi",
       "contracts": {
-        "main": {
-          "name": "Lido Main Contract",
+        "stETH": {
+          "name": "stETH (Lido Token)",
           "type": "core",
-          "description": "Main contract for Lido",
+          "description": "Main liquid staking token representing staked ETH with rebasing functionality",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [
+            "submit",
+            "withdraw",
+            "transfer"
+          ],
+          "useCases": [
+            "liquid-staking",
+            "defi-collateral"
+          ]
+        },
+        "wstETH": {
+          "name": "Wrapped stETH",
+          "type": "core",
+          "description": "Non-rebasing wrapped version of stETH for DeFi integration",
           "proxy": false,
           "keyEvents": [],
+          "keyFunctions": [
+            "wrap",
+            "unwrap"
+          ],
+          "useCases": [
+            "defi-collateral",
+            "bridging"
+          ]
+        },
+        "withdrawalQueue": {
+          "name": "Withdrawal Queue ERC721",
+          "type": "core",
+          "description": "Manages ETH withdrawal requests as NFTs",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [
+            "requestWithdrawals",
+            "claimWithdrawals"
+          ],
+          "useCases": [
+            "withdrawals"
+          ]
+        },
+        "stakingRouter": {
+          "name": "Staking Router",
+          "type": "core",
+          "description": "Routes user deposits to different staking modules",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [
+            "deposit"
+          ],
+          "useCases": [
+            "staking"
+          ]
+        },
+        "accounting": {
+          "name": "Accounting",
+          "type": "core",
+          "description": "Tracks staking balance updates and protocol accounting",
+          "proxy": true,
+          "keyEvents": [],
           "keyFunctions": [],
-          "useCases": []
+          "useCases": [
+            "accounting"
+          ]
+        },
+        "accountingOracle": {
+          "name": "Accounting Oracle",
+          "type": "oracle",
+          "description": "Reports account balances and validator states from Beacon Chain",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [
+            "submitReportData"
+          ],
+          "useCases": [
+            "oracle"
+          ]
+        },
+        "nodeOperatorsRegistry": {
+          "name": "Node Operators Registry",
+          "type": "registry",
+          "description": "Manages curated/vetted node operators",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [
+            "addNodeOperator",
+            "setNodeOperatorStakingLimit"
+          ],
+          "useCases": [
+            "governance"
+          ]
+        },
+        "ldoToken": {
+          "name": "LDO Token",
+          "type": "governance",
+          "description": "Lido DAO governance token",
+          "proxy": false,
+          "keyEvents": [],
+          "keyFunctions": [
+            "transfer",
+            "approve"
+          ],
+          "useCases": [
+            "governance"
+          ]
+        },
+        "lidoLocator": {
+          "name": "Lido Locator",
+          "type": "registry",
+          "description": "Registry for protocol contract addresses",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [],
+          "useCases": [
+            "registry"
+          ]
+        },
+        "withdrawalVault": {
+          "name": "Withdrawal Vault",
+          "type": "vault",
+          "description": "Collects withdrawals from Beacon Chain",
+          "proxy": true,
+          "keyEvents": [],
+          "keyFunctions": [],
+          "useCases": [
+            "withdrawals"
+          ]
         }
       }
     }

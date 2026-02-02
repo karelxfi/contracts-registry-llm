@@ -6597,6 +6597,21 @@
         }
       }
     },
+    "lido": {
+      "lido": {
+        "name": "Lido",
+        "type": "liquid-staking",
+        "addresses": {
+          "wstETH": "0x5979D7b546E38E414F7E9822514be443A4800529",
+          "ldoToken": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60"
+        },
+        "deploymentBlocks": {},
+        "verified": {
+          "wstETH": true,
+          "ldoToken": true
+        }
+      }
+    },
     "lighter-bridge": {
       "lighter-bridge": {
         "name": "Lighter Bridge",

@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "updated": "2025-02-02",
   "totalProtocols": 4442,
-  "populatedProtocols": 5,
+  "populatedProtocols": 6,
   "populatedList": [
     {
       "id": "aave-v2",
@@ -73,40 +73,62 @@
       "status": "complete",
       "contractCount": 4,
       "lastUpdated": "2025-02-02"
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "type": "liquid-staking",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "zksync-era",
+        "mantle",
+        "linea",
+        "scroll",
+        "bsc"
+      ],
+      "chainCount": 10,
+      "status": "complete",
+      "contractCount": 10,
+      "lastUpdated": "2025-02-02"
     }
   ],
   "byChain": {
-    "ethereum": ["aave-v2", "aave-v3", "morpho-blue"],
-    "polygon": ["aave-v2", "aave-v3"],
+    "ethereum": ["aave-v2", "aave-v3", "morpho-blue", "lido"],
+    "polygon": ["aave-v2", "aave-v3", "lido"],
     "avalanche": ["aave-v2", "aave-v3"],
-    "arbitrum": ["aave-v3"],
+    "arbitrum": ["aave-v3", "lido"],
     "arbitrum-one": ["gmx-v1", "morpho-blue"],
-    "base": ["aave-v3", "morpho-blue"],
-    "optimism": ["aave-v3"],
+    "base": ["aave-v3", "morpho-blue", "lido"],
+    "optimism": ["aave-v3", "lido"],
     "gnosis": ["aave-v3"],
-    "bsc": ["aave-v3"],
-    "scroll": ["aave-v3"],
+    "bsc": ["aave-v3", "lido"],
+    "scroll": ["aave-v3", "lido"],
     "metis": ["aave-v3"],
-    "zksync-era": ["aave-v3"],
-    "linea": ["aave-v3"],
+    "zksync-era": ["aave-v3", "lido"],
+    "linea": ["aave-v3", "lido"],
     "fantom": ["aave-v3"],
     "harmony": ["aave-v3"],
     "celo": ["aave-v3"],
     "sonic": ["aave-v3"],
     "soneium": ["aave-v3"],
-    "mantle": ["aave-v3"],
+    "mantle": ["aave-v3", "lido"],
     "plasma": ["aave-v3"],
     "solana": ["jupiter"]
   },
   "byType": {
     "lending": ["aave-v2", "aave-v3", "morpho-blue"],
     "perpetuals": ["gmx-v1"],
-    "dex-aggregator": ["jupiter"]
+    "dex-aggregator": ["jupiter"],
+    "liquid-staking": ["lido"]
   },
   "completionStats": {
-    "complete": 5,
+    "complete": 6,
     "partial": 0,
-    "placeholder": 4437,
-    "completionPercentage": 0.11
+    "placeholder": 4436,
+    "completionPercentage": 0.14
   }
 }

@@ -48696,24 +48696,129 @@
   "lido": {
     "lido": {
       "ethereum": {
-        "main": "",
+        "stETH": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "wstETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "withdrawalQueue": "0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+        "stakingRouter": "0xFdDf38947aFB03C621C71B06C9C70bce73f12999",
+        "accounting": "0x23ED611be0e1a820978875C0122F92260804cdDf",
+        "accountingOracle": "0x852deD011285fe67063a08005c71a85690503Cee",
+        "nodeOperatorsRegistry": "0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5",
+        "ldoToken": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "lidoLocator": "0xC1d0b3DE6792Bf6b4b37EccdcC24e45978Cfd2Eb",
+        "withdrawalVault": "0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f",
         "verified": {
-          "main": false
+          "stETH": true,
+          "wstETH": true,
+          "withdrawalQueue": true,
+          "stakingRouter": true,
+          "accounting": true,
+          "accountingOracle": true,
+          "nodeOperatorsRegistry": true,
+          "ldoToken": true,
+          "lidoLocator": true,
+          "withdrawalVault": true
         },
         "source": [
-          "defillama"
+          "lido-docs",
+          "lido-github"
         ],
-        "updated": "2025-01-31"
+        "updated": "2025-02-02"
       },
-      "solana": {
-        "main": "",
+      "arbitrum": {
+        "wstETH": "0x5979D7b546E38E414F7E9822514be443A4800529",
+        "ldoToken": "0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60",
         "verified": {
-          "main": false
+          "wstETH": true,
+          "ldoToken": true
         },
         "source": [
-          "defillama"
+          "lido-docs"
         ],
-        "updated": "2025-01-31"
+        "updated": "2025-02-02"
+      },
+      "optimism": {
+        "wstETH": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+        "stETH": "0x76A50b8c7349cCDDb7578c6627e79b5d99D24138",
+        "ldoToken": "0xFdb794692724153d1488CcdBE0C56c252596735F",
+        "verified": {
+          "wstETH": true,
+          "stETH": true,
+          "ldoToken": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "base": {
+        "wstETH": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "polygon": {
+        "wstETH": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "zksync-era": {
+        "wstETH": "0x703b52F2b28fEbcB60E1372858AF5b18849FE867",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "mantle": {
+        "wstETH": "0x458ed78EB972a369799fb278c0243b25e5242A83",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "linea": {
+        "wstETH": "0xB5beDd42000b71FddE22D3eE8a79Bd49A568fC8F",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "scroll": {
+        "wstETH": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
+      },
+      "bsc": {
+        "wstETH": "0x26c5e01524d2E6280A48F2c50fF6De7e52E9611C",
+        "verified": {
+          "wstETH": true
+        },
+        "source": [
+          "lido-docs"
+        ],
+        "updated": "2025-02-02"
       }
     }
   },

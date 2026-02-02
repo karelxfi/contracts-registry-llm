@@ -86,6 +86,27 @@
           "status": "complete",
           "contractCount": 4,
           "lastUpdated": "2025-02-02"
+        },
+        {
+          "id": "lido",
+          "name": "Lido",
+          "type": "liquid-staking",
+          "chains": [
+            "ethereum",
+            "arbitrum",
+            "optimism",
+            "base",
+            "polygon",
+            "zksync-era",
+            "mantle",
+            "linea",
+            "scroll",
+            "bsc"
+          ],
+          "chainCount": 10,
+          "status": "complete",
+          "contractCount": 10,
+          "lastUpdated": "2025-02-02"
         }
       ],
       "partial": [],
@@ -638,12 +659,29 @@
           "arbitrum-one"
         ],
         "chainCount": 3
+      },
+      {
+        "id": "lido",
+        "name": "Lido",
+        "chains": [
+          "ethereum",
+          "arbitrum",
+          "optimism",
+          "base",
+          "polygon",
+          "zksync-era",
+          "mantle",
+          "linea",
+          "scroll",
+          "bsc"
+        ],
+        "chainCount": 10
       }
     ],
     "top-chains-by-protocol-count": [
       {
         "chain": "ethereum",
-        "protocolCount": 1671
+        "protocolCount": 1670
       },
       {
         "chain": "arbitrum",
@@ -663,7 +701,7 @@
       },
       {
         "chain": "solana",
-        "protocolCount": 353
+        "protocolCount": 352
       },
       {
         "chain": "sonic",
@@ -741,7 +779,7 @@
       },
       {
         "category": "liquid staking",
-        "protocolCount": 178
+        "protocolCount": 177
       },
       {
         "category": "yield aggregator",
