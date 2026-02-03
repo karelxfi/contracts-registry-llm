@@ -143,19 +143,89 @@ Each deployment includes:
 - Empty addresses (`""`) indicate known deployments without confirmed addresses
 - `null` deployment blocks indicate missing data
 
+## API Endpoints
+
+The registry is available as a static JSON API at:
+**Base URL**: `https://karelxfi.github.io/contracts-registry-llm`
+
+### Search Endpoints
+
+#### Fuzzy Name Search
+`GET /api/v1/search/by-name.json`
+
+Returns a lightweight index for client-side fuzzy protocol name searching. Use with a fuzzy matching library (e.g., fast-levenshtein) for typo-tolerant search.
+
+```javascript
+// Example: Client-side fuzzy search
+const response = await fetch('https://karelxfi.github.io/contracts-registry-llm/api/v1/search/by-name.json');
+const { protocols } = await response.json();
+
+// Find protocols matching "aav" (fuzzy)
+import levenshtein from 'fast-levenshtein';
+const results = protocols.filter(p =>
+  levenshtein.get(query.toLowerCase(), p.nameNormalized) < 3
+);
+```
+
+#### Address Lookup
+`GET /api/v1/search/by-address.json`
+
+Reverse lookup: find protocol by contract address. Supports both formats:
+- Full: `ethereum:0x...`
+- Address only: `0x...` (may return multiple results if address exists on multiple chains)
+
+#### Verified Contracts Only
+`GET /api/v1/search/verified.json`
+
+Returns only contracts verified on block explorers, organized by protocol and by chain.
+
+#### Chain-Specific Search
+`GET /api/v1/search/chain/{chain}.json`
+
+Get lightweight summaries of all protocols on a specific chain.
+
+Example: `/api/v1/search/chain/base.json`
+
+#### Multi-Chain Protocols
+`GET /api/v1/search/multi-chain.json`
+
+Find protocols deployed on 2+ chains, categorized by deployment count (10+, 5-9, 2-4).
+
+#### Contract Type Search
+`GET /api/v1/search/by-contract-type/{type}.json`
+
+Find protocols by contract type (e.g., oracle, vault, core).
+
+Example: `/api/v1/search/by-contract-type/oracle.json`
+
+#### Recent Updates
+`GET /api/v1/search/recent.json`
+
+View protocols updated in the last 7, 30, and 90 days.
+
+### Other Endpoints
+
+- `/api/v1/metadata.json` - API metadata and stats
+- `/api/v1/protocol/{id}.json` - Full protocol details
+- `/api/v1/updates.json` - Recent changes
+- `/api/v1/openapi.json` - OpenAPI 3.0 specification
+- `/api/v1/queries.json` - Pre-computed common queries
+
+All endpoints support gzip compression (`.json.gz` files available).
+
 ## Querying Patterns
 
 ### Get all deployments for a protocol
 Read the protocol JSON file and iterate through the `deployments` object.
 
 ### Get all protocols on a chain
-Iterate through protocol files and check if the target chain exists in their `deployments`.
+Use `/api/v1/search/chain/{chain}.json` or iterate through protocol files.
 
 ### Find protocols by type
 Read protocol files and filter by the `type` field (e.g., "lending", "dex", "bridge").
 
 ### Get verified contracts only
-Filter deployments where `verified.{contractId}` is `true`.
+Use `/api/v1/search/verified.json` or filter deployments where `verified.{contractId}` is `true`.
 
 ## File Naming Conventions
 

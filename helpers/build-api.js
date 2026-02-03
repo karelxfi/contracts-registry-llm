@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import zlib from "zlib";
+import { buildSearchIndexes } from "./build-search-indexes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -63,6 +64,13 @@ const metadata = {
     metadata: "/api/v1/metadata.json",
     protocols: "/api/v1/protocols.json",
     search: "/api/v1/search",
+    searchByAddress: "/api/v1/search/by-address.json",
+    searchByName: "/api/v1/search/by-name.json",
+    searchVerified: "/api/v1/search/verified.json",
+    searchByChain: "/api/v1/search/chain/{chain}.json",
+    searchMultiChain: "/api/v1/search/multi-chain.json",
+    searchByContractType: "/api/v1/search/by-contract-type/{type}.json",
+    searchRecent: "/api/v1/search/recent.json",
     protocol: "/api/v1/protocol/{id}",
     updates: "/api/v1/updates.json",
     openapi: "/api/v1/openapi.json",
@@ -114,6 +122,9 @@ protocols.forEach((protocol) => {
 });
 
 writeJSON("v1/search/index.json", searchIndex);
+
+// 3.5. Enhanced search indexes
+await buildSearchIndexes();
 
 // 4. Individual protocol endpoints
 console.log("Building protocol endpoints...");
@@ -293,6 +304,196 @@ const openapi = {
         },
       },
     },
+    "/api/v1/search/by-name.json": {
+      get: {
+        summary: "Search protocols by name (fuzzy search)",
+        description:
+          "Returns a lightweight index of all protocols with normalized names for client-side fuzzy searching. Use with fast-levenshtein or similar library for typo-tolerant search.",
+        tags: ["Search"],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    lastUpdated: { type: "string", format: "date" },
+                    protocols: {
+                      type: "array",
+                      items: {
+                        type: "object",
+                        properties: {
+                          id: { type: "string" },
+                          name: { type: "string" },
+                          nameNormalized: { type: "string" },
+                          type: { type: "string" },
+                          chains: { type: "array", items: { type: "string" } },
+                          chainCount: { type: "integer" },
+                          status: { type: "string" },
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/verified.json": {
+      get: {
+        summary: "Get verified contracts only",
+        description:
+          "Returns only contracts that have been verified on block explorers, organized by protocol and by chain.",
+        tags: ["Search"],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    lastUpdated: { type: "string", format: "date" },
+                    byProtocol: { type: "object" },
+                    byChain: { type: "object" },
+                    stats: { type: "object" },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/chain/{chain}.json": {
+      get: {
+        summary: "Get protocols deployed on a specific chain",
+        description:
+          "Returns a lightweight summary of all protocols deployed on the specified chain.",
+        tags: ["Search"],
+        parameters: [
+          {
+            name: "chain",
+            in: "path",
+            required: true,
+            description: "Chain name (e.g., ethereum, base, arbitrum)",
+            schema: { type: "string" },
+            example: "base",
+          },
+        ],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    chain: { type: "string" },
+                    chainId: { type: "integer" },
+                    protocols: { type: "array" },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/multi-chain.json": {
+      get: {
+        summary: "Get protocols deployed on multiple chains",
+        description:
+          "Returns protocols deployed on 2 or more chains, categorized by chain count.",
+        tags: ["Search"],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    lastUpdated: { type: "string", format: "date" },
+                    protocols: { type: "array" },
+                    byChainCount: { type: "object" },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/by-contract-type/{type}.json": {
+      get: {
+        summary: "Search protocols by contract type",
+        description:
+          "Returns protocols containing contracts of a specific type (e.g., oracle, vault, core).",
+        tags: ["Search"],
+        parameters: [
+          {
+            name: "type",
+            in: "path",
+            required: true,
+            description: "Contract type (e.g., oracle, vault, core)",
+            schema: { type: "string" },
+            example: "oracle",
+          },
+        ],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    contractType: { type: "string" },
+                    protocols: { type: "object" },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/recent.json": {
+      get: {
+        summary: "Get recently updated protocols",
+        description:
+          "Returns protocols updated in the last 7, 30, and 90 days.",
+        tags: ["Search"],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  properties: {
+                    version: { type: "string" },
+                    lastUpdated: { type: "string", format: "date" },
+                    last7Days: { type: "array" },
+                    last30Days: { type: "array" },
+                    last90Days: { type: "array" },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
     "/api/v1/updates.json": {
       get: {
         summary: "Get recent updates",
@@ -448,6 +649,10 @@ const largeFiles = [
   "v1/updates.json",
   "v1/openapi.json",
   "v1/queries.json",
+  "v1/search/by-name.json",
+  "v1/search/verified.json",
+  "v1/search/multi-chain.json",
+  "v1/search/recent.json",
 ];
 
 largeFiles.forEach((file) => {
@@ -546,6 +751,31 @@ const queryHelpers = {
         .slice(0, 20)
         .map(([category, count]) => ({ category, protocolCount: count }));
     })(),
+    "verified-protocols": populatedProtocols.populatedList
+      .filter((p) => {
+        // Check if protocol has at least one verified contract
+        const protocolData = protocols.find((proto) => proto.id === p.id);
+        if (!protocolData || !protocolData.deployments) return false;
+        return Object.values(protocolData.deployments).some((deployment) => {
+          return (
+            deployment.verified &&
+            Object.values(deployment.verified).some((v) => v === true)
+          );
+        });
+      })
+      .map((p) => ({ id: p.id, name: p.name, chainCount: p.chainCount })),
+    "single-chain-protocols": protocols
+      .filter((p) => {
+        const chainCount = p.deployments ? Object.keys(p.deployments).length : 0;
+        return chainCount === 1;
+      })
+      .slice(0, 50)
+      .map((p) => ({
+        id: p.id,
+        name: p.name,
+        type: p.type,
+        chain: p.deployments ? Object.keys(p.deployments)[0] : null,
+      })),
   },
 };
 

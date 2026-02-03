@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "contractType": "governance",
+  "protocols": {
+    "curve": {
+      "name": "Curve Finance",
+      "type": "dexs",
+      "contracts": [
+        "vecrv",
+        "gauge_controller",
+        "emergency_dao"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "avalanche",
+        "bsc",
+        "fantom",
+        "gnosis",
+        "celo",
+        "fraxtal",
+        "kava",
+        "mantle",
+        "x-layer",
+        "xdc"
+      ]
+    },
+    "lido": {
+      "name": "Lido",
+      "type": "liquid-staking",
+      "contracts": [
+        "ldoToken"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "zksync-era",
+        "mantle",
+        "linea",
+        "scroll",
+        "bsc"
+      ]
+    },
+    "uniswap-v3": {
+      "name": "Uniswap V3",
+      "type": "dexs",
+      "contracts": [
+        "ProxyAdmin",
+        "TransparentUpgradeableProxy"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "bsc",
+        "blast",
+        "celo",
+        "zksync-era",
+        "unichain",
+        "monad",
+        "zora",
+        "world-chain"
+      ]
+    }
+  }
+}

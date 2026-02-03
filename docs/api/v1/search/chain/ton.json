@@ -1,0 +1,703 @@
+{
+  "version": "1.0.0",
+  "chain": "ton",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "affluent",
+      "name": "Affluent",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "aqua-protocol",
+      "name": "Aqua Protocol",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "arkham-exchange",
+      "name": "Arkham Exchange",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "babydoge-bridge",
+      "name": "BabyDoge Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bagel-finance-v1",
+      "name": "Bagel Finance V1",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bagel-finance-v2",
+      "name": "Bagel Finance V2",
+      "type": "indexes",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "balus",
+      "name": "Balus",
+      "type": "sofi",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beetroot-finance",
+      "name": "Beetroot Finance",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bemo-v1",
+      "name": "bemo V1",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bemo-v2",
+      "name": "bemo V2",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bidask",
+      "name": "Bidask",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bigpump",
+      "name": "BigPump",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "binance-cex",
+      "name": "Binance CEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bingx",
+      "name": "BingX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitkub",
+      "name": "Bitkub",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "blofin",
+      "name": "BloFin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "blum",
+      "name": "Blum",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bridgers",
+      "name": "Bridgers",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "catton",
+      "name": "Catton",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "cockfights-game",
+      "name": "CockFights Game",
+      "type": "gaming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "coffin.meme",
+      "name": "Coffin.Meme",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "crouton-finance",
+      "name": "Crouton Finance",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "daolama",
+      "name": "DAOLama",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dedust",
+      "name": "DeDust",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "delea",
+      "name": "Delea",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "electra",
+      "name": "Electra",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ethena-tsusde",
+      "name": "Ethena tsUSDe",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "evaa-protocol",
+      "name": "EVAA Protocol",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "exmo",
+      "name": "Exmo",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "farmix",
+      "name": "Farmix",
+      "type": "leveraged farming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "fiva",
+      "name": "FIVA",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flipster",
+      "name": "Flipster",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "forge-game",
+      "name": "Forge Game",
+      "type": "gaming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gaspump",
+      "name": "GasPump",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hashkey-exchange",
+      "name": "HashKey Exchange",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hashkey-global",
+      "name": "HashKey Global",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hipo",
+      "name": "Hipo",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "htx",
+      "name": "HTX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "jvault",
+      "name": "JVault",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kton",
+      "name": "KTON",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kucoin",
+      "name": "KuCoin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "levex",
+      "name": "LeveX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "megaton-finance",
+      "name": "Megaton Finance",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mexc",
+      "name": "MEXC",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mugglelink",
+      "name": "MuggleLink",
+      "type": "services",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "near-intents",
+      "name": "NEAR Intents",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nexton",
+      "name": "Nexton",
+      "type": "basis trading",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "okx",
+      "name": "OKX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "orbit-bridge",
+      "name": "Orbit Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "osl",
+      "name": "OSL",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "osl-hk",
+      "name": "OSL HK",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "parraton",
+      "name": "Parraton",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "pixelswap-(pix)",
+      "name": "PixelSwap (PIX)",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "satori-perp",
+      "name": "Satori Perp",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "settleton",
+      "name": "SettleTON",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "stakee",
+      "name": "Stakee",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ston.fi",
+      "name": "STON.fi",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "storm-trade",
+      "name": "Storm Trade",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "swap.coffee",
+      "name": "swap.coffee",
+      "type": "dex aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "swissborg",
+      "name": "SwissBorg",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "syde",
+      "name": "Syde",
+      "type": "synthetics",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "symbiosis",
+      "name": "Symbiosis",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tac-cross-chain-layer",
+      "name": "TAC Cross Chain Layer",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tegro-finance",
+      "name": "Tegro Finance",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "telegram-usd",
+      "name": "Telegram USD",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "titan-dex",
+      "name": "Titan Dex",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ton-hedge",
+      "name": "TON Hedge",
+      "type": "options",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ton-locker",
+      "name": "TON Locker",
+      "type": "chain",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ton-pump",
+      "name": "TON Pump",
+      "type": "telegram bot",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonco",
+      "name": "TONCO",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonnel-network",
+      "name": "Tonnel Network",
+      "type": "privacy",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonpools",
+      "name": "TonPools",
+      "type": "staking pool",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonsoffriends",
+      "name": "TonsOfFriends",
+      "type": "sofi",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonstable",
+      "name": "TonStable",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonstakers-lsd",
+      "name": "Tonstakers LSD",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonstakers-token-staking",
+      "name": "Tonstakers Token Staking",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tonyielding",
+      "name": "Tonyielding",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "torch-dexs",
+      "name": "Torch Dexs",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tothemoon",
+      "name": "Tothemoon",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tradoor",
+      "name": "Tradoor",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "utonic",
+      "name": "UTONIC",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "utyabswap",
+      "name": "UtyabSwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "wagmi-memepad",
+      "name": "Wagmi Memepad",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "weex",
+      "name": "WEEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "wonton",
+      "name": "Wonton",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

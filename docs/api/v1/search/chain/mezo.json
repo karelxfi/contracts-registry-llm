@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "chain": "mezo",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "bitfire",
+      "name": "BitFire",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mezo-borrow",
+      "name": "Mezo Borrow",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tigris-mezo",
+      "name": "Tigris Mezo",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "upshift",
+      "name": "Upshift",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "velar-perps",
+      "name": "Velar Perps",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

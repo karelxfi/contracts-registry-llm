@@ -1,0 +1,759 @@
+{
+  "version": "1.0.0",
+  "chain": "tron",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "allbridge-core",
+      "name": "Allbridge Core",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "backpack",
+      "name": "Backpack",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "biconomy.com",
+      "name": "Biconomy.com",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bigone",
+      "name": "BigONE",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "binance-cex",
+      "name": "Binance CEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bingx",
+      "name": "BingX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitfinex",
+      "name": "Bitfinex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitkan",
+      "name": "BitKan",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitkub",
+      "name": "Bitkub",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitlo",
+      "name": "Bitlo",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitmex",
+      "name": "Bitmex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitrue",
+      "name": "Bitrue",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitunix",
+      "name": "Bitunix",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitvenus",
+      "name": "BitVenus",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "blofin",
+      "name": "BloFin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bouncebit-pre-launch-farm",
+      "name": "BounceBit pre-launch Farm",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bridgers",
+      "name": "Bridgers",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "butter-network",
+      "name": "Butter Network",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "catfee-staking-vault",
+      "name": "CatFee Staking Vault",
+      "type": "staking pool",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "cex.io",
+      "name": "CEX.IO",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "coin8",
+      "name": "Coin8",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "coindcx",
+      "name": "CoinDCX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "coinex",
+      "name": "CoinEx",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "coinw",
+      "name": "CoinW",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "exmo",
+      "name": "Exmo",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "fastex",
+      "name": "Fastex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flatcoin-dex",
+      "name": "FlatCoin DEX",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flipster",
+      "name": "Flipster",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "garble.money",
+      "name": "Garble.Money",
+      "type": "privacy",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gate-us",
+      "name": "Gate US",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hashkey-exchange",
+      "name": "HashKey Exchange",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hashkey-global",
+      "name": "HashKey Global",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hibt",
+      "name": "Hibt",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hotbit",
+      "name": "Hotbit",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hotcoin",
+      "name": "Hotcoin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "htx",
+      "name": "HTX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "indodax",
+      "name": "Indodax",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "intercroneswap",
+      "name": "Intercroneswap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "justcryptos",
+      "name": "JustCryptos",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "justlend",
+      "name": "JustLend",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "justmoney",
+      "name": "JustMoney",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "juststables",
+      "name": "JustStables",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "klever-exchange",
+      "name": "Klever Exchange",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kucoin",
+      "name": "KuCoin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "latoken",
+      "name": "Latoken",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "luminous-finance",
+      "name": "Luminous Finance",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "maskex",
+      "name": "MaskEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "meson",
+      "name": "Meson",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mexc",
+      "name": "MEXC",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "near-intents",
+      "name": "NEAR Intents",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "neopin-staking",
+      "name": "NEOPIN Staking",
+      "type": "staking pool",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nervebridge",
+      "name": "NerveBridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nonkyc",
+      "name": "NonKYC",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "okcoin",
+      "name": "Okcoin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "okx",
+      "name": "OKX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "oneswap",
+      "name": "OneSwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "osl",
+      "name": "OSL",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "osl-hk",
+      "name": "OSL HK",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ourbit",
+      "name": "Ourbit",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "pay-protocol",
+      "name": "Pay Protocol",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "pepeteam-bridge",
+      "name": "PepeTeam Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "phemex",
+      "name": "Phemex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "pionex",
+      "name": "Pionex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "probit-global",
+      "name": "ProBit Global",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "raidshift-marketplace",
+      "name": "RAIDSHIFT Marketplace",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "socialswap",
+      "name": "SocialSwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "strx-finance",
+      "name": "STRX Finance",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "stusdt",
+      "name": "stUSDT",
+      "type": "rwa",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sun.io",
+      "name": "SUN.io",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sunpump",
+      "name": "SunPump",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sunswap-v1",
+      "name": "SUNSwap V1",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sunswap-v2",
+      "name": "SUNSwap V2",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sunswap-v3",
+      "name": "SUNSwap V3",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sunx-bridge",
+      "name": "SunX Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "swissborg",
+      "name": "SwissBorg",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "symbiosis",
+      "name": "Symbiosis",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "thorchain-dex",
+      "name": "Thorchain DEX",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tothemoon",
+      "name": "Tothemoon",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tradeogre",
+      "name": "TradeOgre",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tronnrg",
+      "name": "TronNRG",
+      "type": "staking pool",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "unifi",
+      "name": "UniFi",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "unifi-staking",
+      "name": "UniFi Staking",
+      "type": "staking pool",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "usdd",
+      "name": "USDD",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "uswap",
+      "name": "Uswap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "valr",
+      "name": "VALR",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "wan-bridge",
+      "name": "Wan Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "weex",
+      "name": "WEEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "woo-x",
+      "name": "WOO X",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zkbob",
+      "name": "zkBob",
+      "type": "privacy",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zklink-nova",
+      "name": "zkLink Nova",
+      "type": "chain",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zoomex",
+      "name": "Zoomex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

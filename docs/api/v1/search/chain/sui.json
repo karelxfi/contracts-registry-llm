@@ -1,0 +1,855 @@
+{
+  "version": "1.0.0",
+  "chain": "sui",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "abex-finance",
+      "name": "ABEx Finance",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "aftermath-afsui",
+      "name": "Aftermath afSUI",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "aftermath-amm",
+      "name": "Aftermath AMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "alkimi",
+      "name": "Alkimi",
+      "type": "services",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "allbridge-core",
+      "name": "Allbridge Core",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "alphafi-agg",
+      "name": "AlphaFi Agg",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "alphafi-stsui",
+      "name": "AlphaFi stSUI",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "alphalend",
+      "name": "AlphaLend",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "animeswap",
+      "name": "AnimeSwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "astros-perp",
+      "name": "Astros Perp",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "balanced-exchange",
+      "name": "Balanced Exchange",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bayswap",
+      "name": "BaySwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "binance-cex",
+      "name": "Binance CEX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitlo",
+      "name": "Bitlo",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitrue",
+      "name": "Bitrue",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bitstamp",
+      "name": "Bitstamp",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bluefin-legacy",
+      "name": "Bluefin Legacy",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bluefin-pro",
+      "name": "Bluefin Pro",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bluefin-spot",
+      "name": "Bluefin Spot",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bluemove-dex",
+      "name": "BlueMove DEX",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bridgers",
+      "name": "Bridgers",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bucket-cdp",
+      "name": "Bucket CDP",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bucket-farm",
+      "name": "Bucket Farm",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bucket-protocol-v2",
+      "name": "Bucket Protocol V2",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "cetus-clmm",
+      "name": "Cetus CLMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "cetus-dlmm",
+      "name": "Cetus DLMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "cex.io",
+      "name": "CEX.IO",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "deepbook-v2",
+      "name": "DeepBook V2",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "deepbook-v3",
+      "name": "DeepBook V3",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "degenhive-amm",
+      "name": "DegenHive AMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "degenhive-lst",
+      "name": "DegenHive LST",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "degenhive-memepad",
+      "name": "DegenHive Memepad",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dipcoin-perps",
+      "name": "DipCoin Perps",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dipcoin-spot",
+      "name": "DipCoin Spot",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dipcoin-vault",
+      "name": "DipCoin Vault",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "doubleup",
+      "name": "DoubleUp",
+      "type": "luck games",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ember-protocol",
+      "name": "Ember Protocol",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ferra-clmm",
+      "name": "Ferra CLMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ferra-dlmm",
+      "name": "Ferra DLMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flipster",
+      "name": "Flipster",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flowx-v2",
+      "name": "FlowX V2",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "flowx-v3",
+      "name": "FlowX V3",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "fountain-finance",
+      "name": "Fountain Finance",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "full-sail",
+      "name": "Full Sail",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gate-us",
+      "name": "Gate US",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "haedal-amm-protocol",
+      "name": "Haedal AMM Protocol",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "haedal-protocol",
+      "name": "Haedal Protocol",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "haedal-vault",
+      "name": "Haedal Vault",
+      "type": "farm",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "htx",
+      "name": "HTX",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "indodax",
+      "name": "Indodax",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "interest-protocol-stable-swap",
+      "name": "Interest Protocol Stable Swap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "interest-protocol-sui",
+      "name": "Interest Protocol-SUI",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "jackson-protocol",
+      "name": "Jackson Protocol",
+      "type": "prediction market",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kai-finance",
+      "name": "Kai Finance",
+      "type": "leveraged farming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kaio",
+      "name": "KAIO",
+      "type": "rwa",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "koral-finance",
+      "name": "Koral Finance",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kriya-amm",
+      "name": "Kriya AMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kriya-clmm",
+      "name": "Kriya CLMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kriya-strats",
+      "name": "Kriya Strats",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kucoin",
+      "name": "KuCoin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "lake-protocol",
+      "name": "Lake Protocol",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "liquid-agents",
+      "name": "Liquid Agents",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "magma",
+      "name": "Magma",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "magma-finance-almm",
+      "name": "Magma Finance ALMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "matrixdock-xaum",
+      "name": "MatrixDock XAUM",
+      "type": "rwa",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "metastable",
+      "name": "Metastable",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mev-capital",
+      "name": "MEV Capital",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mole",
+      "name": "Mole",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "navi-lending",
+      "name": "NAVI Lending",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "near-intents",
+      "name": "NEAR Intents",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nemo-vault",
+      "name": "Nemo Vault",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nemo-yield-trading",
+      "name": "Nemo Yield Trading",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "omnibtc",
+      "name": "OmniBTC",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ondo-yield-assets",
+      "name": "Ondo Yield Assets",
+      "type": "rwa",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "phemex",
+      "name": "Phemex",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "portal",
+      "name": "Portal",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "poseidollar",
+      "name": "Poseidollar",
+      "type": "algo-stables",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "satlayer",
+      "name": "SatLayer",
+      "type": "anchor btc",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "scallop-lend",
+      "name": "Scallop Lend",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "skate-amm",
+      "name": "Skate AMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "springsui",
+      "name": "SpringSui",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "springsui-ecosystem",
+      "name": "SpringSui Ecosystem",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "steamm",
+      "name": "STEAMM",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "strater",
+      "name": "Strater",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "streamflow",
+      "name": "Streamflow",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sudo-perps",
+      "name": "Sudo Perps",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sui-pearl",
+      "name": "Sui Pearl",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sui-rewards-me",
+      "name": "Sui Rewards Me",
+      "type": "launchpad",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "suidollar",
+      "name": "SuiDollar",
+      "type": "basis trading",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "suilend",
+      "name": "Suilend",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "suimarket",
+      "name": "SuiMarket",
+      "type": "prediction market",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "turbos",
+      "name": "Turbos",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tydeshift",
+      "name": "TydeShift",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "typus-dov",
+      "name": "Typus DOV",
+      "type": "options vault",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "typus-perp",
+      "name": "Typus Perp",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "typus-safu",
+      "name": "Typus Safu",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "upshift",
+      "name": "Upshift",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "volo-lst",
+      "name": "Volo LST",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "volo-vault",
+      "name": "Volo Vault",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "weiss-finance",
+      "name": "Weiss Finance",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "winter-walrus",
+      "name": "Winter Walrus",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "xsui",
+      "name": "xSui",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zo-perps",
+      "name": "ZO Perps",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

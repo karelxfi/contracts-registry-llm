@@ -1,0 +1,775 @@
+{
+  "version": "1.0.0",
+  "chain": "berachain",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "amped-finance",
+      "name": "Amped Finance",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "aquabera",
+      "name": "AquaBera",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "arbera",
+      "name": "Arbera",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "avalon-usda",
+      "name": "Avalon USDa",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "azex",
+      "name": "AZEX",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bakerdao",
+      "name": "BakerDAO",
+      "type": "reserve currency",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bearn",
+      "name": "Bearn",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bedrock-unibtc",
+      "name": "Bedrock uniBTC",
+      "type": "anchor btc",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beefy",
+      "name": "Beefy",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bend",
+      "name": "BEND",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beraborrow",
+      "name": "Beraborrow",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beracaine",
+      "name": "Beracaine",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beracana",
+      "name": "Beracana",
+      "type": "leveraged farming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beradrome",
+      "name": "Beradrome",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beralis-v2",
+      "name": "Beralis V2",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beralis-v3",
+      "name": "Beralis V3",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "berancia",
+      "name": "Berancia",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "berapaw",
+      "name": "BeraPaw",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beratlas-finance",
+      "name": "Beratlas Finance",
+      "type": "reserve currency",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "beratrax",
+      "name": "BeraTrax",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bex",
+      "name": "BEX",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "blofin",
+      "name": "BloFin",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "brownfi",
+      "name": "BrownFi",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "bulla-exchange",
+      "name": "Bulla Exchange",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "burrbear",
+      "name": "BurrBear",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "burve",
+      "name": "Burve",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "celeron",
+      "name": "Celeron",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "charm-finance-v2",
+      "name": "Charm Finance V2",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "d2-finance",
+      "name": "D2 Finance",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "d8x",
+      "name": "D8X",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dahlia",
+      "name": "Dahlia",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "dolomite",
+      "name": "Dolomite",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "equilibria",
+      "name": "Equilibria",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "euler-v2",
+      "name": "Euler V2",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "everclear",
+      "name": "Everclear",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "extra-finance-leverage-farming",
+      "name": "Extra Finance Leverage Farming",
+      "type": "leveraged farming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "goldilocks",
+      "name": "Goldilocks",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "hedgey",
+      "name": "Hedgey",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "holdstation-defutures",
+      "name": "HoldStation DeFutures",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "holdstation-swap",
+      "name": "Holdstation Swap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "infinit",
+      "name": "INFINIT",
+      "type": "ai agents",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "infrared-finance",
+      "name": "Infrared Finance",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ivx-protocol",
+      "name": "IVX Protocol",
+      "type": "options",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "jiko",
+      "name": "Jiko",
+      "type": "gaming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kelp",
+      "name": "Kelp",
+      "type": "liquid restaking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kodiak-islands",
+      "name": "Kodiak Islands",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kodiak-v2",
+      "name": "Kodiak V2",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "kodiak-v3",
+      "name": "Kodiak V3",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "lagoon",
+      "name": "Lagoon",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "lair-finance",
+      "name": "Lair Finance",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "llamapay",
+      "name": "LlamaPay",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "memeswap",
+      "name": "Memeswap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "mev-capital",
+      "name": "MEV Capital",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "moby",
+      "name": "Moby",
+      "type": "options",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nabla-finance",
+      "name": "Nabla Finance",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "near-intents",
+      "name": "NEAR Intents",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nome-protocol",
+      "name": "NOME Protocol",
+      "type": "algo-stables",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "orange-finance",
+      "name": "Orange Finance",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "orderly-bridge",
+      "name": "Orderly Bridge",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "origami-finance",
+      "name": "Origami Finance",
+      "type": "leveraged farming",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "pendle",
+      "name": "Pendle",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "penpie",
+      "name": "Penpie",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "raga-finance",
+      "name": "Raga Finance",
+      "type": "yield aggregator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "re7-labs",
+      "name": "Re7 Labs",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "reservoir-protocol",
+      "name": "Reservoir Protocol",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "roots",
+      "name": "Roots",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "royco-protocol",
+      "name": "Royco Protocol",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sablier-flow",
+      "name": "Sablier Flow",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sablier-lockup",
+      "name": "Sablier Lockup",
+      "type": "payments",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "satlayer",
+      "name": "SatLayer",
+      "type": "anchor btc",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "smilee-finance-gbera",
+      "name": "Smilee Finance gBERA",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "solv-strategies",
+      "name": "Solv Strategies",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "steer-protocol",
+      "name": "Steer Protocol",
+      "type": "liquidity manager",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "stride",
+      "name": "Stride",
+      "type": "liquid staking",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sudoswap-v2",
+      "name": "Sudoswap V2",
+      "type": "nft marketplace",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "sumer.money",
+      "name": "Sumer.money",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "swissborg",
+      "name": "SwissBorg",
+      "type": "cex",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "symbiosis",
+      "name": "Symbiosis",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "symmio",
+      "name": "SYMMIO",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "team-finance",
+      "name": "Team Finance",
+      "type": "token locker",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "termmax",
+      "name": "TermMax",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "tulipa-capital",
+      "name": "Tulipa Capital",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "twin-finance",
+      "name": "Twin Finance",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "type": "bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "veda",
+      "name": "Veda",
+      "type": "onchain capital allocator",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "vendor-v2",
+      "name": "Vendor V2",
+      "type": "lending",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "wasabee",
+      "name": "Wasabee",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "wasabi",
+      "name": "Wasabi",
+      "type": "derivatives",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "webera-finance",
+      "name": "WeBera Finance",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "winnieswap",
+      "name": "WinnieSwap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "woofi-swap",
+      "name": "WOOFi Swap",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zerolend-vaults",
+      "name": "ZeroLend Vaults",
+      "type": "risk curators",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "zoo-finance",
+      "name": "Zoo Finance",
+      "type": "yield",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

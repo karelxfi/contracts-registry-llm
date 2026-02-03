@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "chain": "zksync-era",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "aave-v3",
+      "name": "Aave V3",
+      "type": "lending",
+      "contractCount": 7,
+      "verified": true,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "type": "liquid-staking",
+      "contractCount": 1,
+      "verified": true,
+      "updated": "2025-02-02"
+    },
+    {
+      "id": "uniswap-v3",
+      "name": "Uniswap V3",
+      "type": "dexs",
+      "contractCount": 14,
+      "verified": false,
+      "updated": "2025-02-02"
+    }
+  ]
+}

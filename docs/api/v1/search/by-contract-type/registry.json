@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "contractType": "registry",
+  "protocols": {
+    "aave-v2": {
+      "name": "Aave V2",
+      "type": "lending",
+      "contracts": [
+        "poolAddressesProvider"
+      ],
+      "chains": [
+        "ethereum",
+        "polygon",
+        "avalanche"
+      ]
+    },
+    "aave-v3": {
+      "name": "Aave V3",
+      "type": "lending",
+      "contracts": [
+        "poolAddressesProvider"
+      ],
+      "chains": [
+        "ethereum",
+        "plasma",
+        "arbitrum",
+        "base",
+        "avalanche",
+        "polygon",
+        "linea",
+        "sonic",
+        "celo",
+        "scroll",
+        "soneium",
+        "metis",
+        "optimism",
+        "gnosis",
+        "bsc",
+        "zksync-era",
+        "fantom",
+        "harmony",
+        "mantle"
+      ]
+    },
+    "lido": {
+      "name": "Lido",
+      "type": "liquid-staking",
+      "contracts": [
+        "nodeOperatorsRegistry",
+        "lidoLocator"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "zksync-era",
+        "mantle",
+        "linea",
+        "scroll",
+        "bsc"
+      ]
+    }
+  }
+}

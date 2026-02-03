@@ -1,0 +1,589 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-03",
+  "byProtocol": {
+    "aave-v2": {
+      "ethereum": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ],
+      "polygon": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ],
+      "avalanche": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ]
+    },
+    "aave-v3": {
+      "ethereum": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "arbitrum": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "base": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "avalanche": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "polygon": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "linea": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "sonic": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "celo": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "scroll": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "soneium": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "metis": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "optimism": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "gnosis": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "bsc": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "zksync-era": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "fantom": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "harmony": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "mantle": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "gmx-v1": {
+      "arbitrum-one": [
+        "vault"
+      ]
+    },
+    "jupiter": {
+      "solana": [
+        "swapV6",
+        "swapV4",
+        "limitOrder",
+        "jupToken"
+      ]
+    },
+    "lido": {
+      "ethereum": [
+        "stETH",
+        "wstETH",
+        "withdrawalQueue",
+        "stakingRouter",
+        "accounting",
+        "accountingOracle",
+        "nodeOperatorsRegistry",
+        "ldoToken",
+        "lidoLocator",
+        "withdrawalVault"
+      ],
+      "arbitrum": [
+        "wstETH",
+        "ldoToken"
+      ],
+      "optimism": [
+        "wstETH",
+        "stETH",
+        "ldoToken"
+      ],
+      "base": [
+        "wstETH"
+      ],
+      "polygon": [
+        "wstETH"
+      ],
+      "zksync-era": [
+        "wstETH"
+      ],
+      "mantle": [
+        "wstETH"
+      ],
+      "linea": [
+        "wstETH"
+      ],
+      "scroll": [
+        "wstETH"
+      ],
+      "bsc": [
+        "wstETH"
+      ]
+    },
+    "morpho-blue": {
+      "ethereum": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ],
+      "base": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ],
+      "arbitrum-one": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ]
+    }
+  },
+  "byChain": {
+    "ethereum": {
+      "aave-v2": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ],
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "stETH",
+        "wstETH",
+        "withdrawalQueue",
+        "stakingRouter",
+        "accounting",
+        "accountingOracle",
+        "nodeOperatorsRegistry",
+        "ldoToken",
+        "lidoLocator",
+        "withdrawalVault"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ]
+    },
+    "polygon": {
+      "aave-v2": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ],
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "avalanche": {
+      "aave-v2": [
+        "lendingPool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "protocolDataProvider",
+        "collector"
+      ],
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "arbitrum": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH",
+        "ldoToken"
+      ]
+    },
+    "base": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ]
+    },
+    "linea": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "sonic": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "celo": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "scroll": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "soneium": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "metis": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "optimism": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH",
+        "stETH",
+        "ldoToken"
+      ]
+    },
+    "gnosis": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "bsc": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "zksync-era": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "fantom": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "harmony": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ]
+    },
+    "mantle": {
+      "aave-v3": [
+        "pool",
+        "poolAddressesProvider",
+        "poolConfigurator",
+        "aaveOracle",
+        "poolDataProvider",
+        "aclManager",
+        "collector"
+      ],
+      "lido": [
+        "wstETH"
+      ]
+    },
+    "arbitrum-one": {
+      "gmx-v1": [
+        "vault"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm",
+        "bundler"
+      ]
+    },
+    "solana": {
+      "jupiter": [
+        "swapV6",
+        "swapV4",
+        "limitOrder",
+        "jupToken"
+      ]
+    }
+  },
+  "stats": {
+    "totalVerified": 180,
+    "byChain": {
+      "ethereum": 26,
+      "polygon": 14,
+      "avalanche": 13,
+      "arbitrum": 9,
+      "base": 11,
+      "linea": 8,
+      "sonic": 7,
+      "celo": 7,
+      "scroll": 8,
+      "soneium": 7,
+      "metis": 7,
+      "optimism": 10,
+      "gnosis": 7,
+      "bsc": 8,
+      "zksync-era": 8,
+      "fantom": 7,
+      "harmony": 7,
+      "mantle": 8,
+      "arbitrum-one": 4,
+      "solana": 4
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "chain": "optimism",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "aave-v3",
+      "name": "Aave V3",
+      "type": "lending",
+      "contractCount": 7,
+      "verified": true,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "type": "dexs",
+      "contractCount": 9,
+      "verified": false,
+      "updated": "2025-02-02"
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "type": "liquid-staking",
+      "contractCount": 3,
+      "verified": true,
+      "updated": "2025-02-02"
+    },
+    {
+      "id": "uniswap-v3",
+      "name": "Uniswap V3",
+      "type": "dexs",
+      "contractCount": 11,
+      "verified": false,
+      "updated": "2025-02-02"
+    }
+  ]
+}

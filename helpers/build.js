@@ -309,11 +309,14 @@ function generateSearchIndexes(protocols) {
             deployment.addresses,
           )) {
             const key = `${chainId}:${address.toLowerCase()}`;
+            const isVerified =
+              deployment.verified && deployment.verified[contractName] === true;
             byAddress[key] = {
               protocol: protocolId,
               version: versionId,
               contract: contractName,
               chain: chainId,
+              verified: isVerified || false,
             };
           }
         }

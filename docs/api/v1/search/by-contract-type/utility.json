@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "contractType": "utility",
+  "protocols": {
+    "curve": {
+      "name": "Curve Finance",
+      "type": "dexs",
+      "contracts": [
+        "address_provider",
+        "meta_registry",
+        "rate_provider",
+        "crvusd_price_aggregator",
+        "fee_collector"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "avalanche",
+        "bsc",
+        "fantom",
+        "gnosis",
+        "celo",
+        "fraxtal",
+        "kava",
+        "mantle",
+        "x-layer",
+        "xdc"
+      ]
+    },
+    "uniswap-v3": {
+      "name": "Uniswap V3",
+      "type": "dexs",
+      "contracts": [
+        "Quoter",
+        "QuoterV2",
+        "V3Migrator",
+        "v3StakerAddress",
+        "TickLens",
+        "Multicall",
+        "Multicall2",
+        "Permit2",
+        "NFTDescriptor",
+        "NonfungibleTokenPositionDescriptor"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "bsc",
+        "blast",
+        "celo",
+        "zksync-era",
+        "unichain",
+        "monad",
+        "zora",
+        "world-chain"
+      ]
+    }
+  }
+}

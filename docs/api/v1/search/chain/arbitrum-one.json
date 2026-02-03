@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "chain": "arbitrum-one",
+  "chainId": 42161,
+  "protocols": [
+    {
+      "id": "gmx-v1",
+      "name": "GMX V1",
+      "type": "perpetuals",
+      "contractCount": 1,
+      "verified": true,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "morpho-blue",
+      "name": "Morpho Blue",
+      "type": "lending",
+      "contractCount": 3,
+      "verified": true,
+      "updated": "2025-01-31"
+    }
+  ]
+}

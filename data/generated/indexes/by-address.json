@@ -3,3330 +3,3885 @@
     "protocol": "zookeeper",
     "version": "zookeeper",
     "contract": "main",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "polygon:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "solana:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "solana"
+    "chain": "solana",
+    "verified": false
   },
   "ethereum:": {
     "protocol": "zunami-protocol",
     "version": "zunami-protocol",
     "contract": "main",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "metis:": {
     "protocol": "zkera-finance",
     "version": "zkera-finance",
     "contract": "main",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": false
   },
   "arbitrum:": {
     "protocol": "zyfai",
     "version": "zyfai",
     "contract": "main",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "blast:": {
     "protocol": "zklink-nova",
     "version": "zklink-nova",
     "contract": "main",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "scroll:": {
     "protocol": "zksynth",
     "version": "zksynth",
     "contract": "main",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": false
   },
   "starknet:": {
     "protocol": "zklend-lst",
     "version": "zklend-lst",
     "contract": "main",
-    "chain": "starknet"
+    "chain": "starknet",
+    "verified": false
   },
   "icp:": {
     "protocol": "yusan",
     "version": "yusan",
     "contract": "main",
-    "chain": "icp"
+    "chain": "icp",
+    "verified": false
   },
   "base:": {
     "protocol": "zyfai",
     "version": "zyfai",
     "contract": "main",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "bitcoin:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "bitcoin"
+    "chain": "bitcoin",
+    "verified": false
   },
   "doge:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "doge"
+    "chain": "doge",
+    "verified": false
   },
   "cardano:": {
     "protocol": "yamfore",
     "version": "yamfore",
     "contract": "main",
-    "chain": "cardano"
+    "chain": "cardano",
+    "verified": false
   },
   "plasma:": {
     "protocol": "zyfai",
     "version": "zyfai",
     "contract": "main",
-    "chain": "plasma"
+    "chain": "plasma",
+    "verified": false
   },
   "sonic:": {
     "protocol": "zyfai",
     "version": "zyfai",
     "contract": "main",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": false
   },
   "linea:": {
     "protocol": "zkusd",
     "version": "zkusd",
     "contract": "main",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": false
   },
   "mixin:": {
     "protocol": "pando-rings",
     "version": "pando-rings",
     "contract": "main",
-    "chain": "mixin"
+    "chain": "mixin",
+    "verified": false
   },
   "unichain:": {
     "protocol": "zenolend",
     "version": "zenolend",
     "contract": "main",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "manta:": {
     "protocol": "zklink-nova",
     "version": "zklink-nova",
     "contract": "main",
-    "chain": "manta"
+    "chain": "manta",
+    "verified": false
   },
   "aptos:": {
     "protocol": "tsunamix",
     "version": "tsunamix",
     "contract": "main",
-    "chain": "aptos"
+    "chain": "aptos",
+    "verified": false
   },
   "ethereum:0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "lendingPool",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xb53c1a33016b2dc2ff3653530bff1848a515c8c5": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolAddressesProvider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x311bb771e4f8952e6da169b425e7e92d6ac45756": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolConfigurator",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xa50ba011c48153de246e5192c8f9258a2ba79ca9": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "aaveOracle",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x057835ad21a177dbdd3090bb1cae03eacf78fc6d": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "protocolDataProvider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "polygon:0x8dff5e27ea6b7ac08ebfdf9eb090f32ee9a30fcf": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "lendingPool",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0xd05e3e715d945b59290df0ae8ef85c1bdb684744": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolAddressesProvider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0x26db2b833021583566323e3b8985999981b9f1f3": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolConfigurator",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0x0229f777b0fab107f9591a41d5f02e4e98db6f2d": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "aaveOracle",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0x7551b5d2763519d4e37e8b81929d336de671d46d": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "protocolDataProvider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0xe8599f3cc5d38a9ad6f3684cd5cea72f10dbc383": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "avalanche:0x4f01aed16d97e3ab5ab2b501154dc9bb0f1a5a2c": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "lendingPool",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0xb6a86025f0fe1862b372cb0ca18ce3ede02a318f": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolAddressesProvider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0x230b618ad4c475393a7239ae03630042281bd86e": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "poolConfigurator",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0xdc336cd4769f4cc7e9d726da53e6d3fc710ceb89": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "aaveOracle",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0x65285e9dfab318f57051ab2b139cccf232945451": {
     "protocol": "aave-v2",
     "version": "aave-v2",
     "contract": "protocolDataProvider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0x5ba7fd868c40c16f7adfae6cf87121e13fc2f7a0": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "ethereum:0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x2f39d218133afab8f2b819b1066c7e434ad94e9e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x64b761d848206f447fe2dd461b0c635ec39ebb27": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x54586be62e3c3580375ae3723c145253060ca0c2": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x0a16f2fcc0d44fae41cc54e079281d84a363becd": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xc2aacf6553d20d1e9d78e365aaba8032af9c85b0": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "arbitrum:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0x243aa95cac2a25651eda86e80bee66114413c43b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0x053d55f9b5af8694c503eb288a1b7e552f590710": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "base:0xa238dd80c259a72e81d7e4664a9801593f98d1c5": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0xe20fcbdbffc4dd138ce8b2e6fbb6cb49777ad64d": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x5731a04b1e775f0fdd454bf70f3335886e9a96be": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x2cc0fc26ed4563a5ce5e8bdcfe1a2878676ae156": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x0f43731eb8d45a581f4a36dd74f5f358bc90c73a": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x43955b0899ab7232e3a454cf84aedd22ad46fd33": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0xba9424d650a4f5c80a0da641254d1acce2a37057": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "avalanche:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0xebd36016b3ed09d4693ed4251c67bd858c3c7c9c": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0x243aa95cac2a25651eda86e80bee66114413c43b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "avalanche:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": true
   },
   "polygon:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0xb023e699f5a33916ea823a16485e259257ca8bd1": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0x243aa95cac2a25651eda86e80bee66114413c43b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "polygon:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "linea:0xc47b8c00b0f69a36fa203ffeac0334874574a8ac": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0x89502c3731f69ddc95b65753708a07f8cd0373f4": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0x812e7c19421d9f41a6ddcf047d5cc2de2ca5bfa2": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0xcfdada7dcd2e785cf706badbc2b8af5084d595e9": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0x47cd4b507b81cb831669c71c7077f4daf6762ff4": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0xbf32c7dfc72b730967072b112927ca0de205dbb5": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "linea:0x86e2938dae289763d4e09a7e42c5ccca62cf9809": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "sonic:0x5362dbb1e601abf3a4c14c22ffeda64042e5eaa3": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0x5c2e738f6e27bce0f7558051bf90605dd6176900": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0x50c70feb95abc1a92fc30b9acc41bd349e5de2f0": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0xd63f7658c66b2934bd234d79d06aef5290734b30": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0xc0a344397cfa89df1e1d3e4fb330834d789cf2cd": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0x3a790a47c4d531fd333fad24f70b0ccb521b3b5a": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "sonic:0x1ab55bbdd5df0782bbcf73553af93bc6b29a286b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "sonic"
+    "chain": "sonic",
+    "verified": true
   },
   "celo:0x3e59a31363e2ad014dcbc521c4a0d5757d9f3402": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0x9f7cf9417d5251c59fe94fb9147feee1aad9cea5": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0x7567e3434cc1bef724ab595e6072367ef4914691": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0x1e693d088cefd1e95ba4c4a5f7eea41a1ec37e8b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0x2e0f8d3b1631296cc7c56538d6eb6032601e15ed": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0x7a12dcfd73c1b4cddf294da4cfce75fcabba314c": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "celo:0xc959439207da5341b74adcdac59016aa9be7e9e7": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": true
   },
   "scroll:0x11fcfe756c05ad438e312a7fd934381537d3cffe": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0x69850d0b276776781c063771b161bd8894bcdd04": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0x32bcab42a2bb5ac577d24b425d46d8b8e0df9b7f": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0x04421d8c506e2fa2371a08efaabf791f624054f3": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0xbea2b648f05887ecbf1d115da8b7e4a317975a51": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0x7633f981d87dc6307227de9383d2ce7243158081": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "scroll:0x90eb541e1a431d8a30ed85a77675d1f001128cb5": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "soneium:0xdd3d7a7d03d9fd9ef45f3e587287922ef65ca38b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0x82405d1a189bd6ce4667809c35b37fbe136a4c5b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0x1607fceec8deba4d5da66d620b2363066d025a02": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0x20040a64612555042335926d72b4e5f667a67fa1": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0x4a24b44b252db149b5b9bcec4dc3c2752807d626": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0x7635bff69e52023ab76267ab1eff63434cdce458": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "soneium:0xc7b3cc5f5988613b0d620623c514edfb32539720": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": true
   },
   "metis:0x90df02551bb792286e8d4f13e0e357b4bf1d6a57": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0xb9fabd7500b2c6781c35dd48d54f81fc2299d7af": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0x69fee8f261e004453be0800bc9039717528645a6": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0x38d36e85e47ea6ff0d18b0adf12e5fc8984a6f8e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0x602bef1d4c381e5a29f0c562a310416a73d8be19": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0xcdcb65fc657b701a5100a12efb663978e7e8ffb8": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "metis:0xb5b64c7e00374e766272f8b442cd261412d4b118": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "metis"
+    "chain": "metis",
+    "verified": true
   },
   "optimism:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0xd81eb3728a631871a7ebbad631b5f424909f0c77": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0x243aa95cac2a25651eda86e80bee66114413c43b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0xb2289e329d2f85f1ed31adbb30ea345278f21bcf": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "gnosis:0xb50201558b00496a145fe76f7424749556e326d8": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0x36616cf17557639614c1cddb356b1b83fc0b2132": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0x7304979ec9e4eaa0273b6a037a31c4e9e5a75d16": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0xeb0a051be10228213baeb449db63719d6742f7c4": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0xf1f5acb596568895393cb5e4d0452d6592a2fa70": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0xec710f59005f48703908bc519d552df5b8472614": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "gnosis:0x3e652e97ff339b73421f824f5b03d75b62f1fb51": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": true
   },
   "bsc:0x6807dc923806fe8fd134338eabca509979a7e0cb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0xff75b6da14ffbbfd355daf7a2731456b3562ba6d": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0x67bdf23c7fce7c65ff7415ba3f2520b45d6f9584": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0x39bc1bfda2130d6bb6dbefd366939b4c7aa7c697": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0xc90df74a7c16245c5f5c5870327ceb38fe5d5328": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0x2d97f8fa96886fd923c065f5457f9ddd494e3877": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "bsc:0x25ec457d1778b0e5316e7f38f3c22baf413f1a8c": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "zksync-era:0x78e30497a3c7527d953c6b1e3541b021a98ac43c": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0x2a3948bb219d6b2fa83d64100006391a96be6cb7": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0x0207d31b4377c74bec37356aad83e3dcc979f40e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0xc7f58fca663a8d377b6d0c9703c697f56dc40088": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0x9057ac7b2d35606f8ad5ae2fcbafcd94e58d9927": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0xc6150b63c2f02528d4a969a248710a4658ed7928": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "zksync-era:0xd69cbda644c6be817aafb5fd9174f50c33803b6b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "fantom:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0xfd6f3c1845604c8ae6c6e402ad17fb9885160754": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0x69fa688f1dc47d4b5d8029d5a35fb7a548310654": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "fantom:0xbe85413851d195fc6341619cd68bfdc26a25b928": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": true
   },
   "harmony:0x794a61358d6845594f94dc1db02a252b5b4814ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0xa97684ead0e402dc232d5a977953df7ecbab3cdb": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0x8145edddf43f50276641b55bd3ad95944510021e": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0x3c90887ede8d65ccb2777a5d577beab2548280ad": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0x69fa688f1dc47d4b5d8029d5a35fb7a548310654": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "harmony:0x8a020d92d6b119978582be4d3edfdc9f7b28bf31": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "harmony"
+    "chain": "harmony",
+    "verified": true
   },
   "mantle:0x458f293454fe0d67ec0655f3672301301dd51422": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "pool",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0xba50cd2a20f6da35d788639e581bca8d0b5d4d5f": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolAddressesProvider",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0x719755fc1acf2f9079b0cbc56e23712c09ab8626": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolConfigurator",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0x47a063cfda980532267970d478ec340c0f80e8df": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aaveOracle",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0x487c5c669d9eee6057c44973207101276cf73b68": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "poolDataProvider",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0x810d46f9a9027e28f9b01f75e2bdde839da61115": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "aclManager",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:0x0cd2670339cd520bf9428ad881be60a698ab9b32": {
     "protocol": "aave-v3",
     "version": "aave-v3",
     "contract": "collector",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "mantle:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "kava:": {
     "protocol": "ysmart",
     "version": "ysmart",
     "contract": "main",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "sui:": {
     "protocol": "zo-perps",
     "version": "zo-perps",
     "contract": "main",
-    "chain": "sui"
+    "chain": "sui",
+    "verified": false
   },
   "abstract:": {
     "protocol": "zoo.fun",
     "version": "zoo.fun",
     "contract": "main",
-    "chain": "abstract"
+    "chain": "abstract",
+    "verified": false
   },
   "x-layer:": {
     "protocol": "zerolend-lending",
     "version": "zerolend-lending",
     "contract": "main",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "monad:": {
     "protocol": "zkswap-v3",
     "version": "zkswap-v3",
     "contract": "main",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "sei:": {
     "protocol": "zoo-finance",
     "version": "zoo-finance",
     "contract": "main",
-    "chain": "sei"
+    "chain": "sei",
+    "verified": false
   },
   "cronos:": {
     "protocol": "zeus-finance",
     "version": "zeus-finance",
     "contract": "main",
-    "chain": "cronos"
+    "chain": "cronos",
+    "verified": false
   },
   "fraxtal:": {
     "protocol": "vnx",
     "version": "vnx",
     "contract": "main",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "ton:": {
     "protocol": "wonton",
     "version": "wonton",
     "contract": "main",
-    "chain": "ton"
+    "chain": "ton",
+    "verified": false
   },
   "core:": {
     "protocol": "zeepr",
     "version": "zeepr",
     "contract": "main",
-    "chain": "core"
+    "chain": "core",
+    "verified": false
   },
   "stacks:": {
     "protocol": "zest",
     "version": "zest",
     "contract": "main",
-    "chain": "stacks"
+    "chain": "stacks",
+    "verified": false
   },
   "algorand:": {
     "protocol": "yieldly",
     "version": "yieldly",
     "contract": "main",
-    "chain": "algorand"
+    "chain": "algorand",
+    "verified": false
   },
   "tezos:": {
     "protocol": "yupana",
     "version": "yupana",
     "contract": "main",
-    "chain": "tezos"
+    "chain": "tezos",
+    "verified": false
   },
   "near:": {
     "protocol": "veax",
     "version": "veax",
     "contract": "main",
-    "chain": "near"
+    "chain": "near",
+    "verified": false
   },
   "celo:": {
     "protocol": "yieldwolf",
     "version": "yieldwolf",
     "contract": "main",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "tron:": {
     "protocol": "zoomex",
     "version": "zoomex",
     "contract": "main",
-    "chain": "tron"
+    "chain": "tron",
+    "verified": false
   },
   "stellar:": {
     "protocol": "wisdomtree",
     "version": "wisdomtree",
     "contract": "main",
-    "chain": "stellar"
+    "chain": "stellar",
+    "verified": false
   },
   "hyperliquid-l1:": {
     "protocol": "wrapped-hlp",
     "version": "wrapped-hlp",
     "contract": "main",
-    "chain": "hyperliquid-l1"
+    "chain": "hyperliquid-l1",
+    "verified": false
   },
   "neutron:": {
     "protocol": "valence",
     "version": "valence",
     "contract": "main",
-    "chain": "neutron"
+    "chain": "neutron",
+    "verified": false
   },
   "plume-mainnet:": {
     "protocol": "yieldfi",
     "version": "yieldfi",
     "contract": "main",
-    "chain": "plume-mainnet"
+    "chain": "plume-mainnet",
+    "verified": false
   },
   "berachain:": {
     "protocol": "zoo-finance",
     "version": "zoo-finance",
     "contract": "main",
-    "chain": "berachain"
+    "chain": "berachain",
+    "verified": false
   },
   "flow:": {
     "protocol": "trado-spot",
     "version": "trado-spot",
     "contract": "main",
-    "chain": "flow"
+    "chain": "flow",
+    "verified": false
   },
   "ink:": {
     "protocol": "vfat.io",
     "version": "vfat.io",
     "contract": "main",
-    "chain": "ink"
+    "chain": "ink",
+    "verified": false
   },
   "osmosis:": {
     "protocol": "white-whale-dex",
     "version": "white-whale-dex",
     "contract": "main",
-    "chain": "osmosis"
+    "chain": "osmosis",
+    "verified": false
   },
   "movement:": {
     "protocol": "yuzu-finance",
     "version": "yuzu-finance",
     "contract": "main",
-    "chain": "movement"
+    "chain": "movement",
+    "verified": false
   },
   "injective:": {
     "protocol": "white-whale-dex",
     "version": "white-whale-dex",
     "contract": "main",
-    "chain": "injective"
+    "chain": "injective",
+    "verified": false
   },
   "merlin:": {
     "protocol": "zklink-nova",
     "version": "zklink-nova",
     "contract": "main",
-    "chain": "merlin"
+    "chain": "merlin",
+    "verified": false
   },
   "bob:": {
     "protocol": "velodrome-v2",
     "version": "velodrome-v2",
     "contract": "main",
-    "chain": "bob"
+    "chain": "bob",
+    "verified": false
   },
   "immutable-zkevm:": {
     "protocol": "warpgate",
     "version": "warpgate",
     "contract": "main",
-    "chain": "immutable-zkevm"
+    "chain": "immutable-zkevm",
+    "verified": false
   },
   "xdc:": {
     "protocol": "xswap-v3",
     "version": "xswap-v3",
     "contract": "main",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "saga:": {
     "protocol": "yieldfi",
     "version": "yieldfi",
     "contract": "main",
-    "chain": "saga"
+    "chain": "saga",
+    "verified": false
   },
   "bifrost-network:": {
     "protocol": "everdex",
     "version": "everdex",
     "contract": "main",
-    "chain": "bifrost-network"
+    "chain": "bifrost-network",
+    "verified": false
   },
   "hedera:": {
     "protocol": "tangent",
     "version": "tangent",
     "contract": "main",
-    "chain": "hedera"
+    "chain": "hedera",
+    "verified": false
   },
   "ronin:": {
     "protocol": "steer-protocol",
     "version": "steer-protocol",
     "contract": "main",
-    "chain": "ronin"
+    "chain": "ronin",
+    "verified": false
   },
   "mezo:": {
     "protocol": "velar-perps",
     "version": "velar-perps",
     "contract": "main",
-    "chain": "mezo"
+    "chain": "mezo",
+    "verified": false
   },
   "flare:": {
     "protocol": "upshift",
     "version": "upshift",
     "contract": "main",
-    "chain": "flare"
+    "chain": "flare",
+    "verified": false
   },
   "dydx:": {
     "protocol": "stride",
     "version": "stride",
     "contract": "main",
-    "chain": "dydx"
+    "chain": "dydx",
+    "verified": false
   },
   "world-chain:": {
     "protocol": "z3z",
     "version": "z3z",
     "contract": "main",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "chainflip:": {
     "protocol": "chainflip",
     "version": "chainflip",
     "contract": "main",
-    "chain": "chainflip"
+    "chain": "chainflip",
+    "verified": false
   },
   "rollux:": {
     "protocol": "superdapp",
     "version": "superdapp",
     "contract": "main",
-    "chain": "rollux"
+    "chain": "rollux",
+    "verified": false
   },
   "katana:": {
     "protocol": "yieldfi",
     "version": "yieldfi",
     "contract": "main",
-    "chain": "katana"
+    "chain": "katana",
+    "verified": false
   },
   "soneium:": {
     "protocol": "zenolend",
     "version": "zenolend",
     "contract": "main",
-    "chain": "soneium"
+    "chain": "soneium",
+    "verified": false
   },
   "megaeth:": {
     "protocol": "warpx",
     "version": "warpx",
     "contract": "main",
-    "chain": "megaeth"
+    "chain": "megaeth",
+    "verified": false
   },
   "ethereum:0xd533a949740bb3306d119cc777fa900ba034cd52": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2": {
     "protocol": "curve",
     "version": "curve",
     "contract": "vecrv",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xf939e0a03fb07f59a73314e73794be0e57ac1b4e": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x0655977feb2f289a4ab78af67bab0d17aab84367": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x6a8cbed756804b16e05e741edabd5cb544ae21bf": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x0c0e5f2ff0ff18a3be9b835635039256dc4b4963": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xf98b45fa17de75fb1ad0e7afd971b0ca00e379fc": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xa834f3d23749233c9b61ba723588570a1cca0ed7": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x2f50d538606fa9edd2b11e2446beb18c9d5846bb": {
     "protocol": "curve",
     "version": "curve",
     "contract": "gauge_controller",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xd061d61a4d941c39e5453435b6345dc261c2fce0": {
     "protocol": "curve",
     "version": "curve",
     "contract": "minter",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xc9332fdcb1c491dcc683bae86fe3cb70360738bc": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvusd_controller_factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x18672b1b0c623a30089a280ed9256379fb0e4e62": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvusd_price_aggregator",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xea6876dde9e3467564acbee1ed5bac88783205e0": {
     "protocol": "curve",
     "version": "curve",
     "contract": "llamalend_factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xa2bcd1a4efbd04b63cd03f5aff2561106ebcce00": {
     "protocol": "curve",
     "version": "curve",
     "contract": "fee_collector",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x467947ee34af926cf1dcac093870f613c96b1e0c": {
     "protocol": "curve",
     "version": "curve",
     "contract": "emergency_dao",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "arbitrum:0x11cdb42b0eb46d95f990bedd4695a6e3fa034978": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x9af14d26075f142eb3f292d5065eb3faa646167b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xbc0797015fcfc47d9c1856639cae50d0e69fbee8": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x13526206545e2dc7ccfbaf28dc88f440ce7ad3e0": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xcbc1be39ba277525e774976c61660f29fa75c5a4": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "optimism:0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x289f635106d5b822a505b39ac237a0ae9189335b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xc6c09471ee39c7e30a067952fcc89c8922f9ab53": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xc65cb3156225380beda366610bab18d5835a1647": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x3f4a2bffa78d50cd61401a440526378e2155a8ae": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "base:0x8ee73c484a26e0a5df2ee2a4960b789967dd0415": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x417ac0e078398c154edfadd9ef675d30be60af93": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x646a737b9b6024e49f5908762b3ff73e65b5160c": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0xd2002373543ce3527023c75e7518c274a51ce712": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0xc9fe0c63af9a39402e8a5514f9c43af0322b665f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0xa5961898870943c68037f6848d2d866ed2016bcb": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x87dd13dd25a1dbde0e1edcf5b8fa6cfff7eabcad": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x33e72383472f77b0c6d8f791d1613c75ae2c5915": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "polygon:0x172370d5cd63279efa6d502dab29171933a610af": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x1764ee18e8b3cca4787249ceb249356192594585": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xc1b393efef38140662b91441c6710aa704973228": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x296d2b5c23833a70d07c8fcbb97d846c1ff90ddd": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xe0b15824862f3222fdfed99febd0f7e0ec26e1fa": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "avalanche:0xeebc562d445f4bc13ac75c8caabb438dfae42a1b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xcb7c161602d04c4e8af1832046ee08aaf96d855d": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xa3ea433509f7941df3e33857d9c9f212ad4a4e64": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x1764ee18e8b3cca4787249ceb249356192594585": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x3d6cb2f6dcf47cdd9c13e4e3beae9af041d8796a": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x6a8cbed756804b16e05e741edabd5cb544ae21bf": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x3261ca38b2129140c4199c63f7e09830b123cafc": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "bsc:0x9996d0276612d23b35f90c51ee935520b3d7355b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xe2fb3f127f5450dee44afe054385d74c392bdef4": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x0094ad026643994c8fb2136ec912d508b15fe0e5": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xd7e72f3615aa65b92a4dbdc211e296a35512988b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x4c7a5a5d57f98d362f1c00d7135f0da5b6f82227": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xfb37b8d939ffa77114005e61cfc2e543d6f49a81": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "fantom:0xe6c259bc0fce25b71fe95a00361d3878e16232c3": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": false
   },
   "fantom:0x5191946500e75f0a74476f146df7d386e52961d9": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": false
   },
   "fantom:0xe61fb97ef6ebfba12b36ffd7be785c1f5a2de66b": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": false
   },
   "fantom:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": false
   },
   "fantom:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "fantom"
+    "chain": "fantom",
+    "verified": false
   },
   "gnosis:0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0xabef652195f98a91e490f047a5006b71c85f058d": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0xbc0797015fcfc47d9c1856639cae50d0e69fbee8": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0xb47988ad49dce8d909c6f9cf7b26caf04e1445c8": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0xb6265659d7e9feccb59e076e949da556fc5e1429": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "gnosis:0x149ff1decfe441cd685306965db5ac73f6808851": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "gnosis"
+    "chain": "gnosis",
+    "verified": false
   },
   "celo:0x173fd7434b8b50df08e3298f173487ebdb35fd14": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x1764ee18e8b3cca4787249ceb249356192594585": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x19bd1ab34d6abb584b9c1d5519093bfaa7f6c7d2": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x64afa95e0c3d8410240a4262df9fd82b12b64edd": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "fraxtal:0x331b9182088e2a7d6d3fe4742aba1fb231aecc56": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0xab94c721040b33aa8b0b4d159da9878e2a836ed0": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0xd2002373543ce3527023c75e7518c274a51ce712": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0xc9fe0c63af9a39402e8a5514f9c43af0322b665f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0xd125e7a0ceddf89c6473412d85835450897be6dc": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "fraxtal:0x07920e98a66e462c2aa4c8fa6200bc68ca161ea0": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "fraxtal"
+    "chain": "fraxtal",
+    "verified": false
   },
   "kava:0x7736c61f00c72e868aa9904c9063e8445a1ef5dd": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "kava:0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "kava:0x1764ee18e8b3cca4787249ceb249356192594585": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "kava:0xd3b17f862956464ae4403ccf829ce69199856e1e": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "kava:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "kava"
+    "chain": "kava",
+    "verified": false
   },
   "mantle:0xe265fc71d45fd791c9ebf3ee0a53fbb220eb8f75": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x98ee851a00abee0d95d08cf4ca2bdce32aeaaf7f": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x0c59d36b23f809f8b6c7cb4c8c590a0ac103baef": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "mantle:0x3f445d38e820c010a7a6e33c5f80cbebe6930f61": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": false
   },
   "x-layer:0x3d5320821bfca19fb0b5428f2c79d63bd5246f89": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crv",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0xda8f4eb4503acf5dec5420523637bb5b33a846f6": {
     "protocol": "curve",
     "version": "curve",
     "contract": "crvUSD",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0x5eee3091f747e60a045a2e715a4c71e600e31f6e": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0x0c59d36b23f809f8b6c7cb4c8c590a0ac103baef": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0x5ffe7fb82894076ecb99a30d6a32e969e6e35e98": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0x87dd13dd25a1dbde0e1edcf5b8fa6cfff7eabcad": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "x-layer:0xb6845b562f01eb02ef20cbb63553d2a768e5a1cb": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "x-layer"
+    "chain": "x-layer",
+    "verified": false
   },
   "xdc:0x3d8eadb739d1ef95dd53d718e4810721837c69c1": {
     "protocol": "curve",
     "version": "curve",
     "contract": "scrvUSD",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0x5aea9aadd0974e8914229a23699bb6b343c97b09": {
     "protocol": "curve",
     "version": "curve",
     "contract": "stableswap_factory",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0xa17b39bf1c2fe776af38a999be7bb7bea737a6ec": {
     "protocol": "curve",
     "version": "curve",
     "contract": "twocrypto_factory",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0x729c764ae95e7a9dea9f950b5aedbf1a9f3d7c03": {
     "protocol": "curve",
     "version": "curve",
     "contract": "tricrypto_factory",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0x907ce289e9ee0bbcb0f69132b1c28a9affc29fca": {
     "protocol": "curve",
     "version": "curve",
     "contract": "address_provider",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0xb4c6a1e8a14e9fe74c88b06275b747145dd41206": {
     "protocol": "curve",
     "version": "curve",
     "contract": "meta_registry",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "xdc:0xbb56f907e8f455f9f71ed6a394b60ff666a60639": {
     "protocol": "curve",
     "version": "curve",
     "contract": "rate_provider",
-    "chain": "xdc"
+    "chain": "xdc",
+    "verified": false
   },
   "etherlink:": {
     "protocol": "uranium.io",
     "version": "uranium.io",
     "contract": "main",
-    "chain": "etherlink"
+    "chain": "etherlink",
+    "verified": false
   },
   "eni:": {
     "protocol": "fufuture-contract",
     "version": "fufuture-contract",
     "contract": "main",
-    "chain": "eni"
+    "chain": "eni",
+    "verified": false
   },
   "ethereal:": {
     "protocol": "ethereal-dex",
     "version": "ethereal-dex",
     "contract": "main",
-    "chain": "ethereal"
+    "chain": "ethereal",
+    "verified": false
   },
   "provenance:": {
     "protocol": "figure-markets-exchange",
     "version": "figure-markets-exchange",
     "contract": "main",
-    "chain": "provenance"
+    "chain": "provenance",
+    "verified": false
   },
   "gala:": {
     "protocol": "gala-swap",
     "version": "gala-swap",
     "contract": "main",
-    "chain": "gala"
+    "chain": "gala",
+    "verified": false
   },
   "arbitrum-one:0x489ee077994b6658eafa855c308275ead8097c4a": {
     "protocol": "gmx",
     "version": "v1",
     "contract": "vault",
-    "chain": "arbitrum-one"
+    "chain": "arbitrum-one",
+    "verified": true
   },
   "solana:jup6lkbzbjs1jkkwapdhny74zcz3tluzoi5qnyvtav4": {
     "protocol": "jupiter",
     "version": "jupiter",
     "contract": "swapV6",
-    "chain": "solana"
+    "chain": "solana",
+    "verified": true
   },
   "solana:jup4fb2cqirucathdrpc8h2gnsa2etxipdd33wcgujb": {
     "protocol": "jupiter",
     "version": "jupiter",
     "contract": "swapV4",
-    "chain": "solana"
+    "chain": "solana",
+    "verified": true
   },
   "solana:juponjaxxgz4rjzxzpmp4oxduvqsqtzzyknqvzynrnu": {
     "protocol": "jupiter",
     "version": "jupiter",
     "contract": "limitOrder",
-    "chain": "solana"
+    "chain": "solana",
+    "verified": true
   },
   "solana:jupyiwryjfskupiha7hker8vutaefosybkedznsdvcn": {
     "protocol": "jupiter",
     "version": "jupiter",
     "contract": "jupToken",
-    "chain": "solana"
+    "chain": "solana",
+    "verified": true
   },
   "ethereum:0xae7ab96520de3a18e5e111b5eaab095312d7fe84": {
     "protocol": "lido",
     "version": "lido",
     "contract": "stETH",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x889edc2edab5f40e902b864ad4d7ade8e412f9b1": {
     "protocol": "lido",
     "version": "lido",
     "contract": "withdrawalQueue",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xfddf38947afb03c621c71b06c9c70bce73f12999": {
     "protocol": "lido",
     "version": "lido",
     "contract": "stakingRouter",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x23ed611be0e1a820978875c0122f92260804cddf": {
     "protocol": "lido",
     "version": "lido",
     "contract": "accounting",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x852ded011285fe67063a08005c71a85690503cee": {
     "protocol": "lido",
     "version": "lido",
     "contract": "accountingOracle",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x55032650b14df07b85bf18a3a3ec8e0af2e028d5": {
     "protocol": "lido",
     "version": "lido",
     "contract": "nodeOperatorsRegistry",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x5a98fcbea516cf06857215779fd812ca3bef1b32": {
     "protocol": "lido",
     "version": "lido",
     "contract": "ldoToken",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xc1d0b3de6792bf6b4b37eccdcc24e45978cfd2eb": {
     "protocol": "lido",
     "version": "lido",
     "contract": "lidoLocator",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0xb9d7934878b5fb9610b3fe8a5e441e8fad7e293f": {
     "protocol": "lido",
     "version": "lido",
     "contract": "withdrawalVault",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "arbitrum:0x5979d7b546e38e414f7e9822514be443a4800529": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "arbitrum:0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60": {
     "protocol": "lido",
     "version": "lido",
     "contract": "ldoToken",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": true
   },
   "optimism:0x1f32b1c2345538c0c6f582fcb022739c4a194ebb": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0x76a50b8c7349ccddb7578c6627e79b5d99d24138": {
     "protocol": "lido",
     "version": "lido",
     "contract": "stETH",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "optimism:0xfdb794692724153d1488ccdbe0c56c252596735f": {
     "protocol": "lido",
     "version": "lido",
     "contract": "ldoToken",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": true
   },
   "base:0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "polygon:0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": true
   },
   "zksync-era:0x703b52f2b28febcb60e1372858af5b18849fe867": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": true
   },
   "mantle:0x458ed78eb972a369799fb278c0243b25e5242a83": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "mantle"
+    "chain": "mantle",
+    "verified": true
   },
   "linea:0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "linea"
+    "chain": "linea",
+    "verified": true
   },
   "scroll:0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "scroll"
+    "chain": "scroll",
+    "verified": true
   },
   "bsc:0x26c5e01524d2e6280a48f2c50ff6de7e52e9611c": {
     "protocol": "lido",
     "version": "lido",
     "contract": "wstETH",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": true
   },
   "thorchain:": {
     "protocol": "thorchain-lending",
     "version": "thorchain-lending",
     "contract": "main",
-    "chain": "thorchain"
+    "chain": "thorchain",
+    "verified": false
   },
   "ethereum:0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "morpho",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x870ac11d48b15db9a138cf899d20f13f79ba00bc": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "adaptiveCurveIrm",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "ethereum:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": true
   },
   "base:0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "morpho",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x46415998764c29ab2a25cbea6254146d50d22687": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "adaptiveCurveIrm",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "base:0x23055618898e202386e6c13955a58d3c68200bfb": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
-    "chain": "base"
+    "chain": "base",
+    "verified": true
   },
   "arbitrum-one:0x6c247b1f6182318877311737bac0844baa518f5e": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "morpho",
-    "chain": "arbitrum-one"
+    "chain": "arbitrum-one",
+    "verified": true
   },
   "arbitrum-one:0x66f30587fb8d4206918deb78eca7d5ebbafd06da": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "adaptiveCurveIrm",
-    "chain": "arbitrum-one"
+    "chain": "arbitrum-one",
+    "verified": true
   },
   "arbitrum-one:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
-    "chain": "arbitrum-one"
+    "chain": "arbitrum-one",
+    "verified": true
   },
   "waves:": {
     "protocol": "wavesbridge",
     "version": "wavesbridge",
     "contract": "main",
-    "chain": "waves"
+    "chain": "waves",
+    "verified": false
   },
   "ethereum:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x1f98415757620b543a52e61c46b32eb19261f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x5ba1e12693dc8f9c48aad8770482f4739beed696": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall2",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Quoter",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xe592427a0aece92de3edee1f18e0157c05861564": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x42b24a95702b9986e82d421cc3568932790a48ec": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x91ae842a5ffd8d12023116943e72a606179294f3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xa5644e29708357803b5a882d272c41cc0df92b34": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0x66a9893cc07d91d95644aedd05d03f95e1dba8af": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "ethereum:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "ethereum"
+    "chain": "ethereum",
+    "verified": false
   },
   "arbitrum:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xadf885960b47ea2cd9b55e6dac6b42b7cb2806db": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Quoter",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xe592427a0aece92de3edee1f18e0157c05861564": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x42b24a95702b9986e82d421cc3568932790a48ec": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x91ae842a5ffd8d12023116943e72a606179294f3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xa5644e29708357803b5a882d272c41cc0df92b34": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xa51afafe0263b40edaef0df8781ea9aa03e381a3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "arbitrum:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "arbitrum"
+    "chain": "arbitrum",
+    "verified": false
   },
   "optimism:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x1f98415757620b543a52e61c46b32eb19261f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Quoter",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xe592427a0aece92de3edee1f18e0157c05861564": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0x851116d9223fabed8e56c0e6b8ad0c31d98b3507": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "optimism:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "optimism"
+    "chain": "optimism",
+    "verified": false
   },
   "polygon:0x1f98431c8ad98523631ae4a59f267346ea31f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x1f98415757620b543a52e61c46b32eb19261f984": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xbfd8137f7d1516d3ea5ca83523914859ec47f573": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xb27308f9f90d607463bb33ea1bebb41c27ce5ab6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Quoter",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xe592427a0aece92de3edee1f18e0157c05861564": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x42b24a95702b9986e82d421cc3568932790a48ec": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x91ae842a5ffd8d12023116943e72a606179294f3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xee6a57ec80ea46401049e92587e52f5ec1c24785": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xc36442b4a4522e871399cd717abdd847ab11fe88": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xa5644e29708357803b5a882d272c41cc0df92b34": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x61ffe014ba17989e743c5f6cb21bf9697530b21e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0x1095692a6237d83c6a72f3f5efedb9a670c49223": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "polygon:0xe34139463ba50bd61336e0c446bd8c0867c6fe65": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "polygon"
+    "chain": "polygon",
+    "verified": false
   },
   "avalanche:0x740b1c1de25031c31ff4fc9a62f554a55cdc1bad": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x0139141cd4ee88df3cdb65881d411bae271ef0c2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x9ada7d7879214073f40183f3410f2b3f088c6381": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xeb9ffc8bf81b4ffd11fb6a63a6b0f098c6e21950": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x27dd7ee7fe723e83bf3612a75a034951fe299e99": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xe89b7c295d73fcce88ef263f86e7310925daebaf": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xe1f93a7cb6ffa2db4f9d5a2fd43158a428993c09": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x655c406ebfa14ee2006250925e54ec43ad184f8b": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x44f5f1f5e452ea8d29c890e8f6e893fc0f1f0f97": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xbe0f5544ec67e9b3b2d979aaa43f18fd87e6257f": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xbb00ff08d01d300023c629e8ffffcb65a5a578ce": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0x94b75331ae8d42c1b61065089b7d48fe14aa73b7": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "avalanche:0xca9d0668c600c4dd07ca54be1615fe5cdfd76ac3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "avalanche"
+    "chain": "avalanche",
+    "verified": false
   },
   "base:0x33128a8fc17869897dce68ed026d694621f6fdfd": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x091e99cb1c49331a94dd62755d168e941abd0693": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x3334d83e224af5ef9c2e7dda7c7c98efd9621fa9": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x0cdee061c75d43c82520ed998c23ac2991c9ac6d": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0xf9d1077fd35670d4acbd27af82652a8d84577d9f": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x4f225937edc33efd6109c4cef7b560b2d6401009": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x4615c383f85d0a2bbed973d83ccecf5cb7121463": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x03a520b32c04bf3beef7beb72e919cf822ed34f1": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x23cf10b1ee3adfca73b0ef17c07f7577e7acd2d7": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x3d4e44eb1374240ce5f1b871ab261cd16335b76a": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x2626664c2603336e57b271c5c0b26f421741e481": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x6ff5693b99212da76ad316178a184ab56d299b43": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "base:0x42be4d6527829fefa1493e1fb9f3676d2425c3c1": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "base"
+    "chain": "base",
+    "verified": false
   },
   "bsc:0xdb1d10011ad0ff90774d0c6bb92e5c5c8b4461f7": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x963df249ed09c358a4819e39d9cd5736c3087184": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xc9a7f5b73e853664044ab31936d0e6583d8b1c79": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xd9270014d396281579760619ccf4c3af0501a47c": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x831d93e55af23a2977e4da892d5005f4f2995071": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x0281e98322e4e8e53491d576ee6a2bfce644c55c": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xaec98e489ae35f243eb63452f6ad233a6c97ee97": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x7b8a01b39d58278b5de7e48c8449c9f4f5170613": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x32681814957e0c13117ddc0c2aba232b5c9e760f": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x78d78e420da98ad378d7799be8f4af69033eb077": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0xb971ef87ede563556b2ed4b1c0b0019111dd85d2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x1906c1d672b88cd1b9ac7593301ca990f94eae07": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "bsc:0x49b53c35af9072fc71767577bf6380a88ee32c71": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "bsc"
+    "chain": "bsc",
+    "verified": false
   },
   "blast:0x792edade80af5fc680d96a2ed80a44247d2cf6fd": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0xdc7f370de7631ce9e2c2e1dcda6b3b5744cf4705": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x7c9caa4ac84c8fad8bd504dbf90e791f91f41705": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x2e95185bcdd928a3e984b7e2d6560ab1b17d7274": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0xaa32bd3926097fd04d22b4433e9867417ee79333": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x497089d9450bb58f536c38c1c0d0a37472303508": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0xb218e4f7cf0533d4696fdfc419a0023d33345f28": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x15ca7043cd84c5d21ae76ba0a1a967d42c40ece0": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x6cdcd65e03c1cec3730aeecd45bc140d57a25c77": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x549feb8c9bd4c12ad2ab27022da12492ac452b66": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0xeabbcb3e8e415306207ef514f660a3f820025be3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "blast:0xecaf7c276f746170642e97de961f2f0361e1acc8": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "blast"
+    "chain": "blast",
+    "verified": false
   },
   "celo:0xafe208a311b21f13ef87e33a90049fc17a7acdec": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x633987602de5c4f337e3dbf265303a1080324204": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall2",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x5f115d9113f88e0a0db1b5033d90d4a9690acd3d": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0xa9fd765d85938d278cb0b108dbe4bf7186831186": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x644023b316bb65175c347de903b60a756f6dd554": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x3d79edaabc0eab6f08ed885c05fc0b014290d95a": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x3cfd4d48edfdcc53d3f173f596f621064614c582": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x82825d0554fa07f7fc52ab63c961f330fdefa8e8": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x5615cdab10dc425a742d643d949a7f474c01abc4": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x643770e279d5d0733f21d6dc03a8efbabf3255b4": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "celo:0x6586fb35393abf7ff454977a9b3c912d218791c6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "celo"
+    "chain": "celo",
+    "verified": false
   },
   "zksync-era:0x8fda5a7a8dca67bbcdd10f02fa0649a937215422": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x0c68a7c72f074d1c45c16d41fa74eebc6d16a65c": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall2",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0xbb79274ad9c7f68a5b6a7e31f431175bb889b557": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0xe10ff11b809f8ee07b056b452c3b2caa7fe24f89": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x7d67b8ff4abffc020641f5e430fbeed03897674d": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0xa819de78cab1163f8605809392068ede3bfcdd1e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0xaeabf2d69698c6810d2596fae86099790a13ee81": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x0616e5762c1e7dc3723c50663df10a162d690a86": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x611841b24e43c4acfd290b427a3d6cf1a59dac8e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x8cb537fc92e26d8ebbb760e632c95484b6ea3e28": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x99c56385dabce3e81d8499d0b8d0257abc07e8a3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x0000000000225e31d15943971f47ad3022f714fa": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0x28731bcc616b5f51dd52cf2e4df0e78dd1136c06": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "zksync-era:0xf84268fa8eb857c2e4298720c1c617178f5e78e1": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "zksync-era"
+    "chain": "zksync-era",
+    "verified": false
   },
   "unichain:0x1f98400000000000000000000000000000000003": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0xb7610f9b733e7d45184be3a1bc966960ccc54f0b": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0xd5d76fa166ab8d8ad4c9f61aaa81457b66cbe443": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0x0dfa04b28ab68ffd0e6e17fac6ec16d4846a2004": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0x943e6e07a7e8e791dafc44083e54041d743c46e9": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0xb9d0c246f306b1aaf02ae6ba112d5ef25e5b60dc": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0x385a5cf5f83e99f7bb2852b6a19c3538b9fa7658": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "unichain:0x73855d06de49d0fe4a9c42636ba96c62da12ff9c": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "unichain"
+    "chain": "unichain",
+    "verified": false
   },
   "monad:0x204faca1764b154221e35c0d20abb3c525710498": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0xd1b797d92d87b688193a2b976efc8d577d204343": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0xf025e0fe9e331a0ef05c2ad3c4e9c64b625cda6f": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x2e9d45bb7b30549f5216813ada9a6b7982c5b3ed": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x315e413a11ab0df498ef83873012430ca36638ae": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungibleTokenPositionDescriptor",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x63023c02f457a24594ad8fd411f56092179655e2": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x7197e214c0b767cfb76fb734ab638e2c192f4e53": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x7078c4537c04c2b2e52ddba06074dbdacf23ca15": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x661e93cca42afacb172121ef892830ca3b70f08d": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0xfe31f71c1b106eac32f1a19239c9a9a72ddfb900": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "monad:0x0d97dc33264bfc1c226207428a79b26757fb9dc3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "monad"
+    "chain": "monad",
+    "verified": false
   },
   "zora:0x7145f8aeef1f6510e92164038e1b6f8cb2c42cbb": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0xa51c76bee6746cb487a7e9312e43e2b8f4a37c15": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall2",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x209aada09d74ad3b8d0e92910eaf85d2357e3044": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0xfff2bffc03474f361b7f92ccff2fd01cfbbdcdd1": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NFTDescriptor",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0xbc91e8dfa3ff18de43853372a3d7dfe585137d78": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x048352d8dcf13686982c799da63fa6426a9d0b60": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x11867e1b3348f3ce4fcc170bc5af3d23e07e64df": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x7de04c96be5159c3b5ceffc82aa176dc81281557": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x3315ef7ca28db74abadc6c44570efdf06b04b020": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "zora:0x5ef5a6923d2f566f65f363b78ef7a88ab1e4206f": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "v3StakerAddress",
-    "chain": "zora"
+    "chain": "zora",
+    "verified": false
   },
   "world-chain:0x7a5028bda40e7b173c278c5342087826455ea25a": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniswapV3Factory",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x0a22c04215c97e3f532f4ef30e0ad9458792dab9": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Multicall2",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x8b52dacb7b5d9a959cdcd5419061c0edd1296c29": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "ProxyAdmin",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0xe61df0cac9d85876ace5e3037005d80943570623": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TickLens",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0xe6fcb4952b2d3fab6da4bc165831f5575e093fec": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "TransparentUpgradeableProxy",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0xec12a9f9a09f50550686363766cc153d03c27b5e": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "NonfungiblePositionManager",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x9ebddcba71c9027e1eb45135672a30bcfeec9de3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "V3Migrator",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x10158d43e6cc414dee1bd1eb0efc6a5cbcff244c": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "QuoterV2",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x091ad9e2e6e5ed44c1c66db50e49a601f9f36cf6": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "SwapRouter02",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x000000000022d473030f116ddee9f6b43ac78ba3": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "Permit2",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "world-chain:0x8ac7bee993bb44dab564ea4bc9ea67bf9eb5e743": {
     "protocol": "uniswap-v3",
     "version": "uniswap-v3",
     "contract": "UniversalRouter",
-    "chain": "world-chain"
+    "chain": "world-chain",
+    "verified": false
   },
   "verus:": {
     "protocol": "verus-market",
     "version": "verus-market",
     "contract": "main",
-    "chain": "verus"
+    "chain": "verus",
+    "verified": false
   }
 }

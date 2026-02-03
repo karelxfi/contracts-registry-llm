@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-03",
   "stats": {
     "totalProtocols": 4447,
     "populatedProtocols": 8,
@@ -191,6 +191,13 @@
     "metadata": "/api/v1/metadata.json",
     "protocols": "/api/v1/protocols.json",
     "search": "/api/v1/search",
+    "searchByAddress": "/api/v1/search/by-address.json",
+    "searchByName": "/api/v1/search/by-name.json",
+    "searchVerified": "/api/v1/search/verified.json",
+    "searchByChain": "/api/v1/search/chain/{chain}.json",
+    "searchMultiChain": "/api/v1/search/multi-chain.json",
+    "searchByContractType": "/api/v1/search/by-contract-type/{type}.json",
+    "searchRecent": "/api/v1/search/recent.json",
     "protocol": "/api/v1/protocol/{id}",
     "updates": "/api/v1/updates.json",
     "openapi": "/api/v1/openapi.json",

@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "chain": "fantom",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "aave-v3",
+      "name": "Aave V3",
+      "type": "lending",
+      "contractCount": 7,
+      "verified": true,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "type": "dexs",
+      "contractCount": 5,
+      "verified": false,
+      "updated": "2025-02-02"
+    }
+  ]
+}

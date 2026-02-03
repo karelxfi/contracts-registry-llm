@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "Pre-computed results for common queries",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-03",
   "queries": {
     "protocols-by-status": {
       "complete": [
@@ -934,6 +934,340 @@
       {
         "category": "prediction market",
         "protocolCount": 57
+      }
+    ],
+    "verified-protocols": [
+      {
+        "id": "aave-v2",
+        "name": "Aave V2",
+        "chainCount": 3
+      },
+      {
+        "id": "aave-v3",
+        "name": "Aave V3",
+        "chainCount": 19
+      },
+      {
+        "id": "morpho-blue",
+        "name": "Morpho Blue",
+        "chainCount": 3
+      },
+      {
+        "id": "gmx-v1",
+        "name": "GMX V1",
+        "chainCount": 1
+      },
+      {
+        "id": "jupiter",
+        "name": "Jupiter",
+        "chainCount": 1
+      },
+      {
+        "id": "lido",
+        "name": "Lido",
+        "chainCount": 10
+      }
+    ],
+    "single-chain-protocols": [
+      {
+        "id": "01",
+        "name": "01",
+        "type": "derivatives",
+        "chain": "solana"
+      },
+      {
+        "id": "0vix",
+        "name": "0vix",
+        "type": "lending",
+        "chain": "polygon"
+      },
+      {
+        "id": "0x0.ai",
+        "name": "0x0.ai",
+        "type": "privacy",
+        "chain": "ethereum"
+      },
+      {
+        "id": "0xacid",
+        "name": "0xAcid",
+        "type": "liquid staking",
+        "chain": "arbitrum"
+      },
+      {
+        "id": "0xlend",
+        "name": "0xLend",
+        "type": "lending",
+        "chain": "blast"
+      },
+      {
+        "id": "0xroulette-protocol",
+        "name": "0xRoulette Protocol",
+        "type": "luck games",
+        "chain": "solana"
+      },
+      {
+        "id": "0xscans",
+        "name": "0xScans",
+        "type": "developer tools",
+        "chain": "ethereum"
+      },
+      {
+        "id": "10kdex",
+        "name": "10KDex",
+        "type": "derivatives",
+        "chain": "scroll"
+      },
+      {
+        "id": "10kswap",
+        "name": "10KSwap",
+        "type": "dexs",
+        "chain": "starknet"
+      },
+      {
+        "id": "1776.meme",
+        "name": "1776.MEME",
+        "type": "launchpad",
+        "chain": "ethereum"
+      },
+      {
+        "id": "1inch",
+        "name": "1inch",
+        "type": "dex aggregator",
+        "chain": "ethereum"
+      },
+      {
+        "id": "1intro",
+        "name": "1INTRO",
+        "type": "dexs",
+        "chain": "solana"
+      },
+      {
+        "id": "246club",
+        "name": "246Club",
+        "type": "lending",
+        "chain": "plasma"
+      },
+      {
+        "id": "3f-mutual",
+        "name": "3F Mutual",
+        "type": "insurance",
+        "chain": "ethereum"
+      },
+      {
+        "id": "3jane-lending",
+        "name": "3jane Lending",
+        "type": "uncollateralized lending",
+        "chain": "ethereum"
+      },
+      {
+        "id": "3jane-options",
+        "name": "3jane Options",
+        "type": "options vault",
+        "chain": "ethereum"
+      },
+      {
+        "id": "3xcalibur",
+        "name": "3xcalibur",
+        "type": "dexs",
+        "chain": "arbitrum"
+      },
+      {
+        "id": "4swap",
+        "name": "4Swap",
+        "type": "dexs",
+        "chain": "mixin"
+      },
+      {
+        "id": "5ire-dapp-staking",
+        "name": "5ire Dapp Staking",
+        "type": "yield",
+        "chain": "ethereum"
+      },
+      {
+        "id": "8lends",
+        "name": "8lends",
+        "type": "rwa lending",
+        "chain": "base"
+      },
+      {
+        "id": "9inch-v2",
+        "name": "9inch V2",
+        "type": "dexs",
+        "chain": "ethereum"
+      },
+      {
+        "id": "aark-digital",
+        "name": "Aark Digital",
+        "type": "interface",
+        "chain": "arbitrum"
+      },
+      {
+        "id": "aave-aptos",
+        "name": "Aave Aptos",
+        "type": "lending",
+        "chain": "aptos"
+      },
+      {
+        "id": "aave-arc",
+        "name": "Aave Arc",
+        "type": "lending",
+        "chain": "ethereum"
+      },
+      {
+        "id": "aave-horizon-rwa",
+        "name": "Aave Horizon RWA",
+        "type": "rwa lending",
+        "chain": "ethereum"
+      },
+      {
+        "id": "aave-v1",
+        "name": "Aave V1",
+        "type": "lending",
+        "chain": "ethereum"
+      },
+      {
+        "id": "abcdefx",
+        "name": "ABcDeFX",
+        "type": "dexs",
+        "chain": "kava"
+      },
+      {
+        "id": "abel-finance",
+        "name": "ABEL Finance",
+        "type": "lending",
+        "chain": "aptos"
+      },
+      {
+        "id": "abex-finance",
+        "name": "ABEx Finance",
+        "type": "derivatives",
+        "chain": "sui"
+      },
+      {
+        "id": "aborean-amm",
+        "name": "Aborean AMM",
+        "type": "dexs",
+        "chain": "abstract"
+      },
+      {
+        "id": "aborean-cl",
+        "name": "Aborean CL",
+        "type": "dexs",
+        "chain": "abstract"
+      },
+      {
+        "id": "abstract",
+        "name": "Abstract",
+        "type": "chain",
+        "chain": "ethereum"
+      },
+      {
+        "id": "access-protocol",
+        "name": "Access Protocol",
+        "type": "sofi",
+        "chain": "solana"
+      },
+      {
+        "id": "accountable",
+        "name": "Accountable",
+        "type": "uncollateralized lending",
+        "chain": "monad"
+      },
+      {
+        "id": "ace-of-base",
+        "name": "Ace of Base",
+        "type": "farm",
+        "chain": "base"
+      },
+      {
+        "id": "acoconut",
+        "name": "ACoconut",
+        "type": "yield",
+        "chain": "ethereum"
+      },
+      {
+        "id": "across",
+        "name": "Across",
+        "type": "cross chain bridge",
+        "chain": "ethereum"
+      },
+      {
+        "id": "acumen",
+        "name": "Acumen",
+        "type": "lending",
+        "chain": "solana"
+      },
+      {
+        "id": "ad-astra-bridge",
+        "name": "Ad-Astra Bridge",
+        "type": "bridge",
+        "chain": "ethereum"
+      },
+      {
+        "id": "adax-pro",
+        "name": "ADAX Pro",
+        "type": "dexs",
+        "chain": "cardano"
+      },
+      {
+        "id": "adrastea-lrt",
+        "name": "Adrastea LRT",
+        "type": "liquid restaking",
+        "chain": "solana"
+      },
+      {
+        "id": "adrastea-lst",
+        "name": "Adrastea LST",
+        "type": "liquid staking",
+        "chain": "solana"
+      },
+      {
+        "id": "adrastea-restaking-operator",
+        "name": "Adrastea Restaking Operator",
+        "type": "staking pool",
+        "chain": "solana"
+      },
+      {
+        "id": "adrastea-validator",
+        "name": "Adrastea Validator",
+        "type": "staking pool",
+        "chain": "solana"
+      },
+      {
+        "id": "adrastea-yield",
+        "name": "Adrastea Yield",
+        "type": "yield",
+        "chain": "solana"
+      },
+      {
+        "id": "adrena-protocol",
+        "name": "Adrena Protocol",
+        "type": "derivatives",
+        "chain": "solana"
+      },
+      {
+        "id": "aegis",
+        "name": "Aegis",
+        "type": "basis trading",
+        "chain": "ethereum"
+      },
+      {
+        "id": "aelin",
+        "name": "Aelin",
+        "type": "charity fundraising",
+        "chain": "ethereum"
+      },
+      {
+        "id": "aeria",
+        "name": "Aeria",
+        "type": "options vault",
+        "chain": "base"
+      },
+      {
+        "id": "aerie-lab",
+        "name": "Aerie Lab",
+        "type": "dexs",
+        "chain": "ethereum"
       }
     ]
   }

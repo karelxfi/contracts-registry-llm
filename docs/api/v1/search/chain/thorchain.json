@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "chain": "thorchain",
+  "chainId": null,
+  "protocols": [
+    {
+      "id": "maya-protocol",
+      "name": "Maya Protocol",
+      "type": "cross chain bridge",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "nami-index",
+      "name": "Nami Index",
+      "type": "indexes",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "thorchain-dex",
+      "name": "Thorchain DEX",
+      "type": "dexs",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    },
+    {
+      "id": "thorchain-lending",
+      "name": "Thorchain Lending",
+      "type": "cdp",
+      "contractCount": 1,
+      "verified": false,
+      "updated": "2025-01-31"
+    }
+  ]
+}

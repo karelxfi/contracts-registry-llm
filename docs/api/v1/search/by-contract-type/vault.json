@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "contractType": "vault",
+  "protocols": {
+    "lido": {
+      "name": "Lido",
+      "type": "liquid-staking",
+      "contracts": [
+        "withdrawalVault"
+      ],
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "zksync-era",
+        "mantle",
+        "linea",
+        "scroll",
+        "bsc"
+      ]
+    }
+  }
+}

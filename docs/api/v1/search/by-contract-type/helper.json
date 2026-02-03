@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "contractType": "helper",
+  "protocols": {
+    "morpho-blue": {
+      "name": "Morpho Blue",
+      "type": "lending",
+      "contracts": [
+        "bundler"
+      ],
+      "chains": [
+        "ethereum",
+        "base",
+        "arbitrum-one"
+      ]
+    }
+  }
+}
