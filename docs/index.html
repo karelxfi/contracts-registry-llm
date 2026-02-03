@@ -244,43 +244,56 @@
     .featured-section {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 0 32px;
+      padding: 0 32px 32px;
     }
 
     .featured-title {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
       color: var(--color-text-tertiary);
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
       text-align: center;
     }
 
     /* Protocol Grid */
     .protocol-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
       max-width: 100%;
+    }
+
+    @media (max-width: 1200px) {
+      .protocol-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .protocol-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     .protocol-card {
       background: var(--color-card-bg);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-md);
-      padding: 20px;
+      padding: 24px;
       transition: all 0.2s;
       text-decoration: none;
       color: inherit;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 14px;
+      min-height: 140px;
     }
 
     .protocol-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-lg);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
       border-color: var(--color-accent);
     }
 
@@ -322,7 +335,8 @@
     .protocol-meta {
       display: flex;
       gap: 12px;
-      padding-top: 8px;
+      padding-top: 12px;
+      margin-top: auto;
       border-top: 1px solid var(--color-border-light);
       font-size: 13px;
       color: var(--color-text-secondary);
@@ -394,13 +408,11 @@
       }
 
       .protocol-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
       }
 
-      .footer-container {
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
+      .featured-section {
+        padding: 0 20px 20px;
       }
     }
   </style>
