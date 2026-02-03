@@ -58,6 +58,21 @@
       background: var(--color-bg);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .main-container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .content-wrapper {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
     }
 
     /* Navigation */
@@ -135,16 +150,16 @@
     .hero {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 120px 32px 80px;
+      padding: 60px 32px 40px;
       text-align: center;
     }
 
     h1 {
-      font-size: 72px;
+      font-size: 56px;
       font-weight: 700;
       letter-spacing: -0.04em;
       line-height: 1.1;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
       background: linear-gradient(135deg, var(--color-text) 0%, var(--color-text-secondary) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -152,9 +167,9 @@
     }
 
     .hero-subtitle {
-      font-size: 24px;
+      font-size: 18px;
       color: var(--color-text-secondary);
-      margin-bottom: 48px;
+      margin-bottom: 32px;
       max-width: 720px;
       margin-left: auto;
       margin-right: auto;
@@ -163,9 +178,9 @@
 
     .hero-stats {
       display: flex;
-      gap: 48px;
+      gap: 40px;
       justify-content: center;
-      margin-bottom: 48px;
+      margin-bottom: 32px;
     }
 
     .stat {
@@ -173,25 +188,25 @@
     }
 
     .stat-number {
-      font-size: 48px;
+      font-size: 36px;
       font-weight: 700;
       color: var(--color-accent);
       letter-spacing: -0.03em;
     }
 
     .stat-label {
-      font-size: 14px;
+      font-size: 12px;
       color: var(--color-text-tertiary);
       text-transform: uppercase;
       letter-spacing: 0.05em;
       font-weight: 600;
-      margin-top: 8px;
+      margin-top: 4px;
     }
 
     /* Search Bar */
     .search-container {
       max-width: 720px;
-      margin: 0 auto 80px;
+      margin: 0 auto 32px;
     }
 
     .search-box {
@@ -200,8 +215,8 @@
 
     .search-input {
       width: 100%;
-      padding: 20px 24px 20px 56px;
-      font-size: 18px;
+      padding: 16px 20px 16px 48px;
+      font-size: 16px;
       border: 2px solid var(--color-border);
       border-radius: var(--radius-md);
       background: var(--color-card-bg);
@@ -225,27 +240,42 @@
       pointer-events: none;
     }
 
-    /* Protocol Grid */
-    .protocol-grid {
+    /* Featured Protocols Section */
+    .featured-section {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 0 32px 80px;
+      padding: 0 32px;
+    }
+
+    .featured-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    /* Protocol Grid */
+    .protocol-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+      max-width: 100%;
     }
 
     .protocol-card {
       background: var(--color-card-bg);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-md);
-      padding: 24px;
+      padding: 20px;
       transition: all 0.2s;
       text-decoration: none;
       color: inherit;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 12px;
     }
 
     .protocol-card:hover {
@@ -261,9 +291,9 @@
     }
 
     .protocol-logo {
-      width: 48px;
-      height: 48px;
-      border-radius: 12px;
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
       object-fit: cover;
       background: var(--color-bg-secondary);
     }
@@ -274,7 +304,7 @@
     }
 
     .protocol-name {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       letter-spacing: -0.02em;
       margin-bottom: 2px;
@@ -284,17 +314,17 @@
     }
 
     .protocol-type {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--color-text-secondary);
       text-transform: capitalize;
     }
 
     .protocol-meta {
       display: flex;
-      gap: 16px;
-      padding-top: 12px;
+      gap: 12px;
+      padding-top: 8px;
       border-top: 1px solid var(--color-border-light);
-      font-size: 14px;
+      font-size: 13px;
       color: var(--color-text-secondary);
     }
 
@@ -302,33 +332,6 @@
       display: flex;
       align-items: center;
       gap: 4px;
-    }
-
-    /* Footer */
-    footer {
-      background: var(--color-bg-secondary);
-      border-top: 1px solid var(--color-border);
-      padding: 48px 32px;
-    }
-
-    .footer-container {
-      max-width: 1280px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 14px;
-      color: var(--color-text-tertiary);
-    }
-
-    .footer-container a {
-      color: var(--color-text-tertiary);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    .footer-container a:hover {
-      color: var(--color-accent);
     }
 
     /* Loading State */
@@ -340,11 +343,10 @@
 
     /* Search Results */
     .search-results-info {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 32px 16px;
+      text-align: center;
+      padding: 0 32px 12px;
       color: var(--color-text-secondary);
-      font-size: 14px;
+      font-size: 13px;
       display: none;
     }
 
@@ -354,7 +356,7 @@
 
     .no-results {
       text-align: center;
-      padding: 60px 32px;
+      padding: 40px 32px;
       color: var(--color-text-secondary);
       display: none;
     }
@@ -364,9 +366,13 @@
     }
 
     .no-results h3 {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 8px;
       color: var(--color-text);
+    }
+
+    .hidden {
+      display: none !important;
     }
 
     @media (max-width: 768px) {
@@ -400,79 +406,85 @@
   </style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
-      <div class="nav-links">
-        <a href="/protocols" class="nav-link">Protocols</a>
-        <a href="/chains" class="nav-link">Chains</a>
-        <a href="/api/v1" class="nav-link">API</a>
-        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+  <div class="main-container">
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <a href="/" class="logo">DeFi Registry</a>
+        <div class="nav-links">
+          <a href="/protocols" class="nav-link">Protocols</a>
+          <a href="/chains" class="nav-link">Chains</a>
+          <a href="/api/v1" class="nav-link">API</a>
+          <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-wrapper">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>DeFi Contracts Registry</h1>
+        <p class="hero-subtitle">
+          The most comprehensive registry of verified smart contract addresses across
+          4,400+ DeFi protocols and 100+ blockchain networks.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">4,443</div>
+            <div class="stat-label">Protocols</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">Blockchains</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Contracts</div>
+          </div>
+        </div>
+
+        <div class="search-container">
+          <div class="search-box">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search protocols, chains, or addresses..."
+              id="searchInput"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Search Results Info -->
+      <div class="search-results-info" id="searchResultsInfo"></div>
+
+      <!-- Featured/Search Results Section -->
+      <div class="featured-section">
+        <div class="featured-title" id="sectionTitle">Featured Protocols</div>
+
+        <!-- Protocol Grid -->
+        <div class="protocol-grid" id="protocolGrid"></div>
+
+        <!-- No Results -->
+        <div class="no-results" id="noResults">
+          <h3>No protocols found</h3>
+          <p>Try adjusting your search query</p>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>DeFi Contracts<br>Registry</h1>
-    <p class="hero-subtitle">
-      The most comprehensive registry of verified smart contract addresses across
-      4,400+ DeFi protocols and 100+ blockchain networks.
-    </p>
-
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-number">4,443</div>
-        <div class="stat-label">Protocols</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">100+</div>
-        <div class="stat-label">Blockchains</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">50K+</div>
-        <div class="stat-label">Contracts</div>
-      </div>
-    </div>
-
-    <div class="search-container">
-      <div class="search-box">
-        <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"></circle>
-          <path d="m21 21-4.35-4.35"></path>
-        </svg>
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Search protocols, chains, or addresses..."
-          id="searchInput"
-        />
-      </div>
-    </div>
-  </section>
-
-  <!-- Search Results Info -->
-  <div class="search-results-info" id="searchResultsInfo"></div>
-
-  <!-- Protocol Grid -->
-  <div class="protocol-grid" id="protocolGrid"></div>
-
-  <!-- No Results -->
-  <div class="no-results" id="noResults">
-    <h3>No protocols found</h3>
-    <p>Try adjusting your search query</p>
   </div>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div>© 2025 DeFi Registry. Open source under MIT License.</div>
-      <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
-    </div>
-  </footer>
-
   <script>
+    // Global state
+    let allProtocols = [];
+    let featuredProtocols = [];
+    let logoMap = {};
+
     // Load featured protocols with logos from DefiLlama
     async function loadProtocols() {
       try {
@@ -491,7 +503,6 @@
         const defiLlamaProtocols = await defiLlamaResponse.json();
 
         // Create a map of protocol names to logos
-        const logoMap = {};
         defiLlamaProtocols.forEach(p => {
           const name = p.name.toLowerCase();
           logoMap[name] = p.logo;
@@ -500,138 +511,145 @@
         });
 
         // Filter protocols with deployments and sort by chain count
-        const protocolsWithDeployments = protocols
+        allProtocols = protocols
           .filter(p => p.chains && p.chains > 0)
-          .sort((a, b) => b.chains - a.chains)
-          .slice(0, 50); // Show top 50
+          .sort((a, b) => b.chains - a.chains);
 
-        const grid = document.getElementById('protocolGrid');
-        grid.innerHTML = '';
+        // Get top 10 for featured display
+        featuredProtocols = allProtocols.slice(0, 10);
 
-        protocolsWithDeployments.forEach(protocol => {
-          // Try to find logo by matching name or defillamaId
-          let logo = null;
-          if (protocol.defillamaId) {
-            logo = logoMap[protocol.defillamaId.toLowerCase()];
-          }
-          if (!logo) {
-            logo = logoMap[protocol.name.toLowerCase()];
-          }
-          if (!logo) {
-            logo = logoMap[protocol.id.toLowerCase()];
-          }
-
-          const card = document.createElement('a');
-          card.className = 'protocol-card';
-          card.href = `protocols/${protocol.id}.html`;
-
-          card.innerHTML = `
-            <div class="protocol-header">
-              ${logo ? `<img src="${logo}" alt="${protocol.name}" class="protocol-logo" onerror="this.style.display='none'">` : ''}
-              <div class="protocol-info">
-                <div class="protocol-name">${protocol.name}</div>
-                <div class="protocol-type">${protocol.type || 'DeFi'}</div>
-              </div>
-            </div>
-            <div class="protocol-meta">
-              <span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
-                </svg>
-                ${protocol.chains} ${protocol.chains === 1 ? 'chain' : 'chains'}
-              </span>
-              ${protocol.verified ? `
-                <span style="color: var(--color-success)">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                  Verified
-                </span>
-              ` : ''}
-            </div>
-          `;
-
-          grid.appendChild(card);
-        });
+        // Display featured protocols
+        displayProtocols(featuredProtocols);
 
         // Setup enhanced search
-        const searchInput = document.getElementById('searchInput');
-        const searchResultsInfo = document.getElementById('searchResultsInfo');
-        const noResults = document.getElementById('noResults');
-
-        // Store protocol data for better searching
-        const protocolData = protocolsWithDeployments.map((protocol, index) => ({
-          element: grid.children[index],
-          name: protocol.name.toLowerCase(),
-          type: (protocol.type || 'defi').toLowerCase(),
-          id: protocol.id.toLowerCase(),
-          chains: protocol.chains.toString(),
-          defillamaId: (protocol.defillamaId || '').toLowerCase()
-        }));
-
-        function performSearch(query) {
-          if (!query) {
-            // Show all protocols
-            protocolData.forEach(item => {
-              item.element.style.display = 'flex';
-            });
-            searchResultsInfo.classList.remove('active');
-            noResults.classList.remove('active');
-            return;
-          }
-
-          const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 0);
-          let visibleCount = 0;
-
-          protocolData.forEach(item => {
-            // Check if all search terms match at least one field
-            const matches = searchTerms.every(term =>
-              item.name.includes(term) ||
-              item.type.includes(term) ||
-              item.id.includes(term) ||
-              item.defillamaId.includes(term) ||
-              item.chains.includes(term)
-            );
-
-            if (matches) {
-              item.element.style.display = 'flex';
-              visibleCount++;
-            } else {
-              item.element.style.display = 'none';
-            }
-          });
-
-          // Update search results info
-          if (visibleCount > 0) {
-            searchResultsInfo.textContent = `Found ${visibleCount} protocol${visibleCount === 1 ? '' : 's'} matching "${query}"`;
-            searchResultsInfo.classList.add('active');
-            noResults.classList.remove('active');
-          } else {
-            searchResultsInfo.classList.remove('active');
-            noResults.classList.add('active');
-          }
-        }
-
-        // Debounce search for better performance
-        let searchTimeout;
-        searchInput.addEventListener('input', (e) => {
-          clearTimeout(searchTimeout);
-          searchTimeout = setTimeout(() => {
-            performSearch(e.target.value.trim());
-          }, 150);
-        });
-
-        // Allow clearing search with Escape key
-        searchInput.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') {
-            searchInput.value = '';
-            performSearch('');
-          }
-        });
+        setupSearch();
 
       } catch (err) {
         console.error('Failed to load protocols:', err);
       }
+    }
+
+    function createProtocolCard(protocol) {
+      // Try to find logo by matching name or defillamaId
+      let logo = null;
+      if (protocol.defillamaId) {
+        logo = logoMap[protocol.defillamaId.toLowerCase()];
+      }
+      if (!logo) {
+        logo = logoMap[protocol.name.toLowerCase()];
+      }
+      if (!logo) {
+        logo = logoMap[protocol.id.toLowerCase()];
+      }
+
+      const card = document.createElement('a');
+      card.className = 'protocol-card';
+      card.href = `protocols/${protocol.id}.html`;
+
+      card.innerHTML = `
+        <div class="protocol-header">
+          ${logo ? `<img src="${logo}" alt="${protocol.name}" class="protocol-logo" onerror="this.style.display='none'">` : ''}
+          <div class="protocol-info">
+            <div class="protocol-name">${protocol.name}</div>
+            <div class="protocol-type">${protocol.type || 'DeFi'}</div>
+          </div>
+        </div>
+        <div class="protocol-meta">
+          <span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+            ${protocol.chains} ${protocol.chains === 1 ? 'chain' : 'chains'}
+          </span>
+          ${protocol.verified ? `
+            <span style="color: var(--color-success)">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Verified
+            </span>
+          ` : ''}
+        </div>
+      `;
+
+      return card;
+    }
+
+    function displayProtocols(protocols) {
+      const grid = document.getElementById('protocolGrid');
+      grid.innerHTML = '';
+      protocols.forEach(protocol => {
+        grid.appendChild(createProtocolCard(protocol));
+      });
+    }
+
+    function setupSearch() {
+      const searchInput = document.getElementById('searchInput');
+      const searchResultsInfo = document.getElementById('searchResultsInfo');
+      const sectionTitle = document.getElementById('sectionTitle');
+      const noResults = document.getElementById('noResults');
+
+      function performSearch(query) {
+        if (!query) {
+          // Show featured protocols
+          displayProtocols(featuredProtocols);
+          sectionTitle.textContent = 'Featured Protocols';
+          sectionTitle.classList.remove('hidden');
+          searchResultsInfo.classList.remove('active');
+          noResults.classList.remove('active');
+          return;
+        }
+
+        const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 0);
+
+        // Search all protocols
+        const results = allProtocols.filter(protocol => {
+          const name = protocol.name.toLowerCase();
+          const type = (protocol.type || 'defi').toLowerCase();
+          const id = protocol.id.toLowerCase();
+          const defillamaId = (protocol.defillamaId || '').toLowerCase();
+          const chains = protocol.chains.toString();
+
+          return searchTerms.every(term =>
+            name.includes(term) ||
+            type.includes(term) ||
+            id.includes(term) ||
+            defillamaId.includes(term) ||
+            chains.includes(term)
+          );
+        });
+
+        // Display search results
+        if (results.length > 0) {
+          displayProtocols(results);
+          sectionTitle.classList.add('hidden');
+          searchResultsInfo.textContent = `Found ${results.length} protocol${results.length === 1 ? '' : 's'} matching "${query}"`;
+          searchResultsInfo.classList.add('active');
+          noResults.classList.remove('active');
+        } else {
+          document.getElementById('protocolGrid').innerHTML = '';
+          sectionTitle.classList.add('hidden');
+          searchResultsInfo.classList.remove('active');
+          noResults.classList.add('active');
+        }
+      }
+
+      // Debounce search for better performance
+      let searchTimeout;
+      searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          performSearch(e.target.value.trim());
+        }, 150);
+      });
+
+      // Allow clearing search with Escape key
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          searchInput.value = '';
+          performSearch('');
+        }
+      });
     }
 
     loadProtocols();
