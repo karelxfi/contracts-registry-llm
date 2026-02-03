@@ -515,8 +515,22 @@
           .filter(p => p.chains && p.chains > 0)
           .sort((a, b) => b.chains - a.chains);
 
-        // Get top 10 for featured display
-        featuredProtocols = allProtocols.slice(0, 10);
+        // Featured protocols - the 8 completed ones
+        const featuredIds = [
+          'aave-v3',
+          'uniswap-v3',
+          'compound-v3',
+          'curve-dex',
+          'balancer-v2',
+          'sushiswap',
+          'lido',
+          'sushiswap-v3'
+        ];
+
+        // Get the featured protocols
+        featuredProtocols = featuredIds
+          .map(id => protocols.find(p => p.id === id))
+          .filter(p => p); // Remove any not found
 
         // Display featured protocols
         displayProtocols(featuredProtocols);
