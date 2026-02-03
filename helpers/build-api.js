@@ -174,6 +174,9 @@ const updates = {
 writeJSON("v1/updates.json", updates);
 
 // 6. OpenAPI specification
+// IMPORTANT: This spec is auto-generated using live metadata values to ensure
+// examples stay in sync with actual data. When updating protocols (e.g., adding
+// Morpho Blue chains), the OpenAPI spec will automatically reflect current stats.
 console.log("Building OpenAPI spec...");
 const openapi = {
   openapi: "3.0.0",
@@ -219,19 +222,31 @@ const openapi = {
                 schema: {
                   type: "object",
                   properties: {
-                    version: { type: "string", example: "1.0.0" },
+                    version: { type: "string", example: metadata.version },
                     lastUpdated: {
                       type: "string",
                       format: "date",
-                      example: "2025-02-02",
+                      example: metadata.lastUpdated,
                     },
                     stats: {
                       type: "object",
                       properties: {
-                        totalProtocols: { type: "integer", example: 4442 },
-                        populatedProtocols: { type: "integer", example: 5 },
-                        totalChains: { type: "integer", example: 106 },
-                        totalCategories: { type: "integer", example: 93 },
+                        totalProtocols: {
+                          type: "integer",
+                          example: metadata.stats.totalProtocols,
+                        },
+                        populatedProtocols: {
+                          type: "integer",
+                          example: metadata.stats.populatedProtocols,
+                        },
+                        totalChains: {
+                          type: "integer",
+                          example: metadata.stats.totalChains,
+                        },
+                        totalCategories: {
+                          type: "integer",
+                          example: metadata.stats.totalCategories,
+                        },
                       },
                     },
                     chains: { type: "array", items: { type: "string" } },
@@ -296,6 +311,29 @@ const openapi = {
                       chain: { type: "string", example: "ethereum" },
                       contract: { type: "string", example: "pool" },
                     },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "/api/v1/search/index.json": {
+      get: {
+        summary: "Get all protocols index",
+        description:
+          "Returns a complete index of all protocols by ID for quick lookups.",
+        tags: ["Search"],
+        responses: {
+          200: {
+            description: "Successful response",
+            content: {
+              "application/json": {
+                schema: {
+                  type: "object",
+                  additionalProperties: {
+                    $ref: "#/components/schemas/Protocol",
                   },
                 },
               },

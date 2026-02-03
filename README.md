@@ -238,6 +238,31 @@ Use `/api/v1/search/verified.json` or filter deployments where `verified.{contra
 
 Data is updated periodically. Check the `updated` field in each deployment for the last verification date.
 
+## Development
+
+### Building the API
+
+The registry automatically generates API endpoints from source data:
+
+```bash
+npm run build
+```
+
+This command:
+1. Validates all protocol JSON files against the schema
+2. Generates search indexes and API endpoints
+3. **Auto-generates the OpenAPI specification** with current stats and metadata
+
+**Important**: The OpenAPI spec (`/api/v1/openapi.json`) is automatically generated during the build process. It uses live metadata values for examples, ensuring the documentation always reflects the current state of the registry (total protocols, chains, categories, etc.). You should never manually edit the OpenAPI spec - it will be regenerated on the next build.
+
+### Other Commands
+
+```bash
+npm run validate       # Validate protocol JSON files
+npm run scaffold       # Create a new protocol template
+npm run fetch-blocks   # Fetch deployment block numbers
+```
+
 ## Contributing
 
 To add or update protocol data:
@@ -246,6 +271,7 @@ To add or update protocol data:
 3. Include source attribution
 4. Verify addresses against official sources
 5. Update the `updated` date
+6. Run `npm run build` to regenerate API endpoints and OpenAPI spec
 
 ## License
 

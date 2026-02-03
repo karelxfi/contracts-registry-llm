@@ -51,26 +51,26 @@
                     "lastUpdated": {
                       "type": "string",
                       "format": "date",
-                      "example": "2025-02-02"
+                      "example": "2026-02-03"
                     },
                     "stats": {
                       "type": "object",
                       "properties": {
                         "totalProtocols": {
                           "type": "integer",
-                          "example": 4442
+                          "example": 4447
                         },
                         "populatedProtocols": {
                           "type": "integer",
-                          "example": 5
+                          "example": 8
                         },
                         "totalChains": {
                           "type": "integer",
-                          "example": 106
+                          "example": 88
                         },
                         "totalCategories": {
                           "type": "integer",
-                          "example": 93
+                          "example": 89
                         }
                       }
                     },
@@ -163,6 +163,30 @@
                         "example": "pool"
                       }
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/search/index.json": {
+      "get": {
+        "summary": "Get all protocols index",
+        "description": "Returns a complete index of all protocols by ID for quick lookups.",
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/Protocol"
                   }
                 }
               }

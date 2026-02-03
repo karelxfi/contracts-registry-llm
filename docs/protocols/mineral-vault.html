@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mineral Vault Smart Contract Addresses - DeFi Registry</title>
+  <meta name="description" content="Verified smart contract addresses for Mineral Vault across 2 blockchains. Rwa protocol contracts and ABIs.">
+  <link rel="canonical" href="https://karelxfi.github.io/contracts-registry-llm/protocols/mineral-vault" />
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="protocol-page">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a> / <a href="/protocols">Protocols</a> / Mineral Vault
+      </div>
+
+      <header class="protocol-hero">
+        <div class="protocol-title-section">
+          <h1>Mineral Vault</h1>
+          <span class="protocol-type-badge">rwa</span>
+        </div>
+
+        <div class="protocol-stats">
+          <div class="stat-card">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Chains</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Contracts</div>
+          </div>
+          
+        </div>
+
+        
+        <div class="protocol-links">
+          <a href="https://mineralvault.io/" class="external-link" target="_blank" rel="noopener">Website ↗</a>
+          
+          
+        </div>
+        
+      </header>
+
+      <div class="deployments-section">
+        <h2>Contract Deployments</h2>
+
+        <div class="deployments-grid" id="deploymentsGrid">
+          <!-- Deployments will be loaded from API -->
+        </div>
+      </div>
+
+      <div class="api-section">
+        <h2>API Access</h2>
+        <div class="code-block">
+          <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/mineral-vault.json</code></pre>
+          <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/mineral-vault.json')">Copy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div>© 2025 DeFi Registry. Open source under MIT License.</div>
+        <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Load deployment data from API
+    fetch('../api/v1/protocol/mineral-vault.json')
+      .then(res => res.json())
+      .then(data => {
+        const grid = document.getElementById('deploymentsGrid');
+
+        Object.entries(data.deployments || {}).forEach(([chainId, deployment]) => {
+          const card = document.createElement('div');
+          card.className = 'deployment-card';
+
+          const addresses = Object.entries(deployment.addresses || {})
+            .map(([name, address]) => `
+              <div class="address-row">
+                <span class="address-label">${name}</span>
+                <code class="address-value">${address}</code>
+                <button class="copy-icon" onclick="copyToClipboard('${address}')" title="Copy address">📋</button>
+              </div>
+            `).join('');
+
+          card.innerHTML = `
+            <div class="deployment-header">
+              <h3>${chainId}</h3>
+              <span class="chain-id">ID: ${deployment.chainId || 'N/A'}</span>
+            </div>
+            <div class="addresses-list">
+              ${addresses}
+            </div>
+            ${deployment.sourceUrl ? `<a href="${deployment.sourceUrl}" class="source-link" target="_blank" rel="noopener">View Source ↗</a>` : ''}
+          `;
+
+          grid.appendChild(card);
+        });
+      })
+      .catch(err => console.error('Failed to load deployments:', err));
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        // Show copied feedback
+        const btn = event.target;
+        const originalText = btn.textContent;
+        btn.textContent = '✓ Copied!';
+        setTimeout(() => btn.textContent = originalText, 2000);
+      });
+    }
+  </script>
+</body>
+</html>
