@@ -1,0 +1,1595 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morpho Blue Smart Contract Addresses - DeFi Registry</title>
+  <meta name="description" content="Verified smart contract addresses for Morpho Blue across 37 blockchains. Lending protocol contracts and ABIs.">
+  <link rel="canonical" href="https://karelxfi.github.io/contracts-registry-llm/protocols/morpho-blue" />
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Structured Data for LLMs and Search Engines -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Morpho Blue",
+  "applicationCategory": "Blockchain Protocol",
+  "description": "Morpho Blue is a lending protocol deployed across 37 blockchains.",
+  "url": "https://morpho.org",
+  "softwareVersion": "morpho-blue",
+  "author": {
+    "@type": "Organization",
+    "name": "Morpho Blue"
+  },
+  "codeRepository": "https://github.com/morpho-org/morpho-blue",
+  "documentation": "https://docs.morpho.org"
+}
+  </script>
+
+  <!-- OpenGraph for social sharing and LLM parsing -->
+  <meta property="og:title" content="Morpho Blue - Smart Contract Registry" />
+  <meta property="og:description" content="37 chains, 103 contracts. lending protocol." />
+  <meta property="og:type" content="website" />
+
+  <!-- Protocol metadata for easy parsing -->
+  <meta name="protocol:id" content="morpho-blue" />
+  <meta name="protocol:name" content="Morpho Blue" />
+  <meta name="protocol:type" content="lending" />
+  <meta name="protocol:chains" content="37" />
+  <meta name="protocol:contracts" content="103" />
+  <meta name="protocol:status" content="complete" />
+  <meta name="protocol:defillama_id" content="morpho-v1" />
+  <meta name="protocol:website" content="https://morpho.org" />
+  <meta name="protocol:github" content="https://github.com/morpho-org/morpho-blue" />
+  <meta name="protocol:documentation" content="https://docs.morpho.org" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Machine-readable data section for LLMs (hidden from users) -->
+  <script type="application/json" id="protocol-data" data-protocol-id="morpho-blue">
+{
+  "id": "morpho-blue",
+  "name": "Morpho Blue",
+  "type": "lending",
+  "status": "complete",
+  "website": "https://morpho.org",
+  "github": "https://github.com/morpho-org/morpho-blue",
+  "docs": "https://docs.morpho.org",
+  "defillamaId": "morpho-v1",
+  "tags": [
+    "lending",
+    "peer-to-peer",
+    "permissionless",
+    "immutable",
+    "ethereum",
+    "base",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "world-chain",
+    "fraxtal",
+    "scroll",
+    "ink",
+    "unichain",
+    "sonic",
+    "hemi",
+    "mode",
+    "corn",
+    "plume-mainnet",
+    "camp",
+    "katana",
+    "etherlink",
+    "tac",
+    "lisk",
+    "avalanche",
+    "bitlayer",
+    "bnb",
+    "botanix",
+    "gnosis",
+    "plasma",
+    "soneium",
+    "zircuit",
+    "abstract",
+    "celo",
+    "cronos",
+    "hyperevm",
+    "linea",
+    "monad",
+    "sei",
+    "stable",
+    "zerog"
+  ],
+  "contracts": {
+    "morpho": {
+      "name": "Morpho Market V1 (Morpho Blue)",
+      "type": "core",
+      "description": "Main lending protocol contract. Enables supply/withdraw, borrow/repay, collateral management, liquidations, and zero-fee flash loans.",
+      "proxy": false,
+      "keyEvents": [
+        {
+          "name": "Supply",
+          "signature": "Supply(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)",
+          "description": "Emitted when assets are supplied to a market"
+        },
+        {
+          "name": "Withdraw",
+          "signature": "Withdraw(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)",
+          "description": "Emitted when assets are withdrawn from a market"
+        },
+        {
+          "name": "Borrow",
+          "signature": "Borrow(bytes32 indexed id, address caller, address indexed onBehalf, address indexed receiver, uint256 assets, uint256 shares)",
+          "description": "Emitted when assets are borrowed from a market"
+        },
+        {
+          "name": "Repay",
+          "signature": "Repay(bytes32 indexed id, address indexed caller, address indexed onBehalf, uint256 assets, uint256 shares)",
+          "description": "Emitted when borrowed assets are repaid"
+        },
+        {
+          "name": "SupplyCollateral",
+          "description": "Emitted when collateral is supplied"
+        },
+        {
+          "name": "WithdrawCollateral",
+          "description": "Emitted when collateral is withdrawn"
+        },
+        {
+          "name": "Liquidate",
+          "description": "Emitted when a position is liquidated"
+        }
+      ],
+      "keyFunctions": [
+        {
+          "name": "supply",
+          "mutability": "nonpayable"
+        },
+        {
+          "name": "withdraw",
+          "mutability": "nonpayable"
+        },
+        {
+          "name": "borrow",
+          "mutability": "nonpayable"
+        },
+        {
+          "name": "repay",
+          "mutability": "nonpayable"
+        }
+      ],
+      "useCases": [
+        "Track user deposits and withdrawals by market",
+        "Monitor borrow/repay activity with accrued interest",
+        "Index liquidation events with collateral seized",
+        "Analyze market creation and parameter choices",
+        "Track market-level utilization rates"
+      ],
+      "github": "https://github.com/morpho-org/morpho-blue"
+    },
+    "adaptiveCurveIrm": {
+      "name": "Adaptive Curve Interest Rate Model",
+      "type": "peripheral",
+      "description": "Morpho's flagship immutable IRM that autonomously adapts to market conditions",
+      "proxy": false,
+      "keyEvents": [
+        {
+          "name": "BorrowRateUpdate",
+          "description": "Emitted when borrow rate is updated"
+        }
+      ],
+      "keyFunctions": [
+        {
+          "name": "borrowRateView",
+          "mutability": "view"
+        },
+        {
+          "name": "borrowRate",
+          "mutability": "nonpayable"
+        }
+      ],
+      "useCases": [
+        "Track interest rate changes across markets over time",
+        "Monitor rateAtTarget shifts and adaptation speed",
+        "Build APY calculation interfaces"
+      ],
+      "github": "https://github.com/morpho-org/morpho-blue-irm"
+    },
+    "bundler": {
+      "name": "Bundler (Bundler3)",
+      "type": "helper",
+      "description": "Call dispatcher enabling atomic execution of multiple protocol interactions in a single transaction",
+      "proxy": false,
+      "keyEvents": [
+        {
+          "name": "Multicall",
+          "description": "Emitted when multiple calls are batched"
+        }
+      ],
+      "useCases": [
+        "Track bundled transaction patterns and sequences",
+        "Monitor adapter usage distribution",
+        "Measure gas savings vs unbundled transactions"
+      ],
+      "github": "https://github.com/morpho-org/bundler3"
+    }
+  },
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "chainId": 1,
+      "addresses": {
+        "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+        "adaptiveCurveIrm": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "bundler": "0x6566194141eefa99Af43Bb5Aa71460Ca2Dc90245"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "base": {
+      "chain": "base",
+      "chainId": 8453,
+      "addresses": {
+        "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+        "adaptiveCurveIrm": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+        "bundler": "0x6BFd8137e702540E7A42B74178A4a49Ba43920C4"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "polygon": {
+      "chain": "polygon",
+      "chainId": 137,
+      "addresses": {
+        "morpho": "0x1bF0c2541F820E775182832f06c0B7Fc27A25f67",
+        "adaptiveCurveIrm": "0xe675A2161D4a6E2de2eeD70ac98EEBf257FBF0B0",
+        "bundler": "0x2d9C3A9E67c966C711208cc78b34fB9E9f8db589"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
+      "chainId": 42161,
+      "addresses": {
+        "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+        "adaptiveCurveIrm": "0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA",
+        "bundler": "0x1FA4431bC113D308beE1d46B0e98Cb805FB48C13"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "optimism": {
+      "chain": "optimism",
+      "chainId": 10,
+      "addresses": {
+        "morpho": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
+        "adaptiveCurveIrm": "0x8cD70A8F399428456b29546BC5dBe10ab6a06ef6",
+        "bundler": "0xFBCd3C258feB131D8E038F2A3a670A7bE0507C05"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "world-chain": {
+      "chain": "world-chain",
+      "chainId": 480,
+      "addresses": {
+        "morpho": "0xE741BC7c34758b4caE05062794E8Ae24978AF432",
+        "adaptiveCurveIrm": "0x34E99D604751a72cF8d0CFDf87069292d82De472",
+        "bundler": "0x3D07BF2FFb23248034bF704F3a4786F1ffE2a448"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "fraxtal": {
+      "chain": "fraxtal",
+      "chainId": 252,
+      "addresses": {
+        "morpho": "0xa6030627d724bA78a59aCf43Be7550b4C5a0653b",
+        "adaptiveCurveIrm": "0xA0D4D77b5D9933073572E19C172BFE866312673b",
+        "bundler": "0xA7a414823Ef0F8CFb2c4f67f2F445DA940641d91"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "chainId": 534352,
+      "addresses": {
+        "morpho": "0x2d012EdbAdc37eDc2BC62791B666f9193FDF5a55",
+        "adaptiveCurveIrm": "0xa5EA7500A27C0079961D93366A6e93aafF18CB90",
+        "bundler": "0x60F9159d4dCd724e743212416FD57d8aC0B60768"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "ink": {
+      "chain": "ink",
+      "chainId": 57073,
+      "addresses": {
+        "morpho": "0x857f3EefE8cbda3Bc49367C996cd664A880d3042",
+        "adaptiveCurveIrm": "0x9515407b1512F53388ffE699524100e7270Ee57B",
+        "bundler": "0x7db0F1E2bf1f47ec82220090F388d75D8B9BB6BC"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "chainId": 1301,
+      "addresses": {
+        "morpho": "0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A",
+        "adaptiveCurveIrm": "0x9a6061d51743B31D2c3Be75D83781Fa423f53F0E",
+        "bundler": "0x7DD85759182495AF7F6757DA75036d24A9B58bc3"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "chainId": 146,
+      "addresses": {
+        "morpho": "0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f",
+        "adaptiveCurveIrm": "0xDEfCf242226425f93d8DD0e314735C28517C473F",
+        "bundler": "0xB06F1Ad8c908b958E596c42973f67F2f1d9a9afF"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "hemi": {
+      "chain": "hemi",
+      "chainId": 743111,
+      "addresses": {
+        "morpho": "0xa4Ca2c2e25b97DA19879201bA49422bc6f181f42",
+        "adaptiveCurveIrm": "0xdEbdEa31624552DF904A065221cD14088ABDeD70",
+        "bundler": "0x8eDa6E01a20E3Cd90B3B2AF6F790cB8FADEf3Ea8"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "mode": {
+      "chain": "mode",
+      "chainId": 34443,
+      "addresses": {
+        "morpho": "0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564",
+        "adaptiveCurveIrm": "0xE3d46Ae190Cb39ccA3655E966DcEF96b4eAe1d1c",
+        "bundler": "0xFEA0edFa081C8D5960Ec9Bf6684981dB1834305d"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "corn": {
+      "chain": "corn",
+      "chainId": 21000000,
+      "addresses": {
+        "morpho": "0xc2B1E031540e3F3271C5F3819F0cC7479a8DdD90",
+        "adaptiveCurveIrm": "0x58a42117d753a0e69694545DfA19d64c2fB759fB",
+        "bundler": "0x086889F9bdE8349512dD77088A7114E6C1c42Af7"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "chainId": 98865,
+      "addresses": {
+        "morpho": "0x42b18785CE0Aed7BF7Ca43a39471ED4C0A3e0bB5",
+        "adaptiveCurveIrm": "0x7420302Ddd469031Cd2282cd64225cCd46F581eA",
+        "bundler": "0x5437C8788f4CFbaA55be6FBf30379bc7dd7f69C3"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "camp": {
+      "chain": "camp",
+      "chainId": 325000,
+      "addresses": {
+        "morpho": "0xea4f2979D7A99B40404b447Cf71c008e3805760F",
+        "adaptiveCurveIrm": "0xd5661D965cc60ed1954d4f6725b766051De3ef97",
+        "bundler": "0xc1A86b3a552C5a34e1ecc910341A64Cc89b2CB01"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "katana": {
+      "chain": "katana",
+      "chainId": 1088,
+      "addresses": {
+        "morpho": "0xD50F2DffFd62f94Ee4AEd9ca05C61d0753268aBc",
+        "adaptiveCurveIrm": "0x4F708C0ae7deD3d74736594C2109C2E3c065B428",
+        "bundler": "0xA8C5e23C9C0DF2b6fF716486c6bBEBB6661548C8"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "etherlink": {
+      "chain": "etherlink",
+      "chainId": 42793,
+      "addresses": {
+        "morpho": "0xbCE7364E63C3B13C73E9977a83c9704E2aCa876e",
+        "adaptiveCurveIrm": "0xC1523BE776e66ba07b609b1914D0925278f21FE5",
+        "bundler": "0x69dc8086191437b55775b79C730BB3876397e7D1"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "tac": {
+      "chain": "tac",
+      "chainId": 8866,
+      "addresses": {
+        "morpho": "0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c",
+        "adaptiveCurveIrm": "0x7E82b16496fA8CC04935528dA7F5A2C684A3C7A3",
+        "bundler": "0x84b189823D0f84c36728Bb3335dD8C833564e72f"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "lisk": {
+      "chain": "lisk",
+      "chainId": 1135,
+      "addresses": {
+        "morpho": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+        "adaptiveCurveIrm": "0x5576629f21D528A8c3e06C338dDa907B94563902",
+        "bundler": "0xD96E5e02580C4EAfE15B5537b25eE3dEe5861e00"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "hyperevm": {
+      "chain": "hyperevm",
+      "chainId": 998,
+      "addresses": {
+        "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+        "adaptiveCurveIrm": "0xD4a426F010986dCad727e8dd6eed44cA4A9b7483",
+        "bundler": "0xa3F50477AfA601C771874260A3B34B40e244Fa0e"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "sei": {
+      "chain": "sei",
+      "chainId": 1329,
+      "addresses": {
+        "morpho": "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c",
+        "adaptiveCurveIrm": "0x6eFA8e3Aa8279eB2fd46b6083A9E52dA72EA56c4",
+        "bundler": "0xF9457356F18A3349Bb317Ac144c3Bcc62e5761aD"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "zerog": {
+      "chain": "zerog",
+      "chainId": 20240,
+      "addresses": {
+        "morpho": "0x9CDD13a2212D94C4f12190cA30783B743E83C89e",
+        "adaptiveCurveIrm": "0xf52e20C42FEc624819D4184226C4777D7cbd767e",
+        "bundler": "0xbDaFC7ceF85C5fF69164330F521089C9E15DDDae"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "linea": {
+      "chain": "linea",
+      "chainId": 59144,
+      "addresses": {
+        "morpho": "0x6B0D716aC0A45536172308e08fC2C40387262c9F",
+        "adaptiveCurveIrm": "0x85C2Ef4Bd69f42D7Da19Fb9dcdD7Fb8d0F59cDeE",
+        "bundler": "0x1Ee8Ec299E8014760D50A4E3CfC3b44Cc2242625"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "monad": {
+      "chain": "monad",
+      "chainId": null,
+      "addresses": {
+        "morpho": "0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee",
+        "adaptiveCurveIrm": "0x09475a3D6eA8c314c592b1a3799bDE044E2F400F",
+        "bundler": "0x82b684483e844422FD339df0b67b3B111F02c66E"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "stable": {
+      "chain": "stable",
+      "chainId": 101010,
+      "addresses": {
+        "morpho": "0xa40103088A899514E3fe474cD3cc5bf811b1102e",
+        "adaptiveCurveIrm": "0x41e846FC8108b8527C1D4EDB4c9564E56442940f",
+        "bundler": "0xA0bb114F927dF03d9a1a639b9c71F71B0FaFDf1B"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "chainId": 25,
+      "addresses": {
+        "morpho": "0xDF9a1DC07e5dEe5ccCCaBeC35e446C70fAF7434e",
+        "adaptiveCurveIrm": "0x1Db002C086439d55B9f33E6c0693Eb850F7c0607",
+        "bundler": "0xb1c59fE6A0DCE25b804F6113C441Bf4F3a4Ab6bC"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "celo": {
+      "chain": "celo",
+      "chainId": 42220,
+      "addresses": {
+        "morpho": "0xd24ECdD8C1e0E57a4E26B1a7bbeAa3e95466A569",
+        "adaptiveCurveIrm": "0x683CAAADdfA2F42e24880E202676526d501a5dED",
+        "bundler": "0xbd142f98f847c170D51d8B23e5FEBc51FC9a67D9"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "abstract": {
+      "chain": "abstract",
+      "chainId": 2741,
+      "addresses": {
+        "morpho": "0xc85CE8ffdA27b646D269516B8d0Fa6ec2E958B55",
+        "adaptiveCurveIrm": "0xd334eb112CfD1EB4a50FB871b7D9895EBB955C43",
+        "bundler": "0xc13A3Ca3B0120EE6121d1E0ca9Da22fDD7ed28Cd"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "chainId": 43114,
+      "addresses": {
+        "morpho": "0x895383274303AA19fe978AFB4Ac55C7f094f982C",
+        "adaptiveCurveIrm": "0xb6ac9477D574EE2a7BF32d2475b303fb70968AA4"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "bitlayer": {
+      "chain": "bitlayer",
+      "chainId": 200901,
+      "addresses": {
+        "morpho": "0xAeA7eFF1bD3c875c18ef50F0387892dF181431C6",
+        "adaptiveCurveIrm": "0xefB565442B9Eb740B50Cf928C14d21c0111254F9"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "bnb": {
+      "chain": "bnb",
+      "chainId": 56,
+      "addresses": {
+        "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+        "adaptiveCurveIrm": "0x7112D95cB5f6b13bF5F5B94a373bB3b2B381F979"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "botanix": {
+      "chain": "botanix",
+      "chainId": 3636,
+      "addresses": {
+        "morpho": "0x8183d41556Be257fc7aAa4A48396168C8eF2bEAD",
+        "adaptiveCurveIrm": "0x28021Ef0269C83302c09D2A89f7b202C4AeDf0C2"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "gnosis": {
+      "chain": "gnosis",
+      "chainId": 100,
+      "addresses": {
+        "morpho": "0xB74D4dd451E250bC325AFF0556D717e4E2351c66",
+        "adaptiveCurveIrm": "0xae529333703C34b8976BaB9D04AF3f0B9Cff05c5"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "plasma": {
+      "chain": "plasma",
+      "chainId": 9745,
+      "addresses": {
+        "morpho": "0x2fF74A46536f5c67ef5A42FD5B4e2Ed8A2cee249",
+        "adaptiveCurveIrm": "0xf37f73028b5B4ebAdC055Deb24B1cde271CF0f71"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "chainId": 1868,
+      "addresses": {
+        "morpho": "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a",
+        "adaptiveCurveIrm": "0x68F9b666b984527A7c145Db4103Cc6d3171C797F"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "zircuit": {
+      "chain": "zircuit",
+      "chainId": 48900,
+      "addresses": {
+        "morpho": "0xA902A365Fe10B4a94339B5A2Dc64F60c1486a5c8",
+        "adaptiveCurveIrm": "0xBADb1809ecF658F36e31CcC980F72de029e1cE46"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    }
+  }
+}
+  </script>
+
+  <!-- Plain text summary for easy LLM parsing -->
+  <div id="llm-summary" style="display: none;" data-purpose="llm-parsing">
+    <h1>Protocol: Morpho Blue</h1>
+    <p>ID: morpho-blue</p>
+    <p>Type: lending</p>
+    <p>Status: complete</p>
+    <p>Chains: 37</p>
+    <p>Total Contracts: 103</p>
+    <p>Website: https://morpho.org</p>
+    <p>GitHub: https://github.com/morpho-org/morpho-blue</p>
+    <p>Documentation: https://docs.morpho.org</p>
+    <p>DefiLlama ID: morpho-v1</p>
+
+    <h2>Contract Addresses by Chain:</h2>
+    <pre>ethereum:
+  - morpho: 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb
+  - adaptiveCurveIrm: 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC
+  - bundler: 0x6566194141eefa99Af43Bb5Aa71460Ca2Dc90245
+
+base:
+  - morpho: 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb
+  - adaptiveCurveIrm: 0x46415998764C29aB2a25CbeA6254146D50D22687
+  - bundler: 0x6BFd8137e702540E7A42B74178A4a49Ba43920C4
+
+polygon:
+  - morpho: 0x1bF0c2541F820E775182832f06c0B7Fc27A25f67
+  - adaptiveCurveIrm: 0xe675A2161D4a6E2de2eeD70ac98EEBf257FBF0B0
+  - bundler: 0x2d9C3A9E67c966C711208cc78b34fB9E9f8db589
+
+arbitrum:
+  - morpho: 0x6c247b1F6182318877311737BaC0844bAa518F5e
+  - adaptiveCurveIrm: 0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA
+  - bundler: 0x1FA4431bC113D308beE1d46B0e98Cb805FB48C13
+
+optimism:
+  - morpho: 0xce95AfbB8EA029495c66020883F87aaE8864AF92
+  - adaptiveCurveIrm: 0x8cD70A8F399428456b29546BC5dBe10ab6a06ef6
+  - bundler: 0xFBCd3C258feB131D8E038F2A3a670A7bE0507C05
+
+world-chain:
+  - morpho: 0xE741BC7c34758b4caE05062794E8Ae24978AF432
+  - adaptiveCurveIrm: 0x34E99D604751a72cF8d0CFDf87069292d82De472
+  - bundler: 0x3D07BF2FFb23248034bF704F3a4786F1ffE2a448
+
+fraxtal:
+  - morpho: 0xa6030627d724bA78a59aCf43Be7550b4C5a0653b
+  - adaptiveCurveIrm: 0xA0D4D77b5D9933073572E19C172BFE866312673b
+  - bundler: 0xA7a414823Ef0F8CFb2c4f67f2F445DA940641d91
+
+scroll:
+  - morpho: 0x2d012EdbAdc37eDc2BC62791B666f9193FDF5a55
+  - adaptiveCurveIrm: 0xa5EA7500A27C0079961D93366A6e93aafF18CB90
+  - bundler: 0x60F9159d4dCd724e743212416FD57d8aC0B60768
+
+ink:
+  - morpho: 0x857f3EefE8cbda3Bc49367C996cd664A880d3042
+  - adaptiveCurveIrm: 0x9515407b1512F53388ffE699524100e7270Ee57B
+  - bundler: 0x7db0F1E2bf1f47ec82220090F388d75D8B9BB6BC
+
+unichain:
+  - morpho: 0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A
+  - adaptiveCurveIrm: 0x9a6061d51743B31D2c3Be75D83781Fa423f53F0E
+  - bundler: 0x7DD85759182495AF7F6757DA75036d24A9B58bc3
+
+sonic:
+  - morpho: 0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f
+  - adaptiveCurveIrm: 0xDEfCf242226425f93d8DD0e314735C28517C473F
+  - bundler: 0xB06F1Ad8c908b958E596c42973f67F2f1d9a9afF
+
+hemi:
+  - morpho: 0xa4Ca2c2e25b97DA19879201bA49422bc6f181f42
+  - adaptiveCurveIrm: 0xdEbdEa31624552DF904A065221cD14088ABDeD70
+  - bundler: 0x8eDa6E01a20E3Cd90B3B2AF6F790cB8FADEf3Ea8
+
+mode:
+  - morpho: 0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564
+  - adaptiveCurveIrm: 0xE3d46Ae190Cb39ccA3655E966DcEF96b4eAe1d1c
+  - bundler: 0xFEA0edFa081C8D5960Ec9Bf6684981dB1834305d
+
+corn:
+  - morpho: 0xc2B1E031540e3F3271C5F3819F0cC7479a8DdD90
+  - adaptiveCurveIrm: 0x58a42117d753a0e69694545DfA19d64c2fB759fB
+  - bundler: 0x086889F9bdE8349512dD77088A7114E6C1c42Af7
+
+plume-mainnet:
+  - morpho: 0x42b18785CE0Aed7BF7Ca43a39471ED4C0A3e0bB5
+  - adaptiveCurveIrm: 0x7420302Ddd469031Cd2282cd64225cCd46F581eA
+  - bundler: 0x5437C8788f4CFbaA55be6FBf30379bc7dd7f69C3
+
+camp:
+  - morpho: 0xea4f2979D7A99B40404b447Cf71c008e3805760F
+  - adaptiveCurveIrm: 0xd5661D965cc60ed1954d4f6725b766051De3ef97
+  - bundler: 0xc1A86b3a552C5a34e1ecc910341A64Cc89b2CB01
+
+katana:
+  - morpho: 0xD50F2DffFd62f94Ee4AEd9ca05C61d0753268aBc
+  - adaptiveCurveIrm: 0x4F708C0ae7deD3d74736594C2109C2E3c065B428
+  - bundler: 0xA8C5e23C9C0DF2b6fF716486c6bBEBB6661548C8
+
+etherlink:
+  - morpho: 0xbCE7364E63C3B13C73E9977a83c9704E2aCa876e
+  - adaptiveCurveIrm: 0xC1523BE776e66ba07b609b1914D0925278f21FE5
+  - bundler: 0x69dc8086191437b55775b79C730BB3876397e7D1
+
+tac:
+  - morpho: 0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c
+  - adaptiveCurveIrm: 0x7E82b16496fA8CC04935528dA7F5A2C684A3C7A3
+  - bundler: 0x84b189823D0f84c36728Bb3335dD8C833564e72f
+
+lisk:
+  - morpho: 0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8
+  - adaptiveCurveIrm: 0x5576629f21D528A8c3e06C338dDa907B94563902
+  - bundler: 0xD96E5e02580C4EAfE15B5537b25eE3dEe5861e00
+
+hyperevm:
+  - morpho: 0x68e37dE8d93d3496ae143F2E900490f6280C57cD
+  - adaptiveCurveIrm: 0xD4a426F010986dCad727e8dd6eed44cA4A9b7483
+  - bundler: 0xa3F50477AfA601C771874260A3B34B40e244Fa0e
+
+sei:
+  - morpho: 0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c
+  - adaptiveCurveIrm: 0x6eFA8e3Aa8279eB2fd46b6083A9E52dA72EA56c4
+  - bundler: 0xF9457356F18A3349Bb317Ac144c3Bcc62e5761aD
+
+zerog:
+  - morpho: 0x9CDD13a2212D94C4f12190cA30783B743E83C89e
+  - adaptiveCurveIrm: 0xf52e20C42FEc624819D4184226C4777D7cbd767e
+  - bundler: 0xbDaFC7ceF85C5fF69164330F521089C9E15DDDae
+
+linea:
+  - morpho: 0x6B0D716aC0A45536172308e08fC2C40387262c9F
+  - adaptiveCurveIrm: 0x85C2Ef4Bd69f42D7Da19Fb9dcdD7Fb8d0F59cDeE
+  - bundler: 0x1Ee8Ec299E8014760D50A4E3CfC3b44Cc2242625
+
+monad:
+  - morpho: 0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee
+  - adaptiveCurveIrm: 0x09475a3D6eA8c314c592b1a3799bDE044E2F400F
+  - bundler: 0x82b684483e844422FD339df0b67b3B111F02c66E
+
+stable:
+  - morpho: 0xa40103088A899514E3fe474cD3cc5bf811b1102e
+  - adaptiveCurveIrm: 0x41e846FC8108b8527C1D4EDB4c9564E56442940f
+  - bundler: 0xA0bb114F927dF03d9a1a639b9c71F71B0FaFDf1B
+
+cronos:
+  - morpho: 0xDF9a1DC07e5dEe5ccCCaBeC35e446C70fAF7434e
+  - adaptiveCurveIrm: 0x1Db002C086439d55B9f33E6c0693Eb850F7c0607
+  - bundler: 0xb1c59fE6A0DCE25b804F6113C441Bf4F3a4Ab6bC
+
+celo:
+  - morpho: 0xd24ECdD8C1e0E57a4E26B1a7bbeAa3e95466A569
+  - adaptiveCurveIrm: 0x683CAAADdfA2F42e24880E202676526d501a5dED
+  - bundler: 0xbd142f98f847c170D51d8B23e5FEBc51FC9a67D9
+
+abstract:
+  - morpho: 0xc85CE8ffdA27b646D269516B8d0Fa6ec2E958B55
+  - adaptiveCurveIrm: 0xd334eb112CfD1EB4a50FB871b7D9895EBB955C43
+  - bundler: 0xc13A3Ca3B0120EE6121d1E0ca9Da22fDD7ed28Cd
+
+avalanche:
+  - morpho: 0x895383274303AA19fe978AFB4Ac55C7f094f982C
+  - adaptiveCurveIrm: 0xb6ac9477D574EE2a7BF32d2475b303fb70968AA4
+
+bitlayer:
+  - morpho: 0xAeA7eFF1bD3c875c18ef50F0387892dF181431C6
+  - adaptiveCurveIrm: 0xefB565442B9Eb740B50Cf928C14d21c0111254F9
+
+bnb:
+  - morpho: 0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a
+  - adaptiveCurveIrm: 0x7112D95cB5f6b13bF5F5B94a373bB3b2B381F979
+
+botanix:
+  - morpho: 0x8183d41556Be257fc7aAa4A48396168C8eF2bEAD
+  - adaptiveCurveIrm: 0x28021Ef0269C83302c09D2A89f7b202C4AeDf0C2
+
+gnosis:
+  - morpho: 0xB74D4dd451E250bC325AFF0556D717e4E2351c66
+  - adaptiveCurveIrm: 0xae529333703C34b8976BaB9D04AF3f0B9Cff05c5
+
+plasma:
+  - morpho: 0x2fF74A46536f5c67ef5A42FD5B4e2Ed8A2cee249
+  - adaptiveCurveIrm: 0xf37f73028b5B4ebAdC055Deb24B1cde271CF0f71
+
+soneium:
+  - morpho: 0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a
+  - adaptiveCurveIrm: 0x68F9b666b984527A7c145Db4103Cc6d3171C797F
+
+zircuit:
+  - morpho: 0xA902A365Fe10B4a94339B5A2Dc64F60c1486a5c8
+  - adaptiveCurveIrm: 0xBADb1809ecF658F36e31CcC980F72de029e1cE46</pre>
+
+    <h2>API Endpoint:</h2>
+    <p>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/morpho-blue.json</p>
+  </div>
+
+  <div class="protocol-page" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a> / <a href="/protocols">Protocols</a> / <span itemprop="name">Morpho Blue</span>
+      </div>
+
+      <header class="protocol-hero">
+        <div class="protocol-title-row">
+          <div class="protocol-title-section">
+            <h1 itemprop="name" data-protocol-id="morpho-blue">Morpho Blue</h1>
+            <span class="protocol-type-badge" data-type="lending">lending</span>
+          </div>
+          
+          <div class="protocol-links">
+            <a href="https://morpho.org" class="external-link" target="_blank" rel="noopener" itemprop="url" data-link-type="website">Website ↗</a>
+            <a href="https://github.com/morpho-org/morpho-blue" class="external-link" target="_blank" rel="noopener" itemprop="codeRepository" data-link-type="github">GitHub ↗</a>
+            <a href="https://docs.morpho.org" class="external-link" target="_blank" rel="noopener" itemprop="documentation" data-link-type="docs">Docs ↗</a>
+          </div>
+          
+        </div>
+      </header>
+
+      <div class="deployments-section">
+        <div class="section-header">
+          <div class="section-header-content">
+            <h2>Contract Deployments</h2>
+            <p class="section-description">Smart contract addresses for Morpho Blue across 37 blockchains.</p>
+          </div>
+          <a
+            href="../api/v1/protocol/morpho-blue.json"
+            download="morpho-blue.json"
+            class="download-json-btn"
+            title="Download all contract data as JSON"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download JSON
+          </a>
+        </div>
+
+        <div class="table-wrapper">
+          <div class="table-controls">
+            <div class="filter-controls">
+              <input
+                type="text"
+                id="tableFilter"
+                placeholder="Filter by chain, chain ID, contract name, or address..."
+                class="filter-input"
+              />
+              <div class="filter-stats" id="filterStats">
+                Showing <span id="visibleRows">0</span> of <span id="totalRows">0</span> deployments
+              </div>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="deployments-table" id="deploymentsTable" data-total-chains="37">
+              <thead>
+                <tr>
+                  <th data-column="chain">
+                    <div class="th-content">
+                      Chain
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="chainId">
+                    <div class="th-content">
+                      Chain ID
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="contractName">
+                    <div class="th-content">
+                      Contract Name
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="address">
+                    <div class="th-content">
+                      Address
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="source">
+                    <div class="th-content">
+                      Source
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Deployments will be loaded from API -->
+              </tbody>
+            </table>
+            <div id="noResults" class="no-results" style="display: none;">
+              <div class="no-results-content">
+                <span class="no-results-icon">🔍</span>
+                <span class="no-results-text">No deployments found matching your filter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="api-section">
+        <h2>API Access</h2>
+        <p class="section-description">Programmatic access to all Morpho Blue contract addresses and deployment information.</p>
+        <div class="code-block">
+          <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/morpho-blue.json</code></pre>
+          <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/morpho-blue.json')">Copy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div>© 2025 DeFi Registry. Open source under MIT License.</div>
+        <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let copiedAddress = null;
+    let sortState = { column: 'chain', direction: 'asc' };
+    let allRows = [];
+
+    // Load deployment data from API
+    fetch('../api/v1/protocol/morpho-blue.json')
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.querySelector('#deploymentsTable tbody');
+        if (!tbody) return;
+
+        // Flatten deployments into table rows (no rowspan for better sorting)
+        Object.entries(data.deployments || {}).forEach(([chainId, deployment]) => {
+          const addresses = Object.entries(deployment.addresses || {});
+
+          addresses.forEach(([contractName, address]) => {
+            const row = document.createElement('tr');
+            row.setAttribute('data-chain', chainId.toLowerCase());
+            row.setAttribute('data-chain-id', String(deployment.chainId || ''));
+            row.setAttribute('data-contract-name', contractName.toLowerCase());
+            row.setAttribute('data-contract-address', address.toLowerCase());
+
+            // Show chain info on every row for better sorting
+            row.innerHTML = `
+              <td class="chain-cell">
+                ${chainId}
+              </td>
+              <td class="chain-id-cell">${deployment.chainId || 'N/A'}</td>
+              <td class="contract-name-cell">${contractName}</td>
+              <td class="address-cell">
+                <div class="address-with-copy">
+                  <code>${address}</code>
+                  <button class="copy-btn-inline" onclick="copyAddress('${address}', this)" title="Copy address">
+                    <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </button>
+                </div>
+              </td>
+              <td class="source-cell">
+                ${deployment.sourceUrl ? `<a href="${deployment.sourceUrl}" class="source-link-small" target="_blank" rel="noopener">View Source ↗</a>` : '<span class="no-source">—</span>'}
+              </td>
+            `;
+
+            tbody.appendChild(row);
+            allRows.push(row);
+          });
+        });
+
+        // After loading, update stats and initialize features
+        updateFilterStats();
+        updateLLMSummary(data);
+        initTableSort();
+        initTableFilter();
+      })
+      .catch(err => console.error('Failed to load deployments:', err));
+
+    // Update the hidden LLM summary section with full contract data
+    function updateLLMSummary(data) {
+      const summaryDiv = document.getElementById('llm-summary');
+      if (!summaryDiv) return;
+
+      const contractsList = Object.entries(data.deployments || {}).map(([chain, deployment]) => {
+        const addresses = Object.entries(deployment.addresses || {})
+          .map(([name, address]) => `  - ${name}: ${address}`)
+          .join('\n');
+        return `${chain}:\n${addresses}`;
+      }).join('\n\n');
+
+      const contractsSection = summaryDiv.querySelector('pre');
+      if (contractsSection) {
+        contractsSection.textContent = contractsList;
+      }
+    }
+
+    // Copy to clipboard function with visual feedback
+    function copyAddress(text, button) {
+      // Try modern clipboard API first
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text)
+          .then(() => {
+            showCopyFeedback(button);
+          })
+          .catch(err => {
+            console.error('Clipboard API failed:', err);
+            fallbackCopy(text, button);
+          });
+      } else {
+        // Fallback for older browsers or non-secure contexts
+        fallbackCopy(text, button);
+      }
+    }
+
+    function showCopyFeedback(button) {
+      const copyIcon = button.querySelector('.copy-icon');
+      const checkIcon = button.querySelector('.check-icon');
+
+      if (copyIcon && checkIcon) {
+        copyIcon.style.display = 'none';
+        checkIcon.style.display = 'block';
+        button.classList.add('copied');
+
+        setTimeout(() => {
+          copyIcon.style.display = 'block';
+          checkIcon.style.display = 'none';
+          button.classList.remove('copied');
+        }, 2000);
+      }
+    }
+
+    function fallbackCopy(text, button) {
+      // Create temporary textarea
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.top = '-9999px';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+
+      try {
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // For mobile devices
+
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showCopyFeedback(button);
+        } else {
+          throw new Error('execCommand failed');
+        }
+      } catch (err) {
+        console.error('Fallback copy failed:', err);
+        // Show address in alert as last resort
+        prompt('Copy this address:', text);
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    // Keep old function for API section compatibility
+    function copyToClipboard(text) {
+      const btn = event.target;
+      const originalText = btn.textContent;
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+          btn.textContent = '✓ Copied!';
+          btn.style.background = '#00d084';
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = '';
+          }, 2000);
+        }).catch(err => {
+          console.error('Clipboard API failed:', err);
+        });
+      }
+    }
+
+    // Filter table functionality
+    function initTableFilter() {
+      const filterInput = document.getElementById('tableFilter');
+      if (!filterInput) return;
+
+      filterInput.addEventListener('input', (e) => {
+        const filterValue = e.target.value.toLowerCase().trim();
+        filterTable(filterValue);
+      });
+    }
+
+    function filterTable(filterValue) {
+      const tbody = document.querySelector('#deploymentsTable tbody');
+      const noResults = document.getElementById('noResults');
+      if (!tbody) return;
+
+      let visibleCount = 0;
+
+      allRows.forEach(row => {
+        const chain = row.getAttribute('data-chain') || '';
+        const chainId = row.getAttribute('data-chain-id') || '';
+        const contractName = row.getAttribute('data-contract-name') || '';
+        const address = row.getAttribute('data-contract-address') || '';
+
+        const matches = filterValue === '' ||
+          chain.includes(filterValue) ||
+          chainId.includes(filterValue) ||
+          contractName.includes(filterValue) ||
+          address.includes(filterValue);
+
+        if (matches) {
+          row.style.display = '';
+          visibleCount++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+
+      // Show/hide no results message
+      if (noResults) {
+        if (visibleCount === 0 && filterValue !== '') {
+          noResults.style.display = 'flex';
+          tbody.style.display = 'none';
+        } else {
+          noResults.style.display = 'none';
+          tbody.style.display = '';
+        }
+      }
+
+      updateFilterStats(visibleCount);
+    }
+
+    function updateFilterStats(visibleCount) {
+      const visibleEl = document.getElementById('visibleRows');
+      const totalEl = document.getElementById('totalRows');
+
+      if (visibleEl && totalEl) {
+        const visible = visibleCount !== undefined ? visibleCount : allRows.length;
+        visibleEl.textContent = visible;
+        totalEl.textContent = allRows.length;
+      }
+    }
+
+    // Add table sorting functionality
+    function initTableSort() {
+      const table = document.getElementById('deploymentsTable');
+      if (!table) return;
+
+      const headers = table.querySelectorAll('th');
+      const tbody = table.querySelector('tbody');
+
+      headers.forEach((header, index) => {
+        const column = header.getAttribute('data-column');
+        if (!column) return; // Skip headers without data-column (like Source)
+
+        header.addEventListener('click', () => {
+          const currentDirection = sortState.column === column && sortState.direction === 'asc' ? 'desc' : 'asc';
+          sortState.column = column;
+          sortState.direction = currentDirection;
+
+          // Sort the rows
+          sortTable(column, currentDirection);
+
+          // Update sort indicators
+          headers.forEach(h => {
+            const indicator = h.querySelector('.sort-indicator');
+            if (indicator) {
+              indicator.textContent = '';
+              indicator.className = 'sort-indicator';
+            }
+          });
+
+          const indicator = header.querySelector('.sort-indicator');
+          if (indicator) {
+            indicator.textContent = currentDirection === 'asc' ? ' ↑' : ' ↓';
+            indicator.className = 'sort-indicator active';
+          }
+        });
+      });
+
+      // Initial sort by chain name
+      sortTable('chain', 'asc');
+    }
+
+    function sortTable(column, direction) {
+      const tbody = document.querySelector('#deploymentsTable tbody');
+      if (!tbody) return;
+
+      const rows = Array.from(allRows);
+
+      rows.sort((a, b) => {
+        let aVal, bVal;
+
+        switch (column) {
+          case 'chain':
+            aVal = a.getAttribute('data-chain') || '';
+            bVal = b.getAttribute('data-chain') || '';
+            break;
+          case 'chainId':
+            aVal = parseInt(a.getAttribute('data-chain-id')) || 0;
+            bVal = parseInt(b.getAttribute('data-chain-id')) || 0;
+            break;
+          case 'contractName':
+            aVal = a.getAttribute('data-contract-name') || '';
+            bVal = b.getAttribute('data-contract-name') || '';
+            break;
+          case 'address':
+            aVal = a.getAttribute('data-contract-address') || '';
+            bVal = b.getAttribute('data-contract-address') || '';
+            break;
+          default:
+            return 0;
+        }
+
+        // Numeric comparison for chain IDs
+        if (column === 'chainId') {
+          return direction === 'asc' ? aVal - bVal : bVal - aVal;
+        }
+
+        // String comparison
+        if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+        if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+        return 0;
+      });
+
+      // Clear and re-append rows in sorted order
+      tbody.innerHTML = '';
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+    // Initialize sorting after data loads
+    document.addEventListener('DOMContentLoaded', initTableSort);
+  </script>
+</body>
+</html>

@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorand Protocols - Contracts Registry</title>
+  <meta name="description" content="Browse 40 DeFi protocols deployed on Algorand blockchain with verified smart contract addresses.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://contracts.llamarpc.com/chains/algorand.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Algorand Protocols - Contracts Registry">
+  <meta property="og:description" content="Browse 40 DeFi protocols deployed on Algorand blockchain.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contracts.llamarpc.com/chains/algorand.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Algorand Protocols">
+  <meta name="twitter:description" content="Browse 40 DeFi protocols on Algorand.">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link active">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container listing-page">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> / <a href="/chains">Chains</a> / Algorand
+    </nav>
+
+    <div class="protocol-header">
+      <div>
+        <h1>Algorand</h1>
+        <p class="subtitle">40 protocols deployed on this chain</p>
+        
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="protocolSearch"
+        placeholder="Search protocols by name or type..."
+        aria-label="Search protocols"
+      >
+    </div>
+
+    <div class="protocol-grid" id="protocolsList">
+      
+        <a href="../protocols/algodex.html" class="protocol-card" data-protocol-name="algodex" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/algodex.png" alt="Algodex" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Algodex</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/algofi-lend.html" class="protocol-card" data-protocol-name="algofi lend" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/algofi-lend.png" alt="Algofi Lend" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Algofi Lend</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/algofi-swap.html" class="protocol-card" data-protocol-name="algofi swap" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/algofi-swap.png" alt="Algofi Swap" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Algofi Swap</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/algomint.html" class="protocol-card" data-protocol-name="algomint" data-protocol-type="algo-stables">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/algomint.png" alt="Algomint" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Algomint</h3>
+              <span class="protocol-type">algo-stables</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/algorai-finance.html" class="protocol-card" data-protocol-name="algorai finance" data-protocol-type="options vault">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/algorai-finance.png" alt="AlgoRai Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>AlgoRai Finance</h3>
+              <span class="protocol-type">options vault</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/alpha-arcade.html" class="protocol-card" data-protocol-name="alpha arcade" data-protocol-type="prediction market">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/alpha-arcade.png" alt="Alpha Arcade" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Alpha Arcade</h3>
+              <span class="protocol-type">prediction market</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/asa.gold.html" class="protocol-card" data-protocol-name="asa.gold" data-protocol-type="rwa">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/asa.gold.png" alt="ASA.Gold" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>ASA.Gold</h3>
+              <span class="protocol-type">rwa</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/c3-exchange.html" class="protocol-card" data-protocol-name="c3 exchange" data-protocol-type="cross chain bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/c3-exchange.png" alt="C3 Exchange" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="protocol-info">
+              <h3>C3 Exchange</h3>
+              <span class="protocol-type">cross chain bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/cometa.html" class="protocol-card" data-protocol-name="cometa" data-protocol-type="yield">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/cometa.png" alt="Cometa" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Cometa</h3>
+              <span class="protocol-type">yield</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/compx-cdp.html" class="protocol-card" data-protocol-name="compx cdp" data-protocol-type="cdp">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/compx-cdp.png" alt="Compx CDP" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Compx CDP</h3>
+              <span class="protocol-type">cdp</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/compx-streaming.html" class="protocol-card" data-protocol-name="compx streaming" data-protocol-type="payments">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/compx-streaming.png" alt="Compx Streaming" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Compx Streaming</h3>
+              <span class="protocol-type">payments</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/compx-yield.html" class="protocol-card" data-protocol-name="compx yield" data-protocol-type="yield">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/compx-yield.png" alt="Compx Yield" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Compx Yield</h3>
+              <span class="protocol-type">yield</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/deflex.html" class="protocol-card" data-protocol-name="deflex" data-protocol-type="dex aggregator">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/deflex.png" alt="Deflex" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Deflex</h3>
+              <span class="protocol-type">dex aggregator</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/deridex.html" class="protocol-card" data-protocol-name="deridex" data-protocol-type="derivatives">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/deridex.png" alt="Deridex" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Deridex</h3>
+              <span class="protocol-type">derivatives</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/equito-finance.html" class="protocol-card" data-protocol-name="equito finance" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/equito-finance.png" alt="Equito Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">E</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Equito Finance</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/folks-finance-lending.html" class="protocol-card" data-protocol-name="folks finance lending" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/folks-finance-lending.png" alt="Folks Finance Lending" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">F</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Folks Finance Lending</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/galgo-liquid-governance.html" class="protocol-card" data-protocol-name="galgo liquid governance" data-protocol-type="liquid staking">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/galgo-liquid-governance.png" alt="gALGO Liquid Governance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">G</span>
+            </div>
+            <div class="protocol-info">
+              <h3>gALGO Liquid Governance</h3>
+              <span class="protocol-type">liquid staking</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/gard.html" class="protocol-card" data-protocol-name="gard" data-protocol-type="cdp">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/gard.png" alt="GARD" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">G</span>
+            </div>
+            <div class="protocol-info">
+              <h3>GARD</h3>
+              <span class="protocol-type">cdp</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/glitter-finance.html" class="protocol-card" data-protocol-name="glitter finance" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/glitter-finance.png" alt="Glitter Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">G</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Glitter Finance</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/haystack.html" class="protocol-card" data-protocol-name="haystack" data-protocol-type="trading app">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/haystack.png" alt="Haystack" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">H</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Haystack</h3>
+              <span class="protocol-type">trading app</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/humble-defi.html" class="protocol-card" data-protocol-name="humble defi" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/humble-defi.png" alt="Humble Defi" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">H</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Humble Defi</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/lofty.html" class="protocol-card" data-protocol-name="lofty" data-protocol-type="rwa">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/lofty.png" alt="Lofty" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">L</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Lofty</h3>
+              <span class="protocol-type">rwa</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/meld-gold.html" class="protocol-card" data-protocol-name="meld gold" data-protocol-type="rwa">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/meld-gold.png" alt="Meld Gold" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Meld Gold</h3>
+              <span class="protocol-type">rwa</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/messina-bridge.html" class="protocol-card" data-protocol-name="messina bridge" data-protocol-type="cross chain bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/messina-bridge.png" alt="Messina Bridge" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Messina Bridge</h3>
+              <span class="protocol-type">cross chain bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/messina-liquid-staking.html" class="protocol-card" data-protocol-name="messina liquid staking" data-protocol-type="liquid staking">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/messina-liquid-staking.png" alt="Messina Liquid Staking" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Messina Liquid Staking</h3>
+              <span class="protocol-type">liquid staking</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/myth-finance-dualstake.html" class="protocol-card" data-protocol-name="myth finance dualstake" data-protocol-type="liquid staking">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/myth-finance-dualstake.png" alt="Myth Finance dualSTAKE" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Myth Finance dualSTAKE</h3>
+              <span class="protocol-type">liquid staking</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/opulous.html" class="protocol-card" data-protocol-name="opulous" data-protocol-type="farm">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/opulous.png" alt="Opulous" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">O</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Opulous</h3>
+              <span class="protocol-type">farm</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/pact.html" class="protocol-card" data-protocol-name="pact" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/pact.png" alt="Pact" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">P</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Pact</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/pnetwork.html" class="protocol-card" data-protocol-name="pnetwork" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/pnetwork.png" alt="pNetwork" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">P</span>
+            </div>
+            <div class="protocol-info">
+              <h3>pNetwork</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/portal.html" class="protocol-card" data-protocol-name="portal" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/portal.png" alt="Portal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">P</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Portal</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/reti-pooling.html" class="protocol-card" data-protocol-name="reti pooling" data-protocol-type="staking pool">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/reti-pooling.png" alt="Reti Pooling" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">R</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Reti Pooling</h3>
+              <span class="protocol-type">staking pool</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/silo-protocol.html" class="protocol-card" data-protocol-name="silo protocol" data-protocol-type="options vault">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/silo-protocol.png" alt="Silo Protocol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Silo Protocol</h3>
+              <span class="protocol-type">options vault</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/tardly.html" class="protocol-card" data-protocol-name="tardly" data-protocol-type="yield lottery">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/tardly.png" alt="Tardly" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">T</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Tardly</h3>
+              <span class="protocol-type">yield lottery</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/tinyman.html" class="protocol-card" data-protocol-name="tinyman" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/tinyman.png" alt="Tinyman" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">T</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Tinyman</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/ultraswap.html" class="protocol-card" data-protocol-name="ultraswap" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/ultraswap.png" alt="Ultraswap" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">U</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Ultraswap</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/vesta-equity.html" class="protocol-card" data-protocol-name="vesta equity" data-protocol-type="rwa">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/vesta-equity.png" alt="Vesta Equity" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">V</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Vesta Equity</h3>
+              <span class="protocol-type">rwa</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/vestige.html" class="protocol-card" data-protocol-name="vestige" data-protocol-type="launchpad">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/vestige.png" alt="Vestige" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">V</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Vestige</h3>
+              <span class="protocol-type">launchpad</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/xalgo-liquid-staking.html" class="protocol-card" data-protocol-name="xalgo liquid staking" data-protocol-type="liquid staking">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/xalgo-liquid-staking.png" alt="xALGO Liquid Staking" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">X</span>
+            </div>
+            <div class="protocol-info">
+              <h3>xALGO Liquid Staking</h3>
+              <span class="protocol-type">liquid staking</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/xbacked.html" class="protocol-card" data-protocol-name="xbacked" data-protocol-type="cdp">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/xbacked.png" alt="xBacked" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">X</span>
+            </div>
+            <div class="protocol-info">
+              <h3>xBacked</h3>
+              <span class="protocol-type">cdp</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/yieldly.html" class="protocol-card" data-protocol-name="yieldly" data-protocol-type="yield">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/yieldly.png" alt="Yieldly" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">Y</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Yieldly</h3>
+              <span class="protocol-type">yield</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+    </div>
+
+    <div id="noResults" style="display: none; padding: 60px 20px; text-align: center;">
+      <p style="color: var(--color-text-secondary);">No protocols found matching your search.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Contracts Registry. Data updated daily.</p>
+        <a href="https://github.com/llamafolio/contracts-registry" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Search functionality
+    const searchInput = document.getElementById('protocolSearch');
+    const protocolsList = document.getElementById('protocolsList');
+    const noResults = document.getElementById('noResults');
+    const allProtocols = Array.from(document.querySelectorAll('.protocol-card'));
+
+    searchInput.addEventListener('input', (e) => {
+      const searchTerm = e.target.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      allProtocols.forEach(protocol => {
+        const protocolName = protocol.getAttribute('data-protocol-name');
+        const protocolType = protocol.getAttribute('data-protocol-type');
+
+        const matches = searchTerm === '' ||
+          protocolName.includes(searchTerm) ||
+          protocolType.includes(searchTerm);
+
+        if (matches) {
+          protocol.style.display = '';
+          visibleCount++;
+        } else {
+          protocol.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0 && searchTerm !== '') {
+        protocolsList.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        protocolsList.style.display = 'grid';
+        noResults.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

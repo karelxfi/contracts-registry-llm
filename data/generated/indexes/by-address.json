@@ -7,15 +7,15 @@
     "verified": false
   },
   "polygon:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "zkex",
+    "version": "zkex",
     "contract": "main",
     "chain": "polygon",
     "verified": false
   },
   "solana:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "zeus-btcsol",
+    "version": "zeus-btcsol",
     "contract": "main",
     "chain": "solana",
     "verified": false
@@ -77,15 +77,15 @@
     "verified": false
   },
   "bitcoin:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "zeus-network",
+    "version": "zeus-network",
     "contract": "main",
     "chain": "bitcoin",
     "verified": false
   },
   "doge:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "yusan",
+    "version": "yusan",
     "contract": "main",
     "chain": "doge",
     "verified": false
@@ -1134,8 +1134,8 @@
     "verified": true
   },
   "mantle:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "zklink-nova",
+    "version": "zklink-nova",
     "contract": "main",
     "chain": "mantle",
     "verified": false
@@ -1246,8 +1246,8 @@
     "verified": false
   },
   "tron:": {
-    "protocol": "zoomex",
-    "version": "zoomex",
+    "protocol": "zklink-nova",
+    "version": "zklink-nova",
     "contract": "main",
     "chain": "tron",
     "verified": false
@@ -1364,20 +1364,6 @@
     "chain": "bifrost-network",
     "verified": false
   },
-  "hedera:": {
-    "protocol": "tangent",
-    "version": "tangent",
-    "contract": "main",
-    "chain": "hedera",
-    "verified": false
-  },
-  "ronin:": {
-    "protocol": "steer-protocol",
-    "version": "steer-protocol",
-    "contract": "main",
-    "chain": "ronin",
-    "verified": false
-  },
   "mezo:": {
     "protocol": "velar-perps",
     "version": "velar-perps",
@@ -1392,11 +1378,11 @@
     "chain": "flare",
     "verified": false
   },
-  "dydx:": {
-    "protocol": "stride",
-    "version": "stride",
+  "hedera:": {
+    "protocol": "tangent",
+    "version": "tangent",
     "contract": "main",
-    "chain": "dydx",
+    "chain": "hedera",
     "verified": false
   },
   "world-chain:": {
@@ -1425,6 +1411,13 @@
     "version": "yieldfi",
     "contract": "main",
     "chain": "katana",
+    "verified": false
+  },
+  "ronin:": {
+    "protocol": "steer-protocol",
+    "version": "steer-protocol",
+    "contract": "main",
+    "chain": "ronin",
     "verified": false
   },
   "soneium:": {
@@ -2307,6 +2300,13 @@
     "version": "fufuture-contract",
     "contract": "main",
     "chain": "eni",
+    "verified": false
+  },
+  "dydx:": {
+    "protocol": "stride",
+    "version": "stride",
+    "contract": "main",
+    "chain": "dydx",
     "verified": false
   },
   "ethereal:": {

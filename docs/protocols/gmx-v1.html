@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GMX V1 Smart Contract Addresses - DeFi Registry</title>
+  <meta name="description" content="Verified smart contract addresses for GMX V1 across 1 blockchain. Perpetuals protocol contracts and ABIs.">
+  <link rel="canonical" href="https://karelxfi.github.io/contracts-registry-llm/protocols/gmx-v1" />
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Structured Data for LLMs and Search Engines -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GMX V1",
+  "applicationCategory": "Blockchain Protocol",
+  "description": "GMX V1 is a perpetuals protocol deployed across 1 blockchain.",
+  "url": "https://gmx.io",
+  "softwareVersion": "gmx-v1",
+  "author": {
+    "@type": "Organization",
+    "name": "GMX V1"
+  },
+  "codeRepository": "https://github.com/gmx-io/gmx-contracts",
+  "documentation": "https://docs.gmx.io"
+}
+  </script>
+
+  <!-- OpenGraph for social sharing and LLM parsing -->
+  <meta property="og:title" content="GMX V1 - Smart Contract Registry" />
+  <meta property="og:description" content="1 chains, 1 contracts. perpetuals protocol." />
+  <meta property="og:type" content="website" />
+
+  <!-- Protocol metadata for easy parsing -->
+  <meta name="protocol:id" content="gmx-v1" />
+  <meta name="protocol:name" content="GMX V1" />
+  <meta name="protocol:type" content="perpetuals" />
+  <meta name="protocol:chains" content="1" />
+  <meta name="protocol:contracts" content="1" />
+  <meta name="protocol:status" content="complete" />
+  
+  <meta name="protocol:website" content="https://gmx.io" />
+  <meta name="protocol:github" content="https://github.com/gmx-io/gmx-contracts" />
+  <meta name="protocol:documentation" content="https://docs.gmx.io" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Machine-readable data section for LLMs (hidden from users) -->
+  <script type="application/json" id="protocol-data" data-protocol-id="gmx-v1">
+{
+  "id": "gmx-v1",
+  "name": "GMX V1",
+  "type": "perpetuals",
+  "status": "complete",
+  "website": "https://gmx.io",
+  "github": "https://github.com/gmx-io/gmx-contracts",
+  "docs": "https://docs.gmx.io",
+  "tags": [
+    "perpetuals",
+    "derivatives",
+    "leverage-trading",
+    "decentralized-exchange"
+  ],
+  "contracts": {
+    "vault": {
+      "name": "GMX Vault",
+      "type": "core",
+      "description": "Main vault contract handling position management, swaps, and liquidations",
+      "proxy": false,
+      "keyEvents": [
+        {
+          "name": "IncreasePosition",
+          "description": "Emitted when a leveraged position is opened or increased"
+        },
+        {
+          "name": "DecreasePosition",
+          "description": "Emitted when a leveraged position is closed or decreased"
+        },
+        {
+          "name": "LiquidatePosition",
+          "description": "Emitted when a position is liquidated"
+        },
+        {
+          "name": "ClosePosition",
+          "description": "Emitted when a position is fully closed"
+        }
+      ],
+      "useCases": [
+        "Track perpetual position opens/closes",
+        "Monitor liquidation events",
+        "Analyze leverage trading volume",
+        "Calculate position profitability"
+      ],
+      "github": "https://github.com/gmx-io/gmx-contracts"
+    }
+  },
+  "deployments": {
+    "arbitrum-one": {
+      "chain": "arbitrum-one",
+      "chainId": 42161,
+      "addresses": {
+        "vault": "0x489ee077994B6658eAfA855C308275EAd8097C4A"
+      },
+      "deploymentBlocks": {
+        "vault": 227091
+      },
+      "verified": {
+        "vault": true
+      },
+      "source": "github",
+      "sourceUrl": "https://github.com/gmx-io/gmx-synthetics/blob/updates/docs/arbitrum-deployments.md",
+      "updated": "2025-01-31"
+    }
+  }
+}
+  </script>
+
+  <!-- Plain text summary for easy LLM parsing -->
+  <div id="llm-summary" style="display: none;" data-purpose="llm-parsing">
+    <h1>Protocol: GMX V1</h1>
+    <p>ID: gmx-v1</p>
+    <p>Type: perpetuals</p>
+    <p>Status: complete</p>
+    <p>Chains: 1</p>
+    <p>Total Contracts: 1</p>
+    <p>Website: https://gmx.io</p>
+    <p>GitHub: https://github.com/gmx-io/gmx-contracts</p>
+    <p>Documentation: https://docs.gmx.io</p>
+    
+
+    <h2>Contract Addresses by Chain:</h2>
+    <pre>arbitrum-one:
+  - vault: 0x489ee077994B6658eAfA855C308275EAd8097C4A</pre>
+
+    <h2>API Endpoint:</h2>
+    <p>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/gmx-v1.json</p>
+  </div>
+
+  <div class="protocol-page" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a> / <a href="/protocols">Protocols</a> / <span itemprop="name">GMX V1</span>
+      </div>
+
+      <header class="protocol-hero">
+        <div class="protocol-title-row">
+          <div class="protocol-title-section">
+            <h1 itemprop="name" data-protocol-id="gmx-v1">GMX V1</h1>
+            <span class="protocol-type-badge" data-type="perpetuals">perpetuals</span>
+          </div>
+          
+          <div class="protocol-links">
+            <a href="https://gmx.io" class="external-link" target="_blank" rel="noopener" itemprop="url" data-link-type="website">Website ↗</a>
+            <a href="https://github.com/gmx-io/gmx-contracts" class="external-link" target="_blank" rel="noopener" itemprop="codeRepository" data-link-type="github">GitHub ↗</a>
+            <a href="https://docs.gmx.io" class="external-link" target="_blank" rel="noopener" itemprop="documentation" data-link-type="docs">Docs ↗</a>
+          </div>
+          
+        </div>
+      </header>
+
+      <div class="deployments-section">
+        <div class="section-header">
+          <div class="section-header-content">
+            <h2>Contract Deployments</h2>
+            <p class="section-description">Smart contract addresses for GMX V1 across 1 blockchain.</p>
+          </div>
+          <a
+            href="../api/v1/protocol/gmx-v1.json"
+            download="gmx-v1.json"
+            class="download-json-btn"
+            title="Download all contract data as JSON"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download JSON
+          </a>
+        </div>
+
+        <div class="table-wrapper">
+          <div class="table-controls">
+            <div class="filter-controls">
+              <input
+                type="text"
+                id="tableFilter"
+                placeholder="Filter by chain, chain ID, contract name, or address..."
+                class="filter-input"
+              />
+              <div class="filter-stats" id="filterStats">
+                Showing <span id="visibleRows">0</span> of <span id="totalRows">0</span> deployments
+              </div>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="deployments-table" id="deploymentsTable" data-total-chains="1">
+              <thead>
+                <tr>
+                  <th data-column="chain">
+                    <div class="th-content">
+                      Chain
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="chainId">
+                    <div class="th-content">
+                      Chain ID
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="contractName">
+                    <div class="th-content">
+                      Contract Name
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="address">
+                    <div class="th-content">
+                      Address
+                      <span class="sort-indicator"></span>
+                    </div>
+                  </th>
+                  <th data-column="source">
+                    <div class="th-content">
+                      Source
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Deployments will be loaded from API -->
+              </tbody>
+            </table>
+            <div id="noResults" class="no-results" style="display: none;">
+              <div class="no-results-content">
+                <span class="no-results-icon">🔍</span>
+                <span class="no-results-text">No deployments found matching your filter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="api-section">
+        <h2>API Access</h2>
+        <p class="section-description">Programmatic access to all GMX V1 contract addresses and deployment information.</p>
+        <div class="code-block">
+          <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/gmx-v1.json</code></pre>
+          <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/gmx-v1.json')">Copy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div>© 2025 DeFi Registry. Open source under MIT License.</div>
+        <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let copiedAddress = null;
+    let sortState = { column: 'chain', direction: 'asc' };
+    let allRows = [];
+
+    // Load deployment data from API
+    fetch('../api/v1/protocol/gmx-v1.json')
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.querySelector('#deploymentsTable tbody');
+        if (!tbody) return;
+
+        // Flatten deployments into table rows (no rowspan for better sorting)
+        Object.entries(data.deployments || {}).forEach(([chainId, deployment]) => {
+          const addresses = Object.entries(deployment.addresses || {});
+
+          addresses.forEach(([contractName, address]) => {
+            const row = document.createElement('tr');
+            row.setAttribute('data-chain', chainId.toLowerCase());
+            row.setAttribute('data-chain-id', String(deployment.chainId || ''));
+            row.setAttribute('data-contract-name', contractName.toLowerCase());
+            row.setAttribute('data-contract-address', address.toLowerCase());
+
+            // Show chain info on every row for better sorting
+            row.innerHTML = `
+              <td class="chain-cell">
+                ${chainId}
+              </td>
+              <td class="chain-id-cell">${deployment.chainId || 'N/A'}</td>
+              <td class="contract-name-cell">${contractName}</td>
+              <td class="address-cell">
+                <div class="address-with-copy">
+                  <code>${address}</code>
+                  <button class="copy-btn-inline" onclick="copyAddress('${address}', this)" title="Copy address">
+                    <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </button>
+                </div>
+              </td>
+              <td class="source-cell">
+                ${deployment.sourceUrl ? `<a href="${deployment.sourceUrl}" class="source-link-small" target="_blank" rel="noopener">View Source ↗</a>` : '<span class="no-source">—</span>'}
+              </td>
+            `;
+
+            tbody.appendChild(row);
+            allRows.push(row);
+          });
+        });
+
+        // After loading, update stats and initialize features
+        updateFilterStats();
+        updateLLMSummary(data);
+        initTableSort();
+        initTableFilter();
+      })
+      .catch(err => console.error('Failed to load deployments:', err));
+
+    // Update the hidden LLM summary section with full contract data
+    function updateLLMSummary(data) {
+      const summaryDiv = document.getElementById('llm-summary');
+      if (!summaryDiv) return;
+
+      const contractsList = Object.entries(data.deployments || {}).map(([chain, deployment]) => {
+        const addresses = Object.entries(deployment.addresses || {})
+          .map(([name, address]) => `  - ${name}: ${address}`)
+          .join('\n');
+        return `${chain}:\n${addresses}`;
+      }).join('\n\n');
+
+      const contractsSection = summaryDiv.querySelector('pre');
+      if (contractsSection) {
+        contractsSection.textContent = contractsList;
+      }
+    }
+
+    // Copy to clipboard function with visual feedback
+    function copyAddress(text, button) {
+      // Try modern clipboard API first
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text)
+          .then(() => {
+            showCopyFeedback(button);
+          })
+          .catch(err => {
+            console.error('Clipboard API failed:', err);
+            fallbackCopy(text, button);
+          });
+      } else {
+        // Fallback for older browsers or non-secure contexts
+        fallbackCopy(text, button);
+      }
+    }
+
+    function showCopyFeedback(button) {
+      const copyIcon = button.querySelector('.copy-icon');
+      const checkIcon = button.querySelector('.check-icon');
+
+      if (copyIcon && checkIcon) {
+        copyIcon.style.display = 'none';
+        checkIcon.style.display = 'block';
+        button.classList.add('copied');
+
+        setTimeout(() => {
+          copyIcon.style.display = 'block';
+          checkIcon.style.display = 'none';
+          button.classList.remove('copied');
+        }, 2000);
+      }
+    }
+
+    function fallbackCopy(text, button) {
+      // Create temporary textarea
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.top = '-9999px';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+
+      try {
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // For mobile devices
+
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showCopyFeedback(button);
+        } else {
+          throw new Error('execCommand failed');
+        }
+      } catch (err) {
+        console.error('Fallback copy failed:', err);
+        // Show address in alert as last resort
+        prompt('Copy this address:', text);
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    // Keep old function for API section compatibility
+    function copyToClipboard(text) {
+      const btn = event.target;
+      const originalText = btn.textContent;
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+          btn.textContent = '✓ Copied!';
+          btn.style.background = '#00d084';
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = '';
+          }, 2000);
+        }).catch(err => {
+          console.error('Clipboard API failed:', err);
+        });
+      }
+    }
+
+    // Filter table functionality
+    function initTableFilter() {
+      const filterInput = document.getElementById('tableFilter');
+      if (!filterInput) return;
+
+      filterInput.addEventListener('input', (e) => {
+        const filterValue = e.target.value.toLowerCase().trim();
+        filterTable(filterValue);
+      });
+    }
+
+    function filterTable(filterValue) {
+      const tbody = document.querySelector('#deploymentsTable tbody');
+      const noResults = document.getElementById('noResults');
+      if (!tbody) return;
+
+      let visibleCount = 0;
+
+      allRows.forEach(row => {
+        const chain = row.getAttribute('data-chain') || '';
+        const chainId = row.getAttribute('data-chain-id') || '';
+        const contractName = row.getAttribute('data-contract-name') || '';
+        const address = row.getAttribute('data-contract-address') || '';
+
+        const matches = filterValue === '' ||
+          chain.includes(filterValue) ||
+          chainId.includes(filterValue) ||
+          contractName.includes(filterValue) ||
+          address.includes(filterValue);
+
+        if (matches) {
+          row.style.display = '';
+          visibleCount++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+
+      // Show/hide no results message
+      if (noResults) {
+        if (visibleCount === 0 && filterValue !== '') {
+          noResults.style.display = 'flex';
+          tbody.style.display = 'none';
+        } else {
+          noResults.style.display = 'none';
+          tbody.style.display = '';
+        }
+      }
+
+      updateFilterStats(visibleCount);
+    }
+
+    function updateFilterStats(visibleCount) {
+      const visibleEl = document.getElementById('visibleRows');
+      const totalEl = document.getElementById('totalRows');
+
+      if (visibleEl && totalEl) {
+        const visible = visibleCount !== undefined ? visibleCount : allRows.length;
+        visibleEl.textContent = visible;
+        totalEl.textContent = allRows.length;
+      }
+    }
+
+    // Add table sorting functionality
+    function initTableSort() {
+      const table = document.getElementById('deploymentsTable');
+      if (!table) return;
+
+      const headers = table.querySelectorAll('th');
+      const tbody = table.querySelector('tbody');
+
+      headers.forEach((header, index) => {
+        const column = header.getAttribute('data-column');
+        if (!column) return; // Skip headers without data-column (like Source)
+
+        header.addEventListener('click', () => {
+          const currentDirection = sortState.column === column && sortState.direction === 'asc' ? 'desc' : 'asc';
+          sortState.column = column;
+          sortState.direction = currentDirection;
+
+          // Sort the rows
+          sortTable(column, currentDirection);
+
+          // Update sort indicators
+          headers.forEach(h => {
+            const indicator = h.querySelector('.sort-indicator');
+            if (indicator) {
+              indicator.textContent = '';
+              indicator.className = 'sort-indicator';
+            }
+          });
+
+          const indicator = header.querySelector('.sort-indicator');
+          if (indicator) {
+            indicator.textContent = currentDirection === 'asc' ? ' ↑' : ' ↓';
+            indicator.className = 'sort-indicator active';
+          }
+        });
+      });
+
+      // Initial sort by chain name
+      sortTable('chain', 'asc');
+    }
+
+    function sortTable(column, direction) {
+      const tbody = document.querySelector('#deploymentsTable tbody');
+      if (!tbody) return;
+
+      const rows = Array.from(allRows);
+
+      rows.sort((a, b) => {
+        let aVal, bVal;
+
+        switch (column) {
+          case 'chain':
+            aVal = a.getAttribute('data-chain') || '';
+            bVal = b.getAttribute('data-chain') || '';
+            break;
+          case 'chainId':
+            aVal = parseInt(a.getAttribute('data-chain-id')) || 0;
+            bVal = parseInt(b.getAttribute('data-chain-id')) || 0;
+            break;
+          case 'contractName':
+            aVal = a.getAttribute('data-contract-name') || '';
+            bVal = b.getAttribute('data-contract-name') || '';
+            break;
+          case 'address':
+            aVal = a.getAttribute('data-contract-address') || '';
+            bVal = b.getAttribute('data-contract-address') || '';
+            break;
+          default:
+            return 0;
+        }
+
+        // Numeric comparison for chain IDs
+        if (column === 'chainId') {
+          return direction === 'asc' ? aVal - bVal : bVal - aVal;
+        }
+
+        // String comparison
+        if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+        if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+        return 0;
+      });
+
+      // Clear and re-append rows in sorted order
+      tbody.innerHTML = '';
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+    // Initialize sorting after data loads
+    document.addEventListener('DOMContentLoaded', initTableSort);
+  </script>
+</body>
+</html>

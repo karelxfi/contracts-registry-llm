@@ -143,7 +143,8 @@ protocolDirs.forEach((protocolDir) => {
       const protocolData = JSON.parse(
         fs.readFileSync(path.join(protocolPath, file), "utf8"),
       );
-      const protocolId = file.replace(".json", "");
+      // Use the ID from the protocol data, not the filename
+      const protocolId = protocolData.id || file.replace(".json", "");
 
       // Create endpoint for each protocol
       writeJSON(`v1/protocol/${protocolId}.json`, protocolData);

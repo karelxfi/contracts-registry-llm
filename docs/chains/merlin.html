@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merlin Protocols - Contracts Registry</title>
+  <meta name="description" content="Browse 26 DeFi protocols deployed on Merlin blockchain with verified smart contract addresses.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://contracts.llamarpc.com/chains/merlin.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Merlin Protocols - Contracts Registry">
+  <meta property="og:description" content="Browse 26 DeFi protocols deployed on Merlin blockchain.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contracts.llamarpc.com/chains/merlin.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Merlin Protocols">
+  <meta name="twitter:description" content="Browse 26 DeFi protocols on Merlin.">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link active">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container listing-page">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> / <a href="/chains">Chains</a> / Merlin
+    </nav>
+
+    <div class="protocol-header">
+      <div>
+        <h1>Merlin</h1>
+        <p class="subtitle">26 protocols deployed on this chain</p>
+        
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="protocolSearch"
+        placeholder="Search protocols by name or type..."
+        aria-label="Search protocols"
+      >
+    </div>
+
+    <div class="protocol-grid" id="protocolsList">
+      
+        <a href="../protocols/avalon-finance.html" class="protocol-card" data-protocol-name="avalon finance" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/avalon-finance.png" alt="Avalon Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Avalon Finance</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/bedrock-unibtc.html" class="protocol-card" data-protocol-name="bedrock unibtc" data-protocol-type="anchor btc">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/bedrock-unibtc.png" alt="Bedrock uniBTC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Bedrock uniBTC</h3>
+              <span class="protocol-type">anchor btc</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/bitgenie-amm.html" class="protocol-card" data-protocol-name="bitgenie amm" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/bitgenie-amm.png" alt="BitGenie AMM" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>BitGenie AMM</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/bitgenie-farm.html" class="protocol-card" data-protocol-name="bitgenie farm" data-protocol-type="farm">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/bitgenie-farm.png" alt="BitGenie Farm" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>BitGenie Farm</h3>
+              <span class="protocol-type">farm</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/bitmap-game.html" class="protocol-card" data-protocol-name="bitmap game" data-protocol-type="gaming">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/bitmap-game.png" alt="Bitmap Game" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Bitmap Game</h3>
+              <span class="protocol-type">gaming</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/brotocol.html" class="protocol-card" data-protocol-name="brotocol" data-protocol-type="bridge aggregator">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/brotocol.png" alt="Brotocol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Brotocol</h3>
+              <span class="protocol-type">bridge aggregator</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/butter-network.html" class="protocol-card" data-protocol-name="butter network" data-protocol-type="cross chain bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/butter-network.png" alt="Butter Network" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Butter Network</h3>
+              <span class="protocol-type">cross chain bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/desyn-basis-trading.html" class="protocol-card" data-protocol-name="desyn basis trading" data-protocol-type="basis trading">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/desyn-basis-trading.png" alt="DeSyn Basis Trading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>DeSyn Basis Trading</h3>
+              <span class="protocol-type">basis trading</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/desyn-liquid-strategy.html" class="protocol-card" data-protocol-name="desyn liquid strategy" data-protocol-type="yield aggregator">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/desyn-liquid-strategy.png" alt="DeSyn Liquid Strategy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>DeSyn Liquid Strategy</h3>
+              <span class="protocol-type">yield aggregator</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/desyn-safe.html" class="protocol-card" data-protocol-name="desyn safe" data-protocol-type="farm">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/desyn-safe.png" alt="DeSyn Safe" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>DeSyn Safe</h3>
+              <span class="protocol-type">farm</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/dyorswap-amm.html" class="protocol-card" data-protocol-name="dyorswap amm" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/dyorswap-amm.png" alt="DyorSwap AMM" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="protocol-info">
+              <h3>DyorSwap AMM</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/free-protocol.html" class="protocol-card" data-protocol-name="free protocol" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/free-protocol.png" alt="Free Protocol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">F</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Free Protocol</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/influpia.html" class="protocol-card" data-protocol-name="influpia" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/influpia.png" alt="Influpia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">I</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Influpia</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/mage-finance.html" class="protocol-card" data-protocol-name="mage finance" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/mage-finance.png" alt="Mage Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Mage Finance</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/merchant-finance.html" class="protocol-card" data-protocol-name="merchant finance" data-protocol-type="lending">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/merchant-finance.png" alt="Merchant Finance" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Merchant Finance</h3>
+              <span class="protocol-type">lending</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/merlinswap.html" class="protocol-card" data-protocol-name="merlinswap" data-protocol-type="dexs">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/merlinswap.png" alt="MerlinSwap" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>MerlinSwap</h3>
+              <span class="protocol-type">dexs</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/meson.html" class="protocol-card" data-protocol-name="meson" data-protocol-type="cross chain bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/meson.png" alt="Meson" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Meson</h3>
+              <span class="protocol-type">cross chain bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/nervebridge.html" class="protocol-card" data-protocol-name="nervebridge" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/nervebridge.png" alt="NerveBridge" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">N</span>
+            </div>
+            <div class="protocol-info">
+              <h3>NerveBridge</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/pell-network.html" class="protocol-card" data-protocol-name="pell network" data-protocol-type="restaking">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/pell-network.png" alt="Pell Network" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">P</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Pell Network</h3>
+              <span class="protocol-type">restaking</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/solv-basis-trading.html" class="protocol-card" data-protocol-name="solv basis trading" data-protocol-type="basis trading">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/solv-basis-trading.png" alt="Solv Basis Trading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Solv Basis Trading</h3>
+              <span class="protocol-type">basis trading</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/solv-others.html" class="protocol-card" data-protocol-name="solv others" data-protocol-type="anchor btc">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/solv-others.png" alt="Solv Others" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Solv Others</h3>
+              <span class="protocol-type">anchor btc</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/solvbtc.html" class="protocol-card" data-protocol-name="solvbtc" data-protocol-type="bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/solvbtc.png" alt="SolvBTC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>SolvBTC</h3>
+              <span class="protocol-type">bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/surf-protocol.html" class="protocol-card" data-protocol-name="surf protocol" data-protocol-type="derivatives">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/surf-protocol.png" alt="Surf Protocol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Surf Protocol</h3>
+              <span class="protocol-type">derivatives</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/symbiosis.html" class="protocol-card" data-protocol-name="symbiosis" data-protocol-type="cross chain bridge">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/symbiosis.png" alt="Symbiosis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Symbiosis</h3>
+              <span class="protocol-type">cross chain bridge</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/whales-market.html" class="protocol-card" data-protocol-name="whales market" data-protocol-type="otc marketplace">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/whales-market.png" alt="Whales Market" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">W</span>
+            </div>
+            <div class="protocol-info">
+              <h3>Whales Market</h3>
+              <span class="protocol-type">otc marketplace</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+        <a href="../protocols/zklink-nova.html" class="protocol-card" data-protocol-name="zklink nova" data-protocol-type="chain">
+          <div class="protocol-card-header">
+            <div class="protocol-icon">
+              <img src="../logos/zklink-nova.png" alt="zkLink Nova" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">Z</span>
+            </div>
+            <div class="protocol-info">
+              <h3>zkLink Nova</h3>
+              <span class="protocol-type">chain</span>
+            </div>
+          </div>
+          <div class="protocol-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <span>1 contract</span>
+          </div>
+        </a>
+      
+    </div>
+
+    <div id="noResults" style="display: none; padding: 60px 20px; text-align: center;">
+      <p style="color: var(--color-text-secondary);">No protocols found matching your search.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Contracts Registry. Data updated daily.</p>
+        <a href="https://github.com/llamafolio/contracts-registry" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Search functionality
+    const searchInput = document.getElementById('protocolSearch');
+    const protocolsList = document.getElementById('protocolsList');
+    const noResults = document.getElementById('noResults');
+    const allProtocols = Array.from(document.querySelectorAll('.protocol-card'));
+
+    searchInput.addEventListener('input', (e) => {
+      const searchTerm = e.target.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      allProtocols.forEach(protocol => {
+        const protocolName = protocol.getAttribute('data-protocol-name');
+        const protocolType = protocol.getAttribute('data-protocol-type');
+
+        const matches = searchTerm === '' ||
+          protocolName.includes(searchTerm) ||
+          protocolType.includes(searchTerm);
+
+        if (matches) {
+          protocol.style.display = '';
+          visibleCount++;
+        } else {
+          protocol.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0 && searchTerm !== '') {
+        protocolsList.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        protocolsList.style.display = 'grid';
+        noResults.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

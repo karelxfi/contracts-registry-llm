@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Chains - Contracts Registry</title>
+  <meta name="description" content="Browse 94 blockchain chains with their deployed protocols and smart contracts.">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="canonical" href="https://contracts.llamarpc.com/chains/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blockchain Chains - Contracts Registry">
+  <meta property="og:description" content="Browse 94 blockchain chains with their deployed protocols and smart contracts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contracts.llamarpc.com/chains/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blockchain Chains - Contracts Registry">
+  <meta name="twitter:description" content="Browse 94 blockchain chains with their deployed protocols and smart contracts.">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link active">Chains</a>
+        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container listing-page">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> / Chains
+    </nav>
+
+    <h1>Blockchain Chains</h1>
+    <p class="subtitle">Browse 94 blockchains and their deployed protocols</p>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="chainSearch"
+        placeholder="Search chains by name or chain ID..."
+        aria-label="Search chains"
+      >
+    </div>
+
+    <div class="chains-grid" id="chainsList">
+      
+        <a href="ethereum.html" class="chain-card" data-chain-name="ethereum" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/ethereum.png" alt="Ethereum" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">E</span>
+            </div>
+            <div class="chain-info">
+              <h3>Ethereum</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1594 protocols</span>
+          </div>
+        </a>
+      
+        <a href="arbitrum.html" class="chain-card" data-chain-name="arbitrum" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/arbitrum.png" alt="Arbitrum" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Arbitrum</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>909 protocols</span>
+          </div>
+        </a>
+      
+        <a href="base.html" class="chain-card" data-chain-name="base" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/base.png" alt="Base" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Base</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>681 protocols</span>
+          </div>
+        </a>
+      
+        <a href="polygon.html" class="chain-card" data-chain-name="polygon" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/polygon.png" alt="Polygon" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">P</span>
+            </div>
+            <div class="chain-info">
+              <h3>Polygon</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>654 protocols</span>
+          </div>
+        </a>
+      
+        <a href="avalanche.html" class="chain-card" data-chain-name="avalanche" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/avalanche.png" alt="Avalanche" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Avalanche</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>494 protocols</span>
+          </div>
+        </a>
+      
+        <a href="solana.html" class="chain-card" data-chain-name="solana" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/solana.png" alt="Solana" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Solana</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>305 protocols</span>
+          </div>
+        </a>
+      
+        <a href="sonic.html" class="chain-card" data-chain-name="sonic" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/sonic.png" alt="Sonic" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Sonic</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>162 protocols</span>
+          </div>
+        </a>
+      
+        <a href="blast.html" class="chain-card" data-chain-name="blast" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/blast.png" alt="Blast" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Blast</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>155 protocols</span>
+          </div>
+        </a>
+      
+        <a href="linea.html" class="chain-card" data-chain-name="linea" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/linea.png" alt="Linea" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">L</span>
+            </div>
+            <div class="chain-info">
+              <h3>Linea</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>154 protocols</span>
+          </div>
+        </a>
+      
+        <a href="kava.html" class="chain-card" data-chain-name="kava" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/kava.png" alt="Kava" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">K</span>
+            </div>
+            <div class="chain-info">
+              <h3>Kava</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>145 protocols</span>
+          </div>
+        </a>
+      
+        <a href="cronos.html" class="chain-card" data-chain-name="cronos" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/cronos.png" alt="Cronos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Cronos</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>132 protocols</span>
+          </div>
+        </a>
+      
+        <a href="mantle.html" class="chain-card" data-chain-name="mantle" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/mantle.png" alt="Mantle" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Mantle</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>130 protocols</span>
+          </div>
+        </a>
+      
+        <a href="scroll.html" class="chain-card" data-chain-name="scroll" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/scroll.png" alt="Scroll" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Scroll</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>128 protocols</span>
+          </div>
+        </a>
+      
+        <a href="hyperliquid-l1.html" class="chain-card" data-chain-name="hyperliquid l1" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>H</span>
+            </div>
+            <div class="chain-info">
+              <h3>Hyperliquid L1</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>117 protocols</span>
+          </div>
+        </a>
+      
+        <a href="berachain.html" class="chain-card" data-chain-name="berachain" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/berachain.png" alt="Berachain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Berachain</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>94 protocols</span>
+          </div>
+        </a>
+      
+        <a href="sui.html" class="chain-card" data-chain-name="sui" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/sui.png" alt="Sui" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Sui</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>93 protocols</span>
+          </div>
+        </a>
+      
+        <a href="bitcoin.html" class="chain-card" data-chain-name="bitcoin" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/bitcoin.png" alt="Bitcoin" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bitcoin</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>83 protocols</span>
+          </div>
+        </a>
+      
+        <a href="monad.html" class="chain-card" data-chain-name="monad" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Monad</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>77 protocols</span>
+          </div>
+        </a>
+      
+        <a href="aptos.html" class="chain-card" data-chain-name="aptos" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/aptos.png" alt="Aptos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Aptos</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>75 protocols</span>
+          </div>
+        </a>
+      
+        <a href="celo.html" class="chain-card" data-chain-name="celo" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/celo.png" alt="Celo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Celo</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>72 protocols</span>
+          </div>
+        </a>
+      
+        <a href="manta.html" class="chain-card" data-chain-name="manta" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/manta.png" alt="Manta" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Manta</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>69 protocols</span>
+          </div>
+        </a>
+      
+        <a href="core.html" class="chain-card" data-chain-name="core" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/core.png" alt="Core" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Core</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>68 protocols</span>
+          </div>
+        </a>
+      
+        <a href="sei.html" class="chain-card" data-chain-name="sei" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/sei.png" alt="Sei" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Sei</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>66 protocols</span>
+          </div>
+        </a>
+      
+        <a href="ton.html" class="chain-card" data-chain-name="ton" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/ton.png" alt="Ton" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">T</span>
+            </div>
+            <div class="chain-info">
+              <h3>Ton</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>66 protocols</span>
+          </div>
+        </a>
+      
+        <a href="metis.html" class="chain-card" data-chain-name="metis" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Metis</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>63 protocols</span>
+          </div>
+        </a>
+      
+        <a href="cardano.html" class="chain-card" data-chain-name="cardano" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/cardano.png" alt="Cardano" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Cardano</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>57 protocols</span>
+          </div>
+        </a>
+      
+        <a href="unichain.html" class="chain-card" data-chain-name="unichain" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/unichain.png" alt="Unichain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">U</span>
+            </div>
+            <div class="chain-info">
+              <h3>Unichain</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>57 protocols</span>
+          </div>
+        </a>
+      
+        <a href="plasma.html" class="chain-card" data-chain-name="plasma" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>P</span>
+            </div>
+            <div class="chain-info">
+              <h3>Plasma</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>54 protocols</span>
+          </div>
+        </a>
+      
+        <a href="x-layer.html" class="chain-card" data-chain-name="x layer" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/x-layer.png" alt="X Layer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">X</span>
+            </div>
+            <div class="chain-info">
+              <h3>X Layer</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>47 protocols</span>
+          </div>
+        </a>
+      
+        <a href="plume-mainnet.html" class="chain-card" data-chain-name="plume mainnet" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>P</span>
+            </div>
+            <div class="chain-info">
+              <h3>Plume Mainnet</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>46 protocols</span>
+          </div>
+        </a>
+      
+        <a href="algorand.html" class="chain-card" data-chain-name="algorand" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/algorand.png" alt="Algorand" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Algorand</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>40 protocols</span>
+          </div>
+        </a>
+      
+        <a href="starknet.html" class="chain-card" data-chain-name="starknet" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/starknet.png" alt="Starknet" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Starknet</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>40 protocols</span>
+          </div>
+        </a>
+      
+        <a href="tron.html" class="chain-card" data-chain-name="tron" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/tron.png" alt="Tron" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">T</span>
+            </div>
+            <div class="chain-info">
+              <h3>Tron</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>40 protocols</span>
+          </div>
+        </a>
+      
+        <a href="fraxtal.html" class="chain-card" data-chain-name="fraxtal" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/fraxtal.png" alt="Fraxtal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">F</span>
+            </div>
+            <div class="chain-info">
+              <h3>Fraxtal</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>36 protocols</span>
+          </div>
+        </a>
+      
+        <a href="near.html" class="chain-card" data-chain-name="near" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/near.png" alt="Near" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">N</span>
+            </div>
+            <div class="chain-info">
+              <h3>Near</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>35 protocols</span>
+          </div>
+        </a>
+      
+        <a href="flare.html" class="chain-card" data-chain-name="flare" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>F</span>
+            </div>
+            <div class="chain-info">
+              <h3>Flare</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>31 protocols</span>
+          </div>
+        </a>
+      
+        <a href="injective.html" class="chain-card" data-chain-name="injective" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/injective.png" alt="Injective" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">I</span>
+            </div>
+            <div class="chain-info">
+              <h3>Injective</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>30 protocols</span>
+          </div>
+        </a>
+      
+        <a href="bob.html" class="chain-card" data-chain-name="bob" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/bob.png" alt="Bob" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bob</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>29 protocols</span>
+          </div>
+        </a>
+      
+        <a href="soneium.html" class="chain-card" data-chain-name="soneium" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Soneium</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>29 protocols</span>
+          </div>
+        </a>
+      
+        <a href="merlin.html" class="chain-card" data-chain-name="merlin" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/merlin.png" alt="Merlin" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Merlin</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>26 protocols</span>
+          </div>
+        </a>
+      
+        <a href="world-chain.html" class="chain-card" data-chain-name="world chain" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/world-chain.png" alt="World Chain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">W</span>
+            </div>
+            <div class="chain-info">
+              <h3>World Chain</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>24 protocols</span>
+          </div>
+        </a>
+      
+        <a href="abstract.html" class="chain-card" data-chain-name="abstract" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/abstract.png" alt="Abstract" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Abstract</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>23 protocols</span>
+          </div>
+        </a>
+      
+        <a href="xdc.html" class="chain-card" data-chain-name="xdc" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>X</span>
+            </div>
+            <div class="chain-info">
+              <h3>Xdc</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>23 protocols</span>
+          </div>
+        </a>
+      
+        <a href="katana.html" class="chain-card" data-chain-name="katana" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>K</span>
+            </div>
+            <div class="chain-info">
+              <h3>Katana</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>22 protocols</span>
+          </div>
+        </a>
+      
+        <a href="neutron.html" class="chain-card" data-chain-name="neutron" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/neutron.png" alt="Neutron" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">N</span>
+            </div>
+            <div class="chain-info">
+              <h3>Neutron</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>22 protocols</span>
+          </div>
+        </a>
+      
+        <a href="hedera.html" class="chain-card" data-chain-name="hedera" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/hedera.png" alt="Hedera" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">H</span>
+            </div>
+            <div class="chain-info">
+              <h3>Hedera</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>21 protocols</span>
+          </div>
+        </a>
+      
+        <a href="ink.html" class="chain-card" data-chain-name="ink" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>I</span>
+            </div>
+            <div class="chain-info">
+              <h3>Ink</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>21 protocols</span>
+          </div>
+        </a>
+      
+        <a href="stellar.html" class="chain-card" data-chain-name="stellar" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/stellar.png" alt="Stellar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Stellar</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>21 protocols</span>
+          </div>
+        </a>
+      
+        <a href="tezos.html" class="chain-card" data-chain-name="tezos" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/tezos.png" alt="Tezos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">T</span>
+            </div>
+            <div class="chain-info">
+              <h3>Tezos</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>20 protocols</span>
+          </div>
+        </a>
+      
+        <a href="flow.html" class="chain-card" data-chain-name="flow" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/flow.png" alt="Flow" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">F</span>
+            </div>
+            <div class="chain-info">
+              <h3>Flow</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>19 protocols</span>
+          </div>
+        </a>
+      
+        <a href="etherlink.html" class="chain-card" data-chain-name="etherlink" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>E</span>
+            </div>
+            <div class="chain-info">
+              <h3>Etherlink</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>18 protocols</span>
+          </div>
+        </a>
+      
+        <a href="osmosis.html" class="chain-card" data-chain-name="osmosis" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/osmosis.png" alt="Osmosis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">O</span>
+            </div>
+            <div class="chain-info">
+              <h3>Osmosis</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>18 protocols</span>
+          </div>
+        </a>
+      
+        <a href="icp.html" class="chain-card" data-chain-name="icp" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/icp.png" alt="Icp" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">I</span>
+            </div>
+            <div class="chain-info">
+              <h3>Icp</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>15 protocols</span>
+          </div>
+        </a>
+      
+        <a href="stacks.html" class="chain-card" data-chain-name="stacks" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/stacks.png" alt="Stacks" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Stacks</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>15 protocols</span>
+          </div>
+        </a>
+      
+        <a href="waves.html" class="chain-card" data-chain-name="waves" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/waves.png" alt="Waves" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">W</span>
+            </div>
+            <div class="chain-info">
+              <h3>Waves</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>11 protocols</span>
+          </div>
+        </a>
+      
+        <a href="doge.html" class="chain-card" data-chain-name="doge" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/doge.png" alt="Doge" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="chain-info">
+              <h3>Doge</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>10 protocols</span>
+          </div>
+        </a>
+      
+        <a href="mixin.html" class="chain-card" data-chain-name="mixin" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Mixin</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>10 protocols</span>
+          </div>
+        </a>
+      
+        <a href="ronin.html" class="chain-card" data-chain-name="ronin" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/ronin.png" alt="Ronin" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">R</span>
+            </div>
+            <div class="chain-info">
+              <h3>Ronin</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>10 protocols</span>
+          </div>
+        </a>
+      
+        <a href="movement.html" class="chain-card" data-chain-name="movement" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Movement</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>9 protocols</span>
+          </div>
+        </a>
+      
+        <a href="megaeth.html" class="chain-card" data-chain-name="megaeth" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Megaeth</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>8 protocols</span>
+          </div>
+        </a>
+      
+        <a href="saga.html" class="chain-card" data-chain-name="saga" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Saga</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>6 protocols</span>
+          </div>
+        </a>
+      
+        <a href="bifrost-network.html" class="chain-card" data-chain-name="bifrost network" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bifrost Network</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>5 protocols</span>
+          </div>
+        </a>
+      
+        <a href="immutable-zkevm.html" class="chain-card" data-chain-name="immutable zkevm" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/immutable-zkevm.png" alt="Immutable Zkevm" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">I</span>
+            </div>
+            <div class="chain-info">
+              <h3>Immutable Zkevm</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>5 protocols</span>
+          </div>
+        </a>
+      
+        <a href="mezo.html" class="chain-card" data-chain-name="mezo" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/mezo.png" alt="Mezo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Mezo</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>5 protocols</span>
+          </div>
+        </a>
+      
+        <a href="optimism.html" class="chain-card" data-chain-name="optimism" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/optimism.png" alt="Optimism" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">O</span>
+            </div>
+            <div class="chain-info">
+              <h3>Optimism</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>5 protocols</span>
+          </div>
+        </a>
+      
+        <a href="rollux.html" class="chain-card" data-chain-name="rollux" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>R</span>
+            </div>
+            <div class="chain-info">
+              <h3>Rollux</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>5 protocols</span>
+          </div>
+        </a>
+      
+        <a href="bsc.html" class="chain-card" data-chain-name="bsc" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/bsc.png" alt="Bsc" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bsc</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>4 protocols</span>
+          </div>
+        </a>
+      
+        <a href="thorchain.html" class="chain-card" data-chain-name="thorchain" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>T</span>
+            </div>
+            <div class="chain-info">
+              <h3>Thorchain</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>4 protocols</span>
+          </div>
+        </a>
+      
+        <a href="gnosis.html" class="chain-card" data-chain-name="gnosis" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/gnosis.png" alt="Gnosis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">G</span>
+            </div>
+            <div class="chain-info">
+              <h3>Gnosis</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>3 protocols</span>
+          </div>
+        </a>
+      
+        <a href="zksync-era.html" class="chain-card" data-chain-name="zksync era" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/zksync-era.png" alt="Zksync Era" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">Z</span>
+            </div>
+            <div class="chain-info">
+              <h3>Zksync Era</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>3 protocols</span>
+          </div>
+        </a>
+      
+        <a href="dydx.html" class="chain-card" data-chain-name="dydx" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/dydx.png" alt="Dydx" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">D</span>
+            </div>
+            <div class="chain-info">
+              <h3>Dydx</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>2 protocols</span>
+          </div>
+        </a>
+      
+        <a href="eni.html" class="chain-card" data-chain-name="eni" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>E</span>
+            </div>
+            <div class="chain-info">
+              <h3>Eni</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>2 protocols</span>
+          </div>
+        </a>
+      
+        <a href="fantom.html" class="chain-card" data-chain-name="fantom" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/fantom.png" alt="Fantom" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">F</span>
+            </div>
+            <div class="chain-info">
+              <h3>Fantom</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>2 protocols</span>
+          </div>
+        </a>
+      
+        <a href="provenance.html" class="chain-card" data-chain-name="provenance" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>P</span>
+            </div>
+            <div class="chain-info">
+              <h3>Provenance</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>2 protocols</span>
+          </div>
+        </a>
+      
+        <a href="arbitrum-one.html" class="chain-card" data-chain-name="arbitrum one" data-chain-id="42161">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/arbitrum-one.png" alt="Arbitrum One" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">A</span>
+            </div>
+            <div class="chain-info">
+              <h3>Arbitrum One</h3>
+              <span class="chain-id-badge">Chain ID: 42161</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="bitlayer.html" class="chain-card" data-chain-name="bitlayer" data-chain-id="200901">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/bitlayer.png" alt="Bitlayer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bitlayer</h3>
+              <span class="chain-id-badge">Chain ID: 200901</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="bnb.html" class="chain-card" data-chain-name="bnb" data-chain-id="56">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/bnb.png" alt="Bnb" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Bnb</h3>
+              <span class="chain-id-badge">Chain ID: 56</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="botanix.html" class="chain-card" data-chain-name="botanix" data-chain-id="3636">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/botanix.png" alt="Botanix" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">B</span>
+            </div>
+            <div class="chain-info">
+              <h3>Botanix</h3>
+              <span class="chain-id-badge">Chain ID: 3636</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="camp.html" class="chain-card" data-chain-name="camp" data-chain-id="325000">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/camp.png" alt="Camp" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Camp</h3>
+              <span class="chain-id-badge">Chain ID: 325000</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="chainflip.html" class="chain-card" data-chain-name="chainflip" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Chainflip</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="corn.html" class="chain-card" data-chain-name="corn" data-chain-id="21000000">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>C</span>
+            </div>
+            <div class="chain-info">
+              <h3>Corn</h3>
+              <span class="chain-id-badge">Chain ID: 21000000</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="ethereal.html" class="chain-card" data-chain-name="ethereal" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>E</span>
+            </div>
+            <div class="chain-info">
+              <h3>Ethereal</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="gala.html" class="chain-card" data-chain-name="gala" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>G</span>
+            </div>
+            <div class="chain-info">
+              <h3>Gala</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="harmony.html" class="chain-card" data-chain-name="harmony" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/harmony.png" alt="Harmony" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">H</span>
+            </div>
+            <div class="chain-info">
+              <h3>Harmony</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="hemi.html" class="chain-card" data-chain-name="hemi" data-chain-id="743111">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>H</span>
+            </div>
+            <div class="chain-info">
+              <h3>Hemi</h3>
+              <span class="chain-id-badge">Chain ID: 743111</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="hyperevm.html" class="chain-card" data-chain-name="hyperevm" data-chain-id="998">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>H</span>
+            </div>
+            <div class="chain-info">
+              <h3>Hyperevm</h3>
+              <span class="chain-id-badge">Chain ID: 998</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="lisk.html" class="chain-card" data-chain-name="lisk" data-chain-id="1135">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/lisk.png" alt="Lisk" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">L</span>
+            </div>
+            <div class="chain-info">
+              <h3>Lisk</h3>
+              <span class="chain-id-badge">Chain ID: 1135</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="mode.html" class="chain-card" data-chain-name="mode" data-chain-id="34443">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/mode.png" alt="Mode" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">M</span>
+            </div>
+            <div class="chain-info">
+              <h3>Mode</h3>
+              <span class="chain-id-badge">Chain ID: 34443</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="stable.html" class="chain-card" data-chain-name="stable" data-chain-id="101010">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>S</span>
+            </div>
+            <div class="chain-info">
+              <h3>Stable</h3>
+              <span class="chain-id-badge">Chain ID: 101010</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="tac.html" class="chain-card" data-chain-name="tac" data-chain-id="8866">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>T</span>
+            </div>
+            <div class="chain-info">
+              <h3>Tac</h3>
+              <span class="chain-id-badge">Chain ID: 8866</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="verus.html" class="chain-card" data-chain-name="verus" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>V</span>
+            </div>
+            <div class="chain-info">
+              <h3>Verus</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="zerog.html" class="chain-card" data-chain-name="zerog" data-chain-id="20240">
+          <div class="chain-card-header">
+            <div class="chain-icon chain-icon-fallback">
+              <span>Z</span>
+            </div>
+            <div class="chain-info">
+              <h3>Zerog</h3>
+              <span class="chain-id-badge">Chain ID: 20240</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="zircuit.html" class="chain-card" data-chain-name="zircuit" data-chain-id="48900">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/zircuit.png" alt="Zircuit" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">Z</span>
+            </div>
+            <div class="chain-info">
+              <h3>Zircuit</h3>
+              <span class="chain-id-badge">Chain ID: 48900</span>
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+        <a href="zora.html" class="chain-card" data-chain-name="zora" data-chain-id="">
+          <div class="chain-card-header">
+            <div class="chain-icon">
+              <img src="../chain-logos/zora.png" alt="Zora" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                   <span style="display:none">Z</span>
+            </div>
+            <div class="chain-info">
+              <h3>Zora</h3>
+              
+            </div>
+          </div>
+          <div class="chain-card-footer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <span>1 protocol</span>
+          </div>
+        </a>
+      
+    </div>
+
+    <div id="noResults" style="display: none; padding: 60px 20px; text-align: center;">
+      <p style="color: var(--color-text-secondary);">No chains found matching your search.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Contracts Registry. Data updated daily.</p>
+        <a href="https://github.com/llamafolio/contracts-registry" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Search functionality
+    const searchInput = document.getElementById('chainSearch');
+    const chainsList = document.getElementById('chainsList');
+    const noResults = document.getElementById('noResults');
+    const allChains = Array.from(document.querySelectorAll('.chain-card'));
+
+    searchInput.addEventListener('input', (e) => {
+      const searchTerm = e.target.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      allChains.forEach(chain => {
+        const chainName = chain.getAttribute('data-chain-name');
+        const chainId = chain.getAttribute('data-chain-id');
+
+        const matches = searchTerm === '' ||
+          chainName.includes(searchTerm) ||
+          chainId.includes(searchTerm);
+
+        if (matches) {
+          chain.style.display = '';
+          visibleCount++;
+        } else {
+          chain.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0 && searchTerm !== '') {
+        chainsList.style.display = 'none';
+        noResults.style.display = 'block';
+      } else {
+        chainsList.style.display = 'grid';
+        noResults.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

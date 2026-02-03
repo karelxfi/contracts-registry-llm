@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Documentation - DeFi Registry</title>
+  <meta name="description" content="Access smart contract addresses for 4,400+ DeFi protocols via our REST API. Free, open-source, and LLM-optimized.">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="canonical" href="https://contracts.llamarpc.com/api/v1/">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">DeFi Registry</a>
+      <div class="nav-links">
+        <a href="/protocols" class="nav-link">Protocols</a>
+        <a href="/chains" class="nav-link">Chains</a>
+        <a href="/api/v1" class="nav-link active">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container api-docs">
+    <nav class="breadcrumb">
+      <a href="/">Home</a> / API Documentation
+    </nav>
+
+    <div class="api-docs-header">
+      <h1>API Documentation</h1>
+      <p class="subtitle">Access verified smart contract addresses for 4,400+ DeFi protocols across 100+ blockchains</p>
+    </div>
+
+    <!-- Base URL -->
+    <section class="api-section">
+      <h2>Base URL</h2>
+      <div class="code-block">
+        <pre><code>https://karelxfi.github.io/contracts-registry-llm/api/v1/</code></pre>
+        <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/')">Copy</button>
+      </div>
+    </section>
+
+    <!-- Authentication -->
+    <section class="api-section">
+      <h2>Authentication</h2>
+      <p class="section-description">No authentication required. All endpoints are publicly accessible.</p>
+    </section>
+
+    <!-- Endpoints -->
+    <section class="api-section">
+      <h2>Endpoints</h2>
+
+      <!-- Get Protocol -->
+      <div class="endpoint-card">
+        <div class="endpoint-header">
+          <span class="http-method method-get">GET</span>
+          <code class="endpoint-path">/protocol/{protocolId}.json</code>
+        </div>
+        <p class="endpoint-description">Get complete contract deployment data for a specific protocol</p>
+
+        <div class="endpoint-details">
+          <h4>Parameters</h4>
+          <table class="params-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>protocolId</code></td>
+                <td>string</td>
+                <td>Unique protocol identifier (e.g., "aave-v3", "uniswap-v3")</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4>Example Request</h4>
+          <div class="code-block">
+            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json')">Copy</button>
+          </div>
+
+          <h4>Example Response</h4>
+          <div class="code-block">
+            <pre><code>{
+  "id": "aave-v3",
+  "name": "Aave V3",
+  "type": "lending",
+  "website": "https://aave.com",
+  "deployments": {
+    "ethereum": {
+      "chain": "ethereum",
+      "addresses": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "poolDataProvider": "0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3"
+      }
+    }
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search by Chain -->
+      <div class="endpoint-card">
+        <div class="endpoint-header">
+          <span class="http-method method-get">GET</span>
+          <code class="endpoint-path">/search/chain/{chainName}.json</code>
+        </div>
+        <p class="endpoint-description">Get all protocols deployed on a specific blockchain</p>
+
+        <div class="endpoint-details">
+          <h4>Parameters</h4>
+          <table class="params-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>chainName</code></td>
+                <td>string</td>
+                <td>Blockchain name (e.g., "ethereum", "polygon", "arbitrum")</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4>Example Request</h4>
+          <div class="code-block">
+            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/search/chain/ethereum.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/search/chain/ethereum.json')">Copy</button>
+          </div>
+
+          <h4>Example Response</h4>
+          <div class="code-block">
+            <pre><code>{
+  "chain": "ethereum",
+  "chainId": 1,
+  "protocols": ["aave-v3", "uniswap-v3", "curve-dex", ...]
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search by Type -->
+      <div class="endpoint-card">
+        <div class="endpoint-header">
+          <span class="http-method method-get">GET</span>
+          <code class="endpoint-path">/search/type/{protocolType}.json</code>
+        </div>
+        <p class="endpoint-description">Get all protocols of a specific type</p>
+
+        <div class="endpoint-details">
+          <h4>Parameters</h4>
+          <table class="params-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>protocolType</code></td>
+                <td>string</td>
+                <td>Protocol type (e.g., "lending", "dex", "yield")</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4>Example Request</h4>
+          <div class="code-block">
+            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/search/type/lending.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/search/type/lending.json')">Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metadata -->
+      <div class="endpoint-card">
+        <div class="endpoint-header">
+          <span class="http-method method-get">GET</span>
+          <code class="endpoint-path">/metadata.json</code>
+        </div>
+        <p class="endpoint-description">Get registry metadata including protocol count, chain count, and last update</p>
+
+        <div class="endpoint-details">
+          <h4>Example Request</h4>
+          <div class="code-block">
+            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json')">Copy</button>
+          </div>
+
+          <h4>Example Response</h4>
+          <div class="code-block">
+            <pre><code>{
+  "version": "1.0",
+  "lastUpdated": "2025-02-03",
+  "protocolCount": 4444,
+  "chainCount": 94,
+  "totalContracts": 15623
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rate Limits -->
+    <section class="api-section">
+      <h2>Rate Limits</h2>
+      <p class="section-description">No rate limits. All data is served via GitHub Pages CDN.</p>
+    </section>
+
+    <!-- Response Format -->
+    <section class="api-section">
+      <h2>Response Format</h2>
+      <p class="section-description">All responses are in JSON format with UTF-8 encoding. Gzipped versions are available by adding <code>.gz</code> to any endpoint.</p>
+
+      <h4>Example</h4>
+      <div class="code-block">
+        <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json.gz</code></pre>
+      </div>
+    </section>
+
+    <!-- Error Handling -->
+    <section class="api-section">
+      <h2>Error Handling</h2>
+      <table class="params-table">
+        <thead>
+          <tr>
+            <th>Status Code</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>200</code></td>
+            <td>Success</td>
+          </tr>
+          <tr>
+            <td><code>404</code></td>
+            <td>Protocol, chain, or resource not found</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Code Examples -->
+    <section class="api-section">
+      <h2>Code Examples</h2>
+
+      <h3>JavaScript / Node.js</h3>
+      <div class="code-block">
+        <pre><code>// Fetch protocol data
+const response = await fetch(
+  'https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json'
+);
+const data = await response.json();
+
+console.log(data.deployments.ethereum.addresses.pool);
+// 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2</code></pre>
+      </div>
+
+      <h3>Python</h3>
+      <div class="code-block">
+        <pre><code>import requests
+
+# Fetch protocol data
+response = requests.get(
+    'https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json'
+)
+data = response.json()
+
+print(data['deployments']['ethereum']['addresses']['pool'])
+# 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2</code></pre>
+      </div>
+
+      <h3>curl</h3>
+      <div class="code-block">
+        <pre><code>curl https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json</code></pre>
+      </div>
+    </section>
+
+    <!-- OpenAPI Spec -->
+    <section class="api-section">
+      <h2>OpenAPI Specification</h2>
+      <p class="section-description">Full OpenAPI 3.0 specification available for integration with API tools.</p>
+      <div class="code-block">
+        <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/openapi.json</code></pre>
+        <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/openapi.json')">Copy</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div>© 2025 DeFi Registry. Open source under MIT License.</div>
+        <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        // Visual feedback
+        event.target.textContent = 'Copied!';
+        setTimeout(() => {
+          event.target.textContent = 'Copy';
+        }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>

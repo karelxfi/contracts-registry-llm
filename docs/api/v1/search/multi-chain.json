@@ -48,85 +48,6 @@
       ]
     },
     {
-      "id": "gate",
-      "name": "Gate",
-      "type": "cex",
-      "chainCount": 36,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "doge",
-        "tron",
-        "base",
-        "sui",
-        "manta",
-        "cardano",
-        "avalanche",
-        "aptos",
-        "arbitrum",
-        "linea",
-        "cronos",
-        "xdc",
-        "polygon",
-        "sei",
-        "flare",
-        "algorand",
-        "mantle",
-        "celo",
-        "injective",
-        "core",
-        "x-layer",
-        "stacks",
-        "dydx",
-        "metis",
-        "starknet",
-        "etherlink",
-        "ronin",
-        "osmosis",
-        "neutron",
-        "tezos",
-        "merlin",
-        "blast",
-        "scroll"
-      ]
-    },
-    {
-      "id": "gate-us",
-      "name": "Gate US",
-      "type": "cex",
-      "chainCount": 27,
-      "chains": [
-        "ethereum",
-        "solana",
-        "bitcoin",
-        "tron",
-        "doge",
-        "sui",
-        "cardano",
-        "near",
-        "injective",
-        "algorand",
-        "aptos",
-        "stacks",
-        "stellar",
-        "celo",
-        "arbitrum",
-        "core",
-        "plasma",
-        "cronos",
-        "linea",
-        "base",
-        "sei",
-        "metis",
-        "starknet",
-        "mantle",
-        "scroll",
-        "hyperliquid-l1",
-        "manta"
-      ]
-    },
-    {
       "id": "symbiosis",
       "name": "Symbiosis",
       "type": "cross chain bridge",
@@ -159,68 +80,6 @@
         "fraxtal",
         "kava",
         "core"
-      ]
-    },
-    {
-      "id": "binance-cex",
-      "name": "Binance CEX",
-      "type": "cex",
-      "chainCount": 23,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "tron",
-        "solana",
-        "doge",
-        "avalanche",
-        "arbitrum",
-        "base",
-        "ton",
-        "hedera",
-        "aptos",
-        "near",
-        "polygon",
-        "stellar",
-        "plasma",
-        "sonic",
-        "algorand",
-        "celo",
-        "ronin",
-        "starknet",
-        "manta",
-        "scroll",
-        "sui"
-      ]
-    },
-    {
-      "id": "bybit",
-      "name": "Bybit",
-      "type": "cex",
-      "chainCount": 23,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "tron",
-        "solana",
-        "mantle",
-        "avalanche",
-        "doge",
-        "aptos",
-        "hyperliquid-l1",
-        "arbitrum",
-        "polygon",
-        "base",
-        "linea",
-        "kava",
-        "ton",
-        "cardano",
-        "sonic",
-        "dydx",
-        "plasma",
-        "celo",
-        "manta",
-        "starknet",
-        "scroll"
       ]
     },
     {
@@ -395,33 +254,6 @@
       ]
     },
     {
-      "id": "swissborg",
-      "name": "SwissBorg",
-      "type": "cex",
-      "chainCount": 19,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "cardano",
-        "avalanche",
-        "hedera",
-        "doge",
-        "near",
-        "tron",
-        "polygon",
-        "injective",
-        "ton",
-        "arbitrum",
-        "sei",
-        "stellar",
-        "algorand",
-        "sonic",
-        "berachain",
-        "osmosis"
-      ]
-    },
-    {
       "id": "meson",
       "name": "Meson",
       "type": "cross chain bridge",
@@ -499,81 +331,6 @@
       ]
     },
     {
-      "id": "bitget",
-      "name": "Bitget",
-      "type": "cex",
-      "chainCount": 17,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana",
-        "arbitrum",
-        "polygon",
-        "cardano",
-        "avalanche",
-        "ton",
-        "base",
-        "cronos",
-        "sui",
-        "starknet",
-        "sonic",
-        "metis",
-        "kava",
-        "hyperliquid-l1"
-      ]
-    },
-    {
-      "id": "blofin",
-      "name": "BloFin",
-      "type": "cex",
-      "chainCount": 17,
-      "chains": [
-        "ethereum",
-        "tron",
-        "bitcoin",
-        "solana",
-        "avalanche",
-        "polygon",
-        "arbitrum",
-        "aptos",
-        "cardano",
-        "base",
-        "doge",
-        "sonic",
-        "mantle",
-        "ton",
-        "hyperliquid-l1",
-        "berachain",
-        "algorand"
-      ]
-    },
-    {
-      "id": "kucoin",
-      "name": "KuCoin",
-      "type": "cex",
-      "chainCount": 17,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "tron",
-        "doge",
-        "cardano",
-        "avalanche",
-        "near",
-        "ton",
-        "polygon",
-        "arbitrum",
-        "aptos",
-        "base",
-        "kava",
-        "algorand",
-        "starknet",
-        "sui"
-      ]
-    },
-    {
       "id": "nervebridge",
       "name": "NerveBridge",
       "type": "bridge",
@@ -621,54 +378,6 @@
         "sei",
         "xdc",
         "hyperliquid-l1"
-      ]
-    },
-    {
-      "id": "bitkub",
-      "name": "Bitkub",
-      "type": "cex",
-      "chainCount": 16,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "cardano",
-        "arbitrum",
-        "avalanche",
-        "polygon",
-        "doge",
-        "tron",
-        "base",
-        "algorand",
-        "scroll",
-        "aptos",
-        "mantle",
-        "core",
-        "ton"
-      ]
-    },
-    {
-      "id": "flipster",
-      "name": "Flipster",
-      "type": "cex",
-      "chainCount": 16,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "arbitrum",
-        "tron",
-        "aptos",
-        "ton",
-        "solana",
-        "polygon",
-        "sui",
-        "algorand",
-        "avalanche",
-        "sonic",
-        "near",
-        "celo",
-        "base",
-        "blast"
       ]
     },
     {
@@ -791,28 +500,6 @@
       ]
     },
     {
-      "id": "bitrue",
-      "name": "Bitrue",
-      "type": "cex",
-      "chainCount": 14,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "hedera",
-        "tron",
-        "cardano",
-        "solana",
-        "flare",
-        "polygon",
-        "mantle",
-        "xdc",
-        "scroll",
-        "linea",
-        "core",
-        "sui"
-      ]
-    },
-    {
       "id": "crosscurve",
       "name": "CrossCurve",
       "type": "cross chain bridge",
@@ -854,28 +541,6 @@
         "scroll",
         "berachain",
         "sonic"
-      ]
-    },
-    {
-      "id": "htx",
-      "name": "HTX",
-      "type": "cex",
-      "chainCount": 14,
-      "chains": [
-        "tron",
-        "ethereum",
-        "bitcoin",
-        "doge",
-        "solana",
-        "cardano",
-        "ton",
-        "avalanche",
-        "arbitrum",
-        "sui",
-        "polygon",
-        "core",
-        "starknet",
-        "algorand"
       ]
     },
     {
@@ -945,28 +610,6 @@
       ]
     },
     {
-      "id": "okx",
-      "name": "OKX",
-      "type": "cex",
-      "chainCount": 14,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "doge",
-        "tron",
-        "aptos",
-        "arbitrum",
-        "ton",
-        "linea",
-        "base",
-        "starknet",
-        "scroll",
-        "avalanche",
-        "polygon"
-      ]
-    },
-    {
       "id": "sushiswap",
       "name": "SushiSwap",
       "type": "dexs",
@@ -1029,27 +672,6 @@
         "scroll",
         "blast",
         "kava"
-      ]
-    },
-    {
-      "id": "indodax",
-      "name": "Indodax",
-      "type": "cex",
-      "chainCount": 13,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "cardano",
-        "tron",
-        "polygon",
-        "base",
-        "arbitrum",
-        "stellar",
-        "avalanche",
-        "algorand",
-        "sui",
-        "linea"
       ]
     },
     {
@@ -1153,46 +775,6 @@
         "metis",
         "blast",
         "mantle"
-      ]
-    },
-    {
-      "id": "backpack",
-      "name": "Backpack",
-      "type": "cex",
-      "chainCount": 12,
-      "chains": [
-        "solana",
-        "bitcoin",
-        "ethereum",
-        "arbitrum",
-        "aptos",
-        "base",
-        "tron",
-        "polygon",
-        "plasma",
-        "avalanche",
-        "doge",
-        "hyperliquid-l1"
-      ]
-    },
-    {
-      "id": "bitfinex",
-      "name": "Bitfinex",
-      "type": "cex",
-      "chainCount": 12,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana",
-        "avalanche",
-        "polygon",
-        "tezos",
-        "near",
-        "algorand",
-        "aptos",
-        "cardano",
-        "doge"
       ]
     },
     {
@@ -1373,44 +955,6 @@
       ]
     },
     {
-      "id": "mexc",
-      "name": "MEXC",
-      "type": "cex",
-      "chainCount": 11,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "tron",
-        "arbitrum",
-        "aptos",
-        "avalanche",
-        "ton",
-        "polygon",
-        "base",
-        "starknet"
-      ]
-    },
-    {
-      "id": "osl",
-      "name": "OSL",
-      "type": "cex",
-      "chainCount": 11,
-      "chains": [
-        "ethereum",
-        "tron",
-        "solana",
-        "bitcoin",
-        "polygon",
-        "avalanche",
-        "doge",
-        "scroll",
-        "ton",
-        "stellar",
-        "injective"
-      ]
-    },
-    {
       "id": "team-finance",
       "name": "Team Finance",
       "type": "token locker",
@@ -1486,42 +1030,6 @@
       ]
     },
     {
-      "id": "bitlo",
-      "name": "Bitlo",
-      "type": "cex",
-      "chainCount": 10,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "doge",
-        "tron",
-        "sui",
-        "cardano",
-        "algorand",
-        "near",
-        "aptos"
-      ]
-    },
-    {
-      "id": "hashkey-exchange",
-      "name": "HashKey Exchange",
-      "type": "cex",
-      "chainCount": 10,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "tron",
-        "doge",
-        "avalanche",
-        "ton",
-        "aptos",
-        "polygon",
-        "arbitrum"
-      ]
-    },
-    {
       "id": "impermax-v2",
       "name": "Impermax V2",
       "type": "lending",
@@ -1594,24 +1102,6 @@
       ]
     },
     {
-      "id": "nonkyc",
-      "name": "NonKYC",
-      "type": "cex",
-      "chainCount": 10,
-      "chains": [
-        "arbitrum",
-        "ethereum",
-        "polygon",
-        "avalanche",
-        "base",
-        "algorand",
-        "sonic",
-        "flare",
-        "cardano",
-        "tron"
-      ]
-    },
-    {
       "id": "ondo-yield-assets",
       "name": "Ondo Yield Assets",
       "type": "rwa",
@@ -1627,24 +1117,6 @@
         "stellar",
         "arbitrum",
         "polygon"
-      ]
-    },
-    {
-      "id": "phemex",
-      "name": "Phemex",
-      "type": "cex",
-      "chainCount": 10,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "tron",
-        "avalanche",
-        "arbitrum",
-        "polygon",
-        "base",
-        "linea",
-        "sui"
       ]
     },
     {
@@ -1699,24 +1171,6 @@
         "plasma",
         "katana",
         "linea"
-      ]
-    },
-    {
-      "id": "zoomex",
-      "name": "Zoomex",
-      "type": "cex",
-      "chainCount": 10,
-      "chains": [
-        "tron",
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "arbitrum",
-        "base",
-        "mantle",
-        "polygon",
-        "doge",
-        "sonic"
       ]
     },
     {
@@ -1805,23 +1259,6 @@
       ]
     },
     {
-      "id": "hashkey-global",
-      "name": "HashKey Global",
-      "type": "cex",
-      "chainCount": 9,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "tron",
-        "arbitrum",
-        "solana",
-        "ton",
-        "scroll",
-        "avalanche",
-        "polygon"
-      ]
-    },
-    {
       "id": "interport-finance",
       "name": "Interport Finance",
       "type": "cross chain bridge",
@@ -1836,23 +1273,6 @@
         "arbitrum",
         "avalanche",
         "polygon"
-      ]
-    },
-    {
-      "id": "latoken",
-      "name": "Latoken",
-      "type": "cex",
-      "chainCount": 9,
-      "chains": [
-        "ethereum",
-        "solana",
-        "polygon",
-        "cardano",
-        "algorand",
-        "tron",
-        "tezos",
-        "bitcoin",
-        "avalanche"
       ]
     },
     {
@@ -1887,23 +1307,6 @@
         "fraxtal",
         "mantle",
         "avalanche"
-      ]
-    },
-    {
-      "id": "osl-hk",
-      "name": "OSL HK",
-      "type": "cex",
-      "chainCount": 9,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "tron",
-        "avalanche",
-        "sei",
-        "doge",
-        "ton",
-        "polygon"
       ]
     },
     {
@@ -2094,23 +1497,6 @@
       ]
     },
     {
-      "id": "weex",
-      "name": "WEEX",
-      "type": "cex",
-      "chainCount": 9,
-      "chains": [
-        "ethereum",
-        "tron",
-        "solana",
-        "avalanche",
-        "ton",
-        "arbitrum",
-        "base",
-        "polygon",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "whales-market",
       "name": "Whales Market",
       "type": "otc marketplace",
@@ -2177,22 +1563,6 @@
       ]
     },
     {
-      "id": "bitstamp",
-      "name": "Bitstamp",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "avalanche",
-        "near",
-        "xdc",
-        "cardano",
-        "sui"
-      ]
-    },
-    {
       "id": "cbridge",
       "name": "cBridge",
       "type": "bridge",
@@ -2209,22 +1579,6 @@
       ]
     },
     {
-      "id": "cex.io",
-      "name": "CEX.IO",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "ethereum",
-        "tron",
-        "solana",
-        "sui",
-        "stellar",
-        "polygon",
-        "cardano",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "chaingpt",
       "name": "ChainGPT",
       "type": "launchpad",
@@ -2238,22 +1592,6 @@
         "core",
         "linea",
         "avalanche"
-      ]
-    },
-    {
-      "id": "coindcx",
-      "name": "CoinDCX",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "cardano",
-        "tron",
-        "solana",
-        "avalanche",
-        "polygon",
-        "arbitrum"
       ]
     },
     {
@@ -2385,22 +1723,6 @@
       ]
     },
     {
-      "id": "fastex",
-      "name": "Fastex",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "tron",
-        "ethereum",
-        "solana",
-        "avalanche",
-        "aptos",
-        "arbitrum",
-        "cardano",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "gauntlet",
       "name": "Gauntlet",
       "type": "risk curators",
@@ -2446,22 +1768,6 @@
         "base",
         "avalanche",
         "cronos"
-      ]
-    },
-    {
-      "id": "levex",
-      "name": "LeveX",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "ethereum",
-        "solana",
-        "bitcoin",
-        "ton",
-        "polygon",
-        "arbitrum",
-        "base",
-        "avalanche"
       ]
     },
     {
@@ -2641,22 +1947,6 @@
       ]
     },
     {
-      "id": "tothemoon",
-      "name": "Tothemoon",
-      "type": "cex",
-      "chainCount": 8,
-      "chains": [
-        "tron",
-        "ethereum",
-        "bitcoin",
-        "ton",
-        "arbitrum",
-        "avalanche",
-        "solana",
-        "polygon"
-      ]
-    },
-    {
       "id": "a51-finance-v3",
       "name": "A51 Finance V3",
       "type": "liquidity manager",
@@ -2792,21 +2082,6 @@
       ]
     },
     {
-      "id": "coin8",
-      "name": "Coin8",
-      "type": "cex",
-      "chainCount": 7,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "polygon",
-        "arbitrum",
-        "solana",
-        "avalanche"
-      ]
-    },
-    {
       "id": "contango-v2",
       "name": "Contango V2",
       "type": "derivatives",
@@ -2924,36 +2199,6 @@
         "avalanche",
         "linea",
         "berachain"
-      ]
-    },
-    {
-      "id": "hotbit",
-      "name": "Hotbit",
-      "type": "cex",
-      "chainCount": 7,
-      "chains": [
-        "ethereum",
-        "arbitrum",
-        "tron",
-        "polygon",
-        "avalanche",
-        "cronos",
-        "bitcoin"
-      ]
-    },
-    {
-      "id": "hotcoin",
-      "name": "Hotcoin",
-      "type": "cex",
-      "chainCount": 7,
-      "chains": [
-        "ethereum",
-        "tron",
-        "polygon",
-        "solana",
-        "arbitrum",
-        "scroll",
-        "bitcoin"
       ]
     },
     {
@@ -3344,20 +2589,6 @@
       ]
     },
     {
-      "id": "arkham-exchange",
-      "name": "Arkham Exchange",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "doge",
-        "avalanche",
-        "ton"
-      ]
-    },
-    {
       "id": "aura",
       "name": "Aura",
       "type": "yield",
@@ -3400,20 +2631,6 @@
       ]
     },
     {
-      "id": "bingx",
-      "name": "BingX",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "tron",
-        "bitcoin",
-        "ethereum",
-        "solana",
-        "ton",
-        "arbitrum"
-      ]
-    },
-    {
       "id": "blackrock-buidl",
       "name": "BlackRock BUIDL",
       "type": "rwa",
@@ -3453,20 +2670,6 @@
         "ethereum",
         "arbitrum",
         "solana"
-      ]
-    },
-    {
-      "id": "coinsquare",
-      "name": "Coinsquare",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "solana",
-        "cardano",
-        "ethereum",
-        "avalanche",
-        "bitcoin",
-        "doge"
       ]
     },
     {
@@ -3708,20 +2911,6 @@
       ]
     },
     {
-      "id": "ourbit",
-      "name": "Ourbit",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana",
-        "arbitrum",
-        "avalanche"
-      ]
-    },
-    {
       "id": "overnight-finance",
       "name": "Overnight Finance",
       "type": "cdp",
@@ -3775,20 +2964,6 @@
         "metis",
         "cronos",
         "kava"
-      ]
-    },
-    {
-      "id": "pionex",
-      "name": "Pionex",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "arbitrum",
-        "solana",
-        "avalanche"
       ]
     },
     {
@@ -3957,20 +3132,6 @@
         "soneium",
         "celo",
         "unichain"
-      ]
-    },
-    {
-      "id": "woo-x",
-      "name": "WOO X",
-      "type": "cex",
-      "chainCount": 6,
-      "chains": [
-        "ethereum",
-        "tron",
-        "avalanche",
-        "arbitrum",
-        "bitcoin",
-        "polygon"
       ]
     },
     {
@@ -4158,32 +3319,6 @@
       ]
     },
     {
-      "id": "bitcointry",
-      "name": "Bitcointry",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "ethereum",
-        "avalanche",
-        "polygon",
-        "arbitrum",
-        "base"
-      ]
-    },
-    {
-      "id": "bitkan",
-      "name": "BitKan",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "solana",
-        "tron",
-        "polygon"
-      ]
-    },
-    {
       "id": "centrifuge-protocol",
       "name": "Centrifuge Protocol",
       "type": "rwa",
@@ -4246,19 +3381,6 @@
         "ethereum",
         "polygon",
         "base"
-      ]
-    },
-    {
-      "id": "crypto-com",
-      "name": "Crypto-com",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "polygon",
-        "avalanche",
-        "arbitrum"
       ]
     },
     {
@@ -4574,19 +3696,6 @@
       ]
     },
     {
-      "id": "okcoin",
-      "name": "Okcoin",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "polygon",
-        "avalanche"
-      ]
-    },
-    {
       "id": "omni-exchange-flux",
       "name": "Omni Exchange Flux",
       "type": "dexs",
@@ -4688,19 +3797,6 @@
         "world-chain",
         "arbitrum",
         "scroll"
-      ]
-    },
-    {
-      "id": "probit-global",
-      "name": "ProBit Global",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana",
-        "polygon"
       ]
     },
     {
@@ -5068,19 +4164,6 @@
       ]
     },
     {
-      "id": "valr",
-      "name": "VALR",
-      "type": "cex",
-      "chainCount": 5,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana",
-        "avalanche"
-      ]
-    },
-    {
       "id": "velodrome-v3",
       "name": "Velodrome V3",
       "type": "dexs",
@@ -5402,54 +4485,6 @@
       ]
     },
     {
-      "id": "biconomy.com",
-      "name": "Biconomy.com",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "ethereum",
-        "polygon",
-        "tron",
-        "bitcoin"
-      ]
-    },
-    {
-      "id": "bigone",
-      "name": "BigONE",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana"
-      ]
-    },
-    {
-      "id": "bitmart",
-      "name": "BitMart",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "solana",
-        "ethereum",
-        "starknet",
-        "bitcoin"
-      ]
-    },
-    {
-      "id": "bitmex",
-      "name": "Bitmex",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "solana"
-      ]
-    },
-    {
       "id": "block-analitica",
       "name": "Block Analitica",
       "type": "risk curators",
@@ -5519,18 +4554,6 @@
         "base",
         "avalanche",
         "arbitrum"
-      ]
-    },
-    {
-      "id": "coinex",
-      "name": "CoinEx",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron",
-        "starknet"
       ]
     },
     {
@@ -5735,30 +4758,6 @@
         "ethereum",
         "plasma",
         "sonic"
-      ]
-    },
-    {
-      "id": "exmo",
-      "name": "Exmo",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "ethereum",
-        "tron",
-        "bitcoin",
-        "ton"
-      ]
-    },
-    {
-      "id": "firi",
-      "name": "Firi",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "ethereum",
-        "cardano",
-        "solana",
-        "bitcoin"
       ]
     },
     {
@@ -6146,18 +5145,6 @@
       ]
     },
     {
-      "id": "nexo",
-      "name": "Nexo",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "ethereum",
-        "polygon",
-        "avalanche",
-        "arbitrum"
-      ]
-    },
-    {
       "id": "nodo",
       "name": "NODO",
       "type": "prediction market",
@@ -6392,18 +5379,6 @@
       "chainCount": 4,
       "chains": [
         "arbitrum",
-        "ethereum",
-        "avalanche",
-        "polygon"
-      ]
-    },
-    {
-      "id": "robinhood",
-      "name": "Robinhood",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "bitcoin",
         "ethereum",
         "avalanche",
         "polygon"
@@ -6730,18 +5705,6 @@
         "arbitrum",
         "base",
         "ethereum",
-        "polygon"
-      ]
-    },
-    {
-      "id": "tradeogre",
-      "name": "TradeOgre",
-      "type": "cex",
-      "chainCount": 4,
-      "chains": [
-        "ethereum",
-        "tron",
-        "avalanche",
         "polygon"
       ]
     },
@@ -7238,17 +6201,6 @@
       ]
     },
     {
-      "id": "bake.io",
-      "name": "Bake.io",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "ethereum",
-        "polygon",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "bakerfi",
       "name": "BakerFi",
       "type": "liquid staking",
@@ -7323,28 +6275,6 @@
         "base",
         "core",
         "ethereum"
-      ]
-    },
-    {
-      "id": "bitunix",
-      "name": "Bitunix",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "tron",
-        "ethereum"
-      ]
-    },
-    {
-      "id": "bitvenus",
-      "name": "BitVenus",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "tron"
       ]
     },
     {
@@ -7466,17 +6396,6 @@
         "bitcoin",
         "doge",
         "cardano"
-      ]
-    },
-    {
-      "id": "coinw",
-      "name": "CoinW",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron"
       ]
     },
     {
@@ -7631,17 +6550,6 @@
         "arbitrum",
         "base",
         "ethereum"
-      ]
-    },
-    {
-      "id": "deribit",
-      "name": "Deribit",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "solana"
       ]
     },
     {
@@ -8052,17 +6960,6 @@
       ]
     },
     {
-      "id": "hibt",
-      "name": "Hibt",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "tron",
-        "ethereum",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "hmx",
       "name": "HMX",
       "type": "derivatives",
@@ -8239,17 +7136,6 @@
       ]
     },
     {
-      "id": "klever-exchange",
-      "name": "Klever Exchange",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "tron"
-      ]
-    },
-    {
       "id": "knightrade",
       "name": "Knightrade",
       "type": "onchain capital allocator",
@@ -8258,17 +7144,6 @@
         "arbitrum",
         "solana",
         "ethereum"
-      ]
-    },
-    {
-      "id": "kraken",
-      "name": "Kraken",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "ethereum",
-        "starknet",
-        "bitcoin"
       ]
     },
     {
@@ -8423,17 +7298,6 @@
         "cronos",
         "ethereum",
         "base"
-      ]
-    },
-    {
-      "id": "maskex",
-      "name": "MaskEX",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "ethereum",
-        "bitcoin",
-        "tron"
       ]
     },
     {
@@ -8621,17 +7485,6 @@
         "ethereum",
         "arbitrum",
         "base"
-      ]
-    },
-    {
-      "id": "nbx",
-      "name": "NBX",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "cardano"
       ]
     },
     {
@@ -8852,17 +7705,6 @@
         "ethereum",
         "base",
         "blast"
-      ]
-    },
-    {
-      "id": "p2pb2b",
-      "name": "P2PB2B",
-      "type": "cex",
-      "chainCount": 3,
-      "chains": [
-        "bitcoin",
-        "ethereum",
-        "polygon"
       ]
     },
     {
@@ -10348,16 +9190,6 @@
       ]
     },
     {
-      "id": "bitomato",
-      "name": "BiTomato",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
-      ]
-    },
-    {
       "id": "bitstable-finance",
       "name": "BitStable Finance",
       "type": "cdp",
@@ -10594,26 +9426,6 @@
       "chainCount": 2,
       "chains": [
         "avalanche",
-        "ethereum"
-      ]
-    },
-    {
-      "id": "bydfi",
-      "name": "BYDFi",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
-      ]
-    },
-    {
-      "id": "byte-exchange",
-      "name": "Byte Exchange",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
         "ethereum"
       ]
     },
@@ -11508,16 +10320,6 @@
       ]
     },
     {
-      "id": "gemini",
-      "name": "Gemini",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
-      ]
-    },
-    {
       "id": "get-protocol",
       "name": "GET Protocol",
       "type": "services",
@@ -12118,16 +10920,6 @@
       ]
     },
     {
-      "id": "korbit",
-      "name": "Korbit",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
-      ]
-    },
-    {
       "id": "kpk",
       "name": "kpk",
       "type": "risk curators",
@@ -12165,16 +10957,6 @@
       "chains": [
         "base",
         "arbitrum"
-      ]
-    },
-    {
-      "id": "lbank",
-      "name": "LBank",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "ethereum",
-        "bitcoin"
       ]
     },
     {
@@ -12925,16 +11707,6 @@
       "chains": [
         "arbitrum",
         "berachain"
-      ]
-    },
-    {
-      "id": "orangex",
-      "name": "OrangeX",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
       ]
     },
     {
@@ -13928,16 +12700,6 @@
       ]
     },
     {
-      "id": "tapbit",
-      "name": "Tapbit",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "ethereum",
-        "bitcoin"
-      ]
-    },
-    {
       "id": "tau-labs",
       "name": "TAU Labs",
       "type": "risk curators",
@@ -14105,16 +12867,6 @@
       "chains": [
         "ethereum",
         "polygon"
-      ]
-    },
-    {
-      "id": "toobit",
-      "name": "Toobit",
-      "type": "cex",
-      "chainCount": 2,
-      "chains": [
-        "bitcoin",
-        "ethereum"
       ]
     },
     {
@@ -14635,55 +13387,34 @@
       "archly-v2",
       "avalon-finance",
       "axelar",
-      "backpack",
       "beefy",
-      "binance-cex",
-      "bitfinex",
-      "bitget",
-      "bitkub",
-      "bitlo",
-      "bitrue",
-      "blofin",
       "bridgers",
       "butter-network",
-      "bybit",
       "crosscurve",
       "curve",
       "curve-dex",
       "donaswap-v2",
       "euler-v2",
       "everclear",
-      "flipster",
       "gamma",
-      "gate",
-      "gate-us",
-      "hashkey-exchange",
-      "htx",
       "ichi",
       "impermax-v2",
-      "indodax",
       "iziswap",
       "kaio",
       "kelp",
-      "kucoin",
       "lagoon",
       "lido",
       "llamapay",
       "logx-v2",
       "meson",
       "mev-capital",
-      "mexc",
       "midas-rwa",
       "morpho-blue",
       "morpho-v1",
       "near-intents",
       "nervebridge",
-      "nonkyc",
-      "okx",
       "ondo-yield-assets",
       "orderly-bridge",
-      "osl",
-      "phemex",
       "portal",
       "re7-labs",
       "sablier-flow",
@@ -14693,7 +13424,6 @@
       "steer-protocol",
       "sushiswap",
       "sushiswap-v3",
-      "swissborg",
       "symbiosis",
       "team-finance",
       "uniswap-v3",
@@ -14703,8 +13433,7 @@
       "wan-bridge",
       "woofi-swap",
       "xy-finance",
-      "yieldfi",
-      "zoomex"
+      "yieldfi"
     ],
     "5-9": [
       "a51-finance-v3",
@@ -14719,7 +13448,6 @@
       "anzen-v2",
       "apex-pro",
       "apollo-diversified-credit-securitize-fund",
-      "arkham-exchange",
       "aura",
       "autofinance",
       "backedfi",
@@ -14731,12 +13459,8 @@
       "betswirl",
       "bim",
       "bima-cdp",
-      "bingx",
       "bitbond-lockers",
       "bitbond-sales",
-      "bitcointry",
-      "bitkan",
-      "bitstamp",
       "blackrock-buidl",
       "boringdao",
       "brotocol",
@@ -14744,7 +13468,6 @@
       "c3-exchange",
       "cbridge",
       "centrifuge-protocol",
-      "cex.io",
       "chaingpt",
       "charm-finance-v2",
       "cian-yield-layer",
@@ -14752,10 +13475,7 @@
       "clearstar",
       "clipper",
       "clovis",
-      "coin8",
-      "coindcx",
       "coinscope",
-      "coinsquare",
       "compound-v3",
       "connext",
       "contango-v2",
@@ -14763,7 +13483,6 @@
       "core-bridge",
       "createdao",
       "createmytoken",
-      "crypto-com",
       "cytonic-airdrop-campaign",
       "d2-finance",
       "dackieswap-v2",
@@ -14790,7 +13509,6 @@
       "equilibria",
       "etherfuse",
       "euler-dao",
-      "fastex",
       "flokifi-locker",
       "fluid-lending",
       "folks-finance-xchain",
@@ -14801,11 +13519,8 @@
       "granary-finance",
       "guru-network-classic",
       "gyroscope-protocol",
-      "hashkey-global",
       "hashport",
       "hedgey",
-      "hotbit",
-      "hotcoin",
       "hyperithm",
       "icecreamswap-v2",
       "infinit",
@@ -14816,10 +13531,8 @@
       "krystal",
       "kyberswap-classic",
       "kyberswap-elastic",
-      "latoken",
       "layerbank",
       "lazy-summer-protocol",
-      "levex",
       "levva",
       "lynx",
       "magic-eden",
@@ -14834,15 +13547,12 @@
       "napier",
       "native-swap",
       "o3-swap",
-      "okcoin",
       "omni-exchange-flux",
       "omni-exchange-v2",
       "omni-exchange-v3",
       "omnibtc",
       "opengdp-shared-security",
       "openocean",
-      "osl-hk",
-      "ourbit",
       "overnight-finance",
       "pancakeswap-amm",
       "pancakeswap-amm-v3",
@@ -14852,13 +13562,11 @@
       "pendle",
       "penpie",
       "pickle",
-      "pionex",
       "ploutos-money",
       "poly-network",
       "pooltogether-v5",
       "poolz-vesting",
       "prime-protocol",
-      "probit-global",
       "pumpbtc",
       "pwn",
       "qidao",
@@ -14918,7 +13626,6 @@
       "thetanuts-finance",
       "thorchain-dex",
       "timeswap-v2",
-      "tothemoon",
       "trustake",
       "tulipa-capital",
       "ultrayield-by-edge",
@@ -14928,7 +13635,6 @@
       "unit",
       "univoucher",
       "upshift",
-      "valr",
       "vaultlayer",
       "veda",
       "velodrome-v2",
@@ -14936,10 +13642,8 @@
       "vertex-perps",
       "wagmi",
       "wasabi",
-      "weex",
       "whales-market",
       "wombat-exchange",
-      "woo-x",
       "woofi-earn",
       "wowswap",
       "yearn-finance",
@@ -15039,7 +13743,6 @@
       "babydoge-bridge",
       "backbone-labs",
       "badger-dao",
-      "bake.io",
       "bakerfi",
       "baklava-space",
       "balancer-cow-amm",
@@ -15050,23 +13753,16 @@
       "bella-protocol",
       "beta-finance-v1",
       "beta-finance-v2",
-      "biconomy.com",
       "bifi",
       "bifrost-liquid-staking",
-      "bigone",
       "bio-protocol",
       "biswap-v3",
       "bit-reserve",
       "bitfi-basis",
       "bitlayer-ybtc-family",
-      "bitmart",
-      "bitmex",
-      "bitomato",
       "bits",
       "bitstable-finance",
       "bitty",
-      "bitunix",
-      "bitvenus",
       "blackpool",
       "blackwing",
       "blend-finance",
@@ -15099,8 +13795,6 @@
       "burve-protocol",
       "button-wrappers",
       "bxh",
-      "bydfi",
-      "byte-exchange",
       "cables-finance",
       "cadabra-finance",
       "calc",
@@ -15127,8 +13821,6 @@
       "clober-v2",
       "coffee-dex",
       "coinbase-bridge",
-      "coinex",
-      "coinw",
       "complifi",
       "complus-network",
       "composable-finance",
@@ -15171,7 +13863,6 @@
       "deltaswap",
       "deltatrade",
       "deri-protocol",
-      "deribit",
       "derive-v1",
       "derive-v2",
       "desk-perps",
@@ -15225,7 +13916,6 @@
       "everrise",
       "everyfinance",
       "exit10",
-      "exmo",
       "extended",
       "extra-finance-leverage-farming",
       "fairfi",
@@ -15234,7 +13924,6 @@
       "ferdyflip",
       "ferrum",
       "filda",
-      "firi",
       "fisclend-finance",
       "flashliquidity",
       "flashstake",
@@ -15265,7 +13954,6 @@
       "gammaswap-open-interest",
       "gardens",
       "gasp",
-      "gemini",
       "genius",
       "get-protocol",
       "geyser",
@@ -15302,7 +13990,6 @@
       "hermetica-usdh",
       "heroes-of-mavia",
       "hi.market",
-      "hibt",
       "hidden-hand",
       "hinkal",
       "hmx",
@@ -15365,21 +14052,17 @@
       "kintsu",
       "kinza-finance",
       "kitty-finance",
-      "klever-exchange",
       "klimadao",
       "knightrade",
       "knit-finance",
       "kogefarm",
       "kommunitas",
-      "korbit",
       "kpk",
-      "kraken",
       "kromatika",
       "ktx-perps",
       "kuma-protocol",
       "kwikswap",
       "lava",
-      "lbank",
       "leetswap",
       "levana-perps",
       "lighter-bridge",
@@ -15416,7 +14099,6 @@
       "marginswap",
       "mars-lend",
       "marswap",
-      "maskex",
       "matrix-farm",
       "matrixdock-xaum",
       "maverick-v1",
@@ -15474,7 +14156,6 @@
       "narwhal-finance",
       "native-credit-pool",
       "nayms",
-      "nbx",
       "neopin-pool",
       "neptune-mutual",
       "nest-credit",
@@ -15482,7 +14163,6 @@
       "nested",
       "neuron",
       "neuy",
-      "nexo",
       "nexter",
       "nft20",
       "nftperp",
@@ -15516,7 +14196,6 @@
       "opulous",
       "opyn-gamma",
       "orange-finance",
-      "orangex",
       "orbit-bridge",
       "ordernchaos",
       "origami-finance",
@@ -15527,7 +14206,6 @@
       "outcome-finance",
       "overtime",
       "ovr",
-      "p2pb2b",
       "pancakeswap-stableswap",
       "pangolin-v2",
       "pangolin-v3",
@@ -15614,7 +14292,6 @@
       "rigoblock",
       "ripae",
       "risk-harbor",
-      "robinhood",
       "roe-finance",
       "rosen-bridge",
       "rsk-bridge",
@@ -15713,7 +14390,6 @@
       "t2t2",
       "tangible-rwa",
       "tanken-capital",
-      "tapbit",
       "tau-labs",
       "tbtc",
       "tea-fi",
@@ -15740,12 +14416,10 @@
       "token-mill",
       "tokeniza",
       "tokensfarm",
-      "toobit",
       "tornado-cash",
       "tornado-finance",
       "toros",
       "toucan-protocol",
-      "tradeogre",
       "tradingstrategy",
       "tranche-finance",
       "tranchess-yield",
