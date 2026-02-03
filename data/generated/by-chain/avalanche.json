@@ -13,6 +13,7 @@
     },
     "gecko_id": "avalanche-2",
     "cmcId": "5805",
+    "defillamaId": "avalanche",
     "explorers": {
       "primary": {
         "name": "Avalanche Explorer",
@@ -4438,6 +4439,23 @@
         },
         "verified": {
           "main": false
+        }
+      }
+    },
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x895383274303AA19fe978AFB4Ac55C7f094f982C",
+          "adaptiveCurveIrm": "0xb6ac9477D574EE2a7BF32d2475b303fb70968AA4"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
         }
       }
     },

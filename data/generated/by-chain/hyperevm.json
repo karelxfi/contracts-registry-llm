@@ -1,0 +1,49 @@
+{
+  "chain": "hyperevm",
+  "chainId": 998,
+  "chainInfo": {
+    "id": "hyperevm",
+    "name": "HyperEVM",
+    "platform": "evm",
+    "status": "active",
+    "chainId": 998,
+    "nativeCurrency": {
+      "name": "HYPE",
+      "symbol": "HYPE",
+      "decimals": 18
+    },
+    "gecko_id": "hyperliquid",
+    "cmcId": "32196",
+    "defillamaId": "hyperliquid-l1",
+    "explorers": {
+      "primary": {
+        "name": "HyperEVM Explorer",
+        "url": "https://explorer.hyperliquid.xyz"
+      }
+    },
+    "rpc": {
+      "public": []
+    }
+  },
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+          "adaptiveCurveIrm": "0xD4a426F010986dCad727e8dd6eed44cA4A9b7483",
+          "bundler": "0xa3F50477AfA601C771874260A3B34B40e244Fa0e"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

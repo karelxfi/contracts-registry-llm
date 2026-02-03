@@ -6,6 +6,7 @@
   "website": "https://morpho.org",
   "github": "https://github.com/morpho-org/morpho-blue",
   "docs": "https://docs.morpho.org",
+  "defillamaId": "morpho-v1",
   "tags": [
     "lending",
     "peer-to-peer",
@@ -30,7 +31,24 @@
     "katana",
     "etherlink",
     "tac",
-    "lisk"
+    "lisk",
+    "avalanche",
+    "bitlayer",
+    "bnb",
+    "botanix",
+    "gnosis",
+    "plasma",
+    "soneium",
+    "zircuit",
+    "abstract",
+    "celo",
+    "cronos",
+    "hyperevm",
+    "linea",
+    "monad",
+    "sei",
+    "stable",
+    "zerog"
   ],
   "contracts": {
     "morpho": {
@@ -451,8 +469,8 @@
       "chain": "camp",
       "chainId": 325000,
       "addresses": {
-        "morpho": "0xc7CAd9B1377Eb8103397Cb07Cb5c4f03eb2eBEa8",
-        "adaptiveCurveIrm": "0xeEccdD33c0C06d7DDa31E3C4a1Cdb35a2A756246",
+        "morpho": "0xea4f2979D7A99B40404b447Cf71c008e3805760F",
+        "adaptiveCurveIrm": "0xd5661D965cc60ed1954d4f6725b766051De3ef97",
         "bundler": "0xc1A86b3a552C5a34e1ecc910341A64Cc89b2CB01"
       },
       "deploymentBlocks": {
@@ -547,8 +565,8 @@
       "sourceUrl": "https://github.com/morpho-org/sdks",
       "updated": "2026-02-03"
     },
-    "hyperliquid-l1": {
-      "chain": "hyperliquid-l1",
+    "hyperevm": {
+      "chain": "hyperevm",
       "chainId": 998,
       "addresses": {
         "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
@@ -725,6 +743,150 @@
       },
       "source": "sdk",
       "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "avalanche": {
+      "chain": "avalanche",
+      "chainId": 43114,
+      "addresses": {
+        "morpho": "0x895383274303AA19fe978AFB4Ac55C7f094f982C",
+        "adaptiveCurveIrm": "0xb6ac9477D574EE2a7BF32d2475b303fb70968AA4"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "bitlayer": {
+      "chain": "bitlayer",
+      "chainId": 200901,
+      "addresses": {
+        "morpho": "0xAeA7eFF1bD3c875c18ef50F0387892dF181431C6",
+        "adaptiveCurveIrm": "0xefB565442B9Eb740B50Cf928C14d21c0111254F9"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "bnb": {
+      "chain": "bnb",
+      "chainId": 56,
+      "addresses": {
+        "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+        "adaptiveCurveIrm": "0x7112D95cB5f6b13bF5F5B94a373bB3b2B381F979"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "botanix": {
+      "chain": "botanix",
+      "chainId": 3636,
+      "addresses": {
+        "morpho": "0x8183d41556Be257fc7aAa4A48396168C8eF2bEAD",
+        "adaptiveCurveIrm": "0x28021Ef0269C83302c09D2A89f7b202C4AeDf0C2"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "gnosis": {
+      "chain": "gnosis",
+      "chainId": 100,
+      "addresses": {
+        "morpho": "0xB74D4dd451E250bC325AFF0556D717e4E2351c66",
+        "adaptiveCurveIrm": "0xae529333703C34b8976BaB9D04AF3f0B9Cff05c5"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "plasma": {
+      "chain": "plasma",
+      "chainId": 9745,
+      "addresses": {
+        "morpho": "0x2fF74A46536f5c67ef5A42FD5B4e2Ed8A2cee249",
+        "adaptiveCurveIrm": "0xf37f73028b5B4ebAdC055Deb24B1cde271CF0f71"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "soneium": {
+      "chain": "soneium",
+      "chainId": 1868,
+      "addresses": {
+        "morpho": "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a",
+        "adaptiveCurveIrm": "0x68F9b666b984527A7c145Db4103Cc6d3171C797F"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
+      "updated": "2026-02-03"
+    },
+    "zircuit": {
+      "chain": "zircuit",
+      "chainId": 48900,
+      "addresses": {
+        "morpho": "0xA902A365Fe10B4a94339B5A2Dc64F60c1486a5c8",
+        "adaptiveCurveIrm": "0xBADb1809ecF658F36e31CcC980F72de029e1cE46"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true
+      },
+      "source": "morpho-contracts",
+      "sourceUrl": "https://docs.morpho.org/contracts/addresses",
       "updated": "2026-02-03"
     }
   }

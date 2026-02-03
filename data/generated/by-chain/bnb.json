@@ -1,0 +1,24 @@
+{
+  "chain": "bnb",
+  "chainId": 56,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+          "adaptiveCurveIrm": "0x7112D95cB5f6b13bF5F5B94a373bB3b2B381F979"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
+        }
+      }
+    }
+  }
+}

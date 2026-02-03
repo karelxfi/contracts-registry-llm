@@ -5,6 +5,7 @@
   "website": "https://uniswap.org",
   "github": "https://github.com/Uniswap",
   "docs": "https://docs.uniswap.org",
+  "defillamaId": "uniswap-v3",
   "status": "complete",
   "contracts": {
     "UniswapV3Factory": {
@@ -12,8 +13,15 @@
       "type": "core",
       "description": "Core factory contract for creating Uniswap V3 liquidity pools",
       "proxy": false,
-      "keyFunctions": ["createPool", "enableFeeAmount", "setOwner"],
-      "useCases": ["pool-creation", "fee-configuration"]
+      "keyFunctions": [
+        "createPool",
+        "enableFeeAmount",
+        "setOwner"
+      ],
+      "useCases": [
+        "pool-creation",
+        "fee-configuration"
+      ]
     },
     "NonfungiblePositionManager": {
       "name": "Nonfungible Position Manager",
@@ -27,7 +35,10 @@
         "collect",
         "burn"
       ],
-      "useCases": ["liquidity-management", "position-tracking"]
+      "useCases": [
+        "liquidity-management",
+        "position-tracking"
+      ]
     },
     "SwapRouter": {
       "name": "Swap Router",
@@ -40,7 +51,9 @@
         "exactOutputSingle",
         "exactOutput"
       ],
-      "useCases": ["token-swaps"]
+      "useCases": [
+        "token-swaps"
+      ]
     },
     "SwapRouter02": {
       "name": "Swap Router 02",
@@ -53,15 +66,25 @@
         "exactOutputSingle",
         "exactOutput"
       ],
-      "useCases": ["token-swaps", "multi-hop-swaps"]
+      "useCases": [
+        "token-swaps",
+        "multi-hop-swaps"
+      ]
     },
     "UniversalRouter": {
       "name": "Universal Router",
       "type": "core",
       "description": "Current preferred entrypoint for ERC20 and NFT swaps with support for multiple protocols",
       "proxy": false,
-      "keyFunctions": ["execute", "collectRewards"],
-      "useCases": ["token-swaps", "nft-swaps", "cross-protocol-routing"]
+      "keyFunctions": [
+        "execute",
+        "collectRewards"
+      ],
+      "useCases": [
+        "token-swaps",
+        "nft-swaps",
+        "cross-protocol-routing"
+      ]
     },
     "Quoter": {
       "name": "Quoter",
@@ -74,7 +97,10 @@
         "quoteExactOutputSingle",
         "quoteExactOutput"
       ],
-      "useCases": ["price-estimation", "simulation"]
+      "useCases": [
+        "price-estimation",
+        "simulation"
+      ]
     },
     "QuoterV2": {
       "name": "Quoter V2",
@@ -87,15 +113,24 @@
         "quoteExactOutputSingle",
         "quoteExactOutput"
       ],
-      "useCases": ["price-estimation", "simulation", "gas-estimation"]
+      "useCases": [
+        "price-estimation",
+        "simulation",
+        "gas-estimation"
+      ]
     },
     "V3Migrator": {
       "name": "V3 Migrator",
       "type": "utility",
       "description": "Utility contract for migrating liquidity from Uniswap V2 to V3",
       "proxy": false,
-      "keyFunctions": ["migrate", "createAndInitializePoolIfNecessary"],
-      "useCases": ["liquidity-migration"]
+      "keyFunctions": [
+        "migrate",
+        "createAndInitializePoolIfNecessary"
+      ],
+      "useCases": [
+        "liquidity-migration"
+      ]
     },
     "v3StakerAddress": {
       "name": "V3 Staker",
@@ -108,67 +143,102 @@
         "unstakeToken",
         "claimReward"
       ],
-      "useCases": ["liquidity-mining", "incentives"]
+      "useCases": [
+        "liquidity-mining",
+        "incentives"
+      ]
     },
     "TickLens": {
       "name": "Tick Lens",
       "type": "utility",
       "description": "Lens contract for querying tick data and liquidity information from pools",
       "proxy": false,
-      "keyFunctions": ["getPopulatedTicksInWord"],
-      "useCases": ["tick-inspection", "liquidity-analysis"]
+      "keyFunctions": [
+        "getPopulatedTicksInWord"
+      ],
+      "useCases": [
+        "tick-inspection",
+        "liquidity-analysis"
+      ]
     },
     "Multicall": {
       "name": "Multicall",
       "type": "utility",
       "description": "Batch call utility for executing multiple contract calls in a single transaction",
       "proxy": false,
-      "keyFunctions": ["multicall"],
-      "useCases": ["batch-operations"]
+      "keyFunctions": [
+        "multicall"
+      ],
+      "useCases": [
+        "batch-operations"
+      ]
     },
     "Multicall2": {
       "name": "Multicall 2",
       "type": "utility",
       "description": "Enhanced multicall with additional features",
       "proxy": false,
-      "keyFunctions": ["aggregate", "tryAggregate", "tryBlockAndAggregate"],
-      "useCases": ["batch-operations"]
+      "keyFunctions": [
+        "aggregate",
+        "tryAggregate",
+        "tryBlockAndAggregate"
+      ],
+      "useCases": [
+        "batch-operations"
+      ]
     },
     "Permit2": {
       "name": "Permit2",
       "type": "utility",
       "description": "Signature-based token approval standard for gasless approvals",
       "proxy": false,
-      "keyFunctions": ["permit", "approve", "transferFrom"],
-      "useCases": ["token-approvals", "gasless-transactions"]
+      "keyFunctions": [
+        "permit",
+        "approve",
+        "transferFrom"
+      ],
+      "useCases": [
+        "token-approvals",
+        "gasless-transactions"
+      ]
     },
     "NFTDescriptor": {
       "name": "NFT Descriptor",
       "type": "utility",
       "description": "Library contract for generating on-chain NFT metadata",
       "proxy": false,
-      "useCases": ["nft-metadata"]
+      "useCases": [
+        "nft-metadata"
+      ]
     },
     "NonfungibleTokenPositionDescriptor": {
       "name": "Nonfungible Token Position Descriptor",
       "type": "utility",
       "description": "Descriptor contract for rendering position NFT metadata and visuals",
       "proxy": false,
-      "useCases": ["nft-visualization", "position-metadata"]
+      "useCases": [
+        "nft-visualization",
+        "position-metadata"
+      ]
     },
     "ProxyAdmin": {
       "name": "Proxy Admin",
       "type": "governance",
       "description": "OpenZeppelin proxy administration contract for managing upgradeable contracts",
       "proxy": false,
-      "useCases": ["proxy-management", "upgrades"]
+      "useCases": [
+        "proxy-management",
+        "upgrades"
+      ]
     },
     "TransparentUpgradeableProxy": {
       "name": "Transparent Upgradeable Proxy",
       "type": "governance",
       "description": "OpenZeppelin transparent proxy pattern for upgradeable contracts",
       "proxy": true,
-      "useCases": ["upgradeability"]
+      "useCases": [
+        "upgradeability"
+      ]
     }
   },
   "deployments": {
@@ -194,7 +264,9 @@
         "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/ethereum-deployments",
       "updated": "2025-02-02"
     },
@@ -219,7 +291,9 @@
         "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/arbitrum-deployments",
       "updated": "2025-02-02"
     },
@@ -239,7 +313,9 @@
         "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/optimism-deployments",
       "updated": "2025-02-02"
     },
@@ -264,7 +340,9 @@
         "v3StakerAddress": "0xe34139463bA50bD61336E0c446Bd8C0867c6fE65"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/polygon-deployments",
       "updated": "2025-02-02"
     },
@@ -287,7 +365,9 @@
         "v3StakerAddress": "0xCA9D0668C600c4dd07ca54Be1615FE5CDFd76Ac3"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/avax-deployments",
       "updated": "2025-02-02"
     },
@@ -310,7 +390,9 @@
         "v3StakerAddress": "0x42bE4D6527829FeFA1493e1fb9F3676d2425C3C1"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/base-deployments",
       "updated": "2025-02-02"
     },
@@ -333,7 +415,9 @@
         "v3StakerAddress": "0x49B53C35AF9072fC71767577BF6380a88EE32C71"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/bnb-deployments",
       "updated": "2025-02-02"
     },
@@ -355,7 +439,9 @@
         "v3StakerAddress": "0xEcAF7c276f746170642e97De961f2f0361e1aCc8"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/blast-deployments",
       "updated": "2025-02-02"
     },
@@ -376,7 +462,9 @@
         "v3StakerAddress": "0x6586FB35393abF7Ff454977a9b3c912d218791C6"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/celo-deployments",
       "updated": "2025-02-02"
     },
@@ -399,7 +487,9 @@
         "v3StakerAddress": "0xf84268FA8EB857c2e4298720C1C617178F5e78e1"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/ZKsync-deployments",
       "updated": "2025-02-02"
     },
@@ -416,7 +506,9 @@
         "SwapRouter02": "0x73855d06de49d0fe4a9c42636ba96c62da12ff9c"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/unichain-deployments",
       "updated": "2025-02-02"
     },
@@ -437,7 +529,9 @@
         "UniversalRouter": "0x0d97dc33264bfc1c226207428a79b26757fb9dc3"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/monad-deployments",
       "updated": "2025-02-02"
     },
@@ -457,7 +551,9 @@
         "v3StakerAddress": "0x5eF5A6923d2f566F65f363b78EF7A88ab1E4206f"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/Zora-deployments",
       "updated": "2025-02-02"
     },
@@ -477,7 +573,9 @@
         "UniversalRouter": "0x8ac7bee993bb44dab564ea4bc9ea67bf9eb5e743"
       },
       "verified": true,
-      "source": ["uniswap-docs"],
+      "source": [
+        "uniswap-docs"
+      ],
       "sourceUrl": "https://docs.uniswap.org/contracts/v3/reference/deployments/WorldChain-deployments",
       "updated": "2025-02-02"
     }

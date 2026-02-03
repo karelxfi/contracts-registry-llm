@@ -1,0 +1,24 @@
+{
+  "chain": "bitlayer",
+  "chainId": 200901,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xAeA7eFF1bD3c875c18ef50F0387892dF181431C6",
+          "adaptiveCurveIrm": "0xefB565442B9Eb740B50Cf928C14d21c0111254F9"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
+        }
+      }
+    }
+  }
+}

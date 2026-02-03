@@ -6,7 +6,13 @@
   "website": "https://aave.com",
   "github": "",
   "docs": "",
-  "tags": ["lending", "ethereum", "polygon", "avalanche"],
+  "defillamaId": "aave-v2",
+  "tags": [
+    "lending",
+    "ethereum",
+    "polygon",
+    "avalanche"
+  ],
   "contracts": {
     "lendingPool": {
       "name": "LendingPool",
@@ -15,7 +21,11 @@
       "proxy": true,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["lending", "borrowing", "liquidity"]
+      "useCases": [
+        "lending",
+        "borrowing",
+        "liquidity"
+      ]
     },
     "poolAddressesProvider": {
       "name": "PoolAddressesProvider",
@@ -24,7 +34,9 @@
       "proxy": false,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["address-registry"]
+      "useCases": [
+        "address-registry"
+      ]
     },
     "poolConfigurator": {
       "name": "PoolConfigurator",
@@ -33,7 +45,9 @@
       "proxy": true,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["configuration"]
+      "useCases": [
+        "configuration"
+      ]
     },
     "aaveOracle": {
       "name": "AaveOracle",
@@ -42,7 +56,9 @@
       "proxy": false,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["price-feeds"]
+      "useCases": [
+        "price-feeds"
+      ]
     },
     "protocolDataProvider": {
       "name": "ProtocolDataProvider",
@@ -51,7 +67,9 @@
       "proxy": false,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["data-query"]
+      "useCases": [
+        "data-query"
+      ]
     },
     "collector": {
       "name": "Collector",
@@ -60,7 +78,9 @@
       "proxy": false,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["treasury"]
+      "useCases": [
+        "treasury"
+      ]
     }
   },
   "deployments": {
@@ -90,7 +110,9 @@
         "protocolDataProvider": true,
         "collector": true
       },
-      "source": ["aave-address-book"],
+      "source": [
+        "aave-address-book"
+      ],
       "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
       "updated": "2025-01-31"
     },
@@ -120,7 +142,9 @@
         "protocolDataProvider": true,
         "collector": true
       },
-      "source": ["aave-address-book"],
+      "source": [
+        "aave-address-book"
+      ],
       "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
       "updated": "2025-01-31"
     },
@@ -150,7 +174,9 @@
         "protocolDataProvider": true,
         "collector": true
       },
-      "source": ["aave-address-book"],
+      "source": [
+        "aave-address-book"
+      ],
       "sourceUrl": "https://github.com/bgd-labs/aave-address-book",
       "updated": "2025-01-31"
     }

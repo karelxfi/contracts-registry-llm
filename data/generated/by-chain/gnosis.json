@@ -13,6 +13,7 @@
     },
     "gecko_id": "gnosis",
     "cmcId": "1659",
+    "defillamaId": "xdai",
     "explorers": {
       "primary": {
         "name": "Gnosis Explorer",
@@ -73,6 +74,23 @@
         },
         "deploymentBlocks": {},
         "verified": true
+      }
+    },
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xB74D4dd451E250bC325AFF0556D717e4E2351c66",
+          "adaptiveCurveIrm": "0xae529333703C34b8976BaB9D04AF3f0B9Cff05c5"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
+        }
       }
     }
   }

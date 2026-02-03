@@ -350,7 +350,7 @@
         "adaptiveCurveIrm",
         "bundler"
       ],
-      "hyperliquid-l1": [
+      "hyperevm": [
         "morpho",
         "adaptiveCurveIrm",
         "bundler"
@@ -394,6 +394,38 @@
         "morpho",
         "adaptiveCurveIrm",
         "bundler"
+      ],
+      "avalanche": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "bitlayer": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "bnb": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "botanix": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "gnosis": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "plasma": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "soneium": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ],
+      "zircuit": [
+        "morpho",
+        "adaptiveCurveIrm"
       ]
     }
   },
@@ -478,6 +510,10 @@
         "poolDataProvider",
         "aclManager",
         "collector"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
       ]
     },
     "arbitrum": {
@@ -598,6 +634,10 @@
         "poolDataProvider",
         "aclManager",
         "collector"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
       ]
     },
     "metis": {
@@ -641,6 +681,10 @@
         "poolDataProvider",
         "aclManager",
         "collector"
+      ],
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
       ]
     },
     "bsc": {
@@ -811,7 +855,7 @@
         "bundler"
       ]
     },
-    "hyperliquid-l1": {
+    "hyperevm": {
       "morpho-blue": [
         "morpho",
         "adaptiveCurveIrm",
@@ -859,24 +903,54 @@
         "adaptiveCurveIrm",
         "bundler"
       ]
+    },
+    "bitlayer": {
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ]
+    },
+    "bnb": {
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ]
+    },
+    "botanix": {
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ]
+    },
+    "plasma": {
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ]
+    },
+    "zircuit": {
+      "morpho-blue": [
+        "morpho",
+        "adaptiveCurveIrm"
+      ]
     }
   },
   "stats": {
-    "totalVerified": 258,
+    "totalVerified": 274,
     "byChain": {
       "ethereum": 26,
       "polygon": 17,
-      "avalanche": 13,
+      "avalanche": 15,
       "arbitrum": 12,
       "base": 11,
       "linea": 11,
       "sonic": 10,
       "celo": 10,
       "scroll": 11,
-      "soneium": 7,
+      "soneium": 9,
       "metis": 7,
       "optimism": 13,
-      "gnosis": 7,
+      "gnosis": 9,
       "bsc": 8,
       "zksync-era": 8,
       "fantom": 7,
@@ -897,13 +971,18 @@
       "etherlink": 3,
       "tac": 3,
       "lisk": 3,
-      "hyperliquid-l1": 3,
+      "hyperevm": 3,
       "sei": 3,
       "zerog": 3,
       "monad": 3,
       "stable": 3,
       "cronos": 3,
-      "abstract": 3
+      "abstract": 3,
+      "bitlayer": 2,
+      "bnb": 2,
+      "botanix": 2,
+      "plasma": 2,
+      "zircuit": 2
     }
   }
 }

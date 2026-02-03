@@ -1,0 +1,24 @@
+{
+  "chain": "zircuit",
+  "chainId": 48900,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xA902A365Fe10B4a94339B5A2Dc64F60c1486a5c8",
+          "adaptiveCurveIrm": "0xBADb1809ecF658F36e31CcC980F72de029e1cE46"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "chain": "botanix",
+  "chainId": 3636,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x8183d41556Be257fc7aAa4A48396168C8eF2bEAD",
+          "adaptiveCurveIrm": "0x28021Ef0269C83302c09D2A89f7b202C4AeDf0C2"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true
+        }
+      }
+    }
+  }
+}

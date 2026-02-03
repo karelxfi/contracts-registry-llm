@@ -5,6 +5,7 @@
   "website": "https://lido.fi",
   "github": "https://github.com/lidofinance",
   "docs": "https://docs.lido.fi",
+  "defillamaId": "lido",
   "description": "Liquid staking protocol for Ethereum, allowing users to stake ETH and receive stETH tokens representing their staked position",
   "status": "complete",
   "contracts": {
@@ -14,8 +15,15 @@
       "description": "Main liquid staking token representing staked ETH with rebasing functionality",
       "proxy": true,
       "keyEvents": [],
-      "keyFunctions": ["submit", "withdraw", "transfer"],
-      "useCases": ["liquid-staking", "defi-collateral"]
+      "keyFunctions": [
+        "submit",
+        "withdraw",
+        "transfer"
+      ],
+      "useCases": [
+        "liquid-staking",
+        "defi-collateral"
+      ]
     },
     "wstETH": {
       "name": "Wrapped stETH",
@@ -23,8 +31,14 @@
       "description": "Non-rebasing wrapped version of stETH for DeFi integration",
       "proxy": false,
       "keyEvents": [],
-      "keyFunctions": ["wrap", "unwrap"],
-      "useCases": ["defi-collateral", "bridging"]
+      "keyFunctions": [
+        "wrap",
+        "unwrap"
+      ],
+      "useCases": [
+        "defi-collateral",
+        "bridging"
+      ]
     },
     "withdrawalQueue": {
       "name": "Withdrawal Queue ERC721",
@@ -32,8 +46,13 @@
       "description": "Manages ETH withdrawal requests as NFTs",
       "proxy": true,
       "keyEvents": [],
-      "keyFunctions": ["requestWithdrawals", "claimWithdrawals"],
-      "useCases": ["withdrawals"]
+      "keyFunctions": [
+        "requestWithdrawals",
+        "claimWithdrawals"
+      ],
+      "useCases": [
+        "withdrawals"
+      ]
     },
     "stakingRouter": {
       "name": "Staking Router",
@@ -41,8 +60,12 @@
       "description": "Routes user deposits to different staking modules",
       "proxy": true,
       "keyEvents": [],
-      "keyFunctions": ["deposit"],
-      "useCases": ["staking"]
+      "keyFunctions": [
+        "deposit"
+      ],
+      "useCases": [
+        "staking"
+      ]
     },
     "accounting": {
       "name": "Accounting",
@@ -51,7 +74,9 @@
       "proxy": true,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["accounting"]
+      "useCases": [
+        "accounting"
+      ]
     },
     "accountingOracle": {
       "name": "Accounting Oracle",
@@ -59,8 +84,12 @@
       "description": "Reports account balances and validator states from Beacon Chain",
       "proxy": true,
       "keyEvents": [],
-      "keyFunctions": ["submitReportData"],
-      "useCases": ["oracle"]
+      "keyFunctions": [
+        "submitReportData"
+      ],
+      "useCases": [
+        "oracle"
+      ]
     },
     "nodeOperatorsRegistry": {
       "name": "Node Operators Registry",
@@ -68,8 +97,13 @@
       "description": "Manages curated/vetted node operators",
       "proxy": true,
       "keyEvents": [],
-      "keyFunctions": ["addNodeOperator", "setNodeOperatorStakingLimit"],
-      "useCases": ["governance"]
+      "keyFunctions": [
+        "addNodeOperator",
+        "setNodeOperatorStakingLimit"
+      ],
+      "useCases": [
+        "governance"
+      ]
     },
     "ldoToken": {
       "name": "LDO Token",
@@ -77,8 +111,13 @@
       "description": "Lido DAO governance token",
       "proxy": false,
       "keyEvents": [],
-      "keyFunctions": ["transfer", "approve"],
-      "useCases": ["governance"]
+      "keyFunctions": [
+        "transfer",
+        "approve"
+      ],
+      "useCases": [
+        "governance"
+      ]
     },
     "lidoLocator": {
       "name": "Lido Locator",
@@ -87,7 +126,9 @@
       "proxy": true,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["registry"]
+      "useCases": [
+        "registry"
+      ]
     },
     "withdrawalVault": {
       "name": "Withdrawal Vault",
@@ -96,7 +137,9 @@
       "proxy": true,
       "keyEvents": [],
       "keyFunctions": [],
-      "useCases": ["withdrawals"]
+      "useCases": [
+        "withdrawals"
+      ]
     }
   },
   "deployments": {
@@ -127,7 +170,10 @@
         "withdrawalVault": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs", "lido-github"],
+      "source": [
+        "lido-docs",
+        "lido-github"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -142,7 +188,9 @@
         "ldoToken": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -159,7 +207,9 @@
         "ldoToken": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -172,7 +222,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -185,7 +237,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -198,7 +252,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -211,7 +267,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -224,7 +282,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -237,7 +297,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     },
@@ -250,7 +312,9 @@
         "wstETH": true
       },
       "deploymentBlocks": {},
-      "source": ["lido-docs"],
+      "source": [
+        "lido-docs"
+      ],
       "sourceUrl": "https://docs.lido.fi/deployed-contracts/",
       "updated": "2025-02-02"
     }
