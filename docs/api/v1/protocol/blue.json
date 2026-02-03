@@ -10,7 +10,27 @@
     "lending",
     "peer-to-peer",
     "permissionless",
-    "immutable"
+    "immutable",
+    "ethereum",
+    "base",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "world-chain",
+    "fraxtal",
+    "scroll",
+    "ink",
+    "unichain",
+    "sonic",
+    "hemi",
+    "mode",
+    "corn",
+    "plume-mainnet",
+    "camp",
+    "katana",
+    "etherlink",
+    "tac",
+    "lisk"
   ],
   "contracts": {
     "morpho": {
@@ -133,21 +153,19 @@
       "addresses": {
         "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
         "adaptiveCurveIrm": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
-        "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+        "bundler": "0x6566194141eefa99Af43Bb5Aa71460Ca2Dc90245"
       },
       "deploymentBlocks": {
-        "morpho": 18883845,
-        "adaptiveCurveIrm": 18883846,
-        "bundler": 18883847
+        "morpho": null
       },
       "verified": {
         "morpho": true,
         "adaptiveCurveIrm": true,
         "bundler": true
       },
-      "source": "docs",
-      "sourceUrl": "https://docs.morpho.org/deployments",
-      "updated": "2025-01-31"
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
     },
     "base": {
       "chain": "base",
@@ -155,36 +173,559 @@
       "addresses": {
         "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
         "adaptiveCurveIrm": "0x46415998764C29aB2a25CbeA6254146D50D22687",
-        "bundler": "0x23055618898e202386e6c13955a58D3C68200BFB"
+        "bundler": "0x6BFd8137e702540E7A42B74178A4a49Ba43920C4"
       },
       "deploymentBlocks": {
-        "morpho": 11380000
+        "morpho": null
       },
       "verified": {
         "morpho": true,
         "adaptiveCurveIrm": true,
         "bundler": true
       },
-      "source": "docs",
-      "sourceUrl": "https://docs.morpho.org/deployments",
-      "updated": "2025-01-31"
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
     },
-    "arbitrum-one": {
-      "chain": "arbitrum-one",
+    "polygon": {
+      "chain": "polygon",
+      "chainId": 137,
+      "addresses": {
+        "morpho": "0x1bF0c2541F820E775182832f06c0B7Fc27A25f67",
+        "adaptiveCurveIrm": "0xe675A2161D4a6E2de2eeD70ac98EEBf257FBF0B0",
+        "bundler": "0x2d9C3A9E67c966C711208cc78b34fB9E9f8db589"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "arbitrum": {
+      "chain": "arbitrum",
       "chainId": 42161,
       "addresses": {
         "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
         "adaptiveCurveIrm": "0x66F30587FB8D4206918deb78ecA7d5eBbafD06DA",
-        "bundler": "0x4095F064B8d3c3548A3bebfd0Bbfd04750E30077"
+        "bundler": "0x1FA4431bC113D308beE1d46B0e98Cb805FB48C13"
+      },
+      "deploymentBlocks": {
+        "morpho": null
       },
       "verified": {
         "morpho": true,
         "adaptiveCurveIrm": true,
         "bundler": true
       },
-      "source": "docs",
-      "sourceUrl": "https://docs.morpho.org/deployments",
-      "updated": "2025-01-31"
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "optimism": {
+      "chain": "optimism",
+      "chainId": 10,
+      "addresses": {
+        "morpho": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
+        "adaptiveCurveIrm": "0x8cD70A8F399428456b29546BC5dBe10ab6a06ef6",
+        "bundler": "0xFBCd3C258feB131D8E038F2A3a670A7bE0507C05"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "world-chain": {
+      "chain": "world-chain",
+      "chainId": 480,
+      "addresses": {
+        "morpho": "0xE741BC7c34758b4caE05062794E8Ae24978AF432",
+        "adaptiveCurveIrm": "0x34E99D604751a72cF8d0CFDf87069292d82De472",
+        "bundler": "0x3D07BF2FFb23248034bF704F3a4786F1ffE2a448"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "fraxtal": {
+      "chain": "fraxtal",
+      "chainId": 252,
+      "addresses": {
+        "morpho": "0xa6030627d724bA78a59aCf43Be7550b4C5a0653b",
+        "adaptiveCurveIrm": "0xA0D4D77b5D9933073572E19C172BFE866312673b",
+        "bundler": "0xA7a414823Ef0F8CFb2c4f67f2F445DA940641d91"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "scroll": {
+      "chain": "scroll",
+      "chainId": 534352,
+      "addresses": {
+        "morpho": "0x2d012EdbAdc37eDc2BC62791B666f9193FDF5a55",
+        "adaptiveCurveIrm": "0xa5EA7500A27C0079961D93366A6e93aafF18CB90",
+        "bundler": "0x60F9159d4dCd724e743212416FD57d8aC0B60768"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "ink": {
+      "chain": "ink",
+      "chainId": 57073,
+      "addresses": {
+        "morpho": "0x857f3EefE8cbda3Bc49367C996cd664A880d3042",
+        "adaptiveCurveIrm": "0x9515407b1512F53388ffE699524100e7270Ee57B",
+        "bundler": "0x7db0F1E2bf1f47ec82220090F388d75D8B9BB6BC"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "unichain": {
+      "chain": "unichain",
+      "chainId": 1301,
+      "addresses": {
+        "morpho": "0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A",
+        "adaptiveCurveIrm": "0x9a6061d51743B31D2c3Be75D83781Fa423f53F0E",
+        "bundler": "0x7DD85759182495AF7F6757DA75036d24A9B58bc3"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "sonic": {
+      "chain": "sonic",
+      "chainId": 146,
+      "addresses": {
+        "morpho": "0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f",
+        "adaptiveCurveIrm": "0xDEfCf242226425f93d8DD0e314735C28517C473F",
+        "bundler": "0xB06F1Ad8c908b958E596c42973f67F2f1d9a9afF"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "hemi": {
+      "chain": "hemi",
+      "chainId": 743111,
+      "addresses": {
+        "morpho": "0xa4Ca2c2e25b97DA19879201bA49422bc6f181f42",
+        "adaptiveCurveIrm": "0xdEbdEa31624552DF904A065221cD14088ABDeD70",
+        "bundler": "0x8eDa6E01a20E3Cd90B3B2AF6F790cB8FADEf3Ea8"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "mode": {
+      "chain": "mode",
+      "chainId": 34443,
+      "addresses": {
+        "morpho": "0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564",
+        "adaptiveCurveIrm": "0xE3d46Ae190Cb39ccA3655E966DcEF96b4eAe1d1c",
+        "bundler": "0xFEA0edFa081C8D5960Ec9Bf6684981dB1834305d"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "corn": {
+      "chain": "corn",
+      "chainId": 21000000,
+      "addresses": {
+        "morpho": "0xc2B1E031540e3F3271C5F3819F0cC7479a8DdD90",
+        "adaptiveCurveIrm": "0x58a42117d753a0e69694545DfA19d64c2fB759fB",
+        "bundler": "0x086889F9bdE8349512dD77088A7114E6C1c42Af7"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "plume-mainnet": {
+      "chain": "plume-mainnet",
+      "chainId": 98865,
+      "addresses": {
+        "morpho": "0x42b18785CE0Aed7BF7Ca43a39471ED4C0A3e0bB5",
+        "adaptiveCurveIrm": "0x7420302Ddd469031Cd2282cd64225cCd46F581eA",
+        "bundler": "0x5437C8788f4CFbaA55be6FBf30379bc7dd7f69C3"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "camp": {
+      "chain": "camp",
+      "chainId": 325000,
+      "addresses": {
+        "morpho": "0xc7CAd9B1377Eb8103397Cb07Cb5c4f03eb2eBEa8",
+        "adaptiveCurveIrm": "0xeEccdD33c0C06d7DDa31E3C4a1Cdb35a2A756246",
+        "bundler": "0xc1A86b3a552C5a34e1ecc910341A64Cc89b2CB01"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "katana": {
+      "chain": "katana",
+      "chainId": 1088,
+      "addresses": {
+        "morpho": "0xD50F2DffFd62f94Ee4AEd9ca05C61d0753268aBc",
+        "adaptiveCurveIrm": "0x4F708C0ae7deD3d74736594C2109C2E3c065B428",
+        "bundler": "0xA8C5e23C9C0DF2b6fF716486c6bBEBB6661548C8"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "etherlink": {
+      "chain": "etherlink",
+      "chainId": 42793,
+      "addresses": {
+        "morpho": "0xbCE7364E63C3B13C73E9977a83c9704E2aCa876e",
+        "adaptiveCurveIrm": "0xC1523BE776e66ba07b609b1914D0925278f21FE5",
+        "bundler": "0x69dc8086191437b55775b79C730BB3876397e7D1"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "tac": {
+      "chain": "tac",
+      "chainId": 8866,
+      "addresses": {
+        "morpho": "0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c",
+        "adaptiveCurveIrm": "0x7E82b16496fA8CC04935528dA7F5A2C684A3C7A3",
+        "bundler": "0x84b189823D0f84c36728Bb3335dD8C833564e72f"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "lisk": {
+      "chain": "lisk",
+      "chainId": 1135,
+      "addresses": {
+        "morpho": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+        "adaptiveCurveIrm": "0x5576629f21D528A8c3e06C338dDa907B94563902",
+        "bundler": "0xD96E5e02580C4EAfE15B5537b25eE3dEe5861e00"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "hyperliquid-l1": {
+      "chain": "hyperliquid-l1",
+      "chainId": 998,
+      "addresses": {
+        "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+        "adaptiveCurveIrm": "0xD4a426F010986dCad727e8dd6eed44cA4A9b7483",
+        "bundler": "0xa3F50477AfA601C771874260A3B34B40e244Fa0e"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "sei": {
+      "chain": "sei",
+      "chainId": 1329,
+      "addresses": {
+        "morpho": "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c",
+        "adaptiveCurveIrm": "0x6eFA8e3Aa8279eB2fd46b6083A9E52dA72EA56c4",
+        "bundler": "0xF9457356F18A3349Bb317Ac144c3Bcc62e5761aD"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "zerog": {
+      "chain": "zerog",
+      "chainId": 20240,
+      "addresses": {
+        "morpho": "0x9CDD13a2212D94C4f12190cA30783B743E83C89e",
+        "adaptiveCurveIrm": "0xf52e20C42FEc624819D4184226C4777D7cbd767e",
+        "bundler": "0xbDaFC7ceF85C5fF69164330F521089C9E15DDDae"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "linea": {
+      "chain": "linea",
+      "chainId": 59144,
+      "addresses": {
+        "morpho": "0x6B0D716aC0A45536172308e08fC2C40387262c9F",
+        "adaptiveCurveIrm": "0x85C2Ef4Bd69f42D7Da19Fb9dcdD7Fb8d0F59cDeE",
+        "bundler": "0x1Ee8Ec299E8014760D50A4E3CfC3b44Cc2242625"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "monad": {
+      "chain": "monad",
+      "chainId": null,
+      "addresses": {
+        "morpho": "0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee",
+        "adaptiveCurveIrm": "0x09475a3D6eA8c314c592b1a3799bDE044E2F400F",
+        "bundler": "0x82b684483e844422FD339df0b67b3B111F02c66E"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "stable": {
+      "chain": "stable",
+      "chainId": 101010,
+      "addresses": {
+        "morpho": "0xa40103088A899514E3fe474cD3cc5bf811b1102e",
+        "adaptiveCurveIrm": "0x41e846FC8108b8527C1D4EDB4c9564E56442940f",
+        "bundler": "0xA0bb114F927dF03d9a1a639b9c71F71B0FaFDf1B"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "cronos": {
+      "chain": "cronos",
+      "chainId": 25,
+      "addresses": {
+        "morpho": "0xDF9a1DC07e5dEe5ccCCaBeC35e446C70fAF7434e",
+        "adaptiveCurveIrm": "0x1Db002C086439d55B9f33E6c0693Eb850F7c0607",
+        "bundler": "0xb1c59fE6A0DCE25b804F6113C441Bf4F3a4Ab6bC"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "celo": {
+      "chain": "celo",
+      "chainId": 42220,
+      "addresses": {
+        "morpho": "0xd24ECdD8C1e0E57a4E26B1a7bbeAa3e95466A569",
+        "adaptiveCurveIrm": "0x683CAAADdfA2F42e24880E202676526d501a5dED",
+        "bundler": "0xbd142f98f847c170D51d8B23e5FEBc51FC9a67D9"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
+    },
+    "abstract": {
+      "chain": "abstract",
+      "chainId": 2741,
+      "addresses": {
+        "morpho": "0xc85CE8ffdA27b646D269516B8d0Fa6ec2E958B55",
+        "adaptiveCurveIrm": "0xd334eb112CfD1EB4a50FB871b7D9895EBB955C43",
+        "bundler": "0xc13A3Ca3B0120EE6121d1E0ca9Da22fDD7ed28Cd"
+      },
+      "deploymentBlocks": {
+        "morpho": null
+      },
+      "verified": {
+        "morpho": true,
+        "adaptiveCurveIrm": true,
+        "bundler": true
+      },
+      "source": "sdk",
+      "sourceUrl": "https://github.com/morpho-org/sdks",
+      "updated": "2026-02-03"
     }
   }
 }

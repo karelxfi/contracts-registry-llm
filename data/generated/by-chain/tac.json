@@ -1,0 +1,26 @@
+{
+  "chain": "tac",
+  "chainId": 8866,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c",
+          "adaptiveCurveIrm": "0x7E82b16496fA8CC04935528dA7F5A2C684A3C7A3",
+          "bundler": "0x84b189823D0f84c36728Bb3335dD8C833564e72f"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

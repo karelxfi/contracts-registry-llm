@@ -1,0 +1,26 @@
+{
+  "chain": "camp",
+  "chainId": 325000,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xc7CAd9B1377Eb8103397Cb07Cb5c4f03eb2eBEa8",
+          "adaptiveCurveIrm": "0xeEccdD33c0C06d7DDa31E3C4a1Cdb35a2A756246",
+          "bundler": "0xc1A86b3a552C5a34e1ecc910341A64Cc89b2CB01"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

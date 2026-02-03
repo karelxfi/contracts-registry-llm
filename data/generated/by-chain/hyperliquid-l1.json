@@ -1103,6 +1103,25 @@
         }
       }
     },
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+          "adaptiveCurveIrm": "0xD4a426F010986dCad727e8dd6eed44cA4A9b7483",
+          "bundler": "0xa3F50477AfA601C771874260A3B34B40e244Fa0e"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    },
     "morpho-v1": {
       "morpho-v1": {
         "name": "Morpho V1",

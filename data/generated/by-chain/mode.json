@@ -1,0 +1,26 @@
+{
+  "chain": "mode",
+  "chainId": 34443,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564",
+          "adaptiveCurveIrm": "0xE3d46Ae190Cb39ccA3655E966DcEF96b4eAe1d1c",
+          "bundler": "0xFEA0edFa081C8D5960Ec9Bf6684981dB1834305d"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

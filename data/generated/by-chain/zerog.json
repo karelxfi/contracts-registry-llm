@@ -1,0 +1,26 @@
+{
+  "chain": "zerog",
+  "chainId": 20240,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x9CDD13a2212D94C4f12190cA30783B743E83C89e",
+          "adaptiveCurveIrm": "0xf52e20C42FEc624819D4184226C4777D7cbd767e",
+          "bundler": "0xbDaFC7ceF85C5fF69164330F521089C9E15DDDae"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

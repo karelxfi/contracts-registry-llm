@@ -1,0 +1,26 @@
+{
+  "chain": "lisk",
+  "chainId": 1135,
+  "chainInfo": null,
+  "protocols": {
+    "morpho": {
+      "blue": {
+        "name": "Morpho Blue",
+        "type": "lending",
+        "addresses": {
+          "morpho": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+          "adaptiveCurveIrm": "0x5576629f21D528A8c3e06C338dDa907B94563902",
+          "bundler": "0xD96E5e02580C4EAfE15B5537b25eE3dEe5861e00"
+        },
+        "deploymentBlocks": {
+          "morpho": null
+        },
+        "verified": {
+          "morpho": true,
+          "adaptiveCurveIrm": true,
+          "bundler": true
+        }
+      }
+    }
+  }
+}

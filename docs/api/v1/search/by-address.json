@@ -4627,29 +4627,20 @@
     "chain": "ethereum",
     "verified": true
   },
-  "ethereum:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
+  "ethereum:0x6566194141eefa99af43bb5aa71460ca2dc90245": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
     "chain": "ethereum",
     "verified": true
   },
-  "0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": [
-    {
-      "protocol": "morpho",
-      "version": "blue",
-      "contract": "bundler",
-      "chain": "ethereum",
-      "verified": true
-    },
-    {
-      "protocol": "morpho",
-      "version": "blue",
-      "contract": "bundler",
-      "chain": "arbitrum-one",
-      "verified": true
-    }
-  ],
+  "0x6566194141eefa99af43bb5aa71460ca2dc90245": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "ethereum",
+    "verified": true
+  },
   "base:0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb": {
     "protocol": "morpho",
     "version": "blue",
@@ -4671,53 +4662,1152 @@
     "chain": "base",
     "verified": true
   },
-  "base:0x23055618898e202386e6c13955a58d3c68200bfb": {
+  "base:0x6bfd8137e702540e7a42b74178a4a49ba43920c4": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
     "chain": "base",
     "verified": true
   },
-  "0x23055618898e202386e6c13955a58d3c68200bfb": {
+  "0x6bfd8137e702540e7a42b74178a4a49ba43920c4": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
     "chain": "base",
     "verified": true
   },
-  "arbitrum-one:0x6c247b1f6182318877311737bac0844baa518f5e": {
+  "polygon:0x1bf0c2541f820e775182832f06c0b7fc27a25f67": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "morpho",
-    "chain": "arbitrum-one",
+    "chain": "polygon",
+    "verified": true
+  },
+  "0x1bf0c2541f820e775182832f06c0b7fc27a25f67": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "polygon",
+    "verified": true
+  },
+  "polygon:0xe675a2161d4a6e2de2eed70ac98eebf257fbf0b0": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "polygon",
+    "verified": true
+  },
+  "0xe675a2161d4a6e2de2eed70ac98eebf257fbf0b0": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "polygon",
+    "verified": true
+  },
+  "polygon:0x2d9c3a9e67c966c711208cc78b34fb9e9f8db589": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "polygon",
+    "verified": true
+  },
+  "0x2d9c3a9e67c966c711208cc78b34fb9e9f8db589": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "polygon",
+    "verified": true
+  },
+  "arbitrum:0x6c247b1f6182318877311737bac0844baa518f5e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "arbitrum",
     "verified": true
   },
   "0x6c247b1f6182318877311737bac0844baa518f5e": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "morpho",
-    "chain": "arbitrum-one",
+    "chain": "arbitrum",
     "verified": true
   },
-  "arbitrum-one:0x66f30587fb8d4206918deb78eca7d5ebbafd06da": {
+  "arbitrum:0x66f30587fb8d4206918deb78eca7d5ebbafd06da": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "adaptiveCurveIrm",
-    "chain": "arbitrum-one",
+    "chain": "arbitrum",
     "verified": true
   },
   "0x66f30587fb8d4206918deb78eca7d5ebbafd06da": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "adaptiveCurveIrm",
-    "chain": "arbitrum-one",
+    "chain": "arbitrum",
     "verified": true
   },
-  "arbitrum-one:0x4095f064b8d3c3548a3bebfd0bbfd04750e30077": {
+  "arbitrum:0x1fa4431bc113d308bee1d46b0e98cb805fb48c13": {
     "protocol": "morpho",
     "version": "blue",
     "contract": "bundler",
-    "chain": "arbitrum-one",
+    "chain": "arbitrum",
+    "verified": true
+  },
+  "0x1fa4431bc113d308bee1d46b0e98cb805fb48c13": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "arbitrum",
+    "verified": true
+  },
+  "optimism:0xce95afbb8ea029495c66020883f87aae8864af92": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "optimism",
+    "verified": true
+  },
+  "0xce95afbb8ea029495c66020883f87aae8864af92": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "optimism",
+    "verified": true
+  },
+  "optimism:0x8cd70a8f399428456b29546bc5dbe10ab6a06ef6": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "optimism",
+    "verified": true
+  },
+  "0x8cd70a8f399428456b29546bc5dbe10ab6a06ef6": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "optimism",
+    "verified": true
+  },
+  "optimism:0xfbcd3c258feb131d8e038f2a3a670a7be0507c05": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "optimism",
+    "verified": true
+  },
+  "0xfbcd3c258feb131d8e038f2a3a670a7be0507c05": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "optimism",
+    "verified": true
+  },
+  "world-chain:0xe741bc7c34758b4cae05062794e8ae24978af432": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "0xe741bc7c34758b4cae05062794e8ae24978af432": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "world-chain:0x34e99d604751a72cf8d0cfdf87069292d82de472": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "0x34e99d604751a72cf8d0cfdf87069292d82de472": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "world-chain:0x3d07bf2ffb23248034bf704f3a4786f1ffe2a448": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "0x3d07bf2ffb23248034bf704f3a4786f1ffe2a448": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "world-chain",
+    "verified": true
+  },
+  "fraxtal:0xa6030627d724ba78a59acf43be7550b4c5a0653b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "0xa6030627d724ba78a59acf43be7550b4c5a0653b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "fraxtal:0xa0d4d77b5d9933073572e19c172bfe866312673b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "0xa0d4d77b5d9933073572e19c172bfe866312673b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "fraxtal:0xa7a414823ef0f8cfb2c4f67f2f445da940641d91": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "0xa7a414823ef0f8cfb2c4f67f2f445da940641d91": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "fraxtal",
+    "verified": true
+  },
+  "scroll:0x2d012edbadc37edc2bc62791b666f9193fdf5a55": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "scroll",
+    "verified": true
+  },
+  "0x2d012edbadc37edc2bc62791b666f9193fdf5a55": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "scroll",
+    "verified": true
+  },
+  "scroll:0xa5ea7500a27c0079961d93366a6e93aaff18cb90": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "scroll",
+    "verified": true
+  },
+  "0xa5ea7500a27c0079961d93366a6e93aaff18cb90": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "scroll",
+    "verified": true
+  },
+  "scroll:0x60f9159d4dcd724e743212416fd57d8ac0b60768": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "scroll",
+    "verified": true
+  },
+  "0x60f9159d4dcd724e743212416fd57d8ac0b60768": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "scroll",
+    "verified": true
+  },
+  "ink:0x857f3eefe8cbda3bc49367c996cd664a880d3042": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "ink",
+    "verified": true
+  },
+  "0x857f3eefe8cbda3bc49367c996cd664a880d3042": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "ink",
+    "verified": true
+  },
+  "ink:0x9515407b1512f53388ffe699524100e7270ee57b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "ink",
+    "verified": true
+  },
+  "0x9515407b1512f53388ffe699524100e7270ee57b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "ink",
+    "verified": true
+  },
+  "ink:0x7db0f1e2bf1f47ec82220090f388d75d8b9bb6bc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "ink",
+    "verified": true
+  },
+  "0x7db0f1e2bf1f47ec82220090f388d75d8b9bb6bc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "ink",
+    "verified": true
+  },
+  "unichain:0x8f5ae9cddb9f68de460c77730b018ae7e04a140a": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "unichain",
+    "verified": true
+  },
+  "0x8f5ae9cddb9f68de460c77730b018ae7e04a140a": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "unichain",
+    "verified": true
+  },
+  "unichain:0x9a6061d51743b31d2c3be75d83781fa423f53f0e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "unichain",
+    "verified": true
+  },
+  "0x9a6061d51743b31d2c3be75d83781fa423f53f0e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "unichain",
+    "verified": true
+  },
+  "unichain:0x7dd85759182495af7f6757da75036d24a9b58bc3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "unichain",
+    "verified": true
+  },
+  "0x7dd85759182495af7f6757da75036d24a9b58bc3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "unichain",
+    "verified": true
+  },
+  "sonic:0xd6c916eb7542d0ad3f18aed0fcbd50c582cfa95f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "sonic",
+    "verified": true
+  },
+  "0xd6c916eb7542d0ad3f18aed0fcbd50c582cfa95f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "sonic",
+    "verified": true
+  },
+  "sonic:0xdefcf242226425f93d8dd0e314735c28517c473f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "sonic",
+    "verified": true
+  },
+  "0xdefcf242226425f93d8dd0e314735c28517c473f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "sonic",
+    "verified": true
+  },
+  "sonic:0xb06f1ad8c908b958e596c42973f67f2f1d9a9aff": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "sonic",
+    "verified": true
+  },
+  "0xb06f1ad8c908b958e596c42973f67f2f1d9a9aff": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "sonic",
+    "verified": true
+  },
+  "hemi:0xa4ca2c2e25b97da19879201ba49422bc6f181f42": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "hemi",
+    "verified": true
+  },
+  "0xa4ca2c2e25b97da19879201ba49422bc6f181f42": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "hemi",
+    "verified": true
+  },
+  "hemi:0xdebdea31624552df904a065221cd14088abded70": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "hemi",
+    "verified": true
+  },
+  "0xdebdea31624552df904a065221cd14088abded70": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "hemi",
+    "verified": true
+  },
+  "hemi:0x8eda6e01a20e3cd90b3b2af6f790cb8fadef3ea8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "hemi",
+    "verified": true
+  },
+  "0x8eda6e01a20e3cd90b3b2af6f790cb8fadef3ea8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "hemi",
+    "verified": true
+  },
+  "mode:0xd85ce6bd68487e0aafb0858fde1cd18c76840564": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "mode",
+    "verified": true
+  },
+  "0xd85ce6bd68487e0aafb0858fde1cd18c76840564": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "mode",
+    "verified": true
+  },
+  "mode:0xe3d46ae190cb39cca3655e966dcef96b4eae1d1c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "mode",
+    "verified": true
+  },
+  "0xe3d46ae190cb39cca3655e966dcef96b4eae1d1c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "mode",
+    "verified": true
+  },
+  "mode:0xfea0edfa081c8d5960ec9bf6684981db1834305d": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "mode",
+    "verified": true
+  },
+  "0xfea0edfa081c8d5960ec9bf6684981db1834305d": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "mode",
+    "verified": true
+  },
+  "corn:0xc2b1e031540e3f3271c5f3819f0cc7479a8ddd90": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "corn",
+    "verified": true
+  },
+  "0xc2b1e031540e3f3271c5f3819f0cc7479a8ddd90": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "corn",
+    "verified": true
+  },
+  "corn:0x58a42117d753a0e69694545dfa19d64c2fb759fb": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "corn",
+    "verified": true
+  },
+  "0x58a42117d753a0e69694545dfa19d64c2fb759fb": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "corn",
+    "verified": true
+  },
+  "corn:0x086889f9bde8349512dd77088a7114e6c1c42af7": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "corn",
+    "verified": true
+  },
+  "0x086889f9bde8349512dd77088a7114e6c1c42af7": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "corn",
+    "verified": true
+  },
+  "plume-mainnet:0x42b18785ce0aed7bf7ca43a39471ed4c0a3e0bb5": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "0x42b18785ce0aed7bf7ca43a39471ed4c0a3e0bb5": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "plume-mainnet:0x7420302ddd469031cd2282cd64225ccd46f581ea": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "0x7420302ddd469031cd2282cd64225ccd46f581ea": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "plume-mainnet:0x5437c8788f4cfbaa55be6fbf30379bc7dd7f69c3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "0x5437c8788f4cfbaa55be6fbf30379bc7dd7f69c3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "plume-mainnet",
+    "verified": true
+  },
+  "camp:0xc7cad9b1377eb8103397cb07cb5c4f03eb2ebea8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "camp",
+    "verified": true
+  },
+  "0xc7cad9b1377eb8103397cb07cb5c4f03eb2ebea8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "camp",
+    "verified": true
+  },
+  "camp:0xeeccdd33c0c06d7dda31e3c4a1cdb35a2a756246": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "camp",
+    "verified": true
+  },
+  "0xeeccdd33c0c06d7dda31e3c4a1cdb35a2a756246": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "camp",
+    "verified": true
+  },
+  "camp:0xc1a86b3a552c5a34e1ecc910341a64cc89b2cb01": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "camp",
+    "verified": true
+  },
+  "0xc1a86b3a552c5a34e1ecc910341a64cc89b2cb01": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "camp",
+    "verified": true
+  },
+  "katana:0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "katana",
+    "verified": true
+  },
+  "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "katana",
+    "verified": true
+  },
+  "katana:0x4f708c0ae7ded3d74736594c2109c2e3c065b428": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "katana",
+    "verified": true
+  },
+  "0x4f708c0ae7ded3d74736594c2109c2e3c065b428": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "katana",
+    "verified": true
+  },
+  "katana:0xa8c5e23c9c0df2b6ff716486c6bbebb6661548c8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "katana",
+    "verified": true
+  },
+  "0xa8c5e23c9c0df2b6ff716486c6bbebb6661548c8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "katana",
+    "verified": true
+  },
+  "etherlink:0xbce7364e63c3b13c73e9977a83c9704e2aca876e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "0xbce7364e63c3b13c73e9977a83c9704e2aca876e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "etherlink:0xc1523be776e66ba07b609b1914d0925278f21fe5": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "0xc1523be776e66ba07b609b1914d0925278f21fe5": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "etherlink:0x69dc8086191437b55775b79c730bb3876397e7d1": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "0x69dc8086191437b55775b79c730bb3876397e7d1": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "etherlink",
+    "verified": true
+  },
+  "tac:0x918b9f2e4b44e20c6423105bb6cceb71473ad35c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "tac",
+    "verified": true
+  },
+  "0x918b9f2e4b44e20c6423105bb6cceb71473ad35c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "tac",
+    "verified": true
+  },
+  "tac:0x7e82b16496fa8cc04935528da7f5a2c684a3c7a3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "tac",
+    "verified": true
+  },
+  "0x7e82b16496fa8cc04935528da7f5a2c684a3c7a3": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "tac",
+    "verified": true
+  },
+  "tac:0x84b189823d0f84c36728bb3335dd8c833564e72f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "tac",
+    "verified": true
+  },
+  "0x84b189823d0f84c36728bb3335dd8c833564e72f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "tac",
+    "verified": true
+  },
+  "lisk:0x00cd58deebd7a2f1c55daec715faf8aed5b27bf8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "lisk",
+    "verified": true
+  },
+  "0x00cd58deebd7a2f1c55daec715faf8aed5b27bf8": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "lisk",
+    "verified": true
+  },
+  "lisk:0x5576629f21d528a8c3e06c338dda907b94563902": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "lisk",
+    "verified": true
+  },
+  "0x5576629f21d528a8c3e06c338dda907b94563902": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "lisk",
+    "verified": true
+  },
+  "lisk:0xd96e5e02580c4eafe15b5537b25ee3dee5861e00": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "lisk",
+    "verified": true
+  },
+  "0xd96e5e02580c4eafe15b5537b25ee3dee5861e00": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "lisk",
+    "verified": true
+  },
+  "hyperliquid-l1:0x68e37de8d93d3496ae143f2e900490f6280c57cd": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "0x68e37de8d93d3496ae143f2e900490f6280c57cd": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "hyperliquid-l1:0xd4a426f010986dcad727e8dd6eed44ca4a9b7483": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "0xd4a426f010986dcad727e8dd6eed44ca4a9b7483": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "hyperliquid-l1:0xa3f50477afa601c771874260a3b34b40e244fa0e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "0xa3f50477afa601c771874260a3b34b40e244fa0e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "hyperliquid-l1",
+    "verified": true
+  },
+  "sei:0xc9cdac20fceaaf616f7eb0bb6cd2c69dcfa9094c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "sei",
+    "verified": true
+  },
+  "0xc9cdac20fceaaf616f7eb0bb6cd2c69dcfa9094c": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "sei",
+    "verified": true
+  },
+  "sei:0x6efa8e3aa8279eb2fd46b6083a9e52da72ea56c4": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "sei",
+    "verified": true
+  },
+  "0x6efa8e3aa8279eb2fd46b6083a9e52da72ea56c4": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "sei",
+    "verified": true
+  },
+  "sei:0xf9457356f18a3349bb317ac144c3bcc62e5761ad": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "sei",
+    "verified": true
+  },
+  "0xf9457356f18a3349bb317ac144c3bcc62e5761ad": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "sei",
+    "verified": true
+  },
+  "zerog:0x9cdd13a2212d94c4f12190ca30783b743e83c89e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "zerog",
+    "verified": true
+  },
+  "0x9cdd13a2212d94c4f12190ca30783b743e83c89e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "zerog",
+    "verified": true
+  },
+  "zerog:0xf52e20c42fec624819d4184226c4777d7cbd767e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "zerog",
+    "verified": true
+  },
+  "0xf52e20c42fec624819d4184226c4777d7cbd767e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "zerog",
+    "verified": true
+  },
+  "zerog:0xbdafc7cef85c5ff69164330f521089c9e15dddae": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "zerog",
+    "verified": true
+  },
+  "0xbdafc7cef85c5ff69164330f521089c9e15dddae": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "zerog",
+    "verified": true
+  },
+  "linea:0x6b0d716ac0a45536172308e08fc2c40387262c9f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "linea",
+    "verified": true
+  },
+  "0x6b0d716ac0a45536172308e08fc2c40387262c9f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "linea",
+    "verified": true
+  },
+  "linea:0x85c2ef4bd69f42d7da19fb9dcdd7fb8d0f59cdee": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "linea",
+    "verified": true
+  },
+  "0x85c2ef4bd69f42d7da19fb9dcdd7fb8d0f59cdee": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "linea",
+    "verified": true
+  },
+  "linea:0x1ee8ec299e8014760d50a4e3cfc3b44cc2242625": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "linea",
+    "verified": true
+  },
+  "0x1ee8ec299e8014760d50a4e3cfc3b44cc2242625": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "linea",
+    "verified": true
+  },
+  "monad:0xd5d960e8c380b724a48ac59e2dff1b2cb4a1eaee": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "monad",
+    "verified": true
+  },
+  "0xd5d960e8c380b724a48ac59e2dff1b2cb4a1eaee": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "monad",
+    "verified": true
+  },
+  "monad:0x09475a3d6ea8c314c592b1a3799bde044e2f400f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "monad",
+    "verified": true
+  },
+  "0x09475a3d6ea8c314c592b1a3799bde044e2f400f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "monad",
+    "verified": true
+  },
+  "monad:0x82b684483e844422fd339df0b67b3b111f02c66e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "monad",
+    "verified": true
+  },
+  "0x82b684483e844422fd339df0b67b3b111f02c66e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "monad",
+    "verified": true
+  },
+  "stable:0xa40103088a899514e3fe474cd3cc5bf811b1102e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "stable",
+    "verified": true
+  },
+  "0xa40103088a899514e3fe474cd3cc5bf811b1102e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "stable",
+    "verified": true
+  },
+  "stable:0x41e846fc8108b8527c1d4edb4c9564e56442940f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "stable",
+    "verified": true
+  },
+  "0x41e846fc8108b8527c1d4edb4c9564e56442940f": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "stable",
+    "verified": true
+  },
+  "stable:0xa0bb114f927df03d9a1a639b9c71f71b0fafdf1b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "stable",
+    "verified": true
+  },
+  "0xa0bb114f927df03d9a1a639b9c71f71b0fafdf1b": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "stable",
+    "verified": true
+  },
+  "cronos:0xdf9a1dc07e5dee5ccccabec35e446c70faf7434e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "cronos",
+    "verified": true
+  },
+  "0xdf9a1dc07e5dee5ccccabec35e446c70faf7434e": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "cronos",
+    "verified": true
+  },
+  "cronos:0x1db002c086439d55b9f33e6c0693eb850f7c0607": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "cronos",
+    "verified": true
+  },
+  "0x1db002c086439d55b9f33e6c0693eb850f7c0607": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "cronos",
+    "verified": true
+  },
+  "cronos:0xb1c59fe6a0dce25b804f6113c441bf4f3a4ab6bc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "cronos",
+    "verified": true
+  },
+  "0xb1c59fe6a0dce25b804f6113c441bf4f3a4ab6bc": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "cronos",
+    "verified": true
+  },
+  "celo:0xd24ecdd8c1e0e57a4e26b1a7bbeaa3e95466a569": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "celo",
+    "verified": true
+  },
+  "0xd24ecdd8c1e0e57a4e26b1a7bbeaa3e95466a569": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "celo",
+    "verified": true
+  },
+  "celo:0x683caaaddfa2f42e24880e202676526d501a5ded": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "celo",
+    "verified": true
+  },
+  "0x683caaaddfa2f42e24880e202676526d501a5ded": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "celo",
+    "verified": true
+  },
+  "celo:0xbd142f98f847c170d51d8b23e5febc51fc9a67d9": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "celo",
+    "verified": true
+  },
+  "0xbd142f98f847c170d51d8b23e5febc51fc9a67d9": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "celo",
+    "verified": true
+  },
+  "abstract:0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "abstract",
+    "verified": true
+  },
+  "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "morpho",
+    "chain": "abstract",
+    "verified": true
+  },
+  "abstract:0xd334eb112cfd1eb4a50fb871b7d9895ebb955c43": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "abstract",
+    "verified": true
+  },
+  "0xd334eb112cfd1eb4a50fb871b7d9895ebb955c43": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "adaptiveCurveIrm",
+    "chain": "abstract",
+    "verified": true
+  },
+  "abstract:0xc13a3ca3b0120ee6121d1e0ca9da22fdd7ed28cd": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "abstract",
+    "verified": true
+  },
+  "0xc13a3ca3b0120ee6121d1e0ca9da22fdd7ed28cd": {
+    "protocol": "morpho",
+    "version": "blue",
+    "contract": "bundler",
+    "chain": "abstract",
     "verified": true
   },
   "waves:": {
