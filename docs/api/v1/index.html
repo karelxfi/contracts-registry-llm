@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>API Documentation - DeFi Registry</title>
+  <title>API Documentation - Addybook</title>
   <meta name="description" content="Access smart contract addresses for 4,400+ DeFi protocols via our REST API. Free, open-source, and LLM-optimized.">
   <link rel="stylesheet" href="../../styles.css">
-  <link rel="canonical" href="https://contracts.llamarpc.com/api/v1/">
+  <link rel="canonical" href="https://addybook.xyz/api/v1/">
 </head>
 <body>
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
+      <a href="/" class="logo">Addybook</a>
       <div class="nav-links">
         <a href="/protocols" class="nav-link">Protocols</a>
         <a href="/chains" class="nav-link">Chains</a>
@@ -35,8 +35,8 @@
     <section class="api-section">
       <h2>Base URL</h2>
       <div class="code-block">
-        <pre><code>https://karelxfi.github.io/contracts-registry-llm/api/v1/</code></pre>
-        <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/')">Copy</button>
+        <pre><code>https://addybook.xyz/api/v1/</code></pre>
+        <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/')">Copy</button>
       </div>
     </section>
 
@@ -79,8 +79,8 @@
 
           <h4>Example Request</h4>
           <div class="code-block">
-            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json</code></pre>
-            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json')">Copy</button>
+            <pre><code>GET https://addybook.xyz/api/v1/protocol/aave-v3.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/protocol/aave-v3.json')">Copy</button>
           </div>
 
           <h4>Example Response</h4>
@@ -133,8 +133,8 @@
 
           <h4>Example Request</h4>
           <div class="code-block">
-            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/search/chain/ethereum.json</code></pre>
-            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/search/chain/ethereum.json')">Copy</button>
+            <pre><code>GET https://addybook.xyz/api/v1/search/chain/ethereum.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/search/chain/ethereum.json')">Copy</button>
           </div>
 
           <h4>Example Response</h4>
@@ -177,8 +177,8 @@
 
           <h4>Example Request</h4>
           <div class="code-block">
-            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/search/type/lending.json</code></pre>
-            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/search/type/lending.json')">Copy</button>
+            <pre><code>GET https://addybook.xyz/api/v1/search/type/lending.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/search/type/lending.json')">Copy</button>
           </div>
         </div>
       </div>
@@ -194,18 +194,23 @@
         <div class="endpoint-details">
           <h4>Example Request</h4>
           <div class="code-block">
-            <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json</code></pre>
-            <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json')">Copy</button>
+            <pre><code>GET https://addybook.xyz/api/v1/metadata.json</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/metadata.json')">Copy</button>
           </div>
 
           <h4>Example Response</h4>
           <div class="code-block">
             <pre><code>{
-  "version": "1.0",
-  "lastUpdated": "2025-02-03",
-  "protocolCount": 4444,
-  "chainCount": 94,
-  "totalContracts": 15623
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-03",
+  "stats": {
+    "totalProtocols": 4366,
+    "populatedProtocols": 8,
+    "totalChains": 88,
+    "totalCategories": 88
+  },
+  "chains": ["ethereum", "polygon", "arbitrum", ...],
+  "categories": ["lending", "dex", "yield", ...]
 }</code></pre>
           </div>
         </div>
@@ -215,17 +220,23 @@
     <!-- Rate Limits -->
     <section class="api-section">
       <h2>Rate Limits</h2>
-      <p class="section-description">No rate limits. All data is served via GitHub Pages CDN.</p>
+      <p class="section-description">No rate limits. All data is served via Cloudflare CDN with global edge caching for optimal performance.</p>
+    </section>
+
+    <!-- CORS -->
+    <section class="api-section">
+      <h2>CORS</h2>
+      <p class="section-description">All endpoints support CORS (Cross-Origin Resource Sharing), allowing direct API calls from web browsers.</p>
     </section>
 
     <!-- Response Format -->
     <section class="api-section">
       <h2>Response Format</h2>
-      <p class="section-description">All responses are in JSON format with UTF-8 encoding. Gzipped versions are available by adding <code>.gz</code> to any endpoint.</p>
+      <p class="section-description">All responses are in JSON format with UTF-8 encoding. Gzipped versions are available by adding <code>.gz</code> to any endpoint for reduced bandwidth usage.</p>
 
       <h4>Example</h4>
       <div class="code-block">
-        <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/metadata.json.gz</code></pre>
+        <pre><code>GET https://addybook.xyz/api/v1/metadata.json.gz</code></pre>
       </div>
     </section>
 
@@ -260,7 +271,7 @@
       <div class="code-block">
         <pre><code>// Fetch protocol data
 const response = await fetch(
-  'https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json'
+  'https://addybook.xyz/api/v1/protocol/aave-v3.json'
 );
 const data = await response.json();
 
@@ -274,7 +285,7 @@ console.log(data.deployments.ethereum.addresses.pool);
 
 # Fetch protocol data
 response = requests.get(
-    'https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json'
+    'https://addybook.xyz/api/v1/protocol/aave-v3.json'
 )
 data = response.json()
 
@@ -284,17 +295,17 @@ print(data['deployments']['ethereum']['addresses']['pool'])
 
       <h3>curl</h3>
       <div class="code-block">
-        <pre><code>curl https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/aave-v3.json</code></pre>
+        <pre><code>curl https://addybook.xyz/api/v1/protocol/aave-v3.json</code></pre>
       </div>
     </section>
 
     <!-- OpenAPI Spec -->
     <section class="api-section">
       <h2>OpenAPI Specification</h2>
-      <p class="section-description">Full OpenAPI 3.0 specification available for integration with API tools.</p>
+      <p class="section-description">Full OpenAPI 3.0 specification available for integration with API tools like Postman, Insomnia, or Swagger UI.</p>
       <div class="code-block">
-        <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/openapi.json</code></pre>
-        <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/openapi.json')">Copy</button>
+        <pre><code>GET https://addybook.xyz/api/v1/openapi.json</code></pre>
+        <button class="copy-btn" onclick="copyToClipboard('https://addybook.xyz/api/v1/openapi.json')">Copy</button>
       </div>
     </section>
   </main>
@@ -302,8 +313,8 @@ print(data['deployments']['ethereum']['addresses']['pool'])
   <footer>
     <div class="footer-container">
       <div class="footer-bottom">
-        <div>© 2025 DeFi Registry. Open source under MIT License.</div>
-        <div><a href="https://github.com/karelxfi/contracts-registry-llm">View on GitHub</a></div>
+        <p>&copy; 2026 Addybook. Data updated daily.</p>
+        <a href="https://github.com/llamafolio/contracts-registry" target="_blank">GitHub</a>
       </div>
     </div>
   </footer>

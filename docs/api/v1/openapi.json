@@ -25,9 +25,7 @@
       "get": {
         "summary": "Get API metadata",
         "description": "Returns metadata about the API including stats, available chains, and categories",
-        "tags": [
-          "Meta"
-        ],
+        "tags": ["Meta"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -101,9 +99,7 @@
       "get": {
         "summary": "Get protocol details",
         "description": "Returns complete details for a specific protocol including all deployments",
-        "tags": [
-          "Protocols"
-        ],
+        "tags": ["Protocols"],
         "parameters": [
           {
             "name": "id",
@@ -137,9 +133,7 @@
       "get": {
         "summary": "Search by contract address",
         "description": "Returns a map of contract addresses to protocol information. Supports both 'address' and 'chain:address' formats for lookups.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -175,9 +169,7 @@
       "get": {
         "summary": "Get all protocols index",
         "description": "Returns a complete index of all protocols by ID for quick lookups.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -199,9 +191,7 @@
       "get": {
         "summary": "Search protocols by name (fuzzy search)",
         "description": "Returns a lightweight index of all protocols with normalized names for client-side fuzzy searching. Use with fast-levenshtein or similar library for typo-tolerant search.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -261,9 +251,7 @@
       "get": {
         "summary": "Get verified contracts only",
         "description": "Returns only contracts that have been verified on block explorers, organized by protocol and by chain.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -300,9 +288,7 @@
       "get": {
         "summary": "Get protocols deployed on a specific chain",
         "description": "Returns a lightweight summary of all protocols deployed on the specified chain.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "parameters": [
           {
             "name": "chain",
@@ -347,9 +333,7 @@
       "get": {
         "summary": "Get protocols deployed on multiple chains",
         "description": "Returns protocols deployed on 2 or more chains, categorized by chain count.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -383,9 +367,7 @@
       "get": {
         "summary": "Search protocols by contract type",
         "description": "Returns protocols containing contracts of a specific type (e.g., oracle, vault, core).",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "parameters": [
           {
             "name": "type",
@@ -427,9 +409,7 @@
       "get": {
         "summary": "Get recently updated protocols",
         "description": "Returns protocols updated in the last 7, 30, and 90 days.",
-        "tags": [
-          "Search"
-        ],
+        "tags": ["Search"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -466,9 +446,7 @@
       "get": {
         "summary": "Get recent updates",
         "description": "Returns recent changes and newly populated protocols",
-        "tags": [
-          "Meta"
-        ],
+        "tags": ["Meta"],
         "responses": {
           "200": {
             "description": "Successful response",
@@ -523,9 +501,7 @@
       "get": {
         "summary": "Get common query results",
         "description": "Pre-computed results for common queries like protocols by status, multi-chain protocols, etc.",
-        "tags": [
-          "Queries"
-        ],
+        "tags": ["Queries"],
         "responses": {
           "200": {
             "description": "Successful response"
@@ -537,9 +513,7 @@
       "get": {
         "summary": "RSS feed for updates",
         "description": "Subscribe to registry updates via RSS",
-        "tags": [
-          "Meta"
-        ],
+        "tags": ["Meta"],
         "responses": {
           "200": {
             "description": "RSS feed",
@@ -558,9 +532,7 @@
       "get": {
         "summary": "Get protocols by chain",
         "description": "Returns all protocols deployed on a specific chain",
-        "tags": [
-          "Legacy"
-        ],
+        "tags": ["Legacy"],
         "parameters": [
           {
             "name": "chain",
@@ -584,9 +556,7 @@
       "get": {
         "summary": "Get protocols by category",
         "description": "Returns all protocols in a specific category",
-        "tags": [
-          "Legacy"
-        ],
+        "tags": ["Legacy"],
         "parameters": [
           {
             "name": "category",
@@ -643,11 +613,7 @@
           },
           "status": {
             "type": "string",
-            "enum": [
-              "complete",
-              "partial",
-              "placeholder"
-            ]
+            "enum": ["complete", "partial", "placeholder"]
           }
         }
       }
