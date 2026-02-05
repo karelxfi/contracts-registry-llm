@@ -97,11 +97,11 @@ ${JSON.stringify(structuredData, null, 2)}
 <body>
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
+      <a href="/" class="logo">Addybook</a>
       <div class="nav-links">
         <a href="/protocols" class="nav-link">Protocols</a>
         <a href="/chains" class="nav-link">Chains</a>
-        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://addybook.apidocumentation.com/addybook-api" class="nav-link" target="_blank">API</a>
         <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
       </div>
     </div>
@@ -253,15 +253,6 @@ ${JSON.stringify(protocolData, null, 2)}
           </div>
         </div>`}
       </div>
-
-      ${deploymentCount > 0 ? `<div class="api-section">
-        <h2>API Access</h2>
-        <p class="section-description">Programmatic access to all ${protocolData.name} contract addresses and deployment information.</p>
-        <div class="code-block">
-          <pre><code>GET https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/${protocolId}.json</code></pre>
-          <button class="copy-btn" onclick="copyToClipboard('https://karelxfi.github.io/contracts-registry-llm/api/v1/protocol/${protocolId}.json')">Copy</button>
-        </div>
-      </div>` : ''}
     </div>
   </div>
 
@@ -638,11 +629,12 @@ const protocolsIndexHtml = `<!doctype html>
 <body>
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
+      <a href="/" class="logo">Addybook</a>
       <div class="nav-links">
         <a href="/protocols" class="nav-link active">Protocols</a>
         <a href="/chains" class="nav-link">Chains</a>
-        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://addybook.apidocumentation.com/addybook-api" class="nav-link" target="_blank">API</a>
+        <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
       </div>
     </div>
   </nav>
@@ -668,7 +660,7 @@ const protocolsIndexHtml = `<!doctype html>
         const fallbackLetter = data.name.charAt(0).toUpperCase();
 
         return `
-        <a href="${id}.html" class="protocol-card">
+        <a href="/protocols/${id}" class="protocol-card">
           <div class="protocol-card-header">
             <div class="protocol-icon${!logoUrl ? ' protocol-icon-fallback' : ''}">
               ${logoUrl

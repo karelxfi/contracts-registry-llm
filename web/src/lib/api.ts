@@ -97,14 +97,26 @@ export async function fetchProtocol(id: string): Promise<ProtocolDetail | null> 
   }
 }
 
+// Cache for search index
+let searchIndexCache: Protocol[] | null = null;
+
 export async function searchProtocols(query: string): Promise<SearchResult> {
   try {
-    const res = await fetch(`${API_BASE}/search/by-name.json?q=${encodeURIComponent(query)}`);
-    if (!res.ok) return { protocols: [], total: 0 };
-    const data = await res.json();
+    // Load the full index if not cached
+    if (!searchIndexCache) {
+      searchIndexCache = await fetchSearchIndex();
+    }
+
+    // Filter client-side
+    const lowerQuery = query.toLowerCase();
+    const filtered = searchIndexCache.filter(p =>
+      p.name.toLowerCase().includes(lowerQuery) ||
+      p.id.toLowerCase().includes(lowerQuery)
+    );
+
     return {
-      protocols: data.results || [],
-      total: data.total || 0,
+      protocols: filtered,
+      total: filtered.length,
     };
   } catch {
     return { protocols: [], total: 0 };

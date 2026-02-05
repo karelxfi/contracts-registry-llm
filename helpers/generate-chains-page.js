@@ -64,11 +64,11 @@ const html = `<!DOCTYPE html>
 <body>
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
+      <a href="/" class="logo">Addybook</a>
       <div class="nav-links">
         <a href="/protocols" class="nav-link">Protocols</a>
         <a href="/chains" class="nav-link active">Chains</a>
-        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://addybook.apidocumentation.com/addybook-api" class="nav-link" target="_blank">API</a>
         <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
       </div>
     </div>
@@ -93,7 +93,7 @@ const html = `<!DOCTYPE html>
 
     <div class="chains-grid" id="chainsList">
       ${chains.map(chain => `
-        <a href="${chain.id}.html" class="chain-card" data-chain-name="${chain.name.toLowerCase()}" data-chain-id="${chain.chainId || ''}">
+        <a href="/chains/${chain.id}" class="chain-card" data-chain-name="${chain.name.toLowerCase()}" data-chain-id="${chain.chainId || ''}">
           <div class="chain-card-header">
             <div class="chain-icon${!chain.hasLogo ? ' chain-icon-fallback' : ''}">
               ${chain.hasLogo
@@ -220,11 +220,11 @@ for (const file of chainFiles) {
 <body>
   <nav>
     <div class="nav-container">
-      <a href="/" class="logo">DeFi Registry</a>
+      <a href="/" class="logo">Addybook</a>
       <div class="nav-links">
         <a href="/protocols" class="nav-link">Protocols</a>
         <a href="/chains" class="nav-link active">Chains</a>
-        <a href="/api/v1" class="nav-link">API</a>
+        <a href="https://addybook.apidocumentation.com/addybook-api" class="nav-link" target="_blank">API</a>
         <a href="https://github.com/karelxfi/contracts-registry-llm" class="nav-link">GitHub</a>
       </div>
     </div>
@@ -254,7 +254,7 @@ for (const file of chainFiles) {
 
     <div class="protocol-grid" id="protocolsList">
       ${protocolsWithLogos.map(protocol => `
-        <a href="../protocols/${protocol.id}.html" class="protocol-card" data-protocol-name="${protocol.name.toLowerCase()}" data-protocol-type="${(protocol.type || '').toLowerCase()}">
+        <a href="/protocols/${protocol.id}" class="protocol-card" data-protocol-name="${protocol.name.toLowerCase()}" data-protocol-type="${(protocol.type || '').toLowerCase()}">
           <div class="protocol-card-header">
             <div class="protocol-icon${!protocol.logoUrl ? ' protocol-icon-fallback' : ''}">
               ${protocol.logoUrl

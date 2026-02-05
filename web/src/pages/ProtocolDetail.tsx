@@ -36,10 +36,10 @@ const ProtocolDetail = () => {
 
   useEffect(() => {
     if (!id) return;
-    
+
     setLoading(true);
     setError(null);
-    
+
     fetchProtocol(id)
       .then((data) => {
         if (data) {
@@ -51,6 +51,18 @@ const ProtocolDetail = () => {
       .catch(() => setError("Failed to load protocol"))
       .finally(() => setLoading(false));
   }, [id]);
+
+  // Add keyboard shortcut for search
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   const handleCopy = (address: string) => {
     navigator.clipboard.writeText(address);

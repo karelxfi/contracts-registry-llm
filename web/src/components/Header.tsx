@@ -15,9 +15,8 @@ const Header = ({ onSearchClick }: HeaderProps) => {
         </a>
 
         <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="#protocols" className="hover:text-foreground transition-colors">/protocols</a>
-          <a href="#chains" className="hover:text-foreground transition-colors">/chains</a>
-          <a href="#api" className="hover:text-foreground transition-colors">/api</a>
+          <a href="/#protocols" className="hover:text-foreground transition-colors">/protocols</a>
+          <a href="https://addybook.apidocumentation.com/addybook-api" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">/api-docs</a>
         </nav>
 
         <button
