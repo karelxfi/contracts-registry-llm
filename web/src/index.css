@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 90%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 90%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 90%;
+
+    --primary: 120 100% 50%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 70%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 90%;
+
+    --destructive: 0 80% 50%;
+    --destructive-foreground: 0 0% 90%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 120 100% 50%;
+
+    --radius: 0px;
+
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 120 100% 50%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 120 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'JetBrains Mono', 'Space Mono', monospace;
+  }
+
+  ::selection {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted;
+  }
+}
+
+@layer components {
+  .ascii-box {
+    @apply border border-border p-4;
+  }
+
+  .ascii-box::before {
+    content: '┌' attr(data-title) '─';
+    @apply block text-muted-foreground text-xs mb-2 -mt-6 -ml-1;
+  }
+
+  .terminal-prompt::before {
+    content: '> ';
+    @apply text-primary;
+  }
+
+  .blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .hover-highlight {
+    @apply transition-colors hover:bg-accent hover:text-primary;
+  }
+
+  .category-dexs { @apply text-[#00ff88]; }
+  .category-lending { @apply text-[#ff88ff]; }
+  .category-staking { @apply text-[#ffaa00]; }
+  .category-bridge { @apply text-[#00aaff]; }
+  .category-derivatives { @apply text-[#ffff00]; }
+}
