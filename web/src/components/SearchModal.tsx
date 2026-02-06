@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { searchProtocols, Protocol } from "@/lib/api";
 
@@ -16,9 +17,63 @@ const categoryColors: Record<string, string> = {
 };
 
 const SearchModal = ({ open, onOpenChange }: SearchModalProps) => {
+  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Protocol[]>([]);
   const [loading, setLoading] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  // Reset selection when results change
+  useEffect(() => {
+    setSelectedIndex(0);
+  }, [results]);
+
+  // Reset query when modal closes
+  useEffect(() => {
+    if (!open) {
+      setQuery("");
+      setResults([]);
+    }
+  }, [open]);
+
+  const handleSelect = useCallback((protocol: Protocol) => {
+    onOpenChange(false);
+    navigate(`/protocol/${protocol.id}`);
+  }, [onOpenChange, navigate]);
+
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    const visibleResults = results.slice(0, 10);
+    
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        setSelectedIndex((prev) => 
+          prev < visibleResults.length - 1 ? prev + 1 : prev
+        );
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev > 0 ? prev - 1 : 0));
+        break;
+      case "Enter":
+        e.preventDefault();
+        if (visibleResults[selectedIndex]) {
+          handleSelect(visibleResults[selectedIndex]);
+        }
+        break;
+    }
+  }, [results, selectedIndex, handleSelect]);
+
+  // Scroll selected item into view
+  useEffect(() => {
+    const container = resultsRef.current;
+    if (!container) return;
+    const selected = container.querySelector(`[data-index="${selectedIndex}"]`);
+    if (selected) {
+      selected.scrollIntoView({ block: "nearest" });
+    }
+  }, [selectedIndex]);
 
   useEffect(() => {
     if (!query.trim()) {
@@ -47,6 +102,7 @@ const SearchModal = ({ open, onOpenChange }: SearchModalProps) => {
               placeholder="search protocols..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={handleKeyDown}
               className="flex-1 bg-transparent outline-none placeholder:text-muted-foreground"
               autoFocus
             />
@@ -54,7 +110,7 @@ const SearchModal = ({ open, onOpenChange }: SearchModalProps) => {
           </div>
         </div>
 
-        <div className="max-h-[300px] overflow-y-auto">
+        <div ref={resultsRef} className="max-h-[300px] overflow-y-auto">
           {loading ? (
             <div className="p-4 text-sm text-muted-foreground text-center">
               searching...<span className="blink">_</span>
@@ -68,12 +124,14 @@ const SearchModal = ({ open, onOpenChange }: SearchModalProps) => {
               no results found
             </div>
           ) : (
-            results.slice(0, 10).map((result) => (
-              <a
+            results.slice(0, 10).map((result, index) => (
+              <button
                 key={result.id}
-                href={`/protocol/${result.id}`}
-                onClick={() => onOpenChange(false)}
-                className="flex items-center justify-between p-3 hover:bg-accent transition-colors border-b border-border last:border-0"
+                data-index={index}
+                onClick={() => handleSelect(result)}
+                className={`w-full flex items-center justify-between p-3 transition-colors border-b border-border last:border-0 text-left ${
+                  index === selectedIndex ? "bg-accent text-primary" : "hover:bg-accent"
+                }`}
               >
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-muted-foreground">&gt;</span>
@@ -90,7 +148,7 @@ const SearchModal = ({ open, onOpenChange }: SearchModalProps) => {
                 <span className={`text-xs ${categoryColors[result.category] || "text-muted-foreground"}`}>
                   [{result.category}]
                 </span>
-              </a>
+              </button>
             ))
           )}
         </div>

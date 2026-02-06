@@ -103,6 +103,22 @@
     50% { opacity: 0; }
   }
 
+  @keyframes terminal-scan {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100%; }
+  }
+
+  .terminal-scan {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      hsl(var(--primary) / 0.05) 50%,
+      transparent 100%
+    );
+    background-size: 100% 200%;
+    animation: terminal-scan 2s linear infinite;
+  }
+
   .hover-highlight {
     @apply transition-colors hover:bg-accent hover:text-primary;
   }

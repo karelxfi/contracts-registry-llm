@@ -100,34 +100,96 @@ export async function fetchProtocol(id: string): Promise<ProtocolDetail | null> 
 // Cache for search index
 let searchIndexCache: Protocol[] | null = null;
 
+// Simple fuzzy match - returns score (higher = better match)
+function fuzzyMatch(text: string | undefined | null, query: string): number {
+  if (!text) return 0;
+  
+  const lowerText = text.toLowerCase();
+  const lowerQuery = query.toLowerCase();
+  
+  // Exact match
+  if (lowerText === lowerQuery) return 100;
+  
+  // Starts with query
+  if (lowerText.startsWith(lowerQuery)) return 80;
+  
+  // Contains query as substring
+  if (lowerText.includes(lowerQuery)) return 60;
+  
+  // Check if all query chars exist in order (fuzzy)
+  let queryIdx = 0;
+  let consecutiveBonus = 0;
+  let lastMatchIdx = -1;
+  
+  for (let i = 0; i < lowerText.length && queryIdx < lowerQuery.length; i++) {
+    if (lowerText[i] === lowerQuery[queryIdx]) {
+      if (lastMatchIdx === i - 1) consecutiveBonus += 5;
+      lastMatchIdx = i;
+      queryIdx++;
+    }
+  }
+  
+  if (queryIdx === lowerQuery.length) {
+    // All chars matched
+    return 30 + consecutiveBonus + (lowerQuery.length / lowerText.length) * 10;
+  }
+  
+  return 0;
+}
+
 export async function searchProtocols(query: string): Promise<SearchResult> {
   try {
     // Load the full index if not cached
-    if (!searchIndexCache) {
-      searchIndexCache = await fetchSearchIndex();
+    if (!searchIndexCache || searchIndexCache.length === 0) {
+      console.log('[Search] Cache empty, fetching index...');
+      const protocols = await fetchSearchIndex();
+      if (protocols.length === 0) {
+        console.log('[Search] No protocols fetched');
+        return { protocols: [], total: 0 };
+      }
+      console.log('[Search] Fetched', protocols.length, 'protocols');
     }
 
-    // Filter client-side
-    const lowerQuery = query.toLowerCase();
-    const filtered = searchIndexCache.filter(p =>
-      p.name.toLowerCase().includes(lowerQuery) ||
-      p.id.toLowerCase().includes(lowerQuery)
-    );
+    const lowerQuery = query.toLowerCase().trim();
+    console.log('[Search] Searching for:', lowerQuery, 'in', searchIndexCache?.length, 'protocols');
+    
+    if (!searchIndexCache) {
+      return { protocols: [], total: 0 };
+    }
+    
+    // Score and filter protocols
+    const scored = searchIndexCache
+      .map(p => {
+        const nameScore = fuzzyMatch(p.name, lowerQuery);
+        const idScore = fuzzyMatch(p.id, lowerQuery);
+        const categoryScore = p.category.toLowerCase().includes(lowerQuery) ? 20 : 0;
+        return {
+          protocol: p,
+          score: Math.max(nameScore, idScore, categoryScore),
+        };
+      })
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score);
 
+    console.log('[Search] Found', scored.length, 'results');
     return {
-      protocols: filtered,
-      total: filtered.length,
+      protocols: scored.map(s => s.protocol),
+      total: scored.length,
     };
-  } catch {
+  } catch (err) {
+    console.error('[Search] Error:', err);
     return { protocols: [], total: 0 };
   }
 }
 
 export async function fetchSearchIndex(): Promise<Protocol[]> {
+  // Return cached if available
+  if (searchIndexCache) return searchIndexCache;
+  
   try {
-    console.log('Fetching search index from:', `${API_BASE}/search/index.json`);
+    console.log('[fetchSearchIndex] Fetching from:', `${API_BASE}/search/index.json`);
     const res = await fetch(`${API_BASE}/search/index.json`);
-    console.log('Response status:', res.status, res.statusText);
+    console.log('[fetchSearchIndex] Response status:', res.status);
 
     if (!res.ok) {
       console.error('Failed to fetch:', res.status, res.statusText);
@@ -135,7 +197,6 @@ export async function fetchSearchIndex(): Promise<Protocol[]> {
     }
 
     const data = await res.json();
-    console.log('Data received, keys:', Object.keys(data).length);
 
     // Convert object of protocols to array
     const protocols = Object.values(data).map((p: any) => {
@@ -163,8 +224,8 @@ export async function fetchSearchIndex(): Promise<Protocol[]> {
       };
     });
 
-    console.log('Protocols mapped:', protocols.length);
-    console.log('Protocols with contracts:', protocols.filter(p => p.hasContracts).length);
+    // Cache the result
+    searchIndexCache = protocols;
     return protocols;
   } catch (err) {
     console.error('Error fetching search index:', err);
